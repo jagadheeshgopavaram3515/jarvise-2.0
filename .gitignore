@@ -1,0 +1,41 @@
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Models and persistent runtime storage
+models/
+memory_store/
+cache/
+logs/
+*.log
+performance_log.json
+
+# Local virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE / OS metadata
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+tmp/
+*.tmp
+python

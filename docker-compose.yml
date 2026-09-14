@@ -1,0 +1,19 @@
+services:
+  jarvis:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: jarvis:latest
+    container_name: jarvis-assistant
+    stdin_open: true
+    tty: true
+    env_file:
+      - .env
+    environment:
+      - DEMO_MODE=true
+    volumes:
+      - ./memory_store:/app/memory_store
+      - ./models:/app/models
+      - ./logs:/app/logs
+    restart: unless-stopped
+

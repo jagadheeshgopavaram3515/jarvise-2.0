@@ -1,0 +1,46 @@
+# Real-time Jarvis assistant dependencies
+# Install:  pip install -r requirements-assistant.txt
+
+# --- LLM ---
+google-genai>=0.3.0
+
+# --- STT (faster-whisper) ---
+faster-whisper>=1.0.0
+# For GPU (GTX 1650): install a CUDA-enabled torch separately, e.g.
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+# CPU-only works too (set STT_DEVICE=cpu).
+
+# --- Audio I/O + VAD ---
+sounddevice>=0.4.6
+webrtcvad>=2.0.10
+miniaudio>=1.59          # in-memory MP3 decode for streaming TTS
+# Optional: used automatically for stronger software AEC when available.
+webrtc-audio-processing>=0.1.3; platform_system != "Windows"
+numpy>=1.24
+faiss-cpu>=1.7.4
+
+# --- TTS ---
+edge-tts>=6.1.0
+pygame>=2.5.0            # fallback playback path
+
+# --- Realtime info / commands ---
+requests>=2.31
+google-search-results>=2.4.2   # serpapi (primary realtime search provider)
+python-dateutil>=2.8
+pywhatkit>=5.4
+
+# --- Real-time knowledge layer (optional; degrades gracefully if missing) ---
+duckduckgo-search>=5.0         # fallback search provider (no API key)
+trafilatura>=1.6               # primary article-text extraction
+readability-lxml>=0.8          # extraction fallback
+beautifulsoup4>=4.12           # helper-only HTML parsing (not full-site scraping)
+lxml>=4.9
+
+# --- Config / system ---
+python-dotenv>=1.0.0
+psutil>=5.9
+
+# --- Desktop Tools layer (Jarvis V2) ---
+# Browser control is DOM-based via Playwright (no Selenium / PyAutoGUI).
+# After install run:  playwright install chromium
+playwright>=1.40

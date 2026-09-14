@@ -1,0 +1,44 @@
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+
+# Version control
+.git
+.gitignore
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Persistent data and large model files (mounted at runtime)
+memory_store/
+models/
+logs/
+*.log
+
+# Local virtual environments
+venv/
+.venv/
+env/
+medibot-env/
+
+# IDE and OS metadata
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+tmp/
+*.tmp
+run_jarvis.bat
+
