@@ -23,6 +23,7 @@ from assistant import config
 from assistant.core.log import get
 from assistant.memory import store
 from assistant.realtime import RealTimeManager
+from assistant.llm.language import response_language_instruction
 
 log = get("gemini")
 _SENTENCE_END = re.compile(r"(?<=[.!?।])\s+|\n+")
@@ -59,8 +60,8 @@ SYSTEM_PROMPT = (
     "Examples:\n"
     "User: I'm feeling really low today.  Assistant: I'm so sorry, sir. I'm right here — "
     "do you want to talk about it?\n"
-    "User: Fuel entha undi?  Assistant: Around 40 percent undi, sir.\n"
-    "User: Chalo ghar.       Assistant: Home navigation start chesthunna, sir.\n"
+    "User: Fuel entha undi?  Assistant: దాదాపు నలభై శాతం ఉంది, సర్.\n"
+    "User: Chalo ghar.       Assistant: चलिए सर, घर का रास्ता दिखाता हूँ।\n"
 )
 
 
@@ -105,6 +106,7 @@ class GeminiClient:
         if realtime_context:
             parts.append(realtime_context)
         parts.append(
+            response_language_instruction(user_text) + "\n" +
             "Respond to the user's CURRENT message below — warmly, to the point, in "
             "their language. Don't steer back to an old topic on your own, but DO "
             "recall the past when they ask or when it's genuinely relevant.\n"

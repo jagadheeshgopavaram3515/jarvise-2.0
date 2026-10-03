@@ -21,6 +21,7 @@ from assistant import config
 from assistant.core.log import get
 from assistant.memory import store
 from assistant.realtime import RealTimeManager
+from assistant.llm.language import response_language_instruction
 
 log = get("ollama")
 _SENTENCE_END = re.compile(r"(?<=[.!?।])\s+|\n+")
@@ -133,7 +134,7 @@ class OllamaClient:
         if realtime_context:
             parts.append("Real-time web briefing:\n" + realtime_context)
 
-        parts.append(f"User: {user_text}\nAssistant:")
+        parts.append(response_language_instruction(user_text) + f"\nUser: {user_text}\nAssistant:")
         return "\n\n".join(parts)
 
     @staticmethod
