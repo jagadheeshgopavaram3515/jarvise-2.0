@@ -1,0 +1,17 @@
+{
+  "selected_experiment": "experiment_06",
+  "strict_exact": 10,
+  "denominator": 40,
+  "model_sha256": "4a75e077e02573b36a911e468e513aff839ab37496883e64ac935122a28a458f",
+  "model_path": "D:\\JARVIS\\reports\\classifier_completion_20261010_163425\\experiment_06\\compact_heads.joblib",
+  "metric": "PROVISIONAL_LABEL_AGREEMENT",
+  "verified_accuracy": "NOT_MEASURED",
+  "configuration": {
+    "C": 16,
+    "weight": "balanced",
+    "style": "interaction",
+    "capability_threshold": 0.25
+  },
+  "experimental_adapter_path": "D:\\JARVIS\\reports\\classifier_completion_20261010_163425\\experimental_adapter.py",
+  "final_policy": "explicit unresolved-span rejection and capability confidence support"
+}

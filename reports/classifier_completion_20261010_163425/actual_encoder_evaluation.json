@@ -1,0 +1,985 @@
+{
+  "denominator": 40,
+  "strict_exact": 10,
+  "cache_vs_actual_all_predictions_equal": false,
+  "load_ms": 643.4177,
+  "latency_ms": {
+    "median": 132.35374999931082,
+    "p95": 158.98271999813002
+  },
+  "encoder_frozen": true,
+  "predictions": [
+    {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.3653261974045138,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Open the archive folder."
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.573226342092007,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "archive folder open cheyyi"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "Orion project ki em choose chesamo gurthu cheyyi",
+          "kind": "prior_conversation",
+          "resolved_value": "use a local cache"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.4113004844027795,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Orion project ki em choose chesamo gurthu cheyyi"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.8681108314050064,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "ఆకుల రంగు ఎందుకు మారుతుంది?"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.5495825970092971,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Bring up the archive directory."
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.5393293621722306,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "archive folder-ai open pannu"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "research",
+      "execution_path": "multi_step_task",
+      "request_modes": [
+        "research",
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.5670863573699879,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "two official accessibility guides find chesi differences summarize cheyyi"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "research",
+      "execution_path": "multi_step_task",
+      "request_modes": [
+        "research",
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.8377710474071829,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Locate two official accessibility guides, read them, and summarize the differences."
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "Orion project ke liye kya chuna tha yaad dilao",
+          "kind": "prior_conversation",
+          "resolved_value": "use a local cache"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.34324014370969574,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Orion project ke liye kya chuna tha yaad dilao"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.0,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "evidence": [],
+      "abstained": true,
+      "abstention_reason": "invalid_or_unrepresentable_output:reference kind predicted but reference span head is unresolved"
+    },
+    {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.5877750338329834,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "archived files directory kaatu"
+        },
+        {
+          "kind": "capability",
+          "reference": "find_file"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4851815957087696,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Open my old-records folder."
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "prior discussion",
+          "kind": "prior_conversation",
+          "resolved_value": "move the pilot after the billing release"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.6063067265469666,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "What did we decide about the database migration last week?"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "use phir se kholo",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "Required information is not available in the supplied request or context"
+        }
+      ],
+      "confidence": 0.3440358983294227,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "use phir se kholo"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.7897854071577194,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "இலைகளின் நிறம் ஏன் மாறுகிறது?"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "it",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.5389012592170663,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "atha marubadiyum open pannu"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "Orion project-ku enna choose pannom nyabagam pannu",
+          "kind": "prior_conversation",
+          "resolved_value": "use a local cache"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.4550413001386863,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Orion project-ku enna choose pannom nyabagam pannu"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "our hologram project",
+          "kind": "project",
+          "resolved_value": "Aurora display"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.32707974189559813,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Do you remember our hologram project?"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4513858170711345,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "old records folder open cheyyi"
+        },
+        {
+          "kind": "capability",
+          "reference": "find_file"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "research",
+      "execution_path": "multi_step_task",
+      "request_modes": [
+        "research",
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.2793833658736983,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "archive folder ki teesuku vellu"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "research",
+      "execution_path": "multi_step_task",
+      "request_modes": [
+        "research",
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.8628145251333134,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "two official accessibility guides thedi differences summarize pannu"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.5784420386490001,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "archive folder kholo"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.5441320695509255,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Show me the archived files directory."
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "Remind me what we chose for the Orion project.",
+          "kind": "prior_conversation",
+          "resolved_value": "use a local cache"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.41840997297300825,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Remind me what we chose for the Orion project."
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.0,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "evidence": [],
+      "abstained": true,
+      "abstention_reason": "invalid_or_unrepresentable_output:reference kind predicted but reference span head is unresolved"
+    },
+    {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4358095685270564,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Could you put on some instrumental focus music?"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "research",
+      "execution_path": "multi_step_task",
+      "request_modes": [
+        "research",
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.647700237061528,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "do official accessibility guides dhoondh kar differences summarize karo"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "Bring it up again.",
+          "kind": "prior_request",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "prior_request",
+          "description": "Required information is not available in the supplied request or context"
+        }
+      ],
+      "confidence": 0.41614231827143844,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Bring it up again."
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4568474655678126,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "archive folder par le chalo"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "research",
+      "execution_path": "multi_step_task",
+      "request_modes": [
+        "research",
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.3121844476529288,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "archive directory kondu vaa"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.6688156005459212,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Why do leaves change colour?"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4536060659190697,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "old records folder kholo"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "research",
+      "execution_path": "multi_step_task",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.2854964120971475,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "archived files directory chupinchu"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "prior discussion",
+          "kind": "prior_conversation",
+          "resolved_value": "keep the classifier outside tool execution"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.591671849401701,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Kal architecture ke baare mein humne kya decide kiya tha?"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4045720379809968,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "old records folder-ai open pannu"
+        },
+        {
+          "kind": "capability",
+          "reference": "find_file"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.5835930729796158,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "archived files directory dikhao"
+        },
+        {
+          "kind": "capability",
+          "reference": "find_file"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "it",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.5973366489894145,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "adi malli open cheyyi"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.5647701960506838,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Take me to the archive folder."
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.37702201584937733,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "archive folder-ku kondu po"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.8556316395567751,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "पत्तों का रंग क्यों बदलता है?"
+        }
+      ],
+      "abstained": false
+    }
+  ],
+  "cache_vs_actual_required_fields_equal": true,
+  "required_field_disagreement_count": 0,
+  "maximum_confidence_numeric_delta": 6.355023602910848e-07,
+  "comparison_note": "Full mapping bit-equality differs with floating inference batch numerics; eight required target fields compared separately."
+}

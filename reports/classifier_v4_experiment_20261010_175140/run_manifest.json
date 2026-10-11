@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-10-10T12:25:17.280336+00:00",
+  "inputs": {
+    "D:\\JARVIS\\benchmarks\\fast_classifier\\models\\v3\\compact_heads.joblib": "7f4dd399b7238c7bf0c166454c3ff5aa09d6e3bf1afb82666b526d43cf452f05",
+    "D:\\JARVIS\\reports\\classifier_next_experiment_20261010_171102\\best_candidate\\compact_heads.joblib": "546d5aaab563f9a4040ccd0504ff7173c4ed6d2e4bd37b8d9d9f87ec56339f96",
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\provisional_train.jsonl": "67d57286b528b62abb04355ecb0933c3906f5aa59805d8ff68df424b1afd4c6d",
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\provisional_validation.jsonl": "6f8cf0d9a8b1b7aab65d2fc2918bf26d327af00b4c76bf28f94aaad936a36692",
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\frozen_features.npz": "8fe6183843885294a1b1ce601d954bcca09323b7a078e6dc911f29c8d4dc1082"
+  },
+  "original_validation": {
+    "denominator": 40,
+    "v3_exact": 38,
+    "v4_exact": 31,
+    "v4_capability_top1": 39
+  },
+  "unseen_corpus": {
+    "denominator": 24,
+    "v4_exact": 12,
+    "v4_capability_top1": 19
+  },
+  "artifacts": {
+    "compact_heads": "6eb693419cdc4a1de54a9ea5f69ef07a41f0eaa1b48b30673a960a04a01f8ace",
+    "adapter_v4": "fc7beaa6c59629492cc3e4094078acab9e1d1f90c2bdf0e56c2ddf4928166d80",
+    "unseen_corpus": "ebd2128c3ece5a638b24d1eb34ec50d9b594f2f8d5e90071aae089429899044a"
+  }
+}

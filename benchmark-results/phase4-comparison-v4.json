@@ -1,0 +1,1189 @@
+{
+  "report_schema_version": "1.0",
+  "dataset": "D:\\JARVIS\\benchmarks\\fast_classifier\\v4\\dataset.jsonl",
+  "review_status": "pending_review; no winner may be declared",
+  "comparability": {
+    "same_test_ids": true,
+    "same_transcripts": true,
+    "structured_fields": "BERT and Laya expose the contract; legacy Qwen exposes only a three-route tuple."
+  },
+  "models": {
+    "bert": {
+      "adapter": {
+        "id": "compact-mbert-frozen-v3",
+        "kind": "structured",
+        "measurement_kind": "real_phase3c_bert_on_v4_sealed_test",
+        "configuration": {
+          "artifact": "D:\\JARVIS\\benchmarks\\fast_classifier\\models\\v3\\compact_heads.joblib",
+          "device": "cpu",
+          "training_data": "v3 train only"
+        }
+      },
+      "counts": {
+        "total": 140,
+        "successful_predictions": 140,
+        "invalid_outputs": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "not_applicable_execution_paths": 0
+      },
+      "metrics": {
+        "intent": {
+          "available": true,
+          "applicable": 140,
+          "correct": 68,
+          "accuracy": 0.4857142857142857
+        },
+        "execution_path": {
+          "available": true,
+          "applicable": 140,
+          "correct": 88,
+          "accuracy": 0.6285714285714286
+        },
+        "request_modes": {
+          "available": true,
+          "applicable": 140,
+          "correct": 112,
+          "accuracy": 0.8
+        },
+        "selected_capability": {
+          "available": true,
+          "applicable": 140,
+          "correct": 72,
+          "accuracy": 0.5142857142857142
+        },
+        "context_references": {
+          "available": true,
+          "applicable": 140,
+          "correct": 103,
+          "accuracy": 0.7357142857142858
+        },
+        "missing_information": {
+          "available": true,
+          "applicable": 140,
+          "correct": 101,
+          "accuracy": 0.7214285714285714
+        },
+        "needs_clarification": {
+          "available": true,
+          "applicable": 140,
+          "correct": 119,
+          "accuracy": 0.85
+        },
+        "needs_escalation": {
+          "available": true,
+          "applicable": 140,
+          "correct": 123,
+          "accuracy": 0.8785714285714286
+        },
+        "schema_validity": {
+          "available": true,
+          "applicable": 140,
+          "correct": 140,
+          "accuracy": 1.0
+        },
+        "fallback_trigger_rate": {
+          "available": true,
+          "applicable": 140,
+          "triggers": 0,
+          "rate": 0.0,
+          "note": "Invalid outputs, adapter exceptions, and watchdog timeouts would trigger FastClassifier fallback."
+        },
+        "capability_selection_applicable": {
+          "available": true,
+          "applicable": 84,
+          "correct": 24,
+          "accuracy": 0.2857142857142857
+        },
+        "clarification_binary": {
+          "available": true,
+          "applicable": 140,
+          "positive_examples": 21,
+          "precision": 0.5,
+          "recall": 0.8571428571428571,
+          "macro_f1": 0.7687042718904885,
+          "confusion": {
+            "tp": 18,
+            "fp": 18,
+            "fn": 3,
+            "tn": 101
+          }
+        },
+        "escalation_binary": {
+          "available": true,
+          "applicable": 140,
+          "positive_examples": 14,
+          "precision": 0.4,
+          "recall": 0.42857142857142855,
+          "macro_f1": 0.6730320098914686,
+          "confusion": {
+            "tp": 6,
+            "fp": 9,
+            "fn": 8,
+            "tn": 117
+          }
+        },
+        "overall_strict": {
+          "available": true,
+          "definition": "Exact match on path, capability, intent, modes, clarification, and escalation.",
+          "applicable": 140,
+          "correct": 57,
+          "accuracy": 0.40714285714285714
+        }
+      },
+      "group_metrics": {
+        "language": {
+          "en": {
+            "examples": 20,
+            "context_references_accuracy": 0.6,
+            "execution_path_accuracy": 0.65,
+            "intent_accuracy": 0.5,
+            "missing_information_accuracy": 0.7,
+            "needs_clarification_accuracy": 0.85,
+            "needs_escalation_accuracy": 0.85,
+            "request_modes_accuracy": 0.8,
+            "selected_capability_accuracy": 0.55
+          },
+          "hi": {
+            "examples": 20,
+            "context_references_accuracy": 0.8,
+            "execution_path_accuracy": 0.55,
+            "intent_accuracy": 0.4,
+            "missing_information_accuracy": 0.8,
+            "needs_clarification_accuracy": 0.9,
+            "needs_escalation_accuracy": 0.9,
+            "request_modes_accuracy": 0.7,
+            "selected_capability_accuracy": 0.45
+          },
+          "hi-Latn": {
+            "examples": 20,
+            "context_references_accuracy": 0.7,
+            "execution_path_accuracy": 0.6,
+            "intent_accuracy": 0.5,
+            "missing_information_accuracy": 0.7,
+            "needs_clarification_accuracy": 0.85,
+            "needs_escalation_accuracy": 0.8,
+            "request_modes_accuracy": 0.95,
+            "selected_capability_accuracy": 0.5
+          },
+          "mixed-en-hi": {
+            "examples": 20,
+            "context_references_accuracy": 0.8,
+            "execution_path_accuracy": 0.8,
+            "intent_accuracy": 0.6,
+            "missing_information_accuracy": 0.8,
+            "needs_clarification_accuracy": 0.95,
+            "needs_escalation_accuracy": 0.95,
+            "request_modes_accuracy": 0.75,
+            "selected_capability_accuracy": 0.65
+          },
+          "mixed-en-te": {
+            "examples": 20,
+            "context_references_accuracy": 0.8,
+            "execution_path_accuracy": 0.8,
+            "intent_accuracy": 0.55,
+            "missing_information_accuracy": 0.75,
+            "needs_clarification_accuracy": 0.9,
+            "needs_escalation_accuracy": 0.95,
+            "request_modes_accuracy": 0.9,
+            "selected_capability_accuracy": 0.6
+          },
+          "te": {
+            "examples": 20,
+            "context_references_accuracy": 0.8,
+            "execution_path_accuracy": 0.6,
+            "intent_accuracy": 0.5,
+            "missing_information_accuracy": 0.8,
+            "needs_clarification_accuracy": 0.85,
+            "needs_escalation_accuracy": 0.95,
+            "request_modes_accuracy": 0.7,
+            "selected_capability_accuracy": 0.45
+          },
+          "te-Latn": {
+            "examples": 20,
+            "context_references_accuracy": 0.65,
+            "execution_path_accuracy": 0.4,
+            "intent_accuracy": 0.35,
+            "missing_information_accuracy": 0.5,
+            "needs_clarification_accuracy": 0.65,
+            "needs_escalation_accuracy": 0.75,
+            "request_modes_accuracy": 0.8,
+            "selected_capability_accuracy": 0.4
+          }
+        },
+        "category": {
+          "clarify": {
+            "examples": 21,
+            "context_references_accuracy": 0.0,
+            "execution_path_accuracy": 0.8571428571428571,
+            "intent_accuracy": 0.8571428571428571,
+            "missing_information_accuracy": 0.0,
+            "needs_clarification_accuracy": 0.8571428571428571,
+            "needs_escalation_accuracy": 1.0,
+            "request_modes_accuracy": 1.0,
+            "selected_capability_accuracy": 0.8571428571428571
+          },
+          "code_switching": {
+            "examples": 40,
+            "context_references_accuracy": 0.8,
+            "execution_path_accuracy": 0.8,
+            "intent_accuracy": 0.575,
+            "missing_information_accuracy": 0.775,
+            "needs_clarification_accuracy": 0.925,
+            "needs_escalation_accuracy": 0.95,
+            "request_modes_accuracy": 0.825,
+            "selected_capability_accuracy": 0.625
+          },
+          "direct_response": {
+            "examples": 14,
+            "context_references_accuracy": 0.9285714285714286,
+            "execution_path_accuracy": 1.0,
+            "intent_accuracy": 1.0,
+            "missing_information_accuracy": 1.0,
+            "needs_clarification_accuracy": 1.0,
+            "needs_escalation_accuracy": 1.0,
+            "request_modes_accuracy": 0.9285714285714286,
+            "selected_capability_accuracy": 1.0
+          },
+          "english": {
+            "examples": 20,
+            "context_references_accuracy": 0.6,
+            "execution_path_accuracy": 0.65,
+            "intent_accuracy": 0.5,
+            "missing_information_accuracy": 0.7,
+            "needs_clarification_accuracy": 0.85,
+            "needs_escalation_accuracy": 0.85,
+            "request_modes_accuracy": 0.8,
+            "selected_capability_accuracy": 0.55
+          },
+          "escalate": {
+            "examples": 14,
+            "context_references_accuracy": 0.8571428571428571,
+            "execution_path_accuracy": 0.42857142857142855,
+            "intent_accuracy": 0.42857142857142855,
+            "missing_information_accuracy": 0.8571428571428571,
+            "needs_clarification_accuracy": 0.8571428571428571,
+            "needs_escalation_accuracy": 0.42857142857142855,
+            "request_modes_accuracy": 0.8571428571428571,
+            "selected_capability_accuracy": 0.6428571428571429
+          },
+          "memory_recall": {
+            "examples": 7,
+            "context_references_accuracy": 0.0,
+            "execution_path_accuracy": 1.0,
+            "intent_accuracy": 1.0,
+            "missing_information_accuracy": 1.0,
+            "needs_clarification_accuracy": 1.0,
+            "needs_escalation_accuracy": 1.0,
+            "request_modes_accuracy": 1.0,
+            "selected_capability_accuracy": 1.0
+          },
+          "multi_step_task": {
+            "examples": 14,
+            "context_references_accuracy": 1.0,
+            "execution_path_accuracy": 0.5714285714285714,
+            "intent_accuracy": 0.5714285714285714,
+            "missing_information_accuracy": 0.8571428571428571,
+            "needs_clarification_accuracy": 0.8571428571428571,
+            "needs_escalation_accuracy": 1.0,
+            "request_modes_accuracy": 0.21428571428571427,
+            "selected_capability_accuracy": 0.6428571428571429
+          },
+          "native_script": {
+            "examples": 40,
+            "context_references_accuracy": 0.8,
+            "execution_path_accuracy": 0.575,
+            "intent_accuracy": 0.45,
+            "missing_information_accuracy": 0.8,
+            "needs_clarification_accuracy": 0.875,
+            "needs_escalation_accuracy": 0.925,
+            "request_modes_accuracy": 0.7,
+            "selected_capability_accuracy": 0.45
+          },
+          "phase4_comparison": {
+            "examples": 140,
+            "context_references_accuracy": 0.7357142857142858,
+            "execution_path_accuracy": 0.6285714285714286,
+            "intent_accuracy": 0.4857142857142857,
+            "missing_information_accuracy": 0.7214285714285714,
+            "needs_clarification_accuracy": 0.85,
+            "needs_escalation_accuracy": 0.8785714285714286,
+            "request_modes_accuracy": 0.8,
+            "selected_capability_accuracy": 0.5142857142857142
+          },
+          "research": {
+            "examples": 14,
+            "context_references_accuracy": 1.0,
+            "execution_path_accuracy": 0.35714285714285715,
+            "intent_accuracy": 0.42857142857142855,
+            "missing_information_accuracy": 0.8571428571428571,
+            "needs_clarification_accuracy": 0.8571428571428571,
+            "needs_escalation_accuracy": 0.9285714285714286,
+            "request_modes_accuracy": 0.5714285714285714,
+            "selected_capability_accuracy": 0.42857142857142855
+          },
+          "romanized": {
+            "examples": 40,
+            "context_references_accuracy": 0.675,
+            "execution_path_accuracy": 0.5,
+            "intent_accuracy": 0.425,
+            "missing_information_accuracy": 0.6,
+            "needs_clarification_accuracy": 0.75,
+            "needs_escalation_accuracy": 0.775,
+            "request_modes_accuracy": 0.875,
+            "selected_capability_accuracy": 0.45
+          },
+          "single_action": {
+            "examples": 56,
+            "context_references_accuracy": 0.8928571428571429,
+            "execution_path_accuracy": 0.5357142857142857,
+            "intent_accuracy": 0.16071428571428573,
+            "missing_information_accuracy": 0.7857142857142857,
+            "needs_clarification_accuracy": 0.7857142857142857,
+            "needs_escalation_accuracy": 0.8571428571428571,
+            "request_modes_accuracy": 0.8571428571428571,
+            "selected_capability_accuracy": 0.16071428571428573
+          }
+        },
+        "script": {
+          "code_switched": {
+            "examples": 40,
+            "context_references_accuracy": 0.8,
+            "execution_path_accuracy": 0.8,
+            "intent_accuracy": 0.575,
+            "missing_information_accuracy": 0.775,
+            "needs_clarification_accuracy": 0.925,
+            "needs_escalation_accuracy": 0.95,
+            "request_modes_accuracy": 0.825,
+            "selected_capability_accuracy": 0.625
+          },
+          "english_latin": {
+            "examples": 20,
+            "context_references_accuracy": 0.6,
+            "execution_path_accuracy": 0.65,
+            "intent_accuracy": 0.5,
+            "missing_information_accuracy": 0.7,
+            "needs_clarification_accuracy": 0.85,
+            "needs_escalation_accuracy": 0.85,
+            "request_modes_accuracy": 0.8,
+            "selected_capability_accuracy": 0.55
+          },
+          "native_script": {
+            "examples": 40,
+            "context_references_accuracy": 0.8,
+            "execution_path_accuracy": 0.575,
+            "intent_accuracy": 0.45,
+            "missing_information_accuracy": 0.8,
+            "needs_clarification_accuracy": 0.875,
+            "needs_escalation_accuracy": 0.925,
+            "request_modes_accuracy": 0.7,
+            "selected_capability_accuracy": 0.45
+          },
+          "romanized": {
+            "examples": 40,
+            "context_references_accuracy": 0.675,
+            "execution_path_accuracy": 0.5,
+            "intent_accuracy": 0.425,
+            "missing_information_accuracy": 0.6,
+            "needs_clarification_accuracy": 0.75,
+            "needs_escalation_accuracy": 0.775,
+            "request_modes_accuracy": 0.875,
+            "selected_capability_accuracy": 0.45
+          }
+        }
+      },
+      "execution_path_confusion": {
+        "clarify": {
+          "clarify": 18,
+          "single_action": 3
+        },
+        "direct_response": {
+          "direct_response": 14
+        },
+        "escalate": {
+          "clarify": 2,
+          "direct_response": 1,
+          "escalate": 6,
+          "single_action": 5
+        },
+        "memory_recall": {
+          "memory_recall": 7
+        },
+        "multi_step_task": {
+          "clarify": 2,
+          "direct_response": 2,
+          "multi_step_task": 8,
+          "single_action": 2
+        },
+        "research": {
+          "clarify": 2,
+          "direct_response": 5,
+          "escalate": 1,
+          "multi_step_task": 1,
+          "research": 5
+        },
+        "single_action": {
+          "clarify": 12,
+          "direct_response": 4,
+          "escalate": 8,
+          "multi_step_task": 1,
+          "research": 1,
+          "single_action": 30
+        }
+      },
+      "latency": {
+        "timer": "time.perf_counter_ns",
+        "method": "nearest-rank percentiles",
+        "successful_predictions": {
+          "count": 140,
+          "mean_ms": 202.70567642857137,
+          "p50_ms": 167.1023,
+          "p95_ms": 504.1688
+        },
+        "cold_first_invocation": {
+          "count": 1,
+          "mean_ms": 919.854,
+          "p50_ms": 919.854,
+          "p95_ms": 919.854
+        },
+        "warm_subsequent_invocations": {
+          "count": 139,
+          "mean_ms": 197.54633597122296,
+          "p50_ms": 167.1023,
+          "p95_ms": 504.1688
+        },
+        "process_startup_and_model_loading_ms": null,
+        "by_inference_provenance": {},
+        "components": {
+          "preprocessing_ms": {
+            "count": 140,
+            "mean_ms": 1.445912857142857,
+            "p50_ms": 1.1116,
+            "p95_ms": 3.6832
+          },
+          "model_inference_ms": {
+            "count": 140,
+            "mean_ms": 196.7565828571429,
+            "p50_ms": 160.8228,
+            "p95_ms": 487.0145
+          },
+          "postprocessing_ms": {
+            "count": 140,
+            "mean_ms": 4.471887142857145,
+            "p50_ms": 3.850500000000011,
+            "p95_ms": 11.713399999999979
+          }
+        },
+        "note": "Cold is the first benchmark invocation only. It is not guaranteed to include process startup or model loading; those are not measured separately. Warm does not prove cache state."
+      },
+      "startup": {
+        "adapter_and_model_load_ms": 61021.8132,
+        "encoder_reported_load_ms": 1386.9665,
+        "rss_before_bytes": 138911744,
+        "rss_after_bytes": 473227264,
+        "rss_delta_bytes": 334315520,
+        "device": "cpu",
+        "torch_cuda_available": false
+      }
+    },
+    "laya": {
+      "adapter": {
+        "id": "laya-multilingual-0.3.20",
+        "kind": "structured",
+        "measurement_kind": "real_laya_multilingual_on_v4_sealed_test",
+        "configuration": {
+          "model": "convaiinnovations/laya",
+          "subfolder": "multilingual",
+          "package_version": "0.3.20",
+          "device": "cpu"
+        }
+      },
+      "counts": {
+        "total": 140,
+        "successful_predictions": 140,
+        "invalid_outputs": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "not_applicable_execution_paths": 0
+      },
+      "metrics": {
+        "intent": {
+          "available": true,
+          "applicable": 140,
+          "correct": 27,
+          "accuracy": 0.19285714285714287
+        },
+        "execution_path": {
+          "available": true,
+          "applicable": 140,
+          "correct": 10,
+          "accuracy": 0.07142857142857142
+        },
+        "request_modes": {
+          "available": true,
+          "applicable": 140,
+          "correct": 14,
+          "accuracy": 0.1
+        },
+        "selected_capability": {
+          "available": true,
+          "applicable": 140,
+          "correct": 55,
+          "accuracy": 0.39285714285714285
+        },
+        "context_references": {
+          "available": true,
+          "applicable": 140,
+          "correct": 83,
+          "accuracy": 0.5928571428571429
+        },
+        "missing_information": {
+          "available": true,
+          "applicable": 140,
+          "correct": 86,
+          "accuracy": 0.6142857142857143
+        },
+        "needs_clarification": {
+          "available": true,
+          "applicable": 140,
+          "correct": 87,
+          "accuracy": 0.6214285714285714
+        },
+        "needs_escalation": {
+          "available": true,
+          "applicable": 140,
+          "correct": 54,
+          "accuracy": 0.38571428571428573
+        },
+        "schema_validity": {
+          "available": true,
+          "applicable": 140,
+          "correct": 140,
+          "accuracy": 1.0
+        },
+        "fallback_trigger_rate": {
+          "available": true,
+          "applicable": 140,
+          "triggers": 0,
+          "rate": 0.0,
+          "note": "Invalid outputs, adapter exceptions, and watchdog timeouts would trigger FastClassifier fallback."
+        },
+        "capability_selection_applicable": {
+          "available": true,
+          "applicable": 84,
+          "correct": 2,
+          "accuracy": 0.023809523809523808
+        },
+        "clarification_binary": {
+          "available": true,
+          "applicable": 140,
+          "positive_examples": 21,
+          "precision": 0.029411764705882353,
+          "recall": 0.047619047619047616,
+          "macro_f1": 0.40040404040404043,
+          "confusion": {
+            "tp": 1,
+            "fp": 33,
+            "fn": 20,
+            "tn": 86
+          }
+        },
+        "escalation_binary": {
+          "available": true,
+          "applicable": 140,
+          "positive_examples": 14,
+          "precision": 0.08139534883720931,
+          "recall": 0.5,
+          "macro_f1": 0.33111111111111113,
+          "confusion": {
+            "tp": 7,
+            "fp": 79,
+            "fn": 7,
+            "tn": 47
+          }
+        },
+        "overall_strict": {
+          "available": true,
+          "definition": "Exact match on path, capability, intent, modes, clarification, and escalation.",
+          "applicable": 140,
+          "correct": 0,
+          "accuracy": 0.0
+        }
+      },
+      "group_metrics": {
+        "language": {
+          "en": {
+            "examples": 20,
+            "context_references_accuracy": 0.45,
+            "execution_path_accuracy": 0.1,
+            "intent_accuracy": 0.25,
+            "missing_information_accuracy": 0.45,
+            "needs_clarification_accuracy": 0.5,
+            "needs_escalation_accuracy": 0.7,
+            "request_modes_accuracy": 0.1,
+            "selected_capability_accuracy": 0.45
+          },
+          "hi": {
+            "examples": 20,
+            "context_references_accuracy": 0.6,
+            "execution_path_accuracy": 0.1,
+            "intent_accuracy": 0.15,
+            "missing_information_accuracy": 0.65,
+            "needs_clarification_accuracy": 0.65,
+            "needs_escalation_accuracy": 0.4,
+            "request_modes_accuracy": 0.1,
+            "selected_capability_accuracy": 0.4
+          },
+          "hi-Latn": {
+            "examples": 20,
+            "context_references_accuracy": 0.6,
+            "execution_path_accuracy": 0.05,
+            "intent_accuracy": 0.1,
+            "missing_information_accuracy": 0.65,
+            "needs_clarification_accuracy": 0.65,
+            "needs_escalation_accuracy": 0.3,
+            "request_modes_accuracy": 0.05,
+            "selected_capability_accuracy": 0.35
+          },
+          "mixed-en-hi": {
+            "examples": 20,
+            "context_references_accuracy": 0.6,
+            "execution_path_accuracy": 0.1,
+            "intent_accuracy": 0.25,
+            "missing_information_accuracy": 0.6,
+            "needs_clarification_accuracy": 0.6,
+            "needs_escalation_accuracy": 0.45,
+            "request_modes_accuracy": 0.1,
+            "selected_capability_accuracy": 0.4
+          },
+          "mixed-en-te": {
+            "examples": 20,
+            "context_references_accuracy": 0.65,
+            "execution_path_accuracy": 0.05,
+            "intent_accuracy": 0.2,
+            "missing_information_accuracy": 0.65,
+            "needs_clarification_accuracy": 0.65,
+            "needs_escalation_accuracy": 0.25,
+            "request_modes_accuracy": 0.15,
+            "selected_capability_accuracy": 0.35
+          },
+          "te": {
+            "examples": 20,
+            "context_references_accuracy": 0.6,
+            "execution_path_accuracy": 0.05,
+            "intent_accuracy": 0.15,
+            "missing_information_accuracy": 0.6,
+            "needs_clarification_accuracy": 0.6,
+            "needs_escalation_accuracy": 0.4,
+            "request_modes_accuracy": 0.1,
+            "selected_capability_accuracy": 0.4
+          },
+          "te-Latn": {
+            "examples": 20,
+            "context_references_accuracy": 0.65,
+            "execution_path_accuracy": 0.05,
+            "intent_accuracy": 0.25,
+            "missing_information_accuracy": 0.7,
+            "needs_clarification_accuracy": 0.7,
+            "needs_escalation_accuracy": 0.2,
+            "request_modes_accuracy": 0.1,
+            "selected_capability_accuracy": 0.4
+          }
+        },
+        "category": {
+          "clarify": {
+            "examples": 21,
+            "context_references_accuracy": 0.0,
+            "execution_path_accuracy": 0.047619047619047616,
+            "intent_accuracy": 0.0,
+            "missing_information_accuracy": 0.0,
+            "needs_clarification_accuracy": 0.047619047619047616,
+            "needs_escalation_accuracy": 0.09523809523809523,
+            "request_modes_accuracy": 0.0,
+            "selected_capability_accuracy": 1.0
+          },
+          "code_switching": {
+            "examples": 40,
+            "context_references_accuracy": 0.625,
+            "execution_path_accuracy": 0.075,
+            "intent_accuracy": 0.225,
+            "missing_information_accuracy": 0.625,
+            "needs_clarification_accuracy": 0.625,
+            "needs_escalation_accuracy": 0.35,
+            "request_modes_accuracy": 0.125,
+            "selected_capability_accuracy": 0.375
+          },
+          "direct_response": {
+            "examples": 14,
+            "context_references_accuracy": 1.0,
+            "execution_path_accuracy": 0.0,
+            "intent_accuracy": 0.0,
+            "missing_information_accuracy": 1.0,
+            "needs_clarification_accuracy": 1.0,
+            "needs_escalation_accuracy": 0.07142857142857142,
+            "request_modes_accuracy": 0.7857142857142857,
+            "selected_capability_accuracy": 1.0
+          },
+          "english": {
+            "examples": 20,
+            "context_references_accuracy": 0.45,
+            "execution_path_accuracy": 0.1,
+            "intent_accuracy": 0.25,
+            "missing_information_accuracy": 0.45,
+            "needs_clarification_accuracy": 0.5,
+            "needs_escalation_accuracy": 0.7,
+            "request_modes_accuracy": 0.1,
+            "selected_capability_accuracy": 0.45
+          },
+          "escalate": {
+            "examples": 14,
+            "context_references_accuracy": 0.7857142857142857,
+            "execution_path_accuracy": 0.5,
+            "intent_accuracy": 0.0,
+            "missing_information_accuracy": 0.7857142857142857,
+            "needs_clarification_accuracy": 0.7857142857142857,
+            "needs_escalation_accuracy": 0.5,
+            "request_modes_accuracy": 0.0,
+            "selected_capability_accuracy": 0.7857142857142857
+          },
+          "memory_recall": {
+            "examples": 7,
+            "context_references_accuracy": 0.0,
+            "execution_path_accuracy": 0.0,
+            "intent_accuracy": 0.5714285714285714,
+            "missing_information_accuracy": 0.42857142857142855,
+            "needs_clarification_accuracy": 0.42857142857142855,
+            "needs_escalation_accuracy": 0.5714285714285714,
+            "request_modes_accuracy": 0.0,
+            "selected_capability_accuracy": 1.0
+          },
+          "multi_step_task": {
+            "examples": 14,
+            "context_references_accuracy": 0.5,
+            "execution_path_accuracy": 0.0,
+            "intent_accuracy": 0.07142857142857142,
+            "missing_information_accuracy": 0.5,
+            "needs_clarification_accuracy": 0.5,
+            "needs_escalation_accuracy": 0.5,
+            "request_modes_accuracy": 0.14285714285714285,
+            "selected_capability_accuracy": 0.0
+          },
+          "native_script": {
+            "examples": 40,
+            "context_references_accuracy": 0.6,
+            "execution_path_accuracy": 0.075,
+            "intent_accuracy": 0.15,
+            "missing_information_accuracy": 0.625,
+            "needs_clarification_accuracy": 0.625,
+            "needs_escalation_accuracy": 0.4,
+            "request_modes_accuracy": 0.1,
+            "selected_capability_accuracy": 0.4
+          },
+          "phase4_comparison": {
+            "examples": 140,
+            "context_references_accuracy": 0.5928571428571429,
+            "execution_path_accuracy": 0.07142857142857142,
+            "intent_accuracy": 0.19285714285714287,
+            "missing_information_accuracy": 0.6142857142857143,
+            "needs_clarification_accuracy": 0.6214285714285714,
+            "needs_escalation_accuracy": 0.38571428571428573,
+            "request_modes_accuracy": 0.1,
+            "selected_capability_accuracy": 0.39285714285714285
+          },
+          "research": {
+            "examples": 14,
+            "context_references_accuracy": 0.42857142857142855,
+            "execution_path_accuracy": 0.0,
+            "intent_accuracy": 0.0,
+            "missing_information_accuracy": 0.42857142857142855,
+            "needs_clarification_accuracy": 0.42857142857142855,
+            "needs_escalation_accuracy": 0.7142857142857143,
+            "request_modes_accuracy": 0.0,
+            "selected_capability_accuracy": 0.0
+          },
+          "romanized": {
+            "examples": 40,
+            "context_references_accuracy": 0.625,
+            "execution_path_accuracy": 0.05,
+            "intent_accuracy": 0.175,
+            "missing_information_accuracy": 0.675,
+            "needs_clarification_accuracy": 0.675,
+            "needs_escalation_accuracy": 0.25,
+            "request_modes_accuracy": 0.075,
+            "selected_capability_accuracy": 0.375
+          },
+          "single_action": {
+            "examples": 56,
+            "context_references_accuracy": 0.8035714285714286,
+            "execution_path_accuracy": 0.03571428571428571,
+            "intent_accuracy": 0.39285714285714285,
+            "missing_information_accuracy": 0.8035714285714286,
+            "needs_clarification_accuracy": 0.8035714285714286,
+            "needs_escalation_accuracy": 0.4107142857142857,
+            "request_modes_accuracy": 0.017857142857142856,
+            "selected_capability_accuracy": 0.03571428571428571
+          }
+        },
+        "script": {
+          "code_switched": {
+            "examples": 40,
+            "context_references_accuracy": 0.625,
+            "execution_path_accuracy": 0.075,
+            "intent_accuracy": 0.225,
+            "missing_information_accuracy": 0.625,
+            "needs_clarification_accuracy": 0.625,
+            "needs_escalation_accuracy": 0.35,
+            "request_modes_accuracy": 0.125,
+            "selected_capability_accuracy": 0.375
+          },
+          "english_latin": {
+            "examples": 20,
+            "context_references_accuracy": 0.45,
+            "execution_path_accuracy": 0.1,
+            "intent_accuracy": 0.25,
+            "missing_information_accuracy": 0.45,
+            "needs_clarification_accuracy": 0.5,
+            "needs_escalation_accuracy": 0.7,
+            "request_modes_accuracy": 0.1,
+            "selected_capability_accuracy": 0.45
+          },
+          "native_script": {
+            "examples": 40,
+            "context_references_accuracy": 0.6,
+            "execution_path_accuracy": 0.075,
+            "intent_accuracy": 0.15,
+            "missing_information_accuracy": 0.625,
+            "needs_clarification_accuracy": 0.625,
+            "needs_escalation_accuracy": 0.4,
+            "request_modes_accuracy": 0.1,
+            "selected_capability_accuracy": 0.4
+          },
+          "romanized": {
+            "examples": 40,
+            "context_references_accuracy": 0.625,
+            "execution_path_accuracy": 0.05,
+            "intent_accuracy": 0.175,
+            "missing_information_accuracy": 0.675,
+            "needs_clarification_accuracy": 0.675,
+            "needs_escalation_accuracy": 0.25,
+            "request_modes_accuracy": 0.075,
+            "selected_capability_accuracy": 0.375
+          }
+        }
+      },
+      "execution_path_confusion": {
+        "clarify": {
+          "clarify": 1,
+          "escalate": 19,
+          "single_action": 1
+        },
+        "direct_response": {
+          "escalate": 13,
+          "memory_recall": 1
+        },
+        "escalate": {
+          "clarify": 3,
+          "escalate": 7,
+          "memory_recall": 1,
+          "research": 1,
+          "single_action": 2
+        },
+        "memory_recall": {
+          "clarify": 4,
+          "escalate": 3
+        },
+        "multi_step_task": {
+          "clarify": 7,
+          "escalate": 7
+        },
+        "research": {
+          "clarify": 8,
+          "direct_response": 2,
+          "escalate": 4
+        },
+        "single_action": {
+          "clarify": 11,
+          "direct_response": 9,
+          "escalate": 33,
+          "research": 1,
+          "single_action": 2
+        }
+      },
+      "latency": {
+        "timer": "time.perf_counter_ns",
+        "method": "nearest-rank percentiles",
+        "successful_predictions": {
+          "count": 140,
+          "mean_ms": 3189.7846107142864,
+          "p50_ms": 3037.0593,
+          "p95_ms": 4210.3883
+        },
+        "cold_first_invocation": {
+          "count": 1,
+          "mean_ms": 2238.0401,
+          "p50_ms": 2238.0401,
+          "p95_ms": 2238.0401
+        },
+        "warm_subsequent_invocations": {
+          "count": 139,
+          "mean_ms": 3196.6316935251803,
+          "p50_ms": 3039.3143,
+          "p95_ms": 5065.3239
+        },
+        "process_startup_and_model_loading_ms": null,
+        "by_inference_provenance": {},
+        "components": {
+          "preprocessing_ms": {
+            "count": 140,
+            "mean_ms": 0.0,
+            "p50_ms": 0.0,
+            "p95_ms": 0.0
+          },
+          "model_inference_ms": {
+            "count": 140,
+            "mean_ms": 3188.536247142859,
+            "p50_ms": 3035.8598,
+            "p95_ms": 4209.1017
+          },
+          "postprocessing_ms": {
+            "count": 140,
+            "mean_ms": 0.0,
+            "p50_ms": 0.0,
+            "p95_ms": 0.0
+          }
+        },
+        "note": "Cold is the first benchmark invocation only. It is not guaranteed to include process startup or model loading; those are not measured separately. Warm does not prove cache state."
+      },
+      "startup": {
+        "worker_and_model_load_ms": 15535.0856,
+        "worker_reported_model_load_ms": 12362.8129,
+        "rss_before_bytes": 195203072,
+        "rss_after_bytes": 1697759232,
+        "rss_delta_bytes": 1502556160,
+        "device": "cpu",
+        "torch_cuda_available": false
+      }
+    },
+    "qwen": {
+      "adapter": {
+        "id": "legacy-qwen-production-interface",
+        "kind": "legacy",
+        "measurement_kind": "real_legacy_qwen_on_v4_sealed_test",
+        "configuration": {
+          "model": "qwen2.5-coder:3b",
+          "base_url": "http://localhost:11434",
+          "timeout_s": 5.0,
+          "interface": "classify(text)->LOCAL|GEMINI|TASK; structured fields unavailable"
+        }
+      },
+      "counts": {
+        "total": 140,
+        "successful_predictions": 107,
+        "invalid_outputs": 0,
+        "errors": 0,
+        "timeouts": 33,
+        "not_applicable_execution_paths": 27
+      },
+      "metrics": {
+        "execution_path": {
+          "available": true,
+          "applicable": 80,
+          "correct": 10,
+          "accuracy": 0.125
+        },
+        "intent": {
+          "available": false,
+          "reason": "legacy classify() does not expose this field"
+        },
+        "request_modes": {
+          "available": false,
+          "reason": "legacy classify() does not expose this field"
+        },
+        "selected_capability": {
+          "available": false,
+          "reason": "legacy classify() does not expose this field"
+        },
+        "context_references": {
+          "available": false,
+          "reason": "legacy classify() does not expose this field"
+        },
+        "missing_information": {
+          "available": false,
+          "reason": "legacy classify() does not expose this field"
+        },
+        "needs_clarification": {
+          "available": false,
+          "reason": "legacy classify() does not expose this field"
+        },
+        "needs_escalation": {
+          "available": false,
+          "reason": "legacy classify() does not expose this field"
+        }
+      },
+      "group_metrics": {
+        "language": {
+          "en": {
+            "examples": 2,
+            "execution_path_accuracy": 0.5
+          },
+          "hi": {
+            "examples": 15,
+            "execution_path_accuracy": 0.06666666666666667
+          },
+          "hi-Latn": {
+            "examples": 8,
+            "execution_path_accuracy": 0.25
+          },
+          "mixed-en-hi": {
+            "examples": 15,
+            "execution_path_accuracy": 0.13333333333333333
+          },
+          "mixed-en-te": {
+            "examples": 15,
+            "execution_path_accuracy": 0.13333333333333333
+          },
+          "te": {
+            "examples": 15,
+            "execution_path_accuracy": 0.06666666666666667
+          },
+          "te-Latn": {
+            "examples": 10,
+            "execution_path_accuracy": 0.1
+          }
+        },
+        "category": {
+          "code_switching": {
+            "examples": 30,
+            "execution_path_accuracy": 0.13333333333333333
+          },
+          "direct_response": {
+            "examples": 11,
+            "execution_path_accuracy": 0.0
+          },
+          "english": {
+            "examples": 2,
+            "execution_path_accuracy": 0.5
+          },
+          "memory_recall": {
+            "examples": 5,
+            "execution_path_accuracy": 1.0
+          },
+          "multi_step_task": {
+            "examples": 12,
+            "execution_path_accuracy": 0.0
+          },
+          "native_script": {
+            "examples": 30,
+            "execution_path_accuracy": 0.06666666666666667
+          },
+          "phase4_comparison": {
+            "examples": 80,
+            "execution_path_accuracy": 0.125
+          },
+          "research": {
+            "examples": 13,
+            "execution_path_accuracy": 0.38461538461538464
+          },
+          "romanized": {
+            "examples": 18,
+            "execution_path_accuracy": 0.16666666666666666
+          },
+          "single_action": {
+            "examples": 39,
+            "execution_path_accuracy": 0.0
+          }
+        },
+        "script": {
+          "code_switched": {
+            "examples": 30,
+            "execution_path_accuracy": 0.13333333333333333
+          },
+          "english_latin": {
+            "examples": 2,
+            "execution_path_accuracy": 0.5
+          },
+          "native_script": {
+            "examples": 30,
+            "execution_path_accuracy": 0.06666666666666667
+          },
+          "romanized": {
+            "examples": 18,
+            "execution_path_accuracy": 0.16666666666666666
+          }
+        }
+      },
+      "execution_path_confusion": {
+        "GEMINI": {
+          "GEMINI": 5
+        },
+        "LOCAL": {
+          "GEMINI": 8,
+          "TASK": 3
+        },
+        "TASK": {
+          "GEMINI": 59,
+          "TASK": 5
+        }
+      },
+      "latency": {
+        "timer": "time.perf_counter_ns",
+        "method": "nearest-rank percentiles",
+        "successful_predictions": {
+          "count": 107,
+          "mean_ms": 1.3354289719626173,
+          "p50_ms": 1.0991,
+          "p95_ms": 1.9824
+        },
+        "cold_first_invocation": {
+          "count": 1,
+          "mean_ms": 19.6862,
+          "p50_ms": 19.6862,
+          "p95_ms": 19.6862
+        },
+        "warm_subsequent_invocations": {
+          "count": 106,
+          "mean_ms": 1.1623084905660381,
+          "p50_ms": 1.0978,
+          "p95_ms": 1.7882
+        },
+        "process_startup_and_model_loading_ms": null,
+        "by_inference_provenance": {
+          "deterministic_fast_path": {
+            "count": 107,
+            "mean_ms": 1.3354289719626173,
+            "p50_ms": 1.0991,
+            "p95_ms": 1.9824
+          },
+          "ollama_qwen": {
+            "count": 0,
+            "mean_ms": null,
+            "p50_ms": null,
+            "p95_ms": null
+          }
+        },
+        "components": {
+          "preprocessing_ms": {
+            "count": 0,
+            "mean_ms": null,
+            "p50_ms": null,
+            "p95_ms": null
+          },
+          "model_inference_ms": {
+            "count": 0,
+            "mean_ms": null,
+            "p50_ms": null,
+            "p95_ms": null
+          },
+          "postprocessing_ms": {
+            "count": 0,
+            "mean_ms": null,
+            "p50_ms": null,
+            "p95_ms": null
+          }
+        },
+        "note": "Cold is the first benchmark invocation only. It is not guaranteed to include process startup or model loading; those are not measured separately. Warm does not prove cache state."
+      },
+      "startup": null
+    }
+  }
+}

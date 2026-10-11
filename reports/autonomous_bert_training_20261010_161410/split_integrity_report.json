@@ -1,0 +1,24 @@
+{
+  "train": 232,
+  "validation": 40,
+  "training_groups": 27,
+  "validation_groups": 7,
+  "ID_overlap": 0,
+  "group_overlap": 0,
+  "normalized_text_overlap": 0,
+  "baseline_training_ID_overlap_in_validation": 0,
+  "protected_test_overlap": 0,
+  "validation_states": {
+    "synthetic_unverified": 39,
+    "pending_review": 1
+  },
+  "validation_fixed": true,
+  "independent_semantic_group_completeness": "NOT_VERIFIED; source scenario/translations/template components plus conservative character triage",
+  "metric_type": "PROVISIONAL_LABEL_AGREEMENT_NOT_VERIFIED_ACCURACY",
+  "semantic_similarity_triage": {
+    "nearest_pairs": 120,
+    "pairs_cosine_ge_098": 2,
+    "confirmed_semantic_leakage": "NOT_VERIFIED",
+    "new_claim_independent_accuracy": false
+  }
+}

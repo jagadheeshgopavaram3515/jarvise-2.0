@@ -1,0 +1,42 @@
+{
+  "phase": "C",
+  "status": "observation_only",
+  "ollama": {
+    "reachable": true,
+    "endpoint": "http://localhost:11434",
+    "model": "qwen2.5-coder:3b",
+    "format": "gguf",
+    "quantization": "Q4_K_M",
+    "parameter_size": "3.1B",
+    "tags_size_bytes": 1929912626,
+    "tags_context_length": 32768,
+    "active_residency_before_raw_tests": false,
+    "active_size_vram_bytes": 2155169709,
+    "active_context_length": 4096
+  },
+  "jarvis_config": {
+    "ollama_timeout_s": 45.0,
+    "classifier_timeout_s": 5.0,
+    "keep_alive": "10m",
+    "model": "qwen2.5-coder:3b"
+  },
+  "raw_qwen_latency_ms": {
+    "chrome_requirements": 5773.5,
+    "open_chrome": 4183.8,
+    "latest_ai_news": 2556.0,
+    "required_tools": 4183.3,
+    "chrome_json": 2635.6,
+    "warm_ready_repeats": [2598.5, 2448.3, 2390.4]
+  },
+  "phase_b_smoke": {
+    "dataset_sha256": "82237b8ebf6392da84226e409727400c29aefae0fc42ad9efc6376ec86ff317a",
+    "cases": 2,
+    "model_success": 2,
+    "clarification_errors": 1,
+    "latency_ms": {"min": 4038.6614, "mean": 13396.0355, "max": 22753.4096},
+    "coverage_note": "synthetic smoke only; insufficient for general conclusions"
+  },
+  "tool_counts": {"registry": 19, "local_agent_advertised": 6, "gemini_registry_visible": 19},
+  "fast_brain": {"implemented": false, "production_integrated": false},
+  "training": {"lora_started": false}
+}

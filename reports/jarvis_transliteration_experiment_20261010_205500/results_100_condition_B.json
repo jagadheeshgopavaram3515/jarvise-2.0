@@ -1,0 +1,3494 @@
+{
+  "condition": "B",
+  "denominator": 100,
+  "strict_exact": 40,
+  "strict_exact_pct": 40.0,
+  "capability_top1": 73,
+  "capability_top1_pct": 73.0,
+  "inference_failures": 0,
+  "fields": {
+    "intent": 60,
+    "execution_path": 67,
+    "request_modes": 88,
+    "selected_capability": 73,
+    "needs_clarification": 80,
+    "needs_escalation": 89,
+    "missing_information": 80,
+    "context_references": 64
+  },
+  "group_stats": {
+    "corpus100-folder": {
+      "count": 12,
+      "exact": 6,
+      "cap_top1": 7
+    },
+    "corpus100-file": {
+      "count": 12,
+      "exact": 5,
+      "cap_top1": 5
+    },
+    "corpus100-app": {
+      "count": 10,
+      "exact": 5,
+      "cap_top1": 6
+    },
+    "corpus100-search": {
+      "count": 12,
+      "exact": 5,
+      "cap_top1": 5
+    },
+    "corpus100-webpage": {
+      "count": 8,
+      "exact": 4,
+      "cap_top1": 8
+    },
+    "corpus100-clarify": {
+      "count": 12,
+      "exact": 1,
+      "cap_top1": 12
+    },
+    "corpus100-memory": {
+      "count": 12,
+      "exact": 8,
+      "cap_top1": 12
+    },
+    "corpus100-direct": {
+      "count": 10,
+      "exact": 4,
+      "cap_top1": 10
+    },
+    "corpus100-multistep": {
+      "count": 6,
+      "exact": 0,
+      "cap_top1": 5
+    },
+    "corpus100-escalate": {
+      "count": 6,
+      "exact": 2,
+      "cap_top1": 3
+    }
+  },
+  "lang_stats": {
+    "en": {
+      "count": 20,
+      "exact": 14,
+      "cap_top1": 18
+    },
+    "hi": {
+      "count": 15,
+      "exact": 1,
+      "cap_top1": 7
+    },
+    "hi-Latn": {
+      "count": 17,
+      "exact": 9,
+      "cap_top1": 14
+    },
+    "te": {
+      "count": 12,
+      "exact": 0,
+      "cap_top1": 5
+    },
+    "te-Latn": {
+      "count": 16,
+      "exact": 9,
+      "cap_top1": 14
+    },
+    "ta": {
+      "count": 5,
+      "exact": 0,
+      "cap_top1": 2
+    },
+    "ta-Latn": {
+      "count": 11,
+      "exact": 6,
+      "cap_top1": 10
+    },
+    "mixed-en-hi": {
+      "count": 2,
+      "exact": 1,
+      "cap_top1": 2
+    },
+    "mixed-en-te": {
+      "count": 1,
+      "exact": 0,
+      "cap_top1": 1
+    },
+    "mixed-en-ta": {
+      "count": 1,
+      "exact": 0,
+      "cap_top1": 0
+    }
+  },
+  "latencies": {
+    "transliteration_median_ms": 0.06450000000768341,
+    "transliteration_p95_ms": 0.1683149985183263,
+    "model_median_ms": 131.398800003808,
+    "model_p95_ms": 194.46751999712433,
+    "e2e_median_ms": 131.46705000690417,
+    "e2e_p95_ms": 194.60192500046105,
+    "e2e_mean_ms": 128.07889200077625
+  },
+  "predictions": [
+    {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "context_references": [
+        {
+          "reference": "Open my documents directory please",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.49852457872824296,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Open my documents directory please"
+        },
+        {
+          "kind": "capability",
+          "reference": "open_folder"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4052301936207777,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Browse to the server logs folder"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "daaunalods pholdar kholo",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.5362415467666345,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "daaunalods pholdar kholo"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action",
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "baikaap daayarektaree skreen par dikhaao",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.39233344840602213,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "baikaap daayarektaree skreen par dikhaao"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.3476856568395828,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "photos folder khol kar dikhao"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4784533326406836,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "client project directory open karo"
+        },
+        {
+          "kind": "capability",
+          "reference": "open_folder"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "naa daun‌lods pholdar open cheyyi",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.5064392930477849,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "naa daun‌lods pholdar open cheyyi"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "daakyumemts dairektaree choopimchu",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.47168605762470234,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "daakyumemts dairektaree choopimchu"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.43713272196331177,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "music folder open cheyyi"
+        },
+        {
+          "kind": "capability",
+          "reference": "open_folder"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.3588573836268464,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "backup archive directory screen meeda chupinchu"
+        },
+        {
+          "kind": "capability",
+          "reference": "open_folder"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "pathivirakkangkal koppuraiyai thirakkavum",
+          "kind": "prior_request",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "prior_request",
+          "description": "Required information is not available in the supplied request or context"
+        }
+      ],
+      "confidence": 0.42361101458166783,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "pathivirakkangkal koppuraiyai thirakkavum"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.47663847617046545,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "pictures folder-ai open pannu"
+        },
+        {
+          "kind": "capability",
+          "reference": "open_folder"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.46135737542116556,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Find the quarterly financial report spreadsheet"
+        },
+        {
+          "kind": "capability",
+          "reference": "open_folder"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4708845167055582,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Search for my resume pdf file on disk"
+        },
+        {
+          "kind": "capability",
+          "reference": "find_file"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "taiks raseed kee peedeeeph phaail dhoondho",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.41406811759953105,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "taiks raseed kee peedeeeph phaail dhoondho"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.3616496684772305,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "projekt prapojal dokyooment talaasho"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "october invoice file search karo",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.2869952643778667,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "october invoice file search karo"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.3821897367738291,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "yesterday meeting notes text file dhoondo"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "kaalej sartiphiket pidieph phail vetuku",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.43975641250918374,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "kaalej sartiphiket pidieph phail vetuku"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.2541466186442731,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "praajekt daakyumemt kanukko"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.3363312983904452,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "vendor contract pdf file vetuku"
+        },
+        {
+          "kind": "capability",
+          "reference": "find_file"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4045505838259593,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "annual budget excel sheet file kanukko"
+        },
+        {
+          "kind": "capability",
+          "reference": "find_file"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.5391599898776648,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "varumaana vari raseethu koppai thetu"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.21547917590669743,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "final project report document thedu"
+        },
+        {
+          "kind": "capability",
+          "reference": "find_file"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:open_app",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_app",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.5174856428810104,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Open PowerShell terminal application"
+        },
+        {
+          "kind": "capability",
+          "reference": "open_app"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:close_app",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "close_app",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.5169941018154044,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Close Google Chrome application"
+        },
+        {
+          "kind": "capability",
+          "reference": "close_app"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "kailakuletar aip kholo",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.43925537792808933,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "kailakuletar aip kholo"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.34116338794689194,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "notapaid aip band karo"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:open_app",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_app",
+      "context_references": [
+        {
+          "reference": "Spotify application open karo",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.30057364170819223,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Spotify application open karo"
+        },
+        {
+          "kind": "capability",
+          "reference": "open_app"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:close_app",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "close_app",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.32758640230049757,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Chrome browser application band karo"
+        },
+        {
+          "kind": "capability",
+          "reference": "close_app"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "kaalikyuletar aplikeshan open cheyyi",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.3972597914152201,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "kaalikyuletar aplikeshan open cheyyi"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:close_app",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "close_app",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.5018215765808346,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Terminal application close cheyyi"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "VS Code application open pannu",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.4033604362507391,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "VS Code application open pannu"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:close_app",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "close_app",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.5813768862362112,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "VLC media player application close pannu"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.5540633568728047,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Google search for recent quantum computing breakthroughs"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.45577696034917625,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Search the web for Rust Tokio async tutorials"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "bhaarat men aagaamee chandr mishan ke baare men googal sarch karo",
+          "kind": "prior_request",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "prior_request",
+          "description": "Required information is not available in the supplied request or context"
+        }
+      ],
+      "confidence": 0.3534875222316161,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "bhaarat men aagaamee chandr mishan ke baare men googal sarch karo"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "action",
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.32369461245424025,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "masheen larning ke nae elgoridam veb par khojo"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:open_app",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_app",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4479901415619706,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Nifty latest market trends google search karo"
+        },
+        {
+          "kind": "capability",
+          "reference": "open_app"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.7435026719764914,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "python advanced interview questions web par search karo"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.30478653872426964,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "haidaraabaad vaataavarana ap‌dets googul lo vetuku"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.28638241965629874,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "aartiphishiyal imtelijens taajaa vaartalu vetuku"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "research",
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.38258257701275306,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "India vs Australia live match score google search cheyyi"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.6418605247666734,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Go concurrency goroutines tutorial search cheyyi"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "thamizhnaatu sameepaththiya seythi inaiyaththil thetu",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.5326797068580544,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "thamizhnaatu sameepaththiya seythi inaiyaththil thetu"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4832675883999953,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "AI engineer learning roadmap web-il search pannu"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:read_page",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "read_page",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4703966348000805,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Read the article at https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)"
+        },
+        {
+          "kind": "capability",
+          "reference": "read_page"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "this",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.4059489130257686,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Read this web page for me"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:read_page",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "read_page",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4339298773823586,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "https://docs.python.org/3/whatsnew/3.11.html page read karo"
+        },
+        {
+          "kind": "capability",
+          "reference": "read_page"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "web page read karke batao",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.35685912187945495,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "web page read karke batao"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:read_page",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "read_page",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4540711733711236,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "ee https://news.ycombinator.com link page chaduvu"
+        },
+        {
+          "kind": "capability",
+          "reference": "read_page"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "research",
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.4472167615365519,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "a web page chadivi summary ivvu"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:read_page",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "read_page",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.527012298866908,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "https://github.com/features link-la irukkura page read pannu"
+        },
+        {
+          "kind": "capability",
+          "reference": "read_page"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "web page-ai padithu sollu",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.3615688858546205,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "web page-ai padithu sollu"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "it",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.6324331277794123,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Open it up right now"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "that",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.38732389985994653,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Delete that completely"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "ise",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.37474710128511807,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "ise turant hataao"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "vah turant kholo",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.38586127244186913,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "vah turant kholo"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "use",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.4147093627969235,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "use turant open karo"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "isse",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.3745304369074192,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "isse delete kar do"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "deenni vemtane dileet cheyyi",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.5244891468381904,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "deenni vemtane dileet cheyyi"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "adi",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.6718406529609858,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "adi open cheyyi"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "danni",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.4199797182245189,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "danni ventane delete cheyyi"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "idi",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.449955582870545,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "idi malli open cheyyi"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "athai",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.4627935779174988,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "athai utane azhiththuvitu"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "athai",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.7491528267476606,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "athai marubadiyum open pannu"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "our Phoenix project",
+          "kind": "project",
+          "resolved_value": "NextGen Gateway"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.5986744465571799,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "What did we decide about our Phoenix project?"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "database sharding",
+          "kind": "prior_conversation",
+          "resolved_value": "adopt Vitess proxy cluster"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.7908963042489198,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "What was our decision on database sharding?"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "hamaare garud projekt ke baare men kyaa tay huaa thaa?",
+          "kind": "prior_conversation",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.61864807201343,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "hamaare garud projekt ke baare men kyaa tay huaa thaa?"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "conversational",
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "klaaud provaaidar par hamaaraa kyaa nirnay thaa?",
+          "kind": "prior_conversation",
+          "resolved_value": "AWS चुना गया था"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.701724085845222,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "klaaud provaaidar par hamaaraa kyaa nirnay thaa?"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "Redis caching strategy",
+          "kind": "prior_conversation",
+          "resolved_value": "use Redis Sentinel cluster"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.722606955827005,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Redis caching strategy ke baare mein kya decide kiya tha?"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "Falcon initiative",
+          "kind": "project",
+          "resolved_value": "Edge CDN"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.33110488471082766,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "humare Falcon initiative ke baare mein yaad dilao"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "mana trishool praajekt nirnayam gurtucheyi",
+          "kind": "prior_conversation",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.5965041500235281,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "mana trishool praajekt nirnayam gurtucheyi"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "aathemtikeshan aarkitekchar nirnayam emti?",
+          "kind": "prior_conversation",
+          "resolved_value": "OAuth2 అమలు చేయాలి"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.7732178347259195,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "aathemtikeshan aarkitekchar nirnayam emti?"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "deployment pipeline",
+          "kind": "prior_conversation",
+          "resolved_value": "use GitHub Actions CI"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.7519394951029891,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "mana deployment pipeline gurinchi em decide chesam?"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "Garuda project",
+          "kind": "project",
+          "resolved_value": "Telemetry Engine"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.5008582552667747,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "mana Garuda project status gurinchi gurthu cheyyi"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "backend framework",
+          "kind": "prior_conversation",
+          "resolved_value": "FastAPI use panna mudivu"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.6256477162344225,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "backend framework pathi enna mudivu pannom?"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "API gateway release date",
+          "kind": "prior_conversation",
+          "resolved_value": "release next Tuesday"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.5559230026306898,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Kal API gateway release date ke baare mein kya bola tha?"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.579802881037839,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "What is the capital of Canada?"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.7234396728218634,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Explain why the sky looks blue during daytime"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "bhaarat kee sabase lanbee nadee kaun see hai?",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.5488997769242702,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "bhaarat kee sabase lanbee nadee kaun see hai?"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.6034719028886265,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "sauramandal kaa sabase badaa grah kaun saa hai?"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.5919594047339228,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "gravity kaise kaam karti hai short mein batao"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "bhoomi parimaanam emta?",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.501450928450379,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "bhoomi parimaanam emta?"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4562840447797974,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "CPU ante enti brief ga cheppu"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "sooriya kutumpaththil eththanai kolkal ullana?",
+          "kind": "prior_request",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "prior_request",
+          "description": "Required information is not available in the supplied request or context"
+        }
+      ],
+      "confidence": 0.4477660178825692,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "sooriya kutumpaththil eththanai kolkal ullana?"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.31069061711414114,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "photosynthesis enral enna brief-ah sollu"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "research",
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4824041738931179,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Hi JARVIS, how is your performance today?"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "research",
+      "execution_path": "multi_step_task",
+      "request_modes": [
+        "research",
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.638908968404809,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Guide me step by step through setting up a Kubernetes cluster on AWS"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "research",
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.7770300589318148,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Show me the step by step instructions to configure SSL certificates on Nginx"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "research",
+      "execution_path": "multi_step_task",
+      "request_modes": [
+        "research",
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.489104974798686,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Ubuntu Linux dual boot install karne ke steps guide karo"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "research",
+      "execution_path": "multi_step_task",
+      "request_modes": [
+        "research",
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.6455622345506179,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "GitHub actions CI CD setup step by step guide cheyyi"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "research",
+      "execution_path": "multi_step_task",
+      "request_modes": [
+        "research",
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.3408277732195519,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Docker container deploy panna step by step guide pannu"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "research",
+      "execution_path": "multi_step_task",
+      "request_modes": [
+        "research",
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.6737802028656006,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Postgres database backup restore karne ke steps guide karo"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.6658998793220388,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Order two chicken burgers and fries from Swiggy to my home"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.32735076405827024,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Transfer five hundred dollars from my savings account to John"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4825435332812302,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "dillee se munbaee kee phlaait tikat buk kar do"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:open_app",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_app",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.7110248804092407,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "bedroom ki AC temperature 22 degree par set karo"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:open_app",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_app",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.47228353967791764,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Uber app lo airport ki cab book cheyyi"
+        }
+      ],
+      "abstained": false
+    },
+    {
+      "intent": "use:open_app",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_app",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.5445811997341032,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Zomato app-la dinner order pannu"
+        }
+      ],
+      "abstained": false
+    }
+  ],
+  "transformations": [
+    {
+      "original": "Open my documents directory please",
+      "transformed": "Open my documents directory please",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "Browse to the server logs folder",
+      "transformed": "Browse to the server logs folder",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "डाउनलोड्स फ़ोल्डर खोलो",
+      "transformed": "daaunalods pholdar kholo",
+      "detected_scripts": [
+        "devanagari"
+      ],
+      "applied": true
+    },
+    {
+      "original": "बैकअप डायरेक्टरी स्क्रीन पर दिखाओ",
+      "transformed": "baikaap daayarektaree skreen par dikhaao",
+      "detected_scripts": [
+        "devanagari"
+      ],
+      "applied": true
+    },
+    {
+      "original": "photos folder khol kar dikhao",
+      "transformed": "photos folder khol kar dikhao",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "client project directory open karo",
+      "transformed": "client project directory open karo",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "నా డౌన్‌లోడ్స్ ఫోల్డర్ ఓపెన్ చెయ్యి",
+      "transformed": "naa daun‌lods pholdar open cheyyi",
+      "detected_scripts": [
+        "telugu"
+      ],
+      "applied": true
+    },
+    {
+      "original": "డాక్యుమెంట్స్ డైరెక్టరీ చూపించు",
+      "transformed": "daakyumemts dairektaree choopimchu",
+      "detected_scripts": [
+        "telugu"
+      ],
+      "applied": true
+    },
+    {
+      "original": "music folder open cheyyi",
+      "transformed": "music folder open cheyyi",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "backup archive directory screen meeda chupinchu",
+      "transformed": "backup archive directory screen meeda chupinchu",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "பதிவிறக்கங்கள் கோப்புறையை திறக்கவும்",
+      "transformed": "pathivirakkangkal koppuraiyai thirakkavum",
+      "detected_scripts": [
+        "tamil"
+      ],
+      "applied": true
+    },
+    {
+      "original": "pictures folder-ai open pannu",
+      "transformed": "pictures folder-ai open pannu",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "Find the quarterly financial report spreadsheet",
+      "transformed": "Find the quarterly financial report spreadsheet",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "Search for my resume pdf file on disk",
+      "transformed": "Search for my resume pdf file on disk",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "टैक्स रसीद की पीडीएफ फाइल ढूंढो",
+      "transformed": "taiks raseed kee peedeeeph phaail dhoondho",
+      "detected_scripts": [
+        "devanagari"
+      ],
+      "applied": true
+    },
+    {
+      "original": "प्रोजेक्ट प्रपोजल डॉक्यूमेंट तलाशो",
+      "transformed": "projekt prapojal dokyooment talaasho",
+      "detected_scripts": [
+        "devanagari"
+      ],
+      "applied": true
+    },
+    {
+      "original": "october invoice file search karo",
+      "transformed": "october invoice file search karo",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "yesterday meeting notes text file dhoondo",
+      "transformed": "yesterday meeting notes text file dhoondo",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "కాలేజ్ సర్టిఫికెట్ పిడిఎఫ్ ఫైల్ వెతుకు",
+      "transformed": "kaalej sartiphiket pidieph phail vetuku",
+      "detected_scripts": [
+        "telugu"
+      ],
+      "applied": true
+    },
+    {
+      "original": "ప్రాజెక్ట్ డాక్యుమెంట్ కనుక్కో",
+      "transformed": "praajekt daakyumemt kanukko",
+      "detected_scripts": [
+        "telugu"
+      ],
+      "applied": true
+    },
+    {
+      "original": "vendor contract pdf file vetuku",
+      "transformed": "vendor contract pdf file vetuku",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "annual budget excel sheet file kanukko",
+      "transformed": "annual budget excel sheet file kanukko",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "வருமான வரி ரசீது கோப்பை தேடு",
+      "transformed": "varumaana vari raseethu koppai thetu",
+      "detected_scripts": [
+        "tamil"
+      ],
+      "applied": true
+    },
+    {
+      "original": "final project report document thedu",
+      "transformed": "final project report document thedu",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "Open PowerShell terminal application",
+      "transformed": "Open PowerShell terminal application",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "Close Google Chrome application",
+      "transformed": "Close Google Chrome application",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "कैलकुलेटर ऐप खोलो",
+      "transformed": "kailakuletar aip kholo",
+      "detected_scripts": [
+        "devanagari"
+      ],
+      "applied": true
+    },
+    {
+      "original": "नोटपैड ऐप बंद करो",
+      "transformed": "notapaid aip band karo",
+      "detected_scripts": [
+        "devanagari"
+      ],
+      "applied": true
+    },
+    {
+      "original": "Spotify application open karo",
+      "transformed": "Spotify application open karo",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "Chrome browser application band karo",
+      "transformed": "Chrome browser application band karo",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "కాలిక్యులేటర్ అప్లికేషన్ ఓపెన్ చెయ్యి",
+      "transformed": "kaalikyuletar aplikeshan open cheyyi",
+      "detected_scripts": [
+        "telugu"
+      ],
+      "applied": true
+    },
+    {
+      "original": "Terminal application close cheyyi",
+      "transformed": "Terminal application close cheyyi",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "VS Code application open pannu",
+      "transformed": "VS Code application open pannu",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "VLC media player application close pannu",
+      "transformed": "VLC media player application close pannu",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "Google search for recent quantum computing breakthroughs",
+      "transformed": "Google search for recent quantum computing breakthroughs",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "Search the web for Rust Tokio async tutorials",
+      "transformed": "Search the web for Rust Tokio async tutorials",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "भारत में आगामी चंद्र मिशन के बारे में गूगल सर्च करो",
+      "transformed": "bhaarat men aagaamee chandr mishan ke baare men googal sarch karo",
+      "detected_scripts": [
+        "devanagari"
+      ],
+      "applied": true
+    },
+    {
+      "original": "मशीन लर्निंग के नए एल्गोरिदम वेब पर खोजो",
+      "transformed": "masheen larning ke nae elgoridam veb par khojo",
+      "detected_scripts": [
+        "devanagari"
+      ],
+      "applied": true
+    },
+    {
+      "original": "Nifty latest market trends google search karo",
+      "transformed": "Nifty latest market trends google search karo",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "python advanced interview questions web par search karo",
+      "transformed": "python advanced interview questions web par search karo",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "హైదరాబాద్ వాతావరణ అప్‌డేట్స్ గూగుల్ లో వెతుకు",
+      "transformed": "haidaraabaad vaataavarana ap‌dets googul lo vetuku",
+      "detected_scripts": [
+        "telugu"
+      ],
+      "applied": true
+    },
+    {
+      "original": "ఆర్టిఫిషియల్ ఇంటెలిజెన్స్ తాజా వార్తలు వెతుకు",
+      "transformed": "aartiphishiyal imtelijens taajaa vaartalu vetuku",
+      "detected_scripts": [
+        "telugu"
+      ],
+      "applied": true
+    },
+    {
+      "original": "India vs Australia live match score google search cheyyi",
+      "transformed": "India vs Australia live match score google search cheyyi",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "Go concurrency goroutines tutorial search cheyyi",
+      "transformed": "Go concurrency goroutines tutorial search cheyyi",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "தமிழ்நாடு சமீபத்திய செய்தி இணையத்தில் தேடு",
+      "transformed": "thamizhnaatu sameepaththiya seythi inaiyaththil thetu",
+      "detected_scripts": [
+        "tamil"
+      ],
+      "applied": true
+    },
+    {
+      "original": "AI engineer learning roadmap web-il search pannu",
+      "transformed": "AI engineer learning roadmap web-il search pannu",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "Read the article at https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)",
+      "transformed": "Read the article at https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "Read this web page for me",
+      "transformed": "Read this web page for me",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "https://docs.python.org/3/whatsnew/3.11.html page read karo",
+      "transformed": "https://docs.python.org/3/whatsnew/3.11.html page read karo",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "web page read karke batao",
+      "transformed": "web page read karke batao",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "ee https://news.ycombinator.com link page chaduvu",
+      "transformed": "ee https://news.ycombinator.com link page chaduvu",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "a web page chadivi summary ivvu",
+      "transformed": "a web page chadivi summary ivvu",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "https://github.com/features link-la irukkura page read pannu",
+      "transformed": "https://github.com/features link-la irukkura page read pannu",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "web page-ai padithu sollu",
+      "transformed": "web page-ai padithu sollu",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "Open it up right now",
+      "transformed": "Open it up right now",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "Delete that completely",
+      "transformed": "Delete that completely",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "इसे तुरंत हटाओ",
+      "transformed": "ise turant hataao",
+      "detected_scripts": [
+        "devanagari"
+      ],
+      "applied": true
+    },
+    {
+      "original": "वह तुरंत खोलो",
+      "transformed": "vah turant kholo",
+      "detected_scripts": [
+        "devanagari"
+      ],
+      "applied": true
+    },
+    {
+      "original": "use turant open karo",
+      "transformed": "use turant open karo",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "isse delete kar do",
+      "transformed": "isse delete kar do",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "దీన్ని వెంటనే డిలీట్ చెయ్యి",
+      "transformed": "deenni vemtane dileet cheyyi",
+      "detected_scripts": [
+        "telugu"
+      ],
+      "applied": true
+    },
+    {
+      "original": "అది ఓపెన్ చెయ్యి",
+      "transformed": "adi open cheyyi",
+      "detected_scripts": [
+        "telugu"
+      ],
+      "applied": true
+    },
+    {
+      "original": "danni ventane delete cheyyi",
+      "transformed": "danni ventane delete cheyyi",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "idi malli open cheyyi",
+      "transformed": "idi malli open cheyyi",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "அதை உடனே அழித்துவிடு",
+      "transformed": "athai utane azhiththuvitu",
+      "detected_scripts": [
+        "tamil"
+      ],
+      "applied": true
+    },
+    {
+      "original": "athai marubadiyum open pannu",
+      "transformed": "athai marubadiyum open pannu",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "What did we decide about our Phoenix project?",
+      "transformed": "What did we decide about our Phoenix project?",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "What was our decision on database sharding?",
+      "transformed": "What was our decision on database sharding?",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "हमारे गरुड़ प्रोजेक्ट के बारे में क्या तय हुआ था?",
+      "transformed": "hamaare garud projekt ke baare men kyaa tay huaa thaa?",
+      "detected_scripts": [
+        "devanagari"
+      ],
+      "applied": true
+    },
+    {
+      "original": "क्लाउड प्रोवाइडर पर हमारा क्या निर्णय था?",
+      "transformed": "klaaud provaaidar par hamaaraa kyaa nirnay thaa?",
+      "detected_scripts": [
+        "devanagari"
+      ],
+      "applied": true
+    },
+    {
+      "original": "Redis caching strategy ke baare mein kya decide kiya tha?",
+      "transformed": "Redis caching strategy ke baare mein kya decide kiya tha?",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "humare Falcon initiative ke baare mein yaad dilao",
+      "transformed": "humare Falcon initiative ke baare mein yaad dilao",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "మన త్రిశూల్ ప్రాజెక్ట్ నిర్ణయం గుర్తుచేయి",
+      "transformed": "mana trishool praajekt nirnayam gurtucheyi",
+      "detected_scripts": [
+        "telugu"
+      ],
+      "applied": true
+    },
+    {
+      "original": "ఆథెంటికేషన్ ఆర్కిటెక్చర్ నిర్ణయం ఏంటి?",
+      "transformed": "aathemtikeshan aarkitekchar nirnayam emti?",
+      "detected_scripts": [
+        "telugu"
+      ],
+      "applied": true
+    },
+    {
+      "original": "mana deployment pipeline gurinchi em decide chesam?",
+      "transformed": "mana deployment pipeline gurinchi em decide chesam?",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "mana Garuda project status gurinchi gurthu cheyyi",
+      "transformed": "mana Garuda project status gurinchi gurthu cheyyi",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "backend framework pathi enna mudivu pannom?",
+      "transformed": "backend framework pathi enna mudivu pannom?",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "Kal API gateway release date ke baare mein kya bola tha?",
+      "transformed": "Kal API gateway release date ke baare mein kya bola tha?",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "What is the capital of Canada?",
+      "transformed": "What is the capital of Canada?",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "Explain why the sky looks blue during daytime",
+      "transformed": "Explain why the sky looks blue during daytime",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "भारत की सबसे लंबी नदी कौन सी है?",
+      "transformed": "bhaarat kee sabase lanbee nadee kaun see hai?",
+      "detected_scripts": [
+        "devanagari"
+      ],
+      "applied": true
+    },
+    {
+      "original": "सौरमंडल का सबसे बड़ा ग्रह कौन सा है?",
+      "transformed": "sauramandal kaa sabase badaa grah kaun saa hai?",
+      "detected_scripts": [
+        "devanagari"
+      ],
+      "applied": true
+    },
+    {
+      "original": "gravity kaise kaam karti hai short mein batao",
+      "transformed": "gravity kaise kaam karti hai short mein batao",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "భూమి పరిమాణం ఎంత?",
+      "transformed": "bhoomi parimaanam emta?",
+      "detected_scripts": [
+        "telugu"
+      ],
+      "applied": true
+    },
+    {
+      "original": "CPU ante enti brief ga cheppu",
+      "transformed": "CPU ante enti brief ga cheppu",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "சூரிய குடும்பத்தில் எத்தனை கோள்கள் உள்ளன?",
+      "transformed": "sooriya kutumpaththil eththanai kolkal ullana?",
+      "detected_scripts": [
+        "tamil"
+      ],
+      "applied": true
+    },
+    {
+      "original": "photosynthesis enral enna brief-ah sollu",
+      "transformed": "photosynthesis enral enna brief-ah sollu",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "Hi JARVIS, how is your performance today?",
+      "transformed": "Hi JARVIS, how is your performance today?",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "Guide me step by step through setting up a Kubernetes cluster on AWS",
+      "transformed": "Guide me step by step through setting up a Kubernetes cluster on AWS",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "Show me the step by step instructions to configure SSL certificates on Nginx",
+      "transformed": "Show me the step by step instructions to configure SSL certificates on Nginx",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "Ubuntu Linux dual boot install karne ke steps guide karo",
+      "transformed": "Ubuntu Linux dual boot install karne ke steps guide karo",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "GitHub actions CI CD setup step by step guide cheyyi",
+      "transformed": "GitHub actions CI CD setup step by step guide cheyyi",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "Docker container deploy panna step by step guide pannu",
+      "transformed": "Docker container deploy panna step by step guide pannu",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "Postgres database backup restore karne ke steps guide karo",
+      "transformed": "Postgres database backup restore karne ke steps guide karo",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "Order two chicken burgers and fries from Swiggy to my home",
+      "transformed": "Order two chicken burgers and fries from Swiggy to my home",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "Transfer five hundred dollars from my savings account to John",
+      "transformed": "Transfer five hundred dollars from my savings account to John",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "दिल्ली से मुंबई की फ्लाइट टिकट बुक कर दो",
+      "transformed": "dillee se munbaee kee phlaait tikat buk kar do",
+      "detected_scripts": [
+        "devanagari"
+      ],
+      "applied": true
+    },
+    {
+      "original": "bedroom ki AC temperature 22 degree par set karo",
+      "transformed": "bedroom ki AC temperature 22 degree par set karo",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "Uber app lo airport ki cab book cheyyi",
+      "transformed": "Uber app lo airport ki cab book cheyyi",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    },
+    {
+      "original": "Zomato app-la dinner order pannu",
+      "transformed": "Zomato app-la dinner order pannu",
+      "detected_scripts": [
+        "latin"
+      ],
+      "applied": false
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "inputs": {
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\reproducibility_manifest.json": "829d0006a2d081f53138d41f38b3916da6eb4c45d04754392857c7c90eb344c5",
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\provisional_train.jsonl": "67d57286b528b62abb04355ecb0933c3906f5aa59805d8ff68df424b1afd4c6d",
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\provisional_validation.jsonl": "6f8cf0d9a8b1b7aab65d2fc2918bf26d327af00b4c76bf28f94aaad936a36692",
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\deterministic_output_limits.json": "d0caf42562a998c3bbc1833d1627e8d4f5edc8000b6eded01e703cb09bac2613",
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\protected_test_manifest.json": "b86ce43b6b04a12d698c3f1495cd1fc25ef175807d6ddc61b0009b126220ed02",
+    "D:\\JARVIS\\benchmarks\\fast_classifier\\models\\v3\\compact_heads.json": "11d5ea991df52e9eca952766a151cb99f6d8c825104d17116c06c01042c130c3",
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\feature_cache_manifest.json": "7f393d1b5b45acdd1e7894ade3bd2fb9df39b6a826606e65f0a73a4a64273f5e",
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\frozen_features.npz": "8fe6183843885294a1b1ce601d954bcca09323b7a078e6dc911f29c8d4dc1082",
+    "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\config.json": "e5387cfa72d4b8f301b7df84365195d25711212b6c3d377cace2b18c3a911a74",
+    "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\model.safetensors": "0435c6c12c80a0a2206137c9fa8f6478fce4f4de88ac3d43d0f0e0da3c8c767b",
+    "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\special_tokens_map.json": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+    "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\tokenizer_config.json": "bc33e3cc4de965153393572f1a5cd5d2bf18872f8c0a0096ae547beac01cec9c",
+    "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\vocab.txt": "87b44292b452f6c05afa49b2e488e7eedf79ea4f4c39db6f2f4b37764228ef3f",
+    "D:\\JARVIS\\benchmarks\\fast_classifier\\models\\v3\\compact_heads.joblib": "7f4dd399b7238c7bf0c166454c3ff5aa09d6e3bf1afb82666b526d43cf452f05",
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\best_candidate\\compact_heads.joblib": "517b4008423b65ed3361946cfdbf8c24351289b7b1c392528ce1a853c52b025a",
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\baseline_metrics.json": "ce5f64375fb5bba993f887ad92e05d567da6316652ac33c44a3b645cf6f008c9",
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\experiment_01\\metrics.json": "e3f90efd0da7a3ba95cf9d85436dad3c053346b492f481e771e7fa1db4d0315f",
+    "D:\\JARVIS\\reports\\classifier_completion_20261010_163425\\best_candidate_metadata.json": "b037bf4788f5d86fe0f054767518a76036d38f7277f33602cf002adeaa4af5d1",
+    "D:\\JARVIS\\reports\\classifier_completion_20261010_163425\\best_metrics.json": "f1e3b8a1c56c165dd917928c6a74d646614f876b5a2020bf15ec99f07f4ff61e",
+    "D:\\JARVIS\\assistant\\orchestration\\compact_adapter.py": "44b27e30c40a4c95ae46204d29c815d95ebdabe60b1cc0fddb50ed3b2119a854",
+    "D:\\JARVIS\\assistant\\orchestration\\decision.py": "aadf7e0459a8c10178a39dabe2aef55c38c4bb00044c3e0bb1bfd3594f3577eb",
+    "D:\\JARVIS\\benchmarks\\fast_classifier\\train_candidate.py": "57234b359a64c63e3c6fe91b10af901bf5f66cd4d259bddc39b05de4ddd55b9e",
+    "D:\\JARVIS\\assistant\\tools\\registry.py": "11ee8bb78b0a4ab62eff63700110b1bf44afd2d845d4b0a597c28ec1feac9408"
+  },
+  "unchanged": {
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\reproducibility_manifest.json": true,
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\provisional_train.jsonl": true,
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\provisional_validation.jsonl": true,
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\deterministic_output_limits.json": true,
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\protected_test_manifest.json": true,
+    "D:\\JARVIS\\benchmarks\\fast_classifier\\models\\v3\\compact_heads.json": true,
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\feature_cache_manifest.json": true,
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\frozen_features.npz": true,
+    "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\config.json": true,
+    "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\model.safetensors": true,
+    "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\special_tokens_map.json": true,
+    "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\tokenizer_config.json": true,
+    "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\vocab.txt": true,
+    "D:\\JARVIS\\benchmarks\\fast_classifier\\models\\v3\\compact_heads.joblib": true,
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\best_candidate\\compact_heads.joblib": true,
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\baseline_metrics.json": true,
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\experiment_01\\metrics.json": true,
+    "D:\\JARVIS\\reports\\classifier_completion_20261010_163425\\best_candidate_metadata.json": false,
+    "D:\\JARVIS\\reports\\classifier_completion_20261010_163425\\best_metrics.json": false,
+    "D:\\JARVIS\\assistant\\orchestration\\compact_adapter.py": true,
+    "D:\\JARVIS\\assistant\\orchestration\\decision.py": true,
+    "D:\\JARVIS\\benchmarks\\fast_classifier\\train_candidate.py": true,
+    "D:\\JARVIS\\assistant\\tools\\registry.py": true
+  },
+  "train_sha256": "67d57286b528b62abb04355ecb0933c3906f5aa59805d8ff68df424b1afd4c6d",
+  "validation_sha256": "6f8cf0d9a8b1b7aab65d2fc2918bf26d327af00b4c76bf28f94aaad936a36692",
+  "encoder_files": {
+    "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\config.json": {
+      "sha256": "e5387cfa72d4b8f301b7df84365195d25711212b6c3d377cace2b18c3a911a74",
+      "bytes": 953
+    },
+    "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\model.safetensors": {
+      "sha256": "0435c6c12c80a0a2206137c9fa8f6478fce4f4de88ac3d43d0f0e0da3c8c767b",
+      "bytes": 669464588
+    },
+    "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\special_tokens_map.json": {
+      "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+      "bytes": 112
+    },
+    "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\tokenizer_config.json": {
+      "sha256": "bc33e3cc4de965153393572f1a5cd5d2bf18872f8c0a0096ae547beac01cec9c",
+      "bytes": 39
+    },
+    "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\vocab.txt": {
+      "sha256": "87b44292b452f6c05afa49b2e488e7eedf79ea4f4c39db6f2f4b37764228ef3f",
+      "bytes": 871891
+    }
+  },
+  "baseline_model_sha256": "7f4dd399b7238c7bf0c166454c3ff5aa09d6e3bf1afb82666b526d43cf452f05",
+  "previous_candidate_sha256": "517b4008423b65ed3361946cfdbf8c24351289b7b1c392528ce1a853c52b025a",
+  "training_experiments": 8,
+  "seed": 42,
+  "production_changes": false,
+  "sealed_labels_used": false,
+  "reference_projects_accessed": false,
+  "selection": "strict exact first, then path/capability tie-break disclosed",
+  "protected_input_hash_checks": {
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\reproducibility_manifest.json": true,
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\provisional_train.jsonl": true,
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\provisional_validation.jsonl": true,
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\deterministic_output_limits.json": true,
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\protected_test_manifest.json": true,
+    "D:\\JARVIS\\benchmarks\\fast_classifier\\models\\v3\\compact_heads.json": true,
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\feature_cache_manifest.json": true,
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\frozen_features.npz": true,
+    "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\config.json": true,
+    "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\model.safetensors": true,
+    "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\special_tokens_map.json": true,
+    "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\tokenizer_config.json": true,
+    "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\vocab.txt": true,
+    "D:\\JARVIS\\benchmarks\\fast_classifier\\models\\v3\\compact_heads.joblib": true,
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\best_candidate\\compact_heads.joblib": true,
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\baseline_metrics.json": true,
+    "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\experiment_01\\metrics.json": true,
+    "D:\\JARVIS\\assistant\\orchestration\\compact_adapter.py": true,
+    "D:\\JARVIS\\assistant\\orchestration\\decision.py": true,
+    "D:\\JARVIS\\benchmarks\\fast_classifier\\train_candidate.py": true,
+    "D:\\JARVIS\\assistant\\tools\\registry.py": true
+  },
+  "owned_intermediate_report_revisions": {
+    "D:\\JARVIS\\reports\\classifier_completion_20261010_163425\\best_candidate_metadata.json": {
+      "initial_read_sha256": "b037bf4788f5d86fe0f054767518a76036d38f7277f33602cf002adeaa4af5d1",
+      "final_sha256": "45b62c063311fda1ec4b0f548ba220e74288df04e9b9dcdfab34b5a96683f4ea",
+      "reason": "Owned intermediate report refreshed by final tested policy; original data/model untouched"
+    },
+    "D:\\JARVIS\\reports\\classifier_completion_20261010_163425\\best_metrics.json": {
+      "initial_read_sha256": "f1e3b8a1c56c165dd917928c6a74d646614f876b5a2020bf15ec99f07f4ff61e",
+      "final_sha256": "b44875720736745e3e99c347a10a0d54b38e39fb00046169ade135195bbe10e4",
+      "reason": "Owned intermediate report refreshed by final tested policy; original data/model untouched"
+    }
+  }
+}

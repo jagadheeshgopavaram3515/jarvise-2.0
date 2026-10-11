@@ -1,0 +1,42 @@
+{
+  "selected_experiment": "experiment_01",
+  "selection_metric": "exact full eight-target provisional-label agreement",
+  "best": {
+    "agreement": 8,
+    "denominator": 40,
+    "value": 0.2
+  },
+  "baseline": {
+    "agreement": 8,
+    "denominator": 40,
+    "value": 0.2
+  },
+  "target_reached": false,
+  "stop_reason": "THREE_CONSECUTIVE_PRIMARY_PLATEAU_EXPERIMENTS",
+  "experiments_run": 4,
+  "best_model_path": "D:\\JARVIS\\reports\\autonomous_bert_training_20261010_161410\\best_candidate\\compact_heads.joblib",
+  "best_model_sha256": "517b4008423b65ed3361946cfdbf8c24351289b7b1c392528ce1a853c52b025a",
+  "configuration": {
+    "experiment": "experiment_01",
+    "C": 4.0,
+    "class_weight": "balanced",
+    "solver": "lbfgs",
+    "penalty": "l2",
+    "max_iter": 3000,
+    "seed": 42,
+    "exact_agreement": 8,
+    "denominator": 40,
+    "exact_value": 0.2,
+    "path_agreement": 31,
+    "capability_agreement": 20,
+    "improved_primary": true,
+    "plateau_count": 0,
+    "training_seconds": 0.7693567276000977,
+    "model_sha256": "517b4008423b65ed3361946cfdbf8c24351289b7b1c392528ce1a853c52b025a"
+  },
+  "training_records": 232,
+  "validation_records": 40,
+  "gold_verified_accuracy": "NOT_MEASURED",
+  "encoder_frozen": true,
+  "no_original_model_replacement": true
+}

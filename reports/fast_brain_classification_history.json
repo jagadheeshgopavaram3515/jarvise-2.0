@@ -1,0 +1,1694 @@
+[
+  {
+    "record_id": "hist-008429183b0de313",
+    "text": "abhi Pune mein weather kaisa hai?",
+    "decision": "accept",
+    "reviewed_label": {
+      "capability_family": "weather",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "research",
+      "intent_family": "research",
+      "uncertainty": "medium"
+    },
+    "canonical_label": {
+      "capability_family": "weather",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "research",
+      "intent_family": "research",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": true,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-008429183b0de313",
+      "reviewed_at": "2026-09-27T07:31:13.720422+00:00",
+      "reviewed_label": {
+        "capability_family": "weather",
+        "clarification": {
+          "missing": [],
+          "required": false
+        },
+        "context_requirements": [
+          "active_task"
+        ],
+        "escalation": {
+          "candidate": false,
+          "reason": null
+        },
+        "execution_path": "research",
+        "intent_family": "research",
+        "uncertainty": "medium"
+      },
+      "reviewer_decision": "accept",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-01de1cb0cfcf916c",
+    "text": "browser lo https://docs.python.org open cheyyi.",
+    "decision": "accept",
+    "reviewed_label": {
+      "capability_family": "browser",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "qwen_agent",
+      "intent_family": "local_task",
+      "uncertainty": "medium"
+    },
+    "canonical_label": {
+      "capability_family": "browser",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "qwen_agent",
+      "intent_family": "local_task",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": true,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-01de1cb0cfcf916c",
+      "reviewed_at": "2026-09-27T07:41:38.956412+00:00",
+      "reviewed_label": {
+        "capability_family": "browser",
+        "clarification": {
+          "missing": [],
+          "required": false
+        },
+        "context_requirements": [
+          "active_task"
+        ],
+        "escalation": {
+          "candidate": false,
+          "reason": null
+        },
+        "execution_path": "qwen_agent",
+        "intent_family": "local_task",
+        "uncertainty": "medium"
+      },
+      "reviewer_decision": "accept",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-02e8f6d6dc03fb5f",
+    "text": "kitchen lights band karo",
+    "decision": "accept",
+    "reviewed_label": {
+      "capability_family": "none",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": true,
+        "reason": "unsupported_capability"
+      },
+      "execution_path": "respond",
+      "intent_family": "unsupported",
+      "uncertainty": "medium"
+    },
+    "canonical_label": {
+      "capability_family": "none",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": true,
+        "reason": "unsupported_capability"
+      },
+      "execution_path": "respond",
+      "intent_family": "unsupported",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": true,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-02e8f6d6dc03fb5f",
+      "reviewed_at": "2026-09-27T08:03:24.689155+00:00",
+      "reviewed_label": {
+        "capability_family": "none",
+        "clarification": {
+          "missing": [],
+          "required": false
+        },
+        "context_requirements": [
+          "active_task"
+        ],
+        "escalation": {
+          "candidate": true,
+          "reason": "unsupported_capability"
+        },
+        "execution_path": "respond",
+        "intent_family": "unsupported",
+        "uncertainty": "medium"
+      },
+      "reviewer_decision": "accept",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-05c7a0ac2d55d803",
+    "text": "ivala chala tiring ga undi, konchem matladadama",
+    "decision": "accept",
+    "reviewed_label": {
+      "capability_family": "none",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "respond",
+      "intent_family": "conversation",
+      "uncertainty": "medium"
+    },
+    "canonical_label": {
+      "capability_family": "none",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "respond",
+      "intent_family": "conversation",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": true,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-05c7a0ac2d55d803",
+      "reviewed_at": "2026-09-27T08:04:19.110138+00:00",
+      "reviewed_label": {
+        "capability_family": "none",
+        "clarification": {
+          "missing": [],
+          "required": false
+        },
+        "context_requirements": [
+          "active_task"
+        ],
+        "escalation": {
+          "candidate": false,
+          "reason": null
+        },
+        "execution_path": "respond",
+        "intent_family": "conversation",
+        "uncertainty": "medium"
+      },
+      "reviewer_decision": "accept",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-0677a7e5dd3b8149",
+    "text": "team outing ka plan recall karo",
+    "decision": "accept",
+    "reviewed_label": {
+      "capability_family": "memory",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "memory",
+      "intent_family": "memory",
+      "uncertainty": "medium"
+    },
+    "canonical_label": {
+      "capability_family": "memory",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "memory",
+      "intent_family": "memory",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": true,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-0677a7e5dd3b8149",
+      "reviewed_at": "2026-09-27T08:04:35.090999+00:00",
+      "reviewed_label": {
+        "capability_family": "memory",
+        "clarification": {
+          "missing": [],
+          "required": false
+        },
+        "context_requirements": [
+          "active_task"
+        ],
+        "escalation": {
+          "candidate": false,
+          "reason": null
+        },
+        "execution_path": "memory",
+        "intent_family": "memory",
+        "uncertainty": "medium"
+      },
+      "reviewer_decision": "accept",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-06d329132f24d014",
+    "text": "నా డౌన్‌లోడ్స్ ఫోల్డర్ తెరువు.",
+    "decision": "correct",
+    "reviewed_label": {
+      "capability_family": "file",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "qwen_agent",
+      "intent_family": "local_task",
+      "uncertainty": "medium"
+    },
+    "canonical_label": {
+      "capability_family": "none",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "respond",
+      "intent_family": "information",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": false,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-06d329132f24d014",
+      "reviewed_at": "2026-09-27T08:08:12.013020+00:00",
+      "reviewed_label": {
+        "capability_family": "file",
+        "clarification": {
+          "missing": [],
+          "required": false
+        },
+        "context_requirements": [
+          "active_task"
+        ],
+        "escalation": {
+          "candidate": false,
+          "reason": null
+        },
+        "execution_path": "qwen_agent",
+        "intent_family": "local_task",
+        "uncertainty": "medium"
+      },
+      "reviewer_decision": "correct",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-077b7471a9b6c016",
+    "text": "customer ki chat lo notify cheyyi",
+    "decision": "accept",
+    "reviewed_label": {
+      "capability_family": "none",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": true,
+        "reason": "unsupported_capability"
+      },
+      "execution_path": "respond",
+      "intent_family": "unsupported",
+      "uncertainty": "medium"
+    },
+    "canonical_label": {
+      "capability_family": "none",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": true,
+        "reason": "unsupported_capability"
+      },
+      "execution_path": "respond",
+      "intent_family": "unsupported",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": true,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-077b7471a9b6c016",
+      "reviewed_at": "2026-09-27T08:13:39.852499+00:00",
+      "reviewed_label": {
+        "capability_family": "none",
+        "clarification": {
+          "missing": [],
+          "required": false
+        },
+        "context_requirements": [
+          "active_task"
+        ],
+        "escalation": {
+          "candidate": true,
+          "reason": "unsupported_capability"
+        },
+        "execution_path": "respond",
+        "intent_family": "unsupported",
+        "uncertainty": "medium"
+      },
+      "reviewer_decision": "accept",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-083d8a0781cf4e8d",
+    "text": "నేను ఏ నగరంలో ఉన్నానో చెప్పు.",
+    "decision": "accept",
+    "reviewed_label": {
+      "capability_family": "location",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "respond",
+      "intent_family": "deterministic_action",
+      "uncertainty": "medium"
+    },
+    "canonical_label": {
+      "capability_family": "location",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "respond",
+      "intent_family": "deterministic_action",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": true,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-083d8a0781cf4e8d",
+      "reviewed_at": "2026-09-27T08:15:51.765480+00:00",
+      "reviewed_label": {
+        "capability_family": "location",
+        "clarification": {
+          "missing": [],
+          "required": false
+        },
+        "context_requirements": [
+          "active_task"
+        ],
+        "escalation": {
+          "candidate": false,
+          "reason": null
+        },
+        "execution_path": "respond",
+        "intent_family": "deterministic_action",
+        "uncertainty": "medium"
+      },
+      "reviewer_decision": "accept",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-0981ce2da9857e8a",
+    "text": "archive directory saamne lao",
+    "decision": "correct",
+    "reviewed_label": {
+      "capability_family": "file",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "qwen_agent",
+      "intent_family": "local_task",
+      "uncertainty": "medium"
+    },
+    "canonical_label": {
+      "capability_family": "none",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "respond",
+      "intent_family": "information",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": false,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-0981ce2da9857e8a",
+      "reviewed_at": "2026-09-27T08:19:08.437033+00:00",
+      "reviewed_label": {
+        "capability_family": "file",
+        "clarification": {
+          "missing": [],
+          "required": false
+        },
+        "context_requirements": [
+          "active_task"
+        ],
+        "escalation": {
+          "candidate": false,
+          "reason": null
+        },
+        "execution_path": "qwen_agent",
+        "intent_family": "local_task",
+        "uncertainty": "medium"
+      },
+      "reviewer_decision": "correct",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-0ad4098dc092e6c8",
+    "text": "डिज़ाइन मीटिंग में हमने क्या तय किया था?",
+    "decision": "accept",
+    "reviewed_label": {
+      "capability_family": "memory",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "memory",
+      "intent_family": "memory",
+      "uncertainty": "medium"
+    },
+    "canonical_label": {
+      "capability_family": "memory",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "memory",
+      "intent_family": "memory",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": true,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-0ad4098dc092e6c8",
+      "reviewed_at": "2026-09-27T09:16:21.638378+00:00",
+      "reviewed_label": {
+        "capability_family": "memory",
+        "clarification": {
+          "missing": [],
+          "required": false
+        },
+        "context_requirements": [
+          "active_task"
+        ],
+        "escalation": {
+          "candidate": false,
+          "reason": null
+        },
+        "execution_path": "memory",
+        "intent_family": "memory",
+        "uncertainty": "medium"
+      },
+      "reviewer_decision": "accept",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-0bf3c24d92a36351",
+    "text": "Schedule a calendar meeting with the supplier.",
+    "decision": "skip",
+    "reviewed_label": null,
+    "canonical_label": {
+      "capability_family": "none",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": true,
+        "reason": "unsupported_capability"
+      },
+      "execution_path": "respond",
+      "intent_family": "unsupported",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": null,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-0bf3c24d92a36351",
+      "reviewed_at": "2026-10-02T12:41:15.214016+00:00",
+      "reviewed_label": null,
+      "reviewer_decision": "skip",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-0e52654409ec9398",
+    "text": "mera resume file dhoondo",
+    "decision": "skip",
+    "reviewed_label": null,
+    "canonical_label": {
+      "capability_family": "file",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "qwen_agent",
+      "intent_family": "local_task",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": null,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-0e52654409ec9398",
+      "reviewed_at": "2026-10-02T12:46:18.959656+00:00",
+      "reviewed_label": null,
+      "reviewer_decision": "skip",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-0f5a36065b4b4f40",
+    "text": "ప్రాజెక్ట్‌లో TODO వ్యాఖ్యలు వెతికి, చూడాల్సిన ఫైళ్లను సంక్షిప్తంగా చెప్పు.",
+    "decision": "skip",
+    "reviewed_label": null,
+    "canonical_label": {
+      "capability_family": "none",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "qwen_agent",
+      "intent_family": "multi_step_task",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": null,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-0f5a36065b4b4f40",
+      "reviewed_at": "2026-10-02T12:47:38.095370+00:00",
+      "reviewed_label": null,
+      "reviewer_decision": "skip",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-106e0dba6c2df3db",
+    "text": "Rain के बाद rainbow क्यों दिखता है?",
+    "decision": "skip",
+    "reviewed_label": null,
+    "canonical_label": {
+      "capability_family": "none",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "respond",
+      "intent_family": "conversation",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": null,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-106e0dba6c2df3db",
+      "reviewed_at": "2026-10-02T12:50:12.801349+00:00",
+      "reviewed_label": null,
+      "reviewer_decision": "skip",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-12f3b891f117e30a",
+    "text": "Kubernetes overview se main ideas nikalo",
+    "decision": "skip",
+    "reviewed_label": null,
+    "canonical_label": {
+      "capability_family": "browser",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "qwen_agent",
+      "intent_family": "multi_step_task",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": null,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-12f3b891f117e30a",
+      "reviewed_at": "2026-10-02T12:52:41.926232+00:00",
+      "reviewed_label": null,
+      "reviewer_decision": "skip",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-135af44978a663cd",
+    "text": "varsham tarvata rainbow enduku kanipistundi?",
+    "decision": "skip",
+    "reviewed_label": null,
+    "canonical_label": {
+      "capability_family": "none",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "respond",
+      "intent_family": "conversation",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": null,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-135af44978a663cd",
+      "reviewed_at": "2026-10-02T13:37:42.669685+00:00",
+      "reviewed_label": null,
+      "reviewer_decision": "skip",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-14b4023aa37a6d05",
+    "text": "supplier-ku chat message anuppu",
+    "decision": "skip",
+    "reviewed_label": null,
+    "canonical_label": {
+      "capability_family": "none",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": true,
+        "reason": "unsupported_capability"
+      },
+      "execution_path": "respond",
+      "intent_family": "unsupported",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": null,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-14b4023aa37a6d05",
+      "reviewed_at": "2026-10-02T13:39:08.830555+00:00",
+      "reviewed_label": null,
+      "reviewer_decision": "skip",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-184946cff44a2ae0",
+    "text": "office thermostat-ai kurai",
+    "decision": "skip",
+    "reviewed_label": null,
+    "canonical_label": {
+      "capability_family": "none",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": true,
+        "reason": "unsupported_capability"
+      },
+      "execution_path": "respond",
+      "intent_family": "unsupported",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": null,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-184946cff44a2ae0",
+      "reviewed_at": "2026-10-02T13:57:09.569825+00:00",
+      "reviewed_label": null,
+      "reviewer_decision": "skip",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-188c526533ffa9a7",
+    "text": "ఇప్పుడు పుణెలో వాతావరణం ఎలా ఉంది?",
+    "decision": "skip",
+    "reviewed_label": null,
+    "canonical_label": {
+      "capability_family": "weather",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "research",
+      "intent_family": "research",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": null,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-188c526533ffa9a7",
+      "reviewed_at": "2026-10-02T13:57:19.377159+00:00",
+      "reviewed_label": null,
+      "reviewer_decision": "skip",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-196e919245b653c6",
+    "text": "do current AI stories dhoondh kar dono sources padho aur differences summarize karo.",
+    "decision": "skip",
+    "reviewed_label": null,
+    "canonical_label": {
+      "capability_family": "browser",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "qwen_agent",
+      "intent_family": "multi_step_task",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": null,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-196e919245b653c6",
+      "reviewed_at": "2026-10-02T13:57:33.819715+00:00",
+      "reviewed_label": null,
+      "reviewer_decision": "skip",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-19cc402ffa01eded",
+    "text": "spending spreadsheet locate karo",
+    "decision": "skip",
+    "reviewed_label": null,
+    "canonical_label": {
+      "capability_family": "file",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "qwen_agent",
+      "intent_family": "local_task",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": null,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-19cc402ffa01eded",
+      "reviewed_at": "2026-10-02T13:57:51.875271+00:00",
+      "reviewed_label": null,
+      "reviewer_decision": "skip",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-1aca000b7d468adf",
+    "text": "latest browser security update choodu",
+    "decision": "skip",
+    "reviewed_label": null,
+    "canonical_label": {
+      "capability_family": "research",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "research",
+      "intent_family": "research",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": null,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-1aca000b7d468adf",
+      "reviewed_at": "2026-10-02T14:45:38.820668+00:00",
+      "reviewed_label": null,
+      "reviewer_decision": "skip",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-1aec025eb71f9c74",
+    "text": "accessibility standard find chesi key points cheppu",
+    "decision": "skip",
+    "reviewed_label": null,
+    "canonical_label": {
+      "capability_family": "browser",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "qwen_agent",
+      "intent_family": "multi_step_task",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": null,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-1aec025eb71f9c74",
+      "reviewed_at": "2026-10-10T06:03:06.183009+00:00",
+      "reviewed_label": null,
+      "reviewer_decision": "skip",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-1b3779922ce65193",
+    "text": "newest Node.js LTS version thedu",
+    "decision": "accept",
+    "reviewed_label": {
+      "capability_family": "research",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "research",
+      "intent_family": "research",
+      "uncertainty": "medium"
+    },
+    "canonical_label": {
+      "capability_family": "research",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "research",
+      "intent_family": "research",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": true,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-1b3779922ce65193",
+      "reviewed_at": "2026-10-10T06:04:55.411557+00:00",
+      "reviewed_label": {
+        "capability_family": "research",
+        "clarification": {
+          "missing": [],
+          "required": false
+        },
+        "context_requirements": [
+          "active_task"
+        ],
+        "escalation": {
+          "candidate": false,
+          "reason": null
+        },
+        "execution_path": "research",
+        "intent_family": "research",
+        "uncertainty": "medium"
+      },
+      "reviewer_decision": "accept",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-1bc454a377585b0a",
+    "text": "Post this update to our team channel.",
+    "decision": "correct",
+    "reviewed_label": {
+      "capability_family": "none",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": true,
+        "reason": "unsupported_capability"
+      },
+      "execution_path": "respond",
+      "intent_family": "unsupported",
+      "uncertainty": "medium"
+    },
+    "canonical_label": {
+      "capability_family": "none",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": true,
+        "reason": "unsupported_capability"
+      },
+      "execution_path": "respond",
+      "intent_family": "unsupported",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": true,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-1bc454a377585b0a",
+      "reviewed_at": "2026-10-10T06:07:42.961843+00:00",
+      "reviewed_label": {
+        "capability_family": "none",
+        "clarification": {
+          "missing": [],
+          "required": false
+        },
+        "context_requirements": [
+          "active_task"
+        ],
+        "escalation": {
+          "candidate": true,
+          "reason": "unsupported_capability"
+        },
+        "execution_path": "respond",
+        "intent_family": "unsupported",
+        "uncertainty": "medium"
+      },
+      "reviewer_decision": "correct",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-1bceebae602d3c6b",
+    "text": "official WebAssembly guide find chesi read chesi summarize cheyyi",
+    "decision": "accept",
+    "reviewed_label": {
+      "capability_family": "browser",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "qwen_agent",
+      "intent_family": "multi_step_task",
+      "uncertainty": "medium"
+    },
+    "canonical_label": {
+      "capability_family": "browser",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "qwen_agent",
+      "intent_family": "multi_step_task",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": true,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-1bceebae602d3c6b",
+      "reviewed_at": "2026-10-10T06:10:04.855082+00:00",
+      "reviewed_label": {
+        "capability_family": "browser",
+        "clarification": {
+          "missing": [],
+          "required": false
+        },
+        "context_requirements": [
+          "active_task"
+        ],
+        "escalation": {
+          "candidate": false,
+          "reason": null
+        },
+        "execution_path": "qwen_agent",
+        "intent_family": "multi_step_task",
+        "uncertainty": "medium"
+      },
+      "reviewer_decision": "accept",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-1bd9413c15d79cc2",
+    "text": "today rupee dollar exchange rate entha check cheyyi",
+    "decision": "accept",
+    "reviewed_label": {
+      "capability_family": "research",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "research",
+      "intent_family": "research",
+      "uncertainty": "medium"
+    },
+    "canonical_label": {
+      "capability_family": "research",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "research",
+      "intent_family": "research",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": true,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-1bd9413c15d79cc2",
+      "reviewed_at": "2026-10-10T06:10:30.424705+00:00",
+      "reviewed_label": {
+        "capability_family": "research",
+        "clarification": {
+          "missing": [],
+          "required": false
+        },
+        "context_requirements": [
+          "active_task"
+        ],
+        "escalation": {
+          "candidate": false,
+          "reason": null
+        },
+        "execution_path": "research",
+        "intent_family": "research",
+        "uncertainty": "medium"
+      },
+      "reviewer_decision": "accept",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-1c41b233e2339116",
+    "text": "current Rust stable release check karo",
+    "decision": "accept",
+    "reviewed_label": {
+      "capability_family": "research",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "research",
+      "intent_family": "research",
+      "uncertainty": "medium"
+    },
+    "canonical_label": {
+      "capability_family": "research",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "research",
+      "intent_family": "research",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": true,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-1c41b233e2339116",
+      "reviewed_at": "2026-10-10T06:10:50.916696+00:00",
+      "reviewed_label": {
+        "capability_family": "research",
+        "clarification": {
+          "missing": [],
+          "required": false
+        },
+        "context_requirements": [
+          "active_task"
+        ],
+        "escalation": {
+          "candidate": false,
+          "reason": null
+        },
+        "execution_path": "research",
+        "intent_family": "research",
+        "uncertainty": "medium"
+      },
+      "reviewer_decision": "accept",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-1c7023d487ce1d97",
+    "text": "ప్రస్తుత ఏఐ వార్తల్లో రెండు కనుగొని, రెండు మూలాలను చదివి, తేడాలు చెప్పు.",
+    "decision": "accept",
+    "reviewed_label": {
+      "capability_family": "browser",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "qwen_agent",
+      "intent_family": "multi_step_task",
+      "uncertainty": "medium"
+    },
+    "canonical_label": {
+      "capability_family": "browser",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "qwen_agent",
+      "intent_family": "multi_step_task",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": true,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-1c7023d487ce1d97",
+      "reviewed_at": "2026-10-10T06:12:04.658722+00:00",
+      "reviewed_label": {
+        "capability_family": "browser",
+        "clarification": {
+          "missing": [],
+          "required": false
+        },
+        "context_requirements": [
+          "active_task"
+        ],
+        "escalation": {
+          "candidate": false,
+          "reason": null
+        },
+        "execution_path": "qwen_agent",
+        "intent_family": "multi_step_task",
+        "uncertainty": "medium"
+      },
+      "reviewer_decision": "accept",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-1cba8cae8c802a5d",
+    "text": "Rain తర్వాత rainbow ఎందుకు కనిపిస్తుంది?",
+    "decision": "accept",
+    "reviewed_label": {
+      "capability_family": "none",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "respond",
+      "intent_family": "conversation",
+      "uncertainty": "medium"
+    },
+    "canonical_label": {
+      "capability_family": "none",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "respond",
+      "intent_family": "conversation",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": true,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-1cba8cae8c802a5d",
+      "reviewed_at": "2026-10-10T06:13:32.447119+00:00",
+      "reviewed_label": {
+        "capability_family": "none",
+        "clarification": {
+          "missing": [],
+          "required": false
+        },
+        "context_requirements": [
+          "active_task"
+        ],
+        "escalation": {
+          "candidate": false,
+          "reason": null
+        },
+        "execution_path": "respond",
+        "intent_family": "conversation",
+        "uncertainty": "medium"
+      },
+      "reviewer_decision": "accept",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  },
+  {
+    "record_id": "hist-1cdf6ec820439b01",
+    "text": "today yen exchange rate entha",
+    "decision": "accept",
+    "reviewed_label": {
+      "capability_family": "research",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "research",
+      "intent_family": "research",
+      "uncertainty": "medium"
+    },
+    "canonical_label": {
+      "capability_family": "research",
+      "clarification": {
+        "missing": [],
+        "required": false
+      },
+      "context_requirements": [
+        "active_task"
+      ],
+      "escalation": {
+        "candidate": false,
+        "reason": null
+      },
+      "execution_path": "research",
+      "intent_family": "research",
+      "uncertainty": "medium"
+    },
+    "schema_error": null,
+    "same_as_canonical": true,
+    "historical_qwen_provenance": "not recoverable from persisted decision; no raw proposal/request link",
+    "source_record": {
+      "adjudication_status": "not_required",
+      "disagreement_fields": [],
+      "record_id": "hist-1cdf6ec820439b01",
+      "reviewed_at": "2026-10-10T06:17:50.480305+00:00",
+      "reviewed_label": {
+        "capability_family": "research",
+        "clarification": {
+          "missing": [],
+          "required": false
+        },
+        "context_requirements": [
+          "active_task"
+        ],
+        "escalation": {
+          "candidate": false,
+          "reason": null
+        },
+        "execution_path": "research",
+        "intent_family": "research",
+        "uncertainty": "medium"
+      },
+      "reviewer_decision": "accept",
+      "reviewer_id": "Jagadheesh",
+      "reviewer_notes": ""
+    }
+  }
+]

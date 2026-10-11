@@ -1,0 +1,5 @@
+﻿experiment,C,class_weight,solver,penalty,max_iter,seed,exact_agreement,denominator,exact_value,path_agreement,capability_agreement,improved_primary,plateau_count,training_seconds,model_sha256
+experiment_01,4.0,balanced,lbfgs,l2,3000,42,8,40,0.2,31,20,True,0,0.7693567276000977,517b4008423b65ed3361946cfdbf8c24351289b7b1c392528ce1a853c52b025a
+experiment_02,1.0,balanced,lbfgs,l2,3000,42,7,40,0.175,28,20,False,1,0.6166090965270996,f97fed21359202284e783e09d0a547efdcd91810d1aa11d99ba3514cd076e8e1
+experiment_03,16.0,balanced,lbfgs,l2,3000,42,8,40,0.2,26,20,False,2,0.7993700504302979,e05739a85fe83756689dfa35dd5e5ad0790b6ce4f9da824e4a44bdc7c9d96e93
+experiment_04,0.25,balanced,lbfgs,l2,3000,42,6,40,0.15,22,20,False,3,0.5129344463348389,f7dfec85b8ba855d0a4a1317636a084833c3d47b948992974ad5fcac3629227c

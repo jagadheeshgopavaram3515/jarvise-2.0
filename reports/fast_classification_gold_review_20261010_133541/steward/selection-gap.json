@@ -1,0 +1,9 @@
+{
+  "excluded_source_records": 75,
+  "needs_clarification": 75,
+  "legacy_missing_items": 75,
+  "expected_paths": {
+    "clarify": 75
+  },
+  "reason": "Review population is filtered by consolidation failures; this is not a random sample of source v4."
+}

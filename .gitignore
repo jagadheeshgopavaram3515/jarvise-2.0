@@ -25,6 +25,7 @@ venv/
 .venv/
 env/
 ENV/
+.benchmark-envs/
 
 # IDE / OS metadata
 .idea/

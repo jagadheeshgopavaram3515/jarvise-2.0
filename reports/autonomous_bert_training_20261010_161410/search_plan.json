@@ -1,0 +1,169 @@
+{
+  "configurations": [
+    {
+      "C": 4.0,
+      "class_weight": "balanced",
+      "solver": "lbfgs",
+      "penalty": "l2",
+      "max_iter": 3000,
+      "seed": 42
+    },
+    {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "solver": "lbfgs",
+      "penalty": "l2",
+      "max_iter": 3000,
+      "seed": 42
+    },
+    {
+      "C": 16.0,
+      "class_weight": "balanced",
+      "solver": "lbfgs",
+      "penalty": "l2",
+      "max_iter": 3000,
+      "seed": 42
+    },
+    {
+      "C": 0.25,
+      "class_weight": "balanced",
+      "solver": "lbfgs",
+      "penalty": "l2",
+      "max_iter": 3000,
+      "seed": 42
+    },
+    {
+      "C": 64.0,
+      "class_weight": "balanced",
+      "solver": "lbfgs",
+      "penalty": "l2",
+      "max_iter": 3000,
+      "seed": 42
+    },
+    {
+      "C": 4.0,
+      "class_weight": null,
+      "solver": "lbfgs",
+      "penalty": "l2",
+      "max_iter": 3000,
+      "seed": 42
+    },
+    {
+      "C": 1.0,
+      "class_weight": null,
+      "solver": "lbfgs",
+      "penalty": "l2",
+      "max_iter": 3000,
+      "seed": 42
+    },
+    {
+      "C": 16.0,
+      "class_weight": null,
+      "solver": "lbfgs",
+      "penalty": "l2",
+      "max_iter": 3000,
+      "seed": 42
+    },
+    {
+      "C": 0.25,
+      "class_weight": null,
+      "solver": "lbfgs",
+      "penalty": "l2",
+      "max_iter": 3000,
+      "seed": 42
+    },
+    {
+      "C": 64.0,
+      "class_weight": null,
+      "solver": "lbfgs",
+      "penalty": "l2",
+      "max_iter": 3000,
+      "seed": 42
+    },
+    {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "solver": "liblinear",
+      "penalty": "l1",
+      "max_iter": 3000,
+      "seed": 42
+    },
+    {
+      "C": 4.0,
+      "class_weight": "balanced",
+      "solver": "liblinear",
+      "penalty": "l1",
+      "max_iter": 3000,
+      "seed": 42
+    },
+    {
+      "C": 1.0,
+      "class_weight": null,
+      "solver": "liblinear",
+      "penalty": "l1",
+      "max_iter": 3000,
+      "seed": 42
+    },
+    {
+      "C": 4.0,
+      "class_weight": null,
+      "solver": "liblinear",
+      "penalty": "l1",
+      "max_iter": 3000,
+      "seed": 42
+    },
+    {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "solver": "liblinear",
+      "penalty": "l2",
+      "max_iter": 3000,
+      "seed": 42
+    },
+    {
+      "C": 4.0,
+      "class_weight": "balanced",
+      "solver": "liblinear",
+      "penalty": "l2",
+      "max_iter": 3000,
+      "seed": 42
+    },
+    {
+      "C": 1.0,
+      "class_weight": null,
+      "solver": "liblinear",
+      "penalty": "l2",
+      "max_iter": 3000,
+      "seed": 42
+    },
+    {
+      "C": 4.0,
+      "class_weight": null,
+      "solver": "liblinear",
+      "penalty": "l2",
+      "max_iter": 3000,
+      "seed": 42
+    },
+    {
+      "C": 4.0,
+      "class_weight": "balanced",
+      "solver": "lbfgs",
+      "penalty": "l2",
+      "max_iter": 6000,
+      "seed": 7
+    },
+    {
+      "C": 4.0,
+      "class_weight": "balanced",
+      "solver": "lbfgs",
+      "penalty": "l2",
+      "max_iter": 6000,
+      "seed": 17
+    }
+  ],
+  "max_experiments": 20,
+  "plateau_patience": 3,
+  "primary": "strict eight-target exact full-record agreement",
+  "selection_tie_break": "No score gain resets plateau; preserve first equal-scoring model; supplemental fields do not redefine primary",
+  "validation_frozen_hash": "6f8cf0d9a8b1b7aab65d2fc2918bf26d327af00b4c76bf28f94aaad936a36692"
+}

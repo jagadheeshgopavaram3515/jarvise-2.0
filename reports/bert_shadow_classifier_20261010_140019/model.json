@@ -1,0 +1,65 @@
+{
+  "adapter_id": "compact-mbert-frozen-v3",
+  "load_seconds": 45.944195399999444,
+  "heads": {
+    "execution_path": {
+      "type": "LogisticRegression",
+      "classes": [
+        "clarify",
+        "direct_response",
+        "escalate",
+        "memory_recall",
+        "multi_step_task",
+        "research",
+        "single_action"
+      ]
+    },
+    "clarification": {
+      "type": "LogisticRegression",
+      "classes": [
+        0,
+        1
+      ]
+    },
+    "escalation": {
+      "type": "LogisticRegression",
+      "classes": [
+        0,
+        1
+      ]
+    },
+    "missing_information": {
+      "type": "LogisticRegression",
+      "classes": [
+        "__none__",
+        "target"
+      ]
+    },
+    "reference_kind": {
+      "type": "LogisticRegression",
+      "classes": [
+        "__none__",
+        "item",
+        "prior_conversation"
+      ]
+    },
+    "reference_resolved": {
+      "type": "LogisticRegression",
+      "classes": [
+        0,
+        1
+      ]
+    },
+    "capability_matcher": {
+      "type": "LogisticRegression",
+      "classes": [
+        0,
+        1
+      ]
+    }
+  },
+  "artifact_sha256": "7f4dd399b7238c7bf0c166454c3ff5aa09d6e3bf1afb82666b526d43cf452f05",
+  "model_id": "nlptown/bert-base-multilingual-uncased-sentiment",
+  "max_length": 160,
+  "device": "cpu"
+}

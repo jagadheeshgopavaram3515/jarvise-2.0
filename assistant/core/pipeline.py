@@ -91,8 +91,10 @@ def start_services(bus: Bus) -> ReminderStore:
             return svc
 
         stt = spawn_stt()
-        bus.post_gui("status", "Loading speech model...")
-        bus.stt_ready.wait(timeout=config.STT_STARTUP_WAIT_SECONDS)
+        bus.post_gui("status", "Initializing Gemini speech recognition...")
+        # Initialization failure is signalled too; don't wait 90 seconds for a
+        # readiness event that cannot be set. Failure stays visible in the GUI.
+        stt.initialized.wait(timeout=config.STT_STARTUP_WAIT_SECONDS)
         audio = spawn_audio()
         monitor.register("STT", stt, spawn_stt, critical=True)
         monitor.register("AudioInput", audio, spawn_audio, critical=True)

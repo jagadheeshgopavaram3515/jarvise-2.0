@@ -1,0 +1,28 @@
+{
+  "frozen100": {
+    "v5_original": 53,
+    "v5_audited": 57,
+    "v5_flipped_records": [
+      "frozen100-056",
+      "frozen100-059",
+      "frozen100-060",
+      "frozen100-064"
+    ],
+    "v7_original": 63,
+    "v7_audited": 67,
+    "v7_flipped_records": [
+      "frozen100-056",
+      "frozen100-059",
+      "frozen100-060",
+      "frozen100-064"
+    ]
+  },
+  "corpus24": {
+    "v5_original": 13,
+    "v5_audited": 13,
+    "v5_flipped_records": [],
+    "v7_original": 14,
+    "v7_audited": 14,
+    "v7_flipped_records": []
+  }
+}

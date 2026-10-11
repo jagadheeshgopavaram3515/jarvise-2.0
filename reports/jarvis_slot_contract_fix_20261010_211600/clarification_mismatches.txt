@@ -1,0 +1,99 @@
+=== MISMATCHES INVOLVING MISSING_INFORMATION OR CLARIFICATION (FROZEN 100) ===
+ID: frozen100-033
+  Utterance: VS Code application open pannu
+  Failed: ['intent', 'execution_path', 'selected_capability', 'needs_clarification', 'missing_information', 'context_references']
+  Expected: {'intent': 'use:open_app', 'execution_path': 'single_action', 'selected_capability': 'open_app', 'needs_clarification': False, 'missing_information': [], 'context_references': []}
+  Predicted: {'intent': 'clarify_request', 'execution_path': 'clarify', 'selected_capability': None, 'needs_clarification': True, 'missing_information': [{'name': 'target', 'description': 'The requested target is not identifiable'}], 'context_references': [{'reference': 'VS Code application open pannu', 'kind': 'item', 'resolved_value': None}]}
+  Capabilities: ['open_app', 'find_file']
+  Required args: {'open_app': ['name'], 'find_file': ['query']}
+--------------------------------------------------
+ID: frozen100-058
+  Utterance: वह तुरंत खोलो
+  Failed: ['intent', 'execution_path', 'selected_capability', 'needs_clarification', 'missing_information', 'context_references']
+  Expected: {'intent': 'clarify_request', 'execution_path': 'clarify', 'selected_capability': None, 'needs_clarification': True, 'missing_information': [{'name': 'target', 'description': 'The requested target is not identifiable'}], 'context_references': [{'kind': 'item', 'reference': 'it', 'resolved_value': None}]}
+  Predicted: {'intent': 'use:open_folder', 'execution_path': 'single_action', 'selected_capability': 'open_folder', 'needs_clarification': False, 'missing_information': [], 'context_references': [{'reference': 'वह', 'kind': 'item', 'resolved_value': None}]}
+  Capabilities: ['open_folder', 'find_file']
+  Required args: {'open_folder': ['path'], 'find_file': ['query']}
+--------------------------------------------------
+ID: frozen100-061
+  Utterance: దీన్ని వెంటనే డిలీట్ చెయ్యి
+  Failed: ['intent', 'execution_path', 'needs_clarification', 'needs_escalation', 'missing_information', 'context_references']
+  Expected: {'intent': 'clarify_request', 'execution_path': 'clarify', 'needs_clarification': True, 'needs_escalation': False, 'missing_information': [{'name': 'target', 'description': 'The requested target is not identifiable'}], 'context_references': [{'kind': 'item', 'reference': 'it', 'resolved_value': None}]}
+  Predicted: {'intent': 'unsupported_request', 'execution_path': 'escalate', 'needs_clarification': False, 'needs_escalation': True, 'missing_information': [], 'context_references': []}
+  Capabilities: ['delete_file', 'delete_folder']
+  Required args: {'delete_file': ['path'], 'delete_folder': ['path']}
+--------------------------------------------------
+ID: frozen100-062
+  Utterance: అది ఓపెన్ చెయ్యి
+  Failed: ['intent', 'execution_path', 'selected_capability', 'needs_clarification', 'missing_information', 'context_references']
+  Expected: {'intent': 'clarify_request', 'execution_path': 'clarify', 'selected_capability': None, 'needs_clarification': True, 'missing_information': [{'name': 'target', 'description': 'The requested target is not identifiable'}], 'context_references': [{'kind': 'item', 'reference': 'it', 'resolved_value': None}]}
+  Predicted: {'intent': 'use:open_folder', 'execution_path': 'single_action', 'selected_capability': 'open_folder', 'needs_clarification': False, 'missing_information': [], 'context_references': []}
+  Capabilities: ['open_folder', 'find_file']
+  Required args: {'open_folder': ['path'], 'find_file': ['query']}
+--------------------------------------------------
+ID: frozen100-063
+  Utterance: danni ventane delete cheyyi
+  Failed: ['intent', 'execution_path', 'needs_clarification', 'needs_escalation', 'missing_information', 'context_references']
+  Expected: {'intent': 'clarify_request', 'execution_path': 'clarify', 'needs_clarification': True, 'needs_escalation': False, 'missing_information': [{'name': 'target', 'description': 'The requested target is not identifiable'}], 'context_references': [{'kind': 'item', 'reference': 'it', 'resolved_value': None}]}
+  Predicted: {'intent': 'unsupported_request', 'execution_path': 'escalate', 'needs_clarification': False, 'needs_escalation': True, 'missing_information': [], 'context_references': [{'reference': 'danni', 'kind': 'item', 'resolved_value': None}]}
+  Capabilities: ['delete_file', 'delete_folder']
+  Required args: {'delete_file': ['path'], 'delete_folder': ['path']}
+--------------------------------------------------
+ID: frozen100-065
+  Utterance: அதை உடனே அழித்துவிடு
+  Failed: ['intent', 'execution_path', 'needs_clarification', 'needs_escalation', 'missing_information', 'context_references']
+  Expected: {'intent': 'clarify_request', 'execution_path': 'clarify', 'needs_clarification': True, 'needs_escalation': False, 'missing_information': [{'name': 'target', 'description': 'The requested target is not identifiable'}], 'context_references': [{'kind': 'item', 'reference': 'it', 'resolved_value': None}]}
+  Predicted: {'intent': 'unsupported_request', 'execution_path': 'escalate', 'needs_clarification': False, 'needs_escalation': True, 'missing_information': [], 'context_references': []}
+  Capabilities: ['delete_file', 'delete_folder']
+  Required args: {'delete_file': ['path'], 'delete_folder': ['path']}
+--------------------------------------------------
+ID: frozen100-087
+  Utterance: photosynthesis enral enna brief-ah sollu
+  Failed: ['intent', 'execution_path', 'request_modes', 'needs_clarification', 'missing_information']
+  Expected: {'intent': 'respond', 'execution_path': 'direct_response', 'request_modes': ['conversational'], 'needs_clarification': False, 'missing_information': []}
+  Predicted: {'intent': 'clarify_request', 'execution_path': 'clarify', 'request_modes': ['action'], 'needs_clarification': True, 'missing_information': [{'name': 'target', 'description': 'The requested target is not identifiable'}]}
+  Capabilities: []
+  Required args: {}
+--------------------------------------------------
+
+=== MISMATCHES INVOLVING MISSING_INFORMATION OR CLARIFICATION (INDEPENDENT 24) ===
+ID: unseen-07-hi-ambiguous
+  Utterance: इसे हटा दो
+  Failed: ['intent', 'execution_path', 'request_modes', 'needs_clarification', 'needs_escalation', 'missing_information', 'context_references']
+  Expected: {'intent': 'clarify_request', 'execution_path': 'clarify', 'request_modes': ['action'], 'needs_clarification': True, 'needs_escalation': False, 'missing_information': [{'name': 'target', 'description': 'The requested target is not identifiable'}], 'context_references': [{'kind': 'item', 'reference': 'it', 'resolved_value': None}]}
+  Predicted: {'intent': 'unsupported_request', 'execution_path': 'escalate', 'request_modes': ['action', 'conversational'], 'needs_clarification': False, 'needs_escalation': True, 'missing_information': [], 'context_references': []}
+  Capabilities: ['delete_file', 'delete_folder']
+  Required args: {'delete_file': ['path'], 'delete_folder': ['path']}
+--------------------------------------------------
+ID: unseen-08-te-ambiguous
+  Utterance: danni ventane open cheyyi
+  Failed: ['intent', 'execution_path', 'needs_clarification', 'needs_escalation', 'missing_information', 'context_references']
+  Expected: {'intent': 'clarify_request', 'execution_path': 'clarify', 'needs_clarification': True, 'needs_escalation': False, 'missing_information': [{'name': 'target', 'description': 'The requested target is not identifiable'}], 'context_references': [{'kind': 'item', 'reference': 'it', 'resolved_value': None}]}
+  Predicted: {'intent': 'unsupported_request', 'execution_path': 'escalate', 'needs_clarification': False, 'needs_escalation': True, 'missing_information': [], 'context_references': [{'reference': 'danni', 'kind': 'item', 'resolved_value': None}]}
+  Capabilities: ['open_file', 'open_folder']
+  Required args: {'open_file': ['path'], 'open_folder': ['path']}
+--------------------------------------------------
+ID: unseen-09-ta-ambiguous
+  Utterance: அதை உடனே திற
+  Failed: ['intent', 'execution_path', 'needs_clarification', 'needs_escalation', 'missing_information', 'context_references']
+  Expected: {'intent': 'clarify_request', 'execution_path': 'clarify', 'needs_clarification': True, 'needs_escalation': False, 'missing_information': [{'name': 'target', 'description': 'The requested target is not identifiable'}], 'context_references': [{'kind': 'item', 'reference': 'it', 'resolved_value': None}]}
+  Predicted: {'intent': 'unsupported_request', 'execution_path': 'escalate', 'needs_clarification': False, 'needs_escalation': True, 'missing_information': [], 'context_references': []}
+  Capabilities: ['open_file', 'open_folder']
+  Required args: {'open_file': ['path'], 'open_folder': ['path']}
+--------------------------------------------------
+ID: unseen-20-ta-openapp
+  Utterance: VS Code application open pannu
+  Failed: ['intent', 'execution_path', 'selected_capability', 'needs_clarification', 'missing_information', 'context_references']
+  Expected: {'intent': 'use:open_app', 'execution_path': 'single_action', 'selected_capability': 'open_app', 'needs_clarification': False, 'missing_information': [], 'context_references': []}
+  Predicted: {'intent': 'clarify_request', 'execution_path': 'clarify', 'selected_capability': None, 'needs_clarification': True, 'missing_information': [{'name': 'target', 'description': 'The requested target is not identifiable'}], 'context_references': [{'reference': 'VS Code application open pannu', 'kind': 'item', 'resolved_value': None}]}
+  Capabilities: ['open_app', 'find_file']
+  Required args: {'open_app': ['name'], 'find_file': ['query']}
+--------------------------------------------------
+ID: unseen-23-hi-greeting
+  Utterance: Namaste JARVIS, aap kaise ho?
+  Failed: ['intent', 'execution_path', 'needs_clarification', 'missing_information', 'context_references']
+  Expected: {'intent': 'respond', 'execution_path': 'direct_response', 'needs_clarification': False, 'missing_information': [], 'context_references': []}
+  Predicted: {'intent': 'clarify_request', 'execution_path': 'clarify', 'needs_clarification': True, 'missing_information': [{'name': 'target', 'description': 'The requested target is not identifiable'}], 'context_references': [{'reference': 'Namaste JARVIS, aap kaise ho?', 'kind': 'item', 'resolved_value': None}]}
+  Capabilities: []
+  Required args: {}
+--------------------------------------------------

@@ -1,0 +1,701 @@
+{
+  "dataset_version": "compact-dataset-candidates-1.0.0",
+  "authorization": "User explicitly permits structurally valid synthetic_unverified fitting for this provisional experiment only; human-gold gate is not bypassed for gold claims",
+  "train": 232,
+  "validation": 40,
+  "train_ids": [
+    "compact-candidate-01f804a5d957803690de",
+    "compact-candidate-0241212b80111ed18351",
+    "compact-candidate-03534277222647728ed3",
+    "compact-candidate-04dd0899329eb287c77a",
+    "compact-candidate-0577f8db842d7fb8c553",
+    "compact-candidate-05ab0cf4f70b33c238c0",
+    "compact-candidate-072b9cde6c638a32bf94",
+    "compact-candidate-0760d252ac9933fca2b6",
+    "compact-candidate-0ad0c55a6fce9c4cfc28",
+    "compact-candidate-0e7b82dd0d7e758e1d52",
+    "compact-candidate-0f24efd35d9ed774b57e",
+    "compact-candidate-1013bbf8894a3b38c600",
+    "compact-candidate-10bb9426783ea13b5b75",
+    "compact-candidate-1317501c4696f828afee",
+    "compact-candidate-1324d18a22f4c4b9c9be",
+    "compact-candidate-1510959eac6faad5fd82",
+    "compact-candidate-16cadb89a18b964b61ce",
+    "compact-candidate-181476045ec2280732d5",
+    "compact-candidate-1858d9d97fe0f0a38f84",
+    "compact-candidate-19465b31ed6e55ee2781",
+    "compact-candidate-1b1d9ddee715efe78b08",
+    "compact-candidate-207b2164e3b71462f192",
+    "compact-candidate-20d2eb8fab5096a026a1",
+    "compact-candidate-211b38f7df1cf0aaca3f",
+    "compact-candidate-222860efcccf11621e4d",
+    "compact-candidate-223c8c99e8d407563035",
+    "compact-candidate-249d248b83aa32e4979d",
+    "compact-candidate-28f30e6aa5a60448878a",
+    "compact-candidate-2aa72e28bf57c209d101",
+    "compact-candidate-2ba2893565357447aa8d",
+    "compact-candidate-2be4f33e5c1d5600af2c",
+    "compact-candidate-2f2acfabbb5ac9833489",
+    "compact-candidate-2f42f7a4c44e723aed01",
+    "compact-candidate-307c54a773440b4b22a7",
+    "compact-candidate-35012918ed6b7fede8aa",
+    "compact-candidate-35d773802bcdf316b0ac",
+    "compact-candidate-36466c0ff9bc5b6d4a32",
+    "compact-candidate-376c7eb62f0f4d56d367",
+    "compact-candidate-397b60945242a66dee64",
+    "compact-candidate-39f0381205f82dbfbdb4",
+    "compact-candidate-3c2604095fec6b6d5ad9",
+    "compact-candidate-3c6e2d42bfac3ed18926",
+    "compact-candidate-3ca36344ddc112c5eea1",
+    "compact-candidate-3f485ba5df39b108af9a",
+    "compact-candidate-3fda385bb885ab5a419b",
+    "compact-candidate-4091f04489ee842c430d",
+    "compact-candidate-43ac3e0fd0e6a559af53",
+    "compact-candidate-45490bdbfb4688ffb865",
+    "compact-candidate-454e90d03651a5e27c45",
+    "compact-candidate-46d72a6c3ff8e35c661a",
+    "compact-candidate-47983698f430cb43932e",
+    "compact-candidate-479b534b8a7520ce4064",
+    "compact-candidate-47fe804940541926826a",
+    "compact-candidate-4a1df597aa3417bb6b85",
+    "compact-candidate-4b74f421bbb1a7ed467b",
+    "compact-candidate-4c869429a3c13f9eb722",
+    "compact-candidate-4d2edaaa6f5fa74541bb",
+    "compact-candidate-4f5392ea835c7d6d1c34",
+    "compact-candidate-4fb973eb26e33663cc68",
+    "compact-candidate-5123e13c7c16ffb01002",
+    "compact-candidate-527029e94b7bb21e6972",
+    "compact-candidate-52909f1e459461b9b0ba",
+    "compact-candidate-553865ac45a741ac2741",
+    "compact-candidate-5540dcf2307314ac7cff",
+    "compact-candidate-5557685552788ef21cec",
+    "compact-candidate-557209a02224db57a1d3",
+    "compact-candidate-5910ec057e1a54434d3b",
+    "compact-candidate-5a6aec462f77053da6fb",
+    "compact-candidate-5a99f35d51576ddd2f24",
+    "compact-candidate-5c6c61416e468920b1db",
+    "compact-candidate-5e806cdb3740268b4c5b",
+    "compact-candidate-613aeb1b4be1ea749594",
+    "compact-candidate-620a83c749708cc985af",
+    "compact-candidate-627010cbe808304bca3e",
+    "compact-candidate-62de7e11abc6600f64c6",
+    "compact-candidate-64542dc44d462b1a31ed",
+    "compact-candidate-64d036541a25b779834d",
+    "compact-candidate-65f6e571e0a7cc8bb449",
+    "compact-candidate-6660175ab7f2cef48d25",
+    "compact-candidate-66c1ac2f8195a0458666",
+    "compact-candidate-66d74dc9bc6cd2ed15e3",
+    "compact-candidate-671296e30afd9a30d365",
+    "compact-candidate-67237e98b617febac1d6",
+    "compact-candidate-67cf5caca35adaf201ba",
+    "compact-candidate-67ef4edaaabe7bbf5434",
+    "compact-candidate-6805a4a6f48631e57547",
+    "compact-candidate-6861a3d2dbb69323d211",
+    "compact-candidate-68f17127c384ca567045",
+    "compact-candidate-6acdc35e7ad86207849e",
+    "compact-candidate-6b746ae411762aa6641c",
+    "compact-candidate-6bed9890777a5a2b5dd1",
+    "compact-candidate-6e15df567936b3293a80",
+    "compact-candidate-6e38a917ccbd654448e9",
+    "compact-candidate-6e3e097fb7feea1072b3",
+    "compact-candidate-6f83fd7a61b299f4900e",
+    "compact-candidate-6f962d3ab0af5897bf2a",
+    "compact-candidate-703e7461a7b290277da8",
+    "compact-candidate-70f20ca5b3bb10216eba",
+    "compact-candidate-72f33ff673c7d8f8accf",
+    "compact-candidate-7347ccd54e16ae970746",
+    "compact-candidate-7399a2144f4897d8d97e",
+    "compact-candidate-7425a370a12a95505753",
+    "compact-candidate-751031634dc778d6e23e",
+    "compact-candidate-76168822794a80f56968",
+    "compact-candidate-7701bfbe6b0a7ce7beef",
+    "compact-candidate-7834a3ce2aee4a90822c",
+    "compact-candidate-7a8dfb99fd05a0c27ebd",
+    "compact-candidate-7bafa250bdf33662c5da",
+    "compact-candidate-7bec9cdd61396d91dbdc",
+    "compact-candidate-7d01e200fd7841422059",
+    "compact-candidate-7fa2bb7dadd327c9e2b1",
+    "compact-candidate-80f51782d7c985ed1bd3",
+    "compact-candidate-838d8a5cac67ee5c252e",
+    "compact-candidate-8420ac2abc70a2e17d78",
+    "compact-candidate-857b7f21e6cdb23139b3",
+    "compact-candidate-86f7df272bb980138ab1",
+    "compact-candidate-87fd53c22cbcc8f55e93",
+    "compact-candidate-887135e1763a753f8deb",
+    "compact-candidate-89b5b869806fd9206ca7",
+    "compact-candidate-89e4b574e1bace6a36c1",
+    "compact-candidate-89ff917276df7a107a9e",
+    "compact-candidate-8c4cad174d4abd9941e7",
+    "compact-candidate-8ce8e1f61220e83b20de",
+    "compact-candidate-8cfad91b1b4eee2d4116",
+    "compact-candidate-8d2c8de66cdc68a005d8",
+    "compact-candidate-8d5c2d30ebcb76e3020c",
+    "compact-candidate-8e554305a2379d76d0a1",
+    "compact-candidate-8e90c16c2637b39ed52c",
+    "compact-candidate-8fa2c565415c8603863c",
+    "compact-candidate-90529171cfa8c3e6156f",
+    "compact-candidate-907c87670c5a82c1c77e",
+    "compact-candidate-90f88ba20f9b50876abc",
+    "compact-candidate-91147a62bd6849f0bf52",
+    "compact-candidate-960a26d1b0d1135cd3e7",
+    "compact-candidate-9624f8172d2634d5309c",
+    "compact-candidate-97f0e847390483b4f6fb",
+    "compact-candidate-983c7cc7dd0a0b5812bc",
+    "compact-candidate-98fce5031579f80ee831",
+    "compact-candidate-9b134665d62caa7e3177",
+    "compact-candidate-9bd8a26c5cbbef5bb29e",
+    "compact-candidate-9c58e31a47f16ecec24a",
+    "compact-candidate-9cb855c66a789d46ac83",
+    "compact-candidate-9d583c7bcaeff0551394",
+    "compact-candidate-9d6b5477550b6a27bbb3",
+    "compact-candidate-9e4f14c2697eb1e88e90",
+    "compact-candidate-9eb78140cb32afdd778b",
+    "compact-candidate-9f577b85804749a3c212",
+    "compact-candidate-a0000b40d8f7bb678640",
+    "compact-candidate-a161e5f9508d8a817d05",
+    "compact-candidate-a5895cae282a1ee2c553",
+    "compact-candidate-a63067e147d168fdd840",
+    "compact-candidate-a6795935d690e0fe5053",
+    "compact-candidate-a8c0e92337f021baba92",
+    "compact-candidate-a8d8d1f7a32122127f9e",
+    "compact-candidate-aa01d058f0df8f606ab0",
+    "compact-candidate-ac62c205dcc794020a98",
+    "compact-candidate-ad78c34cdd58c2ad2acc",
+    "compact-candidate-b110eb209af735e6246b",
+    "compact-candidate-b1c472663d06c060057c",
+    "compact-candidate-b301810d927fbe238e0a",
+    "compact-candidate-b359fd6f6a6ceb57f34c",
+    "compact-candidate-b3f0a887e3e228f69cf6",
+    "compact-candidate-b47f0e9a8e49af29a732",
+    "compact-candidate-b4a69e4975dd41767073",
+    "compact-candidate-b745c595cc62150ce62b",
+    "compact-candidate-b7cae2d700efa53f4c3a",
+    "compact-candidate-b9a8b2c5aba57b9a61b3",
+    "compact-candidate-bb12009b3f6853fb0a6a",
+    "compact-candidate-bd08a557035281663d36",
+    "compact-candidate-bdc7e67cd1dcab624057",
+    "compact-candidate-be4a3acc2ad12c1eebe2",
+    "compact-candidate-bf1f30a54f54fa246ecd",
+    "compact-candidate-bf2d565869839685b5d2",
+    "compact-candidate-bfbea19eb3effce956df",
+    "compact-candidate-c0794236104c2567abda",
+    "compact-candidate-c0f1508d6e0ef0fb0c05",
+    "compact-candidate-c159d165af93974995f8",
+    "compact-candidate-c198193a109c1c6f512c",
+    "compact-candidate-c1b2225f978d0cbd6749",
+    "compact-candidate-c3096114561523d91cd6",
+    "compact-candidate-c3dc31551d6de2a631de",
+    "compact-candidate-c3e98c1d193253e440cf",
+    "compact-candidate-c45055e0f0975c431635",
+    "compact-candidate-c7a5ff761136fa916826",
+    "compact-candidate-c8f2bf84cd2d9c17d42a",
+    "compact-candidate-c8f6ca919631b5547471",
+    "compact-candidate-c90d7d10ab51b02efd67",
+    "compact-candidate-c92ba1ab0b1cb99b6ef0",
+    "compact-candidate-cd18176f06772ac1c183",
+    "compact-candidate-cd7c9d45916196931f46",
+    "compact-candidate-ce289c6a18608551833f",
+    "compact-candidate-cf1dd404c8f605379fe3",
+    "compact-candidate-cf69280125e692f42441",
+    "compact-candidate-d0c44602c68d80d09af8",
+    "compact-candidate-d18883f991f235de4fc7",
+    "compact-candidate-d2738056c6270981cbef",
+    "compact-candidate-d5b88fa887b5d82acedf",
+    "compact-candidate-d62d1e5c32caa4c7b6de",
+    "compact-candidate-da8158f3b389a226d6f6",
+    "compact-candidate-dca6bb7ffe62610af6fd",
+    "compact-candidate-ded18a15ede825e25228",
+    "compact-candidate-dee7e577139b11ae356b",
+    "compact-candidate-df43740313a3b796fc7f",
+    "compact-candidate-e422afd41ca622cf44b8",
+    "compact-candidate-e565b0dd59c99f4e5579",
+    "compact-candidate-e56e00df6b1df04c51d1",
+    "compact-candidate-e5b985de79bead0e55da",
+    "compact-candidate-e5f4eeb0829643b9d9ad",
+    "compact-candidate-e89819657b690d94c0b1",
+    "compact-candidate-e8bac6593c487f8cb00d",
+    "compact-candidate-e99aab20bb474b58e438",
+    "compact-candidate-eae39a0e6cf74062dbce",
+    "compact-candidate-eae7353e2fd6d2fa924f",
+    "compact-candidate-ecf25eed0b3ea22832cc",
+    "compact-candidate-edd0c8b9271d0fd2aa90",
+    "compact-candidate-efb1c316617588072b94",
+    "compact-candidate-f07b86d3f5e0826dbd16",
+    "compact-candidate-f4103f774d45f150b05f",
+    "compact-candidate-f47c3941e618ba6394ca",
+    "compact-candidate-f5296ce15eaa5e20bd51",
+    "compact-candidate-f68a54c93a1f45a52ff6",
+    "compact-candidate-f6b317c034e596f3c970",
+    "compact-candidate-f738c1ac4223491df5e9",
+    "compact-candidate-f7ccee397a6eeac6af28",
+    "compact-candidate-f837fd41a847dbad167e",
+    "compact-candidate-fa15e6f3d4f4cb1f1113",
+    "compact-candidate-fadd2c18115b59cde410",
+    "compact-candidate-fbbfed73e99d948ed1b6",
+    "compact-candidate-fd377b30d60315d83c20",
+    "compact-candidate-fdb68df8d1a7a3ec66bc",
+    "compact-candidate-fea6f5eef5be4555ab8f",
+    "compact-candidate-ffeae899a123a42ec2a6"
+  ],
+  "validation_ids": [
+    "compact-candidate-049de405e17f502f0a1d",
+    "compact-candidate-0b607b069fce05db80b3",
+    "compact-candidate-12497cce3ae1e67f9fe3",
+    "compact-candidate-174249e9e30faa16489a",
+    "compact-candidate-2d29d7e553b74ad50b31",
+    "compact-candidate-4b16f2d9ef5c913dd2c0",
+    "compact-candidate-58e4dcc4577d919e6740",
+    "compact-candidate-59dbe3caceaa6facaeec",
+    "compact-candidate-5bb41551bde7365c7e6f",
+    "compact-candidate-65bf34347dabf7f0e54b",
+    "compact-candidate-69e2f6b95e52fc983471",
+    "compact-candidate-78a00b34902b7b0d9c7b",
+    "compact-candidate-78b32893ee08710fbf15",
+    "compact-candidate-7917108a5d2747ee47e2",
+    "compact-candidate-7f974114dddee61bb30d",
+    "compact-candidate-893b671924b3cdf76af9",
+    "compact-candidate-8d9d53363a7e80b65910",
+    "compact-candidate-9134889c17e20b298d08",
+    "compact-candidate-9cb9c8bcba29e74f15ae",
+    "compact-candidate-9cbae89423d15f2284ba",
+    "compact-candidate-9d3a825394363d92559a",
+    "compact-candidate-a11b4d43765487268c13",
+    "compact-candidate-a327a6b2341b41d26929",
+    "compact-candidate-a576ef35587382c078ec",
+    "compact-candidate-a69cc23fe5cf19156f36",
+    "compact-candidate-ab3744d1834af5d70bb8",
+    "compact-candidate-b597c5565f28de025678",
+    "compact-candidate-c024e829657449ff7957",
+    "compact-candidate-c210c20fef2fd7008bc2",
+    "compact-candidate-c2f83913c33fa5767279",
+    "compact-candidate-c38f95986e35b22ce5e3",
+    "compact-candidate-cddfc38140aa4a573b0a",
+    "compact-candidate-d2949db37fafcfe62c2a",
+    "compact-candidate-e39074e52cecbf1ed55d",
+    "compact-candidate-eb30f6b10d4aea5d74e7",
+    "compact-candidate-efe6f8af703091366e1f",
+    "compact-candidate-eff9f24d7bf6cf6b71e0",
+    "compact-candidate-f8017db7fb2b0cca511b",
+    "compact-candidate-f9399bada1346bf6b5ec",
+    "compact-candidate-fcc84fb726806f3bc6d2"
+  ],
+  "exclusions": [
+    {
+      "record_id": "compact-candidate-0f52732c8a90ddd57612",
+      "original_id": "synth_unsupported_message-te-Latn-05",
+      "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+      "state": "pending_review"
+    },
+    {
+      "record_id": "compact-candidate-1dab0126fb0cef01f17b",
+      "original_id": "synth_find_budget_file-hi-Latn-05",
+      "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+      "state": "pending_review"
+    },
+    {
+      "record_id": "compact-candidate-1e1c6b872b43644ab53a",
+      "original_id": "train_escalate_temperature-ta-Latn",
+      "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+      "state": "pending_review"
+    },
+    {
+      "record_id": "compact-candidate-2047e6052bb58b6ffa45",
+      "original_id": "train_casual_checkin-te-Latn",
+      "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+      "state": "pending_review"
+    },
+    {
+      "record_id": "compact-candidate-2d0b28750681e8e9a1b0",
+      "original_id": "synth_unsupported_message-ta-Latn-01",
+      "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+      "state": "pending_review"
+    },
+    {
+      "record_id": "compact-candidate-41fc899c2a48bb687582",
+      "original_id": "synth_multistep_article-mixed-en-te-01",
+      "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+      "state": "pending_review"
+    },
+    {
+      "record_id": "compact-candidate-8cd1b3b69d719df2019f",
+      "original_id": "train_find_resume-hi-Latn",
+      "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+      "state": "pending_review"
+    },
+    {
+      "record_id": "compact-candidate-90154e7682c9292e375b",
+      "original_id": "synth_multistep_article-mixed-en-hi-02",
+      "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+      "state": "pending_review"
+    },
+    {
+      "record_id": "compact-candidate-9496804813df0c039ab9",
+      "original_id": "synth_recall_trip-hi-Latn-04",
+      "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+      "state": "pending_review"
+    },
+    {
+      "record_id": "compact-candidate-9936c5cfdede48c072cd",
+      "original_id": "synth_multistep_article-mixed-en-te-04",
+      "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+      "state": "pending_review"
+    },
+    {
+      "record_id": "compact-candidate-9bec4432e79d296f18bc",
+      "original_id": "train_escalate_lights-hi-Latn",
+      "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+      "state": "pending_review"
+    },
+    {
+      "record_id": "compact-candidate-abdae560e404df459cd0",
+      "original_id": "synth_current_release_research-mixed-en-te-02",
+      "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+      "state": "pending_review"
+    },
+    {
+      "record_id": "compact-candidate-c0b4655a17e8f5b91176",
+      "original_id": "train_research_market-mixed-en-te",
+      "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+      "state": "pending_review"
+    },
+    {
+      "record_id": "compact-candidate-d003d038c065e7940aa8",
+      "original_id": "synth_current_release_research-mixed-en-te-03",
+      "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+      "state": "pending_review"
+    },
+    {
+      "record_id": "compact-candidate-d8793e01ae466b459825",
+      "original_id": "synth_current_release_research-mixed-en-hi-01",
+      "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+      "state": "pending_review"
+    },
+    {
+      "record_id": "compact-candidate-dc9bf6759a3a6c13ad33",
+      "original_id": "synth_unsupported_message-en-02",
+      "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+      "state": "pending_review"
+    },
+    {
+      "record_id": "compact-candidate-e1c24b40e0c4fab440f3",
+      "original_id": "synth_current_release_research-mixed-en-ta-04",
+      "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+      "state": "pending_review"
+    },
+    {
+      "record_id": "compact-candidate-f49e03955957f0c6493f",
+      "original_id": "train_memory_meeting-hi",
+      "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+      "state": "pending_review"
+    }
+  ],
+  "seed": 42,
+  "primary_metric": "exact eight-target full-record agreement, preserving reference spans/descriptions; confidence/evidence are not dataset supervised targets",
+  "encoder_frozen": true,
+  "max_experiments": 20,
+  "patience": 3,
+  "inputs": {
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\dataset_manifest.json": {
+      "sha256": "ff37c5b100926db3fbe3b62d7ce2ff1ecb21c3bb39d11781a2bbc2f36598db0a",
+      "bytes": 28978
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\adjudication_ledger.jsonl": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\adjudication_proposals.jsonl": {
+      "sha256": "f31f27d94efea887f365ba277384b31a3e9b4be703331d2b4298f01be55e38e1",
+      "bytes": 16641
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\ambiguous_records.jsonl": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\approval_boundaries.md": {
+      "sha256": "65b523e6489717cc976ec8f441837ca9a89c5ee7fc61b7970a51bf9718978944",
+      "bytes": 2035
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\build_dataset.py": {
+      "sha256": "dab70bb219bfae50d91733663a89f08533212f1ce23e54396a420f42b425ff5f",
+      "bytes": 27706
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\build_summary.json": {
+      "sha256": "05ce8ff110a8422a1a5b727cfbf450e581a7a905edb8d26116a68e7a62e59b8c",
+      "bytes": 13878
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\candidate_train.jsonl": {
+      "sha256": "4c8d1b9a01ea0c289a313e585385a1123af82973f0a7f9d3b453370c07324797",
+      "bytes": 1790601
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\candidate_validation.jsonl": {
+      "sha256": "181038fcc3c8e049ef20f1b8210b08b5e9a2079dba1bf67c283f4f5745f295e4",
+      "bytes": 281936
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\class_coverage_by_split.csv": {
+      "sha256": "d3f57c71c529ec6cdc8e54bfe453b379980193c8d922598fb55fea5abb638ee9",
+      "bytes": 22317
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\context_reference_alignment_report.csv": {
+      "sha256": "d2b9375a0cbcc73a474ac050973e55ee4065d1b4b7bf13b9de65367f9d184e26",
+      "bytes": 17081
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\dataset_build_report.md": {
+      "sha256": "8ed8884000ee6a9eeaf8cc87d248d7f61dac15c4aaaa94e688e18c7941e88590",
+      "bytes": 15009
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\dataset_tools.py": {
+      "sha256": "9a5399c06ecbde936d8f31b7aedc06d6150581afd38286bae548ae427df7b459",
+      "bytes": 13369
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\data_collection_plan.csv": {
+      "sha256": "1becc727b68f232c0fb6b1d9746bc62c2a094906d2ff1c00a9000aa2df545733",
+      "bytes": 13186
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\descriptor_alignment_report.csv": {
+      "sha256": "2f672db436668ea1b74d68f2f8e17d2e9c062f042d123cba1291b36a24c0bac6",
+      "bytes": 236527
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\duplicate_group_report.csv": {
+      "sha256": "4132abc564accf2dc65d7c34afb2a8c9a58690033169420eaf465f0fff337033",
+      "bytes": 46131
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\experiment_readiness.md": {
+      "sha256": "ca9f33da39a86179edc9fe6715cff134981405df3ac2a1f5dc5558efef96d70e",
+      "bytes": 1497
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\FILES_CREATED.md": {
+      "sha256": "14c887f7333b6efe09033cc1a7cc5c9829c6f39fe9137b6e74555cce893100a3",
+      "bytes": 1935
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\finalize_build.py": {
+      "sha256": "e6691ff9e9408782d097a6965de5ac1454f3cf350083fe2b8356d6fab8ba5876",
+      "bytes": 39979
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\git_status_after.txt": {
+      "sha256": "41579bba97fd39f1a4da6be647ac770d978ca9c43a4ae949a9a267e00b37a987",
+      "bytes": 1775
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\git_status_before.txt": {
+      "sha256": "b38d43c734a8e552d08a08f7d542ee40d17109c13edd3e29e0e19979249d0304",
+      "bytes": 1778
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\integrity_checks.json": {
+      "sha256": "b9825f67006abd8b5c7dce914e3696a0967d1cf0a6fc807babc27b4bef71c280",
+      "bytes": 7251
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\label_mapping_manifest.json": {
+      "sha256": "bd7e8ab367abb561b853a0492db48be551670e26b0c45058f42f5d0f884eb001",
+      "bytes": 1805
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\label_mapping_report.csv": {
+      "sha256": "2f199ea8405392399a1f48604661f19747494ae3ab079a88c1735e95ead5d7dd",
+      "bytes": 675135
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\label_review_queue.csv": {
+      "sha256": "0c30919f958c853e95f24c6c9e2e022833cd0dd31b9c533c6fb98aaa02a5347a",
+      "bytes": 109114
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\language_script_coverage.csv": {
+      "sha256": "89ef4a16cf64facfc7cc7115cee15f15970cbc37298a0dffc734ab36a05bd19a",
+      "bytes": 113255
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\native_speaker_review.jsonl": {
+      "sha256": "1310860d47b0aa0fa6611d50284a93157645dd1cc9c9a12be93b5c5798392bc2",
+      "bytes": 182053
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\native_speaker_review_queue.csv": {
+      "sha256": "f0257026498eaee84d2199af24f9c2b5a0b16bbe42989269846f7f9b1b807dd6",
+      "bytes": 14078
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\pending_review.jsonl": {
+      "sha256": "ede44bf583dc4a70285810af497f8095321c49aa6624883873245ea11b5ca6c9",
+      "bytes": 156557
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\prepare_training_proposals.py": {
+      "sha256": "253619554faba9b1f42b0a2f53238feca2f0df5c507cc21b6bbe57a1c22c2d9f",
+      "bytes": 7779
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\proposed_reference_patch.diff": {
+      "sha256": "69e17b466cc73f6182b5133bfdb77d0076ffb4c9caa0c44afb60e8bfd5b657ac",
+      "bytes": 1259
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\proposed_training_patch.diff": {
+      "sha256": "4af569043f556de36c76aed71f0e9b70ca2127e7bac3b91704a239fb47134e35",
+      "bytes": 2278
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\protected_source_manifest.jsonl": {
+      "sha256": "cd22b44a6dcd1681a66f979a1d2f1de560b8784ecc378973b45fbfa609be3bc0",
+      "bytes": 68459
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\protected_test_manifest.json": {
+      "sha256": "b86ce43b6b04a12d698c3f1495cd1fc25ef175807d6ddc61b0009b126220ed02",
+      "bytes": 10326
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\quarantined_recovery_report.csv": {
+      "sha256": "a06e8af849acd1bd570d2600ef751a286809b14a08bd4456ced69d8cfc118fc4",
+      "bytes": 25735
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\rejected_records.jsonl": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\reviewer_mapping.jsonl": {
+      "sha256": "0b52f6142824e71dff0789c0e4267c4f9f5465a267ff4149d76f1e869e7e2fa7",
+      "bytes": 105458
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\schema_failures.jsonl": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\schema_validation_report.json": {
+      "sha256": "89151e7f5f6043e42bbfcf492c7896720c9e6358e5cd19159ddc5b4a4f5845c9",
+      "bytes": 46027
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\sealed_test.jsonl": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\source_provenance.json": {
+      "sha256": "3e503eca5738f8bce40dfd593dc403b8d181c89792892e8636599afa264c257f",
+      "bytes": 594607
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\split_integrity_report.json": {
+      "sha256": "f85f610e7fbd096d55834707d4803300afe0f248606fe2cffd1fc13cee06f0b2",
+      "bytes": 7021
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\split_manifest.json": {
+      "sha256": "22b9205d3213c57dd60b323cbc45e16d386bbe08c344fddc750eeb684d3d0916",
+      "bytes": 47828
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\synthetic_unverified.jsonl": {
+      "sha256": "61bf94ed4589fe1e7766ac120e4d7035dba4eb822e31ffe1dc5105740f786e92",
+      "bytes": 1898950
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\test_dataset_tools.py": {
+      "sha256": "66a1fd2b89b5bc83b90cdcf2dd31519608f5aebf0b31aa8f131a240b29f44172",
+      "bytes": 10244
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\test_output.txt": {
+      "sha256": "795466cea86e6b2c2853bda93022a37ae9f9fecc2cfb727dcb00bccbabb17f7d",
+      "bytes": 2791
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\test_results.json": {
+      "sha256": "b3266db6c578d765b7fcc1836c78a1b34350048daaee002d98a56f5534a25f2b",
+      "bytes": 290
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\train.jsonl": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\train_verified_candidate.py": {
+      "sha256": "2630de93d12f9034dc1684acc21fd826457711f25a26d2176f242e11abbe530c",
+      "bytes": 8531
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\validation.jsonl": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\reviewer\\annotation.schema.json": {
+      "sha256": "35f14c28cc787329cba032ba190923369c457727e797a0547344cc75ce734e06",
+      "bytes": 6483
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\reviewer\\input-hashes.json": {
+      "sha256": "b0a45c42e4baf05a63a733fcfa11896fece21efd713539a8dca133db89e6f744",
+      "bytes": 26975
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\reviewer\\judgment-template.json": {
+      "sha256": "c393bf163c8c710dea18571b761feb0204cbef4bb75c4e73cc3203b96d9235f9",
+      "bytes": 632
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\reviewer\\records.jsonl": {
+      "sha256": "403cbede886c530a54f86f1ef7370d87726829570108c5d246226416d5450b77",
+      "bytes": 245409
+    },
+    "D:\\JARVIS\\reports\\multilingual_dataset_build_20261010_155129\\reviewer\\reviewer-instructions.md": {
+      "sha256": "1e7dfbc26861c043d3783f430f973fde9bee2b3926c4f3456bb320769740ae73",
+      "bytes": 2533
+    },
+    "D:\\JARVIS\\benchmarks\\fast_classifier\\models\\v3\\compact_heads.joblib": {
+      "sha256": "7f4dd399b7238c7bf0c166454c3ff5aa09d6e3bf1afb82666b526d43cf452f05",
+      "bytes": 128417
+    },
+    "D:\\JARVIS\\benchmarks\\fast_classifier\\models\\v3\\compact_heads.json": {
+      "sha256": "11d5ea991df52e9eca952766a151cb99f6d8c825104d17116c06c01042c130c3",
+      "bytes": 9961
+    },
+    "D:\\JARVIS\\assistant\\orchestration\\compact_adapter.py": {
+      "sha256": "44b27e30c40a4c95ae46204d29c815d95ebdabe60b1cc0fddb50ed3b2119a854",
+      "bytes": 13889
+    },
+    "D:\\JARVIS\\assistant\\orchestration\\decision.py": {
+      "sha256": "aadf7e0459a8c10178a39dabe2aef55c38c4bb00044c3e0bb1bfd3594f3577eb",
+      "bytes": 10968
+    },
+    "D:\\JARVIS\\benchmarks\\fast_classifier\\train_candidate.py": {
+      "sha256": "57234b359a64c63e3c6fe91b10af901bf5f66cd4d259bddc39b05de4ddd55b9e",
+      "bytes": 8660
+    },
+    "D:\\JARVIS\\benchmarks\\fast_classifier\\evaluate.py": {
+      "sha256": "ee2bb147011c05ec69bbcf34da12191490b682070ec671e35d53055aad2008c8",
+      "bytes": 37379
+    },
+    "D:\\JARVIS\\assistant\\tools\\registry.py": {
+      "sha256": "11ee8bb78b0a4ab62eff63700110b1bf44afd2d845d4b0a597c28ec1feac9408",
+      "bytes": 14664
+    },
+    "D:\\JARVIS\\assistant\\audio\\capture.py": {
+      "sha256": "f8e4d3c80bcf951cf1ed3cca239bc9e0b65b7302a7da19da890f8ed3a6d4b100",
+      "bytes": 16571
+    },
+    "D:\\JARVIS\\assistant\\config.py": {
+      "sha256": "844e21428edd5a4ca109d90194619707276d6bfb8af26416777f374cb1c4b500",
+      "bytes": 21142
+    },
+    "D:\\JARVIS\\assistant\\core\\dispatcher.py": {
+      "sha256": "2745111f2cec650cd7b2e0498102e1c10ebcb4399137b7a6b6876f8e4e77a880",
+      "bytes": 12314
+    },
+    "D:\\JARVIS\\assistant\\core\\events.py": {
+      "sha256": "136180fa72ab830ce843e1d1303ee1f1c38def0e192f4ef4c9881d173b898938",
+      "bytes": 9668
+    },
+    "D:\\JARVIS\\assistant\\core\\pipeline.py": {
+      "sha256": "2500aa1fb86a2cefe74219042bdbf7d10e2a0eb62fb3e0bcd9a209caae97ff5a",
+      "bytes": 4977
+    },
+    "D:\\JARVIS\\assistant\\memory\\engine.py": {
+      "sha256": "e8f135be62375c859e757bc9d5d3d7501a43d9fbab8d1a73ee6e7b830c9435ed",
+      "bytes": 14581
+    },
+    "D:\\JARVIS\\assistant\\orchestration\\router.py": {
+      "sha256": "bde66332a0050ee18206af1a0ded1ac4ca73110ff3a27184f0359d204c556e20",
+      "bytes": 8626
+    },
+    "D:\\JARVIS\\assistant\\realtime\\manager.py": {
+      "sha256": "b1954bd80a8df8402ba96e7c548b9ee358b917b4ff4a82deb0b2b2c543daa9f0",
+      "bytes": 8990
+    },
+    "D:\\JARVIS\\assistant\\stt\\cloud.py": {
+      "sha256": "3f65d5d472dd0c1660431a974d0d64758e3303099e0baec54fdca742bf11e68b",
+      "bytes": 9400
+    },
+    "D:\\JARVIS\\assistant\\stt\\recognizer.py": {
+      "sha256": "4a481162527cc98cd09d6bbd844446affbd377613d11b33b69cf93effc2dbd03",
+      "bytes": 27355
+    },
+    "D:\\JARVIS\\tests\\test_ollama.py": {
+      "sha256": "e08bf1b44afb8da1e3db8aeff568c198d7b811bbbf508a11200b6a0e41a34c7c",
+      "bytes": 4836
+    },
+    "D:\\JARVIS\\tests\\test_orchestration.py": {
+      "sha256": "f6711e1b662b7eff8978c6db268a0889f1ebc8b89c3ac20b058903aea0cfbd13",
+      "bytes": 11384
+    },
+    "D:\\JARVIS\\tests\\test_resilience.py": {
+      "sha256": "b3e9d5145241d38438a5de7d1d292db18c4b14ce13971663ee0390486e04ca88",
+      "bytes": 9147
+    }
+  },
+  "train_sha256": "67d57286b528b62abb04355ecb0933c3906f5aa59805d8ff68df424b1afd4c6d",
+  "validation_sha256": "6f8cf0d9a8b1b7aab65d2fc2918bf26d327af00b4c76bf28f94aaad936a36692"
+}

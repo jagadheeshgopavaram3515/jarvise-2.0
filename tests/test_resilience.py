@@ -206,20 +206,19 @@ def test_stt_transcribe_failure_is_contained():
     import numpy as np
 
     bus = Bus()
-    svc = STTService.__new__(STTService)   # avoid heavy __init__ (no model load)
-    svc.bus = bus
-    svc._cloud = None
+    svc = STTService(bus)  # construction no longer loads any model
 
-    class BoomEngine:
+    class BoomProvider:
         def transcribe(self, *a, **k):
-            raise RuntimeError("whisper exploded")
-    svc.engine = BoomEngine()
+            raise RuntimeError("Gemini request failed")
+    svc._cloud = BoomProvider()
 
-    utt = Utterance(audio=np.zeros(1600, dtype=np.float32), is_partial=False,
+    utt = Utterance(audio=np.ones(1600, dtype=np.float32), is_partial=False,
                     utterance_id="x1")
     # Must NOT raise — the method swallows the transcribe error.
     svc._transcribe_and_emit(utt)
     assert bus.transcript_q.empty(), "a failed transcription should emit nothing"
+    svc._final_executor.shutdown(wait=True)
 
 
 # ============================ Phase 5: tool failure isolation (conversation) ===

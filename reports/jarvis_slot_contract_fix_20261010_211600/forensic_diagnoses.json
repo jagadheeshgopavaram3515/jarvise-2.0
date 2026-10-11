@@ -1,0 +1,1795 @@
+[
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-001",
+    "utterance": "Open my documents directory please",
+    "scenario_group": "corpus100-folder",
+    "language_code": null,
+    "failed_fields": [
+      "context_references"
+    ],
+    "expected_values": {
+      "context_references": []
+    },
+    "actual_values": {
+      "context_references": [
+        {
+          "reference": "Open my documents directory please",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ]
+    },
+    "responsible_component": "context_reference_extractor",
+    "category": "reference_resolution_or_annotation_artifact",
+    "evidence": "Expected context_references [] but predicted [{'reference': 'Open my documents directory please', 'kind': 'item', 'resolved_value': None}]. Utterance phrasing: 'Open my documents directory please'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-011",
+    "utterance": "பதிவிறக்கங்கள் கோப்புறையை திறக்கவும்",
+    "scenario_group": "corpus100-folder",
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "execution_path",
+      "request_modes",
+      "selected_capability",
+      "needs_escalation"
+    ],
+    "expected_values": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "needs_escalation": false
+    },
+    "actual_values": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action",
+        "research"
+      ],
+      "selected_capability": null,
+      "needs_escalation": true
+    },
+    "responsible_component": "execution_path_or_calibration",
+    "category": "semantic_misclassification_false_abstention",
+    "evidence": "Expected action with 'open_folder', but model abstained into 'escalate'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-013",
+    "utterance": "Find the quarterly financial report spreadsheet",
+    "scenario_group": "corpus100-file",
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "selected_capability"
+    ],
+    "expected_values": {
+      "intent": "use:find_file",
+      "selected_capability": "find_file"
+    },
+    "actual_values": {
+      "intent": "use:open_folder",
+      "selected_capability": "open_folder"
+    },
+    "responsible_component": "capability_ranker",
+    "category": "capability_ranking_error",
+    "evidence": "Expected capability 'find_file' but ranker chose 'open_folder'. Available: ['find_file', 'open_folder'].",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-015",
+    "utterance": "टैक्स रसीद की पीडीएफ फाइल ढूंढो",
+    "scenario_group": "corpus100-file",
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "selected_capability"
+    ],
+    "expected_values": {
+      "intent": "use:find_file",
+      "selected_capability": "find_file"
+    },
+    "actual_values": {
+      "intent": "use:open_folder",
+      "selected_capability": "open_folder"
+    },
+    "responsible_component": "capability_ranker",
+    "category": "capability_ranking_error",
+    "evidence": "Expected capability 'find_file' but ranker chose 'open_folder'. Available: ['find_file', 'open_folder'].",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-016",
+    "utterance": "प्रोजेक्ट प्रपोजल डॉक्यूमेंट तलाशो",
+    "scenario_group": "corpus100-file",
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "execution_path",
+      "selected_capability",
+      "needs_escalation"
+    ],
+    "expected_values": {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "selected_capability": "find_file",
+      "needs_escalation": false
+    },
+    "actual_values": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "selected_capability": null,
+      "needs_escalation": true
+    },
+    "responsible_component": "execution_path_or_calibration",
+    "category": "semantic_misclassification_false_abstention",
+    "evidence": "Expected action with 'find_file', but model abstained into 'escalate'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-017",
+    "utterance": "october invoice file search karo",
+    "scenario_group": "corpus100-file",
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "execution_path",
+      "selected_capability",
+      "needs_escalation",
+      "context_references"
+    ],
+    "expected_values": {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "selected_capability": "find_file",
+      "needs_escalation": false,
+      "context_references": []
+    },
+    "actual_values": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "selected_capability": null,
+      "needs_escalation": true,
+      "context_references": [
+        {
+          "reference": "october invoice file search karo",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ]
+    },
+    "responsible_component": "execution_path_or_calibration",
+    "category": "semantic_misclassification_false_abstention",
+    "evidence": "Expected action with 'find_file', but model abstained into 'escalate'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-019",
+    "utterance": "కాలేజ్ సర్టిఫికెట్ పిడిఎఫ్ ఫైల్ వెతుకు",
+    "scenario_group": "corpus100-file",
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "selected_capability"
+    ],
+    "expected_values": {
+      "intent": "use:find_file",
+      "selected_capability": "find_file"
+    },
+    "actual_values": {
+      "intent": "use:open_folder",
+      "selected_capability": "open_folder"
+    },
+    "responsible_component": "capability_ranker",
+    "category": "capability_ranking_error",
+    "evidence": "Expected capability 'find_file' but ranker chose 'open_folder'. Available: ['find_file', 'open_folder'].",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-023",
+    "utterance": "வருமான வரி ரசீது கோப்பை தேடு",
+    "scenario_group": "corpus100-file",
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "selected_capability"
+    ],
+    "expected_values": {
+      "intent": "use:find_file",
+      "selected_capability": "find_file"
+    },
+    "actual_values": {
+      "intent": "use:open_folder",
+      "selected_capability": "open_folder"
+    },
+    "responsible_component": "capability_ranker",
+    "category": "capability_ranking_error",
+    "evidence": "Expected capability 'find_file' but ranker chose 'open_folder'. Available: ['find_file', 'open_folder'].",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-028",
+    "utterance": "नोटपैड ऐप बंद करो",
+    "scenario_group": "corpus100-app",
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "selected_capability"
+    ],
+    "expected_values": {
+      "intent": "use:close_app",
+      "selected_capability": "close_app"
+    },
+    "actual_values": {
+      "intent": "use:open_folder",
+      "selected_capability": "open_folder"
+    },
+    "responsible_component": "capability_ranker",
+    "category": "capability_ranking_error",
+    "evidence": "Expected capability 'close_app' but ranker chose 'open_folder'. Available: ['close_app', 'open_folder'].",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-029",
+    "utterance": "Spotify application open karo",
+    "scenario_group": "corpus100-app",
+    "language_code": null,
+    "failed_fields": [
+      "context_references"
+    ],
+    "expected_values": {
+      "context_references": []
+    },
+    "actual_values": {
+      "context_references": [
+        {
+          "reference": "Spotify application open karo",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ]
+    },
+    "responsible_component": "context_reference_extractor",
+    "category": "reference_resolution_or_annotation_artifact",
+    "evidence": "Expected context_references [] but predicted [{'reference': 'Spotify application open karo', 'kind': 'item', 'resolved_value': None}]. Utterance phrasing: 'Spotify application open karo'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-033",
+    "utterance": "VS Code application open pannu",
+    "scenario_group": "corpus100-app",
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "execution_path",
+      "selected_capability",
+      "needs_clarification",
+      "missing_information",
+      "context_references"
+    ],
+    "expected_values": {
+      "intent": "use:open_app",
+      "execution_path": "single_action",
+      "selected_capability": "open_app",
+      "needs_clarification": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "actual_values": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "selected_capability": null,
+      "needs_clarification": true,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "reference": "VS Code application open pannu",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ]
+    },
+    "responsible_component": "execution_path_or_calibration",
+    "category": "semantic_misclassification_false_abstention",
+    "evidence": "Expected action with 'open_app', but model abstained into 'clarify'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-037",
+    "utterance": "भारत में आगामी चंद्र मिशन के बारे में गूगल सर्च करो",
+    "scenario_group": "corpus100-search",
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "execution_path",
+      "request_modes",
+      "selected_capability"
+    ],
+    "expected_values": {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search"
+    },
+    "actual_values": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null
+    },
+    "responsible_component": "classifier_head",
+    "category": "semantic_misclassification",
+    "evidence": "Expected capability 'google_search', but predicted None under path 'direct_response'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-038",
+    "utterance": "मशीन लर्निंग के नए एल्गोरिदम वेब पर खोजो",
+    "scenario_group": "corpus100-search",
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "selected_capability"
+    ],
+    "expected_values": {
+      "intent": "use:google_search",
+      "selected_capability": "google_search"
+    },
+    "actual_values": {
+      "intent": "use:open_folder",
+      "selected_capability": "open_folder"
+    },
+    "responsible_component": "capability_ranker",
+    "category": "capability_ranking_error",
+    "evidence": "Expected capability 'google_search' but ranker chose 'open_folder'. Available: ['google_search', 'open_folder'].",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-039",
+    "utterance": "Nifty latest market trends google search karo",
+    "scenario_group": "corpus100-search",
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "selected_capability"
+    ],
+    "expected_values": {
+      "intent": "use:google_search",
+      "selected_capability": "google_search"
+    },
+    "actual_values": {
+      "intent": "use:open_app",
+      "selected_capability": "open_app"
+    },
+    "responsible_component": "capability_ranker",
+    "category": "capability_ranking_error",
+    "evidence": "Expected capability 'google_search' but ranker chose 'open_app'. Available: ['google_search', 'open_app'].",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-041",
+    "utterance": "హైదరాబాద్ వాతావరణ అప్‌డేట్స్ గూగుల్ లో వెతుకు",
+    "scenario_group": "corpus100-search",
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "selected_capability"
+    ],
+    "expected_values": {
+      "intent": "use:google_search",
+      "selected_capability": "google_search"
+    },
+    "actual_values": {
+      "intent": "use:find_file",
+      "selected_capability": "find_file"
+    },
+    "responsible_component": "capability_ranker",
+    "category": "capability_ranking_error",
+    "evidence": "Expected capability 'google_search' but ranker chose 'find_file'. Available: ['google_search', 'find_file'].",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-042",
+    "utterance": "ఆర్టిఫిషియల్ ఇంటెలిజెన్స్ తాజా వార్తలు వెతుకు",
+    "scenario_group": "corpus100-search",
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "selected_capability"
+    ],
+    "expected_values": {
+      "intent": "use:google_search",
+      "selected_capability": "google_search"
+    },
+    "actual_values": {
+      "intent": "use:open_folder",
+      "selected_capability": "open_folder"
+    },
+    "responsible_component": "capability_ranker",
+    "category": "capability_ranking_error",
+    "evidence": "Expected capability 'google_search' but ranker chose 'open_folder'. Available: ['google_search', 'open_folder'].",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-043",
+    "utterance": "India vs Australia live match score google search cheyyi",
+    "scenario_group": "corpus100-search",
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "execution_path",
+      "request_modes",
+      "selected_capability",
+      "needs_escalation"
+    ],
+    "expected_values": {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "needs_escalation": false
+    },
+    "actual_values": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action",
+        "research"
+      ],
+      "selected_capability": null,
+      "needs_escalation": true
+    },
+    "responsible_component": "execution_path_or_calibration",
+    "category": "semantic_misclassification_false_abstention",
+    "evidence": "Expected action with 'google_search', but model abstained into 'escalate'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-045",
+    "utterance": "தமிழ்நாடு சமீபத்திய செய்தி இணையத்தில் தேடு",
+    "scenario_group": "corpus100-search",
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "selected_capability"
+    ],
+    "expected_values": {
+      "intent": "use:google_search",
+      "selected_capability": "google_search"
+    },
+    "actual_values": {
+      "intent": "use:open_folder",
+      "selected_capability": "open_folder"
+    },
+    "responsible_component": "capability_ranker",
+    "category": "capability_ranking_error",
+    "evidence": "Expected capability 'google_search' but ranker chose 'open_folder'. Available: ['google_search', 'open_folder'].",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-048",
+    "utterance": "Read this web page for me",
+    "scenario_group": "corpus100-webpage",
+    "language_code": null,
+    "failed_fields": [
+      "context_references"
+    ],
+    "expected_values": {
+      "context_references": []
+    },
+    "actual_values": {
+      "context_references": [
+        {
+          "reference": "this",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ]
+    },
+    "responsible_component": "context_reference_extractor",
+    "category": "reference_resolution_or_annotation_artifact",
+    "evidence": "Expected context_references [] but predicted [{'reference': 'this', 'kind': 'item', 'resolved_value': None}]. Utterance phrasing: 'Read this web page for me'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-050",
+    "utterance": "web page read karke batao",
+    "scenario_group": "corpus100-webpage",
+    "language_code": null,
+    "failed_fields": [
+      "context_references"
+    ],
+    "expected_values": {
+      "context_references": []
+    },
+    "actual_values": {
+      "context_references": [
+        {
+          "reference": "web page read karke batao",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ]
+    },
+    "responsible_component": "context_reference_extractor",
+    "category": "reference_resolution_or_annotation_artifact",
+    "evidence": "Expected context_references [] but predicted [{'reference': 'web page read karke batao', 'kind': 'item', 'resolved_value': None}]. Utterance phrasing: 'web page read karke batao'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-052",
+    "utterance": "a web page chadivi summary ivvu",
+    "scenario_group": "corpus100-webpage",
+    "language_code": null,
+    "failed_fields": [
+      "request_modes"
+    ],
+    "expected_values": {
+      "request_modes": [
+        "action"
+      ]
+    },
+    "actual_values": {
+      "request_modes": [
+        "action",
+        "research"
+      ]
+    },
+    "responsible_component": "adapter_postprocessing",
+    "category": "other_discrepancy",
+    "evidence": "Failed fields: ['request_modes'].",
+    "confidence": "MEDIUM"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-054",
+    "utterance": "web page-ai padithu sollu",
+    "scenario_group": "corpus100-webpage",
+    "language_code": null,
+    "failed_fields": [
+      "context_references"
+    ],
+    "expected_values": {
+      "context_references": []
+    },
+    "actual_values": {
+      "context_references": [
+        {
+          "reference": "web page-ai padithu sollu",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ]
+    },
+    "responsible_component": "context_reference_extractor",
+    "category": "reference_resolution_or_annotation_artifact",
+    "evidence": "Expected context_references [] but predicted [{'reference': 'web page-ai padithu sollu', 'kind': 'item', 'resolved_value': None}]. Utterance phrasing: 'web page-ai padithu sollu'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-056",
+    "utterance": "Delete that completely",
+    "scenario_group": "corpus100-clarify",
+    "language_code": null,
+    "failed_fields": [
+      "context_references"
+    ],
+    "expected_values": {
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "actual_values": {
+      "context_references": [
+        {
+          "reference": "that",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ]
+    },
+    "responsible_component": "context_reference_extractor",
+    "category": "reference_resolution_or_annotation_artifact",
+    "evidence": "Expected context_references [{'kind': 'item', 'reference': 'it', 'resolved_value': None}] but predicted [{'reference': 'that', 'kind': 'item', 'resolved_value': None}]. Utterance phrasing: 'Delete that completely'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-057",
+    "utterance": "इसे तुरंत हटाओ",
+    "scenario_group": "corpus100-clarify",
+    "language_code": null,
+    "failed_fields": [
+      "context_references"
+    ],
+    "expected_values": {
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "actual_values": {
+      "context_references": []
+    },
+    "responsible_component": "context_reference_extractor",
+    "category": "reference_resolution_or_annotation_artifact",
+    "evidence": "Expected context_references [{'kind': 'item', 'reference': 'it', 'resolved_value': None}] but predicted []. Utterance phrasing: 'इसे तुरंत हटाओ'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-058",
+    "utterance": "वह तुरंत खोलो",
+    "scenario_group": "corpus100-clarify",
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "execution_path",
+      "selected_capability",
+      "needs_clarification",
+      "missing_information",
+      "context_references"
+    ],
+    "expected_values": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "selected_capability": null,
+      "needs_clarification": true,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "actual_values": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "selected_capability": "open_folder",
+      "needs_clarification": false,
+      "missing_information": [],
+      "context_references": [
+        {
+          "reference": "वह",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ]
+    },
+    "responsible_component": "capability_ranker_or_threshold",
+    "category": "semantic_misclassification_false_action",
+    "evidence": "Expected no capability (path=clarify), but ranker committed to 'open_folder'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-059",
+    "utterance": "use turant open karo",
+    "scenario_group": "corpus100-clarify",
+    "language_code": null,
+    "failed_fields": [
+      "context_references"
+    ],
+    "expected_values": {
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "actual_values": {
+      "context_references": [
+        {
+          "reference": "use",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ]
+    },
+    "responsible_component": "context_reference_extractor",
+    "category": "reference_resolution_or_annotation_artifact",
+    "evidence": "Expected context_references [{'kind': 'item', 'reference': 'it', 'resolved_value': None}] but predicted [{'reference': 'use', 'kind': 'item', 'resolved_value': None}]. Utterance phrasing: 'use turant open karo'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-060",
+    "utterance": "isse delete kar do",
+    "scenario_group": "corpus100-clarify",
+    "language_code": null,
+    "failed_fields": [
+      "context_references"
+    ],
+    "expected_values": {
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "actual_values": {
+      "context_references": [
+        {
+          "reference": "isse",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ]
+    },
+    "responsible_component": "context_reference_extractor",
+    "category": "reference_resolution_or_annotation_artifact",
+    "evidence": "Expected context_references [{'kind': 'item', 'reference': 'it', 'resolved_value': None}] but predicted [{'reference': 'isse', 'kind': 'item', 'resolved_value': None}]. Utterance phrasing: 'isse delete kar do'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-061",
+    "utterance": "దీన్ని వెంటనే డిలీట్ చెయ్యి",
+    "scenario_group": "corpus100-clarify",
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "execution_path",
+      "needs_clarification",
+      "needs_escalation",
+      "missing_information",
+      "context_references"
+    ],
+    "expected_values": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "actual_values": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "missing_information": [],
+      "context_references": []
+    },
+    "responsible_component": "escalation_head_or_threshold",
+    "category": "false_escalation",
+    "evidence": "Expected path 'clarify', but model escalated to 'escalate'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-062",
+    "utterance": "అది ఓపెన్ చెయ్యి",
+    "scenario_group": "corpus100-clarify",
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "execution_path",
+      "selected_capability",
+      "needs_clarification",
+      "missing_information",
+      "context_references"
+    ],
+    "expected_values": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "selected_capability": null,
+      "needs_clarification": true,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "actual_values": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "selected_capability": "open_folder",
+      "needs_clarification": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "responsible_component": "capability_ranker_or_threshold",
+    "category": "semantic_misclassification_false_action",
+    "evidence": "Expected no capability (path=clarify), but ranker committed to 'open_folder'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-063",
+    "utterance": "danni ventane delete cheyyi",
+    "scenario_group": "corpus100-clarify",
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "execution_path",
+      "needs_clarification",
+      "needs_escalation",
+      "missing_information",
+      "context_references"
+    ],
+    "expected_values": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "actual_values": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "missing_information": [],
+      "context_references": [
+        {
+          "reference": "danni",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ]
+    },
+    "responsible_component": "escalation_head_or_threshold",
+    "category": "false_escalation",
+    "evidence": "Expected path 'clarify', but model escalated to 'escalate'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-064",
+    "utterance": "idi malli open cheyyi",
+    "scenario_group": "corpus100-clarify",
+    "language_code": null,
+    "failed_fields": [
+      "context_references"
+    ],
+    "expected_values": {
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "actual_values": {
+      "context_references": [
+        {
+          "reference": "idi",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ]
+    },
+    "responsible_component": "context_reference_extractor",
+    "category": "reference_resolution_or_annotation_artifact",
+    "evidence": "Expected context_references [{'kind': 'item', 'reference': 'it', 'resolved_value': None}] but predicted [{'reference': 'idi', 'kind': 'item', 'resolved_value': None}]. Utterance phrasing: 'idi malli open cheyyi'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-065",
+    "utterance": "அதை உடனே அழித்துவிடு",
+    "scenario_group": "corpus100-clarify",
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "execution_path",
+      "needs_clarification",
+      "needs_escalation",
+      "missing_information",
+      "context_references"
+    ],
+    "expected_values": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "actual_values": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "missing_information": [],
+      "context_references": []
+    },
+    "responsible_component": "escalation_head_or_threshold",
+    "category": "false_escalation",
+    "evidence": "Expected path 'clarify', but model escalated to 'escalate'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-066",
+    "utterance": "athai marubadiyum open pannu",
+    "scenario_group": "corpus100-clarify",
+    "language_code": null,
+    "failed_fields": [
+      "context_references"
+    ],
+    "expected_values": {
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "actual_values": {
+      "context_references": [
+        {
+          "reference": "athai",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ]
+    },
+    "responsible_component": "context_reference_extractor",
+    "category": "reference_resolution_or_annotation_artifact",
+    "evidence": "Expected context_references [{'kind': 'item', 'reference': 'it', 'resolved_value': None}] but predicted [{'reference': 'athai', 'kind': 'item', 'resolved_value': None}]. Utterance phrasing: 'athai marubadiyum open pannu'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-073",
+    "utterance": "మన త్రిశూల్ ప్రాజెక్ట్ నిర్ణయం గుర్తుచేయి",
+    "scenario_group": "corpus100-memory",
+    "language_code": null,
+    "failed_fields": [
+      "context_references"
+    ],
+    "expected_values": {
+      "context_references": [
+        {
+          "kind": "project",
+          "reference": "త్రిశూల్ ప్రాజెక్ట్",
+          "resolved_value": "Security Mesh"
+        }
+      ]
+    },
+    "actual_values": {
+      "context_references": []
+    },
+    "responsible_component": "context_reference_extractor",
+    "category": "reference_resolution_or_annotation_artifact",
+    "evidence": "Expected context_references [{'kind': 'project', 'reference': 'త్రిశూల్ ప్రాజెక్ట్', 'resolved_value': 'Security Mesh'}] but predicted []. Utterance phrasing: 'మన త్రిశూల్ ప్రాజెక్ట్ నిర్ణయం గుర్తుచేయి'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-085",
+    "utterance": "CPU ante enti brief ga cheppu",
+    "scenario_group": "corpus100-direct",
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "execution_path",
+      "request_modes",
+      "needs_escalation"
+    ],
+    "expected_values": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "needs_escalation": false
+    },
+    "actual_values": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "needs_escalation": true
+    },
+    "responsible_component": "escalation_head_or_threshold",
+    "category": "false_escalation",
+    "evidence": "Expected path 'direct_response', but model escalated to 'escalate'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-087",
+    "utterance": "photosynthesis enral enna brief-ah sollu",
+    "scenario_group": "corpus100-direct",
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "execution_path",
+      "request_modes",
+      "needs_clarification",
+      "missing_information"
+    ],
+    "expected_values": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "needs_clarification": false,
+      "missing_information": []
+    },
+    "actual_values": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "needs_clarification": true,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ]
+    },
+    "responsible_component": "clarification_head_or_threshold",
+    "category": "false_clarification",
+    "evidence": "Expected path 'direct_response', but model triggered clarification.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-088",
+    "utterance": "Hi JARVIS, how is your performance today?",
+    "scenario_group": "corpus100-direct",
+    "language_code": null,
+    "failed_fields": [
+      "request_modes"
+    ],
+    "expected_values": {
+      "request_modes": [
+        "conversational"
+      ]
+    },
+    "actual_values": {
+      "request_modes": [
+        "conversational",
+        "research"
+      ]
+    },
+    "responsible_component": "adapter_postprocessing",
+    "category": "other_discrepancy",
+    "evidence": "Failed fields: ['request_modes'].",
+    "confidence": "MEDIUM"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-089",
+    "utterance": "Guide me step by step through setting up a Kubernetes cluster on AWS",
+    "scenario_group": "corpus100-multistep",
+    "language_code": null,
+    "failed_fields": [
+      "intent"
+    ],
+    "expected_values": {
+      "intent": "use:google_search"
+    },
+    "actual_values": {
+      "intent": "research"
+    },
+    "responsible_component": "execution_path_head",
+    "category": "path_or_intent_misclassification",
+    "evidence": "Expected path 'None' / intent 'use:google_search', got 'None' / 'research'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-090",
+    "utterance": "Show me the step by step instructions to configure SSL certificates on Nginx",
+    "scenario_group": "corpus100-multistep",
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "execution_path",
+      "selected_capability",
+      "needs_escalation"
+    ],
+    "expected_values": {
+      "intent": "use:google_search",
+      "execution_path": "multi_step_task",
+      "selected_capability": "google_search",
+      "needs_escalation": false
+    },
+    "actual_values": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "selected_capability": null,
+      "needs_escalation": true
+    },
+    "responsible_component": "execution_path_or_calibration",
+    "category": "semantic_misclassification_false_abstention",
+    "evidence": "Expected action with 'google_search', but model abstained into 'escalate'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-091",
+    "utterance": "Ubuntu Linux dual boot install karne ke steps guide karo",
+    "scenario_group": "corpus100-multistep",
+    "language_code": null,
+    "failed_fields": [
+      "intent"
+    ],
+    "expected_values": {
+      "intent": "use:google_search"
+    },
+    "actual_values": {
+      "intent": "research"
+    },
+    "responsible_component": "execution_path_head",
+    "category": "path_or_intent_misclassification",
+    "evidence": "Expected path 'None' / intent 'use:google_search', got 'None' / 'research'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-092",
+    "utterance": "GitHub actions CI CD setup step by step guide cheyyi",
+    "scenario_group": "corpus100-multistep",
+    "language_code": null,
+    "failed_fields": [
+      "intent"
+    ],
+    "expected_values": {
+      "intent": "use:google_search"
+    },
+    "actual_values": {
+      "intent": "research"
+    },
+    "responsible_component": "execution_path_head",
+    "category": "path_or_intent_misclassification",
+    "evidence": "Expected path 'None' / intent 'use:google_search', got 'None' / 'research'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-093",
+    "utterance": "Docker container deploy panna step by step guide pannu",
+    "scenario_group": "corpus100-multistep",
+    "language_code": null,
+    "failed_fields": [
+      "intent"
+    ],
+    "expected_values": {
+      "intent": "use:google_search"
+    },
+    "actual_values": {
+      "intent": "research"
+    },
+    "responsible_component": "execution_path_head",
+    "category": "path_or_intent_misclassification",
+    "evidence": "Expected path 'None' / intent 'use:google_search', got 'None' / 'research'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-094",
+    "utterance": "Postgres database backup restore karne ke steps guide karo",
+    "scenario_group": "corpus100-multistep",
+    "language_code": null,
+    "failed_fields": [
+      "intent"
+    ],
+    "expected_values": {
+      "intent": "use:google_search"
+    },
+    "actual_values": {
+      "intent": "research"
+    },
+    "responsible_component": "execution_path_head",
+    "category": "path_or_intent_misclassification",
+    "evidence": "Expected path 'None' / intent 'use:google_search', got 'None' / 'research'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-097",
+    "utterance": "दिल्ली से मुंबई की फ्लाइट टिकट बुक कर दो",
+    "scenario_group": "corpus100-escalate",
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "execution_path",
+      "selected_capability",
+      "needs_escalation"
+    ],
+    "expected_values": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "selected_capability": null,
+      "needs_escalation": true
+    },
+    "actual_values": {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "selected_capability": "google_search",
+      "needs_escalation": false
+    },
+    "responsible_component": "capability_ranker_or_threshold",
+    "category": "semantic_misclassification_false_action",
+    "evidence": "Expected no capability (path=escalate), but ranker committed to 'google_search'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-098",
+    "utterance": "bedroom ki AC temperature 22 degree par set karo",
+    "scenario_group": "corpus100-escalate",
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "execution_path",
+      "selected_capability",
+      "needs_escalation"
+    ],
+    "expected_values": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "selected_capability": null,
+      "needs_escalation": true
+    },
+    "actual_values": {
+      "intent": "use:open_app",
+      "execution_path": "single_action",
+      "selected_capability": "open_app",
+      "needs_escalation": false
+    },
+    "responsible_component": "capability_ranker_or_threshold",
+    "category": "semantic_misclassification_false_action",
+    "evidence": "Expected no capability (path=escalate), but ranker committed to 'open_app'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-099",
+    "utterance": "Uber app lo airport ki cab book cheyyi",
+    "scenario_group": "corpus100-escalate",
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "execution_path",
+      "selected_capability",
+      "needs_escalation"
+    ],
+    "expected_values": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "selected_capability": null,
+      "needs_escalation": true
+    },
+    "actual_values": {
+      "intent": "use:open_app",
+      "execution_path": "single_action",
+      "selected_capability": "open_app",
+      "needs_escalation": false
+    },
+    "responsible_component": "capability_ranker_or_threshold",
+    "category": "semantic_misclassification_false_action",
+    "evidence": "Expected no capability (path=escalate), but ranker committed to 'open_app'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Frozen 100",
+    "id": "frozen100-100",
+    "utterance": "Zomato app-la dinner order pannu",
+    "scenario_group": "corpus100-escalate",
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "execution_path",
+      "selected_capability",
+      "needs_escalation"
+    ],
+    "expected_values": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "selected_capability": null,
+      "needs_escalation": true
+    },
+    "actual_values": {
+      "intent": "use:open_app",
+      "execution_path": "single_action",
+      "selected_capability": "open_app",
+      "needs_escalation": false
+    },
+    "responsible_component": "capability_ranker_or_threshold",
+    "category": "semantic_misclassification_false_action",
+    "evidence": "Expected no capability (path=escalate), but ranker committed to 'open_app'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Independent 24",
+    "id": "unseen-03-te-search",
+    "utterance": "తాజా వాతావరణ వార్తలు గూగుల్ లో వెతుకు",
+    "scenario_group": null,
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "selected_capability"
+    ],
+    "expected_values": {
+      "intent": "use:google_search",
+      "selected_capability": "google_search"
+    },
+    "actual_values": {
+      "intent": "use:open_folder",
+      "selected_capability": "open_folder"
+    },
+    "responsible_component": "capability_ranker",
+    "category": "capability_ranking_error",
+    "evidence": "Expected capability 'google_search' but ranker chose 'open_folder'. Available: ['google_search', 'find_file', 'open_folder'].",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Independent 24",
+    "id": "unseen-06-en-readpage-missing",
+    "utterance": "Read the webpage for me please",
+    "scenario_group": null,
+    "language_code": null,
+    "failed_fields": [
+      "context_references"
+    ],
+    "expected_values": {
+      "context_references": []
+    },
+    "actual_values": {
+      "context_references": [
+        {
+          "reference": "Read the webpage for me please",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ]
+    },
+    "responsible_component": "context_reference_extractor",
+    "category": "reference_resolution_or_annotation_artifact",
+    "evidence": "Expected context_references [] but predicted [{'reference': 'Read the webpage for me please', 'kind': 'item', 'resolved_value': None}]. Utterance phrasing: 'Read the webpage for me please'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Independent 24",
+    "id": "unseen-07-hi-ambiguous",
+    "utterance": "इसे हटा दो",
+    "scenario_group": null,
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "execution_path",
+      "request_modes",
+      "needs_clarification",
+      "needs_escalation",
+      "missing_information",
+      "context_references"
+    ],
+    "expected_values": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "actual_values": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action",
+        "conversational"
+      ],
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "missing_information": [],
+      "context_references": []
+    },
+    "responsible_component": "escalation_head_or_threshold",
+    "category": "false_escalation",
+    "evidence": "Expected path 'clarify', but model escalated to 'escalate'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Independent 24",
+    "id": "unseen-08-te-ambiguous",
+    "utterance": "danni ventane open cheyyi",
+    "scenario_group": null,
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "execution_path",
+      "needs_clarification",
+      "needs_escalation",
+      "missing_information",
+      "context_references"
+    ],
+    "expected_values": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "actual_values": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "missing_information": [],
+      "context_references": [
+        {
+          "reference": "danni",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ]
+    },
+    "responsible_component": "escalation_head_or_threshold",
+    "category": "false_escalation",
+    "evidence": "Expected path 'clarify', but model escalated to 'escalate'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Independent 24",
+    "id": "unseen-09-ta-ambiguous",
+    "utterance": "அதை உடனே திற",
+    "scenario_group": null,
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "execution_path",
+      "needs_clarification",
+      "needs_escalation",
+      "missing_information",
+      "context_references"
+    ],
+    "expected_values": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "actual_values": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "missing_information": [],
+      "context_references": []
+    },
+    "responsible_component": "escalation_head_or_threshold",
+    "category": "false_escalation",
+    "evidence": "Expected path 'clarify', but model escalated to 'escalate'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Independent 24",
+    "id": "unseen-16-en-multistep",
+    "utterance": "Guide me step by step through deploying a docker container",
+    "scenario_group": null,
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "request_modes"
+    ],
+    "expected_values": {
+      "intent": "use:google_search",
+      "request_modes": [
+        "action",
+        "research"
+      ]
+    },
+    "actual_values": {
+      "intent": "research",
+      "request_modes": [
+        "action"
+      ]
+    },
+    "responsible_component": "execution_path_head",
+    "category": "path_or_intent_misclassification",
+    "evidence": "Expected path 'None' / intent 'use:google_search', got 'None' / 'research'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Independent 24",
+    "id": "unseen-17-hi-multistep",
+    "utterance": "react app create karne ke steps guide karo",
+    "scenario_group": null,
+    "language_code": null,
+    "failed_fields": [
+      "intent"
+    ],
+    "expected_values": {
+      "intent": "use:google_search"
+    },
+    "actual_values": {
+      "intent": "research"
+    },
+    "responsible_component": "execution_path_head",
+    "category": "path_or_intent_misclassification",
+    "evidence": "Expected path 'None' / intent 'use:google_search', got 'None' / 'research'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Independent 24",
+    "id": "unseen-19-te-closeapp",
+    "utterance": "WhatsApp application close cheyyi",
+    "scenario_group": null,
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "selected_capability"
+    ],
+    "expected_values": {
+      "intent": "use:close_app",
+      "selected_capability": "close_app"
+    },
+    "actual_values": {
+      "intent": "use:open_folder",
+      "selected_capability": "open_folder"
+    },
+    "responsible_component": "capability_ranker",
+    "category": "capability_ranking_error",
+    "evidence": "Expected capability 'close_app' but ranker chose 'open_folder'. Available: ['close_app', 'open_folder'].",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Independent 24",
+    "id": "unseen-20-ta-openapp",
+    "utterance": "VS Code application open pannu",
+    "scenario_group": null,
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "execution_path",
+      "selected_capability",
+      "needs_clarification",
+      "missing_information",
+      "context_references"
+    ],
+    "expected_values": {
+      "intent": "use:open_app",
+      "execution_path": "single_action",
+      "selected_capability": "open_app",
+      "needs_clarification": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "actual_values": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "selected_capability": null,
+      "needs_clarification": true,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "reference": "VS Code application open pannu",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ]
+    },
+    "responsible_component": "execution_path_or_calibration",
+    "category": "semantic_misclassification_false_abstention",
+    "evidence": "Expected action with 'open_app', but model abstained into 'clarify'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Independent 24",
+    "id": "unseen-22-te-file",
+    "utterance": "october invoice pdf document vetuku",
+    "scenario_group": null,
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "execution_path",
+      "selected_capability",
+      "needs_escalation"
+    ],
+    "expected_values": {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "selected_capability": "find_file",
+      "needs_escalation": false
+    },
+    "actual_values": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "selected_capability": null,
+      "needs_escalation": true
+    },
+    "responsible_component": "execution_path_or_calibration",
+    "category": "semantic_misclassification_false_abstention",
+    "evidence": "Expected action with 'find_file', but model abstained into 'escalate'.",
+    "confidence": "HIGH"
+  },
+  {
+    "corpus": "Independent 24",
+    "id": "unseen-23-hi-greeting",
+    "utterance": "Namaste JARVIS, aap kaise ho?",
+    "scenario_group": null,
+    "language_code": null,
+    "failed_fields": [
+      "intent",
+      "execution_path",
+      "needs_clarification",
+      "missing_information",
+      "context_references"
+    ],
+    "expected_values": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "needs_clarification": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "actual_values": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "needs_clarification": true,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "reference": "Namaste JARVIS, aap kaise ho?",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ]
+    },
+    "responsible_component": "clarification_head_or_threshold",
+    "category": "false_clarification",
+    "evidence": "Expected path 'direct_response', but model triggered clarification.",
+    "confidence": "HIGH"
+  }
+]

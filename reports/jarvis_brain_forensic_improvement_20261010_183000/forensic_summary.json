@@ -1,0 +1,17 @@
+{
+  "total_discrepancies": 55,
+  "root_causes": {
+    "capability_ranker_scoring_error": 20,
+    "multilingual_representation_asymmetry": 14,
+    "reference_span_contract_divergence": 10,
+    "auxiliary_head_divergence": 8,
+    "contract_rendering_divergence": 3
+  },
+  "earliest_stages": {
+    "candidate_ranker_selection": 20,
+    "multilingual_tokenizer_dense_similarity": 14,
+    "context_reference_extraction": 10,
+    "intent_and_mode_heads": 8,
+    "missing_information_renderer": 3
+  }
+}

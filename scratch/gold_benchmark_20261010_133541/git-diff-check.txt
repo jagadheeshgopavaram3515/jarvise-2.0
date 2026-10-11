@@ -1,0 +1,8 @@
+warning: in the working copy of 'assistant/audio/capture.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assistant/core/dispatcher.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assistant/core/events.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assistant/core/pipeline.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assistant/memory/engine.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assistant/orchestration/router.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tests/test_orchestration.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tests/test_resilience.py', LF will be replaced by CRLF the next time Git touches it

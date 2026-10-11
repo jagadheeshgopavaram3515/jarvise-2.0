@@ -1,0 +1,715 @@
+{
+  "frozen_100": {
+    "v5": {
+      "corpus_name": "Frozen 100",
+      "total": 100,
+      "exact_frozen": 53,
+      "exact_frozen_pct": 53.0,
+      "exact_reviewed": 57,
+      "exact_reviewed_pct": 56.99999999999999,
+      "cap": 77,
+      "cap_pct": 77.0,
+      "contract_valid_pct": 100.0,
+      "per_field_pct": {
+        "intent": 67.0,
+        "execution_path": 82.0,
+        "request_modes": 93.0,
+        "selected_capability": 77.0,
+        "needs_clarification": 93.0,
+        "needs_escalation": 87.0,
+        "missing_information": 93.0,
+        "context_references": 81.0
+      },
+      "clarification_confusion": {
+        "TP": 11,
+        "FP": 2,
+        "TN": 82,
+        "FN": 5
+      },
+      "clarification_metrics": {
+        "precision": 0.8461538461538461,
+        "recall": 0.6875,
+        "f1": 0.7586206896551724
+      },
+      "escalation_confusion": {
+        "TP": 2,
+        "FP": 9,
+        "TN": 85,
+        "FN": 4
+      },
+      "escalation_metrics": {
+        "precision": 0.18181818181818182,
+        "recall": 0.3333333333333333,
+        "f1": 0.23529411764705885
+      },
+      "latency_mean_ms": 133.11228400000002,
+      "latency_median_ms": 132.95945,
+      "latency_p95_ms": 200.49996499999997,
+      "scenario_metrics": {
+        "corpus100-folder": {
+          "total": 12,
+          "exact_frozen": 10,
+          "exact_reviewed": 10,
+          "cap": 11
+        },
+        "corpus100-file": {
+          "total": 12,
+          "exact_frozen": 6,
+          "exact_reviewed": 6,
+          "cap": 6
+        },
+        "corpus100-app": {
+          "total": 10,
+          "exact_frozen": 7,
+          "exact_reviewed": 7,
+          "cap": 8
+        },
+        "corpus100-search": {
+          "total": 12,
+          "exact_frozen": 5,
+          "exact_reviewed": 5,
+          "cap": 5
+        },
+        "corpus100-webpage": {
+          "total": 8,
+          "exact_frozen": 4,
+          "exact_reviewed": 4,
+          "cap": 8
+        },
+        "corpus100-clarify": {
+          "total": 12,
+          "exact_frozen": 1,
+          "exact_reviewed": 5,
+          "cap": 10
+        },
+        "corpus100-memory": {
+          "total": 12,
+          "exact_frozen": 11,
+          "exact_reviewed": 11,
+          "cap": 12
+        },
+        "corpus100-direct": {
+          "total": 10,
+          "exact_frozen": 7,
+          "exact_reviewed": 7,
+          "cap": 10
+        },
+        "corpus100-multistep": {
+          "total": 6,
+          "exact_frozen": 0,
+          "exact_reviewed": 0,
+          "cap": 5
+        },
+        "corpus100-escalate": {
+          "total": 6,
+          "exact_frozen": 2,
+          "exact_reviewed": 2,
+          "cap": 2
+        }
+      },
+      "language_metrics": {
+        "en": {
+          "total": 20,
+          "exact_frozen": 14,
+          "exact_reviewed": 15,
+          "cap": 18
+        },
+        "hi": {
+          "total": 15,
+          "exact_frozen": 7,
+          "exact_reviewed": 7,
+          "cap": 8
+        },
+        "hi-Latn": {
+          "total": 17,
+          "exact_frozen": 9,
+          "exact_reviewed": 11,
+          "cap": 14
+        },
+        "te": {
+          "total": 12,
+          "exact_frozen": 6,
+          "exact_reviewed": 6,
+          "cap": 8
+        },
+        "te-Latn": {
+          "total": 16,
+          "exact_frozen": 9,
+          "exact_reviewed": 10,
+          "cap": 14
+        },
+        "ta": {
+          "total": 5,
+          "exact_frozen": 1,
+          "exact_reviewed": 1,
+          "cap": 2
+        },
+        "ta-Latn": {
+          "total": 11,
+          "exact_frozen": 6,
+          "exact_reviewed": 6,
+          "cap": 10
+        },
+        "mixed-en-hi": {
+          "total": 2,
+          "exact_frozen": 1,
+          "exact_reviewed": 1,
+          "cap": 2
+        },
+        "mixed-en-te": {
+          "total": 1,
+          "exact_frozen": 0,
+          "exact_reviewed": 0,
+          "cap": 1
+        },
+        "mixed-en-ta": {
+          "total": 1,
+          "exact_frozen": 0,
+          "exact_reviewed": 0,
+          "cap": 0
+        }
+      },
+      "script_metrics": {
+        "latin": {
+          "total": 68,
+          "exact_frozen": 39,
+          "exact_reviewed": 43,
+          "cap": 59
+        },
+        "devanagari": {
+          "total": 15,
+          "exact_frozen": 7,
+          "exact_reviewed": 7,
+          "cap": 8
+        },
+        "telugu": {
+          "total": 12,
+          "exact_frozen": 6,
+          "exact_reviewed": 6,
+          "cap": 8
+        },
+        "tamil": {
+          "total": 5,
+          "exact_frozen": 1,
+          "exact_reviewed": 1,
+          "cap": 2
+        }
+      }
+    },
+    "v7": {
+      "corpus_name": "Frozen 100",
+      "total": 100,
+      "exact_frozen": 63,
+      "exact_frozen_pct": 63.0,
+      "exact_reviewed": 67,
+      "exact_reviewed_pct": 67.0,
+      "cap": 88,
+      "cap_pct": 88.0,
+      "contract_valid_pct": 100.0,
+      "per_field_pct": {
+        "intent": 80.0,
+        "execution_path": 87.0,
+        "request_modes": 94.0,
+        "selected_capability": 88.0,
+        "needs_clarification": 95.0,
+        "needs_escalation": 91.0,
+        "missing_information": 95.0,
+        "context_references": 81.0
+      },
+      "clarification_confusion": {
+        "TP": 13,
+        "FP": 2,
+        "TN": 82,
+        "FN": 3
+      },
+      "clarification_metrics": {
+        "precision": 0.8666666666666667,
+        "recall": 0.8125,
+        "f1": 0.8387096774193549
+      },
+      "escalation_confusion": {
+        "TP": 2,
+        "FP": 5,
+        "TN": 89,
+        "FN": 4
+      },
+      "escalation_metrics": {
+        "precision": 0.2857142857142857,
+        "recall": 0.3333333333333333,
+        "f1": 0.30769230769230765
+      },
+      "latency_mean_ms": 124.081707,
+      "latency_median_ms": 129.2256,
+      "latency_p95_ms": 161.33763499999998,
+      "scenario_metrics": {
+        "corpus100-folder": {
+          "total": 12,
+          "exact_frozen": 10,
+          "exact_reviewed": 10,
+          "cap": 11
+        },
+        "corpus100-file": {
+          "total": 12,
+          "exact_frozen": 10,
+          "exact_reviewed": 10,
+          "cap": 11
+        },
+        "corpus100-app": {
+          "total": 10,
+          "exact_frozen": 7,
+          "exact_reviewed": 7,
+          "cap": 8
+        },
+        "corpus100-search": {
+          "total": 12,
+          "exact_frozen": 11,
+          "exact_reviewed": 11,
+          "cap": 11
+        },
+        "corpus100-webpage": {
+          "total": 8,
+          "exact_frozen": 4,
+          "exact_reviewed": 4,
+          "cap": 8
+        },
+        "corpus100-clarify": {
+          "total": 12,
+          "exact_frozen": 1,
+          "exact_reviewed": 5,
+          "cap": 10
+        },
+        "corpus100-memory": {
+          "total": 12,
+          "exact_frozen": 11,
+          "exact_reviewed": 11,
+          "cap": 12
+        },
+        "corpus100-direct": {
+          "total": 10,
+          "exact_frozen": 7,
+          "exact_reviewed": 7,
+          "cap": 10
+        },
+        "corpus100-multistep": {
+          "total": 6,
+          "exact_frozen": 0,
+          "exact_reviewed": 0,
+          "cap": 5
+        },
+        "corpus100-escalate": {
+          "total": 6,
+          "exact_frozen": 2,
+          "exact_reviewed": 2,
+          "cap": 2
+        }
+      },
+      "language_metrics": {
+        "en": {
+          "total": 20,
+          "exact_frozen": 15,
+          "exact_reviewed": 16,
+          "cap": 19
+        },
+        "hi": {
+          "total": 15,
+          "exact_frozen": 10,
+          "exact_reviewed": 10,
+          "cap": 11
+        },
+        "hi-Latn": {
+          "total": 17,
+          "exact_frozen": 10,
+          "exact_reviewed": 12,
+          "cap": 16
+        },
+        "te": {
+          "total": 12,
+          "exact_frozen": 9,
+          "exact_reviewed": 9,
+          "cap": 11
+        },
+        "te-Latn": {
+          "total": 16,
+          "exact_frozen": 9,
+          "exact_reviewed": 10,
+          "cap": 14
+        },
+        "ta": {
+          "total": 5,
+          "exact_frozen": 3,
+          "exact_reviewed": 3,
+          "cap": 4
+        },
+        "ta-Latn": {
+          "total": 11,
+          "exact_frozen": 6,
+          "exact_reviewed": 6,
+          "cap": 10
+        },
+        "mixed-en-hi": {
+          "total": 2,
+          "exact_frozen": 1,
+          "exact_reviewed": 1,
+          "cap": 2
+        },
+        "mixed-en-te": {
+          "total": 1,
+          "exact_frozen": 0,
+          "exact_reviewed": 0,
+          "cap": 1
+        },
+        "mixed-en-ta": {
+          "total": 1,
+          "exact_frozen": 0,
+          "exact_reviewed": 0,
+          "cap": 0
+        }
+      },
+      "script_metrics": {
+        "latin": {
+          "total": 68,
+          "exact_frozen": 41,
+          "exact_reviewed": 45,
+          "cap": 62
+        },
+        "devanagari": {
+          "total": 15,
+          "exact_frozen": 10,
+          "exact_reviewed": 10,
+          "cap": 11
+        },
+        "telugu": {
+          "total": 12,
+          "exact_frozen": 9,
+          "exact_reviewed": 9,
+          "cap": 11
+        },
+        "tamil": {
+          "total": 5,
+          "exact_frozen": 3,
+          "exact_reviewed": 3,
+          "cap": 4
+        }
+      }
+    },
+    "comparison": {
+      "corrected_frozen": [
+        "frozen100-013",
+        "frozen100-015",
+        "frozen100-019",
+        "frozen100-023",
+        "frozen100-037",
+        "frozen100-038",
+        "frozen100-039",
+        "frozen100-041",
+        "frozen100-042",
+        "frozen100-045"
+      ],
+      "regressions_frozen": [],
+      "corrected_capability": [
+        "frozen100-013",
+        "frozen100-015",
+        "frozen100-017",
+        "frozen100-019",
+        "frozen100-023",
+        "frozen100-037",
+        "frozen100-038",
+        "frozen100-039",
+        "frozen100-041",
+        "frozen100-042",
+        "frozen100-045"
+      ],
+      "regressions_capability": [],
+      "net_exact_frozen": 10,
+      "net_capability": 11,
+      "unchanged": 89
+    }
+  },
+  "independent_24": {
+    "v5": {
+      "corpus_name": "Independent 24",
+      "total": 24,
+      "exact_frozen": 13,
+      "exact_frozen_pct": 54.166666666666664,
+      "exact_reviewed": 13,
+      "exact_reviewed_pct": 54.166666666666664,
+      "cap": 20,
+      "cap_pct": 83.33333333333334,
+      "contract_valid_pct": 100.0,
+      "per_field_pct": {
+        "intent": 58.333333333333336,
+        "execution_path": 75.0,
+        "request_modes": 91.66666666666666,
+        "selected_capability": 83.33333333333334,
+        "needs_clarification": 79.16666666666666,
+        "needs_escalation": 83.33333333333334,
+        "missing_information": 79.16666666666666,
+        "context_references": 75.0
+      },
+      "clarification_confusion": {
+        "TP": 1,
+        "FP": 2,
+        "TN": 18,
+        "FN": 3
+      },
+      "clarification_metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 0.25,
+        "f1": 0.28571428571428575
+      },
+      "escalation_confusion": {
+        "TP": 2,
+        "FP": 4,
+        "TN": 18,
+        "FN": 0
+      },
+      "escalation_metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "f1": 0.5
+      },
+      "latency_mean_ms": 106.3318875,
+      "latency_median_ms": 97.72975,
+      "latency_p95_ms": 157.24852999999996,
+      "scenario_metrics": {
+        "unknown": {
+          "total": 24,
+          "exact_frozen": 13,
+          "exact_reviewed": 13,
+          "cap": 20
+        }
+      },
+      "language_metrics": {
+        "en": {
+          "total": 8,
+          "exact_frozen": 6,
+          "exact_reviewed": 6,
+          "cap": 8
+        },
+        "hi-Latn": {
+          "total": 3,
+          "exact_frozen": 1,
+          "exact_reviewed": 1,
+          "cap": 3
+        },
+        "te": {
+          "total": 2,
+          "exact_frozen": 1,
+          "exact_reviewed": 1,
+          "cap": 1
+        },
+        "ta-Latn": {
+          "total": 3,
+          "exact_frozen": 2,
+          "exact_reviewed": 2,
+          "cap": 2
+        },
+        "hi": {
+          "total": 2,
+          "exact_frozen": 1,
+          "exact_reviewed": 1,
+          "cap": 2
+        },
+        "te-Latn": {
+          "total": 3,
+          "exact_frozen": 0,
+          "exact_reviewed": 0,
+          "cap": 1
+        },
+        "ta": {
+          "total": 1,
+          "exact_frozen": 0,
+          "exact_reviewed": 0,
+          "cap": 1
+        },
+        "mixed-en-hi": {
+          "total": 1,
+          "exact_frozen": 1,
+          "exact_reviewed": 1,
+          "cap": 1
+        },
+        "mixed-en-te": {
+          "total": 1,
+          "exact_frozen": 1,
+          "exact_reviewed": 1,
+          "cap": 1
+        }
+      },
+      "script_metrics": {
+        "latin": {
+          "total": 19,
+          "exact_frozen": 11,
+          "exact_reviewed": 11,
+          "cap": 16
+        },
+        "telugu": {
+          "total": 2,
+          "exact_frozen": 1,
+          "exact_reviewed": 1,
+          "cap": 1
+        },
+        "devanagari": {
+          "total": 2,
+          "exact_frozen": 1,
+          "exact_reviewed": 1,
+          "cap": 2
+        },
+        "tamil": {
+          "total": 1,
+          "exact_frozen": 0,
+          "exact_reviewed": 0,
+          "cap": 1
+        }
+      }
+    },
+    "v7": {
+      "corpus_name": "Independent 24",
+      "total": 24,
+      "exact_frozen": 14,
+      "exact_frozen_pct": 58.333333333333336,
+      "exact_reviewed": 14,
+      "exact_reviewed_pct": 58.333333333333336,
+      "cap": 21,
+      "cap_pct": 87.5,
+      "contract_valid_pct": 100.0,
+      "per_field_pct": {
+        "intent": 70.83333333333334,
+        "execution_path": 83.33333333333334,
+        "request_modes": 91.66666666666666,
+        "selected_capability": 87.5,
+        "needs_clarification": 87.5,
+        "needs_escalation": 91.66666666666666,
+        "missing_information": 87.5,
+        "context_references": 75.0
+      },
+      "clarification_confusion": {
+        "TP": 3,
+        "FP": 2,
+        "TN": 18,
+        "FN": 1
+      },
+      "clarification_metrics": {
+        "precision": 0.6,
+        "recall": 0.75,
+        "f1": 0.6666666666666665
+      },
+      "escalation_confusion": {
+        "TP": 2,
+        "FP": 2,
+        "TN": 20,
+        "FN": 0
+      },
+      "escalation_metrics": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      },
+      "latency_mean_ms": 114.667325,
+      "latency_median_ms": 109.06125,
+      "latency_p95_ms": 157.25679499999998,
+      "scenario_metrics": {
+        "unknown": {
+          "total": 24,
+          "exact_frozen": 14,
+          "exact_reviewed": 14,
+          "cap": 21
+        }
+      },
+      "language_metrics": {
+        "en": {
+          "total": 8,
+          "exact_frozen": 6,
+          "exact_reviewed": 6,
+          "cap": 8
+        },
+        "hi-Latn": {
+          "total": 3,
+          "exact_frozen": 1,
+          "exact_reviewed": 1,
+          "cap": 3
+        },
+        "te": {
+          "total": 2,
+          "exact_frozen": 2,
+          "exact_reviewed": 2,
+          "cap": 2
+        },
+        "ta-Latn": {
+          "total": 3,
+          "exact_frozen": 2,
+          "exact_reviewed": 2,
+          "cap": 2
+        },
+        "hi": {
+          "total": 2,
+          "exact_frozen": 1,
+          "exact_reviewed": 1,
+          "cap": 2
+        },
+        "te-Latn": {
+          "total": 3,
+          "exact_frozen": 0,
+          "exact_reviewed": 0,
+          "cap": 1
+        },
+        "ta": {
+          "total": 1,
+          "exact_frozen": 0,
+          "exact_reviewed": 0,
+          "cap": 1
+        },
+        "mixed-en-hi": {
+          "total": 1,
+          "exact_frozen": 1,
+          "exact_reviewed": 1,
+          "cap": 1
+        },
+        "mixed-en-te": {
+          "total": 1,
+          "exact_frozen": 1,
+          "exact_reviewed": 1,
+          "cap": 1
+        }
+      },
+      "script_metrics": {
+        "latin": {
+          "total": 19,
+          "exact_frozen": 11,
+          "exact_reviewed": 11,
+          "cap": 16
+        },
+        "telugu": {
+          "total": 2,
+          "exact_frozen": 2,
+          "exact_reviewed": 2,
+          "cap": 2
+        },
+        "devanagari": {
+          "total": 2,
+          "exact_frozen": 1,
+          "exact_reviewed": 1,
+          "cap": 2
+        },
+        "tamil": {
+          "total": 1,
+          "exact_frozen": 0,
+          "exact_reviewed": 0,
+          "cap": 1
+        }
+      }
+    },
+    "comparison": {
+      "corrected_frozen": [
+        "unseen-03-te-search"
+      ],
+      "regressions_frozen": [],
+      "corrected_capability": [
+        "unseen-03-te-search"
+      ],
+      "regressions_capability": [],
+      "net_exact_frozen": 1,
+      "net_capability": 1,
+      "unchanged": 23
+    }
+  }
+}

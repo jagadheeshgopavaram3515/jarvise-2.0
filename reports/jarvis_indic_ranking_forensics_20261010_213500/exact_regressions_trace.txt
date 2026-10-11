@@ -1,0 +1,108 @@
+Regressed ID: frozen100-067 'What did we decide about our Phoenix project?'
+   Failed in v7: ['intent']
+   Expected:     { intent: recall }
+   Predicted v7: { intent: unknown }
+   Predicted v5: { intent: recall }
+--------------------------------------------------
+Regressed ID: frozen100-068 'What was our decision on database sharding?'
+   Failed in v7: ['intent']
+   Expected:     { intent: recall }
+   Predicted v7: { intent: unknown }
+   Predicted v5: { intent: recall }
+--------------------------------------------------
+Regressed ID: frozen100-069 'हमारे गरुड़ प्रोजेक्ट के बारे में क्या तय हुआ था?'
+   Failed in v7: ['intent']
+   Expected:     { intent: recall }
+   Predicted v7: { intent: unknown }
+   Predicted v5: { intent: recall }
+--------------------------------------------------
+Regressed ID: frozen100-070 'क्लाउड प्रोवाइडर पर हमारा क्या निर्णय था?'
+   Failed in v7: ['intent']
+   Expected:     { intent: recall }
+   Predicted v7: { intent: unknown }
+   Predicted v5: { intent: recall }
+--------------------------------------------------
+Regressed ID: frozen100-071 'Redis caching strategy ke baare mein kya decide kiya tha?'
+   Failed in v7: ['intent']
+   Expected:     { intent: recall }
+   Predicted v7: { intent: unknown }
+   Predicted v5: { intent: recall }
+--------------------------------------------------
+Regressed ID: frozen100-072 'humare Falcon initiative ke baare mein yaad dilao'
+   Failed in v7: ['intent']
+   Expected:     { intent: recall }
+   Predicted v7: { intent: unknown }
+   Predicted v5: { intent: recall }
+--------------------------------------------------
+Regressed ID: frozen100-074 'ఆథెంటికేషన్ ఆర్కిటెక్చర్ నిర్ణయం ఏంటి?'
+   Failed in v7: ['intent']
+   Expected:     { intent: recall }
+   Predicted v7: { intent: unknown }
+   Predicted v5: { intent: recall }
+--------------------------------------------------
+Regressed ID: frozen100-075 'mana deployment pipeline gurinchi em decide chesam?'
+   Failed in v7: ['intent']
+   Expected:     { intent: recall }
+   Predicted v7: { intent: unknown }
+   Predicted v5: { intent: recall }
+--------------------------------------------------
+Regressed ID: frozen100-076 'mana Garuda project status gurinchi gurthu cheyyi'
+   Failed in v7: ['intent']
+   Expected:     { intent: recall }
+   Predicted v7: { intent: unknown }
+   Predicted v5: { intent: recall }
+--------------------------------------------------
+Regressed ID: frozen100-077 'backend framework pathi enna mudivu pannom?'
+   Failed in v7: ['intent']
+   Expected:     { intent: recall }
+   Predicted v7: { intent: unknown }
+   Predicted v5: { intent: recall }
+--------------------------------------------------
+Regressed ID: frozen100-078 'Kal API gateway release date ke baare mein kya bola tha?'
+   Failed in v7: ['intent']
+   Expected:     { intent: recall }
+   Predicted v7: { intent: unknown }
+   Predicted v5: { intent: recall }
+--------------------------------------------------
+Regressed ID: frozen100-079 'What is the capital of Canada?'
+   Failed in v7: ['intent']
+   Expected:     { intent: respond }
+   Predicted v7: { intent: unknown }
+   Predicted v5: { intent: respond }
+--------------------------------------------------
+Regressed ID: frozen100-080 'Explain why the sky looks blue during daytime'
+   Failed in v7: ['intent']
+   Expected:     { intent: respond }
+   Predicted v7: { intent: unknown }
+   Predicted v5: { intent: respond }
+--------------------------------------------------
+Regressed ID: frozen100-081 'भारत की सबसे लंबी नदी कौन सी है?'
+   Failed in v7: ['intent']
+   Expected:     { intent: respond }
+   Predicted v7: { intent: unknown }
+   Predicted v5: { intent: respond }
+--------------------------------------------------
+Regressed ID: frozen100-082 'सौरमंडल का सबसे बड़ा ग्रह कौन सा है?'
+   Failed in v7: ['intent']
+   Expected:     { intent: respond }
+   Predicted v7: { intent: unknown }
+   Predicted v5: { intent: respond }
+--------------------------------------------------
+Regressed ID: frozen100-083 'gravity kaise kaam karti hai short mein batao'
+   Failed in v7: ['intent']
+   Expected:     { intent: respond }
+   Predicted v7: { intent: unknown }
+   Predicted v5: { intent: respond }
+--------------------------------------------------
+Regressed ID: frozen100-084 'భూమి పరిమాణం ఎంత?'
+   Failed in v7: ['intent']
+   Expected:     { intent: respond }
+   Predicted v7: { intent: unknown }
+   Predicted v5: { intent: respond }
+--------------------------------------------------
+Regressed ID: frozen100-086 'சூரிய குடும்பத்தில் எத்தனை கோள்கள் உள்ளன?'
+   Failed in v7: ['intent']
+   Expected:     { intent: respond }
+   Predicted v7: { intent: unknown }
+   Predicted v5: { intent: respond }
+--------------------------------------------------

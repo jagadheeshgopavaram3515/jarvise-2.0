@@ -1,0 +1,43 @@
+{
+  "latin": {
+    "denominator": 37,
+    "exact": 7,
+    "scenario_groups": 7,
+    "class_support": {
+      "single_action": 20,
+      "memory_recall": 7,
+      "multi_step_task": 4,
+      "clarify": 4,
+      "escalate": 1,
+      "direct_response": 1
+    },
+    "status": "INSUFFICIENT_GOLD_EVIDENCE"
+  },
+  "telugu": {
+    "denominator": 1,
+    "exact": 1,
+    "scenario_groups": 1,
+    "class_support": {
+      "direct_response": 1
+    },
+    "status": "INSUFFICIENT_GOLD_EVIDENCE"
+  },
+  "tamil": {
+    "denominator": 1,
+    "exact": 1,
+    "scenario_groups": 1,
+    "class_support": {
+      "direct_response": 1
+    },
+    "status": "INSUFFICIENT_GOLD_EVIDENCE"
+  },
+  "devanagari": {
+    "denominator": 1,
+    "exact": 1,
+    "scenario_groups": 1,
+    "class_support": {
+      "direct_response": 1
+    },
+    "status": "INSUFFICIENT_GOLD_EVIDENCE"
+  }
+}

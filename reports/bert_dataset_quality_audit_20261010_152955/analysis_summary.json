@@ -1,0 +1,387 @@
+{
+  "datasets": {
+    "benchmarks/fast_classifier/v1/seed.jsonl": {
+      "records": 28,
+      "splits": {
+        "dev": 14,
+        "test": 14
+      },
+      "id_duplicates": 0,
+      "training_id_overlap": 0,
+      "protected_label_records": 14,
+      "exact": {
+        "groups": 1,
+        "records_in_groups": 2,
+        "excess_records": 1,
+        "cross_split_groups": 0,
+        "cross_split_records": 0
+      },
+      "normalized": {
+        "groups": 1,
+        "records_in_groups": 2,
+        "excess_records": 1,
+        "cross_split_groups": 0,
+        "cross_split_records": 0
+      },
+      "declared_group": {
+        "groups": 0,
+        "records_in_groups": 0,
+        "excess_records": 0,
+        "cross_split_groups": 0,
+        "cross_split_records": 0
+      }
+    },
+    "benchmarks/fast_classifier/v2/dataset.jsonl": {
+      "records": 228,
+      "splits": {
+        "test": 18,
+        "dev": 50,
+        "train": 160
+      },
+      "id_duplicates": 0,
+      "training_id_overlap": 160,
+      "protected_label_records": 18,
+      "exact": {
+        "groups": 1,
+        "records_in_groups": 2,
+        "excess_records": 1,
+        "cross_split_groups": 0,
+        "cross_split_records": 0
+      },
+      "normalized": {
+        "groups": 1,
+        "records_in_groups": 2,
+        "excess_records": 1,
+        "cross_split_groups": 0,
+        "cross_split_records": 0
+      },
+      "declared_group": {
+        "groups": 17,
+        "records_in_groups": 221,
+        "excess_records": 204,
+        "cross_split_groups": 0,
+        "cross_split_records": 0
+      }
+    },
+    "benchmarks/fast_classifier/v3/dataset.jsonl": {
+      "records": 312,
+      "splits": {
+        "test": 18,
+        "dev": 78,
+        "train": 216
+      },
+      "id_duplicates": 0,
+      "training_id_overlap": 216,
+      "protected_label_records": 18,
+      "exact": {
+        "groups": 1,
+        "records_in_groups": 2,
+        "excess_records": 1,
+        "cross_split_groups": 0,
+        "cross_split_records": 0
+      },
+      "normalized": {
+        "groups": 1,
+        "records_in_groups": 2,
+        "excess_records": 1,
+        "cross_split_groups": 0,
+        "cross_split_records": 0
+      },
+      "declared_group": {
+        "groups": 38,
+        "records_in_groups": 305,
+        "excess_records": 267,
+        "cross_split_groups": 0,
+        "cross_split_records": 0
+      },
+      "uncertain_cross_split_near_pairs": 0
+    },
+    "benchmarks/fast_classifier/v4/dataset.jsonl": {
+      "records": 434,
+      "splits": {
+        "dev": 78,
+        "train": 216,
+        "test": 140
+      },
+      "id_duplicates": 0,
+      "training_id_overlap": 216,
+      "protected_label_records": 140,
+      "exact": {
+        "groups": 1,
+        "records_in_groups": 2,
+        "excess_records": 1,
+        "cross_split_groups": 1,
+        "cross_split_records": 2
+      },
+      "normalized": {
+        "groups": 1,
+        "records_in_groups": 2,
+        "excess_records": 1,
+        "cross_split_groups": 1,
+        "cross_split_records": 2
+      },
+      "declared_group": {
+        "groups": 52,
+        "records_in_groups": 427,
+        "excess_records": 375,
+        "cross_split_groups": 0,
+        "cross_split_records": 0
+      },
+      "uncertain_cross_split_near_pairs": 7
+    },
+    "benchmarks/fast_classifier/fast_brain_v1/dataset.jsonl": {
+      "records": 359,
+      "splits": {
+        "train": 239,
+        "development": 57,
+        "sealed_candidate": 63
+      },
+      "id_duplicates": 0,
+      "training_id_overlap": 188,
+      "protected_label_records": 149,
+      "exact": {
+        "groups": 1,
+        "records_in_groups": 2,
+        "excess_records": 1,
+        "cross_split_groups": 1,
+        "cross_split_records": 2
+      },
+      "normalized": {
+        "groups": 1,
+        "records_in_groups": 2,
+        "excess_records": 1,
+        "cross_split_groups": 1,
+        "cross_split_records": 2
+      },
+      "declared_group": {
+        "groups": 44,
+        "records_in_groups": 354,
+        "excess_records": 310,
+        "cross_split_groups": 0,
+        "cross_split_records": 0
+      },
+      "uncertain_cross_split_near_pairs": 5
+    }
+  },
+  "review_decisions": {
+    "accept": 15,
+    "correct": 3,
+    "skip": 13
+  },
+  "reviewed_rows": 31,
+  "eligible_nonsealed_labels": 12,
+  "training_records_with_later_review": 19,
+  "training_records_with_eligible_later_review": 11,
+  "suspect_types": {
+    "resolver_first_scalar_mismatch": 31,
+    "unreachable_exact_reference_span": 27,
+    "unreachable_exact_missing_description": 54,
+    "no_human_review_decision": 191,
+    "code_switch_not_mixed_script": 43,
+    "context_requirement_unsubstantiated": 10,
+    "builder_capability_omission": 25,
+    "duplicate_different_targets": 4,
+    "name_keyed_descriptor_overwrite": 416
+  },
+  "unique_suspicious_records": 433,
+  "artifact_integrity": {
+    "metadata_equals_joblib": {
+      "artifact_schema_version": true,
+      "adapter_id": true,
+      "model_id": true,
+      "model_role": true,
+      "max_length": true,
+      "dataset_path": true,
+      "dataset_sha256": true,
+      "training_split": true,
+      "training_examples": true,
+      "training_example_ids": true,
+      "capability_encoding": true,
+      "capability_threshold": true,
+      "mode_threshold": true,
+      "training_configuration": true,
+      "path_default_mode": true,
+      "runtime": true
+    },
+    "dataset_hash_matches_artifact": true,
+    "training_ids_match_train_split": true,
+    "missing_training_ids": [],
+    "extra_train_split_ids": [],
+    "heads": {
+      "execution_path": {
+        "type": "LogisticRegression",
+        "classes": [
+          "clarify",
+          "direct_response",
+          "escalate",
+          "memory_recall",
+          "multi_step_task",
+          "research",
+          "single_action"
+        ],
+        "n_features_in": 768,
+        "finite_weights": true,
+        "class_weight": "balanced",
+        "C": 4.0,
+        "n_iter": [
+          39
+        ]
+      },
+      "clarification": {
+        "type": "LogisticRegression",
+        "classes": [
+          0,
+          1
+        ],
+        "n_features_in": 768,
+        "finite_weights": true,
+        "class_weight": "balanced",
+        "C": 4.0,
+        "n_iter": [
+          11
+        ]
+      },
+      "escalation": {
+        "type": "LogisticRegression",
+        "classes": [
+          0,
+          1
+        ],
+        "n_features_in": 768,
+        "finite_weights": true,
+        "class_weight": "balanced",
+        "C": 4.0,
+        "n_iter": [
+          11
+        ]
+      },
+      "missing_information": {
+        "type": "LogisticRegression",
+        "classes": [
+          "__none__",
+          "target"
+        ],
+        "n_features_in": 768,
+        "finite_weights": true,
+        "class_weight": "balanced",
+        "C": 4.0,
+        "n_iter": [
+          11
+        ]
+      },
+      "reference_kind": {
+        "type": "LogisticRegression",
+        "classes": [
+          "__none__",
+          "item",
+          "prior_conversation"
+        ],
+        "n_features_in": 768,
+        "finite_weights": true,
+        "class_weight": "balanced",
+        "C": 4.0,
+        "n_iter": [
+          28
+        ]
+      },
+      "reference_resolved": {
+        "type": "LogisticRegression",
+        "classes": [
+          0,
+          1
+        ],
+        "n_features_in": 768,
+        "finite_weights": true,
+        "class_weight": "balanced",
+        "C": 4.0,
+        "n_iter": [
+          15
+        ]
+      },
+      "capability_matcher": {
+        "type": "LogisticRegression",
+        "classes": [
+          0,
+          1
+        ],
+        "n_features_in": 3072,
+        "finite_weights": true,
+        "class_weight": "balanced",
+        "C": 4.0,
+        "n_iter": [
+          19
+        ]
+      },
+      "mode:conversational": {
+        "type": "LogisticRegression",
+        "classes": [
+          0,
+          1
+        ],
+        "n_features_in": 768,
+        "finite_weights": true,
+        "class_weight": "balanced",
+        "C": 4.0,
+        "n_iter": [
+          13
+        ]
+      },
+      "mode:memory": {
+        "type": "LogisticRegression",
+        "classes": [
+          0,
+          1
+        ],
+        "n_features_in": 768,
+        "finite_weights": true,
+        "class_weight": "balanced",
+        "C": 4.0,
+        "n_iter": [
+          15
+        ]
+      },
+      "mode:research": {
+        "type": "LogisticRegression",
+        "classes": [
+          0,
+          1
+        ],
+        "n_features_in": 768,
+        "finite_weights": true,
+        "class_weight": "balanced",
+        "C": 4.0,
+        "n_iter": [
+          9
+        ]
+      },
+      "mode:action": {
+        "type": "LogisticRegression",
+        "classes": [
+          0,
+          1
+        ],
+        "n_features_in": 768,
+        "finite_weights": true,
+        "class_weight": "balanced",
+        "C": 4.0,
+        "n_iter": [
+          16
+        ]
+      }
+    },
+    "descriptor_name_variants": {
+      "open_app": 2,
+      "find_file": 2,
+      "google_search": 2,
+      "open_folder": 2,
+      "read_page": 2
+    },
+    "encoder_revision_and_weight_hash": "NOT_VERIFIED: artifact records hub ID, not resolved revision or weight hash",
+    "embedding_cache": "No persistent embedding cache in train_candidate.py; arrays generated per run",
+    "fine_tuning": "No encoder optimizer/backward; eval/inference_mode with frozen features; only LR fit calls",
+    "sealed_policy": "Test targets discarded before analysis; sealed_candidate and original test lineage labels excluded; no test outcomes read",
+    "historical_review_summary_stale": true,
+    "schema_errors_nonsealed": [],
+    "review_validation_errors_nonsealed": []
+  }
+}

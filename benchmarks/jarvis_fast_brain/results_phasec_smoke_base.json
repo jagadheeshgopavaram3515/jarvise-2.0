@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "dataset": "benchmarks\\jarvis_fast_brain\\replay\\datasets\\smoke.jsonl",
+    "dataset_sha256": "82237b8ebf6392da84226e409727400c29aefae0fc42ad9efc6376ec86ff317a",
+    "system": "base_qwen",
+    "timestamp_utc": "2026-09-27T01:50:34.135656+00:00",
+    "prompt_version": "base-v1"
+  },
+  "summary": {
+    "cases": 2,
+    "completed": 2,
+    "status_counts": {
+      "MODEL_SUCCESS": 2
+    },
+    "latency_ms": {
+      "mean": 13396.035499999925,
+      "min": 4038.66139999991,
+      "max": 22753.40959999994
+    }
+  },
+  "cases": [
+    {
+      "system": "base_qwen",
+      "case_id": "conversation_001",
+      "status": "MODEL_SUCCESS",
+      "raw_output": "{\"action\": \"greet\", \"tool_name\": \"greeting_tool\", \"tool_args\": {\"greeting\": \"Hello Sir! How can I assist you today?\"}, \"final_response\": \"Hello Sir! How can I assist you today?\", \"thought\": \"I'm here to help you with whatever you need.\"}",
+      "parsed_output": {
+        "action": "greet",
+        "tool_name": "greeting_tool",
+        "tool_args": {
+          "greeting": "Hello Sir! How can I assist you today?"
+        },
+        "final_response": "Hello Sir! How can I assist you today?",
+        "thought": "I'm here to help you with whatever you need."
+      },
+      "model": "qwen2.5-coder:3b",
+      "prompt_chars": 3745,
+      "latency_ms": 22753.40959999994,
+      "parsing_latency_ms": 0.0106999996205559,
+      "timeout_s": 45.0,
+      "exception": null,
+      "input": {
+        "request": "Hello Jarvis",
+        "context": {
+          "recent_turns": [],
+          "memory": [],
+          "project_facts": []
+        }
+      },
+      "expected": {
+        "intent": "conversation",
+        "execution_path": "LOCAL",
+        "request_modes": [
+          "conversational"
+        ],
+        "requires_clarification": false,
+        "requires_escalation": false,
+        "expected_final_behavior": "answer conversationally"
+      },
+      "failure_category": null
+    },
+    {
+      "system": "base_qwen",
+      "case_id": "clarify_001",
+      "status": "MODEL_SUCCESS",
+      "raw_output": "{\"action\": \"open_file\", \"tool_name\": \"open_file\", \"tool_args\": {\"path\": \"example.txt\"}, \"final_response\": \"Opening example.txt\", \"thought\": \"I'll open the file located at example.txt.\"}",
+      "parsed_output": {
+        "action": "open_file",
+        "tool_name": "open_file",
+        "tool_args": {
+          "path": "example.txt"
+        },
+        "final_response": "Opening example.txt",
+        "thought": "I'll open the file located at example.txt."
+      },
+      "model": "qwen2.5-coder:3b",
+      "prompt_chars": 3835,
+      "latency_ms": 4038.66139999991,
+      "parsing_latency_ms": 0.009000000318337698,
+      "timeout_s": 45.0,
+      "exception": null,
+      "input": {
+        "request": "Open it",
+        "context": {
+          "recent_turns": [],
+          "memory": [],
+          "project_facts": []
+        }
+      },
+      "expected": {
+        "intent": "open_target",
+        "execution_path": "QWEN",
+        "request_modes": [
+          "action"
+        ],
+        "requires_clarification": true,
+        "requires_escalation": false,
+        "expected_final_behavior": "ask for the missing target"
+      },
+      "failure_category": "CLARIFICATION_ERROR"
+    }
+  ]
+}

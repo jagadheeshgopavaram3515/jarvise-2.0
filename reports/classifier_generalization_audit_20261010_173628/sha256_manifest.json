@@ -1,0 +1,12 @@
+{
+  "baseline_model_v3_sha256": "7f4dd399b7238c7bf0c166454c3ff5aa09d6e3bf1afb82666b526d43cf452f05",
+  "v2_model_candidate_sha256": "4a75e077e02573b36a911e468e513aff839ab37496883e64ac935122a28a458f",
+  "v3_model_candidate_sha256": "546d5aaab563f9a4040ccd0504ff7173c4ed6d2e4bd37b8d9d9f87ec56339f96",
+  "provisional_train_sha256": "67d57286b528b62abb04355ecb0933c3906f5aa59805d8ff68df424b1afd4c6d",
+  "provisional_validation_sha256": "6f8cf0d9a8b1b7aab65d2fc2918bf26d327af00b4c76bf28f94aaad936a36692",
+  "frozen_features_sha256": "8fe6183843885294a1b1ce601d954bcca09323b7a078e6dc911f29c8d4dc1082",
+  "adapter_v3_code_sha256": "ea8f63134f070db86211120e1dc75623a83cd7f172b9756efa9cbfa2e198dbbb",
+  "runner_v3_code_sha256": "d9fb6b31137cb514b0116d04b8a010a6ea5a27aef1c77ecaf5ec89868d66ef4f",
+  "test_v3_code_sha256": "6aa37631059fe1ba1a9d773c5ab0e0dd873d48d8d6c3035fccb99f9b03f3f04d",
+  "best_metrics_v3_sha256": "8e72547062d471622ad7ff58e0a72db5df649c32bbf38e1630cfb6f450dcea02"
+}

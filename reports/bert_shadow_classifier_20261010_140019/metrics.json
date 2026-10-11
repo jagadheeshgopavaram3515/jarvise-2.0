@@ -1,0 +1,134 @@
+{
+  "total": 359,
+  "attempted": 359,
+  "successful": 359,
+  "failed": 0,
+  "not_attempted": 0,
+  "gold_accuracy": "NOT MEASURED",
+  "historical_exact_agreements": 164,
+  "historical_field_agreements": {
+    "intent": 230,
+    "execution_path": 285,
+    "request_modes": 309,
+    "selected_capability": 231,
+    "context_references": 299,
+    "missing_information": 332,
+    "needs_clarification": 332,
+    "needs_escalation": 336
+  },
+  "training_overlap": 188,
+  "distribution": {
+    "intent": {
+      "use:google_search": 54,
+      "clarify_request": 27,
+      "research": 77,
+      "recall": 40,
+      "unsupported_request": 60,
+      "use:open_folder": 1,
+      "use:find_file": 9,
+      "respond": 56,
+      "use:grep_code": 2,
+      "use:open_app": 22,
+      "use:close_app": 6,
+      "use:search_files": 2,
+      "use:open_file": 3
+    },
+    "execution_path": {
+      "single_action": 99,
+      "clarify": 27,
+      "multi_step_task": 43,
+      "memory_recall": 40,
+      "research": 34,
+      "escalate": 60,
+      "direct_response": 56
+    },
+    "selected_capability": {
+      "google_search": 119,
+      "None": 183,
+      "open_app": 29,
+      "open_folder": 1,
+      "find_file": 9,
+      "weather": 1,
+      "grep_code": 3,
+      "run_project_tests": 1,
+      "close_app": 6,
+      "search_files": 4,
+      "open_file": 3
+    }
+  },
+  "groups": {
+    "language": {
+      "code_switch": {
+        "total": 77,
+        "successful": 77,
+        "historical_exact_agreements": 49
+      },
+      "english": {
+        "total": 82,
+        "successful": 82,
+        "historical_exact_agreements": 37
+      },
+      "hindi": {
+        "total": 78,
+        "successful": 78,
+        "historical_exact_agreements": 29
+      },
+      "tamil": {
+        "total": 44,
+        "successful": 44,
+        "historical_exact_agreements": 22
+      },
+      "telugu": {
+        "total": 78,
+        "successful": 78,
+        "historical_exact_agreements": 27
+      }
+    },
+    "script": {
+      "devanagari": {
+        "total": 30,
+        "successful": 30,
+        "historical_exact_agreements": 14
+      },
+      "latin": {
+        "total": 209,
+        "successful": 209,
+        "historical_exact_agreements": 75
+      },
+      "mixed": {
+        "total": 77,
+        "successful": 77,
+        "historical_exact_agreements": 49
+      },
+      "tamil": {
+        "total": 13,
+        "successful": 13,
+        "historical_exact_agreements": 11
+      },
+      "telugu": {
+        "total": 30,
+        "successful": 30,
+        "historical_exact_agreements": 15
+      }
+    },
+    "split": {
+      "development": {
+        "total": 57,
+        "successful": 57,
+        "historical_exact_agreements": 11
+      },
+      "sealed_candidate": {
+        "total": 63,
+        "successful": 63,
+        "historical_exact_agreements": 35
+      },
+      "train": {
+        "total": 239,
+        "successful": 239,
+        "historical_exact_agreements": 118
+      }
+    }
+  },
+  "median_ms": 179.5775999999023,
+  "p95_ms": 349.08030000042345
+}

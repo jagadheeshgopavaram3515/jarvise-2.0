@@ -1,0 +1,2 @@
+{"id": "a", "text": "same", "intent_family": "conversation", "capability_family": "none", "clarification_required": false, "missing_information": [], "provenance": "historical_synthetic", "group_id": "g1", "split": "train", "review_status": "pending_review"}
+{"id": "b", "text": "same", "intent_family": "conversation", "capability_family": "none", "clarification_required": false, "missing_information": [], "provenance": "historical_synthetic", "group_id": "g2", "split": "development", "review_status": "pending_review"}

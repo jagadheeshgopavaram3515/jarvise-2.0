@@ -1,0 +1,10 @@
+{
+  "True": {
+    "total": 188,
+    "agreements": 115
+  },
+  "False": {
+    "total": 171,
+    "agreements": 49
+  }
+}

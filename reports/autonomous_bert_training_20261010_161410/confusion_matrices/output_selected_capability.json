@@ -1,0 +1,26 @@
+{
+  "classes": [
+    "None",
+    "google_search",
+    "open_folder"
+  ],
+  "matrix": [
+    [
+      16,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      4,
+      16,
+      0
+    ]
+  ],
+  "denominator": 40,
+  "metric_type": "PROVISIONAL_LABEL_AGREEMENT"
+}

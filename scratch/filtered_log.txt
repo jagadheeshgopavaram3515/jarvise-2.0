@@ -1,0 +1,535 @@
+14:50:00 audio      mic alive: 5808 frames, 0 voiced in last window
+14:50:02 audio      speech START during_speech=False
+14:50:02 audio      mic alive: 5874 frames, 3 voiced in last window
+14:50:02 audio      speech END -> emit utterance (30 frames)
+14:50:02 perf       TRACE 9c976eb3 speech_end       +0.360s duration=0.06s frames=30 during_speech=False
+14:50:02 perf       TRACE 9c976eb3 stt_queued       +0.361s qsize=1
+14:50:02 perf       TRACE 9c976eb3 stt_start        +0.361s audio_sec=0.90 partial=False seq=1
+14:50:02 perf       TRACE 9c976eb3 transcript_dropped +0.385s reason=vad_prefilter_no_speech
+14:50:03 audio      speech START during_speech=False
+14:50:04 audio      speech END -> emit utterance (30 frames)
+14:50:04 perf       TRACE 9345953a speech_end       +0.330s duration=0.09s frames=30 during_speech=False
+14:50:04 perf       TRACE 9345953a stt_queued       +0.331s qsize=1
+14:50:04 perf       TRACE 9345953a stt_start        +0.331s audio_sec=0.90 partial=False seq=1
+14:50:04 perf       TRACE 9345953a transcript_dropped +0.360s reason=vad_prefilter_no_speech
+14:50:04 audio      speech START during_speech=False
+14:50:04 audio      mic alive: 5940 frames, 10 voiced in last window
+14:50:04 health     [HEALTH] TTS alive=true Dispatcher alive=true Reminder alive=true Backchannel alive=false STT alive=true AudioInput alive=true
+14:50:04 audio      speech END -> emit utterance (30 frames)
+14:50:04 perf       TRACE 35be3104 speech_end       +0.541s duration=0.24s frames=30 during_speech=False
+14:50:04 perf       TRACE 35be3104 stt_queued       +0.541s qsize=1
+14:50:04 perf       TRACE 35be3104 stt_start        +0.541s audio_sec=0.90 partial=False seq=1
+14:50:05 perf       TRACE 35be3104 transcript_dropped +0.579s reason=vad_prefilter_no_speech
+14:50:05 audio      speech START during_speech=False
+14:50:06 audio      mic alive: 6006 frames, 16 voiced in last window
+14:50:06 audio      speech END -> emit utterance (47 frames)
+14:50:06 perf       TRACE 02ca3cec speech_end       +0.240s duration=0.72s frames=47 during_speech=False
+14:50:06 perf       TRACE 02ca3cec stt_queued       +0.241s qsize=1
+14:50:06 perf       TRACE 02ca3cec stt_start        +0.241s audio_sec=1.41 partial=False seq=1
+14:50:06 perf       TRACE 02ca3cec transcript_dropped +0.273s reason=vad_prefilter_no_speech
+14:50:07 audio      speech START during_speech=False
+14:50:07 audio      speech END -> emit utterance (30 frames)
+14:50:07 perf       TRACE ed3b86d9 speech_end       +0.361s duration=0.06s frames=30 during_speech=False
+14:50:07 perf       TRACE ed3b86d9 stt_queued       +0.361s qsize=1
+14:50:07 perf       TRACE ed3b86d9 stt_start        +0.361s audio_sec=0.90 partial=False seq=1
+14:50:07 perf       TRACE ed3b86d9 transcript_dropped +0.382s reason=vad_prefilter_no_speech
+14:50:08 audio      mic alive: 6072 frames, 3 voiced in last window
+14:50:10 audio      mic alive: 6138 frames, 0 voiced in last window
+14:50:11 audio      speech START during_speech=False
+14:50:11 audio      speech END -> emit utterance (30 frames)
+14:50:11 perf       TRACE 30f72296 speech_end       +0.330s duration=0.09s frames=30 during_speech=False
+14:50:11 perf       TRACE 30f72296 stt_queued       +0.331s qsize=1
+14:50:11 perf       TRACE 30f72296 stt_start        +0.331s audio_sec=0.90 partial=False seq=1
+14:50:11 perf       TRACE 30f72296 transcript_dropped +0.356s reason=vad_prefilter_no_speech
+14:50:12 audio      mic alive: 6204 frames, 4 voiced in last window
+14:50:12 audio      speech START during_speech=False
+14:50:13 audio      speech END -> emit utterance (38 frames)
+14:50:13 perf       TRACE 1759fd9d speech_end       +0.241s duration=0.42s frames=38 during_speech=False
+14:50:13 perf       TRACE 1759fd9d stt_queued       +0.241s qsize=1
+14:50:13 perf       TRACE 1759fd9d stt_start        +0.241s audio_sec=1.14 partial=False seq=1
+14:50:13 perf       TRACE 1759fd9d transcript_dropped +0.279s reason=vad_prefilter_no_speech
+14:50:14 audio      speech START during_speech=False
+14:50:14 audio      mic alive: 6270 frames, 16 voiced in last window
+14:50:14 audio      speech END -> emit utterance (34 frames)
+14:50:14 perf       TRACE 2d4eab7e speech_end       +0.241s duration=0.30s frames=34 during_speech=False
+14:50:14 perf       TRACE 2d4eab7e stt_queued       +0.241s qsize=1
+14:50:14 perf       TRACE 2d4eab7e stt_start        +0.242s audio_sec=1.02 partial=False seq=1
+14:50:14 audio      speech START during_speech=False
+14:50:14 perf       TRACE 2d4eab7e transcript_dropped +0.274s reason=vad_prefilter_no_speech
+14:50:16 audio      mic alive: 6336 frames, 58 voiced in last window
+14:50:16 audio      speech END -> emit utterance (69 frames)
+14:50:16 perf       TRACE da86c33f speech_end       +0.241s duration=1.80s frames=69 during_speech=False
+14:50:16 perf       TRACE da86c33f stt_queued       +0.241s qsize=1
+14:50:16 perf       TRACE da86c33f stt_start        +0.242s audio_sec=2.07 partial=False seq=1
+14:50:16 google_genai.models AFC is enabled with max remote calls: 10.
+14:50:18 audio      mic alive: 6402 frames, 11 voiced in last window
+14:50:18 httpx      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent "HTTP/1.1 200 OK"
+14:50:18 stt        [HYBRID STT] cloud lang=en text='Do you know J. Krishnamurti?'
+14:50:18 perf       TRACE da86c33f stt_done         +2.360s took=2.12s lang=en prob=1.00 text='Do you know J. Krishnamurti?'
+14:50:18 dispatch   route: 'Do you know J. Krishnamurti?' (mode=AWAKE speaking=False)
+14:50:18 perf       TRACE da86c33f dispatch_start   +2.361s speaking=False text='Do you know J. Krishnamurti?'
+14:50:18 turn       [TURN START] 48cc9b7a
+14:50:18 dispatch   -> LLM
+14:50:18 perf       TRACE da86c33f gemini_start     +2.362s 
+14:50:20 health     [HEALTH] TTS alive=true Dispatcher alive=true Reminder alive=true Backchannel alive=false STT alive=true AudioInput alive=true
+14:50:20 audio      mic alive: 6468 frames, 0 voiced in last window
+14:50:21 audio      speech START during_speech=False
+14:50:21 router     [ROUTER] Classified in 2770.5ms -> GEMINI (query: 'Do you know J. Krishnamurti?')
+14:50:21 orchestrator [ORCHESTRATOR] Route selected: GEMINI in 2774.5ms
+14:50:21 google_genai.models AFC is enabled with max remote calls: 10.
+14:50:22 audio      mic alive: 6534 frames, 6 voiced in last window
+14:50:22 audio      speech END -> emit utterance (35 frames)
+14:50:22 perf       TRACE df8ff7f9 speech_end       +0.241s duration=0.33s frames=35 during_speech=False
+14:50:22 perf       TRACE df8ff7f9 stt_queued       +0.241s qsize=1
+14:50:22 perf       TRACE df8ff7f9 stt_start        +0.241s audio_sec=1.05 partial=False seq=1
+14:50:22 perf       TRACE df8ff7f9 transcript_dropped +0.264s reason=vad_prefilter_no_speech
+14:50:22 httpx      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+14:50:22 perf       TRACE da86c33f gemini_first_text +6.130s took=3.77s text='Indeed I do, sir.'
+14:50:22 perf       TRACE da86c33f tts_queued       +6.131s text='Indeed I do, sir.'
+14:50:22 turn       [SENTENCE] 48cc9b7a 'Indeed I do, sir.'
+14:50:22 perf       TRACE da86c33f tts_synth_start  +6.131s text='Indeed I do, sir.'
+14:50:22 turn       [SENTENCE] 48cc9b7a 'He was a rather profound philosopher who spoke end'
+14:50:22 turn       [SENTENCE] 48cc9b7a 'conditioned thought.'
+14:50:22 perf       TRACE da86c33f gemini_done      +6.204s total=3.84s
+14:50:23 perf       TRACE da86c33f tts_synth_done   +7.299s took=1.17s
+14:50:23 tts        speak turn=48cc9b7a: 'Indeed I do, sir.'
+14:50:23 tts        audio_state during_speech=True
+14:50:23 perf       TRACE da86c33f tts_play_start   +7.351s 
+14:50:26 tts        audio_state during_speech=False
+14:50:26 perf       TRACE da86c33f tts_play_done    +10.026s play=2.68s
+14:50:26 perf       SUMMARY da86c33f speech=1.80s stt_wait=0.00s stt=2.12s dispatch_wait=0.00s gemini_first=3.77s gemini_total=3.84s tts_wait=0.00s synth=1.17s audio_start=1.22s play=2.68s total=7.35s
+14:50:26 tts        speak turn=48cc9b7a: 'He was a rather profound philosopher who spoke endlessly on freedom, self-inquir'
+14:50:26 tts        audio_state during_speech=True
+14:50:33 tts        audio_state during_speech=False
+14:50:33 tts        speak turn=48cc9b7a: 'conditioned thought.'
+14:50:34 tts        audio_state during_speech=True
+14:50:35 health     [HEALTH] TTS alive=true Dispatcher alive=true Reminder alive=true Backchannel alive=false STT alive=true AudioInput alive=true
+14:50:36 tts        audio_state during_speech=False
+14:50:36 tts        [END] 48cc9b7a
+14:50:37 audio      mic alive: 6600 frames, 0 voiced in last window
+14:50:39 audio      mic alive: 6666 frames, 0 voiced in last window
+14:50:41 audio      mic alive: 6732 frames, 0 voiced in last window
+14:50:43 audio      mic alive: 6798 frames, 0 voiced in last window
+14:50:44 audio      speech START during_speech=False
+14:50:45 audio      speech END -> emit utterance (31 frames)
+14:50:45 perf       TRACE fc8cbd4c speech_end       +0.241s duration=0.21s frames=31 during_speech=False
+14:50:45 perf       TRACE fc8cbd4c stt_queued       +0.242s qsize=1
+14:50:45 perf       TRACE fc8cbd4c stt_start        +0.242s audio_sec=0.93 partial=False seq=1
+14:50:45 perf       TRACE fc8cbd4c transcript_dropped +0.264s reason=vad_prefilter_no_speech
+14:50:45 audio      speech START during_speech=False
+14:50:45 audio      mic alive: 6864 frames, 24 voiced in last window
+14:50:47 audio      speech END -> emit utterance (83 frames)
+14:50:47 perf       TRACE df266b7d speech_end       +0.241s duration=2.13s frames=83 during_speech=False
+14:50:47 perf       TRACE df266b7d stt_queued       +0.242s qsize=1
+14:50:47 perf       TRACE df266b7d stt_start        +0.242s audio_sec=2.49 partial=False seq=1
+14:50:47 audio      mic alive: 6930 frames, 56 voiced in last window
+14:50:47 google_genai.models AFC is enabled with max remote calls: 10.
+14:50:49 audio      speech START during_speech=False
+14:50:49 httpx      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent "HTTP/1.1 200 OK"
+14:50:49 stt        [HYBRID STT] cloud lang=en text='Where are we right now? What is the location?'
+14:50:49 perf       TRACE df266b7d stt_done         +2.210s took=1.97s lang=en prob=1.00 text='Where are we right now? What is the location?'
+14:50:49 dispatch   route: 'Where are we right now? What is the location?' (mode=AWAKE speaking=False)
+14:50:49 perf       TRACE df266b7d dispatch_start   +2.211s speaking=False text='Where are we right now? What is the location?'
+14:50:49 turn       [TURN START] 0dab84dc
+14:50:49 dispatch   -> LLM
+14:50:49 perf       TRACE df266b7d gemini_start     +2.216s 
+14:50:49 audio      mic alive: 6996 frames, 5 voiced in last window
+14:50:49 audio      speech END -> emit utterance (30 frames)
+14:50:49 perf       TRACE 9f2dce88 speech_end       +0.300s duration=0.12s frames=30 during_speech=False
+14:50:49 perf       TRACE 9f2dce88 stt_queued       +0.301s qsize=1
+14:50:49 perf       TRACE 9f2dce88 stt_start        +0.301s audio_sec=0.90 partial=False seq=1
+14:50:49 perf       TRACE 9f2dce88 transcript_dropped +0.323s reason=vad_prefilter_no_speech
+14:50:50 health     [HEALTH] TTS alive=true Dispatcher alive=true Reminder alive=true Backchannel alive=false STT alive=true AudioInput alive=true
+14:50:51 audio      mic alive: 7062 frames, 0 voiced in last window
+14:50:52 router     [ROUTER] Classified in 2569.2ms -> LOCAL (query: 'Where are we right now? What is the loca')
+14:50:52 orchestrator [ORCHESTRATOR] Route selected: LOCAL in 2576.3ms
+14:50:53 audio      mic alive: 7128 frames, 0 voiced in last window
+14:50:55 audio      speech START during_speech=False
+14:50:56 audio      mic alive: 7194 frames, 9 voiced in last window
+14:50:56 audio      speech END -> emit utterance (54 frames)
+14:50:56 perf       TRACE e52617ff speech_end       +0.241s duration=0.90s frames=54 during_speech=False
+14:50:56 perf       TRACE e52617ff stt_queued       +0.242s qsize=1
+14:50:56 perf       TRACE e52617ff stt_start        +0.243s audio_sec=1.62 partial=False seq=1
+14:50:57 perf       TRACE e52617ff transcript_dropped +0.315s reason=vad_prefilter_no_speech
+14:50:57 audio      speech START during_speech=False
+14:50:57 realtime   [REALTIME] query='Where are we right now? What is the location?' provider=serpapi articles=3 latency=5.59s cache_hit=False
+14:50:58 audio      mic alive: 7260 frames, 25 voiced in last window
+14:50:58 audio      speech END -> emit utterance (30 frames)
+14:50:58 perf       TRACE 069e963d speech_end       +0.361s duration=0.06s frames=30 during_speech=False
+14:50:58 perf       TRACE 069e963d stt_queued       +0.361s qsize=1
+14:50:58 perf       TRACE 069e963d stt_start        +0.362s audio_sec=0.90 partial=False seq=1
+14:50:58 perf       TRACE 069e963d transcript_dropped +0.392s reason=vad_prefilter_no_speech
+14:50:58 audio      speech START during_speech=False
+14:50:59 audio      speech END -> emit utterance (35 frames)
+14:50:59 perf       TRACE 0f074b78 speech_end       +0.240s duration=0.33s frames=35 during_speech=False
+14:50:59 perf       TRACE 0f074b78 stt_queued       +0.241s qsize=1
+14:50:59 perf       TRACE 0f074b78 stt_start        +0.241s audio_sec=1.05 partial=False seq=1
+14:50:59 perf       TRACE 0f074b78 transcript_dropped +0.265s reason=vad_prefilter_no_speech
+14:51:00 audio      mic alive: 7326 frames, 8 voiced in last window
+14:51:01 audio      speech START during_speech=False
+14:51:02 audio      mic alive: 7392 frames, 3 voiced in last window
+14:51:02 audio      speech END -> emit utterance (30 frames)
+14:51:02 perf       TRACE a407f2a7 speech_end       +0.361s duration=0.06s frames=30 during_speech=False
+14:51:02 perf       TRACE a407f2a7 stt_queued       +0.361s qsize=1
+14:51:02 perf       TRACE a407f2a7 stt_start        +0.361s audio_sec=0.90 partial=False seq=1
+14:51:02 perf       TRACE a407f2a7 transcript_dropped +0.386s reason=vad_prefilter_no_speech
+14:51:02 audio      speech START during_speech=False
+14:51:03 audio      speech END -> emit utterance (30 frames)
+14:51:03 perf       TRACE 159c1ba1 speech_end       +0.361s duration=0.06s frames=30 during_speech=False
+14:51:03 perf       TRACE 159c1ba1 stt_queued       +0.361s qsize=1
+14:51:03 perf       TRACE 159c1ba1 stt_start        +0.361s audio_sec=0.90 partial=False seq=1
+14:51:03 perf       TRACE 159c1ba1 transcript_dropped +0.383s reason=vad_prefilter_no_speech
+14:51:03 audio      mic alive: 7458 frames, 3 voiced in last window
+14:51:05 perf       TRACE df266b7d gemini_first_text +17.549s took=15.33s text='We are currently in your location, sir.'
+14:51:05 perf       TRACE df266b7d tts_queued       +17.549s text='We are currently in your location, sir.'
+14:51:05 turn       [SENTENCE] 0dab84dc 'We are currently in your location, sir.'
+14:51:05 perf       TRACE df266b7d tts_synth_start  +17.550s text='We are currently in your location, sir.'
+14:51:05 turn       [SENTENCE] 0dab84dc 'You can see your current location on the map below'
+14:51:05 perf       TRACE df266b7d gemini_done      +17.889s total=15.67s
+14:51:06 health     [HEALTH] TTS alive=true Dispatcher alive=true Reminder alive=true Backchannel alive=false STT alive=true AudioInput alive=true
+14:51:06 perf       TRACE df266b7d tts_synth_done   +18.991s took=1.44s
+14:51:06 tts        speak turn=0dab84dc: 'We are currently in your location, sir.'
+14:51:06 tts        audio_state during_speech=True
+14:51:06 perf       TRACE df266b7d tts_play_start   +19.036s 
+14:51:09 tts        audio_state during_speech=False
+14:51:09 perf       TRACE df266b7d tts_play_done    +22.251s play=3.22s
+14:51:09 perf       SUMMARY df266b7d speech=2.13s stt_wait=0.00s stt=1.97s dispatch_wait=0.00s gemini_first=15.33s gemini_total=15.67s tts_wait=0.00s synth=1.44s audio_start=1.49s play=3.22s total=19.04s
+14:51:09 tts        speak turn=0dab84dc: 'You can see your current location on the map below.'
+14:51:09 tts        audio_state during_speech=True
+14:51:13 tts        audio_state during_speech=False
+14:51:13 tts        [END] 0dab84dc
+14:51:13 audio      speech START during_speech=False
+14:51:14 audio      mic alive: 7524 frames, 9 voiced in last window
+14:51:14 audio      speech END -> emit utterance (40 frames)
+14:51:14 perf       TRACE 0dada1a0 speech_end       +0.240s duration=0.48s frames=40 during_speech=False
+14:51:14 perf       TRACE 0dada1a0 stt_queued       +0.241s qsize=1
+14:51:14 perf       TRACE 0dada1a0 stt_start        +0.241s audio_sec=1.20 partial=False seq=1
+14:51:14 perf       TRACE 0dada1a0 transcript_dropped +0.275s reason=vad_prefilter_no_speech
+14:51:15 audio      speech START during_speech=False
+14:51:15 audio      speech END -> emit utterance (30 frames)
+14:51:15 perf       TRACE 3ee4b6a3 speech_end       +0.331s duration=0.09s frames=30 during_speech=False
+14:51:15 perf       TRACE 3ee4b6a3 stt_queued       +0.331s qsize=1
+14:51:15 perf       TRACE 3ee4b6a3 stt_start        +0.331s audio_sec=0.90 partial=False seq=1
+14:51:15 perf       TRACE 3ee4b6a3 transcript_dropped +0.355s reason=vad_prefilter_no_speech
+14:51:16 audio      speech START during_speech=False
+14:51:16 audio      mic alive: 7590 frames, 6 voiced in last window
+14:51:17 audio      speech END -> emit utterance (30 frames)
+14:51:17 perf       TRACE 496e2dfc speech_end       +0.361s duration=0.06s frames=30 during_speech=False
+14:51:17 perf       TRACE 496e2dfc stt_queued       +0.361s qsize=1
+14:51:17 perf       TRACE 496e2dfc stt_start        +0.361s audio_sec=0.90 partial=False seq=1
+14:51:17 perf       TRACE 496e2dfc transcript_dropped +0.384s reason=vad_prefilter_no_speech
+14:51:17 audio      speech START during_speech=False
+14:51:18 audio      mic alive: 7656 frames, 34 voiced in last window
+14:51:20 audio      mic alive: 7722 frames, 66 voiced in last window
+14:51:21 health     [HEALTH] TTS alive=true Dispatcher alive=true Reminder alive=true Backchannel alive=false STT alive=true AudioInput alive=true
+14:51:22 audio      mic alive: 7788 frames, 38 voiced in last window
+14:51:23 audio      speech END -> emit utterance (200 frames)
+14:51:23 perf       TRACE a749ba95 speech_end       +1.291s duration=4.23s frames=200 during_speech=False
+14:51:23 perf       TRACE a749ba95 stt_queued       +1.291s qsize=1
+14:51:23 perf       TRACE a749ba95 stt_start        +1.292s audio_sec=6.00 partial=False seq=1
+14:51:23 google_genai.models AFC is enabled with max remote calls: 10.
+14:51:23 audio      speech START during_speech=False
+14:51:24 audio      speech END -> emit utterance (30 frames)
+14:51:24 perf       TRACE 4315900a speech_end       +0.370s duration=0.07s frames=30 during_speech=False
+14:51:24 perf       TRACE 4315900a stt_queued       +0.374s qsize=1
+14:51:24 audio      mic alive: 7854 frames, 3 voiced in last window
+14:51:24 httpx      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent "HTTP/1.1 200 OK"
+14:51:24 stt        [HYBRID STT] cloud lang=en text='Tell me the place name, where I am right now. What is the place name?'
+14:51:24 perf       TRACE a749ba95 stt_done         +3.211s took=1.92s lang=en prob=1.00 text='Tell me the place name, where I am right now. What is the place name?'
+14:51:24 perf       TRACE 4315900a stt_start        +1.167s audio_sec=0.90 partial=False seq=1
+14:51:24 dispatch   route: 'Tell me the place name, where I am right now. What is the place name?' (mode=AWAKE speaking=False)
+14:51:24 perf       TRACE a749ba95 dispatch_start   +3.213s speaking=False text='Tell me the place name, where I am right now. What is the place name?'
+14:51:24 turn       [TURN START] 6d5220a4
+14:51:24 dispatch   -> LLM
+14:51:24 perf       TRACE a749ba95 gemini_start     +3.217s 
+14:51:24 perf       TRACE 4315900a transcript_dropped +1.217s reason=vad_prefilter_no_speech
+14:51:26 audio      mic alive: 7920 frames, 0 voiced in last window
+14:51:27 router     [ROUTER] Classified in 2563.5ms -> LOCAL (query: 'Tell me the place name, where I am right')
+14:51:27 orchestrator [ORCHESTRATOR] Route selected: LOCAL in 2569.7ms
+14:51:27 audio      speech START during_speech=False
+14:51:28 audio      speech END -> emit utterance (30 frames)
+14:51:28 perf       TRACE 9ec03605 speech_end       +0.331s duration=0.09s frames=30 during_speech=False
+14:51:28 perf       TRACE 9ec03605 stt_queued       +0.331s qsize=1
+14:51:28 perf       TRACE 9ec03605 stt_start        +0.332s audio_sec=0.90 partial=False seq=1
+14:51:28 perf       TRACE 9ec03605 transcript_dropped +0.365s reason=vad_prefilter_no_speech
+14:51:28 audio      mic alive: 7986 frames, 4 voiced in last window
+14:51:30 audio      mic alive: 8052 frames, 0 voiced in last window
+14:51:30 realtime   [REALTIME] query='Tell me the place name, where I am right now. What is the place name?' provider=serpapi articles=3 latency=3.34s cache_hit=False
+14:51:32 audio      mic alive: 8118 frames, 0 voiced in last window
+14:51:34 audio      mic alive: 8184 frames, 0 voiced in last window
+14:51:36 audio      mic alive: 8250 frames, 0 voiced in last window
+14:51:36 health     [HEALTH] TTS alive=true Dispatcher alive=true Reminder alive=true Backchannel alive=false STT alive=true AudioInput alive=true
+14:51:37 perf       TRACE a749ba95 gemini_first_text +15.823s took=12.61s text='You are currently in [Your City], [Your Country].'
+14:51:37 perf       TRACE a749ba95 tts_queued       +15.824s text='You are currently in [Your City], [Your Country].'
+14:51:37 turn       [SENTENCE] 6d5220a4 'You are currently in [Your City], [Your Country].'
+14:51:37 perf       TRACE a749ba95 tts_synth_start  +15.824s text='You are currently in [Your City], [Your Country].'
+14:51:37 perf       TRACE a749ba95 gemini_done      +15.865s total=12.65s
+14:51:39 perf       TRACE a749ba95 tts_synth_done   +17.399s took=1.57s
+14:51:39 tts        speak turn=6d5220a4: 'You are currently in [Your City], [Your Country].'
+14:51:39 tts        audio_state during_speech=True
+14:51:39 perf       TRACE a749ba95 tts_play_start   +17.448s 
+14:51:42 tts        audio_state during_speech=False
+14:51:42 perf       TRACE a749ba95 tts_play_done    +21.038s play=3.59s
+14:51:42 perf       SUMMARY a749ba95 speech=4.23s stt_wait=0.00s stt=1.92s dispatch_wait=0.00s gemini_first=12.61s gemini_total=12.65s tts_wait=0.00s synth=1.57s audio_start=1.62s play=3.59s total=17.45s
+14:51:42 tts        [END] 6d5220a4
+14:51:44 audio      mic alive: 8316 frames, 0 voiced in last window
+14:51:45 audio      speech START during_speech=False
+14:51:45 audio      speech END -> emit utterance (30 frames)
+14:51:45 perf       TRACE bac6f34a speech_end       +0.331s duration=0.09s frames=30 during_speech=False
+14:51:45 perf       TRACE bac6f34a stt_queued       +0.331s qsize=1
+14:51:45 perf       TRACE bac6f34a stt_start        +0.331s audio_sec=0.90 partial=False seq=1
+14:51:45 perf       TRACE bac6f34a transcript_dropped +0.364s reason=vad_prefilter_no_speech
+14:51:46 audio      mic alive: 8382 frames, 4 voiced in last window
+14:51:47 audio      mic alive: 8448 frames, 0 voiced in last window
+14:51:48 audio      speech START during_speech=False
+14:51:49 audio      speech END -> emit utterance (30 frames)
+14:51:49 perf       TRACE 34f12957 speech_end       +0.331s duration=0.09s frames=30 during_speech=False
+14:51:49 perf       TRACE 34f12957 stt_queued       +0.332s qsize=1
+14:51:49 perf       TRACE 34f12957 stt_start        +0.332s audio_sec=0.90 partial=False seq=1
+14:51:49 perf       TRACE 34f12957 transcript_dropped +0.367s reason=vad_prefilter_no_speech
+14:51:49 audio      mic alive: 8514 frames, 4 voiced in last window
+14:51:51 health     [HEALTH] TTS alive=true Dispatcher alive=true Reminder alive=true Backchannel alive=false STT alive=true AudioInput alive=true
+14:51:51 audio      mic alive: 8580 frames, 0 voiced in last window
+14:51:53 audio      speech START during_speech=False
+14:51:53 audio      speech END -> emit utterance (30 frames)
+14:51:53 perf       TRACE 63c838a8 speech_end       +0.240s duration=0.18s frames=30 during_speech=False
+14:51:53 perf       TRACE 63c838a8 stt_queued       +0.241s qsize=1
+14:51:53 perf       TRACE 63c838a8 stt_start        +0.241s audio_sec=0.90 partial=False seq=1
+14:51:53 audio      mic alive: 8646 frames, 7 voiced in last window
+14:51:53 perf       TRACE 63c838a8 transcript_dropped +0.271s reason=vad_prefilter_no_speech
+14:51:54 audio      speech START during_speech=False
+14:51:55 audio      speech END -> emit utterance (53 frames)
+14:51:55 perf       TRACE 1a0505c7 speech_end       +0.241s duration=0.87s frames=53 during_speech=False
+14:51:55 perf       TRACE 1a0505c7 stt_queued       +0.241s qsize=1
+14:51:55 perf       TRACE 1a0505c7 stt_start        +0.242s audio_sec=1.59 partial=False seq=1
+14:51:55 perf       TRACE 1a0505c7 transcript_dropped +0.293s reason=vad_prefilter_no_speech
+14:51:55 audio      speech START during_speech=False
+14:51:55 audio      mic alive: 8712 frames, 28 voiced in last window
+14:51:56 audio      speech END -> emit utterance (30 frames)
+14:51:56 perf       TRACE 1be3be38 speech_end       +0.240s duration=0.42s frames=30 during_speech=False
+14:51:56 perf       TRACE 1be3be38 stt_queued       +0.241s qsize=1
+14:51:56 perf       TRACE 1be3be38 stt_start        +0.241s audio_sec=0.90 partial=False seq=1
+14:51:56 perf       TRACE 1be3be38 transcript_dropped +0.263s reason=vad_prefilter_no_speech
+14:51:56 audio      speech START during_speech=False
+14:51:57 audio      mic alive: 8778 frames, 26 voiced in last window
+14:51:57 audio      speech END -> emit utterance (49 frames)
+14:51:57 perf       TRACE cf085e34 speech_end       +0.240s duration=0.87s frames=49 during_speech=False
+14:51:57 perf       TRACE cf085e34 stt_queued       +0.241s qsize=1
+14:51:57 perf       TRACE cf085e34 stt_start        +0.241s audio_sec=1.47 partial=False seq=1
+14:51:58 perf       TRACE cf085e34 transcript_dropped +0.276s reason=vad_prefilter_no_speech
+14:51:58 audio      speech START during_speech=False
+14:51:59 audio      speech END -> emit utterance (30 frames)
+14:51:59 perf       TRACE 60b8ccaa speech_end       +0.241s duration=0.18s frames=30 during_speech=False
+14:51:59 perf       TRACE 60b8ccaa stt_queued       +0.241s qsize=1
+14:51:59 perf       TRACE 60b8ccaa stt_start        +0.242s audio_sec=0.90 partial=False seq=1
+14:51:59 perf       TRACE 60b8ccaa transcript_dropped +0.274s reason=vad_prefilter_no_speech
+14:51:59 audio      speech START during_speech=False
+14:51:59 audio      mic alive: 8844 frames, 11 voiced in last window
+14:51:59 audio      speech END -> emit utterance (30 frames)
+14:51:59 perf       TRACE a8afba55 speech_end       +0.361s duration=0.09s frames=30 during_speech=False
+14:51:59 perf       TRACE a8afba55 stt_queued       +0.361s qsize=1
+14:51:59 perf       TRACE a8afba55 stt_start        +0.362s audio_sec=0.90 partial=False seq=1
+14:51:59 perf       TRACE a8afba55 transcript_dropped +0.391s reason=vad_prefilter_no_speech
+14:52:00 audio      speech START during_speech=False
+14:52:01 audio      speech END -> emit utterance (39 frames)
+14:52:01 perf       TRACE 1023736d speech_end       +0.241s duration=0.45s frames=39 during_speech=False
+14:52:01 perf       TRACE 1023736d stt_queued       +0.241s qsize=1
+14:52:01 perf       TRACE 1023736d stt_start        +0.241s audio_sec=1.17 partial=False seq=1
+14:52:01 perf       TRACE 1023736d transcript_dropped +0.274s reason=vad_prefilter_no_speech
+14:52:01 audio      mic alive: 8910 frames, 7 voiced in last window
+14:52:02 audio      speech START during_speech=False
+14:52:03 audio      speech END -> emit utterance (30 frames)
+14:52:03 perf       TRACE 2f08c99b speech_end       +0.331s duration=0.09s frames=30 during_speech=False
+14:52:03 perf       TRACE 2f08c99b stt_queued       +0.332s qsize=1
+14:52:03 perf       TRACE 2f08c99b stt_start        +0.333s audio_sec=0.90 partial=False seq=1
+14:52:03 audio      speech START during_speech=False
+14:52:03 perf       TRACE 2f08c99b transcript_dropped +0.373s reason=vad_prefilter_no_speech
+14:52:03 audio      mic alive: 8976 frames, 15 voiced in last window
+14:52:04 audio      speech END -> emit utterance (34 frames)
+14:52:04 perf       TRACE dc6280e3 speech_end       +0.240s duration=0.75s frames=34 during_speech=False
+14:52:04 perf       TRACE dc6280e3 stt_queued       +0.241s qsize=1
+14:52:04 perf       TRACE dc6280e3 stt_start        +0.241s audio_sec=1.02 partial=False seq=1
+14:52:04 perf       TRACE dc6280e3 transcript_dropped +0.267s reason=vad_prefilter_no_speech
+14:52:04 audio      speech START during_speech=False
+14:52:05 audio      speech END -> emit utterance (30 frames)
+14:52:05 perf       TRACE a1c3d676 speech_end       +0.451s duration=0.33s frames=30 during_speech=False
+14:52:05 perf       TRACE a1c3d676 stt_queued       +0.451s qsize=1
+14:52:05 perf       TRACE a1c3d676 stt_start        +0.451s audio_sec=0.90 partial=False seq=1
+14:52:05 perf       TRACE a1c3d676 transcript_dropped +0.477s reason=vad_prefilter_no_speech
+14:52:05 audio      speech START during_speech=False
+14:52:05 audio      speech END -> emit utterance (24 frames)
+14:52:05 perf       TRACE 6e917399 speech_end       +0.601s duration=0.06s frames=24 during_speech=False
+14:52:05 perf       TRACE 6e917399 stt_queued       +0.601s qsize=1
+14:52:05 perf       TRACE 6e917399 stt_start        +0.601s audio_sec=0.72 partial=False seq=1
+14:52:05 perf       TRACE 6e917399 transcript_dropped +0.621s reason=vad_prefilter_no_speech
+14:52:05 audio      mic alive: 9042 frames, 18 voiced in last window
+14:52:05 audio      speech START during_speech=False
+14:52:06 health     [HEALTH] TTS alive=true Dispatcher alive=true Reminder alive=true Backchannel alive=false STT alive=true AudioInput alive=true
+14:52:07 audio      speech END -> emit utterance (44 frames)
+14:52:07 perf       TRACE 88468a1d speech_end       +0.240s duration=1.02s frames=44 during_speech=False
+14:52:07 perf       TRACE 88468a1d stt_queued       +0.241s qsize=1
+14:52:07 perf       TRACE 88468a1d stt_start        +0.241s audio_sec=1.32 partial=False seq=1
+14:52:07 perf       TRACE 88468a1d transcript_dropped +0.272s reason=vad_prefilter_no_speech
+14:52:07 audio      mic alive: 9108 frames, 15 voiced in last window
+14:52:07 audio      speech START during_speech=False
+14:52:08 audio      speech END -> emit utterance (37 frames)
+14:52:08 perf       TRACE dea92519 speech_end       +0.240s duration=0.39s frames=37 during_speech=False
+14:52:08 perf       TRACE dea92519 stt_queued       +0.241s qsize=1
+14:52:08 perf       TRACE dea92519 stt_start        +0.241s audio_sec=1.11 partial=False seq=1
+14:52:08 perf       TRACE dea92519 transcript_dropped +0.271s reason=vad_prefilter_no_speech
+14:52:08 audio      speech START during_speech=False
+14:52:09 audio      speech END -> emit utterance (30 frames)
+14:52:09 perf       TRACE e2236ed5 speech_end       +0.420s duration=0.06s frames=30 during_speech=False
+14:52:09 perf       TRACE e2236ed5 stt_queued       +0.421s qsize=1
+14:52:09 perf       TRACE e2236ed5 stt_start        +0.421s audio_sec=0.90 partial=False seq=1
+14:52:09 perf       TRACE e2236ed5 transcript_dropped +0.445s reason=vad_prefilter_no_speech
+14:52:09 audio      speech START during_speech=False
+14:52:09 audio      mic alive: 9174 frames, 16 voiced in last window
+14:52:10 audio      speech END -> emit utterance (30 frames)
+14:52:10 perf       TRACE e7b8974c speech_end       +0.391s duration=0.21s frames=30 during_speech=False
+14:52:10 perf       TRACE e7b8974c stt_queued       +0.391s qsize=1
+14:52:10 perf       TRACE e7b8974c stt_start        +0.392s audio_sec=0.90 partial=False seq=1
+14:52:10 perf       TRACE e7b8974c transcript_dropped +0.418s reason=vad_prefilter_no_speech
+14:52:10 audio      speech START during_speech=False
+14:52:11 audio      speech END -> emit utterance (30 frames)
+14:52:11 perf       TRACE 7c0af2e7 speech_end       +0.319s duration=0.34s frames=30 during_speech=False
+14:52:11 perf       TRACE 7c0af2e7 stt_queued       +0.320s qsize=1
+14:52:11 perf       TRACE 7c0af2e7 stt_start        +0.320s audio_sec=0.90 partial=False seq=1
+14:52:11 audio      speech START during_speech=False
+14:52:11 perf       TRACE 7c0af2e7 transcript_dropped +0.358s reason=vad_prefilter_no_speech
+14:52:11 audio      mic alive: 9240 frames, 16 voiced in last window
+14:52:12 audio      speech END -> emit utterance (30 frames)
+14:52:12 perf       TRACE 93fffb88 speech_end       +0.331s duration=0.51s frames=30 during_speech=False
+14:52:12 perf       TRACE 93fffb88 stt_queued       +0.331s qsize=1
+14:52:12 perf       TRACE 93fffb88 stt_start        +0.331s audio_sec=0.90 partial=False seq=1
+14:52:12 perf       TRACE 93fffb88 transcript_dropped +0.357s reason=vad_prefilter_no_speech
+14:52:12 audio      speech START during_speech=False
+14:52:12 audio      speech END -> emit utterance (30 frames)
+14:52:12 perf       TRACE 1a60ae57 speech_end       +0.331s duration=0.09s frames=30 during_speech=False
+14:52:12 perf       TRACE 1a60ae57 stt_queued       +0.331s qsize=1
+14:52:12 perf       TRACE 1a60ae57 stt_start        +0.332s audio_sec=0.90 partial=False seq=1
+14:52:13 perf       TRACE 1a60ae57 transcript_dropped +0.360s reason=vad_prefilter_no_speech
+14:52:13 audio      speech START during_speech=False
+14:52:13 audio      mic alive: 9306 frames, 8 voiced in last window
+14:52:14 audio      speech END -> emit utterance (45 frames)
+14:52:14 perf       TRACE dc26378c speech_end       +0.240s duration=0.75s frames=45 during_speech=False
+14:52:14 perf       TRACE dc26378c stt_queued       +0.241s qsize=1
+14:52:14 perf       TRACE dc26378c stt_start        +0.241s audio_sec=1.35 partial=False seq=1
+14:52:14 perf       TRACE dc26378c transcript_dropped +0.273s reason=vad_prefilter_no_speech
+14:52:15 audio      speech START during_speech=False
+14:52:15 audio      speech END -> emit utterance (30 frames)
+14:52:15 perf       TRACE 3a24d5dd speech_end       +0.331s duration=0.09s frames=30 during_speech=False
+14:52:15 perf       TRACE 3a24d5dd stt_queued       +0.331s qsize=1
+14:52:15 perf       TRACE 3a24d5dd stt_start        +0.331s audio_sec=0.90 partial=False seq=1
+14:52:15 perf       TRACE 3a24d5dd transcript_dropped +0.363s reason=vad_prefilter_no_speech
+14:52:15 audio      mic alive: 9372 frames, 13 voiced in last window
+14:52:16 audio      speech START during_speech=False
+14:52:16 audio      speech END -> emit utterance (38 frames)
+14:52:16 perf       TRACE 46b834e2 speech_end       +0.240s duration=0.42s frames=38 during_speech=False
+14:52:16 perf       TRACE 46b834e2 stt_queued       +0.241s qsize=1
+14:52:16 perf       TRACE 46b834e2 stt_start        +0.241s audio_sec=1.14 partial=False seq=1
+14:52:16 perf       TRACE 46b834e2 transcript_dropped +0.272s reason=vad_prefilter_no_speech
+14:52:17 audio      mic alive: 9438 frames, 9 voiced in last window
+14:52:17 audio      speech START during_speech=False
+14:52:18 audio      speech END -> emit utterance (30 frames)
+14:52:18 perf       TRACE 2f5ddd39 speech_end       +0.361s duration=0.06s frames=30 during_speech=False
+14:52:18 perf       TRACE 2f5ddd39 stt_queued       +0.361s qsize=1
+14:52:18 perf       TRACE 2f5ddd39 stt_start        +0.362s audio_sec=0.90 partial=False seq=1
+14:52:18 perf       TRACE 2f5ddd39 transcript_dropped +0.386s reason=vad_prefilter_no_speech
+14:52:19 audio      speech START during_speech=False
+14:52:19 audio      speech END -> emit utterance (30 frames)
+14:52:19 perf       TRACE 7b137683 speech_end       +0.361s duration=0.06s frames=30 during_speech=False
+14:52:19 perf       TRACE 7b137683 stt_queued       +0.361s qsize=1
+14:52:19 perf       TRACE 7b137683 stt_start        +0.361s audio_sec=0.90 partial=False seq=1
+14:52:19 perf       TRACE 7b137683 transcript_dropped +0.392s reason=vad_prefilter_no_speech
+14:52:19 audio      mic alive: 9504 frames, 6 voiced in last window
+14:52:21 audio      mic alive: 9570 frames, 0 voiced in last window
+14:52:22 health     [HEALTH] TTS alive=true Dispatcher alive=true Reminder alive=true Backchannel alive=false STT alive=true AudioInput alive=true
+14:52:23 audio      mic alive: 9636 frames, 0 voiced in last window
+14:52:25 audio      mic alive: 9702 frames, 0 voiced in last window
+14:52:26 audio      speech START during_speech=False
+14:52:27 audio      speech END -> emit utterance (30 frames)
+14:52:27 perf       TRACE 8a8e14e3 speech_end       +0.361s duration=0.06s frames=30 during_speech=False
+14:52:27 perf       TRACE 8a8e14e3 stt_queued       +0.361s qsize=1
+14:52:27 perf       TRACE 8a8e14e3 stt_start        +0.361s audio_sec=0.90 partial=False seq=1
+14:52:27 perf       TRACE 8a8e14e3 transcript_dropped +0.388s reason=vad_prefilter_no_speech
+14:52:27 audio      mic alive: 9768 frames, 3 voiced in last window
+14:52:29 audio      mic alive: 9834 frames, 0 voiced in last window
+14:52:31 audio      mic alive: 9900 frames, 0 voiced in last window
+14:52:32 audio      speech START during_speech=False
+14:52:33 audio      speech END -> emit utterance (30 frames)
+14:52:33 perf       TRACE 3906050a speech_end       +0.331s duration=0.09s frames=30 during_speech=False
+14:52:33 perf       TRACE 3906050a stt_queued       +0.331s qsize=1
+14:52:33 perf       TRACE 3906050a stt_start        +0.331s audio_sec=0.90 partial=False seq=1
+14:52:33 perf       TRACE 3906050a transcript_dropped +0.367s reason=vad_prefilter_no_speech
+14:52:33 audio      mic alive: 9966 frames, 4 voiced in last window
+14:52:34 audio      speech START during_speech=False
+14:52:34 audio      speech END -> emit utterance (30 frames)
+14:52:34 perf       TRACE b1ffb7e7 speech_end       +0.361s duration=0.06s frames=30 during_speech=False
+14:52:34 perf       TRACE b1ffb7e7 stt_queued       +0.362s qsize=1
+14:52:34 perf       TRACE b1ffb7e7 stt_start        +0.363s audio_sec=0.90 partial=False seq=1
+14:52:34 perf       TRACE b1ffb7e7 transcript_dropped +0.404s reason=vad_prefilter_no_speech
+14:52:35 audio      mic alive: 10032 frames, 3 voiced in last window
+14:52:37 health     [HEALTH] TTS alive=true Dispatcher alive=true Reminder alive=true Backchannel alive=false STT alive=true AudioInput alive=true
+14:52:37 audio      mic alive: 10098 frames, 0 voiced in last window
+14:52:39 audio      mic alive: 10164 frames, 0 voiced in last window
+14:52:41 audio      mic alive: 10230 frames, 0 voiced in last window
+14:52:41 audio      speech START during_speech=False
+14:52:43 audio      mic alive: 10296 frames, 48 voiced in last window
+14:52:45 audio      mic alive: 10362 frames, 59 voiced in last window
+14:52:47 audio      mic alive: 10428 frames, 61 voiced in last window
+14:52:48 audio      speech END -> emit utterance (245 frames)
+14:52:48 perf       TRACE d580741c speech_end       +1.291s duration=5.58s frames=245 during_speech=False
+14:52:48 perf       TRACE d580741c stt_queued       +1.292s qsize=1
+14:52:48 perf       TRACE d580741c stt_start        +1.292s audio_sec=7.35 partial=False seq=1
+14:52:48 google_genai.models AFC is enabled with max remote calls: 10.
+14:52:49 audio      mic alive: 10494 frames, 0 voiced in last window
+14:52:49 audio      speech START during_speech=False
+14:52:50 httpx      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent "HTTP/1.1 200 OK"
+14:52:50 stt        [HYBRID STT] cloud lang=en text='Java scannercilo code base and tell me how you are able to understand my voice.'
+14:52:50 perf       TRACE d580741c stt_done         +3.305s took=2.01s lang=en prob=1.00 text='Java scannercilo code base and tell me how you are able to understand my voice.'
+14:52:50 dispatch   route: 'Java scannercilo code base and tell me how you are able to understand my voice.' (mode=AWAKE speaking=False)
+14:52:50 perf       TRACE d580741c dispatch_start   +3.305s speaking=False text='Java scannercilo code base and tell me how you are able to understand my voice.'
+14:52:50 turn       [TURN START] 7953f9bf
+14:52:50 dispatch   -> LLM
+14:52:50 perf       TRACE d580741c gemini_start     +3.308s 
+14:52:50 audio      speech END -> emit utterance (52 frames)
+14:52:50 perf       TRACE 95d086c9 speech_end       +0.241s duration=0.84s frames=52 during_speech=False
+14:52:50 perf       TRACE 95d086c9 stt_queued       +0.241s qsize=1
+14:52:50 perf       TRACE 95d086c9 stt_start        +0.241s audio_sec=1.56 partial=False seq=1
+14:52:50 perf       TRACE 95d086c9 transcript_dropped +0.315s reason=vad_prefilter_no_speech
+14:52:51 audio      speech START during_speech=False
+14:52:51 audio      mic alive: 10560 frames, 30 voiced in last window
+14:52:51 audio      speech END -> emit utterance (30 frames)
+14:52:51 perf       TRACE 0d979332 speech_end       +0.301s duration=0.12s frames=30 during_speech=False
+14:52:51 perf       TRACE 0d979332 stt_queued       +0.301s qsize=1
+14:52:51 perf       TRACE 0d979332 stt_start        +0.302s audio_sec=0.90 partial=False seq=1
+14:52:51 perf       TRACE 0d979332 transcript_dropped +0.344s reason=vad_prefilter_no_speech
+14:52:52 health     [HEALTH] TTS alive=true Dispatcher alive=true Reminder alive=true Backchannel alive=false STT alive=true AudioInput alive=true
+14:52:52 audio      speech START during_speech=False
+14:52:53 router     [ROUTER] Classified in 2698.8ms -> TASK (query: 'Java scannercilo code base and tell me h')
+14:52:53 orchestrator [ORCHESTRATOR] Route selected: TASK in 2704.2ms
+14:52:53 perf       TRACE d580741c gemini_first_text +6.013s took=2.71s text="I'll inspect that for you, sir."
+14:52:53 perf       TRACE d580741c tts_queued       +6.014s text="I'll inspect that for you, sir."
+14:52:53 turn       [SENTENCE] 7953f9bf "I'll inspect that for you, sir."
+14:52:53 perf       TRACE d580741c tts_synth_start  +6.014s text="I'll inspect that for you, sir."
+14:52:54 perf       TRACE d580741c tts_synth_done   +7.609s took=1.59s
+14:52:54 tts        speak turn=7953f9bf: "I'll inspect that for you, sir."
+14:52:54 tts        audio_state during_speech=True
+14:52:54 perf       TRACE d580741c tts_play_start   +7.661s 
+14:52:57 tts        audio_state during_speech=False
+14:52:57 perf       TRACE d580741c tts_play_done    +10.533s play=2.87s
+14:52:57 perf       SUMMARY d580741c speech=5.58s stt_wait=0.00s stt=2.01s dispatch_wait=0.00s gemini_first=2.71s gemini_total=0.00s tts_wait=0.00s synth=1.59s audio_start=1.65s play=2.87s total=7.66s
+14:53:04 tools      [TOOLS] grep_code {"query": "voice recognition", "path": "D:\\JARVIS\\assistant\\stt"} success=true duration=0.05s
+14:53:04 local_agent [AGENT] Executed grep_code in 54.4ms (success=True)
+14:53:07 health     [HEALTH] TTS alive=true Dispatcher alive=true Reminder alive=true Backchannel alive=false STT alive=true AudioInput alive=true
+14:53:09 tools      [TOOLS] grep_code {"query": "voice recognition", "path": "D:\\JARVIS\\assistant"} success=true duration=0.13s
+14:53:09 local_agent [AGENT] Executed grep_code in 128.0ms (success=True)
+14:53:15 tools      [TOOLS] grep_code {"query": "voice recognition", "path": "assistant/stt"} success=true duration=0.00s
+14:53:15 local_agent [AGENT] Executed grep_code in 3.7ms (success=True)
+14:53:23 health     [HEALTH] TTS alive=true Dispatcher alive=true Reminder alive=true Backchannel alive=false STT alive=true AudioInput alive=true
+14:53:24 tools      [TOOLS] grep_code {"query": "stt, audio, whisper, model, classifier", "path": "D:\\JARVIS\\assistant"} success=true duration=0.46s
+14:53:24 local_agent [AGENT] Executed grep_code in 475.6ms (success=True)
+14:53:35 tools      [TOOLS] grep_code {"query": "voice recognition, stt, audio, whisper, model, classifier", "path": "D:\\JARVIS\\assistant"} success=true duration=0.19s
+14:53:35 local_agent [AGENT] Executed grep_code in 191.1ms (success=True)
+14:53:38 health     [HEALTH] TTS alive=true Dispatcher alive=true Reminder alive=true Backchannel alive=false STT alive=true AudioInput alive=true

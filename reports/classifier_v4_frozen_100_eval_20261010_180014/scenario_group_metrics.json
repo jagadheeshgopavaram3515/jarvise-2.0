@@ -1,0 +1,152 @@
+{
+  "corpus100-folder": {
+    "count": 12,
+    "exact": 8,
+    "cap_top1": 8,
+    "field_agreements": {
+      "intent": 8,
+      "execution_path": 8,
+      "request_modes": 11,
+      "selected_capability": 8,
+      "needs_clarification": 8,
+      "needs_escalation": 12,
+      "missing_information": 8,
+      "context_references": 12
+    }
+  },
+  "corpus100-file": {
+    "count": 12,
+    "exact": 7,
+    "cap_top1": 7,
+    "field_agreements": {
+      "intent": 7,
+      "execution_path": 7,
+      "request_modes": 11,
+      "selected_capability": 7,
+      "needs_clarification": 7,
+      "needs_escalation": 12,
+      "missing_information": 7,
+      "context_references": 12
+    }
+  },
+  "corpus100-app": {
+    "count": 10,
+    "exact": 2,
+    "cap_top1": 2,
+    "field_agreements": {
+      "intent": 2,
+      "execution_path": 5,
+      "request_modes": 10,
+      "selected_capability": 2,
+      "needs_clarification": 7,
+      "needs_escalation": 8,
+      "missing_information": 7,
+      "context_references": 10
+    }
+  },
+  "corpus100-search": {
+    "count": 12,
+    "exact": 4,
+    "cap_top1": 4,
+    "field_agreements": {
+      "intent": 4,
+      "execution_path": 7,
+      "request_modes": 9,
+      "selected_capability": 4,
+      "needs_clarification": 10,
+      "needs_escalation": 10,
+      "missing_information": 10,
+      "context_references": 12
+    }
+  },
+  "corpus100-webpage": {
+    "count": 8,
+    "exact": 2,
+    "cap_top1": 6,
+    "field_agreements": {
+      "intent": 6,
+      "execution_path": 6,
+      "request_modes": 7,
+      "selected_capability": 6,
+      "needs_clarification": 6,
+      "needs_escalation": 8,
+      "missing_information": 6,
+      "context_references": 5
+    }
+  },
+  "corpus100-clarify": {
+    "count": 12,
+    "exact": 2,
+    "cap_top1": 10,
+    "field_agreements": {
+      "intent": 8,
+      "execution_path": 8,
+      "request_modes": 11,
+      "selected_capability": 10,
+      "needs_clarification": 8,
+      "needs_escalation": 11,
+      "missing_information": 8,
+      "context_references": 2
+    }
+  },
+  "corpus100-memory": {
+    "count": 12,
+    "exact": 11,
+    "cap_top1": 12,
+    "field_agreements": {
+      "intent": 12,
+      "execution_path": 12,
+      "request_modes": 12,
+      "selected_capability": 12,
+      "needs_clarification": 12,
+      "needs_escalation": 12,
+      "missing_information": 12,
+      "context_references": 11
+    }
+  },
+  "corpus100-direct": {
+    "count": 10,
+    "exact": 7,
+    "cap_top1": 10,
+    "field_agreements": {
+      "intent": 8,
+      "execution_path": 8,
+      "request_modes": 7,
+      "selected_capability": 10,
+      "needs_clarification": 9,
+      "needs_escalation": 9,
+      "missing_information": 9,
+      "context_references": 10
+    }
+  },
+  "corpus100-multistep": {
+    "count": 6,
+    "exact": 0,
+    "cap_top1": 5,
+    "field_agreements": {
+      "intent": 0,
+      "execution_path": 5,
+      "request_modes": 6,
+      "selected_capability": 5,
+      "needs_clarification": 5,
+      "needs_escalation": 6,
+      "missing_information": 5,
+      "context_references": 6
+    }
+  },
+  "corpus100-escalate": {
+    "count": 6,
+    "exact": 2,
+    "cap_top1": 2,
+    "field_agreements": {
+      "intent": 2,
+      "execution_path": 2,
+      "request_modes": 6,
+      "selected_capability": 2,
+      "needs_clarification": 6,
+      "needs_escalation": 2,
+      "missing_information": 6,
+      "context_references": 6
+    }
+  }
+}

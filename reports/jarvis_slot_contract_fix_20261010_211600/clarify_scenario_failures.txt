@@ -1,0 +1,66 @@
+ID: frozen100-056
+  Utterance: Delete that completely
+  Failed fields: ['context_references']
+  Exp: {"context_references": [{"kind": "item", "reference": "it", "resolved_value": null}]}
+  Pred: {"context_references": [{"reference": "that", "kind": "item", "resolved_value": null}]}
+--------------------------------------------------
+ID: frozen100-057
+  Utterance: इसे तुरंत हटाओ
+  Failed fields: ['context_references']
+  Exp: {"context_references": [{"kind": "item", "reference": "it", "resolved_value": null}]}
+  Pred: {"context_references": []}
+--------------------------------------------------
+ID: frozen100-058
+  Utterance: वह तुरंत खोलो
+  Failed fields: ['intent', 'execution_path', 'selected_capability', 'needs_clarification', 'missing_information', 'context_references']
+  Exp: {"intent": "clarify_request", "execution_path": "clarify", "selected_capability": null, "needs_clarification": true, "missing_information": [{"name": "target", "description": "The requested target is not identifiable"}], "context_references": [{"kind": "item", "reference": "it", "resolved_value": null}]}
+  Pred: {"intent": "use:open_folder", "execution_path": "single_action", "selected_capability": "open_folder", "needs_clarification": false, "missing_information": [], "context_references": [{"reference": "वह", "kind": "item", "resolved_value": null}]}
+--------------------------------------------------
+ID: frozen100-059
+  Utterance: use turant open karo
+  Failed fields: ['context_references']
+  Exp: {"context_references": [{"kind": "item", "reference": "it", "resolved_value": null}]}
+  Pred: {"context_references": [{"reference": "use", "kind": "item", "resolved_value": null}]}
+--------------------------------------------------
+ID: frozen100-060
+  Utterance: isse delete kar do
+  Failed fields: ['context_references']
+  Exp: {"context_references": [{"kind": "item", "reference": "it", "resolved_value": null}]}
+  Pred: {"context_references": [{"reference": "isse", "kind": "item", "resolved_value": null}]}
+--------------------------------------------------
+ID: frozen100-061
+  Utterance: దీన్ని వెంటనే డిలీట్ చెయ్యి
+  Failed fields: ['intent', 'execution_path', 'needs_clarification', 'needs_escalation', 'missing_information', 'context_references']
+  Exp: {"intent": "clarify_request", "execution_path": "clarify", "needs_clarification": true, "needs_escalation": false, "missing_information": [{"name": "target", "description": "The requested target is not identifiable"}], "context_references": [{"kind": "item", "reference": "it", "resolved_value": null}]}
+  Pred: {"intent": "unsupported_request", "execution_path": "escalate", "needs_clarification": false, "needs_escalation": true, "missing_information": [], "context_references": []}
+--------------------------------------------------
+ID: frozen100-062
+  Utterance: అది ఓపెన్ చెయ్యి
+  Failed fields: ['intent', 'execution_path', 'selected_capability', 'needs_clarification', 'missing_information', 'context_references']
+  Exp: {"intent": "clarify_request", "execution_path": "clarify", "selected_capability": null, "needs_clarification": true, "missing_information": [{"name": "target", "description": "The requested target is not identifiable"}], "context_references": [{"kind": "item", "reference": "it", "resolved_value": null}]}
+  Pred: {"intent": "use:open_folder", "execution_path": "single_action", "selected_capability": "open_folder", "needs_clarification": false, "missing_information": [], "context_references": []}
+--------------------------------------------------
+ID: frozen100-063
+  Utterance: danni ventane delete cheyyi
+  Failed fields: ['intent', 'execution_path', 'needs_clarification', 'needs_escalation', 'missing_information', 'context_references']
+  Exp: {"intent": "clarify_request", "execution_path": "clarify", "needs_clarification": true, "needs_escalation": false, "missing_information": [{"name": "target", "description": "The requested target is not identifiable"}], "context_references": [{"kind": "item", "reference": "it", "resolved_value": null}]}
+  Pred: {"intent": "unsupported_request", "execution_path": "escalate", "needs_clarification": false, "needs_escalation": true, "missing_information": [], "context_references": [{"reference": "danni", "kind": "item", "resolved_value": null}]}
+--------------------------------------------------
+ID: frozen100-064
+  Utterance: idi malli open cheyyi
+  Failed fields: ['context_references']
+  Exp: {"context_references": [{"kind": "item", "reference": "it", "resolved_value": null}]}
+  Pred: {"context_references": [{"reference": "idi", "kind": "item", "resolved_value": null}]}
+--------------------------------------------------
+ID: frozen100-065
+  Utterance: அதை உடனே அழித்துவிடு
+  Failed fields: ['intent', 'execution_path', 'needs_clarification', 'needs_escalation', 'missing_information', 'context_references']
+  Exp: {"intent": "clarify_request", "execution_path": "clarify", "needs_clarification": true, "needs_escalation": false, "missing_information": [{"name": "target", "description": "The requested target is not identifiable"}], "context_references": [{"kind": "item", "reference": "it", "resolved_value": null}]}
+  Pred: {"intent": "unsupported_request", "execution_path": "escalate", "needs_clarification": false, "needs_escalation": true, "missing_information": [], "context_references": []}
+--------------------------------------------------
+ID: frozen100-066
+  Utterance: athai marubadiyum open pannu
+  Failed fields: ['context_references']
+  Exp: {"context_references": [{"kind": "item", "reference": "it", "resolved_value": null}]}
+  Pred: {"context_references": [{"reference": "athai", "kind": "item", "resolved_value": null}]}
+--------------------------------------------------

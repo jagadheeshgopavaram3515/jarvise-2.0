@@ -1,0 +1,204 @@
+{
+  "dataset": "D:\\JARVIS\\benchmarks\\fast_classifier\\v3\\dataset.jsonl",
+  "selection_split": "dev",
+  "experiments": [
+    {
+      "c": 0.25,
+      "artifact": "D:\\JARVIS\\benchmarks\\fast_classifier\\models\\v3\\experiments\\compact_heads_c0p25.joblib",
+      "training_total_ms": 98247.9468,
+      "encoder_load_ms": 953.3855,
+      "metrics": {
+        "execution_path": {
+          "available": true,
+          "applicable": 78,
+          "correct": 26,
+          "accuracy": 0.3333333333333333
+        },
+        "capability_selection_applicable": {
+          "available": true,
+          "applicable": 36,
+          "correct": 6,
+          "accuracy": 0.16666666666666666
+        },
+        "intent": {
+          "available": true,
+          "applicable": 78,
+          "correct": 27,
+          "accuracy": 0.34615384615384615
+        },
+        "request_modes": {
+          "available": true,
+          "applicable": 78,
+          "correct": 22,
+          "accuracy": 0.28205128205128205
+        },
+        "clarification_binary": {
+          "available": true,
+          "applicable": 78,
+          "positive_examples": 26,
+          "precision": 0.25806451612903225,
+          "recall": 0.3076923076923077,
+          "macro_f1": 0.4332801701222754,
+          "confusion": {
+            "tp": 8,
+            "fp": 23,
+            "fn": 18,
+            "tn": 29
+          }
+        },
+        "escalation_binary": {
+          "available": true,
+          "applicable": 78,
+          "positive_examples": 5,
+          "precision": 0.10526315789473684,
+          "recall": 0.4,
+          "macro_f1": 0.5075757575757576,
+          "confusion": {
+            "tp": 2,
+            "fp": 17,
+            "fn": 3,
+            "tn": 56
+          }
+        }
+      },
+      "warm_latency": {
+        "count": 77,
+        "mean_ms": 366.9068857142857,
+        "p50_ms": 401.566,
+        "p95_ms": 494.1769
+      }
+    },
+    {
+      "c": 1.0,
+      "artifact": "D:\\JARVIS\\benchmarks\\fast_classifier\\models\\v3\\experiments\\compact_heads_c1p0.joblib",
+      "training_total_ms": 47541.5164,
+      "encoder_load_ms": 666.4903,
+      "metrics": {
+        "execution_path": {
+          "available": true,
+          "applicable": 78,
+          "correct": 21,
+          "accuracy": 0.2692307692307692
+        },
+        "capability_selection_applicable": {
+          "available": true,
+          "applicable": 36,
+          "correct": 6,
+          "accuracy": 0.16666666666666666
+        },
+        "intent": {
+          "available": true,
+          "applicable": 78,
+          "correct": 22,
+          "accuracy": 0.28205128205128205
+        },
+        "request_modes": {
+          "available": true,
+          "applicable": 78,
+          "correct": 35,
+          "accuracy": 0.44871794871794873
+        },
+        "clarification_binary": {
+          "available": true,
+          "applicable": 78,
+          "positive_examples": 26,
+          "precision": 0.18518518518518517,
+          "recall": 0.19230769230769232,
+          "macro_f1": 0.3856017585638395,
+          "confusion": {
+            "tp": 5,
+            "fp": 22,
+            "fn": 21,
+            "tn": 30
+          }
+        },
+        "escalation_binary": {
+          "available": true,
+          "applicable": 78,
+          "positive_examples": 5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "macro_f1": 0.43478260869565216,
+          "confusion": {
+            "tp": 0,
+            "fp": 13,
+            "fn": 5,
+            "tn": 60
+          }
+        }
+      },
+      "warm_latency": {
+        "count": 77,
+        "mean_ms": 391.47383506493503,
+        "p50_ms": 422.7834,
+        "p95_ms": 768.0339
+      }
+    },
+    {
+      "c": 4.0,
+      "artifact": "D:\\JARVIS\\benchmarks\\fast_classifier\\models\\v3\\experiments\\compact_heads_c4p0.joblib",
+      "training_total_ms": 56405.3714,
+      "encoder_load_ms": 458.8442,
+      "metrics": {
+        "execution_path": {
+          "available": true,
+          "applicable": 78,
+          "correct": 35,
+          "accuracy": 0.44871794871794873
+        },
+        "capability_selection_applicable": {
+          "available": true,
+          "applicable": 36,
+          "correct": 6,
+          "accuracy": 0.16666666666666666
+        },
+        "intent": {
+          "available": true,
+          "applicable": 78,
+          "correct": 22,
+          "accuracy": 0.28205128205128205
+        },
+        "request_modes": {
+          "available": true,
+          "applicable": 78,
+          "correct": 65,
+          "accuracy": 0.8333333333333334
+        },
+        "clarification_binary": {
+          "available": true,
+          "applicable": 78,
+          "positive_examples": 26,
+          "precision": 0.45454545454545453,
+          "recall": 0.19230769230769232,
+          "macro_f1": 0.5216897569838747,
+          "confusion": {
+            "tp": 5,
+            "fp": 6,
+            "fn": 21,
+            "tn": 46
+          }
+        },
+        "escalation_binary": {
+          "available": true,
+          "applicable": 78,
+          "positive_examples": 5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "macro_f1": 0.4657534246575342,
+          "confusion": {
+            "tp": 0,
+            "fp": 5,
+            "fn": 5,
+            "tn": 68
+          }
+        }
+      },
+      "warm_latency": {
+        "count": 77,
+        "mean_ms": 613.1571584415585,
+        "p50_ms": 520.7645,
+        "p95_ms": 1318.9644
+      }
+    }
+  ]
+}

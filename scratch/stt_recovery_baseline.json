@@ -1,0 +1,22 @@
+{
+  "reference": {
+    "main.py": "f06108e36b5a9a6c99a5ed6887af2a892b977282dd5c046c9a89f1d840358cb0",
+    "assistant/stt/cloud.py": "0534e2a477ed9be95ff169cfdbd54efbb6c8f527e60c630673f902abd594d21a",
+    "assistant/stt/recognizer.py": "22b024d36a0bc9ded32efcf446b524a5baec386a431396b8a099ead5fa469e4b",
+    "assistant/config.py": "c367f830b21b94e2b23391d86f879e2e3bd8603c00cc09a14300676b5ab9ec4c",
+    "assistant/audio/capture.py": "a702c63d9e2a90fc9c02d22396fd4497885dd81f79e9f1ee6daca8410458c3a0",
+    "assistant/audio/vad.py": "1ecba18933dad515a8e654bc9372085342fd5891f2f40c69ff69edff49e59b65",
+    "assistant/audio/aec.py": "1c033d43c9d13a7352c9de88f53be78409f109b87540a6d983023fdc21e78edb",
+    "assistant/core/pipeline.py": "6faefc4f4c7ba692e4ee588d23eba522cf06ee23296636c6b80adea50217fbe1"
+  },
+  "active": {
+    "main.py": "40e94175783c5433163a75f849ea9311ca5f182e43493d1542ba8131ea651846",
+    "assistant/stt/cloud.py": "7ec0e11fb9a4a554d1de60db34d9469b6eaa84087fb022249b9f424a6d8571b7",
+    "assistant/stt/recognizer.py": "00e05bd7d1f9e769652bde194dd70ceb7b3bfd8950eaa5570d1e1d43f326ef53",
+    "assistant/config.py": "844e21428edd5a4ca109d90194619707276d6bfb8af26416777f374cb1c4b500",
+    "assistant/audio/capture.py": "f8e4d3c80bcf951cf1ed3cca239bc9e0b65b7302a7da19da890f8ed3a6d4b100",
+    "assistant/audio/vad.py": "1ecba18933dad515a8e654bc9372085342fd5891f2f40c69ff69edff49e59b65",
+    "assistant/audio/aec.py": "1c033d43c9d13a7352c9de88f53be78409f109b87540a6d983023fdc21e78edb",
+    "assistant/core/pipeline.py": "2500aa1fb86a2cefe74219042bdbf7d10e2a0eb62fb3e0bcd9a209caae97ff5a"
+  }
+}

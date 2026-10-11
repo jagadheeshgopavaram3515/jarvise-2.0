@@ -1,0 +1,53 @@
+﻿ M assistant/audio/capture.py
+ M assistant/config.py
+ M assistant/core/dispatcher.py
+ M assistant/core/events.py
+ M assistant/core/pipeline.py
+ M assistant/memory/engine.py
+ M assistant/orchestration/router.py
+ M assistant/realtime/manager.py
+ M assistant/stt/cloud.py
+ M assistant/stt/recognizer.py
+ M tests/test_ollama.py
+ M tests/test_orchestration.py
+ M tests/test_resilience.py
+?? .benchmark-envs/
+?? assistant/orchestration/compact_adapter.py
+?? assistant/orchestration/decision.py
+?? assistant/orchestration/fast_brain/
+?? assistant/orchestration/laya_adapter.py
+?? benchmark-results/
+?? benchmarks/
+?? reports/
+?? scratch/active_stt_failure_diagnosis.md
+?? scratch/audit_location.ps1
+?? scratch/audit_perf.py
+?? scratch/bert_shadow_audit_20261010_140019/
+?? scratch/filter_log.py
+?? scratch/filtered_log.txt
+?? scratch/gold_benchmark_20261010_133541/
+?? scratch/log_slice.txt
+?? scratch/stt_benchmark.py
+?? scratch/stt_forensic_harness.py
+?? scratch/stt_recovery_baseline.json
+?? scratch/stt_recovery_report.md
+?? scratch/stt_regression_fix_report.md
+?? scratch/test_realtime.py
+?? tests/fixtures/
+?? tests/test_bluye_stt_adapter.py
+?? tests/test_classifier_benchmark.py
+?? tests/test_cloud_stt_lifecycle.py
+?? tests/test_compact_classifier.py
+?? tests/test_fast_brain_dataset.py
+?? tests/test_fast_brain_encoder_adapter.py
+?? tests/test_fast_brain_foundation.py
+?? tests/test_fast_brain_review.py
+?? tests/test_fast_brain_review_cli.py
+?? tests/test_fast_classifier.py
+?? tests/test_gold_review.py
+?? tests/test_phase4_benchmark.py
+?? tests/test_shadow_review_evaluation.py
+?? tests/test_shadow_review_regression.py
+?? tests/test_stt_fifo.py
+?? tests/test_stt_migration.py
+?? tests/test_stt_reference_contract.py

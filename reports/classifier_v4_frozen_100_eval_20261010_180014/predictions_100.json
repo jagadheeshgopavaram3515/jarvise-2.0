@@ -1,0 +1,4716 @@
+[
+  {
+    "id": "frozen100-001",
+    "scenario_group": "corpus100-folder",
+    "language": "en",
+    "utterance": "Open my documents directory please",
+    "expected": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.49852457872824296,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Open my documents directory please"
+        },
+        {
+          "kind": "capability",
+          "reference": "open_folder"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 1908.0443999991985
+  },
+  {
+    "id": "frozen100-002",
+    "scenario_group": "corpus100-folder",
+    "language": "en",
+    "utterance": "Browse to the server logs folder",
+    "expected": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4052301936207777,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Browse to the server logs folder"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 176.10979999881238
+  },
+  {
+    "id": "frozen100-003",
+    "scenario_group": "corpus100-folder",
+    "language": "hi",
+    "utterance": "डाउनलोड्स फ़ोल्डर खोलो",
+    "expected": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.7893835939736098,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "डाउनलोड्स फ़ोल्डर खोलो"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 179.64609999762615
+  },
+  {
+    "id": "frozen100-004",
+    "scenario_group": "corpus100-folder",
+    "language": "hi",
+    "utterance": "बैकअप डायरेक्टरी स्क्रीन पर दिखाओ",
+    "expected": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.7565462709539875,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "बैकअप डायरेक्टरी स्क्रीन पर दिखाओ"
+        },
+        {
+          "kind": "capability",
+          "reference": "open_folder"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 184.70300000262796
+  },
+  {
+    "id": "frozen100-005",
+    "scenario_group": "corpus100-folder",
+    "language": "hi-Latn",
+    "utterance": "photos folder khol kar dikhao",
+    "expected": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.3476856568395828,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "photos folder khol kar dikhao"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 157.82659999968018
+  },
+  {
+    "id": "frozen100-006",
+    "scenario_group": "corpus100-folder",
+    "language": "hi-Latn",
+    "utterance": "client project directory open karo",
+    "expected": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4784533326406836,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "client project directory open karo"
+        },
+        {
+          "kind": "capability",
+          "reference": "open_folder"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 148.60220000264235
+  },
+  {
+    "id": "frozen100-007",
+    "scenario_group": "corpus100-folder",
+    "language": "te",
+    "utterance": "నా డౌన్‌లోడ్స్ ఫోల్డర్ ఓపెన్ చెయ్యి",
+    "expected": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.7614015188554688,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "నా డౌన్‌లోడ్స్ ఫోల్డర్ ఓపెన్ చెయ్యి"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 158.56189999976777
+  },
+  {
+    "id": "frozen100-008",
+    "scenario_group": "corpus100-folder",
+    "language": "te",
+    "utterance": "డాక్యుమెంట్స్ డైరెక్టరీ చూపించు",
+    "expected": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.6841950930981587,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "డాక్యుమెంట్స్ డైరెక్టరీ చూపించు"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 260.1756999974896
+  },
+  {
+    "id": "frozen100-009",
+    "scenario_group": "corpus100-folder",
+    "language": "te-Latn",
+    "utterance": "music folder open cheyyi",
+    "expected": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.43713272196331177,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "music folder open cheyyi"
+        },
+        {
+          "kind": "capability",
+          "reference": "open_folder"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 166.45409999910044
+  },
+  {
+    "id": "frozen100-010",
+    "scenario_group": "corpus100-folder",
+    "language": "te-Latn",
+    "utterance": "backup archive directory screen meeda chupinchu",
+    "expected": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.3588573836268464,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "backup archive directory screen meeda chupinchu"
+        },
+        {
+          "kind": "capability",
+          "reference": "open_folder"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 156.09499999845866
+  },
+  {
+    "id": "frozen100-011",
+    "scenario_group": "corpus100-folder",
+    "language": "ta",
+    "utterance": "பதிவிறக்கங்கள் கோப்புறையை திறக்கவும்",
+    "expected": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "research",
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.4857142937941772,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "பதிவிறக்கங்கள் கோப்புறையை திறக்கவும்"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 152.02599999975064
+  },
+  {
+    "id": "frozen100-012",
+    "scenario_group": "corpus100-folder",
+    "language": "ta-Latn",
+    "utterance": "pictures folder-ai open pannu",
+    "expected": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.47663847617046545,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "pictures folder-ai open pannu"
+        },
+        {
+          "kind": "capability",
+          "reference": "open_folder"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 151.34110000144574
+  },
+  {
+    "id": "frozen100-013",
+    "scenario_group": "corpus100-file",
+    "language": "en",
+    "utterance": "Find the quarterly financial report spreadsheet",
+    "expected": {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.46135737542116556,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Find the quarterly financial report spreadsheet"
+        },
+        {
+          "kind": "capability",
+          "reference": "find_file"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 146.26440000211005
+  },
+  {
+    "id": "frozen100-014",
+    "scenario_group": "corpus100-file",
+    "language": "en",
+    "utterance": "Search for my resume pdf file on disk",
+    "expected": {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4708845167055582,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Search for my resume pdf file on disk"
+        },
+        {
+          "kind": "capability",
+          "reference": "find_file"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 150.35700000225916
+  },
+  {
+    "id": "frozen100-015",
+    "scenario_group": "corpus100-file",
+    "language": "hi",
+    "utterance": "टैक्स रसीद की पीडीएफ फाइल ढूंढो",
+    "expected": {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.598224561142283,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "टैक्स रसीद की पीडीएफ फाइल ढूंढो"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 165.42730000219308
+  },
+  {
+    "id": "frozen100-016",
+    "scenario_group": "corpus100-file",
+    "language": "hi",
+    "utterance": "प्रोजेक्ट प्रपोजल डॉक्यूमेंट तलाशो",
+    "expected": {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.6306774847488644,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "प्रोजेक्ट प्रपोजल डॉक्यूमेंट तलाशो"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 138.61959999849205
+  },
+  {
+    "id": "frozen100-017",
+    "scenario_group": "corpus100-file",
+    "language": "hi-Latn",
+    "utterance": "october invoice file search karo",
+    "expected": {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.2869952643778667,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "october invoice file search karo"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 162.1013000003586
+  },
+  {
+    "id": "frozen100-018",
+    "scenario_group": "corpus100-file",
+    "language": "hi-Latn",
+    "utterance": "yesterday meeting notes text file dhoondo",
+    "expected": {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.3821897367738291,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "yesterday meeting notes text file dhoondo"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 141.1190999970131
+  },
+  {
+    "id": "frozen100-019",
+    "scenario_group": "corpus100-file",
+    "language": "te",
+    "utterance": "కాలేజ్ సర్టిఫికెట్ పిడిఎఫ్ ఫైల్ వెతుకు",
+    "expected": {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.6709832402078879,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "కాలేజ్ సర్టిఫికెట్ పిడిఎఫ్ ఫైల్ వెతుకు"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 171.19829999865033
+  },
+  {
+    "id": "frozen100-020",
+    "scenario_group": "corpus100-file",
+    "language": "te",
+    "utterance": "ప్రాజెక్ట్ డాక్యుమెంట్ కనుక్కో",
+    "expected": {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.6653641669473325,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "ప్రాజెక్ట్ డాక్యుమెంట్ కనుక్కో"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 139.3489000001864
+  },
+  {
+    "id": "frozen100-021",
+    "scenario_group": "corpus100-file",
+    "language": "te-Latn",
+    "utterance": "vendor contract pdf file vetuku",
+    "expected": {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.3363312983904452,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "vendor contract pdf file vetuku"
+        },
+        {
+          "kind": "capability",
+          "reference": "find_file"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 172.1451999983401
+  },
+  {
+    "id": "frozen100-022",
+    "scenario_group": "corpus100-file",
+    "language": "te-Latn",
+    "utterance": "annual budget excel sheet file kanukko",
+    "expected": {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4045505838259593,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "annual budget excel sheet file kanukko"
+        },
+        {
+          "kind": "capability",
+          "reference": "find_file"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 147.1019000018714
+  },
+  {
+    "id": "frozen100-023",
+    "scenario_group": "corpus100-file",
+    "language": "ta",
+    "utterance": "வருமான வரி ரசீது கோப்பை தேடு",
+    "expected": {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "research",
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.539435623528343,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "வருமான வரி ரசீது கோப்பை தேடு"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 166.04840000218246
+  },
+  {
+    "id": "frozen100-024",
+    "scenario_group": "corpus100-file",
+    "language": "ta-Latn",
+    "utterance": "final project report document thedu",
+    "expected": {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.21547917590669743,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "final project report document thedu"
+        },
+        {
+          "kind": "capability",
+          "reference": "find_file"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 151.38370000204304
+  },
+  {
+    "id": "frozen100-025",
+    "scenario_group": "corpus100-app",
+    "language": "en",
+    "utterance": "Open PowerShell terminal application",
+    "expected": {
+      "intent": "use:open_app",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_app",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.5174856428810104,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Open PowerShell terminal application"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 163.9950000026147
+  },
+  {
+    "id": "frozen100-026",
+    "scenario_group": "corpus100-app",
+    "language": "en",
+    "utterance": "Close Google Chrome application",
+    "expected": {
+      "intent": "use:close_app",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "close_app",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.5169941018154044,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Close Google Chrome application"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 152.65549999821815
+  },
+  {
+    "id": "frozen100-027",
+    "scenario_group": "corpus100-app",
+    "language": "hi",
+    "utterance": "कैलकुलेटर ऐप खोलो",
+    "expected": {
+      "intent": "use:open_app",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_app",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:open_app",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_app",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.6925250887870789,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "कैलकुलेटर ऐप खोलो"
+        },
+        {
+          "kind": "capability",
+          "reference": "open_app"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 153.62590000222553
+  },
+  {
+    "id": "frozen100-028",
+    "scenario_group": "corpus100-app",
+    "language": "hi",
+    "utterance": "नोटपैड ऐप बंद करो",
+    "expected": {
+      "intent": "use:close_app",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "close_app",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.5955255031585693,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "नोटपैड ऐप बंद करो"
+        },
+        {
+          "kind": "capability",
+          "reference": "open_folder"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 151.3083000027109
+  },
+  {
+    "id": "frozen100-029",
+    "scenario_group": "corpus100-app",
+    "language": "hi-Latn",
+    "utterance": "Spotify application open karo",
+    "expected": {
+      "intent": "use:open_app",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_app",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:open_app",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_app",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.30057364170819223,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Spotify application open karo"
+        },
+        {
+          "kind": "capability",
+          "reference": "open_app"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 150.8125000000291
+  },
+  {
+    "id": "frozen100-030",
+    "scenario_group": "corpus100-app",
+    "language": "hi-Latn",
+    "utterance": "Chrome browser application band karo",
+    "expected": {
+      "intent": "use:close_app",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "close_app",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.32758640230049757,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Chrome browser application band karo"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 137.3749999984284
+  },
+  {
+    "id": "frozen100-031",
+    "scenario_group": "corpus100-app",
+    "language": "te",
+    "utterance": "కాలిక్యులేటర్ అప్లికేషన్ ఓపెన్ చెయ్యి",
+    "expected": {
+      "intent": "use:open_app",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_app",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.72458818370128,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "కాలిక్యులేటర్ అప్లికేషన్ ఓపెన్ చెయ్యి"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 146.89480000015465
+  },
+  {
+    "id": "frozen100-032",
+    "scenario_group": "corpus100-app",
+    "language": "te-Latn",
+    "utterance": "Terminal application close cheyyi",
+    "expected": {
+      "intent": "use:close_app",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "close_app",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.5018215765808346,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Terminal application close cheyyi"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 145.98380000097677
+  },
+  {
+    "id": "frozen100-033",
+    "scenario_group": "corpus100-app",
+    "language": "ta-Latn",
+    "utterance": "VS Code application open pannu",
+    "expected": {
+      "intent": "use:open_app",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_app",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4033604362507391,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "VS Code application open pannu"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 179.3245000008028
+  },
+  {
+    "id": "frozen100-034",
+    "scenario_group": "corpus100-app",
+    "language": "ta-Latn",
+    "utterance": "VLC media player application close pannu",
+    "expected": {
+      "intent": "use:close_app",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "close_app",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.5813768862362112,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "VLC media player application close pannu"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 287.51629999896977
+  },
+  {
+    "id": "frozen100-035",
+    "scenario_group": "corpus100-search",
+    "language": "en",
+    "utterance": "Google search for recent quantum computing breakthroughs",
+    "expected": {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.5540633568728047,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Google search for recent quantum computing breakthroughs"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 161.89959999974235
+  },
+  {
+    "id": "frozen100-036",
+    "scenario_group": "corpus100-search",
+    "language": "en",
+    "utterance": "Search the web for Rust Tokio async tutorials",
+    "expected": {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.45577696034917625,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Search the web for Rust Tokio async tutorials"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 140.5205000010028
+  },
+  {
+    "id": "frozen100-037",
+    "scenario_group": "corpus100-search",
+    "language": "hi",
+    "utterance": "भारत में आगामी चंद्र मिशन के बारे में गूगल सर्च करो",
+    "expected": {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.32953487459911157,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "भारत में आगामी चंद्र मिशन के बारे में गूगल सर्च करो"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 163.26780000235885
+  },
+  {
+    "id": "frozen100-038",
+    "scenario_group": "corpus100-search",
+    "language": "hi",
+    "utterance": "मशीन लर्निंग के नए एल्गोरिदम वेब पर खोजो",
+    "expected": {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.7052933340516873,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "मशीन लर्निंग के नए एल्गोरिदम वेब पर खोजो"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 274.3948999996064
+  },
+  {
+    "id": "frozen100-039",
+    "scenario_group": "corpus100-search",
+    "language": "hi-Latn",
+    "utterance": "Nifty latest market trends google search karo",
+    "expected": {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4479901415619706,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Nifty latest market trends google search karo"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 193.69589999769232
+  },
+  {
+    "id": "frozen100-040",
+    "scenario_group": "corpus100-search",
+    "language": "hi-Latn",
+    "utterance": "python advanced interview questions web par search karo",
+    "expected": {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.7435026719764914,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "python advanced interview questions web par search karo"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 177.1727000013925
+  },
+  {
+    "id": "frozen100-041",
+    "scenario_group": "corpus100-search",
+    "language": "te",
+    "utterance": "హైదరాబాద్ వాతావరణ అప్‌డేట్స్ గూగుల్ లో వెతుకు",
+    "expected": {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.33813385835005594,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "హైదరాబాద్ వాతావరణ అప్‌డేట్స్ గూగుల్ లో వెతుకు"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 197.72270000248682
+  },
+  {
+    "id": "frozen100-042",
+    "scenario_group": "corpus100-search",
+    "language": "te",
+    "utterance": "ఆర్టిఫిషియల్ ఇంటెలిజెన్స్ తాజా వార్తలు వెతుకు",
+    "expected": {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.5417115287780209,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "ఆర్టిఫిషియల్ ఇంటెలిజెన్స్ తాజా వార్తలు వెతుకు"
+        },
+        {
+          "kind": "capability",
+          "reference": "open_folder"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 194.62650000059512
+  },
+  {
+    "id": "frozen100-043",
+    "scenario_group": "corpus100-search",
+    "language": "te-Latn",
+    "utterance": "India vs Australia live match score google search cheyyi",
+    "expected": {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "research",
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.38258257701275306,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "India vs Australia live match score google search cheyyi"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 170.82939999818336
+  },
+  {
+    "id": "frozen100-044",
+    "scenario_group": "corpus100-search",
+    "language": "te-Latn",
+    "utterance": "Go concurrency goroutines tutorial search cheyyi",
+    "expected": {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.6418605247666734,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Go concurrency goroutines tutorial search cheyyi"
+        },
+        {
+          "kind": "capability",
+          "reference": "find_file"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 183.38320000111707
+  },
+  {
+    "id": "frozen100-045",
+    "scenario_group": "corpus100-search",
+    "language": "ta",
+    "utterance": "தமிழ்நாடு சமீபத்திய செய்தி இணையத்தில் தேடு",
+    "expected": {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "research",
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.5045577806947138,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "தமிழ்நாடு சமீபத்திய செய்தி இணையத்தில் தேடு"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 180.66110000290792
+  },
+  {
+    "id": "frozen100-046",
+    "scenario_group": "corpus100-search",
+    "language": "ta-Latn",
+    "utterance": "AI engineer learning roadmap web-il search pannu",
+    "expected": {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4832675883999953,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "AI engineer learning roadmap web-il search pannu"
+        },
+        {
+          "kind": "capability",
+          "reference": "find_file"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 175.4707000000053
+  },
+  {
+    "id": "frozen100-047",
+    "scenario_group": "corpus100-webpage",
+    "language": "en",
+    "utterance": "Read the article at https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)",
+    "expected": {
+      "intent": "use:read_page",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "read_page",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.4703966348000805,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Read the article at https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 239.00940000021365
+  },
+  {
+    "id": "frozen100-048",
+    "scenario_group": "corpus100-webpage",
+    "language": "en",
+    "utterance": "Read this web page for me",
+    "expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "it",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.4059489130257686,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Read this web page for me"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 173.63599999953294
+  },
+  {
+    "id": "frozen100-049",
+    "scenario_group": "corpus100-webpage",
+    "language": "hi-Latn",
+    "utterance": "https://docs.python.org/3/whatsnew/3.11.html page read karo",
+    "expected": {
+      "intent": "use:read_page",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "read_page",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.4339298773823586,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "https://docs.python.org/3/whatsnew/3.11.html page read karo"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 225.67199999684817
+  },
+  {
+    "id": "frozen100-050",
+    "scenario_group": "corpus100-webpage",
+    "language": "hi-Latn",
+    "utterance": "web page read karke batao",
+    "expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "web page read karke batao",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.35685912187945495,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "web page read karke batao"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 105.18850000153179
+  },
+  {
+    "id": "frozen100-051",
+    "scenario_group": "corpus100-webpage",
+    "language": "te-Latn",
+    "utterance": "ee https://news.ycombinator.com link page chaduvu",
+    "expected": {
+      "intent": "use:read_page",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "read_page",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:read_page",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "read_page",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4540711733711236,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "ee https://news.ycombinator.com link page chaduvu"
+        },
+        {
+          "kind": "capability",
+          "reference": "read_page"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 247.76080000083311
+  },
+  {
+    "id": "frozen100-052",
+    "scenario_group": "corpus100-webpage",
+    "language": "te-Latn",
+    "utterance": "a web page chadivi summary ivvu",
+    "expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "research",
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.4472167615365519,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "a web page chadivi summary ivvu"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 349.738900000375
+  },
+  {
+    "id": "frozen100-053",
+    "scenario_group": "corpus100-webpage",
+    "language": "ta-Latn",
+    "utterance": "https://github.com/features link-la irukkura page read pannu",
+    "expected": {
+      "intent": "use:read_page",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "read_page",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:read_page",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "read_page",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.527012298866908,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "https://github.com/features link-la irukkura page read pannu"
+        },
+        {
+          "kind": "capability",
+          "reference": "read_page"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 251.79879999996047
+  },
+  {
+    "id": "frozen100-054",
+    "scenario_group": "corpus100-webpage",
+    "language": "ta-Latn",
+    "utterance": "web page-ai padithu sollu",
+    "expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "web page-ai padithu sollu",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.3615688858546205,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "web page-ai padithu sollu"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 139.2046000000846
+  },
+  {
+    "id": "frozen100-055",
+    "scenario_group": "corpus100-clarify",
+    "language": "en",
+    "utterance": "Open it up right now",
+    "expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "it",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.6324331277794123,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Open it up right now"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 202.59359999909066
+  },
+  {
+    "id": "frozen100-056",
+    "scenario_group": "corpus100-clarify",
+    "language": "en",
+    "utterance": "Delete that completely",
+    "expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "Delete that completely",
+          "kind": "prior_request",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.38732389985994653,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Delete that completely"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 149.93709999907878
+  },
+  {
+    "id": "frozen100-057",
+    "scenario_group": "corpus100-clarify",
+    "language": "hi",
+    "utterance": "इसे तुरंत हटाओ",
+    "expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.33754768247799705,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "इसे तुरंत हटाओ"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 154.72070000032545
+  },
+  {
+    "id": "frozen100-058",
+    "scenario_group": "corpus100-clarify",
+    "language": "hi",
+    "utterance": "वह तुरंत खोलो",
+    "expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "prediction": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.6328024906150774,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "वह तुरंत खोलो"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 173.5645000007935
+  },
+  {
+    "id": "frozen100-059",
+    "scenario_group": "corpus100-clarify",
+    "language": "hi-Latn",
+    "utterance": "use turant open karo",
+    "expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "prediction": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4147093627969235,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "use turant open karo"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 152.0715000006021
+  },
+  {
+    "id": "frozen100-060",
+    "scenario_group": "corpus100-clarify",
+    "language": "hi-Latn",
+    "utterance": "isse delete kar do",
+    "expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.3745304369074192,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "isse delete kar do"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 120.24229999951785
+  },
+  {
+    "id": "frozen100-061",
+    "scenario_group": "corpus100-clarify",
+    "language": "te",
+    "utterance": "దీన్ని వెంటనే డిలీట్ చెయ్యి",
+    "expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.6428763097666227,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "దీన్ని వెంటనే డిలీట్ చెయ్యి"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 117.71899999803281
+  },
+  {
+    "id": "frozen100-062",
+    "scenario_group": "corpus100-clarify",
+    "language": "te",
+    "utterance": "అది ఓపెన్ చెయ్యి",
+    "expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.5311862747367186,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "అది ఓపెన్ చెయ్యి"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 146.781599996757
+  },
+  {
+    "id": "frozen100-063",
+    "scenario_group": "corpus100-clarify",
+    "language": "te-Latn",
+    "utterance": "danni ventane delete cheyyi",
+    "expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "prediction": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4199797182245189,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "danni ventane delete cheyyi"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 119.78459999954794
+  },
+  {
+    "id": "frozen100-064",
+    "scenario_group": "corpus100-clarify",
+    "language": "te-Latn",
+    "utterance": "idi malli open cheyyi",
+    "expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "prediction": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.449955582870545,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "idi malli open cheyyi"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 147.00029999949038
+  },
+  {
+    "id": "frozen100-065",
+    "scenario_group": "corpus100-clarify",
+    "language": "ta",
+    "utterance": "அதை உடனே அழித்துவிடு",
+    "expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.6006596762678674,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "அதை உடனே அழித்துவிடு"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 132.22400000086054
+  },
+  {
+    "id": "frozen100-066",
+    "scenario_group": "corpus100-clarify",
+    "language": "ta-Latn",
+    "utterance": "athai marubadiyum open pannu",
+    "expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "it",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.7491528267476606,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "athai marubadiyum open pannu"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 138.14869999987422
+  },
+  {
+    "id": "frozen100-067",
+    "scenario_group": "corpus100-memory",
+    "language": "en",
+    "utterance": "What did we decide about our Phoenix project?",
+    "expected": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": [
+        {
+          "kind": "project",
+          "reference": "our Phoenix project",
+          "resolved_value": "NextGen Gateway"
+        }
+      ]
+    },
+    "prediction": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "our Phoenix project",
+          "kind": "project",
+          "resolved_value": "NextGen Gateway"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.5986744465571799,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "What did we decide about our Phoenix project?"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 112.42119999951683
+  },
+  {
+    "id": "frozen100-068",
+    "scenario_group": "corpus100-memory",
+    "language": "en",
+    "utterance": "What was our decision on database sharding?",
+    "expected": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": [
+        {
+          "kind": "prior_conversation",
+          "reference": "database sharding",
+          "resolved_value": "adopt Vitess proxy cluster"
+        }
+      ]
+    },
+    "prediction": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "database sharding",
+          "kind": "prior_conversation",
+          "resolved_value": "adopt Vitess proxy cluster"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.7908963042489198,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "What was our decision on database sharding?"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 133.00799999706214
+  },
+  {
+    "id": "frozen100-069",
+    "scenario_group": "corpus100-memory",
+    "language": "hi",
+    "utterance": "हमारे गरुड़ प्रोजेक्ट के बारे में क्या तय हुआ था?",
+    "expected": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": [
+        {
+          "kind": "project",
+          "reference": "गरुड़ प्रोजेक्ट",
+          "resolved_value": "High Altitude UAV"
+        }
+      ]
+    },
+    "prediction": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "गरुड़ प्रोजेक्ट",
+          "kind": "project",
+          "resolved_value": "High Altitude UAV"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.5967055650245798,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "हमारे गरुड़ प्रोजेक्ट के बारे में क्या तय हुआ था?"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 125.91509999765549
+  },
+  {
+    "id": "frozen100-070",
+    "scenario_group": "corpus100-memory",
+    "language": "hi",
+    "utterance": "क्लाउड प्रोवाइडर पर हमारा क्या निर्णय था?",
+    "expected": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": [
+        {
+          "kind": "prior_conversation",
+          "reference": "क्लाउड प्रोवाइडर",
+          "resolved_value": "AWS चुना गया था"
+        }
+      ]
+    },
+    "prediction": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "क्लाउड प्रोवाइडर",
+          "kind": "prior_conversation",
+          "resolved_value": "AWS चुना गया था"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.6887699553116933,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "क्लाउड प्रोवाइडर पर हमारा क्या निर्णय था?"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 137.81200000084937
+  },
+  {
+    "id": "frozen100-071",
+    "scenario_group": "corpus100-memory",
+    "language": "hi-Latn",
+    "utterance": "Redis caching strategy ke baare mein kya decide kiya tha?",
+    "expected": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": [
+        {
+          "kind": "prior_conversation",
+          "reference": "Redis caching strategy",
+          "resolved_value": "use Redis Sentinel cluster"
+        }
+      ]
+    },
+    "prediction": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "Redis caching strategy",
+          "kind": "prior_conversation",
+          "resolved_value": "use Redis Sentinel cluster"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.722606955827005,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Redis caching strategy ke baare mein kya decide kiya tha?"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 118.08530000052997
+  },
+  {
+    "id": "frozen100-072",
+    "scenario_group": "corpus100-memory",
+    "language": "hi-Latn",
+    "utterance": "humare Falcon initiative ke baare mein yaad dilao",
+    "expected": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": [
+        {
+          "kind": "project",
+          "reference": "Falcon initiative",
+          "resolved_value": "Edge CDN"
+        }
+      ]
+    },
+    "prediction": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "Falcon initiative",
+          "kind": "project",
+          "resolved_value": "Edge CDN"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.33110488471082766,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "humare Falcon initiative ke baare mein yaad dilao"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 117.8077000004123
+  },
+  {
+    "id": "frozen100-073",
+    "scenario_group": "corpus100-memory",
+    "language": "te",
+    "utterance": "మన త్రిశూల్ ప్రాజెక్ట్ నిర్ణయం గుర్తుచేయి",
+    "expected": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": [
+        {
+          "kind": "project",
+          "reference": "త్రిశూల్ ప్రాజెక్ట్",
+          "resolved_value": "Security Mesh"
+        }
+      ]
+    },
+    "prediction": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4033226278641831,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "మన త్రిశూల్ ప్రాజెక్ట్ నిర్ణయం గుర్తుచేయి"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 116.91459999929066
+  },
+  {
+    "id": "frozen100-074",
+    "scenario_group": "corpus100-memory",
+    "language": "te",
+    "utterance": "ఆథెంటికేషన్ ఆర్కిటెక్చర్ నిర్ణయం ఏంటి?",
+    "expected": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": [
+        {
+          "kind": "prior_conversation",
+          "reference": "ఆథెంటికేషన్ ఆర్కిటెక్చర్",
+          "resolved_value": "OAuth2 అమలు చేయాలి"
+        }
+      ]
+    },
+    "prediction": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "ఆథెంటికేషన్ ఆర్కిటెక్చర్",
+          "kind": "prior_conversation",
+          "resolved_value": "OAuth2 అమలు చేయాలి"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.44892058295308457,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "ఆథెంటికేషన్ ఆర్కిటెక్చర్ నిర్ణయం ఏంటి?"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 129.13490000210004
+  },
+  {
+    "id": "frozen100-075",
+    "scenario_group": "corpus100-memory",
+    "language": "te-Latn",
+    "utterance": "mana deployment pipeline gurinchi em decide chesam?",
+    "expected": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": [
+        {
+          "kind": "prior_conversation",
+          "reference": "deployment pipeline",
+          "resolved_value": "use GitHub Actions CI"
+        }
+      ]
+    },
+    "prediction": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "deployment pipeline",
+          "kind": "prior_conversation",
+          "resolved_value": "use GitHub Actions CI"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.7519394951029891,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "mana deployment pipeline gurinchi em decide chesam?"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 118.26719999953639
+  },
+  {
+    "id": "frozen100-076",
+    "scenario_group": "corpus100-memory",
+    "language": "te-Latn",
+    "utterance": "mana Garuda project status gurinchi gurthu cheyyi",
+    "expected": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": [
+        {
+          "kind": "project",
+          "reference": "Garuda project",
+          "resolved_value": "Telemetry Engine"
+        }
+      ]
+    },
+    "prediction": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "Garuda project",
+          "kind": "project",
+          "resolved_value": "Telemetry Engine"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.5008582552667747,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "mana Garuda project status gurinchi gurthu cheyyi"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 114.11349999980303
+  },
+  {
+    "id": "frozen100-077",
+    "scenario_group": "corpus100-memory",
+    "language": "ta-Latn",
+    "utterance": "backend framework pathi enna mudivu pannom?",
+    "expected": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": [
+        {
+          "kind": "prior_conversation",
+          "reference": "backend framework",
+          "resolved_value": "FastAPI use panna mudivu"
+        }
+      ]
+    },
+    "prediction": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "backend framework",
+          "kind": "prior_conversation",
+          "resolved_value": "FastAPI use panna mudivu"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.6256477162344225,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "backend framework pathi enna mudivu pannom?"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 110.21480000272277
+  },
+  {
+    "id": "frozen100-078",
+    "scenario_group": "corpus100-memory",
+    "language": "mixed-en-hi",
+    "utterance": "Kal API gateway release date ke baare mein kya bola tha?",
+    "expected": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": [
+        {
+          "kind": "prior_conversation",
+          "reference": "API gateway release date",
+          "resolved_value": "release next Tuesday"
+        }
+      ]
+    },
+    "prediction": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "API gateway release date",
+          "kind": "prior_conversation",
+          "resolved_value": "release next Tuesday"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.5559230026306898,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Kal API gateway release date ke baare mein kya bola tha?"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 124.256900002365
+  },
+  {
+    "id": "frozen100-079",
+    "scenario_group": "corpus100-direct",
+    "language": "en",
+    "utterance": "What is the capital of Canada?",
+    "expected": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.579802881037839,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "What is the capital of Canada?"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 103.62819999863859
+  },
+  {
+    "id": "frozen100-080",
+    "scenario_group": "corpus100-direct",
+    "language": "en",
+    "utterance": "Explain why the sky looks blue during daytime",
+    "expected": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.7234396728218634,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Explain why the sky looks blue during daytime"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 71.7371999999159
+  },
+  {
+    "id": "frozen100-081",
+    "scenario_group": "corpus100-direct",
+    "language": "hi",
+    "utterance": "भारत की सबसे लंबी नदी कौन सी है?",
+    "expected": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.910582645193593,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "भारत की सबसे लंबी नदी कौन सी है?"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 71.82339999781107
+  },
+  {
+    "id": "frozen100-082",
+    "scenario_group": "corpus100-direct",
+    "language": "hi",
+    "utterance": "सौरमंडल का सबसे बड़ा ग्रह कौन सा है?",
+    "expected": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.9108191297895726,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "सौरमंडल का सबसे बड़ा ग्रह कौन सा है?"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 82.72200000283192
+  },
+  {
+    "id": "frozen100-083",
+    "scenario_group": "corpus100-direct",
+    "language": "hi-Latn",
+    "utterance": "gravity kaise kaam karti hai short mein batao",
+    "expected": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.5919594047339228,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "gravity kaise kaam karti hai short mein batao"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 78.86520000101882
+  },
+  {
+    "id": "frozen100-084",
+    "scenario_group": "corpus100-direct",
+    "language": "te",
+    "utterance": "భూమి పరిమాణం ఎంత?",
+    "expected": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.8914210156671197,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "భూమి పరిమాణం ఎంత?"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 74.33970000056433
+  },
+  {
+    "id": "frozen100-085",
+    "scenario_group": "corpus100-direct",
+    "language": "te-Latn",
+    "utterance": "CPU ante enti brief ga cheppu",
+    "expected": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4562840447797974,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "CPU ante enti brief ga cheppu"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 68.5315000009723
+  },
+  {
+    "id": "frozen100-086",
+    "scenario_group": "corpus100-direct",
+    "language": "ta",
+    "utterance": "சூரிய குடும்பத்தில் எத்தனை கோள்கள் உள்ளன?",
+    "expected": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.8860021454634714,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "சூரிய குடும்பத்தில் எத்தனை கோள்கள் உள்ளன?"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 81.15660000112257
+  },
+  {
+    "id": "frozen100-087",
+    "scenario_group": "corpus100-direct",
+    "language": "ta-Latn",
+    "utterance": "photosynthesis enral enna brief-ah sollu",
+    "expected": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.31069061711414114,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "photosynthesis enral enna brief-ah sollu"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 76.43880000250647
+  },
+  {
+    "id": "frozen100-088",
+    "scenario_group": "corpus100-direct",
+    "language": "mixed-en-te",
+    "utterance": "Hi JARVIS, how is your performance today?",
+    "expected": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational",
+        "research"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.4824041738931179,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Hi JARVIS, how is your performance today?"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 69.67259999873932
+  },
+  {
+    "id": "frozen100-089",
+    "scenario_group": "corpus100-multistep",
+    "language": "en",
+    "utterance": "Guide me step by step through setting up a Kubernetes cluster on AWS",
+    "expected": {
+      "intent": "use:google_search",
+      "execution_path": "multi_step_task",
+      "request_modes": [
+        "action",
+        "research"
+      ],
+      "selected_capability": "google_search",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "research",
+      "execution_path": "multi_step_task",
+      "request_modes": [
+        "research",
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.638908968404809,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Guide me step by step through setting up a Kubernetes cluster on AWS"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 112.06759999913629
+  },
+  {
+    "id": "frozen100-090",
+    "scenario_group": "corpus100-multistep",
+    "language": "en",
+    "utterance": "Show me the step by step instructions to configure SSL certificates on Nginx",
+    "expected": {
+      "intent": "use:google_search",
+      "execution_path": "multi_step_task",
+      "request_modes": [
+        "action",
+        "research"
+      ],
+      "selected_capability": "google_search",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "research",
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.7770300589318148,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Show me the step by step instructions to configure SSL certificates on Nginx"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 148.0401000007987
+  },
+  {
+    "id": "frozen100-091",
+    "scenario_group": "corpus100-multistep",
+    "language": "hi-Latn",
+    "utterance": "Ubuntu Linux dual boot install karne ke steps guide karo",
+    "expected": {
+      "intent": "use:google_search",
+      "execution_path": "multi_step_task",
+      "request_modes": [
+        "action",
+        "research"
+      ],
+      "selected_capability": "google_search",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "research",
+      "execution_path": "multi_step_task",
+      "request_modes": [
+        "research",
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.489104974798686,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Ubuntu Linux dual boot install karne ke steps guide karo"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 100.87180000118678
+  },
+  {
+    "id": "frozen100-092",
+    "scenario_group": "corpus100-multistep",
+    "language": "te-Latn",
+    "utterance": "GitHub actions CI CD setup step by step guide cheyyi",
+    "expected": {
+      "intent": "use:google_search",
+      "execution_path": "multi_step_task",
+      "request_modes": [
+        "action",
+        "research"
+      ],
+      "selected_capability": "google_search",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "research",
+      "execution_path": "multi_step_task",
+      "request_modes": [
+        "research",
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.6455622345506179,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "GitHub actions CI CD setup step by step guide cheyyi"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 113.08319999807281
+  },
+  {
+    "id": "frozen100-093",
+    "scenario_group": "corpus100-multistep",
+    "language": "ta-Latn",
+    "utterance": "Docker container deploy panna step by step guide pannu",
+    "expected": {
+      "intent": "use:google_search",
+      "execution_path": "multi_step_task",
+      "request_modes": [
+        "action",
+        "research"
+      ],
+      "selected_capability": "google_search",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "research",
+      "execution_path": "multi_step_task",
+      "request_modes": [
+        "research",
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.3408277732195519,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Docker container deploy panna step by step guide pannu"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 98.86520000145538
+  },
+  {
+    "id": "frozen100-094",
+    "scenario_group": "corpus100-multistep",
+    "language": "mixed-en-hi",
+    "utterance": "Postgres database backup restore karne ke steps guide karo",
+    "expected": {
+      "intent": "use:google_search",
+      "execution_path": "multi_step_task",
+      "request_modes": [
+        "action",
+        "research"
+      ],
+      "selected_capability": "google_search",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "research",
+      "execution_path": "multi_step_task",
+      "request_modes": [
+        "research",
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.6737802028656006,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Postgres database backup restore karne ke steps guide karo"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 99.39459999804967
+  },
+  {
+    "id": "frozen100-095",
+    "scenario_group": "corpus100-escalate",
+    "language": "en",
+    "utterance": "Order two chicken burgers and fries from Swiggy to my home",
+    "expected": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.6658998793220388,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Order two chicken burgers and fries from Swiggy to my home"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 164.22350000357255
+  },
+  {
+    "id": "frozen100-096",
+    "scenario_group": "corpus100-escalate",
+    "language": "en",
+    "utterance": "Transfer five hundred dollars from my savings account to John",
+    "expected": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:open_app",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_app",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.32735076405827024,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Transfer five hundred dollars from my savings account to John"
+        },
+        {
+          "kind": "capability",
+          "reference": "open_app"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 103.53499999837368
+  },
+  {
+    "id": "frozen100-097",
+    "scenario_group": "corpus100-escalate",
+    "language": "hi",
+    "utterance": "दिल्ली से मुंबई की फ्लाइट टिकट बुक कर दो",
+    "expected": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.37768148517457933,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "दिल्ली से मुंबई की फ्लाइट टिकट बुक कर दो"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": true,
+    "error": null,
+    "latency_ms": 112.79909999939264
+  },
+  {
+    "id": "frozen100-098",
+    "scenario_group": "corpus100-escalate",
+    "language": "hi-Latn",
+    "utterance": "bedroom ki AC temperature 22 degree par set karo",
+    "expected": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:open_app",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_app",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.7110248804092407,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "bedroom ki AC temperature 22 degree par set karo"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 98.95349999715108
+  },
+  {
+    "id": "frozen100-099",
+    "scenario_group": "corpus100-escalate",
+    "language": "te-Latn",
+    "utterance": "Uber app lo airport ki cab book cheyyi",
+    "expected": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:open_app",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_app",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.47228353967791764,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Uber app lo airport ki cab book cheyyi"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 90.67619999768795
+  },
+  {
+    "id": "frozen100-100",
+    "scenario_group": "corpus100-escalate",
+    "language": "mixed-en-ta",
+    "utterance": "Zomato app-la dinner order pannu",
+    "expected": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "missing_information": [],
+      "context_references": []
+    },
+    "prediction": {
+      "intent": "use:open_app",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_app",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.5445811997341032,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Zomato app-la dinner order pannu"
+        }
+      ],
+      "abstained": false
+    },
+    "exact_match": false,
+    "error": null,
+    "latency_ms": 90.8287999991444
+  }
+]

@@ -1,0 +1,358 @@
+{
+  "schema_version": "2.0",
+  "dataset": "benchmarks/fast_classifier/v2/dataset.jsonl",
+  "dataset_sha256": "39efcaa80cdba3f8c66d5a18c48137904a213eed0d97e6cf2866d90b01a93300",
+  "split_method": "scenario-group assignment; no group appears in more than one split",
+  "sealed_test_policy": "v1-derived test groups only; no synthetic candidate is assigned to test",
+  "source_v1_sha256": "d8bb2f891b9de700962dc753491d24cf5341ae337eeb31ae87a422363ea3eb7d",
+  "groups": {
+    "conversation_general": {
+      "split": "test",
+      "example_ids": [
+        "en-conversation-001",
+        "te-native-conversation-001",
+        "hi-native-conversation-001",
+        "ta-native-conversation-001"
+      ]
+    },
+    "thermal_sensation": {
+      "split": "test",
+      "example_ids": [
+        "en-knowledge-001",
+        "te-romanized-knowledge-001"
+      ]
+    },
+    "resolved_memory": {
+      "split": "dev",
+      "example_ids": [
+        "en-memory-001",
+        "ctx-hologram-001",
+        "hi-codeswitch-memory-001"
+      ]
+    },
+    "python_release_research": {
+      "split": "test",
+      "example_ids": [
+        "en-research-001",
+        "te-codeswitch-research-001",
+        "ta-codeswitch-research-001"
+      ]
+    },
+    "calculator_action": {
+      "split": "test",
+      "example_ids": [
+        "en-desktop-001",
+        "stt-noisy-action-001",
+        "te-native-action-001",
+        "hi-romanized-action-001",
+        "ta-romanized-action-001"
+      ]
+    },
+    "documentation_browser": {
+      "split": "dev",
+      "example_ids": [
+        "en-browser-001"
+      ]
+    },
+    "music_search": {
+      "split": "dev",
+      "example_ids": [
+        "en-music-001"
+      ]
+    },
+    "multistep_research": {
+      "split": "dev",
+      "example_ids": [
+        "en-multistep-001"
+      ]
+    },
+    "continue_reference": {
+      "split": "test",
+      "example_ids": [
+        "ctx-continue-resolved-001",
+        "ctx-continue-unresolved-001"
+      ]
+    },
+    "missing_open_target": {
+      "split": "dev",
+      "example_ids": [
+        "ctx-open-missing-001"
+      ]
+    },
+    "unsupported_external_action": {
+      "split": "test",
+      "example_ids": [
+        "cap-unsupported-email-001",
+        "cap-unsupported-home-001"
+      ]
+    },
+    "missing_search_topic": {
+      "split": "dev",
+      "example_ids": [
+        "cap-browser-missing-001"
+      ]
+    },
+    "mixed_conversation_action": {
+      "split": "dev",
+      "example_ids": [
+        "mixed-conversation-action-001"
+      ]
+    },
+    "resolved_browser_reference": {
+      "split": "dev",
+      "example_ids": [
+        "ctx-browser-resolved-001"
+      ]
+    },
+    "synth_open_editor": {
+      "split": "train",
+      "example_ids": [
+        "synth_open_editor-en-01",
+        "synth_open_editor-en-02",
+        "synth_open_editor-en-03",
+        "synth_open_editor-en-04",
+        "synth_open_editor-en-05",
+        "synth_open_editor-te-01",
+        "synth_open_editor-te-02",
+        "synth_open_editor-te-03",
+        "synth_open_editor-te-04",
+        "synth_open_editor-te-05",
+        "synth_open_editor-hi-01",
+        "synth_open_editor-hi-02",
+        "synth_open_editor-hi-03",
+        "synth_open_editor-hi-04",
+        "synth_open_editor-hi-05",
+        "synth_open_editor-ta-01",
+        "synth_open_editor-ta-02",
+        "synth_open_editor-ta-03",
+        "synth_open_editor-ta-04",
+        "synth_open_editor-ta-05"
+      ]
+    },
+    "synth_find_budget_file": {
+      "split": "train",
+      "example_ids": [
+        "synth_find_budget_file-en-01",
+        "synth_find_budget_file-en-02",
+        "synth_find_budget_file-en-03",
+        "synth_find_budget_file-en-04",
+        "synth_find_budget_file-en-05",
+        "synth_find_budget_file-te-Latn-01",
+        "synth_find_budget_file-te-Latn-02",
+        "synth_find_budget_file-te-Latn-03",
+        "synth_find_budget_file-te-Latn-04",
+        "synth_find_budget_file-te-Latn-05",
+        "synth_find_budget_file-hi-Latn-01",
+        "synth_find_budget_file-hi-Latn-02",
+        "synth_find_budget_file-hi-Latn-03",
+        "synth_find_budget_file-hi-Latn-04",
+        "synth_find_budget_file-hi-Latn-05",
+        "synth_find_budget_file-ta-Latn-01",
+        "synth_find_budget_file-ta-Latn-02",
+        "synth_find_budget_file-ta-Latn-03",
+        "synth_find_budget_file-ta-Latn-04",
+        "synth_find_budget_file-ta-Latn-05"
+      ]
+    },
+    "synth_stable_knowledge": {
+      "split": "train",
+      "example_ids": [
+        "synth_stable_knowledge-en-01",
+        "synth_stable_knowledge-en-02",
+        "synth_stable_knowledge-en-03",
+        "synth_stable_knowledge-en-04",
+        "synth_stable_knowledge-en-05",
+        "synth_stable_knowledge-te-01",
+        "synth_stable_knowledge-te-02",
+        "synth_stable_knowledge-te-03",
+        "synth_stable_knowledge-te-04",
+        "synth_stable_knowledge-te-05",
+        "synth_stable_knowledge-hi-01",
+        "synth_stable_knowledge-hi-02",
+        "synth_stable_knowledge-hi-03",
+        "synth_stable_knowledge-hi-04",
+        "synth_stable_knowledge-hi-05",
+        "synth_stable_knowledge-ta-01",
+        "synth_stable_knowledge-ta-02",
+        "synth_stable_knowledge-ta-03",
+        "synth_stable_knowledge-ta-04",
+        "synth_stable_knowledge-ta-05"
+      ]
+    },
+    "synth_recall_trip": {
+      "split": "train",
+      "example_ids": [
+        "synth_recall_trip-en-01",
+        "synth_recall_trip-en-02",
+        "synth_recall_trip-en-03",
+        "synth_recall_trip-en-04",
+        "synth_recall_trip-en-05",
+        "synth_recall_trip-te-Latn-01",
+        "synth_recall_trip-te-Latn-02",
+        "synth_recall_trip-te-Latn-03",
+        "synth_recall_trip-te-Latn-04",
+        "synth_recall_trip-te-Latn-05",
+        "synth_recall_trip-hi-Latn-01",
+        "synth_recall_trip-hi-Latn-02",
+        "synth_recall_trip-hi-Latn-03",
+        "synth_recall_trip-hi-Latn-04",
+        "synth_recall_trip-hi-Latn-05",
+        "synth_recall_trip-ta-Latn-01",
+        "synth_recall_trip-ta-Latn-02",
+        "synth_recall_trip-ta-Latn-03",
+        "synth_recall_trip-ta-Latn-04",
+        "synth_recall_trip-ta-Latn-05"
+      ]
+    },
+    "synth_current_release_research": {
+      "split": "train",
+      "example_ids": [
+        "synth_current_release_research-en-01",
+        "synth_current_release_research-en-02",
+        "synth_current_release_research-en-03",
+        "synth_current_release_research-en-04",
+        "synth_current_release_research-en-05",
+        "synth_current_release_research-mixed-en-te-01",
+        "synth_current_release_research-mixed-en-te-02",
+        "synth_current_release_research-mixed-en-te-03",
+        "synth_current_release_research-mixed-en-te-04",
+        "synth_current_release_research-mixed-en-te-05",
+        "synth_current_release_research-mixed-en-hi-01",
+        "synth_current_release_research-mixed-en-hi-02",
+        "synth_current_release_research-mixed-en-hi-03",
+        "synth_current_release_research-mixed-en-hi-04",
+        "synth_current_release_research-mixed-en-hi-05",
+        "synth_current_release_research-mixed-en-ta-01",
+        "synth_current_release_research-mixed-en-ta-02",
+        "synth_current_release_research-mixed-en-ta-03",
+        "synth_current_release_research-mixed-en-ta-04",
+        "synth_current_release_research-mixed-en-ta-05"
+      ]
+    },
+    "synth_multistep_article": {
+      "split": "train",
+      "example_ids": [
+        "synth_multistep_article-en-01",
+        "synth_multistep_article-en-02",
+        "synth_multistep_article-en-03",
+        "synth_multistep_article-en-04",
+        "synth_multistep_article-en-05",
+        "synth_multistep_article-mixed-en-te-01",
+        "synth_multistep_article-mixed-en-te-02",
+        "synth_multistep_article-mixed-en-te-03",
+        "synth_multistep_article-mixed-en-te-04",
+        "synth_multistep_article-mixed-en-te-05",
+        "synth_multistep_article-mixed-en-hi-01",
+        "synth_multistep_article-mixed-en-hi-02",
+        "synth_multistep_article-mixed-en-hi-03",
+        "synth_multistep_article-mixed-en-hi-04",
+        "synth_multistep_article-mixed-en-hi-05",
+        "synth_multistep_article-mixed-en-ta-01",
+        "synth_multistep_article-mixed-en-ta-02",
+        "synth_multistep_article-mixed-en-ta-03",
+        "synth_multistep_article-mixed-en-ta-04",
+        "synth_multistep_article-mixed-en-ta-05"
+      ]
+    },
+    "synth_ambiguous_open": {
+      "split": "train",
+      "example_ids": [
+        "synth_ambiguous_open-en-01",
+        "synth_ambiguous_open-en-02",
+        "synth_ambiguous_open-en-03",
+        "synth_ambiguous_open-en-04",
+        "synth_ambiguous_open-en-05",
+        "synth_ambiguous_open-te-Latn-01",
+        "synth_ambiguous_open-te-Latn-02",
+        "synth_ambiguous_open-te-Latn-03",
+        "synth_ambiguous_open-te-Latn-04",
+        "synth_ambiguous_open-te-Latn-05",
+        "synth_ambiguous_open-hi-Latn-01",
+        "synth_ambiguous_open-hi-Latn-02",
+        "synth_ambiguous_open-hi-Latn-03",
+        "synth_ambiguous_open-hi-Latn-04",
+        "synth_ambiguous_open-hi-Latn-05",
+        "synth_ambiguous_open-ta-Latn-01",
+        "synth_ambiguous_open-ta-Latn-02",
+        "synth_ambiguous_open-ta-Latn-03",
+        "synth_ambiguous_open-ta-Latn-04",
+        "synth_ambiguous_open-ta-Latn-05"
+      ]
+    },
+    "synth_unsupported_message": {
+      "split": "train",
+      "example_ids": [
+        "synth_unsupported_message-en-01",
+        "synth_unsupported_message-en-02",
+        "synth_unsupported_message-en-03",
+        "synth_unsupported_message-en-04",
+        "synth_unsupported_message-en-05",
+        "synth_unsupported_message-te-Latn-01",
+        "synth_unsupported_message-te-Latn-02",
+        "synth_unsupported_message-te-Latn-03",
+        "synth_unsupported_message-te-Latn-04",
+        "synth_unsupported_message-te-Latn-05",
+        "synth_unsupported_message-hi-Latn-01",
+        "synth_unsupported_message-hi-Latn-02",
+        "synth_unsupported_message-hi-Latn-03",
+        "synth_unsupported_message-hi-Latn-04",
+        "synth_unsupported_message-hi-Latn-05",
+        "synth_unsupported_message-ta-Latn-01",
+        "synth_unsupported_message-ta-Latn-02",
+        "synth_unsupported_message-ta-Latn-03",
+        "synth_unsupported_message-ta-Latn-04",
+        "synth_unsupported_message-ta-Latn-05"
+      ]
+    },
+    "synth_open_archive_folder": {
+      "split": "dev",
+      "example_ids": [
+        "synth_open_archive_folder-en-01",
+        "synth_open_archive_folder-en-02",
+        "synth_open_archive_folder-en-03",
+        "synth_open_archive_folder-en-04",
+        "synth_open_archive_folder-en-05",
+        "synth_open_archive_folder-te-Latn-01",
+        "synth_open_archive_folder-te-Latn-02",
+        "synth_open_archive_folder-te-Latn-03",
+        "synth_open_archive_folder-te-Latn-04",
+        "synth_open_archive_folder-te-Latn-05",
+        "synth_open_archive_folder-hi-Latn-01",
+        "synth_open_archive_folder-hi-Latn-02",
+        "synth_open_archive_folder-hi-Latn-03",
+        "synth_open_archive_folder-hi-Latn-04",
+        "synth_open_archive_folder-hi-Latn-05",
+        "synth_open_archive_folder-ta-Latn-01",
+        "synth_open_archive_folder-ta-Latn-02",
+        "synth_open_archive_folder-ta-Latn-03",
+        "synth_open_archive_folder-ta-Latn-04",
+        "synth_open_archive_folder-ta-Latn-05"
+      ]
+    },
+    "synth_unresolved_followup": {
+      "split": "dev",
+      "example_ids": [
+        "synth_unresolved_followup-en-01",
+        "synth_unresolved_followup-en-02",
+        "synth_unresolved_followup-en-03",
+        "synth_unresolved_followup-en-04",
+        "synth_unresolved_followup-en-05",
+        "synth_unresolved_followup-te-Latn-01",
+        "synth_unresolved_followup-te-Latn-02",
+        "synth_unresolved_followup-te-Latn-03",
+        "synth_unresolved_followup-te-Latn-04",
+        "synth_unresolved_followup-te-Latn-05",
+        "synth_unresolved_followup-hi-Latn-01",
+        "synth_unresolved_followup-hi-Latn-02",
+        "synth_unresolved_followup-hi-Latn-03",
+        "synth_unresolved_followup-hi-Latn-04",
+        "synth_unresolved_followup-hi-Latn-05",
+        "synth_unresolved_followup-ta-Latn-01",
+        "synth_unresolved_followup-ta-Latn-02",
+        "synth_unresolved_followup-ta-Latn-03",
+        "synth_unresolved_followup-ta-Latn-04",
+        "synth_unresolved_followup-ta-Latn-05"
+      ]
+    }
+  }
+}

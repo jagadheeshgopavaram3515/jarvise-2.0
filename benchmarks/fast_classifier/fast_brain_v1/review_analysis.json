@@ -1,0 +1,80 @@
+{
+  "records": 359,
+  "provenance": {
+    "historical_synthetic": 359
+  },
+  "review_status": {
+    "pending_review": 359
+  },
+  "intent": {
+    "conversation": 42,
+    "deterministic_action": 7,
+    "information": 39,
+    "local_task": 92,
+    "memory": 38,
+    "multi_step_task": 43,
+    "research": 43,
+    "unsupported": 55
+  },
+  "capability": {
+    "application": 42,
+    "browser": 55,
+    "file": 29,
+    "location": 7,
+    "memory": 38,
+    "none": 143,
+    "project": 2,
+    "research": 36,
+    "weather": 7
+  },
+  "language": {
+    "code_switch": 77,
+    "english": 82,
+    "hindi": 78,
+    "tamil": 44,
+    "telugu": 78
+  },
+  "script": {
+    "devanagari": 30,
+    "latin": 209,
+    "mixed": 77,
+    "tamil": 13,
+    "telugu": 30
+  },
+  "response_language": {
+    "code_switch": 77,
+    "english": 82,
+    "hindi": 78,
+    "tamil": 44,
+    "telugu": 78
+  },
+  "clarification": {
+    "false": 359
+  },
+  "missing_information": {},
+  "groups": 49,
+  "hard_negative_groups": 0,
+  "stt_variants": 0,
+  "context_resolvable": 40,
+  "dataset_sha256": "426d722c68bbf13e22a03fa71f26df246c83d698d4cb7cd50358642bf90e9a82",
+  "reviewed_records": 0,
+  "ambiguous_records": 0,
+  "requires_adjudication": 0,
+  "quarantined_records": 0,
+  "review_queue_records": 359,
+  "readiness_state": "CANDIDATE",
+  "sealed_test_readiness": "SEALED TEST NOT READY",
+  "training_status": "TRAINING_BLOCKED",
+  "human_review_required": 359,
+  "generated_records": 0,
+  "provenance_preserved": true,
+  "suspected_duplicate_text_count": 1,
+  "suspected_duplicate_texts": {
+    "Open my Downloads folder.": 2
+  },
+  "group_leakage_checked": true,
+  "model_downloaded": false,
+  "model_trained": false,
+  "network_used": false,
+  "production_routing_changed": false
+}

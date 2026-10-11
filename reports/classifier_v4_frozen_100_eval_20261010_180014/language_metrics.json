@@ -1,0 +1,152 @@
+{
+  "en": {
+    "count": 20,
+    "exact": 12,
+    "cap_top1": 15,
+    "field_agreements": {
+      "intent": 14,
+      "execution_path": 16,
+      "request_modes": 20,
+      "selected_capability": 15,
+      "needs_clarification": 17,
+      "needs_escalation": 19,
+      "missing_information": 17,
+      "context_references": 18
+    }
+  },
+  "hi": {
+    "count": 15,
+    "exact": 7,
+    "cap_top1": 9,
+    "field_agreements": {
+      "intent": 8,
+      "execution_path": 9,
+      "request_modes": 13,
+      "selected_capability": 9,
+      "needs_clarification": 10,
+      "needs_escalation": 15,
+      "missing_information": 10,
+      "context_references": 13
+    }
+  },
+  "hi-Latn": {
+    "count": 17,
+    "exact": 10,
+    "cap_top1": 13,
+    "field_agreements": {
+      "intent": 12,
+      "execution_path": 13,
+      "request_modes": 17,
+      "selected_capability": 13,
+      "needs_clarification": 14,
+      "needs_escalation": 16,
+      "missing_information": 14,
+      "context_references": 14
+    }
+  },
+  "te": {
+    "count": 12,
+    "exact": 2,
+    "cap_top1": 5,
+    "field_agreements": {
+      "intent": 5,
+      "execution_path": 6,
+      "request_modes": 12,
+      "selected_capability": 5,
+      "needs_clarification": 7,
+      "needs_escalation": 11,
+      "missing_information": 7,
+      "context_references": 9
+    }
+  },
+  "te-Latn": {
+    "count": 16,
+    "exact": 7,
+    "cap_top1": 11,
+    "field_agreements": {
+      "intent": 8,
+      "execution_path": 10,
+      "request_modes": 13,
+      "selected_capability": 11,
+      "needs_clarification": 14,
+      "needs_escalation": 11,
+      "missing_information": 14,
+      "context_references": 14
+    }
+  },
+  "ta": {
+    "count": 5,
+    "exact": 1,
+    "cap_top1": 2,
+    "field_agreements": {
+      "intent": 2,
+      "execution_path": 2,
+      "request_modes": 2,
+      "selected_capability": 2,
+      "needs_clarification": 2,
+      "needs_escalation": 5,
+      "missing_information": 2,
+      "context_references": 4
+    }
+  },
+  "ta-Latn": {
+    "count": 11,
+    "exact": 5,
+    "cap_top1": 8,
+    "field_agreements": {
+      "intent": 6,
+      "execution_path": 9,
+      "request_modes": 10,
+      "selected_capability": 8,
+      "needs_clarification": 10,
+      "needs_escalation": 10,
+      "missing_information": 10,
+      "context_references": 10
+    }
+  },
+  "mixed-en-hi": {
+    "count": 2,
+    "exact": 1,
+    "cap_top1": 2,
+    "field_agreements": {
+      "intent": 1,
+      "execution_path": 2,
+      "request_modes": 2,
+      "selected_capability": 2,
+      "needs_clarification": 2,
+      "needs_escalation": 2,
+      "missing_information": 2,
+      "context_references": 2
+    }
+  },
+  "mixed-en-te": {
+    "count": 1,
+    "exact": 0,
+    "cap_top1": 1,
+    "field_agreements": {
+      "intent": 1,
+      "execution_path": 1,
+      "request_modes": 0,
+      "selected_capability": 1,
+      "needs_clarification": 1,
+      "needs_escalation": 1,
+      "missing_information": 1,
+      "context_references": 1
+    }
+  },
+  "mixed-en-ta": {
+    "count": 1,
+    "exact": 0,
+    "cap_top1": 0,
+    "field_agreements": {
+      "intent": 0,
+      "execution_path": 0,
+      "request_modes": 1,
+      "selected_capability": 0,
+      "needs_clarification": 1,
+      "needs_escalation": 0,
+      "missing_information": 1,
+      "context_references": 1
+    }
+  }
+}

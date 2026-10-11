@@ -1,0 +1,1928 @@
+{
+  "metric_type": "PROVISIONAL_LABEL_AGREEMENT",
+  "exact_agreement": 8,
+  "denominator": 40,
+  "fields": {
+    "intent": 19,
+    "execution_path": 31,
+    "request_modes": 35,
+    "selected_capability": 20,
+    "needs_clarification": 37,
+    "needs_escalation": 38,
+    "missing_information": 33,
+    "context_references": 27
+  },
+  "languages": {
+    "en": {
+      "exact_agreement": 2,
+      "denominator": 12,
+      "scenario_groups": 7,
+      "class_support": {
+        "single_action": 5,
+        "multi_step_task": 1,
+        "memory_recall": 3,
+        "escalate": 1,
+        "clarify": 1,
+        "direct_response": 1
+      },
+      "scripts": {
+        "latin": 12
+      },
+      "status": "PROVISIONAL_EVALUATION"
+    },
+    "hi": {
+      "exact_agreement": 1,
+      "denominator": 1,
+      "scenario_groups": 1,
+      "class_support": {
+        "direct_response": 1
+      },
+      "scripts": {
+        "devanagari": 1
+      },
+      "status": "PROVISIONAL_EVALUATION"
+    },
+    "hi-Latn": {
+      "exact_agreement": 0,
+      "denominator": 7,
+      "scenario_groups": 3,
+      "class_support": {
+        "memory_recall": 1,
+        "clarify": 1,
+        "single_action": 5
+      },
+      "scripts": {
+        "latin": 7
+      },
+      "status": "PROVISIONAL_EVALUATION"
+    },
+    "mixed-en-hi": {
+      "exact_agreement": 1,
+      "denominator": 2,
+      "scenario_groups": 2,
+      "class_support": {
+        "multi_step_task": 1,
+        "memory_recall": 1
+      },
+      "scripts": {
+        "latin": 2
+      },
+      "status": "PROVISIONAL_EVALUATION"
+    },
+    "mixed-en-ta": {
+      "exact_agreement": 1,
+      "denominator": 1,
+      "scenario_groups": 1,
+      "class_support": {
+        "multi_step_task": 1
+      },
+      "scripts": {
+        "latin": 1
+      },
+      "status": "PROVISIONAL_EVALUATION"
+    },
+    "mixed-en-te": {
+      "exact_agreement": 1,
+      "denominator": 1,
+      "scenario_groups": 1,
+      "class_support": {
+        "multi_step_task": 1
+      },
+      "scripts": {
+        "latin": 1
+      },
+      "status": "PROVISIONAL_EVALUATION"
+    },
+    "ta": {
+      "exact_agreement": 1,
+      "denominator": 1,
+      "scenario_groups": 1,
+      "class_support": {
+        "direct_response": 1
+      },
+      "scripts": {
+        "tamil": 1
+      },
+      "status": "PROVISIONAL_EVALUATION"
+    },
+    "ta-Latn": {
+      "exact_agreement": 0,
+      "denominator": 7,
+      "scenario_groups": 3,
+      "class_support": {
+        "single_action": 5,
+        "clarify": 1,
+        "memory_recall": 1
+      },
+      "scripts": {
+        "latin": 7
+      },
+      "status": "PROVISIONAL_EVALUATION"
+    },
+    "te": {
+      "exact_agreement": 1,
+      "denominator": 1,
+      "scenario_groups": 1,
+      "class_support": {
+        "direct_response": 1
+      },
+      "scripts": {
+        "telugu": 1
+      },
+      "status": "PROVISIONAL_EVALUATION"
+    },
+    "te-Latn": {
+      "exact_agreement": 0,
+      "denominator": 7,
+      "scenario_groups": 3,
+      "class_support": {
+        "single_action": 5,
+        "memory_recall": 1,
+        "clarify": 1
+      },
+      "scripts": {
+        "latin": 7
+      },
+      "status": "PROVISIONAL_EVALUATION"
+    }
+  },
+  "inference_failures": 0,
+  "abstentions": 0,
+  "cached_latency_ms": {
+    "median": 2.1493500007636612,
+    "p95": 2.785514998322469
+  },
+  "predictions": [
+    {
+      "record_id": "compact-candidate-049de405e17f502f0a1d",
+      "original_id": "synth_open_archive_folder-en-01",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.3942096384654986,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Open the archive folder."
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-0b607b069fce05db80b3",
+      "original_id": "synth_open_archive_folder-te-Latn-01",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.33031083691148017,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archive folder open cheyyi"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-12497cce3ae1e67f9fe3",
+      "original_id": "dev_memory_project-te-Latn",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "prior_conversation",
+            "reference": "prior discussion",
+            "resolved_value": "use a local cache"
+          }
+        ],
+        "execution_path": "memory_recall",
+        "intent": "recall",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "recall",
+        "execution_path": "memory_recall",
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "Orion project ki em choose chesamo gurthu cheyyi",
+            "kind": "prior_conversation",
+            "resolved_value": "use a local cache"
+          }
+        ],
+        "missing_information": [],
+        "confidence": 0.42190511411465254,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Orion project ki em choose chesamo gurthu cheyyi"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-174249e9e30faa16489a",
+      "original_id": "dev_stable_knowledge-te",
+      "expected": {
+        "context_references": [],
+        "execution_path": "direct_response",
+        "intent": "respond",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "respond",
+        "execution_path": "direct_response",
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.8178199424188459,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "ఆకుల రంగు ఎందుకు మారుతుంది?"
+          }
+        ]
+      },
+      "exact": true,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-2d29d7e553b74ad50b31",
+      "original_id": "synth_open_archive_folder-en-03",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.3271699701689881,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Bring up the archive directory."
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-4b16f2d9ef5c913dd2c0",
+      "original_id": "synth_open_archive_folder-ta-Latn-01",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "clarify_request",
+        "execution_path": "clarify",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [
+          {
+            "name": "target",
+            "description": "Required information is unresolved"
+          }
+        ],
+        "confidence": 0.34321906522095835,
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archive folder-ai open pannu"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-58e4dcc4577d919e6740",
+      "original_id": "dev_multistep_guides-mixed-en-te",
+      "expected": {
+        "context_references": [],
+        "execution_path": "multi_step_task",
+        "intent": "research",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search"
+      },
+      "prediction": {
+        "intent": "research",
+        "execution_path": "multi_step_task",
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.5603938740608345,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "two official accessibility guides find chesi differences summarize cheyyi"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "exact": true,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-59dbe3caceaa6facaeec",
+      "original_id": "dev_multistep_guides-en",
+      "expected": {
+        "context_references": [],
+        "execution_path": "multi_step_task",
+        "intent": "research",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search"
+      },
+      "prediction": {
+        "intent": "research",
+        "execution_path": "multi_step_task",
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.6881132646776746,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Locate two official accessibility guides, read them, and summarize the differences."
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "exact": true,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-5bb41551bde7365c7e6f",
+      "original_id": "dev_memory_project-hi-Latn",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "prior_conversation",
+            "reference": "prior discussion",
+            "resolved_value": "use a local cache"
+          }
+        ],
+        "execution_path": "memory_recall",
+        "intent": "recall",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "recall",
+        "execution_path": "memory_recall",
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "Orion project ke liye kya chuna tha yaad dilao",
+            "kind": "prior_conversation",
+            "resolved_value": "use a local cache"
+          }
+        ],
+        "missing_information": [],
+        "confidence": 0.39243887038447606,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Orion project ke liye kya chuna tha yaad dilao"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-65bf34347dabf7f0e54b",
+      "original_id": "synth_open_archive_folder-te-Latn-03",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "clarify_request",
+        "execution_path": "clarify",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "archive directory paiki teesuku ra",
+            "kind": "item",
+            "resolved_value": null
+          }
+        ],
+        "missing_information": [
+          {
+            "name": "target",
+            "description": "Required information is unresolved"
+          }
+        ],
+        "confidence": 0.2643486690541687,
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archive directory paiki teesuku ra"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-69e2f6b95e52fc983471",
+      "original_id": "synth_open_archive_folder-ta-Latn-02",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.34977498896638864,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archived files directory kaatu"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-78a00b34902b7b0d9c7b",
+      "original_id": "synth_open_archive_folder-en-04",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.3183341278384603,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Open my old-records folder."
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-78b32893ee08710fbf15",
+      "original_id": "en-memory-001",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "prior_conversation",
+            "reference": "the database migration last week",
+            "resolved_value": "move the pilot after the billing release"
+          }
+        ],
+        "execution_path": "memory_recall",
+        "intent": "recall",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "recall",
+        "execution_path": "memory_recall",
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "What did we decide about the database migration last week?",
+            "kind": "prior_conversation",
+            "resolved_value": "move the pilot after the billing release"
+          }
+        ],
+        "missing_information": [],
+        "confidence": 0.7327020582897162,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "What did we decide about the database migration last week?"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-7917108a5d2747ee47e2",
+      "original_id": "dev_clarify_unresolved-hi-Latn",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "item",
+            "reference": "it",
+            "resolved_value": null
+          }
+        ],
+        "execution_path": "clarify",
+        "intent": "clarify_request",
+        "missing_information": [
+          {
+            "description": "The requested target is not identifiable",
+            "name": "target"
+          }
+        ],
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "clarify_request",
+        "execution_path": "clarify",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "use phir se kholo",
+            "kind": "item",
+            "resolved_value": null
+          }
+        ],
+        "missing_information": [
+          {
+            "name": "target",
+            "description": "Required information is unresolved"
+          }
+        ],
+        "confidence": 0.3711994842246213,
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "use phir se kholo"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-7f974114dddee61bb30d",
+      "original_id": "dev_stable_knowledge-ta",
+      "expected": {
+        "context_references": [],
+        "execution_path": "direct_response",
+        "intent": "respond",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "respond",
+        "execution_path": "direct_response",
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.7612480458981936,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "இலைகளின் நிறம் ஏன் மாறுகிறது?"
+          }
+        ]
+      },
+      "exact": true,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-893b671924b3cdf76af9",
+      "original_id": "dev_clarify_unresolved-ta-Latn",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "item",
+            "reference": "it",
+            "resolved_value": null
+          }
+        ],
+        "execution_path": "clarify",
+        "intent": "clarify_request",
+        "missing_information": [
+          {
+            "description": "The requested target is not identifiable",
+            "name": "target"
+          }
+        ],
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "clarify_request",
+        "execution_path": "clarify",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "atha marubadiyum open pannu",
+            "kind": "item",
+            "resolved_value": null
+          }
+        ],
+        "missing_information": [
+          {
+            "name": "target",
+            "description": "Required information is unresolved"
+          }
+        ],
+        "confidence": 0.5781096262722736,
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "atha marubadiyum open pannu"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-8d9d53363a7e80b65910",
+      "original_id": "dev_memory_project-ta-Latn",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "prior_conversation",
+            "reference": "prior discussion",
+            "resolved_value": "use a local cache"
+          }
+        ],
+        "execution_path": "memory_recall",
+        "intent": "recall",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "recall",
+        "execution_path": "memory_recall",
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "Orion project-ku enna choose pannom nyabagam pannu",
+            "kind": "prior_conversation",
+            "resolved_value": "use a local cache"
+          }
+        ],
+        "missing_information": [],
+        "confidence": 0.4861256747722357,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Orion project-ku enna choose pannom nyabagam pannu"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-9134889c17e20b298d08",
+      "original_id": "ctx-hologram-001",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "project",
+            "reference": "our hologram project",
+            "resolved_value": "Aurora display"
+          }
+        ],
+        "execution_path": "memory_recall",
+        "intent": "recall",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "memory",
+          "conversational"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "recall",
+        "execution_path": "memory_recall",
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "Do you remember our hologram project?",
+            "kind": "prior_conversation",
+            "resolved_value": "hologram project"
+          }
+        ],
+        "missing_information": [],
+        "confidence": 0.584233562189949,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Do you remember our hologram project?"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-9cb9c8bcba29e74f15ae",
+      "original_id": "synth_open_archive_folder-te-Latn-04",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.30284769563161357,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "old records folder open cheyyi"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-9cbae89423d15f2284ba",
+      "original_id": "synth_open_archive_folder-te-Latn-05",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "research",
+        "execution_path": "multi_step_task",
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.21065515062847895,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archive folder ki teesuku vellu"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-9d3a825394363d92559a",
+      "original_id": "dev_multistep_guides-mixed-en-ta",
+      "expected": {
+        "context_references": [],
+        "execution_path": "multi_step_task",
+        "intent": "research",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search"
+      },
+      "prediction": {
+        "intent": "research",
+        "execution_path": "multi_step_task",
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.7477085377008781,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "two official accessibility guides thedi differences summarize pannu"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "exact": true,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-a11b4d43765487268c13",
+      "original_id": "synth_open_archive_folder-hi-Latn-01",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.32240987530527254,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archive folder kholo"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-a327a6b2341b41d26929",
+      "original_id": "synth_open_archive_folder-en-02",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.3200760538924488,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Show me the archived files directory."
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-a576ef35587382c078ec",
+      "original_id": "dev_memory_project-en",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "prior_conversation",
+            "reference": "prior discussion",
+            "resolved_value": "use a local cache"
+          }
+        ],
+        "execution_path": "memory_recall",
+        "intent": "recall",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "recall",
+        "execution_path": "memory_recall",
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "Remind me what we chose for the Orion project.",
+            "kind": "prior_conversation",
+            "resolved_value": "use a local cache"
+          }
+        ],
+        "missing_information": [],
+        "confidence": 0.6151841322516881,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Remind me what we chose for the Orion project."
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-a69cc23fe5cf19156f36",
+      "original_id": "synth_open_archive_folder-hi-Latn-03",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "clarify_request",
+        "execution_path": "clarify",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "archive directory saamne lao",
+            "kind": "item",
+            "resolved_value": null
+          }
+        ],
+        "missing_information": [
+          {
+            "name": "target",
+            "description": "Required information is unresolved"
+          }
+        ],
+        "confidence": 0.3207900317859197,
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archive directory saamne lao"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-ab3744d1834af5d70bb8",
+      "original_id": "en-music-001",
+      "expected": {
+        "context_references": [],
+        "execution_path": "escalate",
+        "intent": "unsupported_request",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "respond",
+        "execution_path": "direct_response",
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.33654479753240457,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Could you put on some instrumental focus music?"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-b597c5565f28de025678",
+      "original_id": "dev_multistep_guides-mixed-en-hi",
+      "expected": {
+        "context_references": [],
+        "execution_path": "multi_step_task",
+        "intent": "research",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search"
+      },
+      "prediction": {
+        "intent": "research",
+        "execution_path": "multi_step_task",
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.6675839975133371,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "do official accessibility guides dhoondh kar differences summarize karo"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "exact": true,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-c024e829657449ff7957",
+      "original_id": "dev_clarify_unresolved-en",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "item",
+            "reference": "it",
+            "resolved_value": null
+          }
+        ],
+        "execution_path": "clarify",
+        "intent": "clarify_request",
+        "missing_information": [
+          {
+            "description": "The requested target is not identifiable",
+            "name": "target"
+          }
+        ],
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "clarify_request",
+        "execution_path": "clarify",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "Bring it up again.",
+            "kind": "item",
+            "resolved_value": null
+          }
+        ],
+        "missing_information": [
+          {
+            "name": "target",
+            "description": "Required information is unresolved"
+          }
+        ],
+        "confidence": 0.32027229151342124,
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Bring it up again."
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-c210c20fef2fd7008bc2",
+      "original_id": "synth_open_archive_folder-hi-Latn-05",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.3031211806876247,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archive folder par le chalo"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-c2f83913c33fa5767279",
+      "original_id": "synth_open_archive_folder-ta-Latn-03",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "research",
+        "execution_path": "multi_step_task",
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.2541561809170287,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archive directory kondu vaa"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-c38f95986e35b22ce5e3",
+      "original_id": "dev_stable_knowledge-en",
+      "expected": {
+        "context_references": [],
+        "execution_path": "direct_response",
+        "intent": "respond",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "respond",
+        "execution_path": "direct_response",
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.6903458519986582,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Why do leaves change colour?"
+          }
+        ]
+      },
+      "exact": true,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-cddfc38140aa4a573b0a",
+      "original_id": "synth_open_archive_folder-hi-Latn-04",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.28103804572708907,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "old records folder kholo"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-d2949db37fafcfe62c2a",
+      "original_id": "synth_open_archive_folder-te-Latn-02",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "research",
+        "execution_path": "multi_step_task",
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.23176085590426276,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archived files directory chupinchu"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-e39074e52cecbf1ed55d",
+      "original_id": "hi-codeswitch-memory-001",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "prior_conversation",
+            "reference": "Kal architecture ke baare mein",
+            "resolved_value": "keep the classifier outside tool execution"
+          }
+        ],
+        "execution_path": "memory_recall",
+        "intent": "recall",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "recall",
+        "execution_path": "memory_recall",
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "Kal architecture ke baare mein humne kya decide kiya tha?",
+            "kind": "prior_conversation",
+            "resolved_value": "keep the classifier outside tool execution"
+          }
+        ],
+        "missing_information": [],
+        "confidence": 0.6192224872108963,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Kal architecture ke baare mein humne kya decide kiya tha?"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-eb30f6b10d4aea5d74e7",
+      "original_id": "synth_open_archive_folder-ta-Latn-04",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.2920527829486529,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "old records folder-ai open pannu"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-efe6f8af703091366e1f",
+      "original_id": "synth_open_archive_folder-hi-Latn-02",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.3624285222337178,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archived files directory dikhao"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-eff9f24d7bf6cf6b71e0",
+      "original_id": "dev_clarify_unresolved-te-Latn",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "item",
+            "reference": "it",
+            "resolved_value": null
+          }
+        ],
+        "execution_path": "clarify",
+        "intent": "clarify_request",
+        "missing_information": [
+          {
+            "description": "The requested target is not identifiable",
+            "name": "target"
+          }
+        ],
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "clarify_request",
+        "execution_path": "clarify",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "adi malli open cheyyi",
+            "kind": "item",
+            "resolved_value": null
+          }
+        ],
+        "missing_information": [
+          {
+            "name": "target",
+            "description": "Required information is unresolved"
+          }
+        ],
+        "confidence": 0.4994132533136467,
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "adi malli open cheyyi"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-f8017db7fb2b0cca511b",
+      "original_id": "synth_open_archive_folder-en-05",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.34591080602759666,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Take me to the archive folder."
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-f9399bada1346bf6b5ec",
+      "original_id": "synth_open_archive_folder-ta-Latn-05",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "research",
+        "execution_path": "multi_step_task",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.27665838479220706,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archive folder-ku kondu po"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-fcc84fb726806f3bc6d2",
+      "original_id": "dev_stable_knowledge-hi",
+      "expected": {
+        "context_references": [],
+        "execution_path": "direct_response",
+        "intent": "respond",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "respond",
+        "execution_path": "direct_response",
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.8694318980194524,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "पत्तों का रंग क्यों बदलता है?"
+          }
+        ]
+      },
+      "exact": true,
+      "error": null
+    }
+  ]
+}

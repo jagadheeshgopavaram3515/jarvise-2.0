@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "dataset": "benchmarks\\jarvis_fast_brain\\replay\\datasets\\smoke.jsonl",
+    "dataset_sha256": "82237b8ebf6392da84226e409727400c29aefae0fc42ad9efc6376ec86ff317a",
+    "system": "fast_brain_qwen",
+    "timestamp_utc": "2026-09-27T01:27:04.874014+00:00",
+    "prompt_version": "base-v1"
+  },
+  "summary": {
+    "cases": 2,
+    "completed": 0,
+    "status_counts": {
+      "NOT_IMPLEMENTED": 2
+    },
+    "latency_ms": {
+      "mean": null,
+      "min": null,
+      "max": null
+    }
+  },
+  "cases": [
+    {
+      "status": "NOT_IMPLEMENTED",
+      "system": "fast_brain_qwen",
+      "case_id": "conversation_001",
+      "input": {
+        "request": "Hello Jarvis",
+        "context": {
+          "recent_turns": [],
+          "memory": [],
+          "project_facts": []
+        }
+      },
+      "expected": {
+        "intent": "conversation",
+        "execution_path": "LOCAL",
+        "request_modes": [
+          "conversational"
+        ],
+        "requires_clarification": false,
+        "requires_escalation": false,
+        "expected_final_behavior": "answer conversationally"
+      },
+      "failure_category": null
+    },
+    {
+      "status": "NOT_IMPLEMENTED",
+      "system": "fast_brain_qwen",
+      "case_id": "clarify_001",
+      "input": {
+        "request": "Open it",
+        "context": {
+          "recent_turns": [],
+          "memory": [],
+          "project_facts": []
+        }
+      },
+      "expected": {
+        "intent": "open_target",
+        "execution_path": "QWEN",
+        "request_modes": [
+          "action"
+        ],
+        "requires_clarification": true,
+        "requires_escalation": false,
+        "expected_final_behavior": "ask for the missing target"
+      },
+      "failure_category": "CLARIFICATION_ERROR"
+    }
+  ]
+}

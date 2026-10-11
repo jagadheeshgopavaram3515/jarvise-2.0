@@ -1,0 +1,47 @@
+{
+  "en": {
+    "denominator": 8,
+    "exact": 5,
+    "capability_top1": 7
+  },
+  "hi-Latn": {
+    "denominator": 3,
+    "exact": 1,
+    "capability_top1": 3
+  },
+  "te": {
+    "denominator": 2,
+    "exact": 1,
+    "capability_top1": 1
+  },
+  "ta-Latn": {
+    "denominator": 3,
+    "exact": 2,
+    "capability_top1": 2
+  },
+  "hi": {
+    "denominator": 2,
+    "exact": 1,
+    "capability_top1": 2
+  },
+  "te-Latn": {
+    "denominator": 3,
+    "exact": 0,
+    "capability_top1": 1
+  },
+  "ta": {
+    "denominator": 1,
+    "exact": 0,
+    "capability_top1": 1
+  },
+  "mixed-en-hi": {
+    "denominator": 1,
+    "exact": 1,
+    "capability_top1": 1
+  },
+  "mixed-en-te": {
+    "denominator": 1,
+    "exact": 1,
+    "capability_top1": 1
+  }
+}

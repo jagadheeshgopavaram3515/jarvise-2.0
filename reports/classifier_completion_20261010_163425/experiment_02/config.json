@@ -1,0 +1,7 @@
+{
+  "C": 4,
+  "weight": "balanced",
+  "style": "interaction",
+  "capability_threshold": 0.5,
+  "artifact_sha256": "cc440914189a692c96fcf6f03b7eeb4e360f54afe425993af70c676ae5af3d14"
+}

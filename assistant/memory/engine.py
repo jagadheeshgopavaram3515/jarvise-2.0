@@ -201,7 +201,11 @@ class MemoryEngine:
             idx.add(summary, {"type": "fact", "importance": 5})
 
         # Profile updates.
-        self.profile.apply_updates(delta.get("profile_updates") or {})
+        profile_updates = dict(delta.get("profile_updates") or {})
+        # Names are updated by explicit user declarations above, never inferred
+        # from summaries containing assistant speech or other people's names.
+        profile_updates.pop("name", None)
+        self.profile.apply_updates(profile_updates)
 
         # Projects.
         for pr in delta.get("projects") or []:

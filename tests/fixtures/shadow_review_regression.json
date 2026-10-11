@@ -1,0 +1,391 @@
+{
+  "A": {
+    "candidate": {
+      "adjudication_status": "not_required",
+      "canonical_label": {
+        "capability_family": "research",
+        "clarification": {
+          "missing": [],
+          "required": false
+        },
+        "context_requirements": [
+          "active_task"
+        ],
+        "escalation": {
+          "candidate": false,
+          "reason": null
+        },
+        "execution_path": "research",
+        "intent_family": "research",
+        "uncertainty": "medium"
+      },
+      "context": {
+        "context_resolvable": false
+      },
+      "disagreement_fields": [],
+      "group_id": "synth_current_release_research",
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      },
+      "original_label": "{\"context_references\": [], \"execution_path\": \"research\", \"intent\": \"research\", \"missing_information\": [], \"needs_clarification\": false, \"needs_escalation\": false, \"request_modes\": [\"research\", \"action\"], \"selected_capability\": \"google_search\"}",
+      "provenance": "historical_synthetic",
+      "record_id": "hist-1aca000b7d468adf",
+      "review_priority": "critical",
+      "review_reasons": [
+        "multilingual_metadata",
+        "context_dependent",
+        "high_risk_capability"
+      ],
+      "review_status": "pending_review",
+      "reviewed_at": null,
+      "reviewed_label": null,
+      "reviewer_decision": null,
+      "reviewer_id": null,
+      "reviewer_notes": "",
+      "text": "latest browser security update choodu"
+    },
+    "request": {
+      "endpoint": "http://localhost:11434/api/generate",
+      "headers": {
+        "Content-type": "application/json",
+        "User-agent": "JARVIS-review"
+      },
+      "timeout": 20.0,
+      "payload": {
+        "model": "qwen2.5-coder:3b",
+        "prompt": "This is a voice-assistant semantic classification task. The utterance is natural language, NOT a contract document. The candidate label is the structured interpretation of what the user wants. Compare MEANING, never compare the literal text with JSON keys. A request can correctly mean research or an application action without mentioning any label field.\n\nYou are an evidence-bound human-review assistant. Do not use outside knowledge. First perform semantic label review: compare the candidate text with the canonical seven-field label and original source metadata. If they are consistent, return AUTO_CONFIDENT or AI_CORRECTION with a COMPLETE proposed_label containing every field of the frozen Fast Brain contract. Never return SOURCE_CONFLICT merely because legacy/current vocabulary, intent/capability abstraction, or uncertainty differs. Interpret natural language, transliterated Hindi/Telugu/Tamil, and code-switched technical terms by meaning; the user text will not literally contain contract field names such as intent_family or execution_path. Do not require those field names in the text. Use SOURCE_CONFLICT only for a concrete contradiction directly evidenced by the original label/provenance, and cite that exact evidence. Use HUMAN_REVIEW when source evidence is missing/incomplete, a legacy mapping is not explicit, or the canonical label is unsupported/escalation. Use only the candidate text, canonical label, original label, and provenance. Return JSON with exactly: mode (AUTO_CONFIDENT|AI_CORRECTION|HUMAN_REVIEW|SOURCE_CONFLICT), proposed_label (full Fast Brain contract object or null), confidence (high|medium|low), rationale (short), source_evidence (array of short strings), human_attention (boolean). For HUMAN_REVIEW or SOURCE_CONFLICT, proposed_label must be null and human_attention true. Never invent missing context or capabilities.\n\nTEXT:\nlatest browser security update choodu\n\nCANONICAL LABEL:\n{\"capability_family\": \"research\", \"clarification\": {\"missing\": [], \"required\": false}, \"context_requirements\": [\"active_task\"], \"escalation\": {\"candidate\": false, \"reason\": null}, \"execution_path\": \"research\", \"intent_family\": \"research\", \"uncertainty\": \"medium\"}\nORIGINAL LABEL:\n{\"context_references\": [], \"execution_path\": \"research\", \"intent\": \"research\", \"missing_information\": [], \"needs_clarification\": false, \"needs_escalation\": false, \"request_modes\": [\"research\", \"action\"], \"selected_capability\": \"google_search\"}\nPROVENANCE:\nhistorical_synthetic\nSOURCE METADATA:\n{}",
+        "stream": false,
+        "keep_alive": "10m",
+        "format": "json",
+        "options": {
+          "temperature": 0.0,
+          "num_predict": 700
+        }
+      },
+      "sha256": "5ad8a97c9c14fecbf6676aac4d15acdbc16b0587507cf7179b49c70189193520",
+      "prompt_sha256": "50821507df17561301956d660ad759fd8c999c71c71019b00d1b08b82a77405e",
+      "source_sha256": "c9f5988df20d2d2d96f839cb486b2b44db274e381f4c0ff40bfb82106f6476c6"
+    },
+    "model_proposal": {
+      "mode": "AUTO_CONFIDENT",
+      "proposed_label": {
+        "capability_family": "research",
+        "clarification": {
+          "missing": [],
+          "required": false
+        },
+        "context_requirements": [
+          "active_task"
+        ],
+        "escalation": {
+          "candidate": false,
+          "reason": null
+        },
+        "execution_path": "research",
+        "intent_family": "research",
+        "uncertainty": "medium"
+      },
+      "confidence": "high",
+      "rationale": "The utterance 'latest browser security update choodu' is a request for information about the latest browser security update, which aligns with the research intent and capability family.",
+      "source_evidence": [],
+      "human_attention": false
+    }
+  },
+  "B": {
+    "candidate": {
+      "adjudication_status": "not_required",
+      "canonical_label": {
+        "capability_family": "research",
+        "clarification": {
+          "missing": [],
+          "required": false
+        },
+        "context_requirements": [
+          "active_task"
+        ],
+        "escalation": {
+          "candidate": false,
+          "reason": null
+        },
+        "execution_path": "research",
+        "intent_family": "research",
+        "uncertainty": "medium"
+      },
+      "context": {
+        "context_resolvable": false
+      },
+      "disagreement_fields": [],
+      "group_id": "controlled-B",
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      },
+      "original_label": "{\"context_references\": [], \"execution_path\": \"research\", \"intent\": \"research\", \"missing_information\": [], \"needs_clarification\": false, \"needs_escalation\": false, \"request_modes\": [\"research\", \"action\"], \"selected_capability\": \"google_search\"}",
+      "provenance": "synthetic",
+      "record_id": "hist-06764774584913b8",
+      "review_priority": "high",
+      "review_reasons": [
+        "context_dependent",
+        "high_risk_capability"
+      ],
+      "review_status": "pending_review",
+      "reviewed_at": null,
+      "reviewed_label": null,
+      "reviewer_decision": null,
+      "reviewer_id": null,
+      "reviewer_notes": "",
+      "text": "Find the latest browser security update and summarize the important changes."
+    },
+    "request": {
+      "endpoint": "http://localhost:11434/api/generate",
+      "headers": {
+        "Content-type": "application/json",
+        "User-agent": "JARVIS-review"
+      },
+      "timeout": 20.0,
+      "payload": {
+        "model": "qwen2.5-coder:3b",
+        "prompt": "This is a voice-assistant semantic classification task. The utterance is natural language, NOT a contract document. The candidate label is the structured interpretation of what the user wants. Compare MEANING, never compare the literal text with JSON keys. A request can correctly mean research or an application action without mentioning any label field.\n\nYou are an evidence-bound human-review assistant. Do not use outside knowledge. First perform semantic label review: compare the candidate text with the canonical seven-field label and original source metadata. If they are consistent, return AUTO_CONFIDENT or AI_CORRECTION with a COMPLETE proposed_label containing every field of the frozen Fast Brain contract. Never return SOURCE_CONFLICT merely because legacy/current vocabulary, intent/capability abstraction, or uncertainty differs. Interpret natural language, transliterated Hindi/Telugu/Tamil, and code-switched technical terms by meaning; the user text will not literally contain contract field names such as intent_family or execution_path. Do not require those field names in the text. Use SOURCE_CONFLICT only for a concrete contradiction directly evidenced by the original label/provenance, and cite that exact evidence. Use HUMAN_REVIEW when source evidence is missing/incomplete, a legacy mapping is not explicit, or the canonical label is unsupported/escalation. Use only the candidate text, canonical label, original label, and provenance. Return JSON with exactly: mode (AUTO_CONFIDENT|AI_CORRECTION|HUMAN_REVIEW|SOURCE_CONFLICT), proposed_label (full Fast Brain contract object or null), confidence (high|medium|low), rationale (short), source_evidence (array of short strings), human_attention (boolean). For HUMAN_REVIEW or SOURCE_CONFLICT, proposed_label must be null and human_attention true. Never invent missing context or capabilities.\n\nTEXT:\nFind the latest browser security update and summarize the important changes.\n\nCANONICAL LABEL:\n{\"capability_family\": \"research\", \"clarification\": {\"missing\": [], \"required\": false}, \"context_requirements\": [\"active_task\"], \"escalation\": {\"candidate\": false, \"reason\": null}, \"execution_path\": \"research\", \"intent_family\": \"research\", \"uncertainty\": \"medium\"}\nORIGINAL LABEL:\n{\"context_references\": [], \"execution_path\": \"research\", \"intent\": \"research\", \"missing_information\": [], \"needs_clarification\": false, \"needs_escalation\": false, \"request_modes\": [\"research\", \"action\"], \"selected_capability\": \"google_search\"}\nPROVENANCE:\nsynthetic\nSOURCE METADATA:\n{}",
+        "stream": false,
+        "keep_alive": "10m",
+        "format": "json",
+        "options": {
+          "temperature": 0.0,
+          "num_predict": 700
+        }
+      },
+      "sha256": "92b61d83ffc4fe37b28f0f58a144e37e99fda68afa9ec3bcde2023fde09c7a34",
+      "prompt_sha256": "590b8edacacf9a4a69fe8edb2673e0e7b5c210cffa40fbd00deb32569be670ca",
+      "source_sha256": "c9f5988df20d2d2d96f839cb486b2b44db274e381f4c0ff40bfb82106f6476c6"
+    },
+    "model_proposal": {
+      "mode": "AUTO_CONFIDENT",
+      "proposed_label": {
+        "capability_family": "research",
+        "clarification": {
+          "missing": [],
+          "required": false
+        },
+        "context_requirements": [
+          "active_task"
+        ],
+        "escalation": {
+          "candidate": false,
+          "reason": null
+        },
+        "execution_path": "research",
+        "intent_family": "research",
+        "uncertainty": "medium"
+      },
+      "confidence": "high",
+      "rationale": "The user is asking for information about the latest browser security update and summarizing important changes. This aligns with the research intent and requires active task context.",
+      "source_evidence": [],
+      "human_attention": false
+    }
+  },
+  "C": {
+    "candidate": {
+      "adjudication_status": "not_required",
+      "canonical_label": {
+        "capability_family": "application",
+        "clarification": {
+          "missing": [],
+          "required": false
+        },
+        "context_requirements": [
+          "active_task"
+        ],
+        "escalation": {
+          "candidate": false,
+          "reason": null
+        },
+        "execution_path": "qwen_agent",
+        "intent_family": "local_task",
+        "uncertainty": "medium"
+      },
+      "context": {
+        "context_resolvable": false
+      },
+      "disagreement_fields": [],
+      "group_id": "controlled-C",
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      },
+      "original_label": "{\"context_references\": [], \"execution_path\": \"qwen_agent\", \"intent\": \"local_task\", \"missing_information\": [], \"needs_clarification\": false, \"needs_escalation\": false, \"request_modes\": [\"action\"], \"selected_capability\": \"open_app\"}",
+      "provenance": "synthetic",
+      "record_id": "hist-af8247eb389b095f",
+      "review_priority": "high",
+      "review_reasons": [
+        "context_dependent"
+      ],
+      "review_status": "pending_review",
+      "reviewed_at": null,
+      "reviewed_label": null,
+      "reviewer_decision": null,
+      "reviewer_id": null,
+      "reviewer_notes": "",
+      "text": "Open Notepad."
+    },
+    "request": {
+      "endpoint": "http://localhost:11434/api/generate",
+      "headers": {
+        "Content-type": "application/json",
+        "User-agent": "JARVIS-review"
+      },
+      "timeout": 20.0,
+      "payload": {
+        "model": "qwen2.5-coder:3b",
+        "prompt": "This is a voice-assistant semantic classification task. The utterance is natural language, NOT a contract document. The candidate label is the structured interpretation of what the user wants. Compare MEANING, never compare the literal text with JSON keys. A request can correctly mean research or an application action without mentioning any label field.\n\nYou are an evidence-bound human-review assistant. Do not use outside knowledge. First perform semantic label review: compare the candidate text with the canonical seven-field label and original source metadata. If they are consistent, return AUTO_CONFIDENT or AI_CORRECTION with a COMPLETE proposed_label containing every field of the frozen Fast Brain contract. Never return SOURCE_CONFLICT merely because legacy/current vocabulary, intent/capability abstraction, or uncertainty differs. Interpret natural language, transliterated Hindi/Telugu/Tamil, and code-switched technical terms by meaning; the user text will not literally contain contract field names such as intent_family or execution_path. Do not require those field names in the text. Use SOURCE_CONFLICT only for a concrete contradiction directly evidenced by the original label/provenance, and cite that exact evidence. Use HUMAN_REVIEW when source evidence is missing/incomplete, a legacy mapping is not explicit, or the canonical label is unsupported/escalation. Use only the candidate text, canonical label, original label, and provenance. Return JSON with exactly: mode (AUTO_CONFIDENT|AI_CORRECTION|HUMAN_REVIEW|SOURCE_CONFLICT), proposed_label (full Fast Brain contract object or null), confidence (high|medium|low), rationale (short), source_evidence (array of short strings), human_attention (boolean). For HUMAN_REVIEW or SOURCE_CONFLICT, proposed_label must be null and human_attention true. Never invent missing context or capabilities.\n\nTEXT:\nOpen Notepad.\n\nCANONICAL LABEL:\n{\"capability_family\": \"application\", \"clarification\": {\"missing\": [], \"required\": false}, \"context_requirements\": [\"active_task\"], \"escalation\": {\"candidate\": false, \"reason\": null}, \"execution_path\": \"qwen_agent\", \"intent_family\": \"local_task\", \"uncertainty\": \"medium\"}\nORIGINAL LABEL:\n{\"context_references\": [], \"execution_path\": \"qwen_agent\", \"intent\": \"local_task\", \"missing_information\": [], \"needs_clarification\": false, \"needs_escalation\": false, \"request_modes\": [\"action\"], \"selected_capability\": \"open_app\"}\nPROVENANCE:\nsynthetic\nSOURCE METADATA:\n{}",
+        "stream": false,
+        "keep_alive": "10m",
+        "format": "json",
+        "options": {
+          "temperature": 0.0,
+          "num_predict": 700
+        }
+      },
+      "sha256": "b65616fcd95249022611ac4cad477d39b2f906e6dcc887d9fdded52ef9409078",
+      "prompt_sha256": "06ede8a042112433efef173c3d20ebe1ac5cace65c0f2699f9769f56a96ef374",
+      "source_sha256": "c9f5988df20d2d2d96f839cb486b2b44db274e381f4c0ff40bfb82106f6476c6"
+    },
+    "model_proposal": {
+      "mode": "AUTO_CONFIDENT",
+      "proposed_label": {
+        "capability_family": "application",
+        "clarification": {
+          "missing": [],
+          "required": false
+        },
+        "context_requirements": [
+          "active_task"
+        ],
+        "escalation": {
+          "candidate": false,
+          "reason": null
+        },
+        "execution_path": "qwen_agent",
+        "intent_family": "local_task",
+        "uncertainty": "medium"
+      },
+      "confidence": "high",
+      "rationale": "The user's request to 'Open Notepad' aligns with the 'local_task' intent family and the 'application' capability family, which is consistent with the canonical label.",
+      "source_evidence": [],
+      "human_attention": false
+    }
+  },
+  "D": {
+    "candidate": {
+      "adjudication_status": "not_required",
+      "canonical_label": {
+        "capability_family": "application",
+        "clarification": {
+          "missing": [
+            "target"
+          ],
+          "required": true
+        },
+        "context_requirements": [
+          "active_task"
+        ],
+        "escalation": {
+          "candidate": false,
+          "reason": null
+        },
+        "execution_path": "clarify",
+        "intent_family": "clarification",
+        "uncertainty": "medium"
+      },
+      "context": {
+        "context_resolvable": false
+      },
+      "disagreement_fields": [],
+      "group_id": "controlled-D",
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      },
+      "original_label": "{\"context_references\": [], \"execution_path\": \"clarify\", \"intent\": \"clarification\", \"missing_information\": [\"target\"], \"needs_clarification\": true, \"needs_escalation\": false, \"request_modes\": [\"action\"], \"selected_capability\": \"open_app\"}",
+      "provenance": "synthetic",
+      "record_id": "hist-4cd2e00342a8f09b",
+      "review_priority": "critical",
+      "review_reasons": [
+        "clarification_or_unsupported_boundary",
+        "context_dependent"
+      ],
+      "review_status": "pending_review",
+      "reviewed_at": null,
+      "reviewed_label": null,
+      "reviewer_decision": null,
+      "reviewer_id": null,
+      "reviewer_notes": "",
+      "text": "Open it."
+    },
+    "request": {
+      "endpoint": "http://localhost:11434/api/generate",
+      "headers": {
+        "Content-type": "application/json",
+        "User-agent": "JARVIS-review"
+      },
+      "timeout": 20.0,
+      "payload": {
+        "model": "qwen2.5-coder:3b",
+        "prompt": "This is a voice-assistant semantic classification task. The utterance is natural language, NOT a contract document. The candidate label is the structured interpretation of what the user wants. Compare MEANING, never compare the literal text with JSON keys. A request can correctly mean research or an application action without mentioning any label field.\n\nYou are an evidence-bound human-review assistant. Do not use outside knowledge. First perform semantic label review: compare the candidate text with the canonical seven-field label and original source metadata. If they are consistent, return AUTO_CONFIDENT or AI_CORRECTION with a COMPLETE proposed_label containing every field of the frozen Fast Brain contract. Never return SOURCE_CONFLICT merely because legacy/current vocabulary, intent/capability abstraction, or uncertainty differs. Interpret natural language, transliterated Hindi/Telugu/Tamil, and code-switched technical terms by meaning; the user text will not literally contain contract field names such as intent_family or execution_path. Do not require those field names in the text. Use SOURCE_CONFLICT only for a concrete contradiction directly evidenced by the original label/provenance, and cite that exact evidence. Use HUMAN_REVIEW when source evidence is missing/incomplete, a legacy mapping is not explicit, or the canonical label is unsupported/escalation. Use only the candidate text, canonical label, original label, and provenance. Return JSON with exactly: mode (AUTO_CONFIDENT|AI_CORRECTION|HUMAN_REVIEW|SOURCE_CONFLICT), proposed_label (full Fast Brain contract object or null), confidence (high|medium|low), rationale (short), source_evidence (array of short strings), human_attention (boolean). For HUMAN_REVIEW or SOURCE_CONFLICT, proposed_label must be null and human_attention true. Never invent missing context or capabilities.\n\nTEXT:\nOpen it.\n\nCANONICAL LABEL:\n{\"capability_family\": \"application\", \"clarification\": {\"missing\": [\"target\"], \"required\": true}, \"context_requirements\": [\"active_task\"], \"escalation\": {\"candidate\": false, \"reason\": null}, \"execution_path\": \"clarify\", \"intent_family\": \"clarification\", \"uncertainty\": \"medium\"}\nORIGINAL LABEL:\n{\"context_references\": [], \"execution_path\": \"clarify\", \"intent\": \"clarification\", \"missing_information\": [\"target\"], \"needs_clarification\": true, \"needs_escalation\": false, \"request_modes\": [\"action\"], \"selected_capability\": \"open_app\"}\nPROVENANCE:\nsynthetic\nSOURCE METADATA:\n{}",
+        "stream": false,
+        "keep_alive": "10m",
+        "format": "json",
+        "options": {
+          "temperature": 0.0,
+          "num_predict": 700
+        }
+      },
+      "sha256": "a88722ff0d3e673cceefbfdbd16ae99b7d2a547e330cf5db717be28ab9b37388",
+      "prompt_sha256": "0bbe473a5c1b5b553fcc8c1effd5ed46cc254c03525551f183c0bc3b74bb7a32",
+      "source_sha256": "c9f5988df20d2d2d96f839cb486b2b44db274e381f4c0ff40bfb82106f6476c6"
+    },
+    "model_proposal": {
+      "mode": "AUTO_CONFIDENT",
+      "proposed_label": {
+        "capability_family": "application",
+        "clarification": {
+          "missing": [
+            "target"
+          ],
+          "required": true
+        },
+        "context_requirements": [
+          "active_task"
+        ],
+        "escalation": {
+          "candidate": false,
+          "reason": null
+        },
+        "execution_path": "clarify",
+        "intent_family": "clarification",
+        "uncertainty": "medium"
+      },
+      "confidence": "high",
+      "rationale": "The utterance 'Open it.' directly corresponds to the 'clarification' intent and requires a target to be specified.",
+      "source_evidence": [
+        "Open it."
+      ],
+      "human_attention": false
+    }
+  },
+  "reported_failure": {
+    "mode": "HUMAN_REVIEW",
+    "proposed_label": null,
+    "confidence": "medium",
+    "rationale": "The text 'latest browser security update choodu' does not contain any information that aligns with the Fast Brain contract fields. It appears to be a general statement about a browser security update, which does not fit the structured format of a contract.",
+    "source_evidence": [
+      "The text does not contain any contract fields."
+    ],
+    "human_attention": true
+  },
+  "evidence": "Captured local baseline and reframing diagnostic responses on 2026-10-10; reconstructed B/C/D candidates, actual historical fixture A. HTTP transport is mocked in regression tests; these are not new inferences."
+}

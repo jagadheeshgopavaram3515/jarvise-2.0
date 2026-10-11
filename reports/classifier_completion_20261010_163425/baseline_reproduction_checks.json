@@ -1,0 +1,14 @@
+{
+  "baseline": {
+    "exact_prediction_reproduction": true,
+    "exact_agreement": 8,
+    "denominator": 40,
+    "serialization_discrepancy": "request_modes list order varies with process hash seed; actual contract is frozenset, so comparison uses sorted modes. No field value or score changed."
+  },
+  "previous_best": {
+    "exact_prediction_reproduction": true,
+    "exact_agreement": 8,
+    "denominator": 40,
+    "serialization_discrepancy": "request_modes list order varies with process hash seed; actual contract is frozenset, so comparison uses sorted modes. No field value or score changed."
+  }
+}

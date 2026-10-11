@@ -5,11 +5,15 @@ All secrets come from environment variables (loaded from a .env file).
 NOTHING sensitive is hard-coded here. See .env.example for the keys.
 """
 import os
+import math
+import logging
 from dataclasses import dataclass, field
 from dotenv import load_dotenv, find_dotenv
 
-# Load the nearest .env walking up the tree (project root or jarvis/ folder).
-load_dotenv(find_dotenv(usecwd=True))
+# Load the nearest .env; existing process environment retains precedence.
+_STT_TIMEOUT_FROM_PROCESS = "HYBRID_STT_TIMEOUT_S" in os.environ
+_DOTENV_PATH = find_dotenv(usecwd=True)
+load_dotenv(_DOTENV_PATH)
 
 
 def _get(key: str, default: str = "") -> str:
@@ -76,6 +80,18 @@ STT_LANG_CACHE_MIN_PROB = float(_get("STT_LANG_CACHE_MIN_PROB", "0.50"))
 # Drop a FINAL that has waited longer than this in the queue (backlog) — better
 # to skip a stale utterance than answer it 25s late.
 STT_MAX_STALE_S = float(_get("STT_MAX_STALE_S", "8.0"))
+# Completed finals waiting for Gemini (the active request is not counted).
+try:
+    STT_FINAL_QUEUE_CAPACITY = max(1, min(16, int(_get("STT_FINAL_QUEUE_CAPACITY", "4"))))
+except (ValueError, OverflowError):
+    STT_FINAL_QUEUE_CAPACITY = 4
+# A finite age is mandatory even if legacy stale filtering is disabled.
+try:
+    STT_FINAL_QUEUE_MAX_AGE_S = float(_get("STT_FINAL_QUEUE_MAX_AGE_S", str(STT_MAX_STALE_S)))
+    if not math.isfinite(STT_FINAL_QUEUE_MAX_AGE_S) or not 0 < STT_FINAL_QUEUE_MAX_AGE_S <= 120:
+        raise ValueError("queue age outside bounded range")
+except (ValueError, OverflowError):
+    STT_FINAL_QUEUE_MAX_AGE_S = 8.0
 # Reject noise hallucinations: drop finals below this language confidence, and
 # unexpected languages unless very confident. User speaks te/hi/en (+ta).
 STT_MIN_LANG_PROB = float(_get("STT_MIN_LANG_PROB", "0.25"))
@@ -91,7 +107,9 @@ STT_LANGUAGE_DETECT_ONLY_ON_FINAL = _get(
 STT_PARTIAL_LANGUAGE = _get("STT_PARTIAL_LANGUAGE", "en")
 STT_WARMUP_SECONDS = float(_get("STT_WARMUP_SECONDS", "0.35"))
 STT_STARTUP_WAIT_SECONDS = float(_get("STT_STARTUP_WAIT_SECONDS", "90"))
-STT_ENABLE_PARTIALS = _get("STT_ENABLE_PARTIALS", "true").lower() == "true"
+# Partial transcription depended on the retired local provider. Gemini only
+# receives completed utterances; final keyword barge-in remains in Dispatcher.
+STT_ENABLE_PARTIALS = False
 STT_PARTIAL_INTERVAL_MS = int(_get("STT_PARTIAL_INTERVAL_MS", "500"))
 STT_PARTIAL_MIN_AUDIO_MS = int(_get("STT_PARTIAL_MIN_AUDIO_MS", "700"))
 STT_PROFILE_WINDOW = int(_get("STT_PROFILE_WINDOW", "10"))
@@ -112,13 +130,27 @@ SEMANTIC_ENDPOINTING = _get("SEMANTIC_ENDPOINTING", "true").lower() == "true"
 SEMANTIC_ENDPOINT_MIN_MS = int(_get("SEMANTIC_ENDPOINT_MIN_MS", "900"))
 SEMANTIC_ENDPOINT_SILENCE_MS = int(_get("SEMANTIC_ENDPOINT_SILENCE_MS", "240"))
 
-# ---------------------------------------------------------------- Hybrid STT (Phase 1)
-# Re-transcribe CONVERSATIONAL finals with Gemini audio for accuracy; commands
-# stay on Whisper; any failure falls back to Whisper. OFF by default — each
-# conversational turn costs one extra Gemini call (mind the rate limits).
-HYBRID_STT = _get("HYBRID_STT", "false").lower() == "true"
+# ---------------------------------------------------------------- Gemini-only STT
+# Retain old exported names for callers, but environment switches cannot enable
+# another provider. Whisper settings above are only used by the offline benchmark.
+STT_PRIMARY = "cloud"
+STT_CLOUD_FALLBACK = False
+HYBRID_STT = True
 HYBRID_STT_MODEL = _get("HYBRID_STT_MODEL", "gemini-2.5-flash-lite")
-HYBRID_STT_TIMEOUT_S = float(_get("HYBRID_STT_TIMEOUT_S", "3.0"))
+HYBRID_STT_TIMEOUT_SOURCE = (
+    "process_environment" if _STT_TIMEOUT_FROM_PROCESS else
+    _DOTENV_PATH if "HYBRID_STT_TIMEOUT_S" in os.environ else "default"
+)
+# Bounded caller wait; the synchronous SDK request may outlive this timeout.
+try:
+    HYBRID_STT_TIMEOUT_S = float(_get("HYBRID_STT_TIMEOUT_S", "15.0"))
+    if not math.isfinite(HYBRID_STT_TIMEOUT_S) or not 0 < HYBRID_STT_TIMEOUT_S <= 120:
+        raise ValueError("timeout outside bounded range")
+except (ValueError, OverflowError):
+    HYBRID_STT_TIMEOUT_S = 15.0
+    HYBRID_STT_TIMEOUT_SOURCE = "invalid_value_default"
+    logging.getLogger("stt.config").warning(
+        "STT_CONFIG category=invalid_timeout key=HYBRID_STT_TIMEOUT_S effective_s=15 range_s=(0,120]")
 
 # ---------------------------------------------------------------- TTS
 # Backend: "edge" (Edge-TTS, default) or "piper" (local, calm British JARVIS).

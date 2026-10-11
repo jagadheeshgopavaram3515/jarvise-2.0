@@ -1,0 +1,28 @@
+{
+  "phase": "D",
+  "status": "observation_only",
+  "model": "qwen2.5-coder:3b",
+  "ollama_endpoint": "http://localhost:11434",
+  "model_metadata_context": 32768,
+  "active_runtime_context": 4096,
+  "active_vram_bytes": 2155169709,
+  "raw_warm_latency_ms": [2598.5, 2448.3, 2390.4],
+  "context_probe": [
+    {"requested": 1024, "prompt_chars": 983, "prompt_tokens": 321, "wall_ms": 16124.2, "status": "success"},
+    {"requested": 2048, "prompt_chars": 1886, "prompt_tokens": 594, "wall_ms": 3374.3, "status": "success"},
+    {"requested": 4096, "prompt_chars": 3735, "prompt_tokens": 1153, "wall_ms": 3923.6, "status": "success"},
+    {"requested": 8192, "prompt_chars": 7390, "prompt_tokens": 2258, "wall_ms": 5439.9, "status": "success"},
+    {"requested": 12288, "prompt_chars": 11088, "prompt_tokens": 3376, "wall_ms": 5597.9, "status": "success"},
+    {"requested": 16384, "prompt_chars": 14743, "prompt_tokens": 2050, "wall_ms": 7474.3, "status": "success"},
+    {"requested": 24576, "prompt_chars": 22096, "prompt_tokens": 2050, "wall_ms": 2458.7, "status": "success"},
+    {"requested": 32768, "prompt_chars": 29406, "prompt_tokens": 2050, "wall_ms": 2606.3, "status": "success"}
+  ],
+  "phase_b_smoke_cases": 2,
+  "phase_b_smoke_clarification_errors": 1,
+  "tool_registry_count": 19,
+  "local_agent_advertised_count": 6,
+  "full_multilingual_benchmark": "INSUFFICIENT_EVIDENCE",
+  "full_recovery_benchmark": "INSUFFICIENT_EVIDENCE",
+  "fast_brain_integrated": false,
+  "lora_trained": false
+}

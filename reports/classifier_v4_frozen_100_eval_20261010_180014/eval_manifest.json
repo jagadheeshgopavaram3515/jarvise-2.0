@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-10-10T12:38:56.898184+00:00",
+  "corpus_file": "unseen_evaluation_corpus_100.jsonl",
+  "corpus_sha256": "206118b07a501d97cabbee92c2ee8dda2b1f4db020ad59ecf64dd4d7fe19c59f",
+  "v4_adapter_sha256": "97bc7c57d1f25b488f1ce901714e2b0880a1dcad8c9aef713de18231eb04e19f",
+  "v4_model_sha256": "6eb693419cdc4a1de54a9ea5f69ef07a41f0eaa1b48b30673a960a04a01f8ace",
+  "summary": {
+    "total": 100,
+    "strict_exact": 45,
+    "strict_exact_pct": 45.0,
+    "capability_top1": 66,
+    "capability_top1_pct": 66.0,
+    "median_latency_ms": 147.57100000133505,
+    "p95_latency_ms": 252.2176449998369
+  }
+}

@@ -1,0 +1,528 @@
+{
+  "frozen_100": {
+    "v5": {
+      "corpus_name": "Frozen 100",
+      "total": 100,
+      "exact": 53,
+      "exact_pct": 53.0,
+      "cap": 77,
+      "cap_pct": 77.0,
+      "contract_valid_pct": 100.0,
+      "per_field_pct": {
+        "intent": 67.0,
+        "execution_path": 82.0,
+        "request_modes": 93.0,
+        "selected_capability": 77.0,
+        "needs_clarification": 93.0,
+        "needs_escalation": 87.0,
+        "missing_information": 93.0,
+        "context_references": 81.0
+      },
+      "clarification_confusion": {
+        "TP": 11,
+        "FP": 2,
+        "TN": 82,
+        "FN": 5
+      },
+      "latency_mean_ms": 141.786899,
+      "latency_p95_ms": 201.516615,
+      "scenario_metrics": {
+        "corpus100-folder": {
+          "total": 12,
+          "exact": 10,
+          "cap": 11
+        },
+        "corpus100-file": {
+          "total": 12,
+          "exact": 6,
+          "cap": 6
+        },
+        "corpus100-app": {
+          "total": 10,
+          "exact": 7,
+          "cap": 8
+        },
+        "corpus100-search": {
+          "total": 12,
+          "exact": 5,
+          "cap": 5
+        },
+        "corpus100-webpage": {
+          "total": 8,
+          "exact": 4,
+          "cap": 8
+        },
+        "corpus100-clarify": {
+          "total": 12,
+          "exact": 1,
+          "cap": 10
+        },
+        "corpus100-memory": {
+          "total": 12,
+          "exact": 11,
+          "cap": 12
+        },
+        "corpus100-direct": {
+          "total": 10,
+          "exact": 7,
+          "cap": 10
+        },
+        "corpus100-multistep": {
+          "total": 6,
+          "exact": 0,
+          "cap": 5
+        },
+        "corpus100-escalate": {
+          "total": 6,
+          "exact": 2,
+          "cap": 2
+        }
+      },
+      "language_metrics": {
+        "en": {
+          "total": 20,
+          "exact": 14,
+          "cap": 18
+        },
+        "hi": {
+          "total": 15,
+          "exact": 7,
+          "cap": 8
+        },
+        "hi-Latn": {
+          "total": 17,
+          "exact": 9,
+          "cap": 14
+        },
+        "te": {
+          "total": 12,
+          "exact": 6,
+          "cap": 8
+        },
+        "te-Latn": {
+          "total": 16,
+          "exact": 9,
+          "cap": 14
+        },
+        "ta": {
+          "total": 5,
+          "exact": 1,
+          "cap": 2
+        },
+        "ta-Latn": {
+          "total": 11,
+          "exact": 6,
+          "cap": 10
+        },
+        "mixed-en-hi": {
+          "total": 2,
+          "exact": 1,
+          "cap": 2
+        },
+        "mixed-en-te": {
+          "total": 1,
+          "exact": 0,
+          "cap": 1
+        },
+        "mixed-en-ta": {
+          "total": 1,
+          "exact": 0,
+          "cap": 0
+        }
+      },
+      "script_metrics": {
+        "latin": {
+          "total": 68,
+          "exact": 39,
+          "cap": 59
+        },
+        "devanagari": {
+          "total": 15,
+          "exact": 7,
+          "cap": 8
+        },
+        "telugu": {
+          "total": 12,
+          "exact": 6,
+          "cap": 8
+        },
+        "tamil": {
+          "total": 5,
+          "exact": 1,
+          "cap": 2
+        }
+      }
+    },
+    "v6": {
+      "corpus_name": "Frozen 100",
+      "total": 100,
+      "exact": 53,
+      "exact_pct": 53.0,
+      "cap": 77,
+      "cap_pct": 77.0,
+      "contract_valid_pct": 100.0,
+      "per_field_pct": {
+        "intent": 67.0,
+        "execution_path": 82.0,
+        "request_modes": 93.0,
+        "selected_capability": 77.0,
+        "needs_clarification": 93.0,
+        "needs_escalation": 87.0,
+        "missing_information": 93.0,
+        "context_references": 81.0
+      },
+      "clarification_confusion": {
+        "TP": 11,
+        "FP": 2,
+        "TN": 82,
+        "FN": 5
+      },
+      "latency_mean_ms": 132.20718299999996,
+      "latency_p95_ms": 185.79063499999998,
+      "scenario_metrics": {
+        "corpus100-folder": {
+          "total": 12,
+          "exact": 10,
+          "cap": 11
+        },
+        "corpus100-file": {
+          "total": 12,
+          "exact": 6,
+          "cap": 6
+        },
+        "corpus100-app": {
+          "total": 10,
+          "exact": 7,
+          "cap": 8
+        },
+        "corpus100-search": {
+          "total": 12,
+          "exact": 5,
+          "cap": 5
+        },
+        "corpus100-webpage": {
+          "total": 8,
+          "exact": 4,
+          "cap": 8
+        },
+        "corpus100-clarify": {
+          "total": 12,
+          "exact": 1,
+          "cap": 10
+        },
+        "corpus100-memory": {
+          "total": 12,
+          "exact": 11,
+          "cap": 12
+        },
+        "corpus100-direct": {
+          "total": 10,
+          "exact": 7,
+          "cap": 10
+        },
+        "corpus100-multistep": {
+          "total": 6,
+          "exact": 0,
+          "cap": 5
+        },
+        "corpus100-escalate": {
+          "total": 6,
+          "exact": 2,
+          "cap": 2
+        }
+      },
+      "language_metrics": {
+        "en": {
+          "total": 20,
+          "exact": 14,
+          "cap": 18
+        },
+        "hi": {
+          "total": 15,
+          "exact": 7,
+          "cap": 8
+        },
+        "hi-Latn": {
+          "total": 17,
+          "exact": 9,
+          "cap": 14
+        },
+        "te": {
+          "total": 12,
+          "exact": 6,
+          "cap": 8
+        },
+        "te-Latn": {
+          "total": 16,
+          "exact": 9,
+          "cap": 14
+        },
+        "ta": {
+          "total": 5,
+          "exact": 1,
+          "cap": 2
+        },
+        "ta-Latn": {
+          "total": 11,
+          "exact": 6,
+          "cap": 10
+        },
+        "mixed-en-hi": {
+          "total": 2,
+          "exact": 1,
+          "cap": 2
+        },
+        "mixed-en-te": {
+          "total": 1,
+          "exact": 0,
+          "cap": 1
+        },
+        "mixed-en-ta": {
+          "total": 1,
+          "exact": 0,
+          "cap": 0
+        }
+      },
+      "script_metrics": {
+        "latin": {
+          "total": 68,
+          "exact": 39,
+          "cap": 59
+        },
+        "devanagari": {
+          "total": 15,
+          "exact": 7,
+          "cap": 8
+        },
+        "telugu": {
+          "total": 12,
+          "exact": 6,
+          "cap": 8
+        },
+        "tamil": {
+          "total": 5,
+          "exact": 1,
+          "cap": 2
+        }
+      }
+    },
+    "comparison": {
+      "fixes": [],
+      "regressions": [],
+      "unchanged": 100
+    }
+  },
+  "independent_24": {
+    "v5": {
+      "corpus_name": "Independent 24",
+      "total": 24,
+      "exact": 13,
+      "exact_pct": 54.166666666666664,
+      "cap": 20,
+      "cap_pct": 83.33333333333334,
+      "contract_valid_pct": 100.0,
+      "per_field_pct": {
+        "intent": 58.333333333333336,
+        "execution_path": 75.0,
+        "request_modes": 91.66666666666666,
+        "selected_capability": 83.33333333333334,
+        "needs_clarification": 79.16666666666666,
+        "needs_escalation": 83.33333333333334,
+        "missing_information": 79.16666666666666,
+        "context_references": 75.0
+      },
+      "clarification_confusion": {
+        "TP": 1,
+        "FP": 2,
+        "TN": 18,
+        "FN": 3
+      },
+      "latency_mean_ms": 113.66835416666667,
+      "latency_p95_ms": 164.71641,
+      "scenario_metrics": {
+        "unknown": {
+          "total": 24,
+          "exact": 13,
+          "cap": 20
+        }
+      },
+      "language_metrics": {
+        "en": {
+          "total": 8,
+          "exact": 6,
+          "cap": 8
+        },
+        "hi-Latn": {
+          "total": 3,
+          "exact": 1,
+          "cap": 3
+        },
+        "te": {
+          "total": 2,
+          "exact": 1,
+          "cap": 1
+        },
+        "ta-Latn": {
+          "total": 3,
+          "exact": 2,
+          "cap": 2
+        },
+        "hi": {
+          "total": 2,
+          "exact": 1,
+          "cap": 2
+        },
+        "te-Latn": {
+          "total": 3,
+          "exact": 0,
+          "cap": 1
+        },
+        "ta": {
+          "total": 1,
+          "exact": 0,
+          "cap": 1
+        },
+        "mixed-en-hi": {
+          "total": 1,
+          "exact": 1,
+          "cap": 1
+        },
+        "mixed-en-te": {
+          "total": 1,
+          "exact": 1,
+          "cap": 1
+        }
+      },
+      "script_metrics": {
+        "latin": {
+          "total": 19,
+          "exact": 11,
+          "cap": 16
+        },
+        "telugu": {
+          "total": 2,
+          "exact": 1,
+          "cap": 1
+        },
+        "devanagari": {
+          "total": 2,
+          "exact": 1,
+          "cap": 2
+        },
+        "tamil": {
+          "total": 1,
+          "exact": 0,
+          "cap": 1
+        }
+      }
+    },
+    "v6": {
+      "corpus_name": "Independent 24",
+      "total": 24,
+      "exact": 13,
+      "exact_pct": 54.166666666666664,
+      "cap": 20,
+      "cap_pct": 83.33333333333334,
+      "contract_valid_pct": 100.0,
+      "per_field_pct": {
+        "intent": 58.333333333333336,
+        "execution_path": 75.0,
+        "request_modes": 91.66666666666666,
+        "selected_capability": 83.33333333333334,
+        "needs_clarification": 79.16666666666666,
+        "needs_escalation": 83.33333333333334,
+        "missing_information": 79.16666666666666,
+        "context_references": 75.0
+      },
+      "clarification_confusion": {
+        "TP": 1,
+        "FP": 2,
+        "TN": 18,
+        "FN": 3
+      },
+      "latency_mean_ms": 111.0922,
+      "latency_p95_ms": 166.593785,
+      "scenario_metrics": {
+        "unknown": {
+          "total": 24,
+          "exact": 13,
+          "cap": 20
+        }
+      },
+      "language_metrics": {
+        "en": {
+          "total": 8,
+          "exact": 6,
+          "cap": 8
+        },
+        "hi-Latn": {
+          "total": 3,
+          "exact": 1,
+          "cap": 3
+        },
+        "te": {
+          "total": 2,
+          "exact": 1,
+          "cap": 1
+        },
+        "ta-Latn": {
+          "total": 3,
+          "exact": 2,
+          "cap": 2
+        },
+        "hi": {
+          "total": 2,
+          "exact": 1,
+          "cap": 2
+        },
+        "te-Latn": {
+          "total": 3,
+          "exact": 0,
+          "cap": 1
+        },
+        "ta": {
+          "total": 1,
+          "exact": 0,
+          "cap": 1
+        },
+        "mixed-en-hi": {
+          "total": 1,
+          "exact": 1,
+          "cap": 1
+        },
+        "mixed-en-te": {
+          "total": 1,
+          "exact": 1,
+          "cap": 1
+        }
+      },
+      "script_metrics": {
+        "latin": {
+          "total": 19,
+          "exact": 11,
+          "cap": 16
+        },
+        "telugu": {
+          "total": 2,
+          "exact": 1,
+          "cap": 1
+        },
+        "devanagari": {
+          "total": 2,
+          "exact": 1,
+          "cap": 2
+        },
+        "tamil": {
+          "total": 1,
+          "exact": 0,
+          "cap": 1
+        }
+      }
+    },
+    "comparison": {
+      "fixes": [],
+      "regressions": [],
+      "unchanged": 24
+    }
+  }
+}

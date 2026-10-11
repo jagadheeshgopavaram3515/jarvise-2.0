@@ -1,0 +1,62 @@
+[
+  {
+    "threshold": 0,
+    "accepted": 38,
+    "denominator": 40,
+    "coverage": 0.95,
+    "accepted_exact": 10,
+    "accepted_correctness": 0.2631578947368421,
+    "full_set_exact": 10,
+    "full_set_denominator": 40
+  },
+  {
+    "threshold": 0.25,
+    "accepted": 38,
+    "denominator": 40,
+    "coverage": 0.95,
+    "accepted_exact": 10,
+    "accepted_correctness": 0.2631578947368421,
+    "full_set_exact": 10,
+    "full_set_denominator": 40
+  },
+  {
+    "threshold": 0.5,
+    "accepted": 20,
+    "denominator": 40,
+    "coverage": 0.5,
+    "accepted_exact": 10,
+    "accepted_correctness": 0.5,
+    "full_set_exact": 11,
+    "full_set_denominator": 40
+  },
+  {
+    "threshold": 0.65,
+    "accepted": 6,
+    "denominator": 40,
+    "coverage": 0.15,
+    "accepted_exact": 6,
+    "accepted_correctness": 1.0,
+    "full_set_exact": 7,
+    "full_set_denominator": 40
+  },
+  {
+    "threshold": 0.8,
+    "accepted": 4,
+    "denominator": 40,
+    "coverage": 0.1,
+    "accepted_exact": 4,
+    "accepted_correctness": 1.0,
+    "full_set_exact": 5,
+    "full_set_denominator": 40
+  },
+  {
+    "threshold": 0.9,
+    "accepted": 0,
+    "denominator": 40,
+    "coverage": 0.0,
+    "accepted_exact": 0,
+    "accepted_correctness": null,
+    "full_set_exact": 1,
+    "full_set_denominator": 40
+  }
+]

@@ -1,0 +1,1212 @@
+[
+  {
+    "id": "unseen-01-en-folder",
+    "utterance": "Open my downloads folder right now",
+    "is_exact": true,
+    "is_cap": true,
+    "predicted": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.5271235991120785,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Open my downloads folder right now"
+        },
+        {
+          "kind": "capability",
+          "reference": "open_folder"
+        }
+      ],
+      "abstained": false
+    },
+    "expected": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "diagnostics": {
+      "capability_scores": [
+        0.8308880496025085,
+        0.5796465396881103,
+        0.6041587591171265
+      ],
+      "postprocessed_path": "single_action"
+    }
+  },
+  {
+    "id": "unseen-02-hi-file",
+    "utterance": "budget presentation file dhoondo",
+    "is_exact": true,
+    "is_cap": true,
+    "predicted": {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.6268122619702925,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "budget presentation file dhoondo"
+        },
+        {
+          "kind": "capability",
+          "reference": "find_file"
+        }
+      ],
+      "abstained": false
+    },
+    "expected": {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "diagnostics": {
+      "capability_scores": [
+        0.717227177619934,
+        0.657305908203125,
+        0.6831057071685791
+      ],
+      "postprocessed_path": "single_action"
+    }
+  },
+  {
+    "id": "unseen-03-te-search",
+    "utterance": "తాజా వాతావరణ వార్తలు గూగుల్ లో వెతుకు",
+    "is_exact": false,
+    "is_cap": false,
+    "predicted": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.2869372102714383,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "తాజా వాతావరణ వార్తలు గూగుల్ లో వెతుకు"
+        },
+        {
+          "kind": "capability",
+          "reference": "open_folder"
+        }
+      ],
+      "abstained": false
+    },
+    "expected": {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "diagnostics": {
+      "capability_scores": [
+        0.7599662780761719,
+        0.8032874703407288,
+        0.8530999660491944
+      ],
+      "postprocessed_path": "single_action"
+    }
+  },
+  {
+    "id": "unseen-04-ta-search",
+    "utterance": "python async programming tutorials search pannu",
+    "is_exact": true,
+    "is_cap": true,
+    "predicted": {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.6724375967847567,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "python async programming tutorials search pannu"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    "expected": {
+      "intent": "use:google_search",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "diagnostics": {
+      "capability_scores": [
+        0.8642817306518554,
+        0.3104211688041687
+      ],
+      "postprocessed_path": "single_action"
+    }
+  },
+  {
+    "id": "unseen-05-en-readpage",
+    "utterance": "Read the documentation at https://fastapi.tiangolo.com/tutorial",
+    "is_exact": true,
+    "is_cap": true,
+    "predicted": {
+      "intent": "use:read_page",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "read_page",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.5502496101285806,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Read the documentation at https://fastapi.tiangolo.com/tutorial"
+        },
+        {
+          "kind": "capability",
+          "reference": "read_page"
+        }
+      ],
+      "abstained": false
+    },
+    "expected": {
+      "intent": "use:read_page",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "read_page",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "diagnostics": {
+      "capability_scores": [
+        0.9043358325958252,
+        0.7515040636062622
+      ],
+      "postprocessed_path": "single_action"
+    }
+  },
+  {
+    "id": "unseen-06-en-readpage-missing",
+    "utterance": "Read the webpage for me please",
+    "is_exact": false,
+    "is_cap": true,
+    "predicted": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "Read the webpage for me please",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.41327095332842934,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Read the webpage for me please"
+        }
+      ],
+      "abstained": false
+    },
+    "expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": []
+    },
+    "diagnostics": {
+      "capability_scores": [
+        0.40263638496398924
+      ],
+      "postprocessed_path": "clarify"
+    }
+  },
+  {
+    "id": "unseen-07-hi-ambiguous",
+    "utterance": "इसे हटा दो",
+    "is_exact": false,
+    "is_cap": true,
+    "predicted": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "conversational",
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.48275510430334195,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "इसे हटा दो"
+        }
+      ],
+      "abstained": false
+    },
+    "expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "diagnostics": {
+      "capability_scores": [
+        0.9410839319229126,
+        0.9335854291915894
+      ],
+      "postprocessed_path": "escalate"
+    }
+  },
+  {
+    "id": "unseen-08-te-ambiguous",
+    "utterance": "danni ventane open cheyyi",
+    "is_exact": false,
+    "is_cap": true,
+    "predicted": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "danni",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.43439636165897966,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "danni ventane open cheyyi"
+        }
+      ],
+      "abstained": false
+    },
+    "expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "diagnostics": {
+      "capability_scores": [
+        0.48937469720840454,
+        0.3580968379974365
+      ],
+      "postprocessed_path": "escalate"
+    }
+  },
+  {
+    "id": "unseen-09-ta-ambiguous",
+    "utterance": "அதை உடனே திற",
+    "is_exact": false,
+    "is_cap": true,
+    "predicted": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.6871095223665858,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "அதை உடனே திற"
+        }
+      ],
+      "abstained": false
+    },
+    "expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "diagnostics": {
+      "capability_scores": [
+        0.8271540641784668,
+        0.8065282344818115
+      ],
+      "postprocessed_path": "escalate"
+    }
+  },
+  {
+    "id": "unseen-10-en-memory-alias",
+    "utterance": "Do you remember our Chimera project?",
+    "is_exact": true,
+    "is_cap": true,
+    "predicted": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "our Chimera project",
+          "kind": "project",
+          "resolved_value": "Stealth Drone"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.5845147867788204,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Do you remember our Chimera project?"
+        }
+      ],
+      "abstained": false
+    },
+    "expected": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": [
+        {
+          "kind": "project",
+          "reference": "our Chimera project",
+          "resolved_value": "Stealth Drone"
+        }
+      ]
+    },
+    "diagnostics": {
+      "capability_scores": [
+        0.5748165845870972
+      ],
+      "postprocessed_path": "memory_recall"
+    }
+  },
+  {
+    "id": "unseen-11-hi-codeswitch-memory",
+    "utterance": "Postgres migration ke baare mein humne kya finalize kiya tha?",
+    "is_exact": true,
+    "is_cap": true,
+    "predicted": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "Postgres migration",
+          "kind": "prior_conversation",
+          "resolved_value": "schedule migration on Saturday midnight"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.6560953157811856,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Postgres migration ke baare mein humne kya finalize kiya tha?"
+        }
+      ],
+      "abstained": false
+    },
+    "expected": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": [
+        {
+          "kind": "prior_conversation",
+          "reference": "Postgres migration",
+          "resolved_value": "schedule migration on Saturday midnight"
+        }
+      ]
+    },
+    "diagnostics": {
+      "postprocessed_path": "memory_recall"
+    }
+  },
+  {
+    "id": "unseen-12-te-codeswitch-memory",
+    "utterance": "Auth service gurinchi mana decision enti?",
+    "is_exact": true,
+    "is_cap": true,
+    "predicted": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "Auth service",
+          "kind": "prior_conversation",
+          "resolved_value": "use JWT with short expiry"
+        }
+      ],
+      "missing_information": [],
+      "confidence": 0.7793501514175399,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Auth service gurinchi mana decision enti?"
+        }
+      ],
+      "abstained": false
+    },
+    "expected": {
+      "intent": "recall",
+      "execution_path": "memory_recall",
+      "request_modes": [
+        "memory"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": [
+        {
+          "kind": "prior_conversation",
+          "reference": "Auth service",
+          "resolved_value": "use JWT with short expiry"
+        }
+      ]
+    },
+    "diagnostics": {
+      "postprocessed_path": "memory_recall"
+    }
+  },
+  {
+    "id": "unseen-13-en-direct",
+    "utterance": "What is the capital city of Australia?",
+    "is_exact": true,
+    "is_cap": true,
+    "predicted": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.499228841507824,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "What is the capital city of Australia?"
+        }
+      ],
+      "abstained": false
+    },
+    "expected": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "diagnostics": {
+      "capability_scores": [
+        0.6188328266143799
+      ],
+      "postprocessed_path": "direct_response"
+    }
+  },
+  {
+    "id": "unseen-14-te-direct",
+    "utterance": "సూర్యుడు ఏ దిక్కున ఉదయిస్తాడు?",
+    "is_exact": true,
+    "is_cap": true,
+    "predicted": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.7456210015256223,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "సూర్యుడు ఏ దిక్కున ఉదయిస్తాడు?"
+        }
+      ],
+      "abstained": false
+    },
+    "expected": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "diagnostics": {
+      "postprocessed_path": "direct_response"
+    }
+  },
+  {
+    "id": "unseen-15-hi-direct",
+    "utterance": "प्रकाश की गति कितनी होती है?",
+    "is_exact": true,
+    "is_cap": true,
+    "predicted": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.8368432734556023,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "प्रकाश की गति कितनी होती है?"
+        }
+      ],
+      "abstained": false
+    },
+    "expected": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "diagnostics": {
+      "postprocessed_path": "direct_response"
+    }
+  },
+  {
+    "id": "unseen-16-en-multistep",
+    "utterance": "Guide me step by step through deploying a docker container",
+    "is_exact": false,
+    "is_cap": true,
+    "predicted": {
+      "intent": "research",
+      "execution_path": "multi_step_task",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.3892565402167454,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Guide me step by step through deploying a docker container"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    "expected": {
+      "intent": "use:google_search",
+      "execution_path": "multi_step_task",
+      "request_modes": [
+        "action",
+        "research"
+      ],
+      "selected_capability": "google_search",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "diagnostics": {
+      "capability_scores": [
+        0.776329755783081
+      ],
+      "postprocessed_path": "multi_step_task"
+    }
+  },
+  {
+    "id": "unseen-17-hi-multistep",
+    "utterance": "react app create karne ke steps guide karo",
+    "is_exact": false,
+    "is_cap": true,
+    "predicted": {
+      "intent": "research",
+      "execution_path": "multi_step_task",
+      "request_modes": [
+        "research",
+        "action"
+      ],
+      "selected_capability": "google_search",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.6467050054188561,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "react app create karne ke steps guide karo"
+        },
+        {
+          "kind": "capability",
+          "reference": "google_search"
+        }
+      ],
+      "abstained": false
+    },
+    "expected": {
+      "intent": "use:google_search",
+      "execution_path": "multi_step_task",
+      "request_modes": [
+        "action",
+        "research"
+      ],
+      "selected_capability": "google_search",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "diagnostics": {
+      "capability_scores": [
+        0.7757785320281982
+      ],
+      "postprocessed_path": "multi_step_task"
+    }
+  },
+  {
+    "id": "unseen-18-en-escalate",
+    "utterance": "Order a pepperoni pizza from Dominoes to my address",
+    "is_exact": true,
+    "is_cap": true,
+    "predicted": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.6154299530702744,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Order a pepperoni pizza from Dominoes to my address"
+        }
+      ],
+      "abstained": false
+    },
+    "expected": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "missing_information": [],
+      "context_references": []
+    },
+    "diagnostics": {
+      "capability_scores": [
+        0.5822939872741699,
+        0.5862506628036499
+      ],
+      "postprocessed_path": "escalate"
+    }
+  },
+  {
+    "id": "unseen-19-te-closeapp",
+    "utterance": "WhatsApp application close cheyyi",
+    "is_exact": false,
+    "is_cap": false,
+    "predicted": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.32320414979407924,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "WhatsApp application close cheyyi"
+        },
+        {
+          "kind": "capability",
+          "reference": "open_folder"
+        }
+      ],
+      "abstained": false
+    },
+    "expected": {
+      "intent": "use:close_app",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "close_app",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "diagnostics": {
+      "capability_scores": [
+        0.7481734919548034,
+        0.7582592368125916
+      ],
+      "postprocessed_path": "single_action"
+    }
+  },
+  {
+    "id": "unseen-20-ta-openapp",
+    "utterance": "VS Code application open pannu",
+    "is_exact": false,
+    "is_cap": false,
+    "predicted": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "VS Code application open pannu",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.4033600146426471,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "VS Code application open pannu"
+        }
+      ],
+      "abstained": false
+    },
+    "expected": {
+      "intent": "use:open_app",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_app",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "diagnostics": {
+      "capability_scores": [
+        0.7365684676170349,
+        0.6585533189773559
+      ],
+      "postprocessed_path": "clarify"
+    }
+  },
+  {
+    "id": "unseen-21-ta-folder",
+    "utterance": "screenshots directory open pannu",
+    "is_exact": true,
+    "is_cap": true,
+    "predicted": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.6266403614057878,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "screenshots directory open pannu"
+        },
+        {
+          "kind": "capability",
+          "reference": "open_folder"
+        }
+      ],
+      "abstained": false
+    },
+    "expected": {
+      "intent": "use:open_folder",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "open_folder",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "diagnostics": {
+      "capability_scores": [
+        0.8140580224990844,
+        0.6789748668670654
+      ],
+      "postprocessed_path": "single_action"
+    }
+  },
+  {
+    "id": "unseen-22-te-file",
+    "utterance": "october invoice pdf document vetuku",
+    "is_exact": false,
+    "is_cap": false,
+    "predicted": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.351459048301783,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "october invoice pdf document vetuku"
+        }
+      ],
+      "abstained": false
+    },
+    "expected": {
+      "intent": "use:find_file",
+      "execution_path": "single_action",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": "find_file",
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "diagnostics": {
+      "capability_scores": [
+        0.6032077240943908,
+        0.5409477472305297
+      ],
+      "postprocessed_path": "escalate"
+    }
+  },
+  {
+    "id": "unseen-23-hi-greeting",
+    "utterance": "Namaste JARVIS, aap kaise ho?",
+    "is_exact": false,
+    "is_cap": true,
+    "predicted": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "context_references": [
+        {
+          "reference": "Namaste JARVIS, aap kaise ho?",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ],
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "confidence": 0.4282909542867105,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Namaste JARVIS, aap kaise ho?"
+        }
+      ],
+      "abstained": false
+    },
+    "expected": {
+      "intent": "respond",
+      "execution_path": "direct_response",
+      "request_modes": [
+        "conversational"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": false,
+      "missing_information": [],
+      "context_references": []
+    },
+    "diagnostics": {
+      "postprocessed_path": "clarify"
+    }
+  },
+  {
+    "id": "unseen-24-en-hardware",
+    "utterance": "Turn on the living room ceiling fan",
+    "is_exact": true,
+    "is_cap": true,
+    "predicted": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "context_references": [],
+      "missing_information": [],
+      "confidence": 0.6925057641584744,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "evidence": [
+        {
+          "kind": "input_span",
+          "reference": "Turn on the living room ceiling fan"
+        }
+      ],
+      "abstained": false
+    },
+    "expected": {
+      "intent": "unsupported_request",
+      "execution_path": "escalate",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": false,
+      "needs_escalation": true,
+      "missing_information": [],
+      "context_references": []
+    },
+    "diagnostics": {
+      "capability_scores": [
+        0.6825044751167297
+      ],
+      "postprocessed_path": "escalate"
+    }
+  }
+]

@@ -1,0 +1,3107 @@
+{
+  "metric_type": "PROVISIONAL_LABEL_AGREEMENT",
+  "exact_agreement": 4,
+  "denominator": 40,
+  "fields": {
+    "intent": 13,
+    "execution_path": 13,
+    "request_modes": 32,
+    "selected_capability": 16,
+    "context_references": 29,
+    "missing_information": 36,
+    "needs_clarification": 38,
+    "needs_escalation": 13
+  },
+  "raw_heads": {
+    "execution_path": {
+      "agreement": 37,
+      "denominator": 40,
+      "classes": [
+        "clarify",
+        "direct_response",
+        "escalate",
+        "memory_recall",
+        "multi_step_task",
+        "research",
+        "single_action"
+      ],
+      "report": {
+        "clarify": {
+          "precision": 0.6666666666666666,
+          "recall": 1.0,
+          "f1-score": 0.8,
+          "support": 4.0
+        },
+        "direct_response": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1-score": 0.8888888888888888,
+          "support": 4.0
+        },
+        "escalate": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "memory_recall": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 7.0
+        },
+        "multi_step_task": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "research": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "single_action": {
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1-score": 0.9473684210526315,
+          "support": 20.0
+        },
+        "accuracy": 0.925,
+        "macro avg": {
+          "precision": 0.6380952380952382,
+          "recall": 0.7000000000000001,
+          "f1-score": 0.6623224728487888,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.9216666666666666,
+          "recall": 0.925,
+          "f1-score": 0.9175730994152047,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          7,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          18
+        ]
+      ]
+    },
+    "needs_clarification": {
+      "agreement": 37,
+      "denominator": 40,
+      "classes": [
+        "0",
+        "1"
+      ],
+      "report": {
+        "0": {
+          "precision": 0.9230769230769231,
+          "recall": 1.0,
+          "f1-score": 0.96,
+          "support": 36.0
+        },
+        "1": {
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1-score": 0.4,
+          "support": 4.0
+        },
+        "accuracy": 0.925,
+        "macro avg": {
+          "precision": 0.9615384615384616,
+          "recall": 0.625,
+          "f1-score": 0.6799999999999999,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.9307692307692308,
+          "recall": 0.925,
+          "f1-score": 0.9040000000000001,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          36,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ]
+    },
+    "needs_escalation": {
+      "agreement": 39,
+      "denominator": 40,
+      "classes": [
+        "0",
+        "1"
+      ],
+      "report": {
+        "0": {
+          "precision": 0.975,
+          "recall": 1.0,
+          "f1-score": 0.9873417721518988,
+          "support": 39.0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "accuracy": 0.975,
+        "macro avg": {
+          "precision": 0.4875,
+          "recall": 0.5,
+          "f1-score": 0.4936708860759494,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.9506249999999999,
+          "recall": 0.975,
+          "f1-score": 0.9626582278481013,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          39,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "missing_information": {
+      "agreement": 38,
+      "denominator": 40,
+      "classes": [
+        "__none__",
+        "prior_request",
+        "target"
+      ],
+      "report": {
+        "__none__": {
+          "precision": 0.9473684210526315,
+          "recall": 1.0,
+          "f1-score": 0.972972972972973,
+          "support": 36.0
+        },
+        "prior_request": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "target": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1-score": 0.6666666666666666,
+          "support": 4.0
+        },
+        "accuracy": 0.95,
+        "macro avg": {
+          "precision": 0.6491228070175438,
+          "recall": 0.5,
+          "f1-score": 0.5465465465465466,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.9526315789473683,
+          "recall": 0.95,
+          "f1-score": 0.9423423423423424,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          36,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          2
+        ]
+      ]
+    },
+    "reference_kind": {
+      "agreement": 35,
+      "denominator": 40,
+      "classes": [
+        "__none__",
+        "folder",
+        "item",
+        "prior_conversation",
+        "prior_request",
+        "project",
+        "search_result"
+      ],
+      "report": {
+        "__none__": {
+          "precision": 0.8787878787878788,
+          "recall": 1.0,
+          "f1-score": 0.9354838709677419,
+          "support": 29.0
+        },
+        "folder": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "item": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1-score": 0.6666666666666666,
+          "support": 4.0
+        },
+        "prior_conversation": {
+          "precision": 0.8,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.7272727272727273,
+          "support": 6.0
+        },
+        "prior_request": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "project": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "search_result": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "accuracy": 0.875,
+        "macro avg": {
+          "precision": 0.3826839826839827,
+          "recall": 0.3095238095238095,
+          "f1-score": 0.3327747521295908,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.8571212121212121,
+          "recall": 0.875,
+          "f1-score": 0.8539833822091886,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          29,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "reference_resolved": {
+      "agreement": 36,
+      "denominator": 40,
+      "classes": [
+        "0",
+        "1"
+      ],
+      "report": {
+        "0": {
+          "precision": 0.8918918918918919,
+          "recall": 1.0,
+          "f1-score": 0.9428571428571428,
+          "support": 33.0
+        },
+        "1": {
+          "precision": 1.0,
+          "recall": 0.42857142857142855,
+          "f1-score": 0.6,
+          "support": 7.0
+        },
+        "accuracy": 0.9,
+        "macro avg": {
+          "precision": 0.9459459459459459,
+          "recall": 0.7142857142857143,
+          "f1-score": 0.7714285714285714,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.9108108108108108,
+          "recall": 0.9,
+          "f1-score": 0.8828571428571429,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          33,
+          0
+        ],
+        [
+          4,
+          3
+        ]
+      ]
+    },
+    "mode:conversational": {
+      "agreement": 39,
+      "denominator": 40,
+      "classes": [
+        "0",
+        "1"
+      ],
+      "report": {
+        "0": {
+          "precision": 0.9722222222222222,
+          "recall": 1.0,
+          "f1-score": 0.9859154929577465,
+          "support": 35.0
+        },
+        "1": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1-score": 0.8888888888888888,
+          "support": 5.0
+        },
+        "accuracy": 0.975,
+        "macro avg": {
+          "precision": 0.9861111111111112,
+          "recall": 0.9,
+          "f1-score": 0.9374021909233177,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.9756944444444444,
+          "recall": 0.975,
+          "f1-score": 0.9737871674491393,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          35,
+          0
+        ],
+        [
+          1,
+          4
+        ]
+      ]
+    },
+    "mode:memory": {
+      "agreement": 34,
+      "denominator": 40,
+      "classes": [
+        "0",
+        "1"
+      ],
+      "report": {
+        "0": {
+          "precision": 0.8461538461538461,
+          "recall": 1.0,
+          "f1-score": 0.9166666666666666,
+          "support": 33.0
+        },
+        "1": {
+          "precision": 1.0,
+          "recall": 0.14285714285714285,
+          "f1-score": 0.25,
+          "support": 7.0
+        },
+        "accuracy": 0.85,
+        "macro avg": {
+          "precision": 0.9230769230769231,
+          "recall": 0.5714285714285714,
+          "f1-score": 0.5833333333333333,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.873076923076923,
+          "recall": 0.85,
+          "f1-score": 0.8,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          33,
+          0
+        ],
+        [
+          6,
+          1
+        ]
+      ]
+    },
+    "mode:research": {
+      "agreement": 38,
+      "denominator": 40,
+      "classes": [
+        "0",
+        "1"
+      ],
+      "report": {
+        "0": {
+          "precision": 0.9473684210526315,
+          "recall": 1.0,
+          "f1-score": 0.972972972972973,
+          "support": 36.0
+        },
+        "1": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1-score": 0.6666666666666666,
+          "support": 4.0
+        },
+        "accuracy": 0.95,
+        "macro avg": {
+          "precision": 0.9736842105263157,
+          "recall": 0.75,
+          "f1-score": 0.8198198198198199,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.9526315789473683,
+          "recall": 0.95,
+          "f1-score": 0.9423423423423424,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          36,
+          0
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    "mode:action": {
+      "agreement": 37,
+      "denominator": 40,
+      "classes": [
+        "0",
+        "1"
+      ],
+      "report": {
+        "0": {
+          "precision": 0.9,
+          "recall": 0.8181818181818182,
+          "f1-score": 0.8571428571428571,
+          "support": 11.0
+        },
+        "1": {
+          "precision": 0.9333333333333333,
+          "recall": 0.9655172413793104,
+          "f1-score": 0.9491525423728814,
+          "support": 29.0
+        },
+        "accuracy": 0.925,
+        "macro avg": {
+          "precision": 0.9166666666666667,
+          "recall": 0.8918495297805643,
+          "f1-score": 0.9031476997578692,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.9241666666666667,
+          "recall": 0.925,
+          "f1-score": 0.9238498789346247,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          9,
+          2
+        ],
+        [
+          1,
+          28
+        ]
+      ]
+    },
+    "capability_matcher": {
+      "agreement": 53,
+      "denominator": 77,
+      "classes": [
+        "0",
+        "1"
+      ],
+      "report": {
+        "0": {
+          "precision": 0.6883116883116883,
+          "recall": 1.0,
+          "f1-score": 0.8153846153846154,
+          "support": 53.0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 24.0
+        },
+        "accuracy": 0.6883116883116883,
+        "macro avg": {
+          "precision": 0.34415584415584416,
+          "recall": 0.5,
+          "f1-score": 0.4076923076923077,
+          "support": 77.0
+        },
+        "weighted avg": {
+          "precision": 0.4737729802664868,
+          "recall": 0.6883116883116883,
+          "f1-score": 0.5612387612387613,
+          "support": 77.0
+        }
+      },
+      "confusion": [
+        [
+          53,
+          0
+        ],
+        [
+          24,
+          0
+        ]
+      ]
+    },
+    "reference_span": {
+      "agreement": 0,
+      "denominator": 11,
+      "classes": [
+        "Kal architecture ke baare mein",
+        "__none__",
+        "__utterance__",
+        "it",
+        "my notes folder",
+        "our hologram project",
+        "prior discussion",
+        "the database migration last week",
+        "the second one"
+      ],
+      "report": {
+        "Kal architecture ke baare mein": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "__none__": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "__utterance__": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "it": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 4.0
+        },
+        "my notes folder": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "our hologram project": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "prior discussion": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 4.0
+        },
+        "the database migration last week": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "the second one": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "accuracy": 0.0,
+        "macro avg": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 11.0
+        },
+        "weighted avg": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 11.0
+        }
+      },
+      "confusion": [
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "missing_description": {
+      "agreement": 0,
+      "denominator": 4,
+      "classes": [
+        "Required information is not available in the supplied request or context",
+        "The requested target is not identifiable"
+      ],
+      "report": {
+        "Required information is not available in the supplied request or context": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "The requested target is not identifiable": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 4.0
+        },
+        "accuracy": 0.0,
+        "macro avg": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 4.0
+        },
+        "weighted avg": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 4.0
+        }
+      },
+      "confusion": [
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ]
+    }
+  },
+  "output_metrics": {
+    "intent": {
+      "agreement": 13,
+      "denominator": 40,
+      "classes": [
+        "\"clarify_request\"",
+        "\"recall\"",
+        "\"research\"",
+        "\"respond\"",
+        "\"unsupported_request\"",
+        "\"use:open_folder\""
+      ],
+      "report": {
+        "\"clarify_request\"": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1-score": 0.6666666666666666,
+          "support": 4.0
+        },
+        "\"recall\"": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 7.0
+        },
+        "\"research\"": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 4.0
+        },
+        "\"respond\"": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1-score": 0.8888888888888888,
+          "support": 4.0
+        },
+        "\"unsupported_request\"": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "\"use:open_folder\"": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 20.0
+        },
+        "accuracy": 0.325,
+        "macro avg": {
+          "precision": 0.4666666666666666,
+          "recall": 0.4166666666666667,
+          "f1-score": 0.4259259259259259,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.355,
+          "recall": 0.325,
+          "f1-score": 0.33055555555555555,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          2,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          7,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          20,
+          0
+        ]
+      ]
+    },
+    "execution_path": {
+      "agreement": 13,
+      "denominator": 40,
+      "classes": [
+        "\"clarify\"",
+        "\"direct_response\"",
+        "\"escalate\"",
+        "\"memory_recall\"",
+        "\"multi_step_task\"",
+        "\"single_action\""
+      ],
+      "report": {
+        "\"clarify\"": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1-score": 0.6666666666666666,
+          "support": 4.0
+        },
+        "\"direct_response\"": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1-score": 0.8888888888888888,
+          "support": 4.0
+        },
+        "\"escalate\"": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "\"memory_recall\"": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 7.0
+        },
+        "\"multi_step_task\"": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 4.0
+        },
+        "\"single_action\"": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 20.0
+        },
+        "accuracy": 0.325,
+        "macro avg": {
+          "precision": 0.4666666666666666,
+          "recall": 0.4166666666666667,
+          "f1-score": 0.4259259259259259,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.355,
+          "recall": 0.325,
+          "f1-score": 0.33055555555555555,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          2,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          7,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "request_modes": {
+      "agreement": 32,
+      "denominator": 40,
+      "classes": [
+        "[\"action\"]",
+        "[\"conversational\"]",
+        "[\"memory\", \"conversational\"]",
+        "[\"memory\"]",
+        "[\"research\", \"action\"]"
+      ],
+      "report": {
+        "[\"action\"]": {
+          "precision": 0.8,
+          "recall": 0.96,
+          "f1-score": 0.8727272727272727,
+          "support": 25.0
+        },
+        "[\"conversational\"]": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1-score": 0.8888888888888888,
+          "support": 4.0
+        },
+        "[\"memory\", \"conversational\"]": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "[\"memory\"]": {
+          "precision": 0.8,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.7272727272727273,
+          "support": 6.0
+        },
+        "[\"research\", \"action\"]": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 4.0
+        },
+        "accuracy": 0.8,
+        "macro avg": {
+          "precision": 0.4800000000000001,
+          "recall": 0.5253333333333333,
+          "f1-score": 0.49777777777777776,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.7,
+          "recall": 0.8,
+          "f1-score": 0.7434343434343433,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          24,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "selected_capability": {
+      "agreement": 16,
+      "denominator": 40,
+      "classes": [
+        "\"google_search\"",
+        "\"open_folder\"",
+        "null"
+      ],
+      "report": {
+        "\"google_search\"": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 4.0
+        },
+        "\"open_folder\"": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 20.0
+        },
+        "null": {
+          "precision": 0.4,
+          "recall": 1.0,
+          "f1-score": 0.5714285714285714,
+          "support": 16.0
+        },
+        "accuracy": 0.4,
+        "macro avg": {
+          "precision": 0.13333333333333333,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.19047619047619047,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.16,
+          "recall": 0.4,
+          "f1-score": 0.22857142857142856,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          20
+        ],
+        [
+          0,
+          0,
+          16
+        ]
+      ]
+    },
+    "needs_clarification": {
+      "agreement": 38,
+      "denominator": 40,
+      "classes": [
+        "false",
+        "true"
+      ],
+      "report": {
+        "false": {
+          "precision": 0.9473684210526315,
+          "recall": 1.0,
+          "f1-score": 0.972972972972973,
+          "support": 36.0
+        },
+        "true": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1-score": 0.6666666666666666,
+          "support": 4.0
+        },
+        "accuracy": 0.95,
+        "macro avg": {
+          "precision": 0.9736842105263157,
+          "recall": 0.75,
+          "f1-score": 0.8198198198198199,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.9526315789473683,
+          "recall": 0.95,
+          "f1-score": 0.9423423423423424,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          36,
+          0
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    "needs_escalation": {
+      "agreement": 13,
+      "denominator": 40,
+      "classes": [
+        "false",
+        "true"
+      ],
+      "report": {
+        "false": {
+          "precision": 0.9285714285714286,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.49056603773584906,
+          "support": 39.0
+        },
+        "true": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "accuracy": 0.325,
+        "macro avg": {
+          "precision": 0.4642857142857143,
+          "recall": 0.16666666666666666,
+          "f1-score": 0.24528301886792453,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.9053571428571429,
+          "recall": 0.325,
+          "f1-score": 0.4783018867924528,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          13,
+          26
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    }
+  },
+  "languages": {
+    "en": {
+      "exact_agreement": 1,
+      "denominator": 12,
+      "scenario_groups": 7,
+      "class_support": {
+        "single_action": 5,
+        "multi_step_task": 1,
+        "memory_recall": 3,
+        "escalate": 1,
+        "clarify": 1,
+        "direct_response": 1
+      },
+      "scripts": {
+        "latin": 12
+      },
+      "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+    },
+    "hi": {
+      "exact_agreement": 1,
+      "denominator": 1,
+      "scenario_groups": 1,
+      "class_support": {
+        "direct_response": 1
+      },
+      "scripts": {
+        "devanagari": 1
+      },
+      "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+    },
+    "hi-Latn": {
+      "exact_agreement": 0,
+      "denominator": 7,
+      "scenario_groups": 3,
+      "class_support": {
+        "memory_recall": 1,
+        "clarify": 1,
+        "single_action": 5
+      },
+      "scripts": {
+        "latin": 7
+      },
+      "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+    },
+    "mixed-en-hi": {
+      "exact_agreement": 0,
+      "denominator": 2,
+      "scenario_groups": 2,
+      "class_support": {
+        "multi_step_task": 1,
+        "memory_recall": 1
+      },
+      "scripts": {
+        "latin": 2
+      },
+      "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+    },
+    "mixed-en-ta": {
+      "exact_agreement": 0,
+      "denominator": 1,
+      "scenario_groups": 1,
+      "class_support": {
+        "multi_step_task": 1
+      },
+      "scripts": {
+        "latin": 1
+      },
+      "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+    },
+    "mixed-en-te": {
+      "exact_agreement": 0,
+      "denominator": 1,
+      "scenario_groups": 1,
+      "class_support": {
+        "multi_step_task": 1
+      },
+      "scripts": {
+        "latin": 1
+      },
+      "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+    },
+    "ta": {
+      "exact_agreement": 1,
+      "denominator": 1,
+      "scenario_groups": 1,
+      "class_support": {
+        "direct_response": 1
+      },
+      "scripts": {
+        "tamil": 1
+      },
+      "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+    },
+    "ta-Latn": {
+      "exact_agreement": 0,
+      "denominator": 7,
+      "scenario_groups": 3,
+      "class_support": {
+        "single_action": 5,
+        "clarify": 1,
+        "memory_recall": 1
+      },
+      "scripts": {
+        "latin": 7
+      },
+      "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+    },
+    "te": {
+      "exact_agreement": 1,
+      "denominator": 1,
+      "scenario_groups": 1,
+      "class_support": {
+        "direct_response": 1
+      },
+      "scripts": {
+        "telugu": 1
+      },
+      "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+    },
+    "te-Latn": {
+      "exact_agreement": 0,
+      "denominator": 7,
+      "scenario_groups": 3,
+      "class_support": {
+        "single_action": 5,
+        "memory_recall": 1,
+        "clarify": 1
+      },
+      "scripts": {
+        "latin": 7
+      },
+      "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+    }
+  },
+  "inference_failures": 0,
+  "abstentions": 26,
+  "cached_latency_ms": {
+    "median": 2.669250001417822,
+    "p95": 3.675839998868468
+  },
+  "predictions": [
+    {
+      "record_id": "compact-candidate-049de405e17f502f0a1d",
+      "original_id": "synth_open_archive_folder-en-01",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.0,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [],
+        "abstained": true,
+        "abstention_reason": "missing_information_head_has_no_supported_name"
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-0b607b069fce05db80b3",
+      "original_id": "synth_open_archive_folder-te-Latn-01",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.0,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [],
+        "abstained": true,
+        "abstention_reason": "missing_information_head_has_no_supported_name"
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-12497cce3ae1e67f9fe3",
+      "original_id": "dev_memory_project-te-Latn",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "prior_conversation",
+            "reference": "prior discussion",
+            "resolved_value": "use a local cache"
+          }
+        ],
+        "execution_path": "memory_recall",
+        "intent": "recall",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "recall",
+        "execution_path": "memory_recall",
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.3075573671419227,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Orion project ki em choose chesamo gurthu cheyyi"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-174249e9e30faa16489a",
+      "original_id": "dev_stable_knowledge-te",
+      "expected": {
+        "context_references": [],
+        "execution_path": "direct_response",
+        "intent": "respond",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "respond",
+        "execution_path": "direct_response",
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.7613764403775554,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "ఆకుల రంగు ఎందుకు మారుతుంది?"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": true,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-2d29d7e553b74ad50b31",
+      "original_id": "synth_open_archive_folder-en-03",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.0,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [],
+        "abstained": true,
+        "abstention_reason": "missing_information_head_has_no_supported_name"
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-4b16f2d9ef5c913dd2c0",
+      "original_id": "synth_open_archive_folder-ta-Latn-01",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.0,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [],
+        "abstained": true,
+        "abstention_reason": "missing_information_head_has_no_supported_name"
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-58e4dcc4577d919e6740",
+      "original_id": "dev_multistep_guides-mixed-en-te",
+      "expected": {
+        "context_references": [],
+        "execution_path": "multi_step_task",
+        "intent": "research",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search"
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.0,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [],
+        "abstained": true,
+        "abstention_reason": "missing_information_head_has_no_supported_name"
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-59dbe3caceaa6facaeec",
+      "original_id": "dev_multistep_guides-en",
+      "expected": {
+        "context_references": [],
+        "execution_path": "multi_step_task",
+        "intent": "research",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search"
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.0,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [],
+        "abstained": true,
+        "abstention_reason": "missing_information_head_has_no_supported_name"
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-5bb41551bde7365c7e6f",
+      "original_id": "dev_memory_project-hi-Latn",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "prior_conversation",
+            "reference": "prior discussion",
+            "resolved_value": "use a local cache"
+          }
+        ],
+        "execution_path": "memory_recall",
+        "intent": "recall",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "recall",
+        "execution_path": "memory_recall",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.2725738620726601,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Orion project ke liye kya chuna tha yaad dilao"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-65bf34347dabf7f0e54b",
+      "original_id": "synth_open_archive_folder-te-Latn-03",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.0,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [],
+        "abstained": true,
+        "abstention_reason": "missing_information_head_has_no_supported_name"
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-69e2f6b95e52fc983471",
+      "original_id": "synth_open_archive_folder-ta-Latn-02",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.0,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [],
+        "abstained": true,
+        "abstention_reason": "missing_information_head_has_no_supported_name"
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-78a00b34902b7b0d9c7b",
+      "original_id": "synth_open_archive_folder-en-04",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.0,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [],
+        "abstained": true,
+        "abstention_reason": "missing_information_head_has_no_supported_name"
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-78b32893ee08710fbf15",
+      "original_id": "en-memory-001",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "prior_conversation",
+            "reference": "the database migration last week",
+            "resolved_value": "move the pilot after the billing release"
+          }
+        ],
+        "execution_path": "memory_recall",
+        "intent": "recall",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "recall",
+        "execution_path": "memory_recall",
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "What did we decide about the database migration last week?",
+            "kind": "prior_conversation",
+            "resolved_value": "move the pilot after the billing release"
+          }
+        ],
+        "missing_information": [],
+        "confidence": 0.5382120621853135,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "What did we decide about the database migration last week?"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-7917108a5d2747ee47e2",
+      "original_id": "dev_clarify_unresolved-hi-Latn",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "item",
+            "reference": "it",
+            "resolved_value": null
+          }
+        ],
+        "execution_path": "clarify",
+        "intent": "clarify_request",
+        "missing_information": [
+          {
+            "description": "The requested target is not identifiable",
+            "name": "target"
+          }
+        ],
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.0,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [],
+        "abstained": true,
+        "abstention_reason": "missing_information_head_has_no_supported_name"
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-7f974114dddee61bb30d",
+      "original_id": "dev_stable_knowledge-ta",
+      "expected": {
+        "context_references": [],
+        "execution_path": "direct_response",
+        "intent": "respond",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "respond",
+        "execution_path": "direct_response",
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.6752885355392796,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "இலைகளின் நிறம் ஏன் மாறுகிறது?"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": true,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-893b671924b3cdf76af9",
+      "original_id": "dev_clarify_unresolved-ta-Latn",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "item",
+            "reference": "it",
+            "resolved_value": null
+          }
+        ],
+        "execution_path": "clarify",
+        "intent": "clarify_request",
+        "missing_information": [
+          {
+            "description": "The requested target is not identifiable",
+            "name": "target"
+          }
+        ],
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "clarify_request",
+        "execution_path": "clarify",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "atha marubadiyum open pannu",
+            "kind": "item",
+            "resolved_value": null
+          }
+        ],
+        "missing_information": [
+          {
+            "name": "target",
+            "description": "Required information is not available in the supplied request or context"
+          }
+        ],
+        "confidence": 0.5280952361952513,
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "atha marubadiyum open pannu"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-8d9d53363a7e80b65910",
+      "original_id": "dev_memory_project-ta-Latn",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "prior_conversation",
+            "reference": "prior discussion",
+            "resolved_value": "use a local cache"
+          }
+        ],
+        "execution_path": "memory_recall",
+        "intent": "recall",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "recall",
+        "execution_path": "memory_recall",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "Orion project-ku enna choose pannom nyabagam pannu",
+            "kind": "prior_conversation",
+            "resolved_value": null
+          }
+        ],
+        "missing_information": [],
+        "confidence": 0.35569774260278264,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Orion project-ku enna choose pannom nyabagam pannu"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-9134889c17e20b298d08",
+      "original_id": "ctx-hologram-001",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "project",
+            "reference": "our hologram project",
+            "resolved_value": "Aurora display"
+          }
+        ],
+        "execution_path": "memory_recall",
+        "intent": "recall",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "memory",
+          "conversational"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "recall",
+        "execution_path": "memory_recall",
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "our hologram project",
+            "kind": "project",
+            "resolved_value": null
+          }
+        ],
+        "missing_information": [],
+        "confidence": 0.4334331476741321,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Do you remember our hologram project?"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-9cb9c8bcba29e74f15ae",
+      "original_id": "synth_open_archive_folder-te-Latn-04",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.0,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [],
+        "abstained": true,
+        "abstention_reason": "missing_information_head_has_no_supported_name"
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-9cbae89423d15f2284ba",
+      "original_id": "synth_open_archive_folder-te-Latn-05",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.0,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [],
+        "abstained": true,
+        "abstention_reason": "missing_information_head_has_no_supported_name"
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-9d3a825394363d92559a",
+      "original_id": "dev_multistep_guides-mixed-en-ta",
+      "expected": {
+        "context_references": [],
+        "execution_path": "multi_step_task",
+        "intent": "research",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search"
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.0,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [],
+        "abstained": true,
+        "abstention_reason": "missing_information_head_has_no_supported_name"
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-a11b4d43765487268c13",
+      "original_id": "synth_open_archive_folder-hi-Latn-01",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.0,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [],
+        "abstained": true,
+        "abstention_reason": "missing_information_head_has_no_supported_name"
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-a327a6b2341b41d26929",
+      "original_id": "synth_open_archive_folder-en-02",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.0,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [],
+        "abstained": true,
+        "abstention_reason": "missing_information_head_has_no_supported_name"
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-a576ef35587382c078ec",
+      "original_id": "dev_memory_project-en",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "prior_conversation",
+            "reference": "prior discussion",
+            "resolved_value": "use a local cache"
+          }
+        ],
+        "execution_path": "memory_recall",
+        "intent": "recall",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "recall",
+        "execution_path": "memory_recall",
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "Remind me what we chose for the Orion project.",
+            "kind": "prior_conversation",
+            "resolved_value": "use a local cache"
+          }
+        ],
+        "missing_information": [],
+        "confidence": 0.471973916030905,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Remind me what we chose for the Orion project."
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-a69cc23fe5cf19156f36",
+      "original_id": "synth_open_archive_folder-hi-Latn-03",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.0,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [],
+        "abstained": true,
+        "abstention_reason": "missing_information_head_has_no_supported_name"
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-ab3744d1834af5d70bb8",
+      "original_id": "en-music-001",
+      "expected": {
+        "context_references": [],
+        "execution_path": "escalate",
+        "intent": "unsupported_request",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "respond",
+        "execution_path": "direct_response",
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.2725868018160028,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Could you put on some instrumental focus music?"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-b597c5565f28de025678",
+      "original_id": "dev_multistep_guides-mixed-en-hi",
+      "expected": {
+        "context_references": [],
+        "execution_path": "multi_step_task",
+        "intent": "research",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search"
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.0,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [],
+        "abstained": true,
+        "abstention_reason": "missing_information_head_has_no_supported_name"
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-c024e829657449ff7957",
+      "original_id": "dev_clarify_unresolved-en",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "item",
+            "reference": "it",
+            "resolved_value": null
+          }
+        ],
+        "execution_path": "clarify",
+        "intent": "clarify_request",
+        "missing_information": [
+          {
+            "description": "The requested target is not identifiable",
+            "name": "target"
+          }
+        ],
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.0,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [],
+        "abstained": true,
+        "abstention_reason": "missing_information_head_has_no_supported_name"
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-c210c20fef2fd7008bc2",
+      "original_id": "synth_open_archive_folder-hi-Latn-05",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.0,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [],
+        "abstained": true,
+        "abstention_reason": "missing_information_head_has_no_supported_name"
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-c2f83913c33fa5767279",
+      "original_id": "synth_open_archive_folder-ta-Latn-03",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.0,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [],
+        "abstained": true,
+        "abstention_reason": "missing_information_head_has_no_supported_name"
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-c38f95986e35b22ce5e3",
+      "original_id": "dev_stable_knowledge-en",
+      "expected": {
+        "context_references": [],
+        "execution_path": "direct_response",
+        "intent": "respond",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "respond",
+        "execution_path": "direct_response",
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.6052192189306982,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Why do leaves change colour?"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": true,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-cddfc38140aa4a573b0a",
+      "original_id": "synth_open_archive_folder-hi-Latn-04",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.0,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [],
+        "abstained": true,
+        "abstention_reason": "missing_information_head_has_no_supported_name"
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-d2949db37fafcfe62c2a",
+      "original_id": "synth_open_archive_folder-te-Latn-02",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.0,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [],
+        "abstained": true,
+        "abstention_reason": "missing_information_head_has_no_supported_name"
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-e39074e52cecbf1ed55d",
+      "original_id": "hi-codeswitch-memory-001",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "prior_conversation",
+            "reference": "Kal architecture ke baare mein",
+            "resolved_value": "keep the classifier outside tool execution"
+          }
+        ],
+        "execution_path": "memory_recall",
+        "intent": "recall",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "recall",
+        "execution_path": "memory_recall",
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "Kal architecture ke baare mein humne kya decide kiya tha?",
+            "kind": "prior_conversation",
+            "resolved_value": "keep the classifier outside tool execution"
+          }
+        ],
+        "missing_information": [],
+        "confidence": 0.5028645517807366,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Kal architecture ke baare mein humne kya decide kiya tha?"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-eb30f6b10d4aea5d74e7",
+      "original_id": "synth_open_archive_folder-ta-Latn-04",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.0,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [],
+        "abstained": true,
+        "abstention_reason": "missing_information_head_has_no_supported_name"
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-efe6f8af703091366e1f",
+      "original_id": "synth_open_archive_folder-hi-Latn-02",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.0,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [],
+        "abstained": true,
+        "abstention_reason": "missing_information_head_has_no_supported_name"
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-eff9f24d7bf6cf6b71e0",
+      "original_id": "dev_clarify_unresolved-te-Latn",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "item",
+            "reference": "it",
+            "resolved_value": null
+          }
+        ],
+        "execution_path": "clarify",
+        "intent": "clarify_request",
+        "missing_information": [
+          {
+            "description": "The requested target is not identifiable",
+            "name": "target"
+          }
+        ],
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "clarify_request",
+        "execution_path": "clarify",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "adi malli open cheyyi",
+            "kind": "item",
+            "resolved_value": null
+          }
+        ],
+        "missing_information": [
+          {
+            "name": "target",
+            "description": "Required information is not available in the supplied request or context"
+          }
+        ],
+        "confidence": 0.4512166061251662,
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "adi malli open cheyyi"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-f8017db7fb2b0cca511b",
+      "original_id": "synth_open_archive_folder-en-05",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.0,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [],
+        "abstained": true,
+        "abstention_reason": "missing_information_head_has_no_supported_name"
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-f9399bada1346bf6b5ec",
+      "original_id": "synth_open_archive_folder-ta-Latn-05",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.0,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [],
+        "abstained": true,
+        "abstention_reason": "missing_information_head_has_no_supported_name"
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-fcc84fb726806f3bc6d2",
+      "original_id": "dev_stable_knowledge-hi",
+      "expected": {
+        "context_references": [],
+        "execution_path": "direct_response",
+        "intent": "respond",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "respond",
+        "execution_path": "direct_response",
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.8094491618575265,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "पत्तों का रंग क्यों बदलता है?"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": true,
+      "error": null
+    }
+  ]
+}

@@ -92,6 +92,25 @@ class TestOrchestration(unittest.TestCase):
         route, latency_ms = classifier.classify("What is 2 + 2?")
         self.assertEqual(route, "GEMINI")
 
+    @patch("assistant.orchestration.router.log.warning")
+    @patch("urllib.request.urlopen")
+    def test_qwen_timeout_is_logged_as_timeout(self, mock_urlopen, mock_warning):
+        mock_urlopen.side_effect = TimeoutError("Classification timed out")
+        route, _ = QwenClassifier().classify("What is 2 + 2?")
+        self.assertEqual(route, "GEMINI")
+        self.assertTrue(any(call.args[1] == "timeout" for call in mock_warning.call_args_list))
+
+    @patch("assistant.orchestration.router.log.warning")
+    @patch("urllib.request.urlopen")
+    def test_qwen_invalid_json_is_logged_as_response_error(self, mock_urlopen, mock_warning):
+        mock_resp = MagicMock()
+        mock_resp.read.return_value = b"not-json"
+        mock_resp.__enter__.return_value = mock_resp
+        mock_urlopen.return_value = mock_resp
+        route, _ = QwenClassifier().classify("What is 2 + 2?")
+        self.assertEqual(route, "GEMINI")
+        self.assertTrue(any(call.args[1] == "response_or_parse_error" for call in mock_warning.call_args_list))
+
     def test_unknown_route_fallback(self):
         """7. Unknown route in state graph: defaults to 'GEMINI'."""
         mock_classifier = MagicMock(spec=QwenClassifier)

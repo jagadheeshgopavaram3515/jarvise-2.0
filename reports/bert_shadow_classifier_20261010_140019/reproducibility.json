@@ -1,0 +1,58 @@
+{
+  "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "versions": {
+    "torch": "2.9.0",
+    "transformers": "4.57.1",
+    "scikit-learn": "1.7.2",
+    "joblib": "1.5.2",
+    "numpy": "1.26.4"
+  },
+  "source_hashes": {
+    "assistant/orchestration/compact_adapter.py": "44b27e30c40a4c95ae46204d29c815d95ebdabe60b1cc0fddb50ed3b2119a854",
+    "assistant/orchestration/decision.py": "aadf7e0459a8c10178a39dabe2aef55c38c4bb00044c3e0bb1bfd3594f3577eb",
+    "assistant/orchestration/fast_brain/shadow.py": "d3a65abc551c45a4bb7aaa9ee0f3d8362fa2c5f56a98eace08e76912a91443d8",
+    "assistant/orchestration/fast_brain/encoder_adapter.py": "ca17daaabafe686be77724aea916ddd2af8344dcc96aef43136c1d3831ab779f",
+    "assistant/orchestration/graph.py": "119e6eeb6c2df4d7710157c743037bada6cba0a0581d88d7c296f2c2552cb258",
+    "assistant/orchestration/router.py": "bde66332a0050ee18206af1a0ded1ac4ca73110ff3a27184f0359d204c556e20",
+    "assistant/core/dispatcher.py": "2745111f2cec650cd7b2e0498102e1c10ebcb4399137b7a6b6876f8e4e77a880",
+    "benchmarks/fast_classifier/fast_brain_v1/dataset.jsonl": "426d722c68bbf13e22a03fa71f26df246c83d698d4cb7cd50358642bf90e9a82",
+    "benchmarks/fast_classifier/v4/dataset.jsonl": "5d5317f2e403f0e3c03a769415817cd407ecb9311cad38087d77aefccebb1be6",
+    "benchmarks/fast_classifier/models/v3/compact_heads.joblib": "7f4dd399b7238c7bf0c166454c3ff5aa09d6e3bf1afb82666b526d43cf452f05",
+    "benchmarks/fast_classifier/models/v3/compact_heads.json": "11d5ea991df52e9eca952766a151cb99f6d8c825104d17116c06c01042c130c3",
+    "benchmarks/fast_classifier/fast_brain_v1/review_decisions.jsonl": "abaf920911ea99aec08f0c74a2e5f08a2efeb73bd138ffdfca2a267dc666dcd6"
+  },
+  "cached_checkpoint_files": [
+    {
+      "path": "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\config.json",
+      "sha256": "e5387cfa72d4b8f301b7df84365195d25711212b6c3d377cace2b18c3a911a74",
+      "bytes": 953
+    },
+    {
+      "path": "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\model.safetensors",
+      "sha256": "0435c6c12c80a0a2206137c9fa8f6478fce4f4de88ac3d43d0f0e0da3c8c767b",
+      "bytes": 669464588
+    },
+    {
+      "path": "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\special_tokens_map.json",
+      "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+      "bytes": 112
+    },
+    {
+      "path": "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\tokenizer_config.json",
+      "sha256": "bc33e3cc4de965153393572f1a5cd5d2bf18872f8c0a0096ae547beac01cec9c",
+      "bytes": 39
+    },
+    {
+      "path": "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\vocab.txt",
+      "sha256": "87b44292b452f6c05afa49b2e488e7eedf79ea4f4c39db6f2f4b37764228ef3f",
+      "bytes": 871891
+    }
+  ],
+  "checkpoint_note": "Read-only cache inventory; no downloads. All cached snapshots listed, not proof each was opened.",
+  "commands": [
+    "python -B scratch/bert_shadow_audit_20261010_140019/run.py",
+    "python -B scratch/bert_shadow_audit_20261010_140019/test_runner.py",
+    "git diff --check"
+  ],
+  "tests": "23 passed in 10.86s"
+}

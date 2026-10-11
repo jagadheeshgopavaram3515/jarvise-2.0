@@ -1,0 +1,47 @@
+{
+  "devanagari": {
+    "agreement": 1,
+    "denominator": 1,
+    "value": 1.0,
+    "status": "INSUFFICIENT_INDEPENDENT_REVIEWED_EVIDENCE",
+    "scenario_groups": 1,
+    "execution_path_support": {
+      "direct_response": 1
+    }
+  },
+  "latin": {
+    "agreement": 5,
+    "denominator": 37,
+    "value": 0.13513513513513514,
+    "status": "INSUFFICIENT_INDEPENDENT_REVIEWED_EVIDENCE",
+    "scenario_groups": 7,
+    "execution_path_support": {
+      "single_action": 20,
+      "memory_recall": 7,
+      "multi_step_task": 4,
+      "clarify": 4,
+      "escalate": 1,
+      "direct_response": 1
+    }
+  },
+  "tamil": {
+    "agreement": 1,
+    "denominator": 1,
+    "value": 1.0,
+    "status": "INSUFFICIENT_INDEPENDENT_REVIEWED_EVIDENCE",
+    "scenario_groups": 1,
+    "execution_path_support": {
+      "direct_response": 1
+    }
+  },
+  "telugu": {
+    "agreement": 1,
+    "denominator": 1,
+    "value": 1.0,
+    "status": "INSUFFICIENT_INDEPENDENT_REVIEWED_EVIDENCE",
+    "scenario_groups": 1,
+    "execution_path_support": {
+      "direct_response": 1
+    }
+  }
+}

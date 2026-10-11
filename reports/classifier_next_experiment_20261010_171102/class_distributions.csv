@@ -1,0 +1,15 @@
+field,value,train_count,val_count
+execution_path,clarify,48,4
+execution_path,direct_response,23,4
+execution_path,escalate,35,1
+execution_path,memory_recall,22,7
+execution_path,multi_step_task,21,4
+execution_path,research,23,0
+execution_path,single_action,60,20
+selected_capability,None,128,16
+selected_capability,close_app,8,0
+selected_capability,find_file,22,0
+selected_capability,google_search,44,4
+selected_capability,open_app,20,0
+selected_capability,open_folder,5,20
+selected_capability,open_url,5,0

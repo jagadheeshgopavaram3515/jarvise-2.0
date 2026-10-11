@@ -1,0 +1,40 @@
+{
+  "latin": {
+    "denominator": 37,
+    "exact": 35,
+    "groups": 7,
+    "languages": [
+      "en",
+      "hi-Latn",
+      "mixed-en-hi",
+      "mixed-en-ta",
+      "mixed-en-te",
+      "ta-Latn",
+      "te-Latn"
+    ]
+  },
+  "telugu": {
+    "denominator": 1,
+    "exact": 1,
+    "groups": 1,
+    "languages": [
+      "te"
+    ]
+  },
+  "tamil": {
+    "denominator": 1,
+    "exact": 1,
+    "groups": 1,
+    "languages": [
+      "ta"
+    ]
+  },
+  "devanagari": {
+    "denominator": 1,
+    "exact": 1,
+    "groups": 1,
+    "languages": [
+      "hi"
+    ]
+  }
+}

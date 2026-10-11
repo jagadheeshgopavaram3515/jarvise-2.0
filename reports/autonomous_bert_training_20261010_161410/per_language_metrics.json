@@ -1,0 +1,894 @@
+{
+  "en": {
+    "agreement": 2,
+    "denominator": 12,
+    "value": 0.16666666666666666,
+    "language_status": "INSUFFICIENT_EVIDENCE",
+    "independent_scenario_groups": 7,
+    "observed_scripts": {
+      "latin": 12
+    },
+    "execution_path_support": {
+      "single_action": 5,
+      "multi_step_task": 1,
+      "memory_recall": 3,
+      "escalate": 1,
+      "clarify": 1,
+      "direct_response": 1
+    },
+    "per_field": {
+      "intent": {
+        "agreement": 6,
+        "denominator": 12
+      },
+      "execution_path": {
+        "agreement": 11,
+        "denominator": 12
+      },
+      "request_modes": {
+        "agreement": 9,
+        "denominator": 12
+      },
+      "selected_capability": {
+        "agreement": 7,
+        "denominator": 12
+      },
+      "context_references": {
+        "agreement": 8,
+        "denominator": 12
+      },
+      "missing_information": {
+        "agreement": 11,
+        "denominator": 12
+      },
+      "needs_clarification": {
+        "agreement": 12,
+        "denominator": 12
+      },
+      "needs_escalation": {
+        "agreement": 11,
+        "denominator": 12
+      }
+    },
+    "all_head_class_support": {
+      "execution_path": {
+        "single_action": 5,
+        "multi_step_task": 1,
+        "memory_recall": 3,
+        "escalate": 1,
+        "clarify": 1,
+        "direct_response": 1
+      },
+      "needs_clarification": {
+        "0": 11,
+        "1": 1
+      },
+      "needs_escalation": {
+        "0": 11,
+        "1": 1
+      },
+      "missing_information": {
+        "__none__": 11,
+        "target": 1
+      },
+      "reference_kind": {
+        "__none__": 8,
+        "prior_conversation": 2,
+        "project": 1,
+        "item": 1
+      },
+      "reference_resolved": {
+        "0": 9,
+        "1": 3
+      },
+      "request_modes:conversational": {
+        "0": 10,
+        "1": 2
+      },
+      "request_modes:memory": {
+        "0": 9,
+        "1": 3
+      },
+      "request_modes:research": {
+        "0": 11,
+        "1": 1
+      },
+      "request_modes:action": {
+        "1": 8,
+        "0": 4
+      },
+      "capability_matcher": {
+        "1": 6,
+        "0": 14
+      }
+    },
+    "training_support": 63
+  },
+  "hi": {
+    "agreement": 1,
+    "denominator": 1,
+    "value": 1.0,
+    "language_status": "INSUFFICIENT_EVIDENCE",
+    "independent_scenario_groups": 1,
+    "observed_scripts": {
+      "devanagari": 1
+    },
+    "execution_path_support": {
+      "direct_response": 1
+    },
+    "per_field": {
+      "intent": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "execution_path": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "request_modes": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "selected_capability": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "context_references": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "missing_information": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "needs_clarification": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "needs_escalation": {
+        "agreement": 1,
+        "denominator": 1
+      }
+    },
+    "all_head_class_support": {
+      "execution_path": {
+        "direct_response": 1
+      },
+      "needs_clarification": {
+        "0": 1
+      },
+      "needs_escalation": {
+        "0": 1
+      },
+      "missing_information": {
+        "__none__": 1
+      },
+      "reference_kind": {
+        "__none__": 1
+      },
+      "reference_resolved": {
+        "0": 1
+      },
+      "request_modes:conversational": {
+        "1": 1
+      },
+      "request_modes:memory": {
+        "0": 1
+      },
+      "request_modes:research": {
+        "0": 1
+      },
+      "request_modes:action": {
+        "0": 1
+      },
+      "capability_matcher": {}
+    },
+    "training_support": 11
+  },
+  "hi-Latn": {
+    "agreement": 0,
+    "denominator": 7,
+    "value": 0.0,
+    "language_status": "INSUFFICIENT_EVIDENCE",
+    "independent_scenario_groups": 3,
+    "observed_scripts": {
+      "latin": 7
+    },
+    "execution_path_support": {
+      "memory_recall": 1,
+      "clarify": 1,
+      "single_action": 5
+    },
+    "per_field": {
+      "intent": {
+        "agreement": 2,
+        "denominator": 7
+      },
+      "execution_path": {
+        "agreement": 5,
+        "denominator": 7
+      },
+      "request_modes": {
+        "agreement": 7,
+        "denominator": 7
+      },
+      "selected_capability": {
+        "agreement": 2,
+        "denominator": 7
+      },
+      "context_references": {
+        "agreement": 4,
+        "denominator": 7
+      },
+      "missing_information": {
+        "agreement": 5,
+        "denominator": 7
+      },
+      "needs_clarification": {
+        "agreement": 6,
+        "denominator": 7
+      },
+      "needs_escalation": {
+        "agreement": 6,
+        "denominator": 7
+      }
+    },
+    "all_head_class_support": {
+      "execution_path": {
+        "memory_recall": 1,
+        "clarify": 1,
+        "single_action": 5
+      },
+      "needs_clarification": {
+        "0": 6,
+        "1": 1
+      },
+      "needs_escalation": {
+        "0": 7
+      },
+      "missing_information": {
+        "__none__": 6,
+        "target": 1
+      },
+      "reference_kind": {
+        "prior_conversation": 1,
+        "item": 1,
+        "__none__": 5
+      },
+      "reference_resolved": {
+        "1": 1,
+        "0": 6
+      },
+      "request_modes:conversational": {
+        "0": 7
+      },
+      "request_modes:memory": {
+        "1": 1,
+        "0": 6
+      },
+      "request_modes:research": {
+        "0": 7
+      },
+      "request_modes:action": {
+        "0": 1,
+        "1": 6
+      },
+      "capability_matcher": {
+        "0": 12,
+        "1": 5
+      }
+    },
+    "training_support": 33
+  },
+  "mixed-en-hi": {
+    "agreement": 1,
+    "denominator": 2,
+    "value": 0.5,
+    "language_status": "INSUFFICIENT_EVIDENCE",
+    "independent_scenario_groups": 2,
+    "observed_scripts": {
+      "latin": 2
+    },
+    "execution_path_support": {
+      "multi_step_task": 1,
+      "memory_recall": 1
+    },
+    "per_field": {
+      "intent": {
+        "agreement": 2,
+        "denominator": 2
+      },
+      "execution_path": {
+        "agreement": 2,
+        "denominator": 2
+      },
+      "request_modes": {
+        "agreement": 2,
+        "denominator": 2
+      },
+      "selected_capability": {
+        "agreement": 2,
+        "denominator": 2
+      },
+      "context_references": {
+        "agreement": 1,
+        "denominator": 2
+      },
+      "missing_information": {
+        "agreement": 2,
+        "denominator": 2
+      },
+      "needs_clarification": {
+        "agreement": 2,
+        "denominator": 2
+      },
+      "needs_escalation": {
+        "agreement": 2,
+        "denominator": 2
+      }
+    },
+    "all_head_class_support": {
+      "execution_path": {
+        "multi_step_task": 1,
+        "memory_recall": 1
+      },
+      "needs_clarification": {
+        "0": 2
+      },
+      "needs_escalation": {
+        "0": 2
+      },
+      "missing_information": {
+        "__none__": 2
+      },
+      "reference_kind": {
+        "__none__": 1,
+        "prior_conversation": 1
+      },
+      "reference_resolved": {
+        "0": 1,
+        "1": 1
+      },
+      "request_modes:conversational": {
+        "0": 2
+      },
+      "request_modes:memory": {
+        "0": 1,
+        "1": 1
+      },
+      "request_modes:research": {
+        "1": 1,
+        "0": 1
+      },
+      "request_modes:action": {
+        "1": 1,
+        "0": 1
+      },
+      "capability_matcher": {
+        "1": 1,
+        "0": 1
+      }
+    },
+    "training_support": 11
+  },
+  "mixed-en-ta": {
+    "agreement": 1,
+    "denominator": 1,
+    "value": 1.0,
+    "language_status": "INSUFFICIENT_EVIDENCE",
+    "independent_scenario_groups": 1,
+    "observed_scripts": {
+      "latin": 1
+    },
+    "execution_path_support": {
+      "multi_step_task": 1
+    },
+    "per_field": {
+      "intent": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "execution_path": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "request_modes": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "selected_capability": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "context_references": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "missing_information": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "needs_clarification": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "needs_escalation": {
+        "agreement": 1,
+        "denominator": 1
+      }
+    },
+    "all_head_class_support": {
+      "execution_path": {
+        "multi_step_task": 1
+      },
+      "needs_clarification": {
+        "0": 1
+      },
+      "needs_escalation": {
+        "0": 1
+      },
+      "missing_information": {
+        "__none__": 1
+      },
+      "reference_kind": {
+        "__none__": 1
+      },
+      "reference_resolved": {
+        "0": 1
+      },
+      "request_modes:conversational": {
+        "0": 1
+      },
+      "request_modes:memory": {
+        "0": 1
+      },
+      "request_modes:research": {
+        "1": 1
+      },
+      "request_modes:action": {
+        "1": 1
+      },
+      "capability_matcher": {
+        "1": 1,
+        "0": 1
+      }
+    },
+    "training_support": 12
+  },
+  "mixed-en-te": {
+    "agreement": 1,
+    "denominator": 1,
+    "value": 1.0,
+    "language_status": "INSUFFICIENT_EVIDENCE",
+    "independent_scenario_groups": 1,
+    "observed_scripts": {
+      "latin": 1
+    },
+    "execution_path_support": {
+      "multi_step_task": 1
+    },
+    "per_field": {
+      "intent": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "execution_path": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "request_modes": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "selected_capability": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "context_references": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "missing_information": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "needs_clarification": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "needs_escalation": {
+        "agreement": 1,
+        "denominator": 1
+      }
+    },
+    "all_head_class_support": {
+      "execution_path": {
+        "multi_step_task": 1
+      },
+      "needs_clarification": {
+        "0": 1
+      },
+      "needs_escalation": {
+        "0": 1
+      },
+      "missing_information": {
+        "__none__": 1
+      },
+      "reference_kind": {
+        "__none__": 1
+      },
+      "reference_resolved": {
+        "0": 1
+      },
+      "request_modes:conversational": {
+        "0": 1
+      },
+      "request_modes:memory": {
+        "0": 1
+      },
+      "request_modes:research": {
+        "1": 1
+      },
+      "request_modes:action": {
+        "1": 1
+      },
+      "capability_matcher": {
+        "1": 1,
+        "0": 1
+      }
+    },
+    "training_support": 8
+  },
+  "ta": {
+    "agreement": 1,
+    "denominator": 1,
+    "value": 1.0,
+    "language_status": "INSUFFICIENT_EVIDENCE",
+    "independent_scenario_groups": 1,
+    "observed_scripts": {
+      "tamil": 1
+    },
+    "execution_path_support": {
+      "direct_response": 1
+    },
+    "per_field": {
+      "intent": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "execution_path": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "request_modes": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "selected_capability": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "context_references": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "missing_information": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "needs_clarification": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "needs_escalation": {
+        "agreement": 1,
+        "denominator": 1
+      }
+    },
+    "all_head_class_support": {
+      "execution_path": {
+        "direct_response": 1
+      },
+      "needs_clarification": {
+        "0": 1
+      },
+      "needs_escalation": {
+        "0": 1
+      },
+      "missing_information": {
+        "__none__": 1
+      },
+      "reference_kind": {
+        "__none__": 1
+      },
+      "reference_resolved": {
+        "0": 1
+      },
+      "request_modes:conversational": {
+        "1": 1
+      },
+      "request_modes:memory": {
+        "0": 1
+      },
+      "request_modes:research": {
+        "0": 1
+      },
+      "request_modes:action": {
+        "0": 1
+      },
+      "capability_matcher": {}
+    },
+    "training_support": 12
+  },
+  "ta-Latn": {
+    "agreement": 0,
+    "denominator": 7,
+    "value": 0.0,
+    "language_status": "INSUFFICIENT_EVIDENCE",
+    "independent_scenario_groups": 3,
+    "observed_scripts": {
+      "latin": 7
+    },
+    "execution_path_support": {
+      "single_action": 5,
+      "clarify": 1,
+      "memory_recall": 1
+    },
+    "per_field": {
+      "intent": {
+        "agreement": 2,
+        "denominator": 7
+      },
+      "execution_path": {
+        "agreement": 4,
+        "denominator": 7
+      },
+      "request_modes": {
+        "agreement": 6,
+        "denominator": 7
+      },
+      "selected_capability": {
+        "agreement": 2,
+        "denominator": 7
+      },
+      "context_references": {
+        "agreement": 4,
+        "denominator": 7
+      },
+      "missing_information": {
+        "agreement": 5,
+        "denominator": 7
+      },
+      "needs_clarification": {
+        "agreement": 6,
+        "denominator": 7
+      },
+      "needs_escalation": {
+        "agreement": 7,
+        "denominator": 7
+      }
+    },
+    "all_head_class_support": {
+      "execution_path": {
+        "single_action": 5,
+        "clarify": 1,
+        "memory_recall": 1
+      },
+      "needs_clarification": {
+        "0": 6,
+        "1": 1
+      },
+      "needs_escalation": {
+        "0": 7
+      },
+      "missing_information": {
+        "__none__": 6,
+        "target": 1
+      },
+      "reference_kind": {
+        "__none__": 5,
+        "item": 1,
+        "prior_conversation": 1
+      },
+      "reference_resolved": {
+        "0": 6,
+        "1": 1
+      },
+      "request_modes:conversational": {
+        "0": 7
+      },
+      "request_modes:memory": {
+        "0": 6,
+        "1": 1
+      },
+      "request_modes:research": {
+        "0": 7
+      },
+      "request_modes:action": {
+        "1": 6,
+        "0": 1
+      },
+      "capability_matcher": {
+        "1": 5,
+        "0": 12
+      }
+    },
+    "training_support": 35
+  },
+  "te": {
+    "agreement": 1,
+    "denominator": 1,
+    "value": 1.0,
+    "language_status": "INSUFFICIENT_EVIDENCE",
+    "independent_scenario_groups": 1,
+    "observed_scripts": {
+      "telugu": 1
+    },
+    "execution_path_support": {
+      "direct_response": 1
+    },
+    "per_field": {
+      "intent": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "execution_path": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "request_modes": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "selected_capability": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "context_references": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "missing_information": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "needs_clarification": {
+        "agreement": 1,
+        "denominator": 1
+      },
+      "needs_escalation": {
+        "agreement": 1,
+        "denominator": 1
+      }
+    },
+    "all_head_class_support": {
+      "execution_path": {
+        "direct_response": 1
+      },
+      "needs_clarification": {
+        "0": 1
+      },
+      "needs_escalation": {
+        "0": 1
+      },
+      "missing_information": {
+        "__none__": 1
+      },
+      "reference_kind": {
+        "__none__": 1
+      },
+      "reference_resolved": {
+        "0": 1
+      },
+      "request_modes:conversational": {
+        "1": 1
+      },
+      "request_modes:memory": {
+        "0": 1
+      },
+      "request_modes:research": {
+        "0": 1
+      },
+      "request_modes:action": {
+        "0": 1
+      },
+      "capability_matcher": {}
+    },
+    "training_support": 12
+  },
+  "te-Latn": {
+    "agreement": 0,
+    "denominator": 7,
+    "value": 0.0,
+    "language_status": "INSUFFICIENT_EVIDENCE",
+    "independent_scenario_groups": 3,
+    "observed_scripts": {
+      "latin": 7
+    },
+    "execution_path_support": {
+      "single_action": 5,
+      "memory_recall": 1,
+      "clarify": 1
+    },
+    "per_field": {
+      "intent": {
+        "agreement": 2,
+        "denominator": 7
+      },
+      "execution_path": {
+        "agreement": 4,
+        "denominator": 7
+      },
+      "request_modes": {
+        "agreement": 5,
+        "denominator": 7
+      },
+      "selected_capability": {
+        "agreement": 2,
+        "denominator": 7
+      },
+      "context_references": {
+        "agreement": 4,
+        "denominator": 7
+      },
+      "missing_information": {
+        "agreement": 5,
+        "denominator": 7
+      },
+      "needs_clarification": {
+        "agreement": 6,
+        "denominator": 7
+      },
+      "needs_escalation": {
+        "agreement": 7,
+        "denominator": 7
+      }
+    },
+    "all_head_class_support": {
+      "execution_path": {
+        "single_action": 5,
+        "memory_recall": 1,
+        "clarify": 1
+      },
+      "needs_clarification": {
+        "0": 6,
+        "1": 1
+      },
+      "needs_escalation": {
+        "0": 7
+      },
+      "missing_information": {
+        "__none__": 6,
+        "target": 1
+      },
+      "reference_kind": {
+        "__none__": 5,
+        "prior_conversation": 1,
+        "item": 1
+      },
+      "reference_resolved": {
+        "0": 6,
+        "1": 1
+      },
+      "request_modes:conversational": {
+        "0": 7
+      },
+      "request_modes:memory": {
+        "0": 6,
+        "1": 1
+      },
+      "request_modes:research": {
+        "0": 7
+      },
+      "request_modes:action": {
+        "1": 6,
+        "0": 1
+      },
+      "capability_matcher": {
+        "1": 5,
+        "0": 12
+      }
+    },
+    "training_support": 35
+  }
+}

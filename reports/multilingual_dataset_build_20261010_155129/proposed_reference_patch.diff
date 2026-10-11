@@ -1,0 +1,31 @@
+--- a/assistant/orchestration/compact_adapter.py
++++ b/assistant/orchestration/compact_adapter.py
+@@ -265,7 +265,7 @@
+         resolved_probability = _positive_probability(
+             self.artifact["reference_resolved"], request_vector
+         )
+-        resolved = _first_context_value(request.context) if resolved_probability >= 0.5 else None
++        resolved = _resolve_explicit_reference(request.context, kind) if resolved_probability >= 0.5 else None
+         return [
+             {
+                 "reference": request.user_text,
+@@ -297,6 +297,19 @@
+     if path == "clarify":
+         return "clarify_request"
+     return "unsupported_request"
++
++
++def _resolve_explicit_reference(context: Mapping[str, Any], kind: str) -> str | None:
++    entries = context.get("resolved_references", [])
++    if not isinstance(entries, list):
++        return None
++    values = {
++        item.get("resolved_value") for item in entries
++        if isinstance(item, Mapping) and item.get("kind") == kind
++        and isinstance(item.get("resolved_value"), str)
++        and item["resolved_value"].strip()
++    }
++    return next(iter(values)) if len(values) == 1 else None
+ 
+ 
+ def _first_context_value(value: Any) -> str | None:

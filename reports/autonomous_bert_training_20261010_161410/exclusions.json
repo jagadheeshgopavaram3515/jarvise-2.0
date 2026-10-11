@@ -1,0 +1,110 @@
+[
+  {
+    "record_id": "compact-candidate-0f52732c8a90ddd57612",
+    "original_id": "synth_unsupported_message-te-Latn-05",
+    "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+    "state": "pending_review"
+  },
+  {
+    "record_id": "compact-candidate-1dab0126fb0cef01f17b",
+    "original_id": "synth_find_budget_file-hi-Latn-05",
+    "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+    "state": "pending_review"
+  },
+  {
+    "record_id": "compact-candidate-1e1c6b872b43644ab53a",
+    "original_id": "train_escalate_temperature-ta-Latn",
+    "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+    "state": "pending_review"
+  },
+  {
+    "record_id": "compact-candidate-2047e6052bb58b6ffa45",
+    "original_id": "train_casual_checkin-te-Latn",
+    "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+    "state": "pending_review"
+  },
+  {
+    "record_id": "compact-candidate-2d0b28750681e8e9a1b0",
+    "original_id": "synth_unsupported_message-ta-Latn-01",
+    "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+    "state": "pending_review"
+  },
+  {
+    "record_id": "compact-candidate-41fc899c2a48bb687582",
+    "original_id": "synth_multistep_article-mixed-en-te-01",
+    "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+    "state": "pending_review"
+  },
+  {
+    "record_id": "compact-candidate-8cd1b3b69d719df2019f",
+    "original_id": "train_find_resume-hi-Latn",
+    "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+    "state": "pending_review"
+  },
+  {
+    "record_id": "compact-candidate-90154e7682c9292e375b",
+    "original_id": "synth_multistep_article-mixed-en-hi-02",
+    "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+    "state": "pending_review"
+  },
+  {
+    "record_id": "compact-candidate-9496804813df0c039ab9",
+    "original_id": "synth_recall_trip-hi-Latn-04",
+    "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+    "state": "pending_review"
+  },
+  {
+    "record_id": "compact-candidate-9936c5cfdede48c072cd",
+    "original_id": "synth_multistep_article-mixed-en-te-04",
+    "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+    "state": "pending_review"
+  },
+  {
+    "record_id": "compact-candidate-9bec4432e79d296f18bc",
+    "original_id": "train_escalate_lights-hi-Latn",
+    "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+    "state": "pending_review"
+  },
+  {
+    "record_id": "compact-candidate-abdae560e404df459cd0",
+    "original_id": "synth_current_release_research-mixed-en-te-02",
+    "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+    "state": "pending_review"
+  },
+  {
+    "record_id": "compact-candidate-c0b4655a17e8f5b91176",
+    "original_id": "train_research_market-mixed-en-te",
+    "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+    "state": "pending_review"
+  },
+  {
+    "record_id": "compact-candidate-d003d038c065e7940aa8",
+    "original_id": "synth_current_release_research-mixed-en-te-03",
+    "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+    "state": "pending_review"
+  },
+  {
+    "record_id": "compact-candidate-d8793e01ae466b459825",
+    "original_id": "synth_current_release_research-mixed-en-hi-01",
+    "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+    "state": "pending_review"
+  },
+  {
+    "record_id": "compact-candidate-dc9bf6759a3a6c13ad33",
+    "original_id": "synth_unsupported_message-en-02",
+    "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+    "state": "pending_review"
+  },
+  {
+    "record_id": "compact-candidate-e1c24b40e0c4fab440f3",
+    "original_id": "synth_current_release_research-mixed-en-ta-04",
+    "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+    "state": "pending_review"
+  },
+  {
+    "record_id": "compact-candidate-f49e03955957f0c6493f",
+    "original_id": "train_memory_meeting-hi",
+    "reason": "pending_reconciliation_not_authorized_as_synthetic_fitting",
+    "state": "pending_review"
+  }
+]

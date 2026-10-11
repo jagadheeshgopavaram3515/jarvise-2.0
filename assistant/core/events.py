@@ -40,6 +40,7 @@ class Utterance:
     is_partial: bool = False
     sequence: int = 0
     kind: str = "speech"         # "speech" | "filler" (FIX F: backchannel blips)
+    interrupt_epoch: Optional[int] = None  # capture-time cancellation generation
 
 
 @dataclass
@@ -53,6 +54,7 @@ class Transcript:
     is_partial: bool = False
     sequence: int = 0
     kind: str = "speech"             # "speech" | "filler" (FIX F)
+    interrupt_epoch: Optional[int] = None  # ignore cancelled STT results at dispatch
 
 
 def new_utterance_id() -> str:
@@ -137,6 +139,8 @@ class Bus:
     # Control signals
     shutdown: threading.Event = field(default_factory=threading.Event)
     interrupt: threading.Event = field(default_factory=threading.Event)  # stop TTS now
+    interrupt_epoch: int = 0  # durable across TTS clearing the interrupt event
+    _interrupt_epoch_lock: threading.Lock = field(default_factory=threading.Lock)
     stt_ready: threading.Event = field(default_factory=threading.Event)
 
     state: AppState = field(default_factory=AppState)
@@ -242,6 +246,8 @@ class Bus:
         TTS drops them automatically once current_turn_id has moved on.
         """
         old = self.current_turn_id
+        with self._interrupt_epoch_lock:
+            self.interrupt_epoch += 1
         _turnlog.info("[BARGE-IN] %s", old)
         self.interrupt.set()
         self.current_turn_id = None          # invalidate: old items become stale

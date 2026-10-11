@@ -1,0 +1,566 @@
+[
+  {
+    "id": "frozen100-048",
+    "utterance": "Read this web page for me",
+    "status": "ambiguous_or_underspecified",
+    "reason": "Utterance 'Read this web page for me' contains explicit demonstrative pronoun, but ground truth expected empty context_references [].",
+    "original_expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": []
+    },
+    "proposed_correction": {
+      "context_references": [
+        {
+          "reference": "this",
+          "kind": "item",
+          "resolved_value": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "frozen100-056",
+    "utterance": "Delete that completely",
+    "status": "confirmed_incorrect",
+    "reason": "Ground truth hardcoded reference='it' for non-English/non-'it' utterance 'Delete that completely'. Correct extracted reference is 'that'.",
+    "original_expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "proposed_correction": {
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "that",
+          "resolved_value": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "frozen100-057",
+    "utterance": "इसे तुरंत हटाओ",
+    "status": "confirmed_incorrect",
+    "reason": "Ground truth hardcoded reference='it' for non-English/non-'it' utterance 'इसे तुरंत हटाओ'. Correct extracted reference is 'इसे'.",
+    "original_expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "proposed_correction": {
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "इसे",
+          "resolved_value": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "frozen100-058",
+    "utterance": "वह तुरंत खोलो",
+    "status": "confirmed_incorrect",
+    "reason": "Ground truth hardcoded reference='it' for non-English/non-'it' utterance 'वह तुरंत खोलो'. Correct extracted reference is 'वह'.",
+    "original_expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "proposed_correction": {
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "वह",
+          "resolved_value": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "frozen100-059",
+    "utterance": "use turant open karo",
+    "status": "confirmed_incorrect",
+    "reason": "Ground truth hardcoded reference='it' for non-English/non-'it' utterance 'use turant open karo'. Correct extracted reference is 'use'.",
+    "original_expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "proposed_correction": {
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "use",
+          "resolved_value": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "frozen100-060",
+    "utterance": "isse delete kar do",
+    "status": "confirmed_incorrect",
+    "reason": "Ground truth hardcoded reference='it' for non-English/non-'it' utterance 'isse delete kar do'. Correct extracted reference is 'isse'.",
+    "original_expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "proposed_correction": {
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "isse",
+          "resolved_value": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "frozen100-061",
+    "utterance": "దీన్ని వెంటనే డిలీట్ చెయ్యి",
+    "status": "confirmed_incorrect",
+    "reason": "Ground truth hardcoded reference='it' for non-English/non-'it' utterance 'దీన్ని వెంటనే డిలీట్ చెయ్యి'. Correct extracted reference is 'దీన్ని'.",
+    "original_expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "proposed_correction": {
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "దీన్ని",
+          "resolved_value": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "frozen100-062",
+    "utterance": "అది ఓపెన్ చెయ్యి",
+    "status": "confirmed_incorrect",
+    "reason": "Ground truth hardcoded reference='it' for non-English/non-'it' utterance 'అది ఓపెన్ చెయ్యి'. Correct extracted reference is 'అది'.",
+    "original_expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "proposed_correction": {
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "అది",
+          "resolved_value": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "frozen100-063",
+    "utterance": "danni ventane delete cheyyi",
+    "status": "confirmed_incorrect",
+    "reason": "Ground truth hardcoded reference='it' for non-English/non-'it' utterance 'danni ventane delete cheyyi'. Correct extracted reference is 'danni'.",
+    "original_expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "proposed_correction": {
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "danni",
+          "resolved_value": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "frozen100-064",
+    "utterance": "idi malli open cheyyi",
+    "status": "confirmed_incorrect",
+    "reason": "Ground truth hardcoded reference='it' for non-English/non-'it' utterance 'idi malli open cheyyi'. Correct extracted reference is 'idi'.",
+    "original_expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "proposed_correction": {
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "idi",
+          "resolved_value": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "frozen100-065",
+    "utterance": "அதை உடனே அழித்துவிடு",
+    "status": "confirmed_incorrect",
+    "reason": "Ground truth hardcoded reference='it' for non-English/non-'it' utterance 'அதை உடனே அழித்துவிடு'. Correct extracted reference is 'அதை'.",
+    "original_expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "proposed_correction": {
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "அதை",
+          "resolved_value": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "frozen100-066",
+    "utterance": "athai marubadiyum open pannu",
+    "status": "confirmed_incorrect",
+    "reason": "Ground truth hardcoded reference='it' for non-English/non-'it' utterance 'athai marubadiyum open pannu'. Correct extracted reference is 'adi'.",
+    "original_expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "proposed_correction": {
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "adi",
+          "resolved_value": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "unseen-07-hi-ambiguous",
+    "utterance": "इसे हटा दो",
+    "status": "confirmed_incorrect",
+    "reason": "Ground truth hardcoded reference='it' for non-English/non-'it' utterance 'इसे हटा दो'. Correct extracted reference is 'इसे'.",
+    "original_expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "proposed_correction": {
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "इसे",
+          "resolved_value": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "unseen-08-te-ambiguous",
+    "utterance": "danni ventane open cheyyi",
+    "status": "confirmed_incorrect",
+    "reason": "Ground truth hardcoded reference='it' for non-English/non-'it' utterance 'danni ventane open cheyyi'. Correct extracted reference is 'danni'.",
+    "original_expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "proposed_correction": {
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "danni",
+          "resolved_value": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "unseen-09-ta-ambiguous",
+    "utterance": "அதை உடனே திற",
+    "status": "confirmed_incorrect",
+    "reason": "Ground truth hardcoded reference='it' for non-English/non-'it' utterance 'அதை உடனே திற'. Correct extracted reference is 'அதை'.",
+    "original_expected": {
+      "intent": "clarify_request",
+      "execution_path": "clarify",
+      "request_modes": [
+        "action"
+      ],
+      "selected_capability": null,
+      "needs_clarification": true,
+      "needs_escalation": false,
+      "missing_information": [
+        {
+          "name": "target",
+          "description": "The requested target is not identifiable"
+        }
+      ],
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "it",
+          "resolved_value": null
+        }
+      ]
+    },
+    "proposed_correction": {
+      "context_references": [
+        {
+          "kind": "item",
+          "reference": "அதை",
+          "resolved_value": null
+        }
+      ]
+    }
+  }
+]

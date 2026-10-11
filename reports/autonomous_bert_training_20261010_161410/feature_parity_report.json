@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "local_encoder_available": true,
+  "snapshot": "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d",
+  "request_feature_dimensions": 768,
+  "pair_feature_dimensions": 3072,
+  "request_training_shape": [
+    232,
+    768
+  ],
+  "pair_training_shape": [
+    484,
+    3072
+  ],
+  "pair_validation_shape": [
+    77,
+    3072
+  ],
+  "pair_features_exactly_equal_to_inference_construction": true,
+  "finite_request_features": true,
+  "finite_pair_features": true,
+  "encoder_eval_mode": true,
+  "encoder_parameters_require_grad": false,
+  "encoder_optimizer_or_backward": false,
+  "serialized_texts_exceeding_160_tokens": 0,
+  "serialized_text_denominator": 288,
+  "cached_inference": "Exact text-index vectors replayed through unmodified adapter postprocessor; no labels/IDs/review metadata in keys",
+  "model_hashes": {
+    "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\config.json": {
+      "sha256": "e5387cfa72d4b8f301b7df84365195d25711212b6c3d377cace2b18c3a911a74",
+      "bytes": 953
+    },
+    "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\model.safetensors": {
+      "sha256": "0435c6c12c80a0a2206137c9fa8f6478fce4f4de88ac3d43d0f0e0da3c8c767b",
+      "bytes": 669464588
+    },
+    "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\special_tokens_map.json": {
+      "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+      "bytes": 112
+    },
+    "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\tokenizer_config.json": {
+      "sha256": "bc33e3cc4de965153393572f1a5cd5d2bf18872f8c0a0096ae547beac01cec9c",
+      "bytes": 39
+    },
+    "C:\\Users\\Jagadheesh\\.cache\\huggingface\\hub\\models--nlptown--bert-base-multilingual-uncased-sentiment\\snapshots\\8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d\\vocab.txt": {
+      "sha256": "87b44292b452f6c05afa49b2e488e7eedf79ea4f4c39db6f2f4b37764228ef3f",
+      "bytes": 871891
+    }
+  },
+  "actual_encoder_vs_cached_adapter_prediction_parity": true
+}

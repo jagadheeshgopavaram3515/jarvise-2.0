@@ -1,0 +1,74 @@
+[
+  {
+    "threshold": 0.0,
+    "accepted_count": 100,
+    "accepted_exact": 45,
+    "accepted_precision_pct": 45.0,
+    "coverage_pct": 100.0,
+    "overall_exact_count": 45,
+    "total": 100
+  },
+  {
+    "threshold": 0.2,
+    "accepted_count": 100,
+    "accepted_exact": 45,
+    "accepted_precision_pct": 45.0,
+    "coverage_pct": 100.0,
+    "overall_exact_count": 45,
+    "total": 100
+  },
+  {
+    "threshold": 0.4,
+    "accepted_count": 79,
+    "accepted_exact": 36,
+    "accepted_precision_pct": 45.56962025316456,
+    "coverage_pct": 79.0,
+    "overall_exact_count": 36,
+    "total": 100
+  },
+  {
+    "threshold": 0.5,
+    "accepted_count": 52,
+    "accepted_exact": 24,
+    "accepted_precision_pct": 46.15384615384615,
+    "coverage_pct": 52.0,
+    "overall_exact_count": 24,
+    "total": 100
+  },
+  {
+    "threshold": 0.6,
+    "accepted_count": 33,
+    "accepted_exact": 16,
+    "accepted_precision_pct": 48.484848484848484,
+    "coverage_pct": 33.0,
+    "overall_exact_count": 16,
+    "total": 100
+  },
+  {
+    "threshold": 0.7,
+    "accepted_count": 17,
+    "accepted_exact": 11,
+    "accepted_precision_pct": 64.70588235294117,
+    "coverage_pct": 17.0,
+    "overall_exact_count": 11,
+    "total": 100
+  },
+  {
+    "threshold": 0.8,
+    "accepted_count": 4,
+    "accepted_exact": 4,
+    "accepted_precision_pct": 100.0,
+    "coverage_pct": 4.0,
+    "overall_exact_count": 4,
+    "total": 100
+  },
+  {
+    "threshold": 0.9,
+    "accepted_count": 2,
+    "accepted_exact": 2,
+    "accepted_precision_pct": 100.0,
+    "coverage_pct": 2.0,
+    "overall_exact_count": 2,
+    "total": 100
+  }
+]

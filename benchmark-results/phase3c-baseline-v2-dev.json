@@ -1,0 +1,4151 @@
+{
+  "dataset": "D:\\JARVIS\\benchmarks\\fast_classifier\\v2\\dataset.jsonl",
+  "artifact": "D:\\JARVIS\\benchmarks\\fast_classifier\\models\\v2\\compact_heads.joblib",
+  "startup_ms": 46621.8652,
+  "encoder_load_ms": 1226.1962,
+  "rss_before_bytes": 138743808,
+  "rss_after_bytes": 473628672,
+  "rss_delta_bytes": 334884864,
+  "report": {
+    "report_schema_version": "1.0",
+    "dataset": {
+      "schema_version": "2.0",
+      "path": "D:\\JARVIS\\benchmarks\\fast_classifier\\v2\\dataset.jsonl",
+      "split": "dev"
+    },
+    "adapter": {
+      "id": "compact-mbert-frozen-v2",
+      "kind": "structured",
+      "measurement_kind": "real_phase3b_candidate_dev_baseline",
+      "configuration": {
+        "artifact": "D:\\JARVIS\\benchmarks\\fast_classifier\\models\\v2\\compact_heads.joblib",
+        "selection_role": "baseline_only"
+      }
+    },
+    "counts": {
+      "total": 50,
+      "successful_predictions": 50,
+      "invalid_outputs": 0,
+      "errors": 0,
+      "timeouts": 0,
+      "not_applicable_execution_paths": 0
+    },
+    "coverage": {
+      "languages": {
+        "en": 19,
+        "hi-Latn": 10,
+        "mixed-en-hi": 1,
+        "ta-Latn": 10,
+        "te-Latn": 10
+      },
+      "categories": {
+        "ambiguity": 1,
+        "browser_action": 2,
+        "clarify": 20,
+        "code_switching": 1,
+        "context_resolved": 5,
+        "context_unresolved": 2,
+        "desktop_action": 1,
+        "follow_up": 1,
+        "memory": 3,
+        "missing_argument": 2,
+        "mixed_intent": 1,
+        "multi_step": 1,
+        "music_action": 1,
+        "research": 2,
+        "single_action": 20,
+        "supported_capability": 3,
+        "synthetic_training_candidate": 40,
+        "unseen_paraphrase": 1
+      }
+    },
+    "metrics": {
+      "intent": {
+        "available": true,
+        "applicable": 50,
+        "correct": 20,
+        "accuracy": 0.4
+      },
+      "execution_path": {
+        "available": true,
+        "applicable": 50,
+        "correct": 19,
+        "accuracy": 0.38
+      },
+      "request_modes": {
+        "available": true,
+        "applicable": 50,
+        "correct": 29,
+        "accuracy": 0.58
+      },
+      "selected_capability": {
+        "available": true,
+        "applicable": 50,
+        "correct": 22,
+        "accuracy": 0.44
+      },
+      "context_references": {
+        "available": true,
+        "applicable": 50,
+        "correct": 15,
+        "accuracy": 0.3
+      },
+      "missing_information": {
+        "available": true,
+        "applicable": 50,
+        "correct": 17,
+        "accuracy": 0.34
+      },
+      "needs_clarification": {
+        "available": true,
+        "applicable": 50,
+        "correct": 32,
+        "accuracy": 0.64
+      },
+      "needs_escalation": {
+        "available": true,
+        "applicable": 50,
+        "correct": 44,
+        "accuracy": 0.88
+      },
+      "schema_validity": {
+        "available": true,
+        "applicable": 50,
+        "correct": 50,
+        "accuracy": 1.0
+      },
+      "fallback_trigger_rate": {
+        "available": true,
+        "applicable": 50,
+        "triggers": 0,
+        "rate": 0.0,
+        "note": "Invalid outputs, adapter exceptions, and watchdog timeouts would trigger FastClassifier fallback."
+      },
+      "capability_selection_applicable": {
+        "available": true,
+        "applicable": 25,
+        "correct": 2,
+        "accuracy": 0.08
+      },
+      "clarification_binary": {
+        "available": true,
+        "applicable": 50,
+        "positive_examples": 22,
+        "precision": 0.5769230769230769,
+        "recall": 0.6818181818181818,
+        "macro_f1": 0.6394230769230769,
+        "confusion": {
+          "tp": 15,
+          "fp": 11,
+          "fn": 7,
+          "tn": 17
+        }
+      },
+      "escalation_binary": {
+        "available": true,
+        "applicable": 50,
+        "positive_examples": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "macro_f1": 0.46808510638297873,
+        "confusion": {
+          "tp": 0,
+          "fp": 6,
+          "fn": 0,
+          "tn": 44
+        }
+      }
+    },
+    "group_metrics": {
+      "language": {
+        "en": {
+          "examples": 19,
+          "execution_path_accuracy": 0.2631578947368421
+        },
+        "hi-Latn": {
+          "examples": 10,
+          "execution_path_accuracy": 0.4
+        },
+        "mixed-en-hi": {
+          "examples": 1,
+          "execution_path_accuracy": 1.0
+        },
+        "ta-Latn": {
+          "examples": 10,
+          "execution_path_accuracy": 0.4
+        },
+        "te-Latn": {
+          "examples": 10,
+          "execution_path_accuracy": 0.5
+        }
+      },
+      "category": {
+        "ambiguity": {
+          "examples": 1,
+          "execution_path_accuracy": 1.0
+        },
+        "browser_action": {
+          "examples": 2,
+          "execution_path_accuracy": 0.0
+        },
+        "clarify": {
+          "examples": 20,
+          "execution_path_accuracy": 0.7
+        },
+        "code_switching": {
+          "examples": 1,
+          "execution_path_accuracy": 1.0
+        },
+        "context_resolved": {
+          "examples": 5,
+          "execution_path_accuracy": 0.6
+        },
+        "context_unresolved": {
+          "examples": 2,
+          "execution_path_accuracy": 0.5
+        },
+        "desktop_action": {
+          "examples": 1,
+          "execution_path_accuracy": 0.0
+        },
+        "follow_up": {
+          "examples": 1,
+          "execution_path_accuracy": 0.0
+        },
+        "memory": {
+          "examples": 3,
+          "execution_path_accuracy": 1.0
+        },
+        "missing_argument": {
+          "examples": 2,
+          "execution_path_accuracy": 0.5
+        },
+        "mixed_intent": {
+          "examples": 1,
+          "execution_path_accuracy": 0.0
+        },
+        "multi_step": {
+          "examples": 1,
+          "execution_path_accuracy": 1.0
+        },
+        "music_action": {
+          "examples": 1,
+          "execution_path_accuracy": 0.0
+        },
+        "research": {
+          "examples": 2,
+          "execution_path_accuracy": 0.5
+        },
+        "single_action": {
+          "examples": 20,
+          "execution_path_accuracy": 0.0
+        },
+        "supported_capability": {
+          "examples": 3,
+          "execution_path_accuracy": 0.3333333333333333
+        },
+        "synthetic_training_candidate": {
+          "examples": 40,
+          "execution_path_accuracy": 0.35
+        },
+        "unseen_paraphrase": {
+          "examples": 1,
+          "execution_path_accuracy": 0.0
+        }
+      },
+      "script": {
+        "code_switched": {
+          "examples": 1,
+          "execution_path_accuracy": 1.0
+        },
+        "english_latin": {
+          "examples": 19,
+          "execution_path_accuracy": 0.2631578947368421
+        },
+        "romanized": {
+          "examples": 30,
+          "execution_path_accuracy": 0.43333333333333335
+        }
+      }
+    },
+    "latency": {
+      "timer": "time.perf_counter_ns",
+      "method": "nearest-rank percentiles",
+      "successful_predictions": {
+        "count": 50,
+        "mean_ms": 217.048006,
+        "p50_ms": 191.0747,
+        "p95_ms": 249.1583
+      },
+      "cold_first_invocation": {
+        "count": 1,
+        "mean_ms": 1595.1274,
+        "p50_ms": 1595.1274,
+        "p95_ms": 1595.1274
+      },
+      "warm_subsequent_invocations": {
+        "count": 49,
+        "mean_ms": 188.92393673469388,
+        "p50_ms": 191.0747,
+        "p95_ms": 245.9302
+      },
+      "process_startup_and_model_loading_ms": null,
+      "by_inference_provenance": {},
+      "components": {
+        "preprocessing_ms": {
+          "count": 50,
+          "mean_ms": 1.49447,
+          "p50_ms": 1.2232,
+          "p95_ms": 2.0263
+        },
+        "model_inference_ms": {
+          "count": 50,
+          "mean_ms": 210.94717999999997,
+          "p50_ms": 185.9266,
+          "p95_ms": 238.2578
+        },
+        "postprocessing_ms": {
+          "count": 50,
+          "mean_ms": 4.5781279999999995,
+          "p50_ms": 4.390600000000006,
+          "p95_ms": 6.3238999999999805
+        }
+      },
+      "note": "Cold is the first benchmark invocation only. It is not guaranteed to include process startup or model loading; those are not measured separately. Warm does not prove cache state."
+    },
+    "failures": [
+      {
+        "id": "en-memory-001",
+        "status": "success",
+        "expected_execution_path": "memory_recall",
+        "prediction": {
+          "intent": "recall",
+          "execution_path": "memory_recall",
+          "request_modes": [
+            "memory"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "What did we decide about the database migration last week?",
+              "kind": "prior_conversation",
+              "resolved_value": "database migration"
+            }
+          ],
+          "missing_information": [],
+          "confidence": 0.4415220993388454,
+          "needs_clarification": false,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "What did we decide about the database migration last week?"
+            }
+          ]
+        },
+        "failed_metrics": [
+          "context_references"
+        ],
+        "error": null
+      },
+      {
+        "id": "en-browser-001",
+        "status": "success",
+        "expected_execution_path": "research",
+        "prediction": {
+          "intent": "research",
+          "execution_path": "multi_step_task",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": "google_search",
+          "context_references": [],
+          "missing_information": [],
+          "confidence": 0.1807720558471697,
+          "needs_clarification": false,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Take me to the Python documentation site."
+            },
+            {
+              "kind": "capability",
+              "reference": "google_search"
+            }
+          ]
+        },
+        "failed_metrics": [
+          "execution_path",
+          "request_modes"
+        ],
+        "error": null
+      },
+      {
+        "id": "en-music-001",
+        "status": "success",
+        "expected_execution_path": "single_action",
+        "prediction": {
+          "intent": "respond",
+          "execution_path": "direct_response",
+          "request_modes": [
+            "conversational"
+          ],
+          "selected_capability": null,
+          "context_references": [],
+          "missing_information": [],
+          "confidence": 0.22307385804156543,
+          "needs_clarification": false,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Could you put on some instrumental focus music?"
+            }
+          ]
+        },
+        "failed_metrics": [
+          "intent",
+          "execution_path",
+          "request_modes",
+          "selected_capability"
+        ],
+        "error": null
+      },
+      {
+        "id": "ctx-hologram-001",
+        "status": "success",
+        "expected_execution_path": "memory_recall",
+        "prediction": {
+          "intent": "recall",
+          "execution_path": "memory_recall",
+          "request_modes": [
+            "memory"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "Do you remember our hologram project?",
+              "kind": "prior_conversation",
+              "resolved_value": "Aurora display"
+            }
+          ],
+          "missing_information": [],
+          "confidence": 0.35733281757519614,
+          "needs_clarification": false,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Do you remember our hologram project?"
+            }
+          ]
+        },
+        "failed_metrics": [
+          "request_modes",
+          "context_references"
+        ],
+        "error": null
+      },
+      {
+        "id": "ctx-open-missing-001",
+        "status": "success",
+        "expected_execution_path": "clarify",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "Open it for me.",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.2672905409305784,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Open it for me."
+            }
+          ]
+        },
+        "failed_metrics": [
+          "context_references",
+          "missing_information"
+        ],
+        "error": null
+      },
+      {
+        "id": "cap-browser-missing-001",
+        "status": "success",
+        "expected_execution_path": "clarify",
+        "prediction": {
+          "intent": "research",
+          "execution_path": "multi_step_task",
+          "request_modes": [
+            "action",
+            "research"
+          ],
+          "selected_capability": "google_search",
+          "context_references": [],
+          "missing_information": [],
+          "confidence": 0.19583583955342027,
+          "needs_clarification": false,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Search for it online."
+            },
+            {
+              "kind": "capability",
+              "reference": "google_search"
+            }
+          ]
+        },
+        "failed_metrics": [
+          "intent",
+          "execution_path",
+          "selected_capability",
+          "context_references",
+          "missing_information",
+          "needs_clarification"
+        ],
+        "error": null
+      },
+      {
+        "id": "mixed-conversation-action-001",
+        "status": "success",
+        "expected_execution_path": "single_action",
+        "prediction": {
+          "intent": "recall",
+          "execution_path": "memory_recall",
+          "request_modes": [
+            "memory"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "I'm doing better today; open my notes folder while we talk.",
+              "kind": "prior_conversation",
+              "resolved_value": "notes"
+            }
+          ],
+          "missing_information": [],
+          "confidence": 0.3346671677461185,
+          "needs_clarification": false,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "I'm doing better today; open my notes folder while we talk."
+            }
+          ]
+        },
+        "failed_metrics": [
+          "intent",
+          "execution_path",
+          "request_modes",
+          "selected_capability",
+          "context_references"
+        ],
+        "error": null
+      },
+      {
+        "id": "hi-codeswitch-memory-001",
+        "status": "success",
+        "expected_execution_path": "memory_recall",
+        "prediction": {
+          "intent": "recall",
+          "execution_path": "memory_recall",
+          "request_modes": [
+            "memory"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "Kal architecture ke baare mein humne kya decide kiya tha?",
+              "kind": "prior_conversation",
+              "resolved_value": "architecture"
+            }
+          ],
+          "missing_information": [],
+          "confidence": 0.38273293290267363,
+          "needs_clarification": false,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Kal architecture ke baare mein humne kya decide kiya tha?"
+            }
+          ]
+        },
+        "failed_metrics": [
+          "context_references"
+        ],
+        "error": null
+      },
+      {
+        "id": "ctx-browser-resolved-001",
+        "status": "success",
+        "expected_execution_path": "single_action",
+        "prediction": {
+          "intent": "recall",
+          "execution_path": "memory_recall",
+          "request_modes": [
+            "memory"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "Open the second one.",
+              "kind": "prior_conversation",
+              "resolved_value": "Overview"
+            }
+          ],
+          "missing_information": [],
+          "confidence": 0.3900797644792065,
+          "needs_clarification": false,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Open the second one."
+            }
+          ]
+        },
+        "failed_metrics": [
+          "intent",
+          "execution_path",
+          "request_modes",
+          "selected_capability",
+          "context_references"
+        ],
+        "error": null
+      },
+      {
+        "id": "synth_open_archive_folder-en-01",
+        "status": "success",
+        "expected_execution_path": "single_action",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "Open the archive folder.",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.21177017771971854,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Open the archive folder."
+            }
+          ]
+        },
+        "failed_metrics": [
+          "intent",
+          "execution_path",
+          "selected_capability",
+          "context_references",
+          "missing_information",
+          "needs_clarification"
+        ],
+        "error": null
+      },
+      {
+        "id": "synth_open_archive_folder-en-02",
+        "status": "success",
+        "expected_execution_path": "single_action",
+        "prediction": {
+          "intent": "research",
+          "execution_path": "multi_step_task",
+          "request_modes": [
+            "action",
+            "research"
+          ],
+          "selected_capability": "google_search",
+          "context_references": [],
+          "missing_information": [],
+          "confidence": 0.19562693281045748,
+          "needs_clarification": false,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Show me the archived files directory."
+            },
+            {
+              "kind": "capability",
+              "reference": "google_search"
+            }
+          ]
+        },
+        "failed_metrics": [
+          "intent",
+          "execution_path",
+          "request_modes",
+          "selected_capability"
+        ],
+        "error": null
+      },
+      {
+        "id": "synth_open_archive_folder-en-03",
+        "status": "success",
+        "expected_execution_path": "single_action",
+        "prediction": {
+          "intent": "research",
+          "execution_path": "multi_step_task",
+          "request_modes": [
+            "action",
+            "research"
+          ],
+          "selected_capability": "google_search",
+          "context_references": [],
+          "missing_information": [],
+          "confidence": 0.20388595425976472,
+          "needs_clarification": false,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Bring up the archive directory."
+            },
+            {
+              "kind": "capability",
+              "reference": "google_search"
+            }
+          ]
+        },
+        "failed_metrics": [
+          "intent",
+          "execution_path",
+          "request_modes",
+          "selected_capability"
+        ],
+        "error": null
+      },
+      {
+        "id": "synth_open_archive_folder-en-04",
+        "status": "success",
+        "expected_execution_path": "single_action",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "Open my old-records folder.",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.22090052603965465,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Open my old-records folder."
+            }
+          ]
+        },
+        "failed_metrics": [
+          "intent",
+          "execution_path",
+          "selected_capability",
+          "context_references",
+          "missing_information",
+          "needs_clarification"
+        ],
+        "error": null
+      },
+      {
+        "id": "synth_open_archive_folder-en-05",
+        "status": "success",
+        "expected_execution_path": "single_action",
+        "prediction": {
+          "intent": "unsupported_request",
+          "execution_path": "escalate",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [],
+          "missing_information": [],
+          "confidence": 0.19654173898059174,
+          "needs_clarification": false,
+          "needs_escalation": true,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Take me to the archive folder."
+            }
+          ]
+        },
+        "failed_metrics": [
+          "intent",
+          "execution_path",
+          "selected_capability",
+          "needs_escalation"
+        ],
+        "error": null
+      },
+      {
+        "id": "synth_open_archive_folder-te-Latn-01",
+        "status": "success",
+        "expected_execution_path": "single_action",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "archive folder open cheyyi",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.21326416618167648,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "archive folder open cheyyi"
+            }
+          ]
+        },
+        "failed_metrics": [
+          "intent",
+          "execution_path",
+          "selected_capability",
+          "context_references",
+          "missing_information",
+          "needs_clarification"
+        ],
+        "error": null
+      },
+      {
+        "id": "synth_open_archive_folder-te-Latn-02",
+        "status": "success",
+        "expected_execution_path": "single_action",
+        "prediction": {
+          "intent": "research",
+          "execution_path": "multi_step_task",
+          "request_modes": [
+            "action",
+            "research"
+          ],
+          "selected_capability": "google_search",
+          "context_references": [],
+          "missing_information": [],
+          "confidence": 0.19210952942131881,
+          "needs_clarification": false,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "archived files directory chupinchu"
+            },
+            {
+              "kind": "capability",
+              "reference": "google_search"
+            }
+          ]
+        },
+        "failed_metrics": [
+          "intent",
+          "execution_path",
+          "request_modes",
+          "selected_capability"
+        ],
+        "error": null
+      },
+      {
+        "id": "synth_open_archive_folder-te-Latn-03",
+        "status": "success",
+        "expected_execution_path": "single_action",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action",
+            "research"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "archive directory paiki teesuku ra",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.19628755665985953,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "archive directory paiki teesuku ra"
+            }
+          ]
+        },
+        "failed_metrics": [
+          "intent",
+          "execution_path",
+          "request_modes",
+          "selected_capability",
+          "context_references",
+          "missing_information",
+          "needs_clarification"
+        ],
+        "error": null
+      },
+      {
+        "id": "synth_open_archive_folder-te-Latn-04",
+        "status": "success",
+        "expected_execution_path": "single_action",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "old records folder open cheyyi",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.222298986589467,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "old records folder open cheyyi"
+            }
+          ]
+        },
+        "failed_metrics": [
+          "intent",
+          "execution_path",
+          "selected_capability",
+          "context_references",
+          "missing_information",
+          "needs_clarification"
+        ],
+        "error": null
+      },
+      {
+        "id": "synth_open_archive_folder-te-Latn-05",
+        "status": "success",
+        "expected_execution_path": "single_action",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action",
+            "research"
+          ],
+          "selected_capability": null,
+          "context_references": [],
+          "missing_information": [
+            {
+              "name": "required_information",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.18091005808455585,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "archive folder ki teesuku vellu"
+            }
+          ]
+        },
+        "failed_metrics": [
+          "intent",
+          "execution_path",
+          "request_modes",
+          "selected_capability",
+          "missing_information",
+          "needs_clarification"
+        ],
+        "error": null
+      },
+      {
+        "id": "synth_open_archive_folder-hi-Latn-01",
+        "status": "success",
+        "expected_execution_path": "single_action",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action",
+            "research"
+          ],
+          "selected_capability": null,
+          "context_references": [],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.20008239938946498,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "archive folder kholo"
+            }
+          ]
+        },
+        "failed_metrics": [
+          "intent",
+          "execution_path",
+          "request_modes",
+          "selected_capability",
+          "missing_information",
+          "needs_clarification"
+        ],
+        "error": null
+      },
+      {
+        "id": "synth_open_archive_folder-hi-Latn-02",
+        "status": "success",
+        "expected_execution_path": "single_action",
+        "prediction": {
+          "intent": "unsupported_request",
+          "execution_path": "escalate",
+          "request_modes": [
+            "action",
+            "research"
+          ],
+          "selected_capability": null,
+          "context_references": [],
+          "missing_information": [],
+          "confidence": 0.18556094451279945,
+          "needs_clarification": false,
+          "needs_escalation": true,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "archived files directory dikhao"
+            }
+          ]
+        },
+        "failed_metrics": [
+          "intent",
+          "execution_path",
+          "request_modes",
+          "selected_capability",
+          "needs_escalation"
+        ],
+        "error": null
+      },
+      {
+        "id": "synth_open_archive_folder-hi-Latn-03",
+        "status": "success",
+        "expected_execution_path": "single_action",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action",
+            "research"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "archive directory saamne lao",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.2172866711257276,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "archive directory saamne lao"
+            }
+          ]
+        },
+        "failed_metrics": [
+          "intent",
+          "execution_path",
+          "request_modes",
+          "selected_capability",
+          "context_references",
+          "missing_information",
+          "needs_clarification"
+        ],
+        "error": null
+      },
+      {
+        "id": "synth_open_archive_folder-hi-Latn-04",
+        "status": "success",
+        "expected_execution_path": "single_action",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.2004354678108045,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "old records folder kholo"
+            }
+          ]
+        },
+        "failed_metrics": [
+          "intent",
+          "execution_path",
+          "selected_capability",
+          "missing_information",
+          "needs_clarification"
+        ],
+        "error": null
+      },
+      {
+        "id": "synth_open_archive_folder-hi-Latn-05",
+        "status": "success",
+        "expected_execution_path": "single_action",
+        "prediction": {
+          "intent": "unsupported_request",
+          "execution_path": "escalate",
+          "request_modes": [
+            "action",
+            "research"
+          ],
+          "selected_capability": null,
+          "context_references": [],
+          "missing_information": [],
+          "confidence": 0.20957669825904393,
+          "needs_clarification": false,
+          "needs_escalation": true,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "archive folder par le chalo"
+            }
+          ]
+        },
+        "failed_metrics": [
+          "intent",
+          "execution_path",
+          "request_modes",
+          "selected_capability",
+          "needs_escalation"
+        ],
+        "error": null
+      },
+      {
+        "id": "synth_open_archive_folder-ta-Latn-01",
+        "status": "success",
+        "expected_execution_path": "single_action",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "archive folder-ai open pannu",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.2379302971638561,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "archive folder-ai open pannu"
+            }
+          ]
+        },
+        "failed_metrics": [
+          "intent",
+          "execution_path",
+          "selected_capability",
+          "context_references",
+          "missing_information",
+          "needs_clarification"
+        ],
+        "error": null
+      }
+    ],
+    "records": [
+      {
+        "id": "en-memory-001",
+        "split": "dev",
+        "language": "en",
+        "categories": [
+          "memory",
+          "context_resolved"
+        ],
+        "expected_execution_path": "memory_recall",
+        "expected_selected_capability": null,
+        "expected_needs_clarification": false,
+        "expected_needs_escalation": false,
+        "script_group": "english_latin",
+        "latency_ms": 1595.1274,
+        "status": "success",
+        "prediction": {
+          "intent": "recall",
+          "execution_path": "memory_recall",
+          "request_modes": [
+            "memory"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "What did we decide about the database migration last week?",
+              "kind": "prior_conversation",
+              "resolved_value": "database migration"
+            }
+          ],
+          "missing_information": [],
+          "confidence": 0.4415220993388454,
+          "needs_clarification": false,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "What did we decide about the database migration last week?"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": true,
+          "execution_path": true,
+          "request_modes": true,
+          "selected_capability": true,
+          "context_references": false,
+          "missing_information": true,
+          "needs_clarification": true,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 11.6198,
+          "model_inference_ms": 1571.7767,
+          "postprocessing_ms": 11.687600000000202
+        }
+      },
+      {
+        "id": "en-browser-001",
+        "split": "dev",
+        "language": "en",
+        "categories": [
+          "browser_action",
+          "supported_capability"
+        ],
+        "expected_execution_path": "research",
+        "expected_selected_capability": "google_search",
+        "expected_needs_clarification": false,
+        "expected_needs_escalation": false,
+        "script_group": "english_latin",
+        "latency_ms": 195.1058,
+        "status": "success",
+        "prediction": {
+          "intent": "research",
+          "execution_path": "multi_step_task",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": "google_search",
+          "context_references": [],
+          "missing_information": [],
+          "confidence": 0.1807720558471697,
+          "needs_clarification": false,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Take me to the Python documentation site."
+            },
+            {
+              "kind": "capability",
+              "reference": "google_search"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": true,
+          "execution_path": false,
+          "request_modes": false,
+          "selected_capability": true,
+          "context_references": true,
+          "missing_information": true,
+          "needs_clarification": true,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 4.2197,
+          "model_inference_ms": 185.9691,
+          "postprocessing_ms": 4.880500000000012
+        }
+      },
+      {
+        "id": "en-music-001",
+        "split": "dev",
+        "language": "en",
+        "categories": [
+          "music_action",
+          "supported_capability",
+          "unseen_paraphrase"
+        ],
+        "expected_execution_path": "single_action",
+        "expected_selected_capability": "youtube_search",
+        "expected_needs_clarification": false,
+        "expected_needs_escalation": false,
+        "script_group": "english_latin",
+        "latency_ms": 120.1096,
+        "status": "success",
+        "prediction": {
+          "intent": "respond",
+          "execution_path": "direct_response",
+          "request_modes": [
+            "conversational"
+          ],
+          "selected_capability": null,
+          "context_references": [],
+          "missing_information": [],
+          "confidence": 0.22307385804156543,
+          "needs_clarification": false,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Could you put on some instrumental focus music?"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": false,
+          "selected_capability": false,
+          "context_references": true,
+          "missing_information": true,
+          "needs_clarification": true,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.1397,
+          "model_inference_ms": 116.4684,
+          "postprocessing_ms": 2.4751999999999867
+        }
+      },
+      {
+        "id": "en-multistep-001",
+        "split": "dev",
+        "language": "en",
+        "categories": [
+          "multi_step",
+          "research",
+          "supported_capability"
+        ],
+        "expected_execution_path": "multi_step_task",
+        "expected_selected_capability": "google_search",
+        "expected_needs_clarification": false,
+        "expected_needs_escalation": false,
+        "script_group": "english_latin",
+        "latency_ms": 192.661,
+        "status": "success",
+        "prediction": {
+          "intent": "research",
+          "execution_path": "multi_step_task",
+          "request_modes": [
+            "action",
+            "research"
+          ],
+          "selected_capability": "google_search",
+          "context_references": [],
+          "missing_information": [],
+          "confidence": 0.35004831000752623,
+          "needs_clarification": false,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Look up the official LangGraph overview, read it, and give me the key design ideas."
+            },
+            {
+              "kind": "capability",
+              "reference": "google_search"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": true,
+          "execution_path": true,
+          "request_modes": true,
+          "selected_capability": true,
+          "context_references": true,
+          "missing_information": true,
+          "needs_clarification": true,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.2631,
+          "model_inference_ms": 187.2913,
+          "postprocessing_ms": 4.078099999999978
+        }
+      },
+      {
+        "id": "ctx-hologram-001",
+        "split": "dev",
+        "language": "en",
+        "categories": [
+          "memory",
+          "context_resolved"
+        ],
+        "expected_execution_path": "memory_recall",
+        "expected_selected_capability": null,
+        "expected_needs_clarification": false,
+        "expected_needs_escalation": false,
+        "script_group": "english_latin",
+        "latency_ms": 116.5346,
+        "status": "success",
+        "prediction": {
+          "intent": "recall",
+          "execution_path": "memory_recall",
+          "request_modes": [
+            "memory"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "Do you remember our hologram project?",
+              "kind": "prior_conversation",
+              "resolved_value": "Aurora display"
+            }
+          ],
+          "missing_information": [],
+          "confidence": 0.35733281757519614,
+          "needs_clarification": false,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Do you remember our hologram project?"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": true,
+          "execution_path": true,
+          "request_modes": false,
+          "selected_capability": true,
+          "context_references": false,
+          "missing_information": true,
+          "needs_clarification": true,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 0.6125,
+          "model_inference_ms": 113.2249,
+          "postprocessing_ms": 2.678600000000003
+        }
+      },
+      {
+        "id": "ctx-open-missing-001",
+        "split": "dev",
+        "language": "en",
+        "categories": [
+          "ambiguity",
+          "missing_argument",
+          "context_unresolved"
+        ],
+        "expected_execution_path": "clarify",
+        "expected_selected_capability": null,
+        "expected_needs_clarification": true,
+        "expected_needs_escalation": false,
+        "script_group": "english_latin",
+        "latency_ms": 138.1699,
+        "status": "success",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "Open it for me.",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.2672905409305784,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Open it for me."
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": true,
+          "execution_path": true,
+          "request_modes": true,
+          "selected_capability": true,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": true,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.1954,
+          "model_inference_ms": 131.8684,
+          "postprocessing_ms": 5.074499999999972
+        }
+      },
+      {
+        "id": "cap-browser-missing-001",
+        "split": "dev",
+        "language": "en",
+        "categories": [
+          "missing_argument",
+          "context_unresolved",
+          "research"
+        ],
+        "expected_execution_path": "clarify",
+        "expected_selected_capability": null,
+        "expected_needs_clarification": true,
+        "expected_needs_escalation": false,
+        "script_group": "english_latin",
+        "latency_ms": 104.2263,
+        "status": "success",
+        "prediction": {
+          "intent": "research",
+          "execution_path": "multi_step_task",
+          "request_modes": [
+            "action",
+            "research"
+          ],
+          "selected_capability": "google_search",
+          "context_references": [],
+          "missing_information": [],
+          "confidence": 0.19583583955342027,
+          "needs_clarification": false,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Search for it online."
+            },
+            {
+              "kind": "capability",
+              "reference": "google_search"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": true,
+          "selected_capability": false,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": false,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.0656,
+          "model_inference_ms": 98.9463,
+          "postprocessing_ms": 4.18180000000001
+        }
+      },
+      {
+        "id": "mixed-conversation-action-001",
+        "split": "dev",
+        "language": "en",
+        "categories": [
+          "mixed_intent",
+          "desktop_action",
+          "context_resolved"
+        ],
+        "expected_execution_path": "single_action",
+        "expected_selected_capability": "open_folder",
+        "expected_needs_clarification": false,
+        "expected_needs_escalation": false,
+        "script_group": "english_latin",
+        "latency_ms": 200.3093,
+        "status": "success",
+        "prediction": {
+          "intent": "recall",
+          "execution_path": "memory_recall",
+          "request_modes": [
+            "memory"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "I'm doing better today; open my notes folder while we talk.",
+              "kind": "prior_conversation",
+              "resolved_value": "notes"
+            }
+          ],
+          "missing_information": [],
+          "confidence": 0.3346671677461185,
+          "needs_clarification": false,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "I'm doing better today; open my notes folder while we talk."
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": false,
+          "selected_capability": false,
+          "context_references": false,
+          "missing_information": true,
+          "needs_clarification": true,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.2232,
+          "model_inference_ms": 194.3568,
+          "postprocessing_ms": 4.700400000000002
+        }
+      },
+      {
+        "id": "hi-codeswitch-memory-001",
+        "split": "dev",
+        "language": "mixed-en-hi",
+        "categories": [
+          "memory",
+          "code_switching",
+          "context_resolved"
+        ],
+        "expected_execution_path": "memory_recall",
+        "expected_selected_capability": null,
+        "expected_needs_clarification": false,
+        "expected_needs_escalation": false,
+        "script_group": "code_switched",
+        "latency_ms": 151.9856,
+        "status": "success",
+        "prediction": {
+          "intent": "recall",
+          "execution_path": "memory_recall",
+          "request_modes": [
+            "memory"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "Kal architecture ke baare mein humne kya decide kiya tha?",
+              "kind": "prior_conversation",
+              "resolved_value": "architecture"
+            }
+          ],
+          "missing_information": [],
+          "confidence": 0.38273293290267363,
+          "needs_clarification": false,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Kal architecture ke baare mein humne kya decide kiya tha?"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": true,
+          "execution_path": true,
+          "request_modes": true,
+          "selected_capability": true,
+          "context_references": false,
+          "missing_information": true,
+          "needs_clarification": true,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 0.921,
+          "model_inference_ms": 147.1827,
+          "postprocessing_ms": 3.8543999999999983
+        }
+      },
+      {
+        "id": "ctx-browser-resolved-001",
+        "split": "dev",
+        "language": "en",
+        "categories": [
+          "follow_up",
+          "browser_action",
+          "context_resolved"
+        ],
+        "expected_execution_path": "single_action",
+        "expected_selected_capability": "open_url",
+        "expected_needs_clarification": false,
+        "expected_needs_escalation": false,
+        "script_group": "english_latin",
+        "latency_ms": 289.7415,
+        "status": "success",
+        "prediction": {
+          "intent": "recall",
+          "execution_path": "memory_recall",
+          "request_modes": [
+            "memory"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "Open the second one.",
+              "kind": "prior_conversation",
+              "resolved_value": "Overview"
+            }
+          ],
+          "missing_information": [],
+          "confidence": 0.3900797644792065,
+          "needs_clarification": false,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Open the second one."
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": false,
+          "selected_capability": false,
+          "context_references": false,
+          "missing_information": true,
+          "needs_clarification": true,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.6895,
+          "model_inference_ms": 283.4193,
+          "postprocessing_ms": 4.59839999999997
+        }
+      },
+      {
+        "id": "synth_open_archive_folder-en-01",
+        "split": "dev",
+        "language": "en",
+        "categories": [
+          "single_action",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "single_action",
+        "expected_selected_capability": "open_folder",
+        "expected_needs_clarification": false,
+        "expected_needs_escalation": false,
+        "script_group": "english_latin",
+        "latency_ms": 192.7731,
+        "status": "success",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "Open the archive folder.",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.21177017771971854,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Open the archive folder."
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": true,
+          "selected_capability": false,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": false,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.5127,
+          "model_inference_ms": 185.9266,
+          "postprocessing_ms": 5.3049000000000035
+        }
+      },
+      {
+        "id": "synth_open_archive_folder-en-02",
+        "split": "dev",
+        "language": "en",
+        "categories": [
+          "single_action",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "single_action",
+        "expected_selected_capability": "open_folder",
+        "expected_needs_clarification": false,
+        "expected_needs_escalation": false,
+        "script_group": "english_latin",
+        "latency_ms": 230.9533,
+        "status": "success",
+        "prediction": {
+          "intent": "research",
+          "execution_path": "multi_step_task",
+          "request_modes": [
+            "action",
+            "research"
+          ],
+          "selected_capability": "google_search",
+          "context_references": [],
+          "missing_information": [],
+          "confidence": 0.19562693281045748,
+          "needs_clarification": false,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Show me the archived files directory."
+            },
+            {
+              "kind": "capability",
+              "reference": "google_search"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": false,
+          "selected_capability": false,
+          "context_references": true,
+          "missing_information": true,
+          "needs_clarification": true,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.3124,
+          "model_inference_ms": 225.2162,
+          "postprocessing_ms": 4.390600000000006
+        }
+      },
+      {
+        "id": "synth_open_archive_folder-en-03",
+        "split": "dev",
+        "language": "en",
+        "categories": [
+          "single_action",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "single_action",
+        "expected_selected_capability": "open_folder",
+        "expected_needs_clarification": false,
+        "expected_needs_escalation": false,
+        "script_group": "english_latin",
+        "latency_ms": 197.2142,
+        "status": "success",
+        "prediction": {
+          "intent": "research",
+          "execution_path": "multi_step_task",
+          "request_modes": [
+            "action",
+            "research"
+          ],
+          "selected_capability": "google_search",
+          "context_references": [],
+          "missing_information": [],
+          "confidence": 0.20388595425976472,
+          "needs_clarification": false,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Bring up the archive directory."
+            },
+            {
+              "kind": "capability",
+              "reference": "google_search"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": false,
+          "selected_capability": false,
+          "context_references": true,
+          "missing_information": true,
+          "needs_clarification": true,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 2.0263,
+          "model_inference_ms": 190.5225,
+          "postprocessing_ms": 4.633299999999991
+        }
+      },
+      {
+        "id": "synth_open_archive_folder-en-04",
+        "split": "dev",
+        "language": "en",
+        "categories": [
+          "single_action",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "single_action",
+        "expected_selected_capability": "open_folder",
+        "expected_needs_clarification": false,
+        "expected_needs_escalation": false,
+        "script_group": "english_latin",
+        "latency_ms": 197.7843,
+        "status": "success",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "Open my old-records folder.",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.22090052603965465,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Open my old-records folder."
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": true,
+          "selected_capability": false,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": false,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.3391,
+          "model_inference_ms": 191.3573,
+          "postprocessing_ms": 5.055599999999998
+        }
+      },
+      {
+        "id": "synth_open_archive_folder-en-05",
+        "split": "dev",
+        "language": "en",
+        "categories": [
+          "single_action",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "single_action",
+        "expected_selected_capability": "open_folder",
+        "expected_needs_clarification": false,
+        "expected_needs_escalation": false,
+        "script_group": "english_latin",
+        "latency_ms": 186.467,
+        "status": "success",
+        "prediction": {
+          "intent": "unsupported_request",
+          "execution_path": "escalate",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [],
+          "missing_information": [],
+          "confidence": 0.19654173898059174,
+          "needs_clarification": false,
+          "needs_escalation": true,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Take me to the archive folder."
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": true,
+          "selected_capability": false,
+          "context_references": true,
+          "missing_information": true,
+          "needs_clarification": true,
+          "needs_escalation": false
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.4074,
+          "model_inference_ms": 181.4927,
+          "postprocessing_ms": 3.5438999999999794
+        }
+      },
+      {
+        "id": "synth_open_archive_folder-te-Latn-01",
+        "split": "dev",
+        "language": "te-Latn",
+        "categories": [
+          "single_action",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "single_action",
+        "expected_selected_capability": "open_folder",
+        "expected_needs_clarification": false,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 191.5595,
+        "status": "success",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "archive folder open cheyyi",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.21326416618167648,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "archive folder open cheyyi"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": true,
+          "selected_capability": false,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": false,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.091,
+          "model_inference_ms": 186.9432,
+          "postprocessing_ms": 3.4989999999999952
+        }
+      },
+      {
+        "id": "synth_open_archive_folder-te-Latn-02",
+        "split": "dev",
+        "language": "te-Latn",
+        "categories": [
+          "single_action",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "single_action",
+        "expected_selected_capability": "open_folder",
+        "expected_needs_clarification": false,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 195.3155,
+        "status": "success",
+        "prediction": {
+          "intent": "research",
+          "execution_path": "multi_step_task",
+          "request_modes": [
+            "action",
+            "research"
+          ],
+          "selected_capability": "google_search",
+          "context_references": [],
+          "missing_information": [],
+          "confidence": 0.19210952942131881,
+          "needs_clarification": false,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "archived files directory chupinchu"
+            },
+            {
+              "kind": "capability",
+              "reference": "google_search"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": false,
+          "selected_capability": false,
+          "context_references": true,
+          "missing_information": true,
+          "needs_clarification": true,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.2272,
+          "model_inference_ms": 190.7761,
+          "postprocessing_ms": 3.2915999999999883
+        }
+      },
+      {
+        "id": "synth_open_archive_folder-te-Latn-03",
+        "split": "dev",
+        "language": "te-Latn",
+        "categories": [
+          "single_action",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "single_action",
+        "expected_selected_capability": "open_folder",
+        "expected_needs_clarification": false,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 220.9609,
+        "status": "success",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action",
+            "research"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "archive directory paiki teesuku ra",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.19628755665985953,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "archive directory paiki teesuku ra"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": false,
+          "selected_capability": false,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": false,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.0934,
+          "model_inference_ms": 214.9405,
+          "postprocessing_ms": 4.895600000000002
+        }
+      },
+      {
+        "id": "synth_open_archive_folder-te-Latn-04",
+        "split": "dev",
+        "language": "te-Latn",
+        "categories": [
+          "single_action",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "single_action",
+        "expected_selected_capability": "open_folder",
+        "expected_needs_clarification": false,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 192.1986,
+        "status": "success",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "old records folder open cheyyi",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.222298986589467,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "old records folder open cheyyi"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": true,
+          "selected_capability": false,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": false,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.3851,
+          "model_inference_ms": 185.415,
+          "postprocessing_ms": 5.368400000000008
+        }
+      },
+      {
+        "id": "synth_open_archive_folder-te-Latn-05",
+        "split": "dev",
+        "language": "te-Latn",
+        "categories": [
+          "single_action",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "single_action",
+        "expected_selected_capability": "open_folder",
+        "expected_needs_clarification": false,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 207.5718,
+        "status": "success",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action",
+            "research"
+          ],
+          "selected_capability": null,
+          "context_references": [],
+          "missing_information": [
+            {
+              "name": "required_information",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.18091005808455585,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "archive folder ki teesuku vellu"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": false,
+          "selected_capability": false,
+          "context_references": true,
+          "missing_information": false,
+          "needs_clarification": false,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.146,
+          "model_inference_ms": 202.0104,
+          "postprocessing_ms": 4.389100000000013
+        }
+      },
+      {
+        "id": "synth_open_archive_folder-hi-Latn-01",
+        "split": "dev",
+        "language": "hi-Latn",
+        "categories": [
+          "single_action",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "single_action",
+        "expected_selected_capability": "open_folder",
+        "expected_needs_clarification": false,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 232.2224,
+        "status": "success",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action",
+            "research"
+          ],
+          "selected_capability": null,
+          "context_references": [],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.20008239938946498,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "archive folder kholo"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": false,
+          "selected_capability": false,
+          "context_references": true,
+          "missing_information": false,
+          "needs_clarification": false,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.2502,
+          "model_inference_ms": 225.6675,
+          "postprocessing_ms": 5.272999999999996
+        }
+      },
+      {
+        "id": "synth_open_archive_folder-hi-Latn-02",
+        "split": "dev",
+        "language": "hi-Latn",
+        "categories": [
+          "single_action",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "single_action",
+        "expected_selected_capability": "open_folder",
+        "expected_needs_clarification": false,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 209.4157,
+        "status": "success",
+        "prediction": {
+          "intent": "unsupported_request",
+          "execution_path": "escalate",
+          "request_modes": [
+            "action",
+            "research"
+          ],
+          "selected_capability": null,
+          "context_references": [],
+          "missing_information": [],
+          "confidence": 0.18556094451279945,
+          "needs_clarification": false,
+          "needs_escalation": true,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "archived files directory dikhao"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": false,
+          "selected_capability": false,
+          "context_references": true,
+          "missing_information": true,
+          "needs_clarification": true,
+          "needs_escalation": false
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.3429,
+          "model_inference_ms": 204.1827,
+          "postprocessing_ms": 3.868600000000015
+        }
+      },
+      {
+        "id": "synth_open_archive_folder-hi-Latn-03",
+        "split": "dev",
+        "language": "hi-Latn",
+        "categories": [
+          "single_action",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "single_action",
+        "expected_selected_capability": "open_folder",
+        "expected_needs_clarification": false,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 187.9032,
+        "status": "success",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action",
+            "research"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "archive directory saamne lao",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.2172866711257276,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "archive directory saamne lao"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": false,
+          "selected_capability": false,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": false,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.1063,
+          "model_inference_ms": 181.2045,
+          "postprocessing_ms": 5.557999999999993
+        }
+      },
+      {
+        "id": "synth_open_archive_folder-hi-Latn-04",
+        "split": "dev",
+        "language": "hi-Latn",
+        "categories": [
+          "single_action",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "single_action",
+        "expected_selected_capability": "open_folder",
+        "expected_needs_clarification": false,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 196.0035,
+        "status": "success",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.2004354678108045,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "old records folder kholo"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": true,
+          "selected_capability": false,
+          "context_references": true,
+          "missing_information": false,
+          "needs_clarification": false,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.2458,
+          "model_inference_ms": 190.4514,
+          "postprocessing_ms": 4.278899999999993
+        }
+      },
+      {
+        "id": "synth_open_archive_folder-hi-Latn-05",
+        "split": "dev",
+        "language": "hi-Latn",
+        "categories": [
+          "single_action",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "single_action",
+        "expected_selected_capability": "open_folder",
+        "expected_needs_clarification": false,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 191.0747,
+        "status": "success",
+        "prediction": {
+          "intent": "unsupported_request",
+          "execution_path": "escalate",
+          "request_modes": [
+            "action",
+            "research"
+          ],
+          "selected_capability": null,
+          "context_references": [],
+          "missing_information": [],
+          "confidence": 0.20957669825904393,
+          "needs_clarification": false,
+          "needs_escalation": true,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "archive folder par le chalo"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": false,
+          "selected_capability": false,
+          "context_references": true,
+          "missing_information": true,
+          "needs_clarification": true,
+          "needs_escalation": false
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.1759,
+          "model_inference_ms": 185.9317,
+          "postprocessing_ms": 3.9372999999999934
+        }
+      },
+      {
+        "id": "synth_open_archive_folder-ta-Latn-01",
+        "split": "dev",
+        "language": "ta-Latn",
+        "categories": [
+          "single_action",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "single_action",
+        "expected_selected_capability": "open_folder",
+        "expected_needs_clarification": false,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 187.8822,
+        "status": "success",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "archive folder-ai open pannu",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.2379302971638561,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "archive folder-ai open pannu"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": true,
+          "selected_capability": false,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": false,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.4252,
+          "model_inference_ms": 181.4134,
+          "postprocessing_ms": 5.009700000000009
+        }
+      },
+      {
+        "id": "synth_open_archive_folder-ta-Latn-02",
+        "split": "dev",
+        "language": "ta-Latn",
+        "categories": [
+          "single_action",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "single_action",
+        "expected_selected_capability": "open_folder",
+        "expected_needs_clarification": false,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 211.9958,
+        "status": "success",
+        "prediction": {
+          "intent": "unsupported_request",
+          "execution_path": "escalate",
+          "request_modes": [
+            "action",
+            "research"
+          ],
+          "selected_capability": null,
+          "context_references": [],
+          "missing_information": [],
+          "confidence": 0.18783410010848475,
+          "needs_clarification": false,
+          "needs_escalation": true,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "archived files directory kaatu"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": false,
+          "selected_capability": false,
+          "context_references": true,
+          "missing_information": true,
+          "needs_clarification": true,
+          "needs_escalation": false
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.2943,
+          "model_inference_ms": 206.9834,
+          "postprocessing_ms": 3.6929000000000087
+        }
+      },
+      {
+        "id": "synth_open_archive_folder-ta-Latn-03",
+        "split": "dev",
+        "language": "ta-Latn",
+        "categories": [
+          "single_action",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "single_action",
+        "expected_selected_capability": "open_folder",
+        "expected_needs_clarification": false,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 204.5514,
+        "status": "success",
+        "prediction": {
+          "intent": "research",
+          "execution_path": "multi_step_task",
+          "request_modes": [
+            "action",
+            "research"
+          ],
+          "selected_capability": "google_search",
+          "context_references": [],
+          "missing_information": [],
+          "confidence": 0.2314879734650338,
+          "needs_clarification": false,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "archive directory kondu vaa"
+            },
+            {
+              "kind": "capability",
+              "reference": "google_search"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": false,
+          "selected_capability": false,
+          "context_references": true,
+          "missing_information": true,
+          "needs_clarification": true,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.394,
+          "model_inference_ms": 198.2671,
+          "postprocessing_ms": 4.866500000000002
+        }
+      },
+      {
+        "id": "synth_open_archive_folder-ta-Latn-04",
+        "split": "dev",
+        "language": "ta-Latn",
+        "categories": [
+          "single_action",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "single_action",
+        "expected_selected_capability": "open_folder",
+        "expected_needs_clarification": false,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 193.1929,
+        "status": "success",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "old records folder-ai open pannu",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.2439368669827048,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "old records folder-ai open pannu"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": true,
+          "selected_capability": false,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": false,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.0218,
+          "model_inference_ms": 187.4563,
+          "postprocessing_ms": 4.6839999999999975
+        }
+      },
+      {
+        "id": "synth_open_archive_folder-ta-Latn-05",
+        "split": "dev",
+        "language": "ta-Latn",
+        "categories": [
+          "single_action",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "single_action",
+        "expected_selected_capability": "open_folder",
+        "expected_needs_clarification": false,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 184.5699,
+        "status": "success",
+        "prediction": {
+          "intent": "research",
+          "execution_path": "multi_step_task",
+          "request_modes": [
+            "action",
+            "research"
+          ],
+          "selected_capability": "google_search",
+          "context_references": [],
+          "missing_information": [],
+          "confidence": 0.231641968370028,
+          "needs_clarification": false,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "archive folder-ku kondu po"
+            },
+            {
+              "kind": "capability",
+              "reference": "google_search"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": false,
+          "selected_capability": false,
+          "context_references": true,
+          "missing_information": true,
+          "needs_clarification": true,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.2188,
+          "model_inference_ms": 178.5395,
+          "postprocessing_ms": 4.783200000000022
+        }
+      },
+      {
+        "id": "synth_unresolved_followup-en-01",
+        "split": "dev",
+        "language": "en",
+        "categories": [
+          "clarify",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "clarify",
+        "expected_selected_capability": null,
+        "expected_needs_clarification": true,
+        "expected_needs_escalation": false,
+        "script_group": "english_latin",
+        "latency_ms": 180.6763,
+        "status": "success",
+        "prediction": {
+          "intent": "research",
+          "execution_path": "research",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": "google_search",
+          "context_references": [],
+          "missing_information": [],
+          "confidence": 0.18760769069196753,
+          "needs_clarification": false,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Do the next part."
+            },
+            {
+              "kind": "capability",
+              "reference": "google_search"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": true,
+          "selected_capability": false,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": false,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.2597,
+          "model_inference_ms": 176.6093,
+          "postprocessing_ms": 2.7882999999999925
+        }
+      },
+      {
+        "id": "synth_unresolved_followup-en-02",
+        "split": "dev",
+        "language": "en",
+        "categories": [
+          "clarify",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "clarify",
+        "expected_selected_capability": null,
+        "expected_needs_clarification": true,
+        "expected_needs_escalation": false,
+        "script_group": "english_latin",
+        "latency_ms": 192.8278,
+        "status": "success",
+        "prediction": {
+          "intent": "unsupported_request",
+          "execution_path": "escalate",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "Carry on from there.",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [],
+          "confidence": 0.2158655933194978,
+          "needs_clarification": false,
+          "needs_escalation": true,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Carry on from there."
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": true,
+          "selected_capability": true,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": false,
+          "needs_escalation": false
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.1955,
+          "model_inference_ms": 188.5021,
+          "postprocessing_ms": 3.1053999999999746
+        }
+      },
+      {
+        "id": "synth_unresolved_followup-en-03",
+        "split": "dev",
+        "language": "en",
+        "categories": [
+          "clarify",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "clarify",
+        "expected_selected_capability": null,
+        "expected_needs_clarification": true,
+        "expected_needs_escalation": false,
+        "script_group": "english_latin",
+        "latency_ms": 164.6406,
+        "status": "success",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "Finish what we started.",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.25707859060083954,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Finish what we started."
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": true,
+          "execution_path": true,
+          "request_modes": true,
+          "selected_capability": true,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": true,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 0.9825,
+          "model_inference_ms": 159.4019,
+          "postprocessing_ms": 4.236500000000007
+        }
+      },
+      {
+        "id": "synth_unresolved_followup-en-04",
+        "split": "dev",
+        "language": "en",
+        "categories": [
+          "clarify",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "clarify",
+        "expected_selected_capability": null,
+        "expected_needs_clarification": true,
+        "expected_needs_escalation": false,
+        "script_group": "english_latin",
+        "latency_ms": 186.8115,
+        "status": "success",
+        "prediction": {
+          "intent": "research",
+          "execution_path": "research",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": "google_search",
+          "context_references": [],
+          "missing_information": [],
+          "confidence": 0.19519848353610134,
+          "needs_clarification": false,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Continue with the previous thing."
+            },
+            {
+              "kind": "capability",
+              "reference": "google_search"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": true,
+          "selected_capability": false,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": false,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.1532,
+          "model_inference_ms": 182.5997,
+          "postprocessing_ms": 3.0371999999999844
+        }
+      },
+      {
+        "id": "synth_unresolved_followup-en-05",
+        "split": "dev",
+        "language": "en",
+        "categories": [
+          "clarify",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "clarify",
+        "expected_selected_capability": null,
+        "expected_needs_clarification": true,
+        "expected_needs_escalation": false,
+        "script_group": "english_latin",
+        "latency_ms": 182.6102,
+        "status": "success",
+        "prediction": {
+          "intent": "research",
+          "execution_path": "research",
+          "request_modes": [
+            "action",
+            "research"
+          ],
+          "selected_capability": "google_search",
+          "context_references": [],
+          "missing_information": [],
+          "confidence": 0.22653787048026403,
+          "needs_clarification": false,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "Take the next step."
+            },
+            {
+              "kind": "capability",
+              "reference": "google_search"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": false,
+          "selected_capability": false,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": false,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.3175,
+          "model_inference_ms": 177.0425,
+          "postprocessing_ms": 4.227700000000027
+        }
+      },
+      {
+        "id": "synth_unresolved_followup-te-Latn-01",
+        "split": "dev",
+        "language": "te-Latn",
+        "categories": [
+          "clarify",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "clarify",
+        "expected_selected_capability": null,
+        "expected_needs_clarification": true,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 174.6818,
+        "status": "success",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "next part cheyyi",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.2313231328535071,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "next part cheyyi"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": true,
+          "execution_path": true,
+          "request_modes": true,
+          "selected_capability": true,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": true,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.1582,
+          "model_inference_ms": 170.7264,
+          "postprocessing_ms": 2.779899999999998
+        }
+      },
+      {
+        "id": "synth_unresolved_followup-te-Latn-02",
+        "split": "dev",
+        "language": "te-Latn",
+        "categories": [
+          "clarify",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "clarify",
+        "expected_selected_capability": null,
+        "expected_needs_clarification": true,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 190.4474,
+        "status": "success",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "akkadi nunchi continue cheyyi",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.2549915484838631,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "akkadi nunchi continue cheyyi"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": true,
+          "execution_path": true,
+          "request_modes": true,
+          "selected_capability": true,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": true,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 0.8669,
+          "model_inference_ms": 186.0286,
+          "postprocessing_ms": 3.5315999999999974
+        }
+      },
+      {
+        "id": "synth_unresolved_followup-te-Latn-03",
+        "split": "dev",
+        "language": "te-Latn",
+        "categories": [
+          "clarify",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "clarify",
+        "expected_selected_capability": null,
+        "expected_needs_clarification": true,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 165.5338,
+        "status": "success",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "manam start chesindi finish cheyyi",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.290827896775285,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "manam start chesindi finish cheyyi"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": true,
+          "execution_path": true,
+          "request_modes": true,
+          "selected_capability": true,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": true,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.1305,
+          "model_inference_ms": 160.459,
+          "postprocessing_ms": 3.9247999999999763
+        }
+      },
+      {
+        "id": "synth_unresolved_followup-te-Latn-04",
+        "split": "dev",
+        "language": "te-Latn",
+        "categories": [
+          "clarify",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "clarify",
+        "expected_selected_capability": null,
+        "expected_needs_clarification": true,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 167.6781,
+        "status": "success",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "previous thing continue cheyyi",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.2337891820307367,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "previous thing continue cheyyi"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": true,
+          "execution_path": true,
+          "request_modes": true,
+          "selected_capability": true,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": true,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.1373,
+          "model_inference_ms": 161.7263,
+          "postprocessing_ms": 4.765699999999981
+        }
+      },
+      {
+        "id": "synth_unresolved_followup-te-Latn-05",
+        "split": "dev",
+        "language": "te-Latn",
+        "categories": [
+          "clarify",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "clarify",
+        "expected_selected_capability": null,
+        "expected_needs_clarification": true,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 159.918,
+        "status": "success",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action",
+            "research"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "next step teesuko",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.21420056479413616,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "next step teesuko"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": true,
+          "execution_path": true,
+          "request_modes": false,
+          "selected_capability": true,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": true,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.3435,
+          "model_inference_ms": 153.6057,
+          "postprocessing_ms": 4.9348999999999705
+        }
+      },
+      {
+        "id": "synth_unresolved_followup-hi-Latn-01",
+        "split": "dev",
+        "language": "hi-Latn",
+        "categories": [
+          "clarify",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "clarify",
+        "expected_selected_capability": null,
+        "expected_needs_clarification": true,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 179.1019,
+        "status": "success",
+        "prediction": {
+          "intent": "unsupported_request",
+          "execution_path": "escalate",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [],
+          "missing_information": [],
+          "confidence": 0.19728288889314607,
+          "needs_clarification": false,
+          "needs_escalation": true,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "agla part karo"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": true,
+          "selected_capability": true,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": false,
+          "needs_escalation": false
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.2355,
+          "model_inference_ms": 175.085,
+          "postprocessing_ms": 2.7631999999999834
+        }
+      },
+      {
+        "id": "synth_unresolved_followup-hi-Latn-02",
+        "split": "dev",
+        "language": "hi-Latn",
+        "categories": [
+          "clarify",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "clarify",
+        "expected_selected_capability": null,
+        "expected_needs_clarification": true,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 191.916,
+        "status": "success",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "wahan se continue karo",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "required_information",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.1998707353860411,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "wahan se continue karo"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": true,
+          "execution_path": true,
+          "request_modes": true,
+          "selected_capability": true,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": true,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.0925,
+          "model_inference_ms": 185.9289,
+          "postprocessing_ms": 4.865399999999994
+        }
+      },
+      {
+        "id": "synth_unresolved_followup-hi-Latn-03",
+        "split": "dev",
+        "language": "hi-Latn",
+        "categories": [
+          "clarify",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "clarify",
+        "expected_selected_capability": null,
+        "expected_needs_clarification": true,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 174.5136,
+        "status": "success",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action",
+            "research"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "jo shuru kiya use finish karo",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.21761278107605264,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "jo shuru kiya use finish karo"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": true,
+          "execution_path": true,
+          "request_modes": false,
+          "selected_capability": true,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": true,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.2158,
+          "model_inference_ms": 169.6746,
+          "postprocessing_ms": 3.602499999999992
+        }
+      },
+      {
+        "id": "synth_unresolved_followup-hi-Latn-04",
+        "split": "dev",
+        "language": "hi-Latn",
+        "categories": [
+          "clarify",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "clarify",
+        "expected_selected_capability": null,
+        "expected_needs_clarification": true,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 189.5782,
+        "status": "success",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [],
+          "missing_information": [
+            {
+              "name": "required_information",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.19396615147980448,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "previous thing continue karo"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": true,
+          "execution_path": true,
+          "request_modes": true,
+          "selected_capability": true,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": true,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.0184,
+          "model_inference_ms": 183.829,
+          "postprocessing_ms": 4.697399999999988
+        }
+      },
+      {
+        "id": "synth_unresolved_followup-hi-Latn-05",
+        "split": "dev",
+        "language": "hi-Latn",
+        "categories": [
+          "clarify",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "clarify",
+        "expected_selected_capability": null,
+        "expected_needs_clarification": true,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 181.246,
+        "status": "success",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "agla step lo",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.21399826646167763,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "agla step lo"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": true,
+          "execution_path": true,
+          "request_modes": true,
+          "selected_capability": true,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": true,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.4212,
+          "model_inference_ms": 175.264,
+          "postprocessing_ms": 4.532600000000002
+        }
+      },
+      {
+        "id": "synth_unresolved_followup-ta-Latn-01",
+        "split": "dev",
+        "language": "ta-Latn",
+        "categories": [
+          "clarify",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "clarify",
+        "expected_selected_capability": null,
+        "expected_needs_clarification": true,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 171.7741,
+        "status": "success",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "next part pannu",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.25109514600601707,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "next part pannu"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": true,
+          "execution_path": true,
+          "request_modes": true,
+          "selected_capability": true,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": true,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.2179,
+          "model_inference_ms": 165.7401,
+          "postprocessing_ms": 4.788399999999996
+        }
+      },
+      {
+        "id": "synth_unresolved_followup-ta-Latn-02",
+        "split": "dev",
+        "language": "ta-Latn",
+        "categories": [
+          "clarify",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "clarify",
+        "expected_selected_capability": null,
+        "expected_needs_clarification": true,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 186.8684,
+        "status": "success",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "anga irundhu continue pannu",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.2770005952325532,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "anga irundhu continue pannu"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": true,
+          "execution_path": true,
+          "request_modes": true,
+          "selected_capability": true,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": true,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.2261,
+          "model_inference_ms": 181.4614,
+          "postprocessing_ms": 4.150900000000007
+        }
+      },
+      {
+        "id": "synth_unresolved_followup-ta-Latn-03",
+        "split": "dev",
+        "language": "ta-Latn",
+        "categories": [
+          "clarify",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "clarify",
+        "expected_selected_capability": null,
+        "expected_needs_clarification": true,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 200.9072,
+        "status": "success",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "start pannadhe finish pannu",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.28825913387297714,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "start pannadhe finish pannu"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": true,
+          "execution_path": true,
+          "request_modes": true,
+          "selected_capability": true,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": true,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.2612,
+          "model_inference_ms": 194.0552,
+          "postprocessing_ms": 5.558099999999996
+        }
+      },
+      {
+        "id": "synth_unresolved_followup-ta-Latn-04",
+        "split": "dev",
+        "language": "ta-Latn",
+        "categories": [
+          "clarify",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "clarify",
+        "expected_selected_capability": null,
+        "expected_needs_clarification": true,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 245.9302,
+        "status": "success",
+        "prediction": {
+          "intent": "clarify_request",
+          "execution_path": "clarify",
+          "request_modes": [
+            "action"
+          ],
+          "selected_capability": null,
+          "context_references": [
+            {
+              "reference": "previous thing continue pannu",
+              "kind": "item",
+              "resolved_value": null
+            }
+          ],
+          "missing_information": [
+            {
+              "name": "target",
+              "description": "Required information is unresolved"
+            }
+          ],
+          "confidence": 0.23972873047056148,
+          "needs_clarification": true,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "previous thing continue pannu"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": true,
+          "execution_path": true,
+          "request_modes": true,
+          "selected_capability": true,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": true,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.3163,
+          "model_inference_ms": 238.2578,
+          "postprocessing_ms": 6.3238999999999805
+        }
+      },
+      {
+        "id": "synth_unresolved_followup-ta-Latn-05",
+        "split": "dev",
+        "language": "ta-Latn",
+        "categories": [
+          "clarify",
+          "synthetic_training_candidate"
+        ],
+        "expected_execution_path": "clarify",
+        "expected_selected_capability": null,
+        "expected_needs_clarification": true,
+        "expected_needs_escalation": false,
+        "script_group": "romanized",
+        "latency_ms": 249.1583,
+        "status": "success",
+        "prediction": {
+          "intent": "research",
+          "execution_path": "research",
+          "request_modes": [
+            "action",
+            "research"
+          ],
+          "selected_capability": "google_search",
+          "context_references": [],
+          "missing_information": [],
+          "confidence": 0.2595804978465932,
+          "needs_clarification": false,
+          "needs_escalation": false,
+          "evidence": [
+            {
+              "kind": "input_span",
+              "reference": "next step edu"
+            },
+            {
+              "kind": "capability",
+              "reference": "google_search"
+            }
+          ]
+        },
+        "comparisons": {
+          "intent": false,
+          "execution_path": false,
+          "request_modes": false,
+          "selected_capability": false,
+          "context_references": false,
+          "missing_information": false,
+          "needs_clarification": false,
+          "needs_escalation": true
+        },
+        "inference_components_ms": {
+          "preprocessing_ms": 1.2085,
+          "model_inference_ms": 236.1596,
+          "postprocessing_ms": 11.758399999999995
+        }
+      }
+    ],
+    "limitations": [
+      "Classification only; selected capabilities are never executed.",
+      "Legacy classify() hides internal Ollama failures by returning GEMINI.",
+      "Legacy semantic fields are unavailable and are not inferred from routes.",
+      "Seed-set group metrics have small sample sizes and are descriptive only."
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+DETAILS OF ALL 12 FROZEN-100 AUDITED RECORDS:
+ID: frozen100-048 | Status: ambiguous_or_underspecified | OrigExact: False -> AuditExact: False
+   Remaining mismatches: ['context_references']
+   Model context_refs: [{'reference': 'this', 'kind': 'item', 'resolved_value': None}]
+   Audit context_refs: []
+ID: frozen100-056 | Status: confirmed_incorrect | OrigExact: False -> AuditExact: True
+   => FLIPPED TO STRICT EXACT MATCH!
+ID: frozen100-057 | Status: confirmed_incorrect | OrigExact: False -> AuditExact: False
+   Remaining mismatches: ['context_references']
+   Model context_refs: []
+   Audit context_refs: [{'kind': 'item', 'reference': 'इसे', 'resolved_value': None}]
+ID: frozen100-058 | Status: confirmed_incorrect | OrigExact: False -> AuditExact: False
+   Remaining mismatches: ['intent', 'execution_path', 'selected_capability', 'needs_clarification', 'missing_information']
+   Model context_refs: [{'reference': 'वह', 'kind': 'item', 'resolved_value': None}]
+   Audit context_refs: [{'kind': 'item', 'reference': 'वह', 'resolved_value': None}]
+ID: frozen100-059 | Status: confirmed_incorrect | OrigExact: False -> AuditExact: True
+   => FLIPPED TO STRICT EXACT MATCH!
+ID: frozen100-060 | Status: confirmed_incorrect | OrigExact: False -> AuditExact: True
+   => FLIPPED TO STRICT EXACT MATCH!
+ID: frozen100-061 | Status: confirmed_incorrect | OrigExact: False -> AuditExact: False
+   Remaining mismatches: ['context_references']
+   Model context_refs: []
+   Audit context_refs: [{'kind': 'item', 'reference': 'దీన్ని', 'resolved_value': None}]
+ID: frozen100-062 | Status: confirmed_incorrect | OrigExact: False -> AuditExact: False
+   Remaining mismatches: ['intent', 'execution_path', 'selected_capability', 'needs_clarification', 'missing_information', 'context_references']
+   Model context_refs: []
+   Audit context_refs: [{'kind': 'item', 'reference': 'అది', 'resolved_value': None}]
+ID: frozen100-063 | Status: confirmed_incorrect | OrigExact: False -> AuditExact: False
+   Remaining mismatches: ['intent', 'execution_path', 'needs_clarification', 'needs_escalation', 'missing_information']
+   Model context_refs: [{'reference': 'danni', 'kind': 'item', 'resolved_value': None}]
+   Audit context_refs: [{'kind': 'item', 'reference': 'danni', 'resolved_value': None}]
+ID: frozen100-064 | Status: confirmed_incorrect | OrigExact: False -> AuditExact: True
+   => FLIPPED TO STRICT EXACT MATCH!
+ID: frozen100-065 | Status: confirmed_incorrect | OrigExact: False -> AuditExact: False
+   Remaining mismatches: ['context_references']
+   Model context_refs: []
+   Audit context_refs: [{'kind': 'item', 'reference': 'அதை', 'resolved_value': None}]
+ID: frozen100-066 | Status: confirmed_incorrect | OrigExact: False -> AuditExact: False
+   Remaining mismatches: ['context_references']
+   Model context_refs: [{'reference': 'athai', 'kind': 'item', 'resolved_value': None}]
+   Audit context_refs: [{'kind': 'item', 'reference': 'adi', 'resolved_value': None}]

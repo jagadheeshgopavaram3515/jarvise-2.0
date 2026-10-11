@@ -1,0 +1,134 @@
+Total Regressed: 13
+Total Improved: 3
+
+=== REGRESSED EXAMPLES (B was worse than A) ===
+ID: frozen100-003 | Lang: hi | Group: corpus100-folder
+  Orig:       डाउनलोड्स फ़ोल्डर खोलो
+  Translit:   daaunalods pholdar kholo
+  Expected:   Cap=open_folder, Path=single_action
+  Cond A:     Exact=True, Cap=open_folder, Path=single_action
+  Cond B:     Exact=False, Cap=None, Path=clarify
+  Diffs B vs A: ['intent', 'execution_path', 'selected_capability', 'needs_clarification', 'missing_information', 'context_references']
+------------------------------------------------------------
+ID: frozen100-004 | Lang: hi | Group: corpus100-folder
+  Orig:       बैकअप डायरेक्टरी स्क्रीन पर दिखाओ
+  Translit:   baikaap daayarektaree skreen par dikhaao
+  Expected:   Cap=open_folder, Path=single_action
+  Cond A:     Exact=True, Cap=open_folder, Path=single_action
+  Cond B:     Exact=False, Cap=None, Path=clarify
+  Diffs B vs A: ['intent', 'execution_path', 'request_modes', 'selected_capability', 'needs_clarification', 'missing_information', 'context_references']
+------------------------------------------------------------
+ID: frozen100-007 | Lang: te | Group: corpus100-folder
+  Orig:       నా డౌన్‌లోడ్స్ ఫోల్డర్ ఓపెన్ చెయ్యి
+  Translit:   naa daun‌lods pholdar open cheyyi
+  Expected:   Cap=open_folder, Path=single_action
+  Cond A:     Exact=True, Cap=open_folder, Path=single_action
+  Cond B:     Exact=False, Cap=None, Path=clarify
+  Diffs B vs A: ['intent', 'execution_path', 'selected_capability', 'needs_clarification', 'missing_information', 'context_references']
+------------------------------------------------------------
+ID: frozen100-008 | Lang: te | Group: corpus100-folder
+  Orig:       డాక్యుమెంట్స్ డైరెక్టరీ చూపించు
+  Translit:   daakyumemts dairektaree choopimchu
+  Expected:   Cap=open_folder, Path=single_action
+  Cond A:     Exact=True, Cap=open_folder, Path=single_action
+  Cond B:     Exact=False, Cap=None, Path=clarify
+  Diffs B vs A: ['intent', 'execution_path', 'selected_capability', 'needs_clarification', 'missing_information', 'context_references']
+------------------------------------------------------------
+ID: frozen100-020 | Lang: te | Group: corpus100-file
+  Orig:       ప్రాజెక్ట్ డాక్యుమెంట్ కనుక్కో
+  Translit:   praajekt daakyumemt kanukko
+  Expected:   Cap=find_file, Path=single_action
+  Cond A:     Exact=True, Cap=find_file, Path=single_action
+  Cond B:     Exact=False, Cap=None, Path=escalate
+  Diffs B vs A: ['intent', 'execution_path', 'selected_capability', 'needs_escalation']
+------------------------------------------------------------
+ID: frozen100-027 | Lang: hi | Group: corpus100-app
+  Orig:       कैलकुलेटर ऐप खोलो
+  Translit:   kailakuletar aip kholo
+  Expected:   Cap=open_app, Path=single_action
+  Cond A:     Exact=True, Cap=open_app, Path=single_action
+  Cond B:     Exact=False, Cap=None, Path=clarify
+  Diffs B vs A: ['intent', 'execution_path', 'selected_capability', 'needs_clarification', 'missing_information', 'context_references']
+------------------------------------------------------------
+ID: frozen100-031 | Lang: te | Group: corpus100-app
+  Orig:       కాలిక్యులేటర్ అప్లికేషన్ ఓపెన్ చెయ్యి
+  Translit:   kaalikyuletar aplikeshan open cheyyi
+  Expected:   Cap=open_app, Path=single_action
+  Cond A:     Exact=True, Cap=open_app, Path=single_action
+  Cond B:     Exact=False, Cap=None, Path=clarify
+  Diffs B vs A: ['intent', 'execution_path', 'selected_capability', 'needs_clarification', 'missing_information', 'context_references']
+------------------------------------------------------------
+ID: frozen100-069 | Lang: hi | Group: corpus100-memory
+  Orig:       हमारे गरुड़ प्रोजेक्ट के बारे में क्या तय हुआ था?
+  Translit:   hamaare garud projekt ke baare men kyaa tay huaa thaa?
+  Expected:   Cap=None, Path=memory_recall
+  Cond A:     Exact=True, Cap=None, Path=memory_recall
+  Cond B:     Exact=False, Cap=None, Path=memory_recall
+  Diffs B vs A: ['context_references']
+------------------------------------------------------------
+ID: frozen100-070 | Lang: hi | Group: corpus100-memory
+  Orig:       क्लाउड प्रोवाइडर पर हमारा क्या निर्णय था?
+  Translit:   klaaud provaaidar par hamaaraa kyaa nirnay thaa?
+  Expected:   Cap=None, Path=memory_recall
+  Cond A:     Exact=True, Cap=None, Path=memory_recall
+  Cond B:     Exact=False, Cap=None, Path=memory_recall
+  Diffs B vs A: ['request_modes', 'context_references']
+------------------------------------------------------------
+ID: frozen100-074 | Lang: te | Group: corpus100-memory
+  Orig:       ఆథెంటికేషన్ ఆర్కిటెక్చర్ నిర్ణయం ఏంటి?
+  Translit:   aathemtikeshan aarkitekchar nirnayam emti?
+  Expected:   Cap=None, Path=memory_recall
+  Cond A:     Exact=True, Cap=None, Path=memory_recall
+  Cond B:     Exact=False, Cap=None, Path=memory_recall
+  Diffs B vs A: ['context_references']
+------------------------------------------------------------
+ID: frozen100-081 | Lang: hi | Group: corpus100-direct
+  Orig:       भारत की सबसे लंबी नदी कौन सी है?
+  Translit:   bhaarat kee sabase lanbee nadee kaun see hai?
+  Expected:   Cap=None, Path=direct_response
+  Cond A:     Exact=True, Cap=None, Path=direct_response
+  Cond B:     Exact=False, Cap=None, Path=clarify
+  Diffs B vs A: ['intent', 'execution_path', 'needs_clarification', 'missing_information', 'context_references']
+------------------------------------------------------------
+ID: frozen100-084 | Lang: te | Group: corpus100-direct
+  Orig:       భూమి పరిమాణం ఎంత?
+  Translit:   bhoomi parimaanam emta?
+  Expected:   Cap=None, Path=direct_response
+  Cond A:     Exact=True, Cap=None, Path=direct_response
+  Cond B:     Exact=False, Cap=None, Path=clarify
+  Diffs B vs A: ['intent', 'execution_path', 'needs_clarification', 'missing_information', 'context_references']
+------------------------------------------------------------
+ID: frozen100-086 | Lang: ta | Group: corpus100-direct
+  Orig:       சூரிய குடும்பத்தில் எத்தனை கோள்கள் உள்ளன?
+  Translit:   sooriya kutumpaththil eththanai kolkal ullana?
+  Expected:   Cap=None, Path=direct_response
+  Cond A:     Exact=True, Cap=None, Path=direct_response
+  Cond B:     Exact=False, Cap=None, Path=clarify
+  Diffs B vs A: ['intent', 'execution_path', 'needs_clarification', 'missing_information', 'context_references']
+------------------------------------------------------------
+
+=== IMPROVED EXAMPLES (B was better than A) ===
+ID: frozen100-058 | Lang: hi | Group: corpus100-clarify
+  Orig:       वह तुरंत खोलो
+  Translit:   vah turant kholo
+  Expected:   Cap=None, Path=clarify
+  Cond A:     Exact=False, Cap=open_folder, Path=single_action
+  Cond B:     Exact=False, Cap=None, Path=clarify
+  Diffs B vs A: ['intent', 'execution_path', 'selected_capability', 'needs_clarification', 'missing_information', 'context_references']
+------------------------------------------------------------
+ID: frozen100-062 | Lang: te | Group: corpus100-clarify
+  Orig:       అది ఓపెన్ చెయ్యి
+  Translit:   adi open cheyyi
+  Expected:   Cap=None, Path=clarify
+  Cond A:     Exact=False, Cap=open_folder, Path=single_action
+  Cond B:     Exact=False, Cap=None, Path=clarify
+  Diffs B vs A: ['intent', 'execution_path', 'selected_capability', 'needs_clarification', 'missing_information', 'context_references']
+------------------------------------------------------------
+ID: frozen100-097 | Lang: hi | Group: corpus100-escalate
+  Orig:       दिल्ली से मुंबई की फ्लाइट टिकट बुक कर दो
+  Translit:   dillee se munbaee kee phlaait tikat buk kar do
+  Expected:   Cap=None, Path=escalate
+  Cond A:     Exact=False, Cap=google_search, Path=single_action
+  Cond B:     Exact=False, Cap=None, Path=direct_response
+  Diffs B vs A: ['intent', 'execution_path', 'request_modes', 'selected_capability']
+------------------------------------------------------------

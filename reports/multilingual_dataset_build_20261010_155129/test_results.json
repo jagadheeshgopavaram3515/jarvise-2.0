@@ -1,0 +1,10 @@
+{
+  "framework": "stdlib unittest",
+  "tests_run": 33,
+  "failures": 0,
+  "errors": 0,
+  "success": true,
+  "fixtures": "Synthetic unit fixtures only; never included in datasets or human approval counts",
+  "training_main_executed": false,
+  "encoder_or_provider_called": false
+}

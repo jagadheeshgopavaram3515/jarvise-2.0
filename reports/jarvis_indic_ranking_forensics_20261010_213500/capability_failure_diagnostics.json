@@ -1,0 +1,644 @@
+[
+  {
+    "id": "frozen100-011",
+    "corpus": "Frozen 100",
+    "utterance": "பதிவிறக்கங்கள் கோப்புறையை திறக்கவும்",
+    "language": "ta",
+    "script": "tamil",
+    "scenario_group": "corpus100-folder",
+    "expected_capability": "open_folder",
+    "predicted_capability": null,
+    "candidates": [
+      "open_folder",
+      "find_file"
+    ],
+    "candidate_scores": {
+      "open_folder": 0.9092607140541077,
+      "find_file": 0.9072258710861206
+    },
+    "selected_score": null,
+    "threshold": 0.52,
+    "raw_path": null,
+    "postprocessed_path": "escalate",
+    "failure_stage": "abstention_failure_false_abstention",
+    "mechanism": "Expected 'open_folder' (score=0.909), but model abstained to path 'escalate' (raw=None, clar_prob=0.000, esc_prob=0.000, thresh=0.520)."
+  },
+  {
+    "id": "frozen100-013",
+    "corpus": "Frozen 100",
+    "utterance": "Find the quarterly financial report spreadsheet",
+    "language": "en",
+    "script": "latin",
+    "scenario_group": "corpus100-file",
+    "expected_capability": "find_file",
+    "predicted_capability": "open_folder",
+    "candidates": [
+      "find_file",
+      "open_folder"
+    ],
+    "candidate_scores": {
+      "find_file": 0.7600816488265991,
+      "open_folder": 0.7889689803123474
+    },
+    "selected_score": null,
+    "threshold": 0.52,
+    "raw_path": null,
+    "postprocessed_path": "single_action",
+    "failure_stage": "ranking_competition",
+    "mechanism": "Ranker selected 'open_folder' (score=0.789) over expected 'find_file' (score=0.760) with margin +0.029."
+  },
+  {
+    "id": "frozen100-015",
+    "corpus": "Frozen 100",
+    "utterance": "टैक्स रसीद की पीडीएफ फाइल ढूंढो",
+    "language": "hi",
+    "script": "devanagari",
+    "scenario_group": "corpus100-file",
+    "expected_capability": "find_file",
+    "predicted_capability": "open_folder",
+    "candidates": [
+      "find_file",
+      "open_folder"
+    ],
+    "candidate_scores": {
+      "find_file": 0.7721199035644531,
+      "open_folder": 0.8138776063919068
+    },
+    "selected_score": null,
+    "threshold": 0.52,
+    "raw_path": null,
+    "postprocessed_path": "single_action",
+    "failure_stage": "ranking_competition",
+    "mechanism": "Ranker selected 'open_folder' (score=0.814) over expected 'find_file' (score=0.772) with margin +0.042."
+  },
+  {
+    "id": "frozen100-016",
+    "corpus": "Frozen 100",
+    "utterance": "प्रोजेक्ट प्रपोजल डॉक्यूमेंट तलाशो",
+    "language": "hi",
+    "script": "devanagari",
+    "scenario_group": "corpus100-file",
+    "expected_capability": "find_file",
+    "predicted_capability": null,
+    "candidates": [
+      "find_file",
+      "open_app"
+    ],
+    "candidate_scores": {
+      "find_file": 0.8471263885498047,
+      "open_app": 0.8721462726593018
+    },
+    "selected_score": null,
+    "threshold": 0.52,
+    "raw_path": null,
+    "postprocessed_path": "escalate",
+    "failure_stage": "abstention_failure_false_abstention",
+    "mechanism": "Expected 'find_file' (score=0.847), but model abstained to path 'escalate' (raw=None, clar_prob=0.000, esc_prob=0.000, thresh=0.520)."
+  },
+  {
+    "id": "frozen100-017",
+    "corpus": "Frozen 100",
+    "utterance": "october invoice file search karo",
+    "language": "hi-Latn",
+    "script": "latin",
+    "scenario_group": "corpus100-file",
+    "expected_capability": "find_file",
+    "predicted_capability": null,
+    "candidates": [
+      "find_file",
+      "open_folder"
+    ],
+    "candidate_scores": {
+      "find_file": 0.689885573387146,
+      "open_folder": 0.619581651687622
+    },
+    "selected_score": null,
+    "threshold": 0.52,
+    "raw_path": null,
+    "postprocessed_path": "escalate",
+    "failure_stage": "abstention_failure_false_abstention",
+    "mechanism": "Expected 'find_file' (score=0.690), but model abstained to path 'escalate' (raw=None, clar_prob=0.000, esc_prob=0.000, thresh=0.520)."
+  },
+  {
+    "id": "frozen100-019",
+    "corpus": "Frozen 100",
+    "utterance": "కాలేజ్ సర్టిఫికెట్ పిడిఎఫ్ ఫైల్ వెతుకు",
+    "language": "te",
+    "script": "telugu",
+    "scenario_group": "corpus100-file",
+    "expected_capability": "find_file",
+    "predicted_capability": "open_folder",
+    "candidates": [
+      "find_file",
+      "open_folder"
+    ],
+    "candidate_scores": {
+      "find_file": 0.840792202949524,
+      "open_folder": 0.8714956283569336
+    },
+    "selected_score": null,
+    "threshold": 0.52,
+    "raw_path": null,
+    "postprocessed_path": "single_action",
+    "failure_stage": "ranking_competition",
+    "mechanism": "Ranker selected 'open_folder' (score=0.871) over expected 'find_file' (score=0.841) with margin +0.031."
+  },
+  {
+    "id": "frozen100-023",
+    "corpus": "Frozen 100",
+    "utterance": "வருமான வரி ரசீது கோப்பை தேடு",
+    "language": "ta",
+    "script": "tamil",
+    "scenario_group": "corpus100-file",
+    "expected_capability": "find_file",
+    "predicted_capability": "open_folder",
+    "candidates": [
+      "find_file",
+      "open_folder"
+    ],
+    "candidate_scores": {
+      "find_file": 0.8434098601341248,
+      "open_folder": 0.884738826751709
+    },
+    "selected_score": null,
+    "threshold": 0.52,
+    "raw_path": null,
+    "postprocessed_path": "single_action",
+    "failure_stage": "ranking_competition",
+    "mechanism": "Ranker selected 'open_folder' (score=0.885) over expected 'find_file' (score=0.843) with margin +0.041."
+  },
+  {
+    "id": "frozen100-028",
+    "corpus": "Frozen 100",
+    "utterance": "नोटपैड ऐप बंद करो",
+    "language": "hi",
+    "script": "devanagari",
+    "scenario_group": "corpus100-app",
+    "expected_capability": "close_app",
+    "predicted_capability": "open_folder",
+    "candidates": [
+      "close_app",
+      "open_folder"
+    ],
+    "candidate_scores": {
+      "close_app": 0.6460362911224365,
+      "open_folder": 0.7455255031585694
+    },
+    "selected_score": null,
+    "threshold": 0.52,
+    "raw_path": null,
+    "postprocessed_path": "single_action",
+    "failure_stage": "ranking_competition",
+    "mechanism": "Ranker selected 'open_folder' (score=0.746) over expected 'close_app' (score=0.646) with margin +0.099."
+  },
+  {
+    "id": "frozen100-033",
+    "corpus": "Frozen 100",
+    "utterance": "VS Code application open pannu",
+    "language": "ta-Latn",
+    "script": "latin",
+    "scenario_group": "corpus100-app",
+    "expected_capability": "open_app",
+    "predicted_capability": null,
+    "candidates": [
+      "open_app",
+      "find_file"
+    ],
+    "candidate_scores": {
+      "open_app": 0.7715076971054077,
+      "find_file": 0.7007712888717651
+    },
+    "selected_score": null,
+    "threshold": 0.52,
+    "raw_path": null,
+    "postprocessed_path": "clarify",
+    "failure_stage": "abstention_failure_false_abstention",
+    "mechanism": "Expected 'open_app' (score=0.772), but model abstained to path 'clarify' (raw=None, clar_prob=0.000, esc_prob=0.000, thresh=0.520)."
+  },
+  {
+    "id": "frozen100-037",
+    "corpus": "Frozen 100",
+    "utterance": "भारत में आगामी चंद्र मिशन के बारे में गूगल सर्च करो",
+    "language": "hi",
+    "script": "devanagari",
+    "scenario_group": "corpus100-search",
+    "expected_capability": "google_search",
+    "predicted_capability": null,
+    "candidates": [
+      "google_search",
+      "find_file"
+    ],
+    "candidate_scores": {
+      "google_search": 0.833225154876709,
+      "find_file": 0.8601117372512818
+    },
+    "selected_score": null,
+    "threshold": 0.52,
+    "raw_path": null,
+    "postprocessed_path": "direct_response",
+    "failure_stage": "abstention_failure_false_abstention",
+    "mechanism": "Expected 'google_search' (score=0.833), but model abstained to path 'direct_response' (raw=None, clar_prob=0.000, esc_prob=0.000, thresh=0.520)."
+  },
+  {
+    "id": "frozen100-038",
+    "corpus": "Frozen 100",
+    "utterance": "मशीन लर्निंग के नए एल्गोरिदम वेब पर खोजो",
+    "language": "hi",
+    "script": "devanagari",
+    "scenario_group": "corpus100-search",
+    "expected_capability": "google_search",
+    "predicted_capability": "open_folder",
+    "candidates": [
+      "google_search",
+      "open_folder"
+    ],
+    "candidate_scores": {
+      "google_search": 0.8390825033187866,
+      "open_folder": 0.9046243667602539
+    },
+    "selected_score": null,
+    "threshold": 0.52,
+    "raw_path": null,
+    "postprocessed_path": "single_action",
+    "failure_stage": "ranking_competition",
+    "mechanism": "Ranker selected 'open_folder' (score=0.905) over expected 'google_search' (score=0.839) with margin +0.066."
+  },
+  {
+    "id": "frozen100-039",
+    "corpus": "Frozen 100",
+    "utterance": "Nifty latest market trends google search karo",
+    "language": "hi-Latn",
+    "script": "latin",
+    "scenario_group": "corpus100-search",
+    "expected_capability": "google_search",
+    "predicted_capability": "open_app",
+    "candidates": [
+      "google_search",
+      "open_app"
+    ],
+    "candidate_scores": {
+      "google_search": 0.7031481432914733,
+      "open_app": 0.7156705260276794
+    },
+    "selected_score": null,
+    "threshold": 0.52,
+    "raw_path": null,
+    "postprocessed_path": "single_action",
+    "failure_stage": "ranking_competition",
+    "mechanism": "Ranker selected 'open_app' (score=0.716) over expected 'google_search' (score=0.703) with margin +0.013."
+  },
+  {
+    "id": "frozen100-041",
+    "corpus": "Frozen 100",
+    "utterance": "హైదరాబాద్ వాతావరణ అప్‌డేట్స్ గూగుల్ లో వెతుకు",
+    "language": "te",
+    "script": "telugu",
+    "scenario_group": "corpus100-search",
+    "expected_capability": "google_search",
+    "predicted_capability": "find_file",
+    "candidates": [
+      "google_search",
+      "find_file"
+    ],
+    "candidate_scores": {
+      "google_search": 0.7978927731513977,
+      "find_file": 0.8333215951919556
+    },
+    "selected_score": null,
+    "threshold": 0.52,
+    "raw_path": null,
+    "postprocessed_path": "single_action",
+    "failure_stage": "ranking_competition",
+    "mechanism": "Ranker selected 'find_file' (score=0.833) over expected 'google_search' (score=0.798) with margin +0.035."
+  },
+  {
+    "id": "frozen100-042",
+    "corpus": "Frozen 100",
+    "utterance": "ఆర్టిఫిషియల్ ఇంటెలిజెన్స్ తాజా వార్తలు వెతుకు",
+    "language": "te",
+    "script": "telugu",
+    "scenario_group": "corpus100-search",
+    "expected_capability": "google_search",
+    "predicted_capability": "open_folder",
+    "candidates": [
+      "google_search",
+      "open_folder"
+    ],
+    "candidate_scores": {
+      "google_search": 0.7588277101516724,
+      "open_folder": 0.866635525226593
+    },
+    "selected_score": null,
+    "threshold": 0.52,
+    "raw_path": null,
+    "postprocessed_path": "single_action",
+    "failure_stage": "ranking_competition",
+    "mechanism": "Ranker selected 'open_folder' (score=0.867) over expected 'google_search' (score=0.759) with margin +0.108."
+  },
+  {
+    "id": "frozen100-043",
+    "corpus": "Frozen 100",
+    "utterance": "India vs Australia live match score google search cheyyi",
+    "language": "te-Latn",
+    "script": "latin",
+    "scenario_group": "corpus100-search",
+    "expected_capability": "google_search",
+    "predicted_capability": null,
+    "candidates": [
+      "google_search",
+      "open_app"
+    ],
+    "candidate_scores": {
+      "google_search": 0.6722613143920898,
+      "open_app": 0.6868057250976562
+    },
+    "selected_score": null,
+    "threshold": 0.52,
+    "raw_path": null,
+    "postprocessed_path": "escalate",
+    "failure_stage": "abstention_failure_false_abstention",
+    "mechanism": "Expected 'google_search' (score=0.672), but model abstained to path 'escalate' (raw=None, clar_prob=0.000, esc_prob=0.000, thresh=0.520)."
+  },
+  {
+    "id": "frozen100-045",
+    "corpus": "Frozen 100",
+    "utterance": "தமிழ்நாடு சமீபத்திய செய்தி இணையத்தில் தேடு",
+    "language": "ta",
+    "script": "tamil",
+    "scenario_group": "corpus100-search",
+    "expected_capability": "google_search",
+    "predicted_capability": "open_folder",
+    "candidates": [
+      "google_search",
+      "open_folder"
+    ],
+    "candidate_scores": {
+      "google_search": 0.7921282291412354,
+      "open_folder": 0.8438694715499878
+    },
+    "selected_score": null,
+    "threshold": 0.52,
+    "raw_path": null,
+    "postprocessed_path": "single_action",
+    "failure_stage": "ranking_competition",
+    "mechanism": "Ranker selected 'open_folder' (score=0.844) over expected 'google_search' (score=0.792) with margin +0.052."
+  },
+  {
+    "id": "frozen100-058",
+    "corpus": "Frozen 100",
+    "utterance": "वह तुरंत खोलो",
+    "language": "hi",
+    "script": "devanagari",
+    "scenario_group": "corpus100-clarify",
+    "expected_capability": null,
+    "predicted_capability": "open_folder",
+    "candidates": [
+      "open_folder",
+      "find_file"
+    ],
+    "candidate_scores": {
+      "open_folder": 0.7267956376075745,
+      "find_file": 0.6873121500015259
+    },
+    "selected_score": null,
+    "threshold": 0.52,
+    "raw_path": null,
+    "postprocessed_path": "single_action",
+    "failure_stage": "abstention_failure_false_action",
+    "mechanism": "Expected no capability (path=clarify), but ranker selected 'open_folder' with score None >= threshold 0.520."
+  },
+  {
+    "id": "frozen100-062",
+    "corpus": "Frozen 100",
+    "utterance": "అది ఓపెన్ చెయ్యి",
+    "language": "te",
+    "script": "telugu",
+    "scenario_group": "corpus100-clarify",
+    "expected_capability": null,
+    "predicted_capability": "open_folder",
+    "candidates": [
+      "open_folder",
+      "find_file"
+    ],
+    "candidate_scores": {
+      "open_folder": 0.8003033638000489,
+      "find_file": 0.7516536951065064
+    },
+    "selected_score": null,
+    "threshold": 0.52,
+    "raw_path": null,
+    "postprocessed_path": "single_action",
+    "failure_stage": "abstention_failure_false_action",
+    "mechanism": "Expected no capability (path=clarify), but ranker selected 'open_folder' with score None >= threshold 0.520."
+  },
+  {
+    "id": "frozen100-090",
+    "corpus": "Frozen 100",
+    "utterance": "Show me the step by step instructions to configure SSL certificates on Nginx",
+    "language": "en",
+    "script": "latin",
+    "scenario_group": "corpus100-multistep",
+    "expected_capability": "google_search",
+    "predicted_capability": null,
+    "candidates": [
+      "google_search",
+      "open_folder"
+    ],
+    "candidate_scores": {
+      "google_search": 0.797263503074646,
+      "open_folder": 0.8385964632034302
+    },
+    "selected_score": null,
+    "threshold": 0.52,
+    "raw_path": null,
+    "postprocessed_path": "escalate",
+    "failure_stage": "abstention_failure_false_abstention",
+    "mechanism": "Expected 'google_search' (score=0.797), but model abstained to path 'escalate' (raw=None, clar_prob=0.000, esc_prob=0.000, thresh=0.520)."
+  },
+  {
+    "id": "frozen100-097",
+    "corpus": "Frozen 100",
+    "utterance": "दिल्ली से मुंबई की फ्लाइट टिकट बुक कर दो",
+    "language": "hi",
+    "script": "devanagari",
+    "scenario_group": "corpus100-escalate",
+    "expected_capability": null,
+    "predicted_capability": "google_search",
+    "candidates": [
+      "google_search"
+    ],
+    "candidate_scores": {
+      "google_search": 0.7650704026222229
+    },
+    "selected_score": null,
+    "threshold": 0.52,
+    "raw_path": null,
+    "postprocessed_path": "single_action",
+    "failure_stage": "abstention_failure_false_action",
+    "mechanism": "Expected no capability (path=escalate), but ranker selected 'google_search' with score None >= threshold 0.520."
+  },
+  {
+    "id": "frozen100-098",
+    "corpus": "Frozen 100",
+    "utterance": "bedroom ki AC temperature 22 degree par set karo",
+    "language": "hi-Latn",
+    "script": "latin",
+    "scenario_group": "corpus100-escalate",
+    "expected_capability": null,
+    "predicted_capability": "open_app",
+    "candidates": [
+      "open_app"
+    ],
+    "candidate_scores": {
+      "open_app": 0.7110248804092407
+    },
+    "selected_score": null,
+    "threshold": 0.52,
+    "raw_path": null,
+    "postprocessed_path": "single_action",
+    "failure_stage": "abstention_failure_false_action",
+    "mechanism": "Expected no capability (path=escalate), but ranker selected 'open_app' with score None >= threshold 0.520."
+  },
+  {
+    "id": "frozen100-099",
+    "corpus": "Frozen 100",
+    "utterance": "Uber app lo airport ki cab book cheyyi",
+    "language": "te-Latn",
+    "script": "latin",
+    "scenario_group": "corpus100-escalate",
+    "expected_capability": null,
+    "predicted_capability": "open_app",
+    "candidates": [
+      "open_app"
+    ],
+    "candidate_scores": {
+      "open_app": 0.8475994634628295
+    },
+    "selected_score": null,
+    "threshold": 0.52,
+    "raw_path": null,
+    "postprocessed_path": "single_action",
+    "failure_stage": "abstention_failure_false_action",
+    "mechanism": "Expected no capability (path=escalate), but ranker selected 'open_app' with score None >= threshold 0.520."
+  },
+  {
+    "id": "frozen100-100",
+    "corpus": "Frozen 100",
+    "utterance": "Zomato app-la dinner order pannu",
+    "language": "mixed-en-ta",
+    "script": "latin",
+    "scenario_group": "corpus100-escalate",
+    "expected_capability": null,
+    "predicted_capability": "open_app",
+    "candidates": [
+      "open_app"
+    ],
+    "candidate_scores": {
+      "open_app": 0.7953739929199218
+    },
+    "selected_score": null,
+    "threshold": 0.52,
+    "raw_path": null,
+    "postprocessed_path": "single_action",
+    "failure_stage": "abstention_failure_false_action",
+    "mechanism": "Expected no capability (path=escalate), but ranker selected 'open_app' with score None >= threshold 0.520."
+  },
+  {
+    "id": "unseen-03-te-search",
+    "corpus": "Independent 24",
+    "utterance": "తాజా వాతావరణ వార్తలు గూగుల్ లో వెతుకు",
+    "language": "te",
+    "script": "telugu",
+    "scenario_group": null,
+    "expected_capability": "google_search",
+    "predicted_capability": "open_folder",
+    "candidates": [
+      "google_search",
+      "find_file",
+      "open_folder"
+    ],
+    "candidate_scores": {
+      "google_search": 0.7599662780761719,
+      "find_file": 0.8032874703407288,
+      "open_folder": 0.8530999660491944
+    },
+    "selected_score": null,
+    "threshold": 0.52,
+    "raw_path": null,
+    "postprocessed_path": "single_action",
+    "failure_stage": "ranking_competition",
+    "mechanism": "Ranker selected 'open_folder' (score=0.853) over expected 'google_search' (score=0.760) with margin +0.093."
+  },
+  {
+    "id": "unseen-19-te-closeapp",
+    "corpus": "Independent 24",
+    "utterance": "WhatsApp application close cheyyi",
+    "language": "te-Latn",
+    "script": "latin",
+    "scenario_group": null,
+    "expected_capability": "close_app",
+    "predicted_capability": "open_folder",
+    "candidates": [
+      "close_app",
+      "open_folder"
+    ],
+    "candidate_scores": {
+      "close_app": 0.7481734919548034,
+      "open_folder": 0.7582592368125916
+    },
+    "selected_score": null,
+    "threshold": 0.52,
+    "raw_path": null,
+    "postprocessed_path": "single_action",
+    "failure_stage": "ranking_competition",
+    "mechanism": "Ranker selected 'open_folder' (score=0.758) over expected 'close_app' (score=0.748) with margin +0.010."
+  },
+  {
+    "id": "unseen-20-ta-openapp",
+    "corpus": "Independent 24",
+    "utterance": "VS Code application open pannu",
+    "language": "ta-Latn",
+    "script": "latin",
+    "scenario_group": null,
+    "expected_capability": "open_app",
+    "predicted_capability": null,
+    "candidates": [
+      "open_app",
+      "find_file"
+    ],
+    "candidate_scores": {
+      "open_app": 0.7365684676170349,
+      "find_file": 0.6585533189773559
+    },
+    "selected_score": null,
+    "threshold": 0.52,
+    "raw_path": null,
+    "postprocessed_path": "clarify",
+    "failure_stage": "abstention_failure_false_abstention",
+    "mechanism": "Expected 'open_app' (score=0.737), but model abstained to path 'clarify' (raw=None, clar_prob=0.000, esc_prob=0.000, thresh=0.520)."
+  },
+  {
+    "id": "unseen-22-te-file",
+    "corpus": "Independent 24",
+    "utterance": "october invoice pdf document vetuku",
+    "language": "te-Latn",
+    "script": "latin",
+    "scenario_group": null,
+    "expected_capability": "find_file",
+    "predicted_capability": null,
+    "candidates": [
+      "find_file",
+      "open_folder"
+    ],
+    "candidate_scores": {
+      "find_file": 0.6032077240943908,
+      "open_folder": 0.5409477472305297
+    },
+    "selected_score": null,
+    "threshold": 0.52,
+    "raw_path": null,
+    "postprocessed_path": "escalate",
+    "failure_stage": "abstention_failure_false_abstention",
+    "mechanism": "Expected 'find_file' (score=0.603), but model abstained to path 'escalate' (raw=None, clar_prob=0.000, esc_prob=0.000, thresh=0.520)."
+  }
+]

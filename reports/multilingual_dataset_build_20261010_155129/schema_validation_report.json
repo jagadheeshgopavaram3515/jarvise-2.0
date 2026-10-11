@@ -1,0 +1,1476 @@
+{
+  "records": [
+    {
+      "record_id": "compact-candidate-a5895cae282a1ee2c553",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-9134889c17e20b298d08",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-c024e829657449ff7957",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-7917108a5d2747ee47e2",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-893b671924b3cdf76af9",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-eff9f24d7bf6cf6b71e0",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-0241212b80111ed18351",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-62de7e11abc6600f64c6",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-4c869429a3c13f9eb722",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-223c8c99e8d407563035",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-ad78c34cdd58c2ad2acc",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-072b9cde6c638a32bf94",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-89e4b574e1bace6a36c1",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-211b38f7df1cf0aaca3f",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-a576ef35587382c078ec",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-5bb41551bde7365c7e6f",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-8d9d53363a7e80b65910",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-12497cce3ae1e67f9fe3",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-59dbe3caceaa6facaeec",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-b597c5565f28de025678",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-9d3a825394363d92559a",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-58e4dcc4577d919e6740",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-6f83fd7a61b299f4900e",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-d5b88fa887b5d82acedf",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-90529171cfa8c3e6156f",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-c3096114561523d91cd6",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-c38f95986e35b22ce5e3",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-fcc84fb726806f3bc6d2",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-7f974114dddee61bb30d",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-174249e9e30faa16489a",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-78b32893ee08710fbf15",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-ab3744d1834af5d70bb8",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-e39074e52cecbf1ed55d",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-cd7c9d45916196931f46",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-2aa72e28bf57c209d101",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-ac62c205dcc794020a98",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-91147a62bd6849f0bf52",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-a0000b40d8f7bb678640",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-dca6bb7ffe62610af6fd",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-d2738056c6270981cbef",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-86f7df272bb980138ab1",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-6f962d3ab0af5897bf2a",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-181476045ec2280732d5",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-a6795935d690e0fe5053",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-2ba2893565357447aa8d",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-376c7eb62f0f4d56d367",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-3c6e2d42bfac3ed18926",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-e89819657b690d94c0b1",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-ded18a15ede825e25228",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-76168822794a80f56968",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-47fe804940541926826a",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-a8c0e92337f021baba92",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-887135e1763a753f8deb",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-bdc7e67cd1dcab624057",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-1510959eac6faad5fd82",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-bd08a557035281663d36",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-efb1c316617588072b94",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-857b7f21e6cdb23139b3",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-4fb973eb26e33663cc68",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-d8793e01ae466b459825",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-397b60945242a66dee64",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-4f5392ea835c7d6d1c34",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-7834a3ce2aee4a90822c",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-e8bac6593c487f8cb00d",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-8e554305a2379d76d0a1",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-960a26d1b0d1135cd3e7",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-b7cae2d700efa53f4c3a",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-e1c24b40e0c4fab440f3",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-1013bbf8894a3b38c600",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-c90d7d10ab51b02efd67",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-abdae560e404df459cd0",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-d003d038c065e7940aa8",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-46d72a6c3ff8e35c661a",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-03534277222647728ed3",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-703e7461a7b290277da8",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-01f804a5d957803690de",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-f6b317c034e596f3c970",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-e422afd41ca622cf44b8",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-2be4f33e5c1d5600af2c",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-9b134665d62caa7e3177",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-7fa2bb7dadd327c9e2b1",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-a63067e147d168fdd840",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-5910ec057e1a54434d3b",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-1dab0126fb0cef01f17b",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-c3dc31551d6de2a631de",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-527029e94b7bb21e6972",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-eae7353e2fd6d2fa924f",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-aa01d058f0df8f606ab0",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-10bb9426783ea13b5b75",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-983c7cc7dd0a0b5812bc",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-c92ba1ab0b1cb99b6ef0",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-72f33ff673c7d8f8accf",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-7701bfbe6b0a7ce7beef",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-20d2eb8fab5096a026a1",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-c198193a109c1c6f512c",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-7bafa250bdf33662c5da",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-c8f6ca919631b5547471",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-ecf25eed0b3ea22832cc",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-4d2edaaa6f5fa74541bb",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-c1b2225f978d0cbd6749",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-90154e7682c9292e375b",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-557209a02224db57a1d3",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-65f6e571e0a7cc8bb449",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-04dd0899329eb287c77a",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-fea6f5eef5be4555ab8f",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-39f0381205f82dbfbdb4",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-a161e5f9508d8a817d05",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-3ca36344ddc112c5eea1",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-9bd8a26c5cbbef5bb29e",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-41fc899c2a48bb687582",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-c3e98c1d193253e440cf",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-8cfad91b1b4eee2d4116",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-9936c5cfdede48c072cd",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-613aeb1b4be1ea749594",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-049de405e17f502f0a1d",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-a327a6b2341b41d26929",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-2d29d7e553b74ad50b31",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-78a00b34902b7b0d9c7b",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-f8017db7fb2b0cca511b",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-a11b4d43765487268c13",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-efe6f8af703091366e1f",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-a69cc23fe5cf19156f36",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-cddfc38140aa4a573b0a",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-c210c20fef2fd7008bc2",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-4b16f2d9ef5c913dd2c0",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-69e2f6b95e52fc983471",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-c2f83913c33fa5767279",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-eb30f6b10d4aea5d74e7",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-f9399bada1346bf6b5ec",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-0b607b069fce05db80b3",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-d2949db37fafcfe62c2a",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-65bf34347dabf7f0e54b",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-9cb9c8bcba29e74f15ae",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-9cbae89423d15f2284ba",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-47983698f430cb43932e",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-f47c3941e618ba6394ca",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-8c4cad174d4abd9941e7",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-6e15df567936b3293a80",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-7399a2144f4897d8d97e",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-c0794236104c2567abda",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-e565b0dd59c99f4e5579",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-627010cbe808304bca3e",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-4a1df597aa3417bb6b85",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-64d036541a25b779834d",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-907c87670c5a82c1c77e",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-f7ccee397a6eeac6af28",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-35012918ed6b7fede8aa",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-bf1f30a54f54fa246ecd",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-b110eb209af735e6246b",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-7347ccd54e16ae970746",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-fbbfed73e99d948ed1b6",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-c45055e0f0975c431635",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-67ef4edaaabe7bbf5434",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-307c54a773440b4b22a7",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-b47f0e9a8e49af29a732",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-45490bdbfb4688ffb865",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-6e3e097fb7feea1072b3",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-6acdc35e7ad86207849e",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-8d2c8de66cdc68a005d8",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-dee7e577139b11ae356b",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-1858d9d97fe0f0a38f84",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-0577f8db842d7fb8c553",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-9496804813df0c039ab9",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-97f0e847390483b4f6fb",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-3c2604095fec6b6d5ad9",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-2f42f7a4c44e723aed01",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-5c6c61416e468920b1db",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-fadd2c18115b59cde410",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-66d74dc9bc6cd2ed15e3",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-5540dcf2307314ac7cff",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-ce289c6a18608551833f",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-fd377b30d60315d83c20",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-66c1ac2f8195a0458666",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-9f577b85804749a3c212",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-249d248b83aa32e4979d",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-6805a4a6f48631e57547",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-c8f2bf84cd2d9c17d42a",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-b301810d927fbe238e0a",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-e99aab20bb474b58e438",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-e5f4eeb0829643b9d9ad",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-8e90c16c2637b39ed52c",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-ffeae899a123a42ec2a6",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-b9a8b2c5aba57b9a61b3",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-87fd53c22cbcc8f55e93",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-6b746ae411762aa6641c",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-f738c1ac4223491df5e9",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-bb12009b3f6853fb0a6a",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-cf1dd404c8f605379fe3",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-f5296ce15eaa5e20bd51",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-edd0c8b9271d0fd2aa90",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-89ff917276df7a107a9e",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-67237e98b617febac1d6",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-90f88ba20f9b50876abc",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-6bed9890777a5a2b5dd1",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-0f24efd35d9ed774b57e",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-7bec9cdd61396d91dbdc",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-f837fd41a847dbad167e",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-cd18176f06772ac1c183",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-6861a3d2dbb69323d211",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-bfbea19eb3effce956df",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-c7a5ff761136fa916826",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-5a6aec462f77053da6fb",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-6e38a917ccbd654448e9",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-2f2acfabbb5ac9833489",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-36466c0ff9bc5b6d4a32",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-b3f0a887e3e228f69cf6",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-6660175ab7f2cef48d25",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-4091f04489ee842c430d",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-b1c472663d06c060057c",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-19465b31ed6e55ee2781",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-5a99f35d51576ddd2f24",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-4b74f421bbb1a7ed467b",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-89b5b869806fd9206ca7",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-eae39a0e6cf74062dbce",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-64542dc44d462b1a31ed",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-dc9bf6759a3a6c13ad33",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-16cadb89a18b964b61ce",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-43ac3e0fd0e6a559af53",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-98fce5031579f80ee831",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-1317501c4696f828afee",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-f68a54c93a1f45a52ff6",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-3fda385bb885ab5a419b",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-da8158f3b389a226d6f6",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-9eb78140cb32afdd778b",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-2d0b28750681e8e9a1b0",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-0ad0c55a6fce9c4cfc28",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-a8d8d1f7a32122127f9e",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-70f20ca5b3bb10216eba",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-9d583c7bcaeff0551394",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-b4a69e4975dd41767073",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-b359fd6f6a6ceb57f34c",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-5557685552788ef21cec",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-8420ac2abc70a2e17d78",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-0f52732c8a90ddd57612",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-05ab0cf4f70b33c238c0",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-8ce8e1f61220e83b20de",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-d62d1e5c32caa4c7b6de",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-2047e6052bb58b6ffa45",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-454e90d03651a5e27c45",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-b745c595cc62150ce62b",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-d0c44602c68d80d09af8",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-207b2164e3b71462f192",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-620a83c749708cc985af",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-c159d165af93974995f8",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-1324d18a22f4c4b9c9be",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-9c58e31a47f16ecec24a",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-5e806cdb3740268b4c5b",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-9d6b5477550b6a27bbb3",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-1b1d9ddee715efe78b08",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-e56e00df6b1df04c51d1",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-222860efcccf11621e4d",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-52909f1e459461b9b0ba",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-be4a3acc2ad12c1eebe2",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-7a8dfb99fd05a0c27ebd",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-c0f1508d6e0ef0fb0c05",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-8fa2c565415c8603863c",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-67cf5caca35adaf201ba",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-9cb855c66a789d46ac83",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-838d8a5cac67ee5c252e",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-9bec4432e79d296f18bc",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-df43740313a3b796fc7f",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-479b534b8a7520ce4064",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-3f485ba5df39b108af9a",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-68f17127c384ca567045",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-1e1c6b872b43644ab53a",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-d18883f991f235de4fc7",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-751031634dc778d6e23e",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-8cd1b3b69d719df2019f",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-e5b985de79bead0e55da",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-bf2d565869839685b5d2",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-0e7b82dd0d7e758e1d52",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-f49e03955957f0c6493f",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-7425a370a12a95505753",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-9e4f14c2697eb1e88e90",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-9624f8172d2634d5309c",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-cf69280125e692f42441",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-f4103f774d45f150b05f",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-80f51782d7c985ed1bd3",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-553865ac45a741ac2741",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-fdb68df8d1a7a3ec66bc",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-35d773802bcdf316b0ac",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-8d5c2d30ebcb76e3020c",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-7d01e200fd7841422059",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-fa15e6f3d4f4cb1f1113",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-0760d252ac9933fca2b6",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-671296e30afd9a30d365",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-28f30e6aa5a60448878a",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-5123e13c7c16ffb01002",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-f07b86d3f5e0826dbd16",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    },
+    {
+      "record_id": "compact-candidate-c0b4655a17e8f5b91176",
+      "status": "PASS_REAL_PARSER",
+      "gold_gate": "BLOCKED_UNVERIFIED"
+    }
+  ],
+  "candidate_real_parser_pass": 290,
+  "gold_records": 0,
+  "gold_supervised_files": "EMPTY_BLOCKED; real load_dataset deliberately rejects empty selection; no fake example added",
+  "gold_gate": "enforced in new load_verified_training helper; existing trainer patch proposed only",
+  "original_context_preserved": true,
+  "no_gold_fields_in_serialization": "serialize_request uses utterance/context; exact_pair_features only serializes advertised descriptors",
+  "candidate_split_loader_counts": {
+    "candidate_train.jsonl": 250,
+    "candidate_validation.jsonl": 40
+  },
+  "regression_tests": {
+    "framework": "stdlib unittest",
+    "tests_run": 33,
+    "failures": 0,
+    "errors": 0,
+    "success": true,
+    "fixtures": "Synthetic unit fixtures only; never included in datasets or human approval counts",
+    "training_main_executed": false,
+    "encoder_or_provider_called": false
+  },
+  "verified_training_guard": "rejects all unverified rows and empty files before any encoder creation",
+  "schema_failure_count": 0
+}

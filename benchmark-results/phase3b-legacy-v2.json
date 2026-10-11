@@ -1,0 +1,2827 @@
+{
+  "report_schema_version": "1.0",
+  "dataset": {
+    "path": "D:\\JARVIS\\benchmarks\\fast_classifier\\v2\\dataset.jsonl",
+    "schema_version": "2.0",
+    "sealed_test_examples": 18,
+    "development_examples": 50,
+    "labels_authoritative": false,
+    "label_status": "v2 adjudications pending human review"
+  },
+  "environment": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.10.11",
+    "processor": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",
+    "logical_cpu_count": 8,
+    "physical_cpu_count": 4,
+    "total_memory_bytes": 8464355328,
+    "gpu_runtime": "PyTorch 2.9.0+cpu; CUDA unavailable"
+  },
+  "notes": [
+    "Candidate and legacy are run in separate fresh processes with the same test examples and order rotations.",
+    "Candidate test labels are pending human review; metrics are provisional.",
+    "The frozen encoder checkpoint was already cached and no network download occurred.",
+    "No capability was executed."
+  ],
+  "legacy_test": {
+    "aggregate": {
+      "runs": 3,
+      "predictions": 54,
+      "latency": {
+        "count": 54,
+        "mean_ms": 1940.0950129629628,
+        "p50_ms": 2427.8856,
+        "p95_ms": 2582.5589
+      },
+      "components": {
+        "preprocessing_ms": {
+          "count": 0,
+          "mean_ms": null,
+          "p50_ms": null,
+          "p95_ms": null
+        },
+        "model_inference_ms": {
+          "count": 0,
+          "mean_ms": null,
+          "p50_ms": null,
+          "p95_ms": null
+        },
+        "postprocessing_ms": {
+          "count": 0,
+          "mean_ms": null,
+          "p50_ms": null,
+          "p95_ms": null
+        }
+      },
+      "metrics": {
+        "execution_path": {
+          "available": true,
+          "applicable": 15,
+          "correct": 3,
+          "accuracy": 0.2
+        },
+        "intent": {
+          "available": false,
+          "reason": "legacy classify() does not expose this field"
+        },
+        "request_modes": {
+          "available": false,
+          "reason": "legacy classify() does not expose this field"
+        },
+        "selected_capability": {
+          "available": false,
+          "reason": "legacy classify() does not expose this field"
+        },
+        "context_references": {
+          "available": false,
+          "reason": "legacy classify() does not expose this field"
+        },
+        "missing_information": {
+          "available": false,
+          "reason": "legacy classify() does not expose this field"
+        },
+        "needs_clarification": {
+          "available": false,
+          "reason": "legacy classify() does not expose this field"
+        },
+        "needs_escalation": {
+          "available": false,
+          "reason": "legacy classify() does not expose this field"
+        }
+      },
+      "group_metrics": {
+        "language": {
+          "en": {
+            "examples": 6,
+            "execution_path_accuracy": 0.5
+          },
+          "hi": {
+            "examples": 1,
+            "execution_path_accuracy": 0.0
+          },
+          "hi-Latn": {
+            "examples": 1,
+            "execution_path_accuracy": 0.0
+          },
+          "mixed-en-ta": {
+            "examples": 1,
+            "execution_path_accuracy": 0.0
+          },
+          "mixed-en-te": {
+            "examples": 1,
+            "execution_path_accuracy": 0.0
+          },
+          "ta": {
+            "examples": 1,
+            "execution_path_accuracy": 0.0
+          },
+          "ta-Latn": {
+            "examples": 1,
+            "execution_path_accuracy": 0.0
+          },
+          "te": {
+            "examples": 2,
+            "execution_path_accuracy": 0.0
+          },
+          "te-Latn": {
+            "examples": 1,
+            "execution_path_accuracy": 0.0
+          }
+        },
+        "category": {
+          "code_switching": {
+            "examples": 2,
+            "execution_path_accuracy": 0.0
+          },
+          "context_resolved": {
+            "examples": 1,
+            "execution_path_accuracy": 0.0
+          },
+          "conversation": {
+            "examples": 4,
+            "execution_path_accuracy": 0.25
+          },
+          "current_information": {
+            "examples": 3,
+            "execution_path_accuracy": 0.3333333333333333
+          },
+          "desktop_action": {
+            "examples": 5,
+            "execution_path_accuracy": 0.0
+          },
+          "follow_up": {
+            "examples": 1,
+            "execution_path_accuracy": 0.0
+          },
+          "knowledge": {
+            "examples": 2,
+            "execution_path_accuracy": 0.5
+          },
+          "native_script": {
+            "examples": 4,
+            "execution_path_accuracy": 0.0
+          },
+          "research": {
+            "examples": 3,
+            "execution_path_accuracy": 0.3333333333333333
+          },
+          "romanized": {
+            "examples": 5,
+            "execution_path_accuracy": 0.0
+          },
+          "spelling_variation": {
+            "examples": 2,
+            "execution_path_accuracy": 0.0
+          },
+          "stt_noise": {
+            "examples": 1,
+            "execution_path_accuracy": 0.0
+          },
+          "supported_capability": {
+            "examples": 5,
+            "execution_path_accuracy": 0.0
+          },
+          "unseen_paraphrase": {
+            "examples": 2,
+            "execution_path_accuracy": 1.0
+          }
+        },
+        "script": {
+          "code_switched": {
+            "examples": 2,
+            "execution_path_accuracy": 0.0
+          },
+          "english_latin": {
+            "examples": 6,
+            "execution_path_accuracy": 0.5
+          },
+          "native_script": {
+            "examples": 4,
+            "execution_path_accuracy": 0.0
+          },
+          "romanized": {
+            "examples": 3,
+            "execution_path_accuracy": 0.0
+          }
+        }
+      },
+      "counts_per_run": {
+        "total": 18,
+        "successful_predictions": 18,
+        "invalid_outputs": 0,
+        "errors": 0,
+        "timeouts": 0,
+        "not_applicable_execution_paths": 3
+      }
+    },
+    "runs": [
+      {
+        "report_schema_version": "1.0",
+        "dataset": {
+          "schema_version": "2.0",
+          "path": "D:\\JARVIS\\benchmarks\\fast_classifier\\v2\\dataset.jsonl",
+          "split": "test"
+        },
+        "adapter": {
+          "id": "legacy-qwen:qwen2.5-coder:3b",
+          "kind": "legacy",
+          "measurement_kind": "real_model_or_deterministic_fast_path",
+          "configuration": {
+            "model": "qwen2.5-coder:3b",
+            "run": 1,
+            "order_offset": 0
+          }
+        },
+        "counts": {
+          "total": 18,
+          "successful_predictions": 18,
+          "invalid_outputs": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "not_applicable_execution_paths": 3
+        },
+        "coverage": {
+          "languages": {
+            "en": 9,
+            "hi": 1,
+            "hi-Latn": 1,
+            "mixed-en-ta": 1,
+            "mixed-en-te": 1,
+            "ta": 1,
+            "ta-Latn": 1,
+            "te": 2,
+            "te-Latn": 1
+          },
+          "categories": {
+            "ambiguity": 1,
+            "code_switching": 2,
+            "context_resolved": 2,
+            "context_unresolved": 1,
+            "conversation": 4,
+            "current_information": 3,
+            "desktop_action": 5,
+            "follow_up": 2,
+            "home_automation": 1,
+            "knowledge": 2,
+            "native_script": 4,
+            "research": 3,
+            "romanized": 5,
+            "spelling_variation": 2,
+            "stt_noise": 1,
+            "supported_capability": 5,
+            "unseen_paraphrase": 2,
+            "unsupported_capability": 2
+          }
+        },
+        "metrics": {
+          "execution_path": {
+            "available": true,
+            "applicable": 15,
+            "correct": 3,
+            "accuracy": 0.2
+          },
+          "intent": {
+            "available": false,
+            "reason": "legacy classify() does not expose this field"
+          },
+          "request_modes": {
+            "available": false,
+            "reason": "legacy classify() does not expose this field"
+          },
+          "selected_capability": {
+            "available": false,
+            "reason": "legacy classify() does not expose this field"
+          },
+          "context_references": {
+            "available": false,
+            "reason": "legacy classify() does not expose this field"
+          },
+          "missing_information": {
+            "available": false,
+            "reason": "legacy classify() does not expose this field"
+          },
+          "needs_clarification": {
+            "available": false,
+            "reason": "legacy classify() does not expose this field"
+          },
+          "needs_escalation": {
+            "available": false,
+            "reason": "legacy classify() does not expose this field"
+          }
+        },
+        "group_metrics": {
+          "language": {
+            "en": {
+              "examples": 6,
+              "execution_path_accuracy": 0.5
+            },
+            "hi": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            },
+            "hi-Latn": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            },
+            "mixed-en-ta": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            },
+            "mixed-en-te": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            },
+            "ta": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            },
+            "ta-Latn": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            },
+            "te": {
+              "examples": 2,
+              "execution_path_accuracy": 0.0
+            },
+            "te-Latn": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            }
+          },
+          "category": {
+            "code_switching": {
+              "examples": 2,
+              "execution_path_accuracy": 0.0
+            },
+            "context_resolved": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            },
+            "conversation": {
+              "examples": 4,
+              "execution_path_accuracy": 0.25
+            },
+            "current_information": {
+              "examples": 3,
+              "execution_path_accuracy": 0.3333333333333333
+            },
+            "desktop_action": {
+              "examples": 5,
+              "execution_path_accuracy": 0.0
+            },
+            "follow_up": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            },
+            "knowledge": {
+              "examples": 2,
+              "execution_path_accuracy": 0.5
+            },
+            "native_script": {
+              "examples": 4,
+              "execution_path_accuracy": 0.0
+            },
+            "research": {
+              "examples": 3,
+              "execution_path_accuracy": 0.3333333333333333
+            },
+            "romanized": {
+              "examples": 5,
+              "execution_path_accuracy": 0.0
+            },
+            "spelling_variation": {
+              "examples": 2,
+              "execution_path_accuracy": 0.0
+            },
+            "stt_noise": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            },
+            "supported_capability": {
+              "examples": 5,
+              "execution_path_accuracy": 0.0
+            },
+            "unseen_paraphrase": {
+              "examples": 2,
+              "execution_path_accuracy": 1.0
+            }
+          },
+          "script": {
+            "code_switched": {
+              "examples": 2,
+              "execution_path_accuracy": 0.0
+            },
+            "english_latin": {
+              "examples": 6,
+              "execution_path_accuracy": 0.5
+            },
+            "native_script": {
+              "examples": 4,
+              "execution_path_accuracy": 0.0
+            },
+            "romanized": {
+              "examples": 3,
+              "execution_path_accuracy": 0.0
+            }
+          }
+        },
+        "latency": {
+          "timer": "time.perf_counter_ns",
+          "method": "nearest-rank percentiles",
+          "successful_predictions": {
+            "count": 18,
+            "mean_ms": 1994.1789777777776,
+            "p50_ms": 2449.2014,
+            "p95_ms": 3598.7027
+          },
+          "cold_first_invocation": {
+            "count": 1,
+            "mean_ms": 3598.7027,
+            "p50_ms": 3598.7027,
+            "p95_ms": 3598.7027
+          },
+          "warm_subsequent_invocations": {
+            "count": 17,
+            "mean_ms": 1899.7952294117645,
+            "p50_ms": 2449.2014,
+            "p95_ms": 2590.509
+          },
+          "process_startup_and_model_loading_ms": null,
+          "by_inference_provenance": {
+            "deterministic_fast_path": {
+              "count": 4,
+              "mean_ms": 0.17395,
+              "p50_ms": 0.1448,
+              "p95_ms": 0.2385
+            },
+            "local_model": {
+              "count": 14,
+              "mean_ms": 2563.8947,
+              "p50_ms": 2477.7045,
+              "p95_ms": 3598.7027
+            }
+          },
+          "components": {
+            "preprocessing_ms": {
+              "count": 0,
+              "mean_ms": null,
+              "p50_ms": null,
+              "p95_ms": null
+            },
+            "model_inference_ms": {
+              "count": 0,
+              "mean_ms": null,
+              "p50_ms": null,
+              "p95_ms": null
+            },
+            "postprocessing_ms": {
+              "count": 0,
+              "mean_ms": null,
+              "p50_ms": null,
+              "p95_ms": null
+            }
+          },
+          "note": "Cold is the first benchmark invocation only. It is not guaranteed to include process startup or model loading; those are not measured separately. Warm does not prove cache state."
+        },
+        "failures": [
+          {
+            "id": "en-desktop-001",
+            "status": "success",
+            "expected_execution_path": "TASK",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "ctx-continue-resolved-001",
+            "status": "success",
+            "expected_execution_path": "TASK",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "stt-noisy-action-001",
+            "status": "success",
+            "expected_execution_path": "TASK",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "te-native-conversation-001",
+            "status": "success",
+            "expected_execution_path": "LOCAL",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "te-native-action-001",
+            "status": "success",
+            "expected_execution_path": "TASK",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "te-romanized-knowledge-001",
+            "status": "success",
+            "expected_execution_path": "LOCAL",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "te-codeswitch-research-001",
+            "status": "success",
+            "expected_execution_path": "TASK",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "hi-native-conversation-001",
+            "status": "success",
+            "expected_execution_path": "LOCAL",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "hi-romanized-action-001",
+            "status": "success",
+            "expected_execution_path": "TASK",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "ta-native-conversation-001",
+            "status": "success",
+            "expected_execution_path": "LOCAL",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "ta-romanized-action-001",
+            "status": "success",
+            "expected_execution_path": "TASK",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "ta-codeswitch-research-001",
+            "status": "success",
+            "expected_execution_path": "TASK",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          }
+        ],
+        "records": [
+          {
+            "id": "en-conversation-001",
+            "split": "test",
+            "language": "en",
+            "categories": [
+              "conversation",
+              "unseen_paraphrase"
+            ],
+            "expected_execution_path": "LOCAL",
+            "expected_selected_capability": null,
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "english_latin",
+            "inference_provenance": "local_model",
+            "latency_ms": 3598.7027,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 3598.1441000003542,
+            "comparisons": {
+              "execution_path": true
+            }
+          },
+          {
+            "id": "en-knowledge-001",
+            "split": "test",
+            "language": "en",
+            "categories": [
+              "knowledge",
+              "unseen_paraphrase"
+            ],
+            "expected_execution_path": "LOCAL",
+            "expected_selected_capability": null,
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "english_latin",
+            "inference_provenance": "local_model",
+            "latency_ms": 2547.586,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 2547.239499999705,
+            "comparisons": {
+              "execution_path": true
+            }
+          },
+          {
+            "id": "en-research-001",
+            "split": "test",
+            "language": "en",
+            "categories": [
+              "research",
+              "current_information"
+            ],
+            "expected_execution_path": "TASK",
+            "expected_selected_capability": "google_search",
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "english_latin",
+            "inference_provenance": "local_model",
+            "latency_ms": 2427.8856,
+            "status": "success",
+            "prediction": {
+              "execution_path": "TASK"
+            },
+            "reported_latency_ms": 2427.6641999995263,
+            "comparisons": {
+              "execution_path": true
+            }
+          },
+          {
+            "id": "en-desktop-001",
+            "split": "test",
+            "language": "en",
+            "categories": [
+              "desktop_action",
+              "supported_capability"
+            ],
+            "expected_execution_path": "TASK",
+            "expected_selected_capability": "open_app",
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "english_latin",
+            "inference_provenance": "local_model",
+            "latency_ms": 2422.8712,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 2422.535499999867,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "ctx-continue-resolved-001",
+            "split": "test",
+            "language": "en",
+            "categories": [
+              "follow_up",
+              "context_resolved",
+              "supported_capability"
+            ],
+            "expected_execution_path": "TASK",
+            "expected_selected_capability": "read_file",
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "english_latin",
+            "inference_provenance": "local_model",
+            "latency_ms": 2559.9386,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 2559.7209999996267,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "ctx-continue-unresolved-001",
+            "split": "test",
+            "language": "en",
+            "categories": [
+              "follow_up",
+              "ambiguity",
+              "context_unresolved"
+            ],
+            "expected_execution_path": null,
+            "expected_selected_capability": null,
+            "expected_needs_clarification": true,
+            "expected_needs_escalation": false,
+            "script_group": "english_latin",
+            "inference_provenance": "local_model",
+            "latency_ms": 2367.7952,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 2367.576800000279,
+            "comparisons": {},
+            "not_applicable": [
+              "execution_path"
+            ]
+          },
+          {
+            "id": "cap-unsupported-email-001",
+            "split": "test",
+            "language": "en",
+            "categories": [
+              "unsupported_capability",
+              "context_resolved"
+            ],
+            "expected_execution_path": null,
+            "expected_selected_capability": null,
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": true,
+            "script_group": "english_latin",
+            "inference_provenance": "local_model",
+            "latency_ms": 2495.066,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 2494.7415000006004,
+            "comparisons": {},
+            "not_applicable": [
+              "execution_path"
+            ]
+          },
+          {
+            "id": "stt-noisy-action-001",
+            "split": "test",
+            "language": "en",
+            "categories": [
+              "stt_noise",
+              "desktop_action",
+              "spelling_variation"
+            ],
+            "expected_execution_path": "TASK",
+            "expected_selected_capability": "open_app",
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "english_latin",
+            "inference_provenance": "local_model",
+            "latency_ms": 2399.3267,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 2399.113800000123,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "te-native-conversation-001",
+            "split": "test",
+            "language": "te",
+            "categories": [
+              "conversation",
+              "native_script"
+            ],
+            "expected_execution_path": "LOCAL",
+            "expected_selected_capability": null,
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "native_script",
+            "inference_provenance": "deterministic_fast_path",
+            "latency_ms": 0.1448,
+            "status": "success",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "reported_latency_ms": 0.013999999282532372,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "te-native-action-001",
+            "split": "test",
+            "language": "te",
+            "categories": [
+              "desktop_action",
+              "native_script",
+              "supported_capability"
+            ],
+            "expected_execution_path": "TASK",
+            "expected_selected_capability": "open_app",
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "native_script",
+            "inference_provenance": "deterministic_fast_path",
+            "latency_ms": 0.1758,
+            "status": "success",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "reported_latency_ms": 0.007799999366397969,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "te-romanized-knowledge-001",
+            "split": "test",
+            "language": "te-Latn",
+            "categories": [
+              "knowledge",
+              "romanized",
+              "spelling_variation"
+            ],
+            "expected_execution_path": "LOCAL",
+            "expected_selected_capability": null,
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "romanized",
+            "inference_provenance": "local_model",
+            "latency_ms": 2579.993,
+            "status": "success",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "reported_latency_ms": 2579.7520000005534,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "te-codeswitch-research-001",
+            "split": "test",
+            "language": "mixed-en-te",
+            "categories": [
+              "research",
+              "current_information",
+              "code_switching",
+              "romanized"
+            ],
+            "expected_execution_path": "TASK",
+            "expected_selected_capability": "google_search",
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "code_switched",
+            "inference_provenance": "local_model",
+            "latency_ms": 2477.7045,
+            "status": "success",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "reported_latency_ms": 2477.2345000001224,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "hi-native-conversation-001",
+            "split": "test",
+            "language": "hi",
+            "categories": [
+              "conversation",
+              "native_script"
+            ],
+            "expected_execution_path": "LOCAL",
+            "expected_selected_capability": null,
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "native_script",
+            "inference_provenance": "deterministic_fast_path",
+            "latency_ms": 0.2385,
+            "status": "success",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "reported_latency_ms": 0.010900000233959872,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "hi-romanized-action-001",
+            "split": "test",
+            "language": "hi-Latn",
+            "categories": [
+              "desktop_action",
+              "romanized",
+              "supported_capability"
+            ],
+            "expected_execution_path": "TASK",
+            "expected_selected_capability": "open_app",
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "romanized",
+            "inference_provenance": "local_model",
+            "latency_ms": 2507.8225,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 2507.607300000018,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "ta-native-conversation-001",
+            "split": "test",
+            "language": "ta",
+            "categories": [
+              "conversation",
+              "native_script"
+            ],
+            "expected_execution_path": "LOCAL",
+            "expected_selected_capability": null,
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "native_script",
+            "inference_provenance": "deterministic_fast_path",
+            "latency_ms": 0.1367,
+            "status": "success",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "reported_latency_ms": 0.010099999599333387,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "ta-romanized-action-001",
+            "split": "test",
+            "language": "ta-Latn",
+            "categories": [
+              "desktop_action",
+              "romanized",
+              "supported_capability"
+            ],
+            "expected_execution_path": "TASK",
+            "expected_selected_capability": "open_app",
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "romanized",
+            "inference_provenance": "local_model",
+            "latency_ms": 2449.2014,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 2448.7069999995583,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "ta-codeswitch-research-001",
+            "split": "test",
+            "language": "mixed-en-ta",
+            "categories": [
+              "research",
+              "current_information",
+              "code_switching",
+              "romanized"
+            ],
+            "expected_execution_path": "TASK",
+            "expected_selected_capability": "google_search",
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "code_switched",
+            "inference_provenance": "local_model",
+            "latency_ms": 2470.1234,
+            "status": "success",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "reported_latency_ms": 2469.868099999985,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "cap-unsupported-home-001",
+            "split": "test",
+            "language": "en",
+            "categories": [
+              "unsupported_capability",
+              "home_automation"
+            ],
+            "expected_execution_path": null,
+            "expected_selected_capability": null,
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": true,
+            "script_group": "english_latin",
+            "inference_provenance": "local_model",
+            "latency_ms": 2590.509,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 2590.276300000369,
+            "comparisons": {},
+            "not_applicable": [
+              "execution_path"
+            ]
+          }
+        ],
+        "limitations": [
+          "Classification only; selected capabilities are never executed.",
+          "Legacy classify() hides internal Ollama failures by returning GEMINI.",
+          "Legacy semantic fields are unavailable and are not inferred from routes.",
+          "Seed-set group metrics have small sample sizes and are descriptive only."
+        ]
+      },
+      {
+        "report_schema_version": "1.0",
+        "dataset": {
+          "schema_version": "2.0",
+          "path": "D:\\JARVIS\\benchmarks\\fast_classifier\\v2\\dataset.jsonl",
+          "split": "test"
+        },
+        "adapter": {
+          "id": "legacy-qwen:qwen2.5-coder:3b",
+          "kind": "legacy",
+          "measurement_kind": "real_model_or_deterministic_fast_path",
+          "configuration": {
+            "model": "qwen2.5-coder:3b",
+            "run": 2,
+            "order_offset": 6
+          }
+        },
+        "counts": {
+          "total": 18,
+          "successful_predictions": 18,
+          "invalid_outputs": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "not_applicable_execution_paths": 3
+        },
+        "coverage": {
+          "languages": {
+            "en": 9,
+            "hi": 1,
+            "hi-Latn": 1,
+            "mixed-en-ta": 1,
+            "mixed-en-te": 1,
+            "ta": 1,
+            "ta-Latn": 1,
+            "te": 2,
+            "te-Latn": 1
+          },
+          "categories": {
+            "ambiguity": 1,
+            "code_switching": 2,
+            "context_resolved": 2,
+            "context_unresolved": 1,
+            "conversation": 4,
+            "current_information": 3,
+            "desktop_action": 5,
+            "follow_up": 2,
+            "home_automation": 1,
+            "knowledge": 2,
+            "native_script": 4,
+            "research": 3,
+            "romanized": 5,
+            "spelling_variation": 2,
+            "stt_noise": 1,
+            "supported_capability": 5,
+            "unseen_paraphrase": 2,
+            "unsupported_capability": 2
+          }
+        },
+        "metrics": {
+          "execution_path": {
+            "available": true,
+            "applicable": 15,
+            "correct": 3,
+            "accuracy": 0.2
+          },
+          "intent": {
+            "available": false,
+            "reason": "legacy classify() does not expose this field"
+          },
+          "request_modes": {
+            "available": false,
+            "reason": "legacy classify() does not expose this field"
+          },
+          "selected_capability": {
+            "available": false,
+            "reason": "legacy classify() does not expose this field"
+          },
+          "context_references": {
+            "available": false,
+            "reason": "legacy classify() does not expose this field"
+          },
+          "missing_information": {
+            "available": false,
+            "reason": "legacy classify() does not expose this field"
+          },
+          "needs_clarification": {
+            "available": false,
+            "reason": "legacy classify() does not expose this field"
+          },
+          "needs_escalation": {
+            "available": false,
+            "reason": "legacy classify() does not expose this field"
+          }
+        },
+        "group_metrics": {
+          "language": {
+            "en": {
+              "examples": 6,
+              "execution_path_accuracy": 0.5
+            },
+            "hi": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            },
+            "hi-Latn": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            },
+            "mixed-en-ta": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            },
+            "mixed-en-te": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            },
+            "ta": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            },
+            "ta-Latn": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            },
+            "te": {
+              "examples": 2,
+              "execution_path_accuracy": 0.0
+            },
+            "te-Latn": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            }
+          },
+          "category": {
+            "code_switching": {
+              "examples": 2,
+              "execution_path_accuracy": 0.0
+            },
+            "context_resolved": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            },
+            "conversation": {
+              "examples": 4,
+              "execution_path_accuracy": 0.25
+            },
+            "current_information": {
+              "examples": 3,
+              "execution_path_accuracy": 0.3333333333333333
+            },
+            "desktop_action": {
+              "examples": 5,
+              "execution_path_accuracy": 0.0
+            },
+            "follow_up": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            },
+            "knowledge": {
+              "examples": 2,
+              "execution_path_accuracy": 0.5
+            },
+            "native_script": {
+              "examples": 4,
+              "execution_path_accuracy": 0.0
+            },
+            "research": {
+              "examples": 3,
+              "execution_path_accuracy": 0.3333333333333333
+            },
+            "romanized": {
+              "examples": 5,
+              "execution_path_accuracy": 0.0
+            },
+            "spelling_variation": {
+              "examples": 2,
+              "execution_path_accuracy": 0.0
+            },
+            "stt_noise": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            },
+            "supported_capability": {
+              "examples": 5,
+              "execution_path_accuracy": 0.0
+            },
+            "unseen_paraphrase": {
+              "examples": 2,
+              "execution_path_accuracy": 1.0
+            }
+          },
+          "script": {
+            "code_switched": {
+              "examples": 2,
+              "execution_path_accuracy": 0.0
+            },
+            "english_latin": {
+              "examples": 6,
+              "execution_path_accuracy": 0.5
+            },
+            "native_script": {
+              "examples": 4,
+              "execution_path_accuracy": 0.0
+            },
+            "romanized": {
+              "examples": 3,
+              "execution_path_accuracy": 0.0
+            }
+          }
+        },
+        "latency": {
+          "timer": "time.perf_counter_ns",
+          "method": "nearest-rank percentiles",
+          "successful_predictions": {
+            "count": 18,
+            "mean_ms": 1897.3798,
+            "p50_ms": 2420.353,
+            "p95_ms": 2564.9065
+          },
+          "cold_first_invocation": {
+            "count": 1,
+            "mean_ms": 2564.9065,
+            "p50_ms": 2564.9065,
+            "p95_ms": 2564.9065
+          },
+          "warm_subsequent_invocations": {
+            "count": 17,
+            "mean_ms": 1858.1135235294119,
+            "p50_ms": 2420.353,
+            "p95_ms": 2553.0426
+          },
+          "process_startup_and_model_loading_ms": null,
+          "by_inference_provenance": {
+            "deterministic_fast_path": {
+              "count": 4,
+              "mean_ms": 0.172125,
+              "p50_ms": 0.1381,
+              "p95_ms": 0.2206
+            },
+            "local_model": {
+              "count": 14,
+              "mean_ms": 2439.4391357142854,
+              "p50_ms": 2426.4184,
+              "p95_ms": 2564.9065
+            }
+          },
+          "components": {
+            "preprocessing_ms": {
+              "count": 0,
+              "mean_ms": null,
+              "p50_ms": null,
+              "p95_ms": null
+            },
+            "model_inference_ms": {
+              "count": 0,
+              "mean_ms": null,
+              "p50_ms": null,
+              "p95_ms": null
+            },
+            "postprocessing_ms": {
+              "count": 0,
+              "mean_ms": null,
+              "p50_ms": null,
+              "p95_ms": null
+            }
+          },
+          "note": "Cold is the first benchmark invocation only. It is not guaranteed to include process startup or model loading; those are not measured separately. Warm does not prove cache state."
+        },
+        "failures": [
+          {
+            "id": "stt-noisy-action-001",
+            "status": "success",
+            "expected_execution_path": "TASK",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "te-native-conversation-001",
+            "status": "success",
+            "expected_execution_path": "LOCAL",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "te-native-action-001",
+            "status": "success",
+            "expected_execution_path": "TASK",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "te-romanized-knowledge-001",
+            "status": "success",
+            "expected_execution_path": "LOCAL",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "te-codeswitch-research-001",
+            "status": "success",
+            "expected_execution_path": "TASK",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "hi-native-conversation-001",
+            "status": "success",
+            "expected_execution_path": "LOCAL",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "hi-romanized-action-001",
+            "status": "success",
+            "expected_execution_path": "TASK",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "ta-native-conversation-001",
+            "status": "success",
+            "expected_execution_path": "LOCAL",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "ta-romanized-action-001",
+            "status": "success",
+            "expected_execution_path": "TASK",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "ta-codeswitch-research-001",
+            "status": "success",
+            "expected_execution_path": "TASK",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "en-desktop-001",
+            "status": "success",
+            "expected_execution_path": "TASK",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "ctx-continue-resolved-001",
+            "status": "success",
+            "expected_execution_path": "TASK",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          }
+        ],
+        "records": [
+          {
+            "id": "cap-unsupported-email-001",
+            "split": "test",
+            "language": "en",
+            "categories": [
+              "unsupported_capability",
+              "context_resolved"
+            ],
+            "expected_execution_path": null,
+            "expected_selected_capability": null,
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": true,
+            "script_group": "english_latin",
+            "inference_provenance": "local_model",
+            "latency_ms": 2564.9065,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 2564.688500000557,
+            "comparisons": {},
+            "not_applicable": [
+              "execution_path"
+            ]
+          },
+          {
+            "id": "stt-noisy-action-001",
+            "split": "test",
+            "language": "en",
+            "categories": [
+              "stt_noise",
+              "desktop_action",
+              "spelling_variation"
+            ],
+            "expected_execution_path": "TASK",
+            "expected_selected_capability": "open_app",
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "english_latin",
+            "inference_provenance": "local_model",
+            "latency_ms": 2420.353,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 2420.139900000322,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "te-native-conversation-001",
+            "split": "test",
+            "language": "te",
+            "categories": [
+              "conversation",
+              "native_script"
+            ],
+            "expected_execution_path": "LOCAL",
+            "expected_selected_capability": null,
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "native_script",
+            "inference_provenance": "deterministic_fast_path",
+            "latency_ms": 0.2206,
+            "status": "success",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "reported_latency_ms": 0.025899999855028,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "te-native-action-001",
+            "split": "test",
+            "language": "te",
+            "categories": [
+              "desktop_action",
+              "native_script",
+              "supported_capability"
+            ],
+            "expected_execution_path": "TASK",
+            "expected_selected_capability": "open_app",
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "native_script",
+            "inference_provenance": "deterministic_fast_path",
+            "latency_ms": 0.1951,
+            "status": "success",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "reported_latency_ms": 0.014600000213249587,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "te-romanized-knowledge-001",
+            "split": "test",
+            "language": "te-Latn",
+            "categories": [
+              "knowledge",
+              "romanized",
+              "spelling_variation"
+            ],
+            "expected_execution_path": "LOCAL",
+            "expected_selected_capability": null,
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "romanized",
+            "inference_provenance": "local_model",
+            "latency_ms": 2464.6253,
+            "status": "success",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "reported_latency_ms": 2464.34120000049,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "te-codeswitch-research-001",
+            "split": "test",
+            "language": "mixed-en-te",
+            "categories": [
+              "research",
+              "current_information",
+              "code_switching",
+              "romanized"
+            ],
+            "expected_execution_path": "TASK",
+            "expected_selected_capability": "google_search",
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "code_switched",
+            "inference_provenance": "local_model",
+            "latency_ms": 2553.0426,
+            "status": "success",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "reported_latency_ms": 2552.827200000138,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "hi-native-conversation-001",
+            "split": "test",
+            "language": "hi",
+            "categories": [
+              "conversation",
+              "native_script"
+            ],
+            "expected_execution_path": "LOCAL",
+            "expected_selected_capability": null,
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "native_script",
+            "inference_provenance": "deterministic_fast_path",
+            "latency_ms": 0.1347,
+            "status": "success",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "reported_latency_ms": 0.010400000064691994,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "hi-romanized-action-001",
+            "split": "test",
+            "language": "hi-Latn",
+            "categories": [
+              "desktop_action",
+              "romanized",
+              "supported_capability"
+            ],
+            "expected_execution_path": "TASK",
+            "expected_selected_capability": "open_app",
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "romanized",
+            "inference_provenance": "local_model",
+            "latency_ms": 2426.4184,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 2426.200200000494,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "ta-native-conversation-001",
+            "split": "test",
+            "language": "ta",
+            "categories": [
+              "conversation",
+              "native_script"
+            ],
+            "expected_execution_path": "LOCAL",
+            "expected_selected_capability": null,
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "native_script",
+            "inference_provenance": "deterministic_fast_path",
+            "latency_ms": 0.1381,
+            "status": "success",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "reported_latency_ms": 0.009800000043469481,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "ta-romanized-action-001",
+            "split": "test",
+            "language": "ta-Latn",
+            "categories": [
+              "desktop_action",
+              "romanized",
+              "supported_capability"
+            ],
+            "expected_execution_path": "TASK",
+            "expected_selected_capability": "open_app",
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "romanized",
+            "inference_provenance": "local_model",
+            "latency_ms": 2427.6321,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 2427.41500000011,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "ta-codeswitch-research-001",
+            "split": "test",
+            "language": "mixed-en-ta",
+            "categories": [
+              "research",
+              "current_information",
+              "code_switching",
+              "romanized"
+            ],
+            "expected_execution_path": "TASK",
+            "expected_selected_capability": "google_search",
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "code_switched",
+            "inference_provenance": "local_model",
+            "latency_ms": 2455.7808,
+            "status": "success",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "reported_latency_ms": 2455.5668000002697,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "cap-unsupported-home-001",
+            "split": "test",
+            "language": "en",
+            "categories": [
+              "unsupported_capability",
+              "home_automation"
+            ],
+            "expected_execution_path": null,
+            "expected_selected_capability": null,
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": true,
+            "script_group": "english_latin",
+            "inference_provenance": "local_model",
+            "latency_ms": 2507.8624,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 2507.6427000003605,
+            "comparisons": {},
+            "not_applicable": [
+              "execution_path"
+            ]
+          },
+          {
+            "id": "en-conversation-001",
+            "split": "test",
+            "language": "en",
+            "categories": [
+              "conversation",
+              "unseen_paraphrase"
+            ],
+            "expected_execution_path": "LOCAL",
+            "expected_selected_capability": null,
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "english_latin",
+            "inference_provenance": "local_model",
+            "latency_ms": 2439.6205,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 2439.30569999975,
+            "comparisons": {
+              "execution_path": true
+            }
+          },
+          {
+            "id": "en-knowledge-001",
+            "split": "test",
+            "language": "en",
+            "categories": [
+              "knowledge",
+              "unseen_paraphrase"
+            ],
+            "expected_execution_path": "LOCAL",
+            "expected_selected_capability": null,
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "english_latin",
+            "inference_provenance": "local_model",
+            "latency_ms": 2421.8558,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 2421.6117000005397,
+            "comparisons": {
+              "execution_path": true
+            }
+          },
+          {
+            "id": "en-research-001",
+            "split": "test",
+            "language": "en",
+            "categories": [
+              "research",
+              "current_information"
+            ],
+            "expected_execution_path": "TASK",
+            "expected_selected_capability": "google_search",
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "english_latin",
+            "inference_provenance": "local_model",
+            "latency_ms": 2409.0282,
+            "status": "success",
+            "prediction": {
+              "execution_path": "TASK"
+            },
+            "reported_latency_ms": 2408.64799999963,
+            "comparisons": {
+              "execution_path": true
+            }
+          },
+          {
+            "id": "en-desktop-001",
+            "split": "test",
+            "language": "en",
+            "categories": [
+              "desktop_action",
+              "supported_capability"
+            ],
+            "expected_execution_path": "TASK",
+            "expected_selected_capability": "open_app",
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "english_latin",
+            "inference_provenance": "local_model",
+            "latency_ms": 2411.5993,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 2411.3760999998703,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "ctx-continue-resolved-001",
+            "split": "test",
+            "language": "en",
+            "categories": [
+              "follow_up",
+              "context_resolved",
+              "supported_capability"
+            ],
+            "expected_execution_path": "TASK",
+            "expected_selected_capability": "read_file",
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "english_latin",
+            "inference_provenance": "local_model",
+            "latency_ms": 2404.2979,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 2403.770599999916,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "ctx-continue-unresolved-001",
+            "split": "test",
+            "language": "en",
+            "categories": [
+              "follow_up",
+              "ambiguity",
+              "context_unresolved"
+            ],
+            "expected_execution_path": null,
+            "expected_selected_capability": null,
+            "expected_needs_clarification": true,
+            "expected_needs_escalation": false,
+            "script_group": "english_latin",
+            "inference_provenance": "local_model",
+            "latency_ms": 2245.1251,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 2244.829199999913,
+            "comparisons": {},
+            "not_applicable": [
+              "execution_path"
+            ]
+          }
+        ],
+        "limitations": [
+          "Classification only; selected capabilities are never executed.",
+          "Legacy classify() hides internal Ollama failures by returning GEMINI.",
+          "Legacy semantic fields are unavailable and are not inferred from routes.",
+          "Seed-set group metrics have small sample sizes and are descriptive only."
+        ]
+      },
+      {
+        "report_schema_version": "1.0",
+        "dataset": {
+          "schema_version": "2.0",
+          "path": "D:\\JARVIS\\benchmarks\\fast_classifier\\v2\\dataset.jsonl",
+          "split": "test"
+        },
+        "adapter": {
+          "id": "legacy-qwen:qwen2.5-coder:3b",
+          "kind": "legacy",
+          "measurement_kind": "real_model_or_deterministic_fast_path",
+          "configuration": {
+            "model": "qwen2.5-coder:3b",
+            "run": 3,
+            "order_offset": 12
+          }
+        },
+        "counts": {
+          "total": 18,
+          "successful_predictions": 18,
+          "invalid_outputs": 0,
+          "errors": 0,
+          "timeouts": 0,
+          "not_applicable_execution_paths": 3
+        },
+        "coverage": {
+          "languages": {
+            "en": 9,
+            "hi": 1,
+            "hi-Latn": 1,
+            "mixed-en-ta": 1,
+            "mixed-en-te": 1,
+            "ta": 1,
+            "ta-Latn": 1,
+            "te": 2,
+            "te-Latn": 1
+          },
+          "categories": {
+            "ambiguity": 1,
+            "code_switching": 2,
+            "context_resolved": 2,
+            "context_unresolved": 1,
+            "conversation": 4,
+            "current_information": 3,
+            "desktop_action": 5,
+            "follow_up": 2,
+            "home_automation": 1,
+            "knowledge": 2,
+            "native_script": 4,
+            "research": 3,
+            "romanized": 5,
+            "spelling_variation": 2,
+            "stt_noise": 1,
+            "supported_capability": 5,
+            "unseen_paraphrase": 2,
+            "unsupported_capability": 2
+          }
+        },
+        "metrics": {
+          "execution_path": {
+            "available": true,
+            "applicable": 15,
+            "correct": 3,
+            "accuracy": 0.2
+          },
+          "intent": {
+            "available": false,
+            "reason": "legacy classify() does not expose this field"
+          },
+          "request_modes": {
+            "available": false,
+            "reason": "legacy classify() does not expose this field"
+          },
+          "selected_capability": {
+            "available": false,
+            "reason": "legacy classify() does not expose this field"
+          },
+          "context_references": {
+            "available": false,
+            "reason": "legacy classify() does not expose this field"
+          },
+          "missing_information": {
+            "available": false,
+            "reason": "legacy classify() does not expose this field"
+          },
+          "needs_clarification": {
+            "available": false,
+            "reason": "legacy classify() does not expose this field"
+          },
+          "needs_escalation": {
+            "available": false,
+            "reason": "legacy classify() does not expose this field"
+          }
+        },
+        "group_metrics": {
+          "language": {
+            "en": {
+              "examples": 6,
+              "execution_path_accuracy": 0.5
+            },
+            "hi": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            },
+            "hi-Latn": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            },
+            "mixed-en-ta": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            },
+            "mixed-en-te": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            },
+            "ta": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            },
+            "ta-Latn": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            },
+            "te": {
+              "examples": 2,
+              "execution_path_accuracy": 0.0
+            },
+            "te-Latn": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            }
+          },
+          "category": {
+            "code_switching": {
+              "examples": 2,
+              "execution_path_accuracy": 0.0
+            },
+            "context_resolved": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            },
+            "conversation": {
+              "examples": 4,
+              "execution_path_accuracy": 0.25
+            },
+            "current_information": {
+              "examples": 3,
+              "execution_path_accuracy": 0.3333333333333333
+            },
+            "desktop_action": {
+              "examples": 5,
+              "execution_path_accuracy": 0.0
+            },
+            "follow_up": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            },
+            "knowledge": {
+              "examples": 2,
+              "execution_path_accuracy": 0.5
+            },
+            "native_script": {
+              "examples": 4,
+              "execution_path_accuracy": 0.0
+            },
+            "research": {
+              "examples": 3,
+              "execution_path_accuracy": 0.3333333333333333
+            },
+            "romanized": {
+              "examples": 5,
+              "execution_path_accuracy": 0.0
+            },
+            "spelling_variation": {
+              "examples": 2,
+              "execution_path_accuracy": 0.0
+            },
+            "stt_noise": {
+              "examples": 1,
+              "execution_path_accuracy": 0.0
+            },
+            "supported_capability": {
+              "examples": 5,
+              "execution_path_accuracy": 0.0
+            },
+            "unseen_paraphrase": {
+              "examples": 2,
+              "execution_path_accuracy": 1.0
+            }
+          },
+          "script": {
+            "code_switched": {
+              "examples": 2,
+              "execution_path_accuracy": 0.0
+            },
+            "english_latin": {
+              "examples": 6,
+              "execution_path_accuracy": 0.5
+            },
+            "native_script": {
+              "examples": 4,
+              "execution_path_accuracy": 0.0
+            },
+            "romanized": {
+              "examples": 3,
+              "execution_path_accuracy": 0.0
+            }
+          }
+        },
+        "latency": {
+          "timer": "time.perf_counter_ns",
+          "method": "nearest-rank percentiles",
+          "successful_predictions": {
+            "count": 18,
+            "mean_ms": 1928.726261111111,
+            "p50_ms": 2456.6117,
+            "p95_ms": 2582.5589
+          },
+          "cold_first_invocation": {
+            "count": 1,
+            "mean_ms": 0.2744,
+            "p50_ms": 0.2744,
+            "p95_ms": 0.2744
+          },
+          "warm_subsequent_invocations": {
+            "count": 17,
+            "mean_ms": 2042.1646058823526,
+            "p50_ms": 2478.7978,
+            "p95_ms": 2582.5589
+          },
+          "process_startup_and_model_loading_ms": null,
+          "by_inference_provenance": {
+            "deterministic_fast_path": {
+              "count": 4,
+              "mean_ms": 0.21765,
+              "p50_ms": 0.1796,
+              "p95_ms": 0.2744
+            },
+            "local_model": {
+              "count": 14,
+              "mean_ms": 2479.728721428571,
+              "p50_ms": 2483.2828,
+              "p95_ms": 2582.5589
+            }
+          },
+          "components": {
+            "preprocessing_ms": {
+              "count": 0,
+              "mean_ms": null,
+              "p50_ms": null,
+              "p95_ms": null
+            },
+            "model_inference_ms": {
+              "count": 0,
+              "mean_ms": null,
+              "p50_ms": null,
+              "p95_ms": null
+            },
+            "postprocessing_ms": {
+              "count": 0,
+              "mean_ms": null,
+              "p50_ms": null,
+              "p95_ms": null
+            }
+          },
+          "note": "Cold is the first benchmark invocation only. It is not guaranteed to include process startup or model loading; those are not measured separately. Warm does not prove cache state."
+        },
+        "failures": [
+          {
+            "id": "hi-native-conversation-001",
+            "status": "success",
+            "expected_execution_path": "LOCAL",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "hi-romanized-action-001",
+            "status": "success",
+            "expected_execution_path": "TASK",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "ta-native-conversation-001",
+            "status": "success",
+            "expected_execution_path": "LOCAL",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "ta-romanized-action-001",
+            "status": "success",
+            "expected_execution_path": "TASK",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "ta-codeswitch-research-001",
+            "status": "success",
+            "expected_execution_path": "TASK",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "en-desktop-001",
+            "status": "success",
+            "expected_execution_path": "TASK",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "ctx-continue-resolved-001",
+            "status": "success",
+            "expected_execution_path": "TASK",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "stt-noisy-action-001",
+            "status": "success",
+            "expected_execution_path": "TASK",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "te-native-conversation-001",
+            "status": "success",
+            "expected_execution_path": "LOCAL",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "te-native-action-001",
+            "status": "success",
+            "expected_execution_path": "TASK",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "te-romanized-knowledge-001",
+            "status": "success",
+            "expected_execution_path": "LOCAL",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          },
+          {
+            "id": "te-codeswitch-research-001",
+            "status": "success",
+            "expected_execution_path": "TASK",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "failed_metrics": [
+              "execution_path"
+            ],
+            "error": null
+          }
+        ],
+        "records": [
+          {
+            "id": "hi-native-conversation-001",
+            "split": "test",
+            "language": "hi",
+            "categories": [
+              "conversation",
+              "native_script"
+            ],
+            "expected_execution_path": "LOCAL",
+            "expected_selected_capability": null,
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "native_script",
+            "inference_provenance": "deterministic_fast_path",
+            "latency_ms": 0.2744,
+            "status": "success",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "reported_latency_ms": 0.020200000108161476,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "hi-romanized-action-001",
+            "split": "test",
+            "language": "hi-Latn",
+            "categories": [
+              "desktop_action",
+              "romanized",
+              "supported_capability"
+            ],
+            "expected_execution_path": "TASK",
+            "expected_selected_capability": "open_app",
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "romanized",
+            "inference_provenance": "local_model",
+            "latency_ms": 2503.9859,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 2503.595999999561,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "ta-native-conversation-001",
+            "split": "test",
+            "language": "ta",
+            "categories": [
+              "conversation",
+              "native_script"
+            ],
+            "expected_execution_path": "LOCAL",
+            "expected_selected_capability": null,
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "native_script",
+            "inference_provenance": "deterministic_fast_path",
+            "latency_ms": 0.2711,
+            "status": "success",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "reported_latency_ms": 0.0183000001925393,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "ta-romanized-action-001",
+            "split": "test",
+            "language": "ta-Latn",
+            "categories": [
+              "desktop_action",
+              "romanized",
+              "supported_capability"
+            ],
+            "expected_execution_path": "TASK",
+            "expected_selected_capability": "open_app",
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "romanized",
+            "inference_provenance": "local_model",
+            "latency_ms": 2453.5023,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 2453.1966000004104,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "ta-codeswitch-research-001",
+            "split": "test",
+            "language": "mixed-en-ta",
+            "categories": [
+              "research",
+              "current_information",
+              "code_switching",
+              "romanized"
+            ],
+            "expected_execution_path": "TASK",
+            "expected_selected_capability": "google_search",
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "code_switched",
+            "inference_provenance": "local_model",
+            "latency_ms": 2483.2828,
+            "status": "success",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "reported_latency_ms": 2482.96610000034,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "cap-unsupported-home-001",
+            "split": "test",
+            "language": "en",
+            "categories": [
+              "unsupported_capability",
+              "home_automation"
+            ],
+            "expected_execution_path": null,
+            "expected_selected_capability": null,
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": true,
+            "script_group": "english_latin",
+            "inference_provenance": "local_model",
+            "latency_ms": 2495.6821,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 2495.4383000003872,
+            "comparisons": {},
+            "not_applicable": [
+              "execution_path"
+            ]
+          },
+          {
+            "id": "en-conversation-001",
+            "split": "test",
+            "language": "en",
+            "categories": [
+              "conversation",
+              "unseen_paraphrase"
+            ],
+            "expected_execution_path": "LOCAL",
+            "expected_selected_capability": null,
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "english_latin",
+            "inference_provenance": "local_model",
+            "latency_ms": 2478.7978,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 2478.5078999993857,
+            "comparisons": {
+              "execution_path": true
+            }
+          },
+          {
+            "id": "en-knowledge-001",
+            "split": "test",
+            "language": "en",
+            "categories": [
+              "knowledge",
+              "unseen_paraphrase"
+            ],
+            "expected_execution_path": "LOCAL",
+            "expected_selected_capability": null,
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "english_latin",
+            "inference_provenance": "local_model",
+            "latency_ms": 2456.6117,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 2456.395999999586,
+            "comparisons": {
+              "execution_path": true
+            }
+          },
+          {
+            "id": "en-research-001",
+            "split": "test",
+            "language": "en",
+            "categories": [
+              "research",
+              "current_information"
+            ],
+            "expected_execution_path": "TASK",
+            "expected_selected_capability": "google_search",
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "english_latin",
+            "inference_provenance": "local_model",
+            "latency_ms": 2537.0749,
+            "status": "success",
+            "prediction": {
+              "execution_path": "TASK"
+            },
+            "reported_latency_ms": 2536.8460999998206,
+            "comparisons": {
+              "execution_path": true
+            }
+          },
+          {
+            "id": "en-desktop-001",
+            "split": "test",
+            "language": "en",
+            "categories": [
+              "desktop_action",
+              "supported_capability"
+            ],
+            "expected_execution_path": "TASK",
+            "expected_selected_capability": "open_app",
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "english_latin",
+            "inference_provenance": "local_model",
+            "latency_ms": 2421.2768,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 2421.052900000177,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "ctx-continue-resolved-001",
+            "split": "test",
+            "language": "en",
+            "categories": [
+              "follow_up",
+              "context_resolved",
+              "supported_capability"
+            ],
+            "expected_execution_path": "TASK",
+            "expected_selected_capability": "read_file",
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "english_latin",
+            "inference_provenance": "local_model",
+            "latency_ms": 2427.2131,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 2426.999799999976,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "ctx-continue-unresolved-001",
+            "split": "test",
+            "language": "en",
+            "categories": [
+              "follow_up",
+              "ambiguity",
+              "context_unresolved"
+            ],
+            "expected_execution_path": null,
+            "expected_selected_capability": null,
+            "expected_needs_clarification": true,
+            "expected_needs_escalation": false,
+            "script_group": "english_latin",
+            "inference_provenance": "local_model",
+            "latency_ms": 2322.154,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 2321.860700000798,
+            "comparisons": {},
+            "not_applicable": [
+              "execution_path"
+            ]
+          },
+          {
+            "id": "cap-unsupported-email-001",
+            "split": "test",
+            "language": "en",
+            "categories": [
+              "unsupported_capability",
+              "context_resolved"
+            ],
+            "expected_execution_path": null,
+            "expected_selected_capability": null,
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": true,
+            "script_group": "english_latin",
+            "inference_provenance": "local_model",
+            "latency_ms": 2513.7254,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 2513.5102000003826,
+            "comparisons": {},
+            "not_applicable": [
+              "execution_path"
+            ]
+          },
+          {
+            "id": "stt-noisy-action-001",
+            "split": "test",
+            "language": "en",
+            "categories": [
+              "stt_noise",
+              "desktop_action",
+              "spelling_variation"
+            ],
+            "expected_execution_path": "TASK",
+            "expected_selected_capability": "open_app",
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "english_latin",
+            "inference_provenance": "local_model",
+            "latency_ms": 2550.2961,
+            "status": "success",
+            "prediction": {
+              "execution_path": "LOCAL"
+            },
+            "reported_latency_ms": 2550.0790999994933,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "te-native-conversation-001",
+            "split": "test",
+            "language": "te",
+            "categories": [
+              "conversation",
+              "native_script"
+            ],
+            "expected_execution_path": "LOCAL",
+            "expected_selected_capability": null,
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "native_script",
+            "inference_provenance": "deterministic_fast_path",
+            "latency_ms": 0.1455,
+            "status": "success",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "reported_latency_ms": 0.01430000065738568,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "te-native-action-001",
+            "split": "test",
+            "language": "te",
+            "categories": [
+              "desktop_action",
+              "native_script",
+              "supported_capability"
+            ],
+            "expected_execution_path": "TASK",
+            "expected_selected_capability": "open_app",
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "native_script",
+            "inference_provenance": "deterministic_fast_path",
+            "latency_ms": 0.1796,
+            "status": "success",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "reported_latency_ms": 0.008100000741251279,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "te-romanized-knowledge-001",
+            "split": "test",
+            "language": "te-Latn",
+            "categories": [
+              "knowledge",
+              "romanized",
+              "spelling_variation"
+            ],
+            "expected_execution_path": "LOCAL",
+            "expected_selected_capability": null,
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "romanized",
+            "inference_provenance": "local_model",
+            "latency_ms": 2490.0403,
+            "status": "success",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "reported_latency_ms": 2489.8143999998865,
+            "comparisons": {
+              "execution_path": false
+            }
+          },
+          {
+            "id": "te-codeswitch-research-001",
+            "split": "test",
+            "language": "mixed-en-te",
+            "categories": [
+              "research",
+              "current_information",
+              "code_switching",
+              "romanized"
+            ],
+            "expected_execution_path": "TASK",
+            "expected_selected_capability": "google_search",
+            "expected_needs_clarification": false,
+            "expected_needs_escalation": false,
+            "script_group": "code_switched",
+            "inference_provenance": "local_model",
+            "latency_ms": 2582.5589,
+            "status": "success",
+            "prediction": {
+              "execution_path": "GEMINI"
+            },
+            "reported_latency_ms": 2582.346099999995,
+            "comparisons": {
+              "execution_path": false
+            }
+          }
+        ],
+        "limitations": [
+          "Classification only; selected capabilities are never executed.",
+          "Legacy classify() hides internal Ollama failures by returning GEMINI.",
+          "Legacy semantic fields are unavailable and are not inferred from routes.",
+          "Seed-set group metrics have small sample sizes and are descriptive only."
+        ]
+      }
+    ]
+  }
+}

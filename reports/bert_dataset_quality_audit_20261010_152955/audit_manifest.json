@@ -1,0 +1,170 @@
+{
+  "audit_script_version": "1.0",
+  "timestamp": "2026-10-10T15:40:13.224642+05:30",
+  "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "read_only_scope": "Only writes in report directory; no inference/training/network/model downloads",
+  "normalization": "NFC, casefold, whitespace collapse; original text preserved; no transliteration, punctuation stripping or translation",
+  "near_duplicate_triage": "SequenceMatcher >=0.85, same observed script, cross split, length>=12; not ground truth",
+  "inputs": {
+    "benchmarks/fast_classifier/models/v3/compact_heads.json": {
+      "sha256": "11d5ea991df52e9eca952766a151cb99f6d8c825104d17116c06c01042c130c3",
+      "bytes": 9961
+    },
+    "benchmarks/fast_classifier/v1/seed.jsonl": {
+      "sha256": "d8bb2f891b9de700962dc753491d24cf5341ae337eeb31ae87a422363ea3eb7d",
+      "bytes": 20411
+    },
+    "benchmarks/fast_classifier/v2/dataset.jsonl": {
+      "sha256": "39efcaa80cdba3f8c66d5a18c48137904a213eed0d97e6cf2866d90b01a93300",
+      "bytes": 239391
+    },
+    "benchmarks/fast_classifier/v3/dataset.jsonl": {
+      "sha256": "94856b101b71c08655a6407b3e313938cef742beacef2b60ea4a1f20741b5a24",
+      "bytes": 342326
+    },
+    "benchmarks/fast_classifier/v4/dataset.jsonl": {
+      "sha256": "5d5317f2e403f0e3c03a769415817cd407ecb9311cad38087d77aefccebb1be6",
+      "bytes": 475508
+    },
+    "benchmarks/fast_classifier/fast_brain_v1/dataset.jsonl": {
+      "sha256": "426d722c68bbf13e22a03fa71f26df246c83d698d4cb7cd50358642bf90e9a82",
+      "bytes": 454746
+    },
+    "benchmarks/fast_classifier/fast_brain_v1/review_decisions.jsonl": {
+      "sha256": "abaf920911ea99aec08f0c74a2e5f08a2efeb73bd138ffdfca2a267dc666dcd6",
+      "bytes": 12827
+    },
+    "assistant/orchestration/compact_adapter.py": {
+      "sha256": "44b27e30c40a4c95ae46204d29c815d95ebdabe60b1cc0fddb50ed3b2119a854",
+      "bytes": 13889
+    },
+    "assistant/orchestration/decision.py": {
+      "sha256": "aadf7e0459a8c10178a39dabe2aef55c38c4bb00044c3e0bb1bfd3594f3577eb",
+      "bytes": 10968
+    },
+    "assistant/orchestration/fast_brain/contract.py": {
+      "sha256": "06275346148865f4f05d0c1ff3662cd0fa8572cf06003225001cb0a70b20fd1a",
+      "bytes": 5170
+    },
+    "benchmarks/fast_classifier/train_candidate.py": {
+      "sha256": "57234b359a64c63e3c6fe91b10af901bf5f66cd4d259bddc39b05de4ddd55b9e",
+      "bytes": 8660
+    },
+    "benchmarks/fast_classifier/evaluate.py": {
+      "sha256": "ee2bb147011c05ec69bbcf34da12191490b682070ec671e35d53055aad2008c8",
+      "bytes": 37379
+    },
+    "benchmarks/fast_classifier/prepare_v2.py": {
+      "sha256": "9dee8435f25620c968eaba0a007b895466d0815fe5977f83c20f8945d864f341",
+      "bytes": 22118
+    },
+    "benchmarks/fast_classifier/prepare_v3.py": {
+      "sha256": "8501fdd89ff98f01af18d8232d937da0d1404fdc47522ae9c23fb3ca6bd922d5",
+      "bytes": 14123
+    },
+    "benchmarks/fast_classifier/prepare_v4.py": {
+      "sha256": "5d2bfdf468549a9a06557c529149d0a8d34d216cfd3c7bea4082f9649c9e15d2",
+      "bytes": 21423
+    },
+    "benchmarks/fast_classifier/build_fast_brain_dataset.py": {
+      "sha256": "3be806423600a4c4055e842f03c1e2612acfa2e128df75ea750c56cfbd4b5a14",
+      "bytes": 7424
+    },
+    "benchmarks/fast_classifier/fast_brain_v1/schema.py": {
+      "sha256": "5af130dbb2703494d8982c1988d6ef0674e7d7e455be86c04e220d4116d74dd5",
+      "bytes": 5185
+    },
+    "benchmarks/fast_classifier/fast_brain_v1/split.py": {
+      "sha256": "63c1821513d8682d3bfcdae2f07676a44acc8294c5aea66259f89aab1fb4ead0",
+      "bytes": 2076
+    },
+    "benchmarks/fast_classifier/fast_brain_v1/review.py": {
+      "sha256": "6c96958e65c484c0f300c902b5061099d57c22aed844a35bd6a5d4f744be7ede",
+      "bytes": 9940
+    },
+    "assistant/tools/registry.py": {
+      "sha256": "11ee8bb78b0a4ab62eff63700110b1bf44afd2d845d4b0a597c28ec1feac9408",
+      "bytes": 14664
+    },
+    "assistant/orchestration/graph.py": {
+      "sha256": "119e6eeb6c2df4d7710157c743037bada6cba0a0581d88d7c296f2c2552cb258",
+      "bytes": 14740
+    },
+    "benchmarks/fast_classifier/run_phase3c_evaluation.py": {
+      "sha256": "f97539e105327d0306d927059eb624b90c533d4e0dd7b576940fbbd5872035d2",
+      "bytes": 4115
+    },
+    "benchmarks/fast_classifier/run_phase4_comparison.py": {
+      "sha256": "91a7ffe4ce14da8828a8e3af1591b00db47297e82eda1ab0a2a330a9a320b2ba",
+      "bytes": 6932
+    },
+    "benchmarks/fast_classifier/v2/split_manifest.json": {
+      "sha256": "184c16792c930a837af6e2a5ba61b11c721cda3401826909c907c53d8669ac34",
+      "bytes": 12787
+    },
+    "benchmarks/fast_classifier/v3/split_manifest.json": {
+      "sha256": "4d5501fc019a73e5260c7945a1f551fff134fea35469de6995f86b8278a1c038",
+      "bytes": 48744
+    },
+    "benchmarks/fast_classifier/v4/split_manifest.json": {
+      "sha256": "cc764732fabe302d1d1fd28928e2c648590e16476f345e5ed602370fdf2479ba",
+      "bytes": 24750
+    },
+    "benchmarks/fast_classifier/fast_brain_v1/split_manifest.json": {
+      "sha256": "43cd764b6d2c871c7f67afcdb37ca78a2f010b6c9417de039ab9864ea1a8e916",
+      "bytes": 13285
+    },
+    "benchmarks/fast_classifier/fast_brain_v1/dataset_analysis.json": {
+      "sha256": "2ca380b808f1d1fd6d259b7a129d734fba42d95ef3c167aeddd04315aa6c1f46",
+      "bytes": 1656
+    },
+    "benchmarks/fast_classifier/fast_brain_v1/review_analysis.json": {
+      "sha256": "e2e2764dc2c428e9a5d874836d2988066c5d8b3f6bdc53c2bc286a47db7342e4",
+      "bytes": 1824
+    },
+    "benchmarks/fast_classifier/fast_brain_v1/rejected_records.jsonl": {
+      "sha256": "f1cfcfe96f577e9fadf00a4e498e7cd0a908feb7f0eaaa4222868a925931d7ce",
+      "bytes": 15321
+    },
+    "benchmarks\\fast_classifier\\models\\v3\\compact_heads.joblib": {
+      "sha256": "7f4dd399b7238c7bf0c166454c3ff5aa09d6e3bf1afb82666b526d43cf452f05",
+      "bytes": 128417
+    },
+    "benchmarks/fast_classifier/PHASE_3C_EVALUATION.md": {
+      "sha256": "907333d051bae9754b37686a39035bc12a154b304d37674ea8733b0176deb776",
+      "bytes": 9357
+    },
+    "benchmarks/fast_classifier/v4/DATASET_CARD.md": {
+      "sha256": "4ca46c9dd54d6973c032a1af3e46ba67a810a3178ebfcdc30b54a517fecce28a",
+      "bytes": 2046
+    },
+    "benchmarks/fast_classifier/v4/ANNOTATION_GUIDE.md": {
+      "sha256": "9b4ee5f8692c5724985f97e57325333345d2d2c3362ad0d6b10daad03d670e68",
+      "bytes": 1477
+    },
+    "benchmarks/jarvis_fast_brain/EVALUATION_PLAN.md": {
+      "sha256": "07001f43d384776c413787cc8bef367ed7bb948e7f9b83b7d45c78097cce5475",
+      "bytes": 2252
+    }
+  },
+  "outputs": {
+    "analysis_summary.json": "80b88f828375c0f8ddee2a31109a6d9afeee33cff6ecb913e040ea485053c135",
+    "audit.py": "231249ce452d364bfe270770320980476ff72af772187a77f8d7a90fb44d821a",
+    "context_quality.csv": "d0731c2078d7372a09ff81010536af286e3256e30655fb962a9978c75ca6d700",
+    "dataset_quality_audit.md": "526ddeb0821ad994ac8be485ebf7aa5e387d313bb575d4b7e364eab50a8b6c10",
+    "duplicate_and_leakage_report.csv": "fb93f07528f157bb272475d3c16e3914abc521d9f4d78811430a978fa5555ba6",
+    "finalize.py": "df7ad538e1e70918b9d12f185f9fa7fa570969672f71fc70bb0172cd5b19ffa9",
+    "integrity_checks.json": "eff5629bf1ca43e311b458bf64ce902ae557ca55eee34fb7c0899b3f2271741f",
+    "label_distribution.csv": "84a3b8ca4ed585e37a00528159504ddc37d3cd05c78e8bf0fd5dac1345caf709",
+    "language_coverage.csv": "0c51b3819598ef8ad5bca46d82f1135f5ab21e501af1249ba896b626e95764b6",
+    "source_provenance.json": "11d497ffc43a1fd1f956ecf20b9d7cf37a2f0f62d7534126fc840852d4741f88",
+    "suspicious_labels.csv": "2232c0981cee98171938cfc725d8d934a8cd40ee1d2e5972f192932433ce03d1"
+  },
+  "manifest_self_hash": "Excluded to avoid recursive hash; regenerate output hash list after report finalization",
+  "timestamp_completed": "2026-10-10T15:44:02.334031+05:30",
+  "script_versions": {
+    "audit.py": "1.0",
+    "finalize.py": "1.0"
+  },
+  "input_hashes_unchanged": true
+}

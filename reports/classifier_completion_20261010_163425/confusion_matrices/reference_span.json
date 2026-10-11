@@ -1,0 +1,116 @@
+{
+  "labels": [
+    "Kal architecture ke baare mein",
+    "__none__",
+    "__utterance__",
+    "it",
+    "my notes folder",
+    "our hologram project",
+    "prior discussion",
+    "the database migration last week",
+    "the second one"
+  ],
+  "matrix": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "denominator": 11,
+  "metric_type": "PROVISIONAL_LABEL_AGREEMENT"
+}

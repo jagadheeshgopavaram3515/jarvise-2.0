@@ -1,0 +1,38 @@
+test_all_registered_families_mapped (test_dataset_tools.BuilderTests) ... ok
+test_ambiguous_reference_map_returns_none (test_dataset_tools.BuilderTests) ... ok
+test_argument_alignment_preserves_original (test_dataset_tools.BuilderTests) ... ok
+test_clarification_mapping_is_partial_only (test_dataset_tools.BuilderTests) ... ok
+test_duplicate_reviewer_not_gold (test_dataset_tools.BuilderTests) ... ok
+test_exact_schema_approval_gate_positive_unit_fixture (test_dataset_tools.BuilderTests) ... ok
+test_explicit_reference_map_only (test_dataset_tools.BuilderTests) ... ok
+test_gold_shape_alone_does_not_make_heads_fittable (test_dataset_tools.BuilderTests) ... ok
+test_gold_targets_never_input (test_dataset_tools.BuilderTests) ... ok
+test_invalid_missing_type_rejected (test_dataset_tools.BuilderTests) ... ok
+test_new_path_not_forced_into_old_contract (test_dataset_tools.BuilderTests) ... ok
+test_newer_family_not_tool_name (test_dataset_tools.BuilderTests) ... ok
+test_no_arbitrary_context_first_scalar (test_dataset_tools.BuilderTests) ... ok
+test_normalization_no_translation_or_script_collapse (test_dataset_tools.BuilderTests) ... ok
+test_omitted_actions_fixed (test_dataset_tools.BuilderTests) ... ok
+test_original_compact_schema (test_dataset_tools.BuilderTests) ... ok
+test_per_example_descriptor_feature_parity (test_dataset_tools.BuilderTests) ... ok
+test_prior_request_not_silently_remapped (test_dataset_tools.BuilderTests) ... ok
+test_protected_test_never_fits (test_dataset_tools.BuilderTests) ... ok
+test_registry_required_arguments (test_dataset_tools.BuilderTests) ... ok
+test_single_reviewer_not_gold (test_dataset_tools.BuilderTests) ... ok
+test_skipped_or_disputed_not_gold (test_dataset_tools.BuilderTests) ... ok
+test_structured_missing_preserved (test_dataset_tools.BuilderTests) ... ok
+test_synthetic_state_not_gold (test_dataset_tools.BuilderTests) ... ok
+test_transitive_group_union (test_dataset_tools.BuilderTests) ... ok
+test_unknown_capability_fails (test_dataset_tools.BuilderTests) ... ok
+test_unknown_structured_fields_rejected (test_dataset_tools.BuilderTests) ... ok
+test_verified_hash_is_bound_to_targets_and_context (test_dataset_tools.BuilderTests) ... ok
+test_all_candidate_files_parse_actual_loader (test_dataset_tools.BuiltDatasetTests) ... ok
+test_candidates_rejected_by_training_gate (test_dataset_tools.BuiltDatasetTests) ... ok
+test_downloads_test_duplicate_not_candidate (test_dataset_tools.BuiltDatasetTests) ... ok
+test_each_scenario_has_one_candidate_group (test_dataset_tools.BuiltDatasetTests) ... ok
+test_supervised_empty_and_guard_blocks_before_encoder (test_dataset_tools.BuiltDatasetTests) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 0.290s
+
+OK

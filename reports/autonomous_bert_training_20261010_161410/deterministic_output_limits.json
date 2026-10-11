@@ -1,0 +1,101 @@
+{
+  "incompatible_records": 11,
+  "denominator": 40,
+  "maximum_possible_exact_under_unchanged_adapter": 0.725,
+  "records": [
+    {
+      "record_id": "compact-candidate-12497cce3ae1e67f9fe3",
+      "original_id": "dev_memory_project-te-Latn",
+      "reasons": [
+        "reference_span"
+      ],
+      "gold_label_changed": false
+    },
+    {
+      "record_id": "compact-candidate-5bb41551bde7365c7e6f",
+      "original_id": "dev_memory_project-hi-Latn",
+      "reasons": [
+        "reference_span"
+      ],
+      "gold_label_changed": false
+    },
+    {
+      "record_id": "compact-candidate-78b32893ee08710fbf15",
+      "original_id": "en-memory-001",
+      "reasons": [
+        "reference_span"
+      ],
+      "gold_label_changed": false
+    },
+    {
+      "record_id": "compact-candidate-7917108a5d2747ee47e2",
+      "original_id": "dev_clarify_unresolved-hi-Latn",
+      "reasons": [
+        "missing_information_description",
+        "reference_span"
+      ],
+      "gold_label_changed": false
+    },
+    {
+      "record_id": "compact-candidate-893b671924b3cdf76af9",
+      "original_id": "dev_clarify_unresolved-ta-Latn",
+      "reasons": [
+        "missing_information_description",
+        "reference_span"
+      ],
+      "gold_label_changed": false
+    },
+    {
+      "record_id": "compact-candidate-8d9d53363a7e80b65910",
+      "original_id": "dev_memory_project-ta-Latn",
+      "reasons": [
+        "reference_span"
+      ],
+      "gold_label_changed": false
+    },
+    {
+      "record_id": "compact-candidate-9134889c17e20b298d08",
+      "original_id": "ctx-hologram-001",
+      "reasons": [
+        "reference_span",
+        "resolved_reference_value"
+      ],
+      "gold_label_changed": false
+    },
+    {
+      "record_id": "compact-candidate-a576ef35587382c078ec",
+      "original_id": "dev_memory_project-en",
+      "reasons": [
+        "reference_span"
+      ],
+      "gold_label_changed": false
+    },
+    {
+      "record_id": "compact-candidate-c024e829657449ff7957",
+      "original_id": "dev_clarify_unresolved-en",
+      "reasons": [
+        "missing_information_description",
+        "reference_span"
+      ],
+      "gold_label_changed": false
+    },
+    {
+      "record_id": "compact-candidate-e39074e52cecbf1ed55d",
+      "original_id": "hi-codeswitch-memory-001",
+      "reasons": [
+        "reference_span"
+      ],
+      "gold_label_changed": false
+    },
+    {
+      "record_id": "compact-candidate-eff9f24d7bf6cf6b71e0",
+      "original_id": "dev_clarify_unresolved-te-Latn",
+      "reasons": [
+        "missing_information_description",
+        "reference_span"
+      ],
+      "gold_label_changed": false
+    }
+  ],
+  "interpretation": "Conservative upper bound from deterministic output incompatibility; not a measured oracle/model accuracy. All original provisional targets retained. Not used to select or rewrite labels."
+}

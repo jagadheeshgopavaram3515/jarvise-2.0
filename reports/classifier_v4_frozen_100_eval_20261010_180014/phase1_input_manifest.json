@@ -1,0 +1,8 @@
+{
+  "v4_adapter_sha256": "97bc7c57d1f25b488f1ce901714e2b0880a1dcad8c9aef713de18231eb04e19f",
+  "v4_model_artifact_sha256": "6eb693419cdc4a1de54a9ea5f69ef07a41f0eaa1b48b30673a960a04a01f8ace",
+  "provisional_train_sha256": "67d57286b528b62abb04355ecb0933c3906f5aa59805d8ff68df424b1afd4c6d",
+  "provisional_validation_sha256": "6f8cf0d9a8b1b7aab65d2fc2918bf26d327af00b4c76bf28f94aaad936a36692",
+  "unseen_corpus_24_sha256": "ebd2128c3ece5a638b24d1eb34ec50d9b594f2f8d5e90071aae089429899044a",
+  "frozen_features_sha256": "8fe6183843885294a1b1ce601d954bcca09323b7a078e6dc911f29c8d4dc1082"
+}

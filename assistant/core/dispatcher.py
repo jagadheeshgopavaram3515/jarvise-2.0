@@ -72,6 +72,9 @@ class Dispatcher(threading.Thread):
 
     # --------------------------------------------------------------------
     def _route(self, tr: Transcript):
+        if tr.interrupt_epoch is not None and tr.interrupt_epoch != self.bus.interrupt_epoch:
+            log.info("STT_DISPATCH category=cancelled utterance_id=%s", tr.utterance_id)
+            return
         # FIX F: backchannel fillers ("hmm"/"ahh") are signals, never queries.
         if getattr(tr, "kind", "speech") == "filler":
             self._handle_filler(tr)

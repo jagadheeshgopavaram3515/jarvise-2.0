@@ -1,0 +1,294 @@
+{
+  "metadata_equals_joblib": {
+    "artifact_schema_version": true,
+    "adapter_id": true,
+    "model_id": true,
+    "model_role": true,
+    "max_length": true,
+    "dataset_path": true,
+    "dataset_sha256": true,
+    "training_split": true,
+    "training_examples": true,
+    "training_example_ids": true,
+    "capability_encoding": true,
+    "capability_threshold": true,
+    "mode_threshold": true,
+    "training_configuration": true,
+    "path_default_mode": true,
+    "runtime": true
+  },
+  "dataset_hash_matches_artifact": true,
+  "training_ids_match_train_split": true,
+  "missing_training_ids": [],
+  "extra_train_split_ids": [],
+  "heads": {
+    "execution_path": {
+      "type": "LogisticRegression",
+      "classes": [
+        "clarify",
+        "direct_response",
+        "escalate",
+        "memory_recall",
+        "multi_step_task",
+        "research",
+        "single_action"
+      ],
+      "n_features_in": 768,
+      "finite_weights": true,
+      "class_weight": "balanced",
+      "C": 4.0,
+      "n_iter": [
+        39
+      ]
+    },
+    "clarification": {
+      "type": "LogisticRegression",
+      "classes": [
+        0,
+        1
+      ],
+      "n_features_in": 768,
+      "finite_weights": true,
+      "class_weight": "balanced",
+      "C": 4.0,
+      "n_iter": [
+        11
+      ]
+    },
+    "escalation": {
+      "type": "LogisticRegression",
+      "classes": [
+        0,
+        1
+      ],
+      "n_features_in": 768,
+      "finite_weights": true,
+      "class_weight": "balanced",
+      "C": 4.0,
+      "n_iter": [
+        11
+      ]
+    },
+    "missing_information": {
+      "type": "LogisticRegression",
+      "classes": [
+        "__none__",
+        "target"
+      ],
+      "n_features_in": 768,
+      "finite_weights": true,
+      "class_weight": "balanced",
+      "C": 4.0,
+      "n_iter": [
+        11
+      ]
+    },
+    "reference_kind": {
+      "type": "LogisticRegression",
+      "classes": [
+        "__none__",
+        "item",
+        "prior_conversation"
+      ],
+      "n_features_in": 768,
+      "finite_weights": true,
+      "class_weight": "balanced",
+      "C": 4.0,
+      "n_iter": [
+        28
+      ]
+    },
+    "reference_resolved": {
+      "type": "LogisticRegression",
+      "classes": [
+        0,
+        1
+      ],
+      "n_features_in": 768,
+      "finite_weights": true,
+      "class_weight": "balanced",
+      "C": 4.0,
+      "n_iter": [
+        15
+      ]
+    },
+    "capability_matcher": {
+      "type": "LogisticRegression",
+      "classes": [
+        0,
+        1
+      ],
+      "n_features_in": 3072,
+      "finite_weights": true,
+      "class_weight": "balanced",
+      "C": 4.0,
+      "n_iter": [
+        19
+      ]
+    },
+    "mode:conversational": {
+      "type": "LogisticRegression",
+      "classes": [
+        0,
+        1
+      ],
+      "n_features_in": 768,
+      "finite_weights": true,
+      "class_weight": "balanced",
+      "C": 4.0,
+      "n_iter": [
+        13
+      ]
+    },
+    "mode:memory": {
+      "type": "LogisticRegression",
+      "classes": [
+        0,
+        1
+      ],
+      "n_features_in": 768,
+      "finite_weights": true,
+      "class_weight": "balanced",
+      "C": 4.0,
+      "n_iter": [
+        15
+      ]
+    },
+    "mode:research": {
+      "type": "LogisticRegression",
+      "classes": [
+        0,
+        1
+      ],
+      "n_features_in": 768,
+      "finite_weights": true,
+      "class_weight": "balanced",
+      "C": 4.0,
+      "n_iter": [
+        9
+      ]
+    },
+    "mode:action": {
+      "type": "LogisticRegression",
+      "classes": [
+        0,
+        1
+      ],
+      "n_features_in": 768,
+      "finite_weights": true,
+      "class_weight": "balanced",
+      "C": 4.0,
+      "n_iter": [
+        16
+      ]
+    }
+  },
+  "descriptor_name_variants": {
+    "open_app": 2,
+    "find_file": 2,
+    "google_search": 2,
+    "open_folder": 2,
+    "read_page": 2
+  },
+  "encoder_revision_and_weight_hash": "NOT_VERIFIED: artifact records hub ID, not resolved revision or weight hash",
+  "embedding_cache": "No persistent embedding cache in train_candidate.py; arrays generated per run",
+  "fine_tuning": "No encoder optimizer/backward; eval/inference_mode with frozen features; only LR fit calls",
+  "sealed_policy": "Automated label analysis excluded original test and sealed_candidate labels. No sealed outcomes were analyzed or used for tuning. An initial source preview displayed one v3 sealed record; it was not used in analysis. Historical evaluation prose was read incidentally; its test outcomes were not used.",
+  "historical_review_summary_stale": true,
+  "schema_errors_nonsealed": [],
+  "review_validation_errors_nonsealed": [],
+  "descriptor_training_inference_actual_mismatch": {
+    "capability_pairs": {
+      "open_app": 80,
+      "find_file": 100,
+      "google_search": 80,
+      "open_folder": 40,
+      "read_page": 40
+    },
+    "unique_training_records": 120,
+    "total_pairs": 340
+  },
+  "registry_argument_mismatches_nonsealed": [],
+  "input_hashes_unchanged_after_analysis": {
+    "benchmarks/fast_classifier/models/v3/compact_heads.json": true,
+    "benchmarks/fast_classifier/v1/seed.jsonl": true,
+    "benchmarks/fast_classifier/v2/dataset.jsonl": true,
+    "benchmarks/fast_classifier/v3/dataset.jsonl": true,
+    "benchmarks/fast_classifier/v4/dataset.jsonl": true,
+    "benchmarks/fast_classifier/fast_brain_v1/dataset.jsonl": true,
+    "benchmarks/fast_classifier/fast_brain_v1/review_decisions.jsonl": true,
+    "assistant/orchestration/compact_adapter.py": true,
+    "assistant/orchestration/decision.py": true,
+    "assistant/orchestration/fast_brain/contract.py": true,
+    "benchmarks/fast_classifier/train_candidate.py": true,
+    "benchmarks/fast_classifier/evaluate.py": true,
+    "benchmarks/fast_classifier/prepare_v2.py": true,
+    "benchmarks/fast_classifier/prepare_v3.py": true,
+    "benchmarks/fast_classifier/prepare_v4.py": true,
+    "benchmarks/fast_classifier/build_fast_brain_dataset.py": true,
+    "benchmarks/fast_classifier/fast_brain_v1/schema.py": true,
+    "benchmarks/fast_classifier/fast_brain_v1/split.py": true,
+    "benchmarks/fast_classifier/fast_brain_v1/review.py": true,
+    "assistant/tools/registry.py": true,
+    "assistant/orchestration/graph.py": true,
+    "benchmarks/fast_classifier/run_phase3c_evaluation.py": true,
+    "benchmarks/fast_classifier/run_phase4_comparison.py": true,
+    "benchmarks/fast_classifier/v2/split_manifest.json": true,
+    "benchmarks/fast_classifier/v3/split_manifest.json": true,
+    "benchmarks/fast_classifier/v4/split_manifest.json": true,
+    "benchmarks/fast_classifier/fast_brain_v1/split_manifest.json": true,
+    "benchmarks/fast_classifier/fast_brain_v1/dataset_analysis.json": true,
+    "benchmarks/fast_classifier/fast_brain_v1/review_analysis.json": true,
+    "benchmarks/fast_classifier/fast_brain_v1/rejected_records.jsonl": true,
+    "benchmarks\\fast_classifier\\models\\v3\\compact_heads.joblib": true,
+    "benchmarks/fast_classifier/PHASE_3C_EVALUATION.md": true,
+    "benchmarks/fast_classifier/v4/DATASET_CARD.md": true,
+    "benchmarks/fast_classifier/v4/ANNOTATION_GUIDE.md": true,
+    "benchmarks/jarvis_fast_brain/EVALUATION_PLAN.md": true
+  },
+  "split_manifest_hash_checks": {
+    "v2": true,
+    "v3": true,
+    "v4": true
+  },
+  "historical_source_hash_matches": true,
+  "limitations": [
+    "Independent annotation correctness not established by schema validity or reviewer identity alone.",
+    "No local encoder revision/weight fingerprint or saved source-code-at-training snapshot.",
+    "No semantic encoder was run; character-similarity triage can miss translations, template variants and paraphrases.",
+    "Sealed labels/distributions excluded, including historical copies of original sealed records; class tables are partial for the historical queue.",
+    "Early source preview included one sealed record; zero incidental sealed visibility cannot be claimed."
+  ],
+  "v4_builder_registry_descriptor_mismatches_static": [
+    {
+      "capability": "weather",
+      "builder_required": [
+        "city"
+      ],
+      "registry_required": []
+    },
+    {
+      "capability": "search_files",
+      "builder_required": [
+        "query"
+      ],
+      "registry_required": [
+        "keyword"
+      ]
+    },
+    {
+      "capability": "list_directory",
+      "builder_required": [
+        "path"
+      ],
+      "registry_required": []
+    },
+    {
+      "capability": "run_project_tests",
+      "builder_required": [
+        "project_path"
+      ],
+      "registry_required": []
+    }
+  ]
+}

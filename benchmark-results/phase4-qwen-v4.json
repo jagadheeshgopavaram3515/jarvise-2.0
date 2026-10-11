@@ -1,0 +1,3867 @@
+{
+  "report_schema_version": "1.0",
+  "dataset": {
+    "schema_version": "4.0",
+    "path": "D:\\JARVIS\\benchmarks\\fast_classifier\\v4\\dataset.jsonl",
+    "split": "test"
+  },
+  "adapter": {
+    "id": "legacy-qwen-production-interface",
+    "kind": "legacy",
+    "measurement_kind": "real_legacy_qwen_on_v4_sealed_test",
+    "configuration": {
+      "model": "qwen2.5-coder:3b",
+      "base_url": "http://localhost:11434",
+      "timeout_s": 5.0,
+      "interface": "classify(text)->LOCAL|GEMINI|TASK; structured fields unavailable"
+    }
+  },
+  "counts": {
+    "total": 140,
+    "successful_predictions": 107,
+    "invalid_outputs": 0,
+    "errors": 0,
+    "timeouts": 33,
+    "not_applicable_execution_paths": 27
+  },
+  "coverage": {
+    "languages": {
+      "en": 20,
+      "hi": 20,
+      "hi-Latn": 20,
+      "mixed-en-hi": 20,
+      "mixed-en-te": 20,
+      "te": 20,
+      "te-Latn": 20
+    },
+    "categories": {
+      "clarify": 21,
+      "code_switching": 40,
+      "direct_response": 14,
+      "english": 20,
+      "escalate": 14,
+      "memory_recall": 7,
+      "multi_step_task": 14,
+      "native_script": 40,
+      "phase4_comparison": 140,
+      "research": 14,
+      "romanized": 40,
+      "single_action": 56
+    }
+  },
+  "metrics": {
+    "execution_path": {
+      "available": true,
+      "applicable": 80,
+      "correct": 10,
+      "accuracy": 0.125
+    },
+    "intent": {
+      "available": false,
+      "reason": "legacy classify() does not expose this field"
+    },
+    "request_modes": {
+      "available": false,
+      "reason": "legacy classify() does not expose this field"
+    },
+    "selected_capability": {
+      "available": false,
+      "reason": "legacy classify() does not expose this field"
+    },
+    "context_references": {
+      "available": false,
+      "reason": "legacy classify() does not expose this field"
+    },
+    "missing_information": {
+      "available": false,
+      "reason": "legacy classify() does not expose this field"
+    },
+    "needs_clarification": {
+      "available": false,
+      "reason": "legacy classify() does not expose this field"
+    },
+    "needs_escalation": {
+      "available": false,
+      "reason": "legacy classify() does not expose this field"
+    }
+  },
+  "group_metrics": {
+    "language": {
+      "en": {
+        "examples": 2,
+        "execution_path_accuracy": 0.5
+      },
+      "hi": {
+        "examples": 15,
+        "execution_path_accuracy": 0.06666666666666667
+      },
+      "hi-Latn": {
+        "examples": 8,
+        "execution_path_accuracy": 0.25
+      },
+      "mixed-en-hi": {
+        "examples": 15,
+        "execution_path_accuracy": 0.13333333333333333
+      },
+      "mixed-en-te": {
+        "examples": 15,
+        "execution_path_accuracy": 0.13333333333333333
+      },
+      "te": {
+        "examples": 15,
+        "execution_path_accuracy": 0.06666666666666667
+      },
+      "te-Latn": {
+        "examples": 10,
+        "execution_path_accuracy": 0.1
+      }
+    },
+    "category": {
+      "code_switching": {
+        "examples": 30,
+        "execution_path_accuracy": 0.13333333333333333
+      },
+      "direct_response": {
+        "examples": 11,
+        "execution_path_accuracy": 0.0
+      },
+      "english": {
+        "examples": 2,
+        "execution_path_accuracy": 0.5
+      },
+      "memory_recall": {
+        "examples": 5,
+        "execution_path_accuracy": 1.0
+      },
+      "multi_step_task": {
+        "examples": 12,
+        "execution_path_accuracy": 0.0
+      },
+      "native_script": {
+        "examples": 30,
+        "execution_path_accuracy": 0.06666666666666667
+      },
+      "phase4_comparison": {
+        "examples": 80,
+        "execution_path_accuracy": 0.125
+      },
+      "research": {
+        "examples": 13,
+        "execution_path_accuracy": 0.38461538461538464
+      },
+      "romanized": {
+        "examples": 18,
+        "execution_path_accuracy": 0.16666666666666666
+      },
+      "single_action": {
+        "examples": 39,
+        "execution_path_accuracy": 0.0
+      }
+    },
+    "script": {
+      "code_switched": {
+        "examples": 30,
+        "execution_path_accuracy": 0.13333333333333333
+      },
+      "english_latin": {
+        "examples": 2,
+        "execution_path_accuracy": 0.5
+      },
+      "native_script": {
+        "examples": 30,
+        "execution_path_accuracy": 0.06666666666666667
+      },
+      "romanized": {
+        "examples": 18,
+        "execution_path_accuracy": 0.16666666666666666
+      }
+    }
+  },
+  "execution_path_confusion": {
+    "GEMINI": {
+      "GEMINI": 5
+    },
+    "LOCAL": {
+      "GEMINI": 8,
+      "TASK": 3
+    },
+    "TASK": {
+      "GEMINI": 59,
+      "TASK": 5
+    }
+  },
+  "latency": {
+    "timer": "time.perf_counter_ns",
+    "method": "nearest-rank percentiles",
+    "successful_predictions": {
+      "count": 107,
+      "mean_ms": 1.3354289719626173,
+      "p50_ms": 1.0991,
+      "p95_ms": 1.9824
+    },
+    "cold_first_invocation": {
+      "count": 1,
+      "mean_ms": 19.6862,
+      "p50_ms": 19.6862,
+      "p95_ms": 19.6862
+    },
+    "warm_subsequent_invocations": {
+      "count": 106,
+      "mean_ms": 1.1623084905660381,
+      "p50_ms": 1.0978,
+      "p95_ms": 1.7882
+    },
+    "process_startup_and_model_loading_ms": null,
+    "by_inference_provenance": {
+      "deterministic_fast_path": {
+        "count": 107,
+        "mean_ms": 1.3354289719626173,
+        "p50_ms": 1.0991,
+        "p95_ms": 1.9824
+      },
+      "ollama_qwen": {
+        "count": 0,
+        "mean_ms": null,
+        "p50_ms": null,
+        "p95_ms": null
+      }
+    },
+    "components": {
+      "preprocessing_ms": {
+        "count": 0,
+        "mean_ms": null,
+        "p50_ms": null,
+        "p95_ms": null
+      },
+      "model_inference_ms": {
+        "count": 0,
+        "mean_ms": null,
+        "p50_ms": null,
+        "p95_ms": null
+      },
+      "postprocessing_ms": {
+        "count": 0,
+        "mean_ms": null,
+        "p50_ms": null,
+        "p95_ms": null
+      }
+    },
+    "note": "Cold is the first benchmark invocation only. It is not guaranteed to include process startup or model loading; those are not measured separately. Warm does not prove cache state."
+  },
+  "failures": [
+    {
+      "id": "v4_casual_weekend-en",
+      "status": "timeout",
+      "expected_execution_path": "LOCAL",
+      "prediction": null,
+      "failed_metrics": [],
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_casual_weekend-te",
+      "status": "success",
+      "expected_execution_path": "LOCAL",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "v4_casual_weekend-hi",
+      "status": "success",
+      "expected_execution_path": "LOCAL",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "v4_casual_weekend-te-Latn",
+      "status": "success",
+      "expected_execution_path": "LOCAL",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "v4_casual_weekend-hi-Latn",
+      "status": "timeout",
+      "expected_execution_path": "LOCAL",
+      "prediction": null,
+      "failed_metrics": [],
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_casual_weekend-mixed-en-te",
+      "status": "success",
+      "expected_execution_path": "LOCAL",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "v4_casual_weekend-mixed-en-hi",
+      "status": "success",
+      "expected_execution_path": "LOCAL",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "v4_knowledge_rainbow-en",
+      "status": "success",
+      "expected_execution_path": "LOCAL",
+      "prediction": {
+        "execution_path": "TASK"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "v4_knowledge_rainbow-te",
+      "status": "success",
+      "expected_execution_path": "LOCAL",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "v4_knowledge_rainbow-hi",
+      "status": "success",
+      "expected_execution_path": "LOCAL",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "v4_knowledge_rainbow-te-Latn",
+      "status": "timeout",
+      "expected_execution_path": "LOCAL",
+      "prediction": null,
+      "failed_metrics": [],
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_knowledge_rainbow-hi-Latn",
+      "status": "success",
+      "expected_execution_path": "LOCAL",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "v4_knowledge_rainbow-mixed-en-te",
+      "status": "success",
+      "expected_execution_path": "LOCAL",
+      "prediction": {
+        "execution_path": "TASK"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "v4_knowledge_rainbow-mixed-en-hi",
+      "status": "success",
+      "expected_execution_path": "LOCAL",
+      "prediction": {
+        "execution_path": "TASK"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "v4_memory_release-en",
+      "status": "timeout",
+      "expected_execution_path": "GEMINI",
+      "prediction": null,
+      "failed_metrics": [],
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_memory_release-te-Latn",
+      "status": "timeout",
+      "expected_execution_path": "GEMINI",
+      "prediction": null,
+      "failed_metrics": [],
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_followup_unresolved-en",
+      "status": "timeout",
+      "expected_execution_path": null,
+      "prediction": null,
+      "failed_metrics": [],
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_followup_unresolved-hi-Latn",
+      "status": "timeout",
+      "expected_execution_path": null,
+      "prediction": null,
+      "failed_metrics": [],
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_weather_pune-te",
+      "status": "success",
+      "expected_execution_path": "TASK",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "v4_weather_pune-hi",
+      "status": "success",
+      "expected_execution_path": "TASK",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "v4_current_location-en",
+      "status": "timeout",
+      "expected_execution_path": "TASK",
+      "prediction": null,
+      "failed_metrics": [],
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_current_location-te",
+      "status": "success",
+      "expected_execution_path": "TASK",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "v4_current_location-hi",
+      "status": "success",
+      "expected_execution_path": "TASK",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "v4_current_location-te-Latn",
+      "status": "success",
+      "expected_execution_path": "TASK",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "v4_current_location-hi-Latn",
+      "status": "success",
+      "expected_execution_path": "TASK",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    }
+  ],
+  "records": [
+    {
+      "id": "v4_casual_weekend-en",
+      "split": "test",
+      "language": "en",
+      "categories": [
+        "direct_response",
+        "phase4_comparison",
+        "english"
+      ],
+      "expected_execution_path": "LOCAL",
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "english_latin",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6016.5272,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_casual_weekend-te",
+      "split": "test",
+      "language": "te",
+      "categories": [
+        "direct_response",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "LOCAL",
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 19.6862,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.03509999987727497,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_casual_weekend-hi",
+      "split": "test",
+      "language": "hi",
+      "categories": [
+        "direct_response",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "LOCAL",
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.7582,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.020700001186924055,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_casual_weekend-te-Latn",
+      "split": "test",
+      "language": "te-Latn",
+      "categories": [
+        "direct_response",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "LOCAL",
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.8063,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.024500001018168405,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_casual_weekend-hi-Latn",
+      "split": "test",
+      "language": "hi-Latn",
+      "categories": [
+        "direct_response",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "LOCAL",
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6011.8835,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_casual_weekend-mixed-en-te",
+      "split": "test",
+      "language": "mixed-en-te",
+      "categories": [
+        "direct_response",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "LOCAL",
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 2.1526,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.05849999979545828,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_casual_weekend-mixed-en-hi",
+      "split": "test",
+      "language": "mixed-en-hi",
+      "categories": [
+        "direct_response",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "LOCAL",
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 2.4497,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.11549999908311293,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_knowledge_rainbow-en",
+      "split": "test",
+      "language": "en",
+      "categories": [
+        "direct_response",
+        "phase4_comparison",
+        "english"
+      ],
+      "expected_execution_path": "LOCAL",
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "english_latin",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.3383,
+      "status": "success",
+      "prediction": {
+        "execution_path": "TASK"
+      },
+      "reported_latency_ms": 0.01779999911377672,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_knowledge_rainbow-te",
+      "split": "test",
+      "language": "te",
+      "categories": [
+        "direct_response",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "LOCAL",
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.7559,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.04039999839733355,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_knowledge_rainbow-hi",
+      "split": "test",
+      "language": "hi",
+      "categories": [
+        "direct_response",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "LOCAL",
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.8476,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.03639999886217993,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_knowledge_rainbow-te-Latn",
+      "split": "test",
+      "language": "te-Latn",
+      "categories": [
+        "direct_response",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "LOCAL",
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6007.2661,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_knowledge_rainbow-hi-Latn",
+      "split": "test",
+      "language": "hi-Latn",
+      "categories": [
+        "direct_response",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "LOCAL",
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.919,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.035000000934815034,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_knowledge_rainbow-mixed-en-te",
+      "split": "test",
+      "language": "mixed-en-te",
+      "categories": [
+        "direct_response",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "LOCAL",
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.8662,
+      "status": "success",
+      "prediction": {
+        "execution_path": "TASK"
+      },
+      "reported_latency_ms": 0.007200000254670158,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_knowledge_rainbow-mixed-en-hi",
+      "split": "test",
+      "language": "mixed-en-hi",
+      "categories": [
+        "direct_response",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "LOCAL",
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.8539,
+      "status": "success",
+      "prediction": {
+        "execution_path": "TASK"
+      },
+      "reported_latency_ms": 0.00940000063565094,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_memory_release-en",
+      "split": "test",
+      "language": "en",
+      "categories": [
+        "memory_recall",
+        "phase4_comparison",
+        "english"
+      ],
+      "expected_execution_path": "GEMINI",
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "english_latin",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6013.2732,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_memory_release-te",
+      "split": "test",
+      "language": "te",
+      "categories": [
+        "memory_recall",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "GEMINI",
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.2439,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.035600000046542846,
+      "comparisons": {
+        "execution_path": true
+      }
+    },
+    {
+      "id": "v4_memory_release-hi",
+      "split": "test",
+      "language": "hi",
+      "categories": [
+        "memory_recall",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "GEMINI",
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.2357,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.023399999918183312,
+      "comparisons": {
+        "execution_path": true
+      }
+    },
+    {
+      "id": "v4_memory_release-te-Latn",
+      "split": "test",
+      "language": "te-Latn",
+      "categories": [
+        "memory_recall",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "GEMINI",
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6014.6623,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_memory_release-hi-Latn",
+      "split": "test",
+      "language": "hi-Latn",
+      "categories": [
+        "memory_recall",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "GEMINI",
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.3645,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.05600000076810829,
+      "comparisons": {
+        "execution_path": true
+      }
+    },
+    {
+      "id": "v4_memory_release-mixed-en-te",
+      "split": "test",
+      "language": "mixed-en-te",
+      "categories": [
+        "memory_recall",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "GEMINI",
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.3131,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.022700000045006163,
+      "comparisons": {
+        "execution_path": true
+      }
+    },
+    {
+      "id": "v4_memory_release-mixed-en-hi",
+      "split": "test",
+      "language": "mixed-en-hi",
+      "categories": [
+        "memory_recall",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "GEMINI",
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.3437,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.11319999975967221,
+      "comparisons": {
+        "execution_path": true
+      }
+    },
+    {
+      "id": "v4_followup_unresolved-en",
+      "split": "test",
+      "language": "en",
+      "categories": [
+        "clarify",
+        "phase4_comparison",
+        "english"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": true,
+      "expected_needs_escalation": false,
+      "script_group": "english_latin",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6009.0931,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_followup_unresolved-te",
+      "split": "test",
+      "language": "te",
+      "categories": [
+        "clarify",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": true,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.0216,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.019299999621580355,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "v4_followup_unresolved-hi",
+      "split": "test",
+      "language": "hi",
+      "categories": [
+        "clarify",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": true,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.9933,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.01680000059423037,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "v4_followup_unresolved-te-Latn",
+      "split": "test",
+      "language": "te-Latn",
+      "categories": [
+        "clarify",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": true,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.1892,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.030599998353864066,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "v4_followup_unresolved-hi-Latn",
+      "split": "test",
+      "language": "hi-Latn",
+      "categories": [
+        "clarify",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": true,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6013.8981,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_followup_unresolved-mixed-en-te",
+      "split": "test",
+      "language": "mixed-en-te",
+      "categories": [
+        "clarify",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": true,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.6051,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.03179999839630909,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "v4_followup_unresolved-mixed-en-hi",
+      "split": "test",
+      "language": "mixed-en-hi",
+      "categories": [
+        "clarify",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": true,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.0978,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.018999999156221747,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "v4_weather_pune-en",
+      "split": "test",
+      "language": "en",
+      "categories": [
+        "research",
+        "phase4_comparison",
+        "english"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "weather",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "english_latin",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.0442,
+      "status": "success",
+      "prediction": {
+        "execution_path": "TASK"
+      },
+      "reported_latency_ms": 0.06849999954283703,
+      "comparisons": {
+        "execution_path": true
+      }
+    },
+    {
+      "id": "v4_weather_pune-te",
+      "split": "test",
+      "language": "te",
+      "categories": [
+        "research",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "weather",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.9474,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.030499999411404133,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_weather_pune-hi",
+      "split": "test",
+      "language": "hi",
+      "categories": [
+        "research",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "weather",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.3987,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.12320000132604036,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_weather_pune-te-Latn",
+      "split": "test",
+      "language": "te-Latn",
+      "categories": [
+        "research",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "weather",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.1787,
+      "status": "success",
+      "prediction": {
+        "execution_path": "TASK"
+      },
+      "reported_latency_ms": 0.01570000131323468,
+      "comparisons": {
+        "execution_path": true
+      }
+    },
+    {
+      "id": "v4_weather_pune-hi-Latn",
+      "split": "test",
+      "language": "hi-Latn",
+      "categories": [
+        "research",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "weather",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.111,
+      "status": "success",
+      "prediction": {
+        "execution_path": "TASK"
+      },
+      "reported_latency_ms": 0.020700001186924055,
+      "comparisons": {
+        "execution_path": true
+      }
+    },
+    {
+      "id": "v4_weather_pune-mixed-en-te",
+      "split": "test",
+      "language": "mixed-en-te",
+      "categories": [
+        "research",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "weather",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.0267,
+      "status": "success",
+      "prediction": {
+        "execution_path": "TASK"
+      },
+      "reported_latency_ms": 0.025100000129896216,
+      "comparisons": {
+        "execution_path": true
+      }
+    },
+    {
+      "id": "v4_weather_pune-mixed-en-hi",
+      "split": "test",
+      "language": "mixed-en-hi",
+      "categories": [
+        "research",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "weather",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.0674,
+      "status": "success",
+      "prediction": {
+        "execution_path": "TASK"
+      },
+      "reported_latency_ms": 0.04240000089339446,
+      "comparisons": {
+        "execution_path": true
+      }
+    },
+    {
+      "id": "v4_current_location-en",
+      "split": "test",
+      "language": "en",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "english"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "location",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "english_latin",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6003.6105,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_current_location-te",
+      "split": "test",
+      "language": "te",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "location",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.226,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.03470000046945643,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_current_location-hi",
+      "split": "test",
+      "language": "hi",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "location",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.3636,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.02499999936844688,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_current_location-te-Latn",
+      "split": "test",
+      "language": "te-Latn",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "location",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.2181,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.03130000004603062,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_current_location-hi-Latn",
+      "split": "test",
+      "language": "hi-Latn",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "location",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.9355,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.013500000932253897,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_current_location-mixed-en-te",
+      "split": "test",
+      "language": "mixed-en-te",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "location",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.0925,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.027499998395796865,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_current_location-mixed-en-hi",
+      "split": "test",
+      "language": "mixed-en-hi",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "location",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.9072,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.026199999410891905,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_open_calculator-en",
+      "split": "test",
+      "language": "en",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "english"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "open_app",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "english_latin",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6008.0519,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_open_calculator-te",
+      "split": "test",
+      "language": "te",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "open_app",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.1904,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.015600000551785342,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_open_calculator-hi",
+      "split": "test",
+      "language": "hi",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "open_app",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.1228,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.014399998690350913,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_open_calculator-te-Latn",
+      "split": "test",
+      "language": "te-Latn",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "open_app",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.9963,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.02010000025620684,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_open_calculator-hi-Latn",
+      "split": "test",
+      "language": "hi-Latn",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "open_app",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6012.529,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_open_calculator-mixed-en-te",
+      "split": "test",
+      "language": "mixed-en-te",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "open_app",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.946,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.022700000045006163,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_open_calculator-mixed-en-hi",
+      "split": "test",
+      "language": "mixed-en-hi",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "open_app",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.118,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.021300000298651867,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_close_notepad-en",
+      "split": "test",
+      "language": "en",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "english"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "close_app",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "english_latin",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6013.7177,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_close_notepad-te",
+      "split": "test",
+      "language": "te",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "close_app",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.919,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.015499999790336005,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_close_notepad-hi",
+      "split": "test",
+      "language": "hi",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "close_app",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.8716,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.01700000029813964,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_close_notepad-te-Latn",
+      "split": "test",
+      "language": "te-Latn",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "close_app",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.9461,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.02660000063769985,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_close_notepad-hi-Latn",
+      "split": "test",
+      "language": "hi-Latn",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "close_app",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.9631,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.02700000004551839,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_close_notepad-mixed-en-te",
+      "split": "test",
+      "language": "mixed-en-te",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "close_app",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.9258,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.01700000029813964,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_close_notepad-mixed-en-hi",
+      "split": "test",
+      "language": "mixed-en-hi",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "close_app",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.8646,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.01199999860546086,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_find_invoice-en",
+      "split": "test",
+      "language": "en",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "english"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "find_file",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "english_latin",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6010.2715,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_find_invoice-te",
+      "split": "test",
+      "language": "te",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "find_file",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.3264,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.032500000088475645,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_find_invoice-hi",
+      "split": "test",
+      "language": "hi",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "find_file",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.0991,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.02849999873433262,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_find_invoice-te-Latn",
+      "split": "test",
+      "language": "te-Latn",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "find_file",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6006.4829,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_find_invoice-hi-Latn",
+      "split": "test",
+      "language": "hi-Latn",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "find_file",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6005.3359,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_find_invoice-mixed-en-te",
+      "split": "test",
+      "language": "mixed-en-te",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "find_file",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.4434,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.030299999707494862,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_find_invoice-mixed-en-hi",
+      "split": "test",
+      "language": "mixed-en-hi",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "find_file",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.0296,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.016799998775240965,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_open_downloads-en",
+      "split": "test",
+      "language": "en",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "english"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "open_folder",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "english_latin",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6012.9314,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_open_downloads-te",
+      "split": "test",
+      "language": "te",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "open_folder",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.3525,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.01809999957913533,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_open_downloads-hi",
+      "split": "test",
+      "language": "hi",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "open_folder",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.5586,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.020500001483014785,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_open_downloads-te-Latn",
+      "split": "test",
+      "language": "te-Latn",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "open_folder",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.1506,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.0259000007645227,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_open_downloads-hi-Latn",
+      "split": "test",
+      "language": "hi-Latn",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "open_folder",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6011.4802,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_open_downloads-mixed-en-te",
+      "split": "test",
+      "language": "mixed-en-te",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "open_folder",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.3672,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.014799999917158857,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_open_downloads-mixed-en-hi",
+      "split": "test",
+      "language": "mixed-en-hi",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "open_folder",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.2165,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.02479999966453761,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_open_python_docs-en",
+      "split": "test",
+      "language": "en",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "english"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "open_url",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "english_latin",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6013.0483,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_open_python_docs-te",
+      "split": "test",
+      "language": "te",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "open_url",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.5284,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.03229999856557697,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_open_python_docs-hi",
+      "split": "test",
+      "language": "hi",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "open_url",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.6862,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.05059999966761097,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_open_python_docs-te-Latn",
+      "split": "test",
+      "language": "te-Latn",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "open_url",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.8429,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.022500000341096893,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_open_python_docs-hi-Latn",
+      "split": "test",
+      "language": "hi-Latn",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "open_url",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6011.2453,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_open_python_docs-mixed-en-te",
+      "split": "test",
+      "language": "mixed-en-te",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "open_url",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.2555,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.025200000891345553,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_open_python_docs-mixed-en-hi",
+      "split": "test",
+      "language": "mixed-en-hi",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "open_url",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.0263,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.02300000051036477,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_research_ai_news-en",
+      "split": "test",
+      "language": "en",
+      "categories": [
+        "research",
+        "phase4_comparison",
+        "english"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "google_search",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "english_latin",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6012.7079,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_research_ai_news-te",
+      "split": "test",
+      "language": "te",
+      "categories": [
+        "research",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "google_search",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.0266,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.02029999996011611,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_research_ai_news-hi",
+      "split": "test",
+      "language": "hi",
+      "categories": [
+        "research",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "google_search",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.1178,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.030500001230393536,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_research_ai_news-te-Latn",
+      "split": "test",
+      "language": "te-Latn",
+      "categories": [
+        "research",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "google_search",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.6033,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.04600000102072954,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_research_ai_news-hi-Latn",
+      "split": "test",
+      "language": "hi-Latn",
+      "categories": [
+        "research",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "google_search",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.3311,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.045200000386103056,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_research_ai_news-mixed-en-te",
+      "split": "test",
+      "language": "mixed-en-te",
+      "categories": [
+        "research",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "google_search",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.1449,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.016900001355679706,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_research_ai_news-mixed-en-hi",
+      "split": "test",
+      "language": "mixed-en-hi",
+      "categories": [
+        "research",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "google_search",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.3442,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.01650000012887176,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_music_focus-en",
+      "split": "test",
+      "language": "en",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "english"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "youtube_search",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "english_latin",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6010.3218,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_music_focus-te",
+      "split": "test",
+      "language": "te",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "youtube_search",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.8794,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.024300001314259134,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_music_focus-hi",
+      "split": "test",
+      "language": "hi",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "youtube_search",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.8051,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.0332000017806422,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_music_focus-te-Latn",
+      "split": "test",
+      "language": "te-Latn",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "youtube_search",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6012.6573,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_music_focus-hi-Latn",
+      "split": "test",
+      "language": "hi-Latn",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "youtube_search",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6014.9414,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_music_focus-mixed-en-te",
+      "split": "test",
+      "language": "mixed-en-te",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "youtube_search",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.8816,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.023399999918183312,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_music_focus-mixed-en-hi",
+      "split": "test",
+      "language": "mixed-en-hi",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "youtube_search",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.0813,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.020799998310394585,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_reminder_unsupported-en",
+      "split": "test",
+      "language": "en",
+      "categories": [
+        "escalate",
+        "phase4_comparison",
+        "english"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": true,
+      "script_group": "english_latin",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6013.9543,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_reminder_unsupported-te",
+      "split": "test",
+      "language": "te",
+      "categories": [
+        "escalate",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": true,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.3201,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.026100000468431972,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "v4_reminder_unsupported-hi",
+      "split": "test",
+      "language": "hi",
+      "categories": [
+        "escalate",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": true,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.092,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.03529999958118424,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "v4_reminder_unsupported-te-Latn",
+      "split": "test",
+      "language": "te-Latn",
+      "categories": [
+        "escalate",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": true,
+      "script_group": "romanized",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.4006,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.030699999115313403,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "v4_reminder_unsupported-hi-Latn",
+      "split": "test",
+      "language": "hi-Latn",
+      "categories": [
+        "escalate",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": true,
+      "script_group": "romanized",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6011.2227,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_reminder_unsupported-mixed-en-te",
+      "split": "test",
+      "language": "mixed-en-te",
+      "categories": [
+        "escalate",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": true,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 2.1416,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.034500000765547156,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "v4_reminder_unsupported-mixed-en-hi",
+      "split": "test",
+      "language": "mixed-en-hi",
+      "categories": [
+        "escalate",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": true,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.7882,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.030500001230393536,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "v4_ambiguous_file-en",
+      "split": "test",
+      "language": "en",
+      "categories": [
+        "clarify",
+        "phase4_comparison",
+        "english"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": true,
+      "expected_needs_escalation": false,
+      "script_group": "english_latin",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6011.4996,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_ambiguous_file-te",
+      "split": "test",
+      "language": "te",
+      "categories": [
+        "clarify",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": true,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.4019,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.018599999748403206,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "v4_ambiguous_file-hi",
+      "split": "test",
+      "language": "hi",
+      "categories": [
+        "clarify",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": true,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.9824,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.023499998860643245,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "v4_ambiguous_file-te-Latn",
+      "split": "test",
+      "language": "te-Latn",
+      "categories": [
+        "clarify",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": true,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.6468,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.02609999864944257,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "v4_ambiguous_file-hi-Latn",
+      "split": "test",
+      "language": "hi-Latn",
+      "categories": [
+        "clarify",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": true,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6011.4147,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_ambiguous_file-mixed-en-te",
+      "split": "test",
+      "language": "mixed-en-te",
+      "categories": [
+        "clarify",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": true,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.2314,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.01950000114447903,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "v4_ambiguous_file-mixed-en-hi",
+      "split": "test",
+      "language": "mixed-en-hi",
+      "categories": [
+        "clarify",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": true,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.8808,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.013800001397612505,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "v4_search_missing_query-en",
+      "split": "test",
+      "language": "en",
+      "categories": [
+        "clarify",
+        "phase4_comparison",
+        "english"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": true,
+      "expected_needs_escalation": false,
+      "script_group": "english_latin",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6011.1896,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_search_missing_query-te",
+      "split": "test",
+      "language": "te",
+      "categories": [
+        "clarify",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": true,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.8857,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.0182999992830446,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "v4_search_missing_query-hi",
+      "split": "test",
+      "language": "hi",
+      "categories": [
+        "clarify",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": true,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.9129,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.01199999860546086,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "v4_search_missing_query-te-Latn",
+      "split": "test",
+      "language": "te-Latn",
+      "categories": [
+        "clarify",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": true,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.3365,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.022399999579647556,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "v4_search_missing_query-hi-Latn",
+      "split": "test",
+      "language": "hi-Latn",
+      "categories": [
+        "clarify",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": true,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.2526,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.029499999072868377,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "v4_search_missing_query-mixed-en-te",
+      "split": "test",
+      "language": "mixed-en-te",
+      "categories": [
+        "clarify",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": true,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.2227,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.01779999911377672,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "v4_search_missing_query-mixed-en-hi",
+      "split": "test",
+      "language": "mixed-en-hi",
+      "categories": [
+        "clarify",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": true,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.9958,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.025499999537714757,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "v4_multistep_ai_news-en",
+      "split": "test",
+      "language": "en",
+      "categories": [
+        "multi_step_task",
+        "phase4_comparison",
+        "english"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "google_search",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "english_latin",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6043.5697,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_multistep_ai_news-te",
+      "split": "test",
+      "language": "te",
+      "categories": [
+        "multi_step_task",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "google_search",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.148,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.04079999962414149,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_multistep_ai_news-hi",
+      "split": "test",
+      "language": "hi",
+      "categories": [
+        "multi_step_task",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "google_search",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.0385,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.04470000021683518,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_multistep_ai_news-te-Latn",
+      "split": "test",
+      "language": "te-Latn",
+      "categories": [
+        "multi_step_task",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "google_search",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.9156,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.03749999996216502,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_multistep_ai_news-hi-Latn",
+      "split": "test",
+      "language": "hi-Latn",
+      "categories": [
+        "multi_step_task",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "google_search",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.8752,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.047199999244185165,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_multistep_ai_news-mixed-en-te",
+      "split": "test",
+      "language": "mixed-en-te",
+      "categories": [
+        "multi_step_task",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "google_search",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.9326,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.03260000084992498,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_multistep_ai_news-mixed-en-hi",
+      "split": "test",
+      "language": "mixed-en-hi",
+      "categories": [
+        "multi_step_task",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "google_search",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.8766,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.025299999833805487,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_project_todo_inspection-en",
+      "split": "test",
+      "language": "en",
+      "categories": [
+        "multi_step_task",
+        "phase4_comparison",
+        "english"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "grep_code",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "english_latin",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6007.8854,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_project_todo_inspection-te",
+      "split": "test",
+      "language": "te",
+      "categories": [
+        "multi_step_task",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "grep_code",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.8286,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.036499999623629265,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_project_todo_inspection-hi",
+      "split": "test",
+      "language": "hi",
+      "categories": [
+        "multi_step_task",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "grep_code",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.7529,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.03479999941191636,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_project_todo_inspection-te-Latn",
+      "split": "test",
+      "language": "te-Latn",
+      "categories": [
+        "multi_step_task",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "grep_code",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 2.1104,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.09949999912350904,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_project_todo_inspection-hi-Latn",
+      "split": "test",
+      "language": "hi-Latn",
+      "categories": [
+        "multi_step_task",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "grep_code",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.5331,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.1390999987052055,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_project_todo_inspection-mixed-en-te",
+      "split": "test",
+      "language": "mixed-en-te",
+      "categories": [
+        "multi_step_task",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "grep_code",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.1042,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.031000001399661414,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_project_todo_inspection-mixed-en-hi",
+      "split": "test",
+      "language": "mixed-en-hi",
+      "categories": [
+        "multi_step_task",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "grep_code",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.9472,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.01720000000204891,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_recent_files-en",
+      "split": "test",
+      "language": "en",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "english"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "recent_files",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "english_latin",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6009.0943,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_recent_files-te",
+      "split": "test",
+      "language": "te",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "recent_files",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.8005,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.01779999911377672,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_recent_files-hi",
+      "split": "test",
+      "language": "hi",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "recent_files",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.9469,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.018599999748403206,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_recent_files-te-Latn",
+      "split": "test",
+      "language": "te-Latn",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "recent_files",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6015.0955,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_recent_files-hi-Latn",
+      "split": "test",
+      "language": "hi-Latn",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "recent_files",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "romanized",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6015.387,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_recent_files-mixed-en-te",
+      "split": "test",
+      "language": "mixed-en-te",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "recent_files",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.2152,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.02809999932651408,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_recent_files-mixed-en-hi",
+      "split": "test",
+      "language": "mixed-en-hi",
+      "categories": [
+        "single_action",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": "TASK",
+      "expected_selected_capability": "recent_files",
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": false,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.1605,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.016400001186411828,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "v4_email_unsupported-en",
+      "split": "test",
+      "language": "en",
+      "categories": [
+        "escalate",
+        "phase4_comparison",
+        "english"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": true,
+      "script_group": "english_latin",
+      "inference_provenance": "ollama_qwen",
+      "latency_ms": 6012.655,
+      "status": "timeout",
+      "error": "evaluation exceeded 6.000s"
+    },
+    {
+      "id": "v4_email_unsupported-te",
+      "split": "test",
+      "language": "te",
+      "categories": [
+        "escalate",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": true,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.0482,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.020199999198666774,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "v4_email_unsupported-hi",
+      "split": "test",
+      "language": "hi",
+      "categories": [
+        "escalate",
+        "phase4_comparison",
+        "native_script"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": true,
+      "script_group": "native_script",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.9172,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.015800000255694613,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "v4_email_unsupported-te-Latn",
+      "split": "test",
+      "language": "te-Latn",
+      "categories": [
+        "escalate",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": true,
+      "script_group": "romanized",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.0743,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.01990000055229757,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "v4_email_unsupported-hi-Latn",
+      "split": "test",
+      "language": "hi-Latn",
+      "categories": [
+        "escalate",
+        "phase4_comparison",
+        "romanized"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": true,
+      "script_group": "romanized",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 1.1136,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.03139999898849055,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "v4_email_unsupported-mixed-en-te",
+      "split": "test",
+      "language": "mixed-en-te",
+      "categories": [
+        "escalate",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": true,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.8984,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.015699999494245276,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "v4_email_unsupported-mixed-en-hi",
+      "split": "test",
+      "language": "mixed-en-hi",
+      "categories": [
+        "escalate",
+        "phase4_comparison",
+        "code_switching"
+      ],
+      "expected_execution_path": null,
+      "expected_selected_capability": null,
+      "expected_needs_clarification": false,
+      "expected_needs_escalation": true,
+      "script_group": "code_switched",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.8402,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.024599999960628338,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    }
+  ],
+  "limitations": [
+    "Classification only; selected capabilities are never executed.",
+    "Legacy classify() hides internal Ollama failures by returning GEMINI.",
+    "Legacy semantic fields are unavailable and are not inferred from routes.",
+    "Seed-set group metrics have small sample sizes and are descriptive only."
+  ],
+  "environment": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.10.11",
+    "processor": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",
+    "physical_cpu_count": 4,
+    "logical_cpu_count": 8,
+    "total_memory_bytes": 8464355328,
+    "declared_laptop": "Intel i5-9300H, 8 GB RAM, GTX 1650 4 GB"
+  }
+}

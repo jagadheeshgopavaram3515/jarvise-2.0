@@ -1,0 +1,47 @@
+{
+  "report": "D:\\JARVIS\\reports\\bert_shadow_classifier_audit_20261010_140019.md",
+  "records": 359,
+  "attempted": 359,
+  "successful": 359,
+  "independent_gold": 0,
+  "accuracy": "NOT MEASURED",
+  "artifacts": {
+    "integrity.json": {
+      "path": "D:\\JARVIS\\reports\\bert_shadow_classifier_20261010_140019\\integrity.json",
+      "sha256": "114a0d7cd991a0eda460bb4d338c8e634b922a0045cd74e128c32f662caef744"
+    },
+    "load-error.json": {
+      "path": "D:\\JARVIS\\reports\\bert_shadow_classifier_20261010_140019\\load-error.json",
+      "sha256": "d5384376c969998c417feadb81b24f6d247102d6d59bf57a4f15cf83a64503bd"
+    },
+    "metrics.json": {
+      "path": "D:\\JARVIS\\reports\\bert_shadow_classifier_20261010_140019\\metrics.json",
+      "sha256": "a7cf6cddd24b90bf6cbae5a4a52ac1f564f09c25f8f0165219a5bac8b569d174"
+    },
+    "model.json": {
+      "path": "D:\\JARVIS\\reports\\bert_shadow_classifier_20261010_140019\\model.json",
+      "sha256": "e9dad12fe3be1e5341a68c268b55eb3203f5cbc46e35f0c2a9c0a6c7a9ee0903"
+    },
+    "predictions.jsonl": {
+      "path": "D:\\JARVIS\\reports\\bert_shadow_classifier_20261010_140019\\predictions.jsonl",
+      "sha256": "e036a38d89cd3c3a8ce0948841acb23c5a29b7464c7368ed1c4fdd552b09bd97"
+    },
+    "protocol.json": {
+      "path": "D:\\JARVIS\\reports\\bert_shadow_classifier_20261010_140019\\protocol.json",
+      "sha256": "c5b21340cd4bb41f870f8c06d6a33f52af99dfd700db42fe975f93cc2308b2fd"
+    },
+    "record-comparison.csv": {
+      "path": "D:\\JARVIS\\reports\\bert_shadow_classifier_20261010_140019\\record-comparison.csv",
+      "sha256": "5e6a896c1be251011e94b83beb8d4badc49edd1b798a61631a3d927a6da59f25"
+    },
+    "reproducibility.json": {
+      "path": "D:\\JARVIS\\reports\\bert_shadow_classifier_20261010_140019\\reproducibility.json",
+      "sha256": "fd764ead8fe271df366cbc28ba6f6a81e46cc4265ea6b8f32678e16d8d5c6cfd"
+    },
+    "training-overlap.json": {
+      "path": "D:\\JARVIS\\reports\\bert_shadow_classifier_20261010_140019\\training-overlap.json",
+      "sha256": "c4dddb57a011f5639e36e87557b54e07b7a3863fe90e722e13c363b03c5c5e89"
+    }
+  },
+  "preserved_preexisting_files": 249
+}

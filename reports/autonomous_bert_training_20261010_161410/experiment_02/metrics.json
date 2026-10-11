@@ -1,0 +1,3560 @@
+{
+  "metric_type": "PROVISIONAL_LABEL_AGREEMENT_NOT_VERIFIED_ACCURACY",
+  "exact_full_record": {
+    "agreement": 7,
+    "denominator": 40,
+    "value": 0.175
+  },
+  "fields": {
+    "intent": {
+      "agreement": 19,
+      "denominator": 40,
+      "value": 0.475
+    },
+    "execution_path": {
+      "agreement": 28,
+      "denominator": 40,
+      "value": 0.7
+    },
+    "request_modes": {
+      "agreement": 30,
+      "denominator": 40,
+      "value": 0.75
+    },
+    "selected_capability": {
+      "agreement": 20,
+      "denominator": 40,
+      "value": 0.5
+    },
+    "context_references": {
+      "agreement": 24,
+      "denominator": 40,
+      "value": 0.6
+    },
+    "missing_information": {
+      "agreement": 30,
+      "denominator": 40,
+      "value": 0.75
+    },
+    "needs_clarification": {
+      "agreement": 34,
+      "denominator": 40,
+      "value": 0.85
+    },
+    "needs_escalation": {
+      "agreement": 38,
+      "denominator": 40,
+      "value": 0.95
+    }
+  },
+  "heads": {
+    "execution_path": {
+      "agreement": 31,
+      "denominator": 40,
+      "accuracy": 0.775,
+      "label_type": "PROVISIONAL_LABEL_AGREEMENT",
+      "classes": [
+        "clarify",
+        "direct_response",
+        "escalate",
+        "memory_recall",
+        "multi_step_task",
+        "research",
+        "single_action"
+      ],
+      "per_class": {
+        "clarify": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1-score": 0.6666666666666666,
+          "support": 4.0
+        },
+        "direct_response": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1-score": 0.8888888888888888,
+          "support": 4.0
+        },
+        "escalate": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "memory_recall": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 7.0
+        },
+        "multi_step_task": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1-score": 0.6666666666666666,
+          "support": 4.0
+        },
+        "research": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "single_action": {
+          "precision": 1.0,
+          "recall": 0.6,
+          "f1-score": 0.75,
+          "support": 20.0
+        }
+      },
+      "macro_avg": {
+        "precision": 0.5428571428571428,
+        "recall": 0.6571428571428571,
+        "f1-score": 0.5674603174603174,
+        "support": 40.0
+      },
+      "weighted_avg": {
+        "precision": 0.8550000000000001,
+        "recall": 0.775,
+        "f1-score": 0.7722222222222221,
+        "support": 40.0
+      },
+      "confusion_matrix": [
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          7,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          0,
+          4,
+          0,
+          12
+        ]
+      ]
+    },
+    "needs_clarification": {
+      "agreement": 35,
+      "denominator": 40,
+      "accuracy": 0.875,
+      "label_type": "PROVISIONAL_LABEL_AGREEMENT",
+      "classes": [
+        "0",
+        "1"
+      ],
+      "per_class": {
+        "0": {
+          "precision": 1.0,
+          "recall": 0.8611111111111112,
+          "f1-score": 0.9253731343283582,
+          "support": 36.0
+        },
+        "1": {
+          "precision": 0.4444444444444444,
+          "recall": 1.0,
+          "f1-score": 0.6153846153846154,
+          "support": 4.0
+        }
+      },
+      "macro_avg": {
+        "precision": 0.7222222222222222,
+        "recall": 0.9305555555555556,
+        "f1-score": 0.7703788748564868,
+        "support": 40.0
+      },
+      "weighted_avg": {
+        "precision": 0.9444444444444444,
+        "recall": 0.875,
+        "f1-score": 0.894374282433984,
+        "support": 40.0
+      },
+      "confusion_matrix": [
+        [
+          31,
+          5
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    },
+    "needs_escalation": {
+      "agreement": 35,
+      "denominator": 40,
+      "accuracy": 0.875,
+      "label_type": "PROVISIONAL_LABEL_AGREEMENT",
+      "classes": [
+        "0",
+        "1"
+      ],
+      "per_class": {
+        "0": {
+          "precision": 0.9722222222222222,
+          "recall": 0.8974358974358975,
+          "f1-score": 0.9333333333333333,
+          "support": 39.0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        }
+      },
+      "macro_avg": {
+        "precision": 0.4861111111111111,
+        "recall": 0.44871794871794873,
+        "f1-score": 0.4666666666666667,
+        "support": 40.0
+      },
+      "weighted_avg": {
+        "precision": 0.9479166666666666,
+        "recall": 0.875,
+        "f1-score": 0.9099999999999999,
+        "support": 40.0
+      },
+      "confusion_matrix": [
+        [
+          35,
+          4
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "missing_information": {
+      "agreement": 31,
+      "denominator": 40,
+      "accuracy": 0.775,
+      "label_type": "PROVISIONAL_LABEL_AGREEMENT",
+      "classes": [
+        "__none__",
+        "prior_request",
+        "target"
+      ],
+      "per_class": {
+        "__none__": {
+          "precision": 1.0,
+          "recall": 0.7777777777777778,
+          "f1-score": 0.875,
+          "support": 36.0
+        },
+        "prior_request": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "target": {
+          "precision": 0.2727272727272727,
+          "recall": 0.75,
+          "f1-score": 0.4,
+          "support": 4.0
+        }
+      },
+      "macro_avg": {
+        "precision": 0.42424242424242425,
+        "recall": 0.5092592592592592,
+        "f1-score": 0.425,
+        "support": 40.0
+      },
+      "weighted_avg": {
+        "precision": 0.9272727272727274,
+        "recall": 0.775,
+        "f1-score": 0.8275,
+        "support": 40.0
+      },
+      "confusion_matrix": [
+        [
+          28,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          3
+        ]
+      ]
+    },
+    "reference_kind": {
+      "agreement": 33,
+      "denominator": 40,
+      "accuracy": 0.825,
+      "label_type": "PROVISIONAL_LABEL_AGREEMENT",
+      "classes": [
+        "__none__",
+        "folder",
+        "item",
+        "prior_conversation",
+        "prior_request",
+        "project",
+        "search_result"
+      ],
+      "per_class": {
+        "__none__": {
+          "precision": 1.0,
+          "recall": 0.8275862068965517,
+          "f1-score": 0.9056603773584906,
+          "support": 29.0
+        },
+        "folder": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "item": {
+          "precision": 0.375,
+          "recall": 0.75,
+          "f1-score": 0.5,
+          "support": 4.0
+        },
+        "prior_conversation": {
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1-score": 0.9230769230769231,
+          "support": 6.0
+        },
+        "prior_request": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "project": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "search_result": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        }
+      },
+      "macro_avg": {
+        "precision": 0.31887755102040816,
+        "recall": 0.36822660098522164,
+        "f1-score": 0.3326767572050591,
+        "support": 40.0
+      },
+      "weighted_avg": {
+        "precision": 0.8910714285714285,
+        "recall": 0.825,
+        "f1-score": 0.8450653120464441,
+        "support": 40.0
+      },
+      "confusion_matrix": [
+        [
+          24,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "reference_resolved": {
+      "agreement": 40,
+      "denominator": 40,
+      "accuracy": 1.0,
+      "label_type": "PROVISIONAL_LABEL_AGREEMENT",
+      "classes": [
+        "0",
+        "1"
+      ],
+      "per_class": {
+        "0": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 33.0
+        },
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 7.0
+        }
+      },
+      "macro_avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 40.0
+      },
+      "weighted_avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 40.0
+      },
+      "confusion_matrix": [
+        [
+          33,
+          0
+        ],
+        [
+          0,
+          7
+        ]
+      ]
+    },
+    "request_modes:conversational": {
+      "agreement": 37,
+      "denominator": 40,
+      "accuracy": 0.925,
+      "label_type": "PROVISIONAL_LABEL_AGREEMENT",
+      "classes": [
+        "0",
+        "1"
+      ],
+      "per_class": {
+        "0": {
+          "precision": 0.9705882352941176,
+          "recall": 0.9428571428571428,
+          "f1-score": 0.9565217391304348,
+          "support": 35.0
+        },
+        "1": {
+          "precision": 0.6666666666666666,
+          "recall": 0.8,
+          "f1-score": 0.7272727272727273,
+          "support": 5.0
+        }
+      },
+      "macro_avg": {
+        "precision": 0.8186274509803921,
+        "recall": 0.8714285714285714,
+        "f1-score": 0.841897233201581,
+        "support": 40.0
+      },
+      "weighted_avg": {
+        "precision": 0.9325980392156863,
+        "recall": 0.925,
+        "f1-score": 0.9278656126482214,
+        "support": 40.0
+      },
+      "confusion_matrix": [
+        [
+          33,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ]
+    },
+    "request_modes:memory": {
+      "agreement": 40,
+      "denominator": 40,
+      "accuracy": 1.0,
+      "label_type": "PROVISIONAL_LABEL_AGREEMENT",
+      "classes": [
+        "0",
+        "1"
+      ],
+      "per_class": {
+        "0": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 33.0
+        },
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 7.0
+        }
+      },
+      "macro_avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 40.0
+      },
+      "weighted_avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 40.0
+      },
+      "confusion_matrix": [
+        [
+          33,
+          0
+        ],
+        [
+          0,
+          7
+        ]
+      ]
+    },
+    "request_modes:research": {
+      "agreement": 33,
+      "denominator": 40,
+      "accuracy": 0.825,
+      "label_type": "PROVISIONAL_LABEL_AGREEMENT",
+      "classes": [
+        "0",
+        "1"
+      ],
+      "per_class": {
+        "0": {
+          "precision": 0.967741935483871,
+          "recall": 0.8333333333333334,
+          "f1-score": 0.8955223880597015,
+          "support": 36.0
+        },
+        "1": {
+          "precision": 0.3333333333333333,
+          "recall": 0.75,
+          "f1-score": 0.46153846153846156,
+          "support": 4.0
+        }
+      },
+      "macro_avg": {
+        "precision": 0.6505376344086021,
+        "recall": 0.7916666666666667,
+        "f1-score": 0.6785304247990815,
+        "support": 40.0
+      },
+      "weighted_avg": {
+        "precision": 0.9043010752688174,
+        "recall": 0.825,
+        "f1-score": 0.8521239954075777,
+        "support": 40.0
+      },
+      "confusion_matrix": [
+        [
+          30,
+          6
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    "request_modes:action": {
+      "agreement": 39,
+      "denominator": 40,
+      "accuracy": 0.975,
+      "label_type": "PROVISIONAL_LABEL_AGREEMENT",
+      "classes": [
+        "0",
+        "1"
+      ],
+      "per_class": {
+        "0": {
+          "precision": 0.9166666666666666,
+          "recall": 1.0,
+          "f1-score": 0.9565217391304348,
+          "support": 11.0
+        },
+        "1": {
+          "precision": 1.0,
+          "recall": 0.9655172413793104,
+          "f1-score": 0.9824561403508771,
+          "support": 29.0
+        }
+      },
+      "macro_avg": {
+        "precision": 0.9583333333333333,
+        "recall": 0.9827586206896552,
+        "f1-score": 0.969488939740656,
+        "support": 40.0
+      },
+      "weighted_avg": {
+        "precision": 0.9770833333333332,
+        "recall": 0.975,
+        "f1-score": 0.9753241800152554,
+        "support": 40.0
+      },
+      "confusion_matrix": [
+        [
+          11,
+          0
+        ],
+        [
+          1,
+          28
+        ]
+      ]
+    },
+    "capability_matcher": {
+      "agreement": 35,
+      "denominator": 77,
+      "accuracy": 0.45454545454545453,
+      "label_type": "PROVISIONAL_LABEL_AGREEMENT",
+      "classes": [
+        "0",
+        "1"
+      ],
+      "per_class": {
+        "0": {
+          "precision": 0.6078431372549019,
+          "recall": 0.5849056603773585,
+          "f1-score": 0.5961538461538461,
+          "support": 53.0
+        },
+        "1": {
+          "precision": 0.15384615384615385,
+          "recall": 0.16666666666666666,
+          "f1-score": 0.16,
+          "support": 24.0
+        }
+      },
+      "macro_avg": {
+        "precision": 0.3808446455505279,
+        "recall": 0.37578616352201255,
+        "f1-score": 0.3780769230769231,
+        "support": 77.0
+      },
+      "weighted_avg": {
+        "precision": 0.46633758398464276,
+        "recall": 0.45454545454545453,
+        "f1-score": 0.4602097902097902,
+        "support": 77.0
+      },
+      "confusion_matrix": [
+        [
+          31,
+          22
+        ],
+        [
+          20,
+          4
+        ]
+      ]
+    },
+    "output:intent": {
+      "agreement": 19,
+      "denominator": 40,
+      "accuracy": 0.475,
+      "label_type": "PROVISIONAL_LABEL_AGREEMENT",
+      "classes": [
+        "clarify_request",
+        "recall",
+        "research",
+        "respond",
+        "unsupported_request",
+        "use:google_search",
+        "use:open_folder"
+      ],
+      "per_class": {
+        "clarify_request": {
+          "precision": 0.4,
+          "recall": 1.0,
+          "f1-score": 0.5714285714285714,
+          "support": 4.0
+        },
+        "recall": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 7.0
+        },
+        "research": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1-score": 0.6666666666666666,
+          "support": 4.0
+        },
+        "respond": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1-score": 0.8888888888888888,
+          "support": 4.0
+        },
+        "unsupported_request": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "use:google_search": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "use:open_folder": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 20.0
+        }
+      },
+      "macro_avg": {
+        "precision": 0.38571428571428573,
+        "recall": 0.5714285714285714,
+        "f1-score": 0.4467120181405896,
+        "support": 40.0
+      },
+      "weighted_avg": {
+        "precision": 0.34500000000000003,
+        "recall": 0.475,
+        "f1-score": 0.38769841269841265,
+        "support": 40.0
+      },
+      "confusion_matrix": [
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          6,
+          0,
+          4,
+          0,
+          1,
+          9,
+          0
+        ]
+      ]
+    },
+    "output:execution_path": {
+      "agreement": 28,
+      "denominator": 40,
+      "accuracy": 0.7,
+      "label_type": "PROVISIONAL_LABEL_AGREEMENT",
+      "classes": [
+        "clarify",
+        "direct_response",
+        "escalate",
+        "memory_recall",
+        "multi_step_task",
+        "single_action"
+      ],
+      "per_class": {
+        "clarify": {
+          "precision": 0.4,
+          "recall": 1.0,
+          "f1-score": 0.5714285714285714,
+          "support": 4.0
+        },
+        "direct_response": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1-score": 0.8888888888888888,
+          "support": 4.0
+        },
+        "escalate": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "memory_recall": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 7.0
+        },
+        "multi_step_task": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1-score": 0.6666666666666666,
+          "support": 4.0
+        },
+        "single_action": {
+          "precision": 1.0,
+          "recall": 0.45,
+          "f1-score": 0.6206896551724138,
+          "support": 20.0
+        }
+      },
+      "macro_avg": {
+        "precision": 0.6166666666666667,
+        "recall": 0.7416666666666667,
+        "f1-score": 0.6246122970260901,
+        "support": 40.0
+      },
+      "weighted_avg": {
+        "precision": 0.845,
+        "recall": 0.7,
+        "f1-score": 0.6980432402846196,
+        "support": 40.0
+      },
+      "confusion_matrix": [
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          7,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          6,
+          0,
+          1,
+          0,
+          4,
+          9
+        ]
+      ]
+    },
+    "output:selected_capability": {
+      "agreement": 20,
+      "denominator": 40,
+      "accuracy": 0.5,
+      "label_type": "PROVISIONAL_LABEL_AGREEMENT",
+      "classes": [
+        "None",
+        "google_search",
+        "open_folder"
+      ],
+      "per_class": {
+        "None": {
+          "precision": 0.6956521739130435,
+          "recall": 1.0,
+          "f1-score": 0.8205128205128205,
+          "support": 16.0
+        },
+        "google_search": {
+          "precision": 0.23529411764705882,
+          "recall": 1.0,
+          "f1-score": 0.38095238095238093,
+          "support": 4.0
+        },
+        "open_folder": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 20.0
+        }
+      },
+      "macro_avg": {
+        "precision": 0.31031543052003413,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.40048840048840045,
+        "support": 40.0
+      },
+      "weighted_avg": {
+        "precision": 0.30179028132992325,
+        "recall": 0.5,
+        "f1-score": 0.3663003663003663,
+        "support": 40.0
+      },
+      "confusion_matrix": [
+        [
+          16,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          7,
+          13,
+          0
+        ]
+      ]
+    },
+    "output:needs_clarification": {
+      "agreement": 34,
+      "denominator": 40,
+      "accuracy": 0.85,
+      "label_type": "PROVISIONAL_LABEL_AGREEMENT",
+      "classes": [
+        "False",
+        "True"
+      ],
+      "per_class": {
+        "False": {
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1-score": 0.9090909090909091,
+          "support": 36.0
+        },
+        "True": {
+          "precision": 0.4,
+          "recall": 1.0,
+          "f1-score": 0.5714285714285714,
+          "support": 4.0
+        }
+      },
+      "macro_avg": {
+        "precision": 0.7,
+        "recall": 0.9166666666666667,
+        "f1-score": 0.7402597402597402,
+        "support": 40.0
+      },
+      "weighted_avg": {
+        "precision": 0.9400000000000001,
+        "recall": 0.85,
+        "f1-score": 0.8753246753246753,
+        "support": 40.0
+      },
+      "confusion_matrix": [
+        [
+          30,
+          6
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    },
+    "output:needs_escalation": {
+      "agreement": 38,
+      "denominator": 40,
+      "accuracy": 0.95,
+      "label_type": "PROVISIONAL_LABEL_AGREEMENT",
+      "classes": [
+        "False",
+        "True"
+      ],
+      "per_class": {
+        "False": {
+          "precision": 0.9743589743589743,
+          "recall": 0.9743589743589743,
+          "f1-score": 0.9743589743589743,
+          "support": 39.0
+        },
+        "True": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        }
+      },
+      "macro_avg": {
+        "precision": 0.48717948717948717,
+        "recall": 0.48717948717948717,
+        "f1-score": 0.48717948717948717,
+        "support": 40.0
+      },
+      "weighted_avg": {
+        "precision": 0.95,
+        "recall": 0.95,
+        "f1-score": 0.95,
+        "support": 40.0
+      },
+      "confusion_matrix": [
+        [
+          38,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    }
+  },
+  "languages": {
+    "en": {
+      "agreement": 2,
+      "denominator": 12,
+      "value": 0.16666666666666666,
+      "language_status": "INSUFFICIENT_EVIDENCE",
+      "independent_scenario_groups": 7,
+      "observed_scripts": {
+        "latin": 12
+      },
+      "execution_path_support": {
+        "single_action": 5,
+        "multi_step_task": 1,
+        "memory_recall": 3,
+        "escalate": 1,
+        "clarify": 1,
+        "direct_response": 1
+      },
+      "per_field": {
+        "intent": {
+          "agreement": 6,
+          "denominator": 12
+        },
+        "execution_path": {
+          "agreement": 10,
+          "denominator": 12
+        },
+        "request_modes": {
+          "agreement": 8,
+          "denominator": 12
+        },
+        "selected_capability": {
+          "agreement": 7,
+          "denominator": 12
+        },
+        "context_references": {
+          "agreement": 8,
+          "denominator": 12
+        },
+        "missing_information": {
+          "agreement": 11,
+          "denominator": 12
+        },
+        "needs_clarification": {
+          "agreement": 12,
+          "denominator": 12
+        },
+        "needs_escalation": {
+          "agreement": 11,
+          "denominator": 12
+        }
+      }
+    },
+    "hi": {
+      "agreement": 1,
+      "denominator": 1,
+      "value": 1.0,
+      "language_status": "INSUFFICIENT_EVIDENCE",
+      "independent_scenario_groups": 1,
+      "observed_scripts": {
+        "devanagari": 1
+      },
+      "execution_path_support": {
+        "direct_response": 1
+      },
+      "per_field": {
+        "intent": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "execution_path": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "request_modes": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "selected_capability": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "context_references": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "missing_information": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "needs_clarification": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "needs_escalation": {
+          "agreement": 1,
+          "denominator": 1
+        }
+      }
+    },
+    "hi-Latn": {
+      "agreement": 0,
+      "denominator": 7,
+      "value": 0.0,
+      "language_status": "INSUFFICIENT_EVIDENCE",
+      "independent_scenario_groups": 3,
+      "observed_scripts": {
+        "latin": 7
+      },
+      "execution_path_support": {
+        "memory_recall": 1,
+        "clarify": 1,
+        "single_action": 5
+      },
+      "per_field": {
+        "intent": {
+          "agreement": 2,
+          "denominator": 7
+        },
+        "execution_path": {
+          "agreement": 5,
+          "denominator": 7
+        },
+        "request_modes": {
+          "agreement": 7,
+          "denominator": 7
+        },
+        "selected_capability": {
+          "agreement": 2,
+          "denominator": 7
+        },
+        "context_references": {
+          "agreement": 4,
+          "denominator": 7
+        },
+        "missing_information": {
+          "agreement": 5,
+          "denominator": 7
+        },
+        "needs_clarification": {
+          "agreement": 6,
+          "denominator": 7
+        },
+        "needs_escalation": {
+          "agreement": 6,
+          "denominator": 7
+        }
+      }
+    },
+    "mixed-en-hi": {
+      "agreement": 1,
+      "denominator": 2,
+      "value": 0.5,
+      "language_status": "INSUFFICIENT_EVIDENCE",
+      "independent_scenario_groups": 2,
+      "observed_scripts": {
+        "latin": 2
+      },
+      "execution_path_support": {
+        "multi_step_task": 1,
+        "memory_recall": 1
+      },
+      "per_field": {
+        "intent": {
+          "agreement": 2,
+          "denominator": 2
+        },
+        "execution_path": {
+          "agreement": 2,
+          "denominator": 2
+        },
+        "request_modes": {
+          "agreement": 1,
+          "denominator": 2
+        },
+        "selected_capability": {
+          "agreement": 2,
+          "denominator": 2
+        },
+        "context_references": {
+          "agreement": 1,
+          "denominator": 2
+        },
+        "missing_information": {
+          "agreement": 2,
+          "denominator": 2
+        },
+        "needs_clarification": {
+          "agreement": 2,
+          "denominator": 2
+        },
+        "needs_escalation": {
+          "agreement": 2,
+          "denominator": 2
+        }
+      }
+    },
+    "mixed-en-ta": {
+      "agreement": 1,
+      "denominator": 1,
+      "value": 1.0,
+      "language_status": "INSUFFICIENT_EVIDENCE",
+      "independent_scenario_groups": 1,
+      "observed_scripts": {
+        "latin": 1
+      },
+      "execution_path_support": {
+        "multi_step_task": 1
+      },
+      "per_field": {
+        "intent": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "execution_path": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "request_modes": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "selected_capability": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "context_references": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "missing_information": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "needs_clarification": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "needs_escalation": {
+          "agreement": 1,
+          "denominator": 1
+        }
+      }
+    },
+    "mixed-en-te": {
+      "agreement": 0,
+      "denominator": 1,
+      "value": 0.0,
+      "language_status": "INSUFFICIENT_EVIDENCE",
+      "independent_scenario_groups": 1,
+      "observed_scripts": {
+        "latin": 1
+      },
+      "execution_path_support": {
+        "multi_step_task": 1
+      },
+      "per_field": {
+        "intent": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "execution_path": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "request_modes": {
+          "agreement": 0,
+          "denominator": 1
+        },
+        "selected_capability": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "context_references": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "missing_information": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "needs_clarification": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "needs_escalation": {
+          "agreement": 1,
+          "denominator": 1
+        }
+      }
+    },
+    "ta": {
+      "agreement": 1,
+      "denominator": 1,
+      "value": 1.0,
+      "language_status": "INSUFFICIENT_EVIDENCE",
+      "independent_scenario_groups": 1,
+      "observed_scripts": {
+        "tamil": 1
+      },
+      "execution_path_support": {
+        "direct_response": 1
+      },
+      "per_field": {
+        "intent": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "execution_path": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "request_modes": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "selected_capability": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "context_references": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "missing_information": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "needs_clarification": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "needs_escalation": {
+          "agreement": 1,
+          "denominator": 1
+        }
+      }
+    },
+    "ta-Latn": {
+      "agreement": 0,
+      "denominator": 7,
+      "value": 0.0,
+      "language_status": "INSUFFICIENT_EVIDENCE",
+      "independent_scenario_groups": 3,
+      "observed_scripts": {
+        "latin": 7
+      },
+      "execution_path_support": {
+        "single_action": 5,
+        "clarify": 1,
+        "memory_recall": 1
+      },
+      "per_field": {
+        "intent": {
+          "agreement": 2,
+          "denominator": 7
+        },
+        "execution_path": {
+          "agreement": 3,
+          "denominator": 7
+        },
+        "request_modes": {
+          "agreement": 6,
+          "denominator": 7
+        },
+        "selected_capability": {
+          "agreement": 2,
+          "denominator": 7
+        },
+        "context_references": {
+          "agreement": 3,
+          "denominator": 7
+        },
+        "missing_information": {
+          "agreement": 4,
+          "denominator": 7
+        },
+        "needs_clarification": {
+          "agreement": 5,
+          "denominator": 7
+        },
+        "needs_escalation": {
+          "agreement": 7,
+          "denominator": 7
+        }
+      }
+    },
+    "te": {
+      "agreement": 1,
+      "denominator": 1,
+      "value": 1.0,
+      "language_status": "INSUFFICIENT_EVIDENCE",
+      "independent_scenario_groups": 1,
+      "observed_scripts": {
+        "telugu": 1
+      },
+      "execution_path_support": {
+        "direct_response": 1
+      },
+      "per_field": {
+        "intent": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "execution_path": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "request_modes": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "selected_capability": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "context_references": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "missing_information": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "needs_clarification": {
+          "agreement": 1,
+          "denominator": 1
+        },
+        "needs_escalation": {
+          "agreement": 1,
+          "denominator": 1
+        }
+      }
+    },
+    "te-Latn": {
+      "agreement": 0,
+      "denominator": 7,
+      "value": 0.0,
+      "language_status": "INSUFFICIENT_EVIDENCE",
+      "independent_scenario_groups": 3,
+      "observed_scripts": {
+        "latin": 7
+      },
+      "execution_path_support": {
+        "single_action": 5,
+        "memory_recall": 1,
+        "clarify": 1
+      },
+      "per_field": {
+        "intent": {
+          "agreement": 2,
+          "denominator": 7
+        },
+        "execution_path": {
+          "agreement": 3,
+          "denominator": 7
+        },
+        "request_modes": {
+          "agreement": 4,
+          "denominator": 7
+        },
+        "selected_capability": {
+          "agreement": 2,
+          "denominator": 7
+        },
+        "context_references": {
+          "agreement": 3,
+          "denominator": 7
+        },
+        "missing_information": {
+          "agreement": 3,
+          "denominator": 7
+        },
+        "needs_clarification": {
+          "agreement": 4,
+          "denominator": 7
+        },
+        "needs_escalation": {
+          "agreement": 7,
+          "denominator": 7
+        }
+      }
+    }
+  },
+  "prediction_failures": 0,
+  "gold_verified_accuracy": {
+    "status": "NOT_MEASURED",
+    "denominator": 0
+  },
+  "predictions": [
+    {
+      "record_id": "compact-candidate-049de405e17f502f0a1d",
+      "original_id": "synth_open_archive_folder-en-01",
+      "language": "en",
+      "group_id": "compact-group-1af1630607e7a3c5f49c",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.2521666126834221,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Open the archive folder."
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-0b607b069fce05db80b3",
+      "original_id": "synth_open_archive_folder-te-Latn-01",
+      "language": "te-Latn",
+      "group_id": "compact-group-1af1630607e7a3c5f49c",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [
+          {
+            "reference": "archive folder open cheyyi",
+            "kind": "item",
+            "resolved_value": null
+          }
+        ],
+        "missing_information": [],
+        "confidence": 0.2297041486550915,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archive folder open cheyyi"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-12497cce3ae1e67f9fe3",
+      "original_id": "dev_memory_project-te-Latn",
+      "language": "te-Latn",
+      "group_id": "compact-group-da242a5143b515385a25",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "prior_conversation",
+            "reference": "prior discussion",
+            "resolved_value": "use a local cache"
+          }
+        ],
+        "execution_path": "memory_recall",
+        "intent": "recall",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "recall",
+        "execution_path": "memory_recall",
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "Orion project ki em choose chesamo gurthu cheyyi",
+            "kind": "prior_conversation",
+            "resolved_value": "use a local cache"
+          }
+        ],
+        "missing_information": [],
+        "confidence": 0.30552486996614325,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Orion project ki em choose chesamo gurthu cheyyi"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-174249e9e30faa16489a",
+      "original_id": "dev_stable_knowledge-te",
+      "language": "te",
+      "group_id": "compact-group-3a2b332a08f1dcc9926e",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [],
+        "execution_path": "direct_response",
+        "intent": "respond",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "respond",
+        "execution_path": "direct_response",
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.5353855926935547,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "ఆకుల రంగు ఎందుకు మారుతుంది?"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": true
+    },
+    {
+      "record_id": "compact-candidate-2d29d7e553b74ad50b31",
+      "original_id": "synth_open_archive_folder-en-03",
+      "language": "en",
+      "group_id": "compact-group-1af1630607e7a3c5f49c",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.204767816584587,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Bring up the archive directory."
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-4b16f2d9ef5c913dd2c0",
+      "original_id": "synth_open_archive_folder-ta-Latn-01",
+      "language": "ta-Latn",
+      "group_id": "compact-group-1af1630607e7a3c5f49c",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "clarify_request",
+        "execution_path": "clarify",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "archive folder-ai open pannu",
+            "kind": "item",
+            "resolved_value": null
+          }
+        ],
+        "missing_information": [
+          {
+            "name": "target",
+            "description": "Required information is unresolved"
+          }
+        ],
+        "confidence": 0.23395508636160442,
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archive folder-ai open pannu"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-58e4dcc4577d919e6740",
+      "original_id": "dev_multistep_guides-mixed-en-te",
+      "language": "mixed-en-te",
+      "group_id": "compact-group-aa9d6f78412adadd951b",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [],
+        "execution_path": "multi_step_task",
+        "intent": "research",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search"
+      },
+      "prediction": {
+        "intent": "research",
+        "execution_path": "multi_step_task",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.22580181728846518,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "two official accessibility guides find chesi differences summarize cheyyi"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-59dbe3caceaa6facaeec",
+      "original_id": "dev_multistep_guides-en",
+      "language": "en",
+      "group_id": "compact-group-aa9d6f78412adadd951b",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [],
+        "execution_path": "multi_step_task",
+        "intent": "research",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search"
+      },
+      "prediction": {
+        "intent": "research",
+        "execution_path": "multi_step_task",
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.4195156137233603,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Locate two official accessibility guides, read them, and summarize the differences."
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": true
+    },
+    {
+      "record_id": "compact-candidate-5bb41551bde7365c7e6f",
+      "original_id": "dev_memory_project-hi-Latn",
+      "language": "hi-Latn",
+      "group_id": "compact-group-da242a5143b515385a25",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "prior_conversation",
+            "reference": "prior discussion",
+            "resolved_value": "use a local cache"
+          }
+        ],
+        "execution_path": "memory_recall",
+        "intent": "recall",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "recall",
+        "execution_path": "memory_recall",
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "Orion project ke liye kya chuna tha yaad dilao",
+            "kind": "prior_conversation",
+            "resolved_value": "use a local cache"
+          }
+        ],
+        "missing_information": [],
+        "confidence": 0.28347141573756784,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Orion project ke liye kya chuna tha yaad dilao"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-65bf34347dabf7f0e54b",
+      "original_id": "synth_open_archive_folder-te-Latn-03",
+      "language": "te-Latn",
+      "group_id": "compact-group-1af1630607e7a3c5f49c",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "clarify_request",
+        "execution_path": "clarify",
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "archive directory paiki teesuku ra",
+            "kind": "item",
+            "resolved_value": null
+          }
+        ],
+        "missing_information": [
+          {
+            "name": "target",
+            "description": "Required information is unresolved"
+          }
+        ],
+        "confidence": 0.21200966153954703,
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archive directory paiki teesuku ra"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-69e2f6b95e52fc983471",
+      "original_id": "synth_open_archive_folder-ta-Latn-02",
+      "language": "ta-Latn",
+      "group_id": "compact-group-1af1630607e7a3c5f49c",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.21402858560610669,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archived files directory kaatu"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-78a00b34902b7b0d9c7b",
+      "original_id": "synth_open_archive_folder-en-04",
+      "language": "en",
+      "group_id": "compact-group-1af1630607e7a3c5f49c",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.2279666259603264,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Open my old-records folder."
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-78b32893ee08710fbf15",
+      "original_id": "en-memory-001",
+      "language": "en",
+      "group_id": "compact-group-3367a99a5702cf6a58aa",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "prior_conversation",
+            "reference": "the database migration last week",
+            "resolved_value": "move the pilot after the billing release"
+          }
+        ],
+        "execution_path": "memory_recall",
+        "intent": "recall",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "recall",
+        "execution_path": "memory_recall",
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "What did we decide about the database migration last week?",
+            "kind": "prior_conversation",
+            "resolved_value": "move the pilot after the billing release"
+          }
+        ],
+        "missing_information": [],
+        "confidence": 0.5076176152324321,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "What did we decide about the database migration last week?"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-7917108a5d2747ee47e2",
+      "original_id": "dev_clarify_unresolved-hi-Latn",
+      "language": "hi-Latn",
+      "group_id": "compact-group-73d1735100f11ceea56b",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "item",
+            "reference": "it",
+            "resolved_value": null
+          }
+        ],
+        "execution_path": "clarify",
+        "intent": "clarify_request",
+        "missing_information": [
+          {
+            "description": "The requested target is not identifiable",
+            "name": "target"
+          }
+        ],
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "clarify_request",
+        "execution_path": "clarify",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "use phir se kholo",
+            "kind": "item",
+            "resolved_value": null
+          }
+        ],
+        "missing_information": [
+          {
+            "name": "target",
+            "description": "Required information is unresolved"
+          }
+        ],
+        "confidence": 0.26010482490082976,
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "use phir se kholo"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-7f974114dddee61bb30d",
+      "original_id": "dev_stable_knowledge-ta",
+      "language": "ta",
+      "group_id": "compact-group-3a2b332a08f1dcc9926e",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [],
+        "execution_path": "direct_response",
+        "intent": "respond",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "respond",
+        "execution_path": "direct_response",
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.5021280667840751,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "இலைகளின் நிறம் ஏன் மாறுகிறது?"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": true
+    },
+    {
+      "record_id": "compact-candidate-893b671924b3cdf76af9",
+      "original_id": "dev_clarify_unresolved-ta-Latn",
+      "language": "ta-Latn",
+      "group_id": "compact-group-73d1735100f11ceea56b",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "item",
+            "reference": "it",
+            "resolved_value": null
+          }
+        ],
+        "execution_path": "clarify",
+        "intent": "clarify_request",
+        "missing_information": [
+          {
+            "description": "The requested target is not identifiable",
+            "name": "target"
+          }
+        ],
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "clarify_request",
+        "execution_path": "clarify",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "atha marubadiyum open pannu",
+            "kind": "item",
+            "resolved_value": null
+          }
+        ],
+        "missing_information": [
+          {
+            "name": "target",
+            "description": "Required information is unresolved"
+          }
+        ],
+        "confidence": 0.3279345715981354,
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "atha marubadiyum open pannu"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-8d9d53363a7e80b65910",
+      "original_id": "dev_memory_project-ta-Latn",
+      "language": "ta-Latn",
+      "group_id": "compact-group-da242a5143b515385a25",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "prior_conversation",
+            "reference": "prior discussion",
+            "resolved_value": "use a local cache"
+          }
+        ],
+        "execution_path": "memory_recall",
+        "intent": "recall",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "recall",
+        "execution_path": "memory_recall",
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "Orion project-ku enna choose pannom nyabagam pannu",
+            "kind": "prior_conversation",
+            "resolved_value": "use a local cache"
+          }
+        ],
+        "missing_information": [],
+        "confidence": 0.3417354270349974,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Orion project-ku enna choose pannom nyabagam pannu"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-9134889c17e20b298d08",
+      "original_id": "ctx-hologram-001",
+      "language": "en",
+      "group_id": "compact-group-3367a99a5702cf6a58aa",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "project",
+            "reference": "our hologram project",
+            "resolved_value": "Aurora display"
+          }
+        ],
+        "execution_path": "memory_recall",
+        "intent": "recall",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "memory",
+          "conversational"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "recall",
+        "execution_path": "memory_recall",
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "Do you remember our hologram project?",
+            "kind": "prior_conversation",
+            "resolved_value": "hologram project"
+          }
+        ],
+        "missing_information": [],
+        "confidence": 0.4001717712344139,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Do you remember our hologram project?"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-9cb9c8bcba29e74f15ae",
+      "original_id": "synth_open_archive_folder-te-Latn-04",
+      "language": "te-Latn",
+      "group_id": "compact-group-1af1630607e7a3c5f49c",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "clarify_request",
+        "execution_path": "clarify",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [
+          {
+            "name": "required_information",
+            "description": "Required information is unresolved"
+          }
+        ],
+        "confidence": 0.22143690855403053,
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "old records folder open cheyyi"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-9cbae89423d15f2284ba",
+      "original_id": "synth_open_archive_folder-te-Latn-05",
+      "language": "te-Latn",
+      "group_id": "compact-group-1af1630607e7a3c5f49c",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "clarify_request",
+        "execution_path": "clarify",
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [
+          {
+            "name": "required_information",
+            "description": "Required information is unresolved"
+          }
+        ],
+        "confidence": 0.18317821811253718,
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archive folder ki teesuku vellu"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-9d3a825394363d92559a",
+      "original_id": "dev_multistep_guides-mixed-en-ta",
+      "language": "mixed-en-ta",
+      "group_id": "compact-group-aa9d6f78412adadd951b",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [],
+        "execution_path": "multi_step_task",
+        "intent": "research",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search"
+      },
+      "prediction": {
+        "intent": "research",
+        "execution_path": "multi_step_task",
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.3981550339533273,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "two official accessibility guides thedi differences summarize pannu"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": true
+    },
+    {
+      "record_id": "compact-candidate-a11b4d43765487268c13",
+      "original_id": "synth_open_archive_folder-hi-Latn-01",
+      "language": "hi-Latn",
+      "group_id": "compact-group-1af1630607e7a3c5f49c",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.21398964271266305,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archive folder kholo"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-a327a6b2341b41d26929",
+      "original_id": "synth_open_archive_folder-en-02",
+      "language": "en",
+      "group_id": "compact-group-1af1630607e7a3c5f49c",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "research",
+        "execution_path": "multi_step_task",
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.20996844302789996,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Show me the archived files directory."
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-a576ef35587382c078ec",
+      "original_id": "dev_memory_project-en",
+      "language": "en",
+      "group_id": "compact-group-da242a5143b515385a25",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "prior_conversation",
+            "reference": "prior discussion",
+            "resolved_value": "use a local cache"
+          }
+        ],
+        "execution_path": "memory_recall",
+        "intent": "recall",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "recall",
+        "execution_path": "memory_recall",
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "Remind me what we chose for the Orion project.",
+            "kind": "prior_conversation",
+            "resolved_value": "use a local cache"
+          }
+        ],
+        "missing_information": [],
+        "confidence": 0.4279981150009759,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Remind me what we chose for the Orion project."
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-a69cc23fe5cf19156f36",
+      "original_id": "synth_open_archive_folder-hi-Latn-03",
+      "language": "hi-Latn",
+      "group_id": "compact-group-1af1630607e7a3c5f49c",
+      "gold_status": "pending_review",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "clarify_request",
+        "execution_path": "clarify",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "archive directory saamne lao",
+            "kind": "item",
+            "resolved_value": null
+          }
+        ],
+        "missing_information": [
+          {
+            "name": "target",
+            "description": "Required information is unresolved"
+          }
+        ],
+        "confidence": 0.2188750633260436,
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archive directory saamne lao"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-ab3744d1834af5d70bb8",
+      "original_id": "en-music-001",
+      "language": "en",
+      "group_id": "compact-group-0905a1846b0e754f74c5",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [],
+        "execution_path": "escalate",
+        "intent": "unsupported_request",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "respond",
+        "execution_path": "direct_response",
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.23927413199600964,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Could you put on some instrumental focus music?"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-b597c5565f28de025678",
+      "original_id": "dev_multistep_guides-mixed-en-hi",
+      "language": "mixed-en-hi",
+      "group_id": "compact-group-aa9d6f78412adadd951b",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [],
+        "execution_path": "multi_step_task",
+        "intent": "research",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search"
+      },
+      "prediction": {
+        "intent": "research",
+        "execution_path": "multi_step_task",
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.3563789617597588,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "do official accessibility guides dhoondh kar differences summarize karo"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": true
+    },
+    {
+      "record_id": "compact-candidate-c024e829657449ff7957",
+      "original_id": "dev_clarify_unresolved-en",
+      "language": "en",
+      "group_id": "compact-group-73d1735100f11ceea56b",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "item",
+            "reference": "it",
+            "resolved_value": null
+          }
+        ],
+        "execution_path": "clarify",
+        "intent": "clarify_request",
+        "missing_information": [
+          {
+            "description": "The requested target is not identifiable",
+            "name": "target"
+          }
+        ],
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "clarify_request",
+        "execution_path": "clarify",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "Bring it up again.",
+            "kind": "prior_request",
+            "resolved_value": null
+          }
+        ],
+        "missing_information": [
+          {
+            "name": "prior_request",
+            "description": "Required information is unresolved"
+          }
+        ],
+        "confidence": 0.23106355662575956,
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Bring it up again."
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-c210c20fef2fd7008bc2",
+      "original_id": "synth_open_archive_folder-hi-Latn-05",
+      "language": "hi-Latn",
+      "group_id": "compact-group-1af1630607e7a3c5f49c",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.2113414383761827,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archive folder par le chalo"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-c2f83913c33fa5767279",
+      "original_id": "synth_open_archive_folder-ta-Latn-03",
+      "language": "ta-Latn",
+      "group_id": "compact-group-1af1630607e7a3c5f49c",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "research",
+        "execution_path": "multi_step_task",
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.23854776219062382,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archive directory kondu vaa"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-c38f95986e35b22ce5e3",
+      "original_id": "dev_stable_knowledge-en",
+      "language": "en",
+      "group_id": "compact-group-3a2b332a08f1dcc9926e",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [],
+        "execution_path": "direct_response",
+        "intent": "respond",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "respond",
+        "execution_path": "direct_response",
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.4428539438940763,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Why do leaves change colour?"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": true
+    },
+    {
+      "record_id": "compact-candidate-cddfc38140aa4a573b0a",
+      "original_id": "synth_open_archive_folder-hi-Latn-04",
+      "language": "hi-Latn",
+      "group_id": "compact-group-1af1630607e7a3c5f49c",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.20343064706429678,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "old records folder kholo"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-d2949db37fafcfe62c2a",
+      "original_id": "synth_open_archive_folder-te-Latn-02",
+      "language": "te-Latn",
+      "group_id": "compact-group-1af1630607e7a3c5f49c",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "research",
+        "execution_path": "multi_step_task",
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.20560924111038767,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archived files directory chupinchu"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-e39074e52cecbf1ed55d",
+      "original_id": "hi-codeswitch-memory-001",
+      "language": "mixed-en-hi",
+      "group_id": "compact-group-3367a99a5702cf6a58aa",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "prior_conversation",
+            "reference": "Kal architecture ke baare mein",
+            "resolved_value": "keep the classifier outside tool execution"
+          }
+        ],
+        "execution_path": "memory_recall",
+        "intent": "recall",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "recall",
+        "execution_path": "memory_recall",
+        "request_modes": [
+          "conversational",
+          "memory"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "Kal architecture ke baare mein humne kya decide kiya tha?",
+            "kind": "prior_conversation",
+            "resolved_value": "keep the classifier outside tool execution"
+          }
+        ],
+        "missing_information": [],
+        "confidence": 0.43283456347792887,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Kal architecture ke baare mein humne kya decide kiya tha?"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-eb30f6b10d4aea5d74e7",
+      "original_id": "synth_open_archive_folder-ta-Latn-04",
+      "language": "ta-Latn",
+      "group_id": "compact-group-1af1630607e7a3c5f49c",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "clarify_request",
+        "execution_path": "clarify",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "old records folder-ai open pannu",
+            "kind": "item",
+            "resolved_value": null
+          }
+        ],
+        "missing_information": [
+          {
+            "name": "target",
+            "description": "Required information is unresolved"
+          }
+        ],
+        "confidence": 0.22447807134751258,
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "old records folder-ai open pannu"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-efe6f8af703091366e1f",
+      "original_id": "synth_open_archive_folder-hi-Latn-02",
+      "language": "hi-Latn",
+      "group_id": "compact-group-1af1630607e7a3c5f49c",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.2153508802707539,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archived files directory dikhao"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-eff9f24d7bf6cf6b71e0",
+      "original_id": "dev_clarify_unresolved-te-Latn",
+      "language": "te-Latn",
+      "group_id": "compact-group-73d1735100f11ceea56b",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "item",
+            "reference": "it",
+            "resolved_value": null
+          }
+        ],
+        "execution_path": "clarify",
+        "intent": "clarify_request",
+        "missing_information": [
+          {
+            "description": "The requested target is not identifiable",
+            "name": "target"
+          }
+        ],
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "clarify_request",
+        "execution_path": "clarify",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "adi malli open cheyyi",
+            "kind": "item",
+            "resolved_value": null
+          }
+        ],
+        "missing_information": [
+          {
+            "name": "target",
+            "description": "Required information is unresolved"
+          }
+        ],
+        "confidence": 0.2718795953646984,
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "adi malli open cheyyi"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-f8017db7fb2b0cca511b",
+      "original_id": "synth_open_archive_folder-en-05",
+      "language": "en",
+      "group_id": "compact-group-1af1630607e7a3c5f49c",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.22690110395695398,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Take me to the archive folder."
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-f9399bada1346bf6b5ec",
+      "original_id": "synth_open_archive_folder-ta-Latn-05",
+      "language": "ta-Latn",
+      "group_id": "compact-group-1af1630607e7a3c5f49c",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "research",
+        "execution_path": "multi_step_task",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.22780394412913016,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archive folder-ku kondu po"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": false
+    },
+    {
+      "record_id": "compact-candidate-fcc84fb726806f3bc6d2",
+      "original_id": "dev_stable_knowledge-hi",
+      "language": "hi",
+      "group_id": "compact-group-3a2b332a08f1dcc9926e",
+      "gold_status": "synthetic_unverified",
+      "expected": {
+        "context_references": [],
+        "execution_path": "direct_response",
+        "intent": "respond",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "respond",
+        "execution_path": "direct_response",
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.603548422336913,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "पत्तों का रंग क्यों बदलता है?"
+          }
+        ]
+      },
+      "error": null,
+      "exact_match": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "labels": [
+    "0",
+    "1"
+  ],
+  "matrix": [
+    [
+      32,
+      21
+    ],
+    [
+      20,
+      4
+    ]
+  ],
+  "denominator": 77,
+  "metric_type": "PROVISIONAL_LABEL_AGREEMENT"
+}

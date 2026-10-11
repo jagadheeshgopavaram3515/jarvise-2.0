@@ -1,0 +1,28 @@
+{
+  "review_id": null,
+  "judgment": "pending",
+  "review_kind": null,
+  "reviewer_type": null,
+  "reviewer_id": null,
+  "prediction_blinded": null,
+  "input_sha256": null,
+  "contract": "ClassifierDecision",
+  "label": null,
+  "qualification": {
+    "languages": [],
+    "scripts": [],
+    "transliteration": null
+  },
+  "field_rationale": {
+    "context_references": "",
+    "execution_path": "",
+    "intent": "",
+    "missing_information": "",
+    "needs_clarification": "",
+    "needs_escalation": "",
+    "request_modes": "",
+    "selected_capability": ""
+  },
+  "timestamp": null,
+  "notes": ""
+}

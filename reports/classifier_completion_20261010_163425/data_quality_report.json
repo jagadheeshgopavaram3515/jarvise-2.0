@@ -1,0 +1,28 @@
+{
+  "rows": {
+    "train": 232,
+    "validation": 40
+  },
+  "schema_invalid": 0,
+  "training_status": "synthetic_unverified",
+  "group_overlap": 0,
+  "normalized_text_overlap": 0,
+  "protected_overlap": 0,
+  "baseline_training_ID_overlap_validation": 0,
+  "semantic_grouping": "Prior connected scenario/translation/template groups; broader semantic relation completeness NOT_VERIFIED",
+  "unseen_span_labels": [
+    "Kal architecture ke baare mein",
+    "our hologram project",
+    "the database migration last week"
+  ],
+  "missing_reference_kind_training": "project; addressed only by explicit project-alias context rule, not fabricated training samples",
+  "exclusions": "18 pending training records retained in prior exclusion ledger; fixed validation never filtered",
+  "family_mapping": "Prior corrected isolated builder maps all19 Registry actions; no source changes",
+  "feature_schema": {
+    "request": 768,
+    "full_pairs": 3072,
+    "interaction_pairs": 1536,
+    "target_leakage": false,
+    "descriptor_key": "per-example full serialized string"
+  }
+}

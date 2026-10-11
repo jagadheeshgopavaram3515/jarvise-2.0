@@ -1,0 +1,167 @@
+=== 12 RANKING COMPETITION CASES ===
+frozen100-013 [en/latin]
+  Utterance: Find the quarterly financial report spreadsheet
+  Exp: find_file vs Pred: open_folder
+  Scores: {'find_file': 0.7600816488265991, 'open_folder': 0.7889689803123474}
+  Mechanism: Ranker selected 'open_folder' (score=0.789) over expected 'find_file' (score=0.760) with margin +0.029.
+--------------------------------------------------
+frozen100-015 [hi/devanagari]
+  Utterance: टैक्स रसीद की पीडीएफ फाइल ढूंढो
+  Exp: find_file vs Pred: open_folder
+  Scores: {'find_file': 0.7721199035644531, 'open_folder': 0.8138776063919068}
+  Mechanism: Ranker selected 'open_folder' (score=0.814) over expected 'find_file' (score=0.772) with margin +0.042.
+--------------------------------------------------
+frozen100-019 [te/telugu]
+  Utterance: కాలేజ్ సర్టిఫికెట్ పిడిఎఫ్ ఫైల్ వెతుకు
+  Exp: find_file vs Pred: open_folder
+  Scores: {'find_file': 0.840792202949524, 'open_folder': 0.8714956283569336}
+  Mechanism: Ranker selected 'open_folder' (score=0.871) over expected 'find_file' (score=0.841) with margin +0.031.
+--------------------------------------------------
+frozen100-023 [ta/tamil]
+  Utterance: வருமான வரி ரசீது கோப்பை தேடு
+  Exp: find_file vs Pred: open_folder
+  Scores: {'find_file': 0.8434098601341248, 'open_folder': 0.884738826751709}
+  Mechanism: Ranker selected 'open_folder' (score=0.885) over expected 'find_file' (score=0.843) with margin +0.041.
+--------------------------------------------------
+frozen100-028 [hi/devanagari]
+  Utterance: नोटपैड ऐप बंद करो
+  Exp: close_app vs Pred: open_folder
+  Scores: {'close_app': 0.6460362911224365, 'open_folder': 0.7455255031585694}
+  Mechanism: Ranker selected 'open_folder' (score=0.746) over expected 'close_app' (score=0.646) with margin +0.099.
+--------------------------------------------------
+frozen100-038 [hi/devanagari]
+  Utterance: मशीन लर्निंग के नए एल्गोरिदम वेब पर खोजो
+  Exp: google_search vs Pred: open_folder
+  Scores: {'google_search': 0.8390825033187866, 'open_folder': 0.9046243667602539}
+  Mechanism: Ranker selected 'open_folder' (score=0.905) over expected 'google_search' (score=0.839) with margin +0.066.
+--------------------------------------------------
+frozen100-039 [hi-Latn/latin]
+  Utterance: Nifty latest market trends google search karo
+  Exp: google_search vs Pred: open_app
+  Scores: {'google_search': 0.7031481432914733, 'open_app': 0.7156705260276794}
+  Mechanism: Ranker selected 'open_app' (score=0.716) over expected 'google_search' (score=0.703) with margin +0.013.
+--------------------------------------------------
+frozen100-041 [te/telugu]
+  Utterance: హైదరాబాద్ వాతావరణ అప్‌డేట్స్ గూగుల్ లో వెతుకు
+  Exp: google_search vs Pred: find_file
+  Scores: {'google_search': 0.7978927731513977, 'find_file': 0.8333215951919556}
+  Mechanism: Ranker selected 'find_file' (score=0.833) over expected 'google_search' (score=0.798) with margin +0.035.
+--------------------------------------------------
+frozen100-042 [te/telugu]
+  Utterance: ఆర్టిఫిషియల్ ఇంటెలిజెన్స్ తాజా వార్తలు వెతుకు
+  Exp: google_search vs Pred: open_folder
+  Scores: {'google_search': 0.7588277101516724, 'open_folder': 0.866635525226593}
+  Mechanism: Ranker selected 'open_folder' (score=0.867) over expected 'google_search' (score=0.759) with margin +0.108.
+--------------------------------------------------
+frozen100-045 [ta/tamil]
+  Utterance: தமிழ்நாடு சமீபத்திய செய்தி இணையத்தில் தேடு
+  Exp: google_search vs Pred: open_folder
+  Scores: {'google_search': 0.7921282291412354, 'open_folder': 0.8438694715499878}
+  Mechanism: Ranker selected 'open_folder' (score=0.844) over expected 'google_search' (score=0.792) with margin +0.052.
+--------------------------------------------------
+unseen-03-te-search [te/telugu]
+  Utterance: తాజా వాతావరణ వార్తలు గూగుల్ లో వెతుకు
+  Exp: google_search vs Pred: open_folder
+  Scores: {'google_search': 0.7599662780761719, 'find_file': 0.8032874703407288, 'open_folder': 0.8530999660491944}
+  Mechanism: Ranker selected 'open_folder' (score=0.853) over expected 'google_search' (score=0.760) with margin +0.093.
+--------------------------------------------------
+unseen-19-te-closeapp [te-Latn/latin]
+  Utterance: WhatsApp application close cheyyi
+  Exp: close_app vs Pred: open_folder
+  Scores: {'close_app': 0.7481734919548034, 'open_folder': 0.7582592368125916}
+  Mechanism: Ranker selected 'open_folder' (score=0.758) over expected 'close_app' (score=0.748) with margin +0.010.
+--------------------------------------------------
+
+=== 9 FALSE ABSTENTION CASES ===
+frozen100-011 [ta/tamil]
+  Utterance: பதிவிறக்கங்கள் கோப்புறையை திறக்கவும்
+  Exp: open_folder vs Pred: None
+  Scores: {'open_folder': 0.9092607140541077, 'find_file': 0.9072258710861206}
+  Mechanism: Expected 'open_folder' (score=0.909), but model abstained to path 'escalate' (raw=None, clar_prob=0.000, esc_prob=0.000, thresh=0.520).
+--------------------------------------------------
+frozen100-016 [hi/devanagari]
+  Utterance: प्रोजेक्ट प्रपोजल डॉक्यूमेंट तलाशो
+  Exp: find_file vs Pred: None
+  Scores: {'find_file': 0.8471263885498047, 'open_app': 0.8721462726593018}
+  Mechanism: Expected 'find_file' (score=0.847), but model abstained to path 'escalate' (raw=None, clar_prob=0.000, esc_prob=0.000, thresh=0.520).
+--------------------------------------------------
+frozen100-017 [hi-Latn/latin]
+  Utterance: october invoice file search karo
+  Exp: find_file vs Pred: None
+  Scores: {'find_file': 0.689885573387146, 'open_folder': 0.619581651687622}
+  Mechanism: Expected 'find_file' (score=0.690), but model abstained to path 'escalate' (raw=None, clar_prob=0.000, esc_prob=0.000, thresh=0.520).
+--------------------------------------------------
+frozen100-033 [ta-Latn/latin]
+  Utterance: VS Code application open pannu
+  Exp: open_app vs Pred: None
+  Scores: {'open_app': 0.7715076971054077, 'find_file': 0.7007712888717651}
+  Mechanism: Expected 'open_app' (score=0.772), but model abstained to path 'clarify' (raw=None, clar_prob=0.000, esc_prob=0.000, thresh=0.520).
+--------------------------------------------------
+frozen100-037 [hi/devanagari]
+  Utterance: भारत में आगामी चंद्र मिशन के बारे में गूगल सर्च करो
+  Exp: google_search vs Pred: None
+  Scores: {'google_search': 0.833225154876709, 'find_file': 0.8601117372512818}
+  Mechanism: Expected 'google_search' (score=0.833), but model abstained to path 'direct_response' (raw=None, clar_prob=0.000, esc_prob=0.000, thresh=0.520).
+--------------------------------------------------
+frozen100-043 [te-Latn/latin]
+  Utterance: India vs Australia live match score google search cheyyi
+  Exp: google_search vs Pred: None
+  Scores: {'google_search': 0.6722613143920898, 'open_app': 0.6868057250976562}
+  Mechanism: Expected 'google_search' (score=0.672), but model abstained to path 'escalate' (raw=None, clar_prob=0.000, esc_prob=0.000, thresh=0.520).
+--------------------------------------------------
+frozen100-090 [en/latin]
+  Utterance: Show me the step by step instructions to configure SSL certificates on Nginx
+  Exp: google_search vs Pred: None
+  Scores: {'google_search': 0.797263503074646, 'open_folder': 0.8385964632034302}
+  Mechanism: Expected 'google_search' (score=0.797), but model abstained to path 'escalate' (raw=None, clar_prob=0.000, esc_prob=0.000, thresh=0.520).
+--------------------------------------------------
+unseen-20-ta-openapp [ta-Latn/latin]
+  Utterance: VS Code application open pannu
+  Exp: open_app vs Pred: None
+  Scores: {'open_app': 0.7365684676170349, 'find_file': 0.6585533189773559}
+  Mechanism: Expected 'open_app' (score=0.737), but model abstained to path 'clarify' (raw=None, clar_prob=0.000, esc_prob=0.000, thresh=0.520).
+--------------------------------------------------
+unseen-22-te-file [te-Latn/latin]
+  Utterance: october invoice pdf document vetuku
+  Exp: find_file vs Pred: None
+  Scores: {'find_file': 0.6032077240943908, 'open_folder': 0.5409477472305297}
+  Mechanism: Expected 'find_file' (score=0.603), but model abstained to path 'escalate' (raw=None, clar_prob=0.000, esc_prob=0.000, thresh=0.520).
+--------------------------------------------------
+
+=== 6 FALSE ACTION CASES ===
+frozen100-058 [hi/devanagari]
+  Utterance: वह तुरंत खोलो
+  Exp: None vs Pred: open_folder
+  Scores: {'open_folder': 0.7267956376075745, 'find_file': 0.6873121500015259}
+  Mechanism: Expected no capability (path=clarify), but ranker selected 'open_folder' with score None >= threshold 0.520.
+--------------------------------------------------
+frozen100-062 [te/telugu]
+  Utterance: అది ఓపెన్ చెయ్యి
+  Exp: None vs Pred: open_folder
+  Scores: {'open_folder': 0.8003033638000489, 'find_file': 0.7516536951065064}
+  Mechanism: Expected no capability (path=clarify), but ranker selected 'open_folder' with score None >= threshold 0.520.
+--------------------------------------------------
+frozen100-097 [hi/devanagari]
+  Utterance: दिल्ली से मुंबई की फ्लाइट टिकट बुक कर दो
+  Exp: None vs Pred: google_search
+  Scores: {'google_search': 0.7650704026222229}
+  Mechanism: Expected no capability (path=escalate), but ranker selected 'google_search' with score None >= threshold 0.520.
+--------------------------------------------------
+frozen100-098 [hi-Latn/latin]
+  Utterance: bedroom ki AC temperature 22 degree par set karo
+  Exp: None vs Pred: open_app
+  Scores: {'open_app': 0.7110248804092407}
+  Mechanism: Expected no capability (path=escalate), but ranker selected 'open_app' with score None >= threshold 0.520.
+--------------------------------------------------
+frozen100-099 [te-Latn/latin]
+  Utterance: Uber app lo airport ki cab book cheyyi
+  Exp: None vs Pred: open_app
+  Scores: {'open_app': 0.8475994634628295}
+  Mechanism: Expected no capability (path=escalate), but ranker selected 'open_app' with score None >= threshold 0.520.
+--------------------------------------------------
+frozen100-100 [mixed-en-ta/latin]
+  Utterance: Zomato app-la dinner order pannu
+  Exp: None vs Pred: open_app
+  Scores: {'open_app': 0.7953739929199218}
+  Mechanism: Expected no capability (path=escalate), but ranker selected 'open_app' with score None >= threshold 0.520.
+--------------------------------------------------

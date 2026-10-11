@@ -1,0 +1,51 @@
+[
+  {
+    "threshold": 0.0,
+    "accepted": 24,
+    "accepted_exact": 12,
+    "full_set_exact": 12,
+    "denominator": 24
+  },
+  {
+    "threshold": 0.2,
+    "accepted": 24,
+    "accepted_exact": 12,
+    "full_set_exact": 12,
+    "denominator": 24
+  },
+  {
+    "threshold": 0.4,
+    "accepted": 20,
+    "accepted_exact": 12,
+    "full_set_exact": 12,
+    "denominator": 24
+  },
+  {
+    "threshold": 0.6,
+    "accepted": 11,
+    "accepted_exact": 9,
+    "full_set_exact": 9,
+    "denominator": 24
+  },
+  {
+    "threshold": 0.7,
+    "accepted": 3,
+    "accepted_exact": 3,
+    "full_set_exact": 3,
+    "denominator": 24
+  },
+  {
+    "threshold": 0.8,
+    "accepted": 1,
+    "accepted_exact": 1,
+    "full_set_exact": 1,
+    "denominator": 24
+  },
+  {
+    "threshold": 0.9,
+    "accepted": 0,
+    "accepted_exact": 0,
+    "full_set_exact": 0,
+    "denominator": 24
+  }
+]

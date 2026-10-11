@@ -1,0 +1,16 @@
+{
+  "status": "requires_human_review",
+  "gaps": [
+    "stt_noise"
+  ],
+  "priority_review_categories": [
+    "multilingual_examples",
+    "romanized_telugu",
+    "romanized_hindi",
+    "code_switching",
+    "clarification",
+    "unsupported",
+    "context_dependent",
+    "hard_negatives"
+  ]
+}

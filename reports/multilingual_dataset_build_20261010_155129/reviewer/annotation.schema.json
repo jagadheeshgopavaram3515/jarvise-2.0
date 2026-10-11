@@ -1,0 +1,285 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Compact independent annotation v1; schema shape is not verification",
+  "type": "object",
+  "required": [
+    "review_id",
+    "judgment",
+    "review_kind",
+    "reviewer_type",
+    "reviewer_id",
+    "prediction_blinded",
+    "input_sha256",
+    "contract",
+    "label",
+    "qualification",
+    "field_rationale",
+    "timestamp",
+    "notes"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "review_id": {
+      "type": "string"
+    },
+    "judgment": {
+      "enum": [
+        "pending",
+        "labeled",
+        "ambiguous",
+        "unresolved",
+        "rejected"
+      ]
+    },
+    "review_kind": {
+      "enum": [
+        "independent",
+        "self_review",
+        "historical_reference",
+        null
+      ]
+    },
+    "reviewer_type": {
+      "enum": [
+        "human",
+        "AI",
+        null
+      ]
+    },
+    "reviewer_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "prediction_blinded": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "input_sha256": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "contract": {
+      "const": "ClassifierDecision"
+    },
+    "label": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "required": [
+            "context_references",
+            "execution_path",
+            "intent",
+            "missing_information",
+            "needs_clarification",
+            "needs_escalation",
+            "request_modes",
+            "selected_capability"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "intent": {
+              "type": "string",
+              "minLength": 1
+            },
+            "execution_path": {
+              "enum": [
+                "clarify",
+                "direct_response",
+                "escalate",
+                "memory_recall",
+                "multi_step_task",
+                "research",
+                "single_action"
+              ]
+            },
+            "request_modes": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "enum": [
+                  "conversational",
+                  "memory",
+                  "research",
+                  "action"
+                ]
+              }
+            },
+            "selected_capability": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "context_references": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "reference",
+                  "kind",
+                  "resolved_value"
+                ],
+                "additionalProperties": false,
+                "properties": {
+                  "reference": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "kind": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "resolved_value": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              }
+            },
+            "missing_information": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "name",
+                  "description"
+                ],
+                "additionalProperties": false,
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "description": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "needs_clarification": {
+              "type": "boolean"
+            },
+            "needs_escalation": {
+              "type": "boolean"
+            }
+          }
+        }
+      ]
+    },
+    "qualification": {
+      "type": "object",
+      "required": [
+        "languages",
+        "scripts",
+        "transliteration"
+      ],
+      "properties": {
+        "languages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "scripts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "transliteration": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        }
+      }
+    },
+    "field_rationale": {
+      "type": "object",
+      "required": [
+        "context_references",
+        "execution_path",
+        "intent",
+        "missing_information",
+        "needs_clarification",
+        "needs_escalation",
+        "request_modes",
+        "selected_capability"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "context_references": {
+          "type": "string"
+        },
+        "execution_path": {
+          "type": "string"
+        },
+        "intent": {
+          "type": "string"
+        },
+        "missing_information": {
+          "type": "string"
+        },
+        "needs_clarification": {
+          "type": "string"
+        },
+        "needs_escalation": {
+          "type": "string"
+        },
+        "request_modes": {
+          "type": "string"
+        },
+        "selected_capability": {
+          "type": "string"
+        }
+      }
+    },
+    "timestamp": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "judgment": {
+            "const": "labeled"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "label": {
+            "type": "object"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "label": {
+            "type": "null"
+          }
+        }
+      }
+    }
+  ]
+}

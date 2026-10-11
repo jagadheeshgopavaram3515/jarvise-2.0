@@ -1,0 +1,38 @@
+{
+  "target": "DeterministicFastBrain",
+  "backend_name": "deterministic-v1",
+  "entry_point": "assistant.orchestration.fast_brain.deterministic.DeterministicFastBrain.decide(FastBrainRequest)",
+  "inputs": [
+    "transcript: exact original string",
+    "context: original source mapping",
+    "capabilities: original advertised names (no executable handlers)"
+  ],
+  "outputs": "Frozen seven-field FastBrainDecision",
+  "checkpoint": null,
+  "model_calls": 0,
+  "generation_settings": null,
+  "execution": "direct decide + actual validate_decision, before safe_decide can conceal failures",
+  "production_connected": false,
+  "not_evaluated": [
+    "Legacy QwenClassifier LOCAL/GEMINI/TASK",
+    "compact-mbert-frozen-v3 older structured adapter",
+    "raw-logit encoder foundation",
+    "historical label builder"
+  ],
+  "source_hashes": {
+    "assistant/orchestration/fast_brain/contract.py": "06275346148865f4f05d0c1ff3662cd0fa8572cf06003225001cb0a70b20fd1a",
+    "assistant/orchestration/fast_brain/validator.py": "daa40cbf054350c77f75259a8952e562d8c90f64657d28c57f0e4bc9bcdfb432",
+    "assistant/orchestration/fast_brain/deterministic.py": "e16a2bb397f1ef5195cd55f79240533374907ce3e4356529bbf3657063dd1e3f",
+    "assistant/orchestration/fast_brain/adapter.py": "8546996e119efb8b7b32b38c7e55b4855ebf4f8dfa29e21e65a0fb823db94a77",
+    "assistant/orchestration/fast_brain/shadow.py": "d3a65abc551c45a4bb7aaa9ee0f3d8362fa2c5f56a98eace08e76912a91443d8",
+    "assistant/orchestration/fast_brain/encoder_adapter.py": "ca17daaabafe686be77724aea916ddd2af8344dcc96aef43136c1d3831ab779f",
+    "assistant/orchestration/router.py": "bde66332a0050ee18206af1a0ded1ac4ca73110ff3a27184f0359d204c556e20",
+    "assistant/orchestration/graph.py": "119e6eeb6c2df4d7710157c743037bada6cba0a0581d88d7c296f2c2552cb258",
+    "assistant/orchestration/decision.py": "aadf7e0459a8c10178a39dabe2aef55c38c4bb00044c3e0bb1bfd3594f3577eb",
+    "assistant/orchestration/compact_adapter.py": "44b27e30c40a4c95ae46204d29c815d95ebdabe60b1cc0fddb50ed3b2119a854",
+    "benchmarks/fast_classifier/build_fast_brain_dataset.py": "3be806423600a4c4055e842f03c1e2612acfa2e128df75ea750c56cfbd4b5a14",
+    "benchmarks/fast_classifier/review_fast_brain_dataset.py": "d52cacd57df7c69c45a5e9b47f01614216122b05cc5481b9ba4454a545b59e71",
+    "benchmarks/fast_classifier/gold_review.py": "83a66a718348ebc284af102b0b13c47aba39819c0a1a7643fc0b6ce1d60fad85"
+  },
+  "benchmark_status": "NOT_MEASURED: independent reference labels unavailable"
+}

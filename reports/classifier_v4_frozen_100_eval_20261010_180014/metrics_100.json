@@ -1,0 +1,49 @@
+{
+  "total_requests": 100,
+  "strict_exact_agreement": 45,
+  "strict_exact_pct": 45.0,
+  "capability_top1_agreement": 66,
+  "capability_top1_pct": 66.0,
+  "inference_failures": 0,
+  "latency_ms": {
+    "median": 147.57100000133505,
+    "p95": 252.2176449998369,
+    "mean": 165.9083950000786,
+    "min": 68.5315000009723,
+    "max": 1908.0443999991985
+  },
+  "field_agreements": {
+    "intent": {
+      "count": 57,
+      "pct": 56.99999999999999
+    },
+    "execution_path": {
+      "count": 68,
+      "pct": 68.0
+    },
+    "request_modes": {
+      "count": 90,
+      "pct": 90.0
+    },
+    "selected_capability": {
+      "count": 66,
+      "pct": 66.0
+    },
+    "needs_clarification": {
+      "count": 78,
+      "pct": 78.0
+    },
+    "needs_escalation": {
+      "count": 90,
+      "pct": 90.0
+    },
+    "missing_information": {
+      "count": 78,
+      "pct": 78.0
+    },
+    "context_references": {
+      "count": 86,
+      "pct": 86.0
+    }
+  }
+}

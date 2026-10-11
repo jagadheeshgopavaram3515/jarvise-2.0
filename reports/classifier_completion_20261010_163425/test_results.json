@@ -1,0 +1,1147 @@
+{
+  "exit_code": 0,
+  "passed": 153,
+  "failed": 0,
+  "skipped_or_blocked": 33,
+  "reports": [
+    {
+      "test": "tests/test_compact_classifier.py::test_v1_artifacts_are_byte_preserved",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_compact_classifier.py::test_v2_counts_ids_versions_and_provenance",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_compact_classifier.py::test_all_v1_ids_have_traceable_v2_derivations",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_compact_classifier.py::test_manifest_prevents_group_split_leakage_and_seals_test",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_compact_classifier.py::test_training_metadata_excludes_dev_and_sealed_test_ids",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_compact_classifier.py::test_v2_loader_validates_each_split",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_compact_classifier.py::test_v3_preserves_sealed_test_and_group_integrity",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_compact_classifier.py::test_v3_artifact_excludes_dev_and_test_ids",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_compact_classifier.py::test_v3_adjudication_traceability_and_review_provenance",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_compact_classifier.py::test_adapter_interface_and_exactly_one_encoder_inference",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_compact_classifier.py::test_capability_selection_is_restricted_to_advertised_set",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_compact_classifier.py::test_no_advertised_capability_escalates_safely",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_compact_classifier.py::test_clarification_has_missing_information_and_no_capability",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_compact_classifier.py::test_contradictory_uncertainty_is_resolved_deterministically",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_compact_classifier.py::test_unresolved_reference_is_represented_without_resolution",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_compact_classifier.py::test_malformed_artifact_triggers_fastclassifier_fallback",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_compact_classifier.py::test_confidence_is_bounded_even_if_head_probability_is_invalidly_large",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_compact_classifier.py::test_offline_inference_does_not_use_network_or_execute_tools",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_classifier_benchmark.py::test_seed_dataset_loads_and_has_versioned_reviewed_coverage",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_classifier_benchmark.py::test_dataset_selection_by_split_ids_and_limit",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_classifier_benchmark.py::test_dataset_schema_validation_rejects_bad_records[mutation0-schema_version]",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_classifier_benchmark.py::test_dataset_schema_validation_rejects_bad_records[mutation1-request mode]",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_classifier_benchmark.py::test_dataset_schema_validation_rejects_bad_records[mutation2-context]",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_classifier_benchmark.py::test_invalid_output_corpus_is_versioned_and_rejected_by_contract",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_classifier_benchmark.py::test_legacy_evaluation_scores_only_real_legacy_fields",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_classifier_benchmark.py::test_legacy_unrepresentable_paths_are_not_counted_as_errors",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_classifier_benchmark.py::test_unknown_legacy_route_is_an_invalid_output",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_classifier_benchmark.py::test_structured_adapter_scores_each_contract_field",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_classifier_benchmark.py::test_malformed_structured_output_is_not_silently_scored_correct",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_classifier_benchmark.py::test_exceptions_and_timeouts_are_recorded_separately",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_classifier_benchmark.py::test_latency_statistics_use_nearest_rank_p50_and_p95",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_classifier_benchmark.py::test_evaluation_never_executes_capabilities_or_changes_live_router",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_classifier_benchmark.py::test_terminal_summary_identifies_mock_measurement",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_fast_classifier.py::test_unseen_paraphrase_is_sent_to_model_without_keyword_gate",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_classifier.py::test_language_identity_does_not_force_an_execution_path",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_classifier.py::test_context_references_are_generic_and_can_remain_unresolved",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_classifier.py::test_invalid_model_output_fails_closed_to_escalation",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_classifier.py::test_uncertainty_can_request_clarification_or_escalation",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_classifier.py::test_capability_selection_cannot_bypass_tool_allow_list",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 31, 'Skipped: BLOCKED: existing-tree write prohibited: D:\\\\JARVIS\\\\logs\\\\tools.log')"
+    },
+    {
+      "test": "tests/test_fast_classifier.py::test_existing_classify_callers_remain_compatible",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_classifier.py::test_existing_qwen_style_classifier_can_use_adapter_boundary",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_dataset.py::test_schema_uses_frozen_labels_and_provenance",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_dataset.py::test_clarification_invariants_and_metadata",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_dataset.py::test_loader_rejects_duplicate_ids_and_cross_group_text",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_dataset.py::test_grouped_split_is_deterministic_and_leak_free",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_dataset.py::test_duplicate_text_across_groups_is_rejected_to_prevent_leakage",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_dataset.py::test_group_leakage_is_rejected",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_dataset.py::test_machine_readable_evaluation_reports_metrics_without_model",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_foundation.py::test_valid_decision_serializes_round_trip",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_foundation.py::test_invalid_enum_rejected[intent_family-not-real]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_foundation.py::test_invalid_enum_rejected[execution_path-not-real]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_foundation.py::test_invalid_enum_rejected[capability_family-not-real]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_foundation.py::test_invalid_enum_rejected[uncertainty-not-real]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_foundation.py::test_clarification_invariants",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_foundation.py::test_escalation_invariants",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_foundation.py::test_path_invariants",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_foundation.py::test_safe_fallback_is_non_executing_clarification",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_foundation.py::test_deterministic_backend_examples_and_unknown_conservative_response",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_foundation.py::test_adapter_failure_is_safe",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_foundation.py::test_shadow_preserves_existing_route_and_measures_latency",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_encoder_adapter.py::test_missing_local_checkpoint_is_unavailable_without_download",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_encoder_adapter.py::test_config_and_frozen_contract_mappings_are_deterministic",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_encoder_adapter.py::test_masked_mean_pooling_excludes_padding",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_encoder_adapter.py::test_masked_mean_pooling_handles_zero_mask",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_encoder_adapter.py::test_no_model_does_not_produce_decision_or_logits",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_review.py::test_review_priority_protects_romanized_telugu",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_review.py::test_review_requires_explicit_reviewer_and_label_for_correction",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_review.py::test_pending_data_cannot_be_training_ready",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_review.py::test_invalid_or_incomplete_reviews_cannot_promote_readiness",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_review.py::test_reviewed_label_does_not_replace_original",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_review.py::test_multilingual_regression_metadata",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_review.py::test_review_artifacts_cannot_be_overwritten_after_human_work",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_review.py::test_experiment_readiness_requires_human_language_coverage",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_review.py::test_experiment_readiness_never_counts_skip_as_eligible",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_review_cli.py::test_first_record_accept_and_source_unchanged",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_review_cli.py::test_correct_and_malformed_label_rejected",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_review_cli.py::test_unknown_duplicate_and_resume",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_review_cli.py::test_decision_validation_requires_reviewer_and_complete_label",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_review_cli.py::test_correction_retries_single_line_json_without_returning_to_menu",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_review_cli.py::test_accepted_review_is_persisted_and_resume_skips_it_in_isolated_artifact",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_review_cli.py::test_ai_proposal_schema_rejects_invalid_output",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_review_cli.py::test_ai_proposal_does_not_persist_until_human_acceptance",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_review_cli.py::test_ai_acceptance_persists_exactly_one_decision",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_review_cli.py::test_ai_correction_can_be_overridden_by_human_label",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_review_cli.py::test_ai_source_conflict_requires_human_attention",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_review_cli.py::test_ai_timeout_falls_back_to_human_review",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_review_cli.py::test_legacy_direct_response_is_compatible_with_respond",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_review_cli.py::test_missing_provenance_is_not_a_source_conflict",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_review_cli.py::test_kubernetes_source_semantics_support_qwen_agent",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_review_cli.py::test_genuine_source_intent_contradiction_is_conflict",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_fast_brain_review_cli.py::test_real_unsupported_tamil_records_are_semantically_compatible_not_aliases",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_fast_brain_review_cli.py::test_real_rainbow_record_uses_explicit_legacy_mapping",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_fast_brain_review_cli.py::test_critical_unsupported_record_keeps_human_review_after_nonconflicting_source",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_fast_brain_review_cli.py::test_audited_semantically_supported_records_can_return_complete_ai_proposals",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_fast_brain_review_cli.py::test_prompt_requires_semantic_proposal_before_conflict_classification",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_gold_review.py::test_no_reference_labels_means_not_measured_and_no_prediction",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_gold_review.py::test_unverified_reviews_never_become_gold[change0]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_gold_review.py::test_unverified_reviews_never_become_gold[change1]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_gold_review.py::test_unverified_reviews_never_become_gold[change2]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_gold_review.py::test_unverified_reviews_never_become_gold[change3]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_gold_review.py::test_unverified_reviews_never_become_gold[change4]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_gold_review.py::test_unverified_reviews_never_become_gold[change5]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_gold_review.py::test_unverified_reviews_never_become_gold[change6]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_gold_review.py::test_unverified_reviews_never_become_gold[change7]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_gold_review.py::test_unverified_reviews_never_become_gold[change8]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_gold_review.py::test_qualified_language_and_transliteration_required",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_gold_review.py::test_disagreement_requires_separate_qualified_adjudicator",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_gold_review.py::test_real_offline_baseline_runs_only_on_eligible_unit_fixture",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_gold_review.py::test_prediction_failure_is_included_in_accuracy_denominator",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_gold_review.py::test_every_required_dimension_affects_strict_match",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_gold_review.py::test_invalid_enum_and_boolean_are_not_gold",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_gold_review.py::test_frozen_manifest_rejects_input_changes",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_gold_review.py::test_repeated_scoring_does_not_mutate_reviews_or_predictions",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_evaluation.py::test_open_folder_rationale_with_unchanged_information_fields_is_flagged",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_evaluation.py::test_invalid_computer_control_enum_is_not_accepted",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_evaluation.py::test_valid_material_folder_correction_is_structural_and_provisional",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_evaluation.py::test_agreement_is_not_reported_as_accuracy",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_evaluation.py::test_missing_referent_abstention_is_distinguished",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_evaluation.py::test_clear_request_abstention_is_not_silently_scored_correct",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_evaluation.py::test_code_switched_archive_action_uses_real_schema",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_evaluation.py::test_exchange_rate_rationale_with_conversation_label_is_flagged",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_evaluation.py::test_multistep_web_rationale_requires_matching_fields",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_evaluation.py::test_missing_or_malformed_proposal_is_not_a_success[None]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_evaluation.py::test_missing_or_malformed_proposal_is_not_a_success[raw1]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_evaluation.py::test_missing_or_malformed_proposal_is_not_a_success[raw2]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_evaluation.py::test_timeout_is_not_model_abstention",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_evaluation.py::test_correction_with_identical_fields_is_a_confirmed_mode_contradiction",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_evaluation.py::test_repeated_evaluation_preserves_actual_human_history",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_shadow_review_evaluation.py::test_only_harmless_object_representation_is_normalized",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_regression.py::test_captured_requests_and_final_semantic_outcomes[A]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_regression.py::test_captured_requests_and_final_semantic_outcomes[B]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_regression.py::test_captured_requests_and_final_semantic_outcomes[C]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_regression.py::test_captured_requests_and_final_semantic_outcomes[D]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_regression.py::test_reported_failure_is_not_silently_promoted_or_persisted",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_regression.py::test_supported_correction_of_wrong_candidate",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_regression.py::test_corrected_clear_request_can_resolve_wrong_clarification_candidate",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_regression.py::test_genuine_model_abstention_is_preserved",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_regression.py::test_unresolved_proposed_label_requires_human_even_when_candidate_was_clear[AUTO_CONFIDENT]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_regression.py::test_unresolved_proposed_label_requires_human_even_when_candidate_was_clear[AI_CORRECTION]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_regression.py::test_real_source_conflict_is_retained",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_regression.py::test_invalid_response_falls_back_without_acceptance[bad json]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_regression.py::test_invalid_response_falls_back_without_acceptance[{\"response\":\"truncated\"}]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_regression.py::test_invalid_response_falls_back_without_acceptance[{\"response\":\"{}\"}]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_regression.py::test_transport_failure_falls_back[error0]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_regression.py::test_transport_failure_falls_back[error1]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_regression.py::test_cross_field_validation_is_not_weakened",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_shadow_review_regression.py::test_human_acceptance_preserves_existing_history_and_queue",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "tests/test_phase4_benchmark.py::test_v4_dataset_integrity_and_review_status",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_phase4_benchmark.py::test_v4_manifest_hash_and_group_split_isolation",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_phase4_benchmark.py::test_v4_sealed_test_has_required_language_slices_and_no_v3_test_ids",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_phase4_benchmark.py::test_v4_capabilities_are_real_registry_names",
+      "phase": "call",
+      "outcome": "skipped",
+      "reason": "('D:\\\\JARVIS\\\\reports\\\\classifier_completion_20261010_163425\\\\run_tests.py', 33, 'Skipped: BLOCKED: test would read original sealed-label or historical-outcome source; not allowed in this experiment')"
+    },
+    {
+      "test": "tests/test_phase4_benchmark.py::test_laya_adapter_uses_one_worker_request_and_never_executes_tools",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_each_eleven_typed_context_resolution_without_targets[dev_memory_project-te-Latn]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_each_eleven_typed_context_resolution_without_targets[dev_memory_project-hi-Latn]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_each_eleven_typed_context_resolution_without_targets[en-memory-001]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_each_eleven_typed_context_resolution_without_targets[dev_clarify_unresolved-hi-Latn]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_each_eleven_typed_context_resolution_without_targets[dev_clarify_unresolved-ta-Latn]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_each_eleven_typed_context_resolution_without_targets[dev_memory_project-ta-Latn]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_each_eleven_typed_context_resolution_without_targets[ctx-hologram-001]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_each_eleven_typed_context_resolution_without_targets[dev_memory_project-en]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_each_eleven_typed_context_resolution_without_targets[dev_clarify_unresolved-en]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_each_eleven_typed_context_resolution_without_targets[hi-codeswitch-memory-001]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_each_eleven_typed_context_resolution_without_targets[dev_clarify_unresolved-te-Latn]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_resolver_never_first_arbitrary_scalar",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_multiple_unmatched_decisions_unresolved",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_matching_named_decision_selects_correct_entity",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_unseen_project_alias_and_span",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_conflicting_project_aliases_not_resolved",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_empty_context_never_fabricated",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_nonstring_context_decision_not_coerced",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_same_capability_descriptor_feature_structure",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_unknown_feature_style_explicit_error",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_missing_objects_preserve_names_descriptions",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_all_omissions_stay_fixed[open_folder-file]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_all_omissions_stay_fixed[recent_files-file]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_all_omissions_stay_fixed[grep_code-project]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_all_omissions_stay_fixed[run_project_tests-project]",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_safe_fallback_contract",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_model_has_no_unseen_validation_span_vocabulary",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_original_artifacts_hashes",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_protected_records_excluded",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_baselines_reproduced",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_actual_encoder_fixed_denominator",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_every_best_output_valid_and_multilingual_preserved",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_abstention_does_not_redefine_main_denominator",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    },
+    {
+      "test": "reports/classifier_completion_20261010_163425/test_completion.py::test_missing_positive_capability_class_explicit",
+      "phase": "call",
+      "outcome": "passed",
+      "reason": ""
+    }
+  ],
+  "blocked_source_reads": [
+    "D:\\JARVIS\\benchmarks\\fast_classifier\\fast_brain_v1\\review_decisions.jsonl",
+    "D:\\JARVIS\\benchmarks\\fast_classifier\\v1\\seed.jsonl",
+    "D:\\JARVIS\\benchmarks\\fast_classifier\\v2\\dataset.jsonl",
+    "D:\\JARVIS\\benchmarks\\fast_classifier\\v3\\dataset.jsonl",
+    "D:\\JARVIS\\benchmarks\\fast_classifier\\v4\\dataset.jsonl"
+  ],
+  "suite_files": [
+    "D:\\JARVIS\\tests\\test_compact_classifier.py",
+    "D:\\JARVIS\\tests\\test_classifier_benchmark.py",
+    "D:\\JARVIS\\tests\\test_fast_classifier.py",
+    "D:\\JARVIS\\tests\\test_fast_brain_dataset.py",
+    "D:\\JARVIS\\tests\\test_fast_brain_foundation.py",
+    "D:\\JARVIS\\tests\\test_fast_brain_encoder_adapter.py",
+    "D:\\JARVIS\\tests\\test_fast_brain_review.py",
+    "D:\\JARVIS\\tests\\test_fast_brain_review_cli.py",
+    "D:\\JARVIS\\tests\\test_gold_review.py",
+    "D:\\JARVIS\\tests\\test_shadow_review_evaluation.py",
+    "D:\\JARVIS\\tests\\test_shadow_review_regression.py",
+    "D:\\JARVIS\\tests\\test_phase4_benchmark.py",
+    "D:\\JARVIS\\reports\\classifier_completion_20261010_163425\\test_completion.py"
+  ],
+  "protection": "Tests requiring original sealed labels/outcomes or existing-tree writes are explicitly skipped; never used for fitting/selection"
+}

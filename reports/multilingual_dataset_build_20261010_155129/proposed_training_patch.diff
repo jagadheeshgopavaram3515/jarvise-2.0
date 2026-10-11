@@ -1,0 +1,45 @@
+--- a/benchmarks/fast_classifier/train_candidate.py
++++ b/benchmarks/fast_classifier/train_candidate.py
+@@ -24,6 +24,7 @@
+ )
+ from assistant.orchestration.decision import DecisionRequest
+ from benchmarks.fast_classifier.evaluate import BenchmarkExample, load_dataset
++from reports.multilingual_dataset_build_20261010_155129.dataset_tools import load_verified_training, exact_pair_features
+ 
+ 
+ ROOT = Path(__file__).resolve().parents[2]
+@@ -63,7 +64,7 @@
+     mode_threshold: float = 0.5,
+     capability_encoding: str = "joint_pair",
+ ) -> dict:
+-    dataset = load_dataset(dataset_path, split="train")
++    dataset = load_verified_training(dataset_path)
+     examples = list(dataset.examples)
+     if any(getattr(example, "split") == "test" for example in examples):
+         raise ValueError("sealed test examples must not be used for training")
+@@ -111,23 +112,9 @@
+                 pair_labels.append(int(cap.name == example.expected.selected_capability))
+         pair_features = encoder.encode(pair_texts, batch_size=16)
+     else:
+-        capability_texts = {}
+-        for example in examples:
+-            for cap in example.capabilities:
+-                capability_texts[cap.name] = serialize_capability(
+-                    cap.name, cap.description, cap.required_arguments
+-                )
+-        capability_names = sorted(capability_texts)
+-        capability_vectors = encoder.encode(
+-            [capability_texts[name] for name in capability_names], batch_size=16
++        pair_features, pair_labels, _descriptor_texts = exact_pair_features(
++            examples, vectors, encoder
+         )
+-        vector_by_capability = dict(zip(capability_names, capability_vectors))
+-        pair_features = []
+-        for example, request_vector in zip(examples, vectors):
+-            for cap in example.capabilities:
+-                pair_features.append(_pair_features(request_vector, vector_by_capability[cap.name]))
+-                pair_labels.append(int(cap.name == example.expected.selected_capability))
+-        pair_features = np.stack(pair_features)
+     capability_matcher = _classifier(c_value).fit(pair_features, pair_labels)
+ 
+     dataset_hash = hashlib.sha256(dataset_path.read_bytes()).hexdigest()

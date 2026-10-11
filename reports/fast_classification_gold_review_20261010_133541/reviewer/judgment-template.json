@@ -1,0 +1,28 @@
+{
+  "judgment": "pending",
+  "review_kind": null,
+  "reviewer_type": null,
+  "reviewer_id": null,
+  "prediction_blinded": null,
+  "input_sha256": null,
+  "rubric_sha256": "2f8b63cf7a310eda50b413a42aa6aa9449ba47ce7c2b1a0f80dd77ada257432a",
+  "qualification": {
+    "languages": [],
+    "scripts": [],
+    "transliteration": null
+  },
+  "label": null,
+  "field_rationale": {
+    "intent_family": "",
+    "capability_family": "",
+    "execution_path": "",
+    "context_requirements": "",
+    "clarification.required": "",
+    "clarification.missing": "",
+    "escalation.candidate": "",
+    "escalation.reason": "",
+    "uncertainty": ""
+  },
+  "notes": "",
+  "timestamp": null
+}

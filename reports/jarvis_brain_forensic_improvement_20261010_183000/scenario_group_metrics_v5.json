@@ -1,0 +1,52 @@
+{
+  "corpus100-folder": {
+    "count": 12,
+    "exact": 10,
+    "cap_top1": 11
+  },
+  "corpus100-file": {
+    "count": 12,
+    "exact": 6,
+    "cap_top1": 6
+  },
+  "corpus100-app": {
+    "count": 10,
+    "exact": 7,
+    "cap_top1": 8
+  },
+  "corpus100-search": {
+    "count": 12,
+    "exact": 5,
+    "cap_top1": 5
+  },
+  "corpus100-webpage": {
+    "count": 8,
+    "exact": 4,
+    "cap_top1": 8
+  },
+  "corpus100-clarify": {
+    "count": 12,
+    "exact": 1,
+    "cap_top1": 10
+  },
+  "corpus100-memory": {
+    "count": 12,
+    "exact": 11,
+    "cap_top1": 12
+  },
+  "corpus100-direct": {
+    "count": 10,
+    "exact": 7,
+    "cap_top1": 10
+  },
+  "corpus100-multistep": {
+    "count": 6,
+    "exact": 0,
+    "cap_top1": 5
+  },
+  "corpus100-escalate": {
+    "count": 6,
+    "exact": 2,
+    "cap_top1": 2
+  }
+}

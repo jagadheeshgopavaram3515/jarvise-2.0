@@ -1,0 +1,540 @@
+[
+  {
+    "id": "frozen100-048",
+    "corpus": "frozen_100",
+    "status": "ambiguous_or_underspecified",
+    "reason": "Utterance 'Read this web page for me' contains explicit demonstrative pronoun, but ground truth expected empty context_references [].",
+    "v5_orig_exact": false,
+    "v5_audit_exact": false,
+    "v7_orig_exact": false,
+    "v7_audit_exact": false,
+    "v7_mismatches_orig": [
+      "context_references"
+    ],
+    "v7_mismatches_audit": [
+      "context_references"
+    ],
+    "model_pred_context_refs": [
+      {
+        "reference": "this",
+        "kind": "item",
+        "resolved_value": null
+      }
+    ],
+    "orig_exp_context_refs": [],
+    "audited_exp_context_refs": []
+  },
+  {
+    "id": "frozen100-056",
+    "corpus": "frozen_100",
+    "status": "confirmed_incorrect",
+    "reason": "Ground truth hardcoded reference='it' for non-English/non-'it' utterance 'Delete that completely'. Correct extracted reference is 'that'.",
+    "v5_orig_exact": false,
+    "v5_audit_exact": true,
+    "v7_orig_exact": false,
+    "v7_audit_exact": true,
+    "v7_mismatches_orig": [
+      "context_references"
+    ],
+    "v7_mismatches_audit": [],
+    "model_pred_context_refs": [
+      {
+        "reference": "that",
+        "kind": "item",
+        "resolved_value": null
+      }
+    ],
+    "orig_exp_context_refs": [
+      {
+        "kind": "item",
+        "reference": "it",
+        "resolved_value": null
+      }
+    ],
+    "audited_exp_context_refs": [
+      {
+        "kind": "item",
+        "reference": "that",
+        "resolved_value": null
+      }
+    ]
+  },
+  {
+    "id": "frozen100-057",
+    "corpus": "frozen_100",
+    "status": "confirmed_incorrect",
+    "reason": "Ground truth hardcoded reference='it' for non-English/non-'it' utterance 'इसे तुरंत हटाओ'. Correct extracted reference is 'इसे'.",
+    "v5_orig_exact": false,
+    "v5_audit_exact": false,
+    "v7_orig_exact": false,
+    "v7_audit_exact": false,
+    "v7_mismatches_orig": [
+      "context_references"
+    ],
+    "v7_mismatches_audit": [
+      "context_references"
+    ],
+    "model_pred_context_refs": [],
+    "orig_exp_context_refs": [
+      {
+        "kind": "item",
+        "reference": "it",
+        "resolved_value": null
+      }
+    ],
+    "audited_exp_context_refs": [
+      {
+        "kind": "item",
+        "reference": "इसे",
+        "resolved_value": null
+      }
+    ]
+  },
+  {
+    "id": "frozen100-058",
+    "corpus": "frozen_100",
+    "status": "confirmed_incorrect",
+    "reason": "Ground truth hardcoded reference='it' for non-English/non-'it' utterance 'वह तुरंत खोलो'. Correct extracted reference is 'वह'.",
+    "v5_orig_exact": false,
+    "v5_audit_exact": false,
+    "v7_orig_exact": false,
+    "v7_audit_exact": false,
+    "v7_mismatches_orig": [
+      "intent",
+      "execution_path",
+      "selected_capability",
+      "needs_clarification",
+      "missing_information",
+      "context_references"
+    ],
+    "v7_mismatches_audit": [
+      "intent",
+      "execution_path",
+      "selected_capability",
+      "needs_clarification",
+      "missing_information"
+    ],
+    "model_pred_context_refs": [
+      {
+        "reference": "वह",
+        "kind": "item",
+        "resolved_value": null
+      }
+    ],
+    "orig_exp_context_refs": [
+      {
+        "kind": "item",
+        "reference": "it",
+        "resolved_value": null
+      }
+    ],
+    "audited_exp_context_refs": [
+      {
+        "kind": "item",
+        "reference": "वह",
+        "resolved_value": null
+      }
+    ]
+  },
+  {
+    "id": "frozen100-059",
+    "corpus": "frozen_100",
+    "status": "confirmed_incorrect",
+    "reason": "Ground truth hardcoded reference='it' for non-English/non-'it' utterance 'use turant open karo'. Correct extracted reference is 'use'.",
+    "v5_orig_exact": false,
+    "v5_audit_exact": true,
+    "v7_orig_exact": false,
+    "v7_audit_exact": true,
+    "v7_mismatches_orig": [
+      "context_references"
+    ],
+    "v7_mismatches_audit": [],
+    "model_pred_context_refs": [
+      {
+        "reference": "use",
+        "kind": "item",
+        "resolved_value": null
+      }
+    ],
+    "orig_exp_context_refs": [
+      {
+        "kind": "item",
+        "reference": "it",
+        "resolved_value": null
+      }
+    ],
+    "audited_exp_context_refs": [
+      {
+        "kind": "item",
+        "reference": "use",
+        "resolved_value": null
+      }
+    ]
+  },
+  {
+    "id": "frozen100-060",
+    "corpus": "frozen_100",
+    "status": "confirmed_incorrect",
+    "reason": "Ground truth hardcoded reference='it' for non-English/non-'it' utterance 'isse delete kar do'. Correct extracted reference is 'isse'.",
+    "v5_orig_exact": false,
+    "v5_audit_exact": true,
+    "v7_orig_exact": false,
+    "v7_audit_exact": true,
+    "v7_mismatches_orig": [
+      "context_references"
+    ],
+    "v7_mismatches_audit": [],
+    "model_pred_context_refs": [
+      {
+        "reference": "isse",
+        "kind": "item",
+        "resolved_value": null
+      }
+    ],
+    "orig_exp_context_refs": [
+      {
+        "kind": "item",
+        "reference": "it",
+        "resolved_value": null
+      }
+    ],
+    "audited_exp_context_refs": [
+      {
+        "kind": "item",
+        "reference": "isse",
+        "resolved_value": null
+      }
+    ]
+  },
+  {
+    "id": "frozen100-061",
+    "corpus": "frozen_100",
+    "status": "confirmed_incorrect",
+    "reason": "Ground truth hardcoded reference='it' for non-English/non-'it' utterance 'దీన్ని వెంటనే డిలీట్ చెయ్యి'. Correct extracted reference is 'దీన్ని'.",
+    "v5_orig_exact": false,
+    "v5_audit_exact": false,
+    "v7_orig_exact": false,
+    "v7_audit_exact": false,
+    "v7_mismatches_orig": [
+      "context_references"
+    ],
+    "v7_mismatches_audit": [
+      "context_references"
+    ],
+    "model_pred_context_refs": [],
+    "orig_exp_context_refs": [
+      {
+        "kind": "item",
+        "reference": "it",
+        "resolved_value": null
+      }
+    ],
+    "audited_exp_context_refs": [
+      {
+        "kind": "item",
+        "reference": "దీన్ని",
+        "resolved_value": null
+      }
+    ]
+  },
+  {
+    "id": "frozen100-062",
+    "corpus": "frozen_100",
+    "status": "confirmed_incorrect",
+    "reason": "Ground truth hardcoded reference='it' for non-English/non-'it' utterance 'అది ఓపెన్ చెయ్యి'. Correct extracted reference is 'అది'.",
+    "v5_orig_exact": false,
+    "v5_audit_exact": false,
+    "v7_orig_exact": false,
+    "v7_audit_exact": false,
+    "v7_mismatches_orig": [
+      "intent",
+      "execution_path",
+      "selected_capability",
+      "needs_clarification",
+      "missing_information",
+      "context_references"
+    ],
+    "v7_mismatches_audit": [
+      "intent",
+      "execution_path",
+      "selected_capability",
+      "needs_clarification",
+      "missing_information",
+      "context_references"
+    ],
+    "model_pred_context_refs": [],
+    "orig_exp_context_refs": [
+      {
+        "kind": "item",
+        "reference": "it",
+        "resolved_value": null
+      }
+    ],
+    "audited_exp_context_refs": [
+      {
+        "kind": "item",
+        "reference": "అది",
+        "resolved_value": null
+      }
+    ]
+  },
+  {
+    "id": "frozen100-063",
+    "corpus": "frozen_100",
+    "status": "confirmed_incorrect",
+    "reason": "Ground truth hardcoded reference='it' for non-English/non-'it' utterance 'danni ventane delete cheyyi'. Correct extracted reference is 'danni'.",
+    "v5_orig_exact": false,
+    "v5_audit_exact": false,
+    "v7_orig_exact": false,
+    "v7_audit_exact": false,
+    "v7_mismatches_orig": [
+      "intent",
+      "execution_path",
+      "needs_clarification",
+      "needs_escalation",
+      "missing_information",
+      "context_references"
+    ],
+    "v7_mismatches_audit": [
+      "intent",
+      "execution_path",
+      "needs_clarification",
+      "needs_escalation",
+      "missing_information"
+    ],
+    "model_pred_context_refs": [
+      {
+        "reference": "danni",
+        "kind": "item",
+        "resolved_value": null
+      }
+    ],
+    "orig_exp_context_refs": [
+      {
+        "kind": "item",
+        "reference": "it",
+        "resolved_value": null
+      }
+    ],
+    "audited_exp_context_refs": [
+      {
+        "kind": "item",
+        "reference": "danni",
+        "resolved_value": null
+      }
+    ]
+  },
+  {
+    "id": "frozen100-064",
+    "corpus": "frozen_100",
+    "status": "confirmed_incorrect",
+    "reason": "Ground truth hardcoded reference='it' for non-English/non-'it' utterance 'idi malli open cheyyi'. Correct extracted reference is 'idi'.",
+    "v5_orig_exact": false,
+    "v5_audit_exact": true,
+    "v7_orig_exact": false,
+    "v7_audit_exact": true,
+    "v7_mismatches_orig": [
+      "context_references"
+    ],
+    "v7_mismatches_audit": [],
+    "model_pred_context_refs": [
+      {
+        "reference": "idi",
+        "kind": "item",
+        "resolved_value": null
+      }
+    ],
+    "orig_exp_context_refs": [
+      {
+        "kind": "item",
+        "reference": "it",
+        "resolved_value": null
+      }
+    ],
+    "audited_exp_context_refs": [
+      {
+        "kind": "item",
+        "reference": "idi",
+        "resolved_value": null
+      }
+    ]
+  },
+  {
+    "id": "frozen100-065",
+    "corpus": "frozen_100",
+    "status": "confirmed_incorrect",
+    "reason": "Ground truth hardcoded reference='it' for non-English/non-'it' utterance 'அதை உடனே அழித்துவிடு'. Correct extracted reference is 'அதை'.",
+    "v5_orig_exact": false,
+    "v5_audit_exact": false,
+    "v7_orig_exact": false,
+    "v7_audit_exact": false,
+    "v7_mismatches_orig": [
+      "context_references"
+    ],
+    "v7_mismatches_audit": [
+      "context_references"
+    ],
+    "model_pred_context_refs": [],
+    "orig_exp_context_refs": [
+      {
+        "kind": "item",
+        "reference": "it",
+        "resolved_value": null
+      }
+    ],
+    "audited_exp_context_refs": [
+      {
+        "kind": "item",
+        "reference": "அதை",
+        "resolved_value": null
+      }
+    ]
+  },
+  {
+    "id": "frozen100-066",
+    "corpus": "frozen_100",
+    "status": "confirmed_incorrect",
+    "reason": "Ground truth hardcoded reference='it' for non-English/non-'it' utterance 'athai marubadiyum open pannu'. Correct extracted reference is 'adi'.",
+    "v5_orig_exact": false,
+    "v5_audit_exact": false,
+    "v7_orig_exact": false,
+    "v7_audit_exact": false,
+    "v7_mismatches_orig": [
+      "context_references"
+    ],
+    "v7_mismatches_audit": [
+      "context_references"
+    ],
+    "model_pred_context_refs": [
+      {
+        "reference": "athai",
+        "kind": "item",
+        "resolved_value": null
+      }
+    ],
+    "orig_exp_context_refs": [
+      {
+        "kind": "item",
+        "reference": "it",
+        "resolved_value": null
+      }
+    ],
+    "audited_exp_context_refs": [
+      {
+        "kind": "item",
+        "reference": "adi",
+        "resolved_value": null
+      }
+    ]
+  },
+  {
+    "id": "unseen-07-hi-ambiguous",
+    "corpus": "unseen_24",
+    "status": "confirmed_incorrect",
+    "reason": "Ground truth hardcoded reference='it' for non-English/non-'it' utterance 'इसे हटा दो'. Correct extracted reference is 'इसे'.",
+    "v5_orig_exact": false,
+    "v5_audit_exact": false,
+    "v7_orig_exact": false,
+    "v7_audit_exact": false,
+    "v7_mismatches_orig": [
+      "request_modes",
+      "context_references"
+    ],
+    "v7_mismatches_audit": [
+      "request_modes",
+      "context_references"
+    ],
+    "model_pred_context_refs": [],
+    "orig_exp_context_refs": [
+      {
+        "kind": "item",
+        "reference": "it",
+        "resolved_value": null
+      }
+    ],
+    "audited_exp_context_refs": [
+      {
+        "kind": "item",
+        "reference": "इसे",
+        "resolved_value": null
+      }
+    ]
+  },
+  {
+    "id": "unseen-08-te-ambiguous",
+    "corpus": "unseen_24",
+    "status": "confirmed_incorrect",
+    "reason": "Ground truth hardcoded reference='it' for non-English/non-'it' utterance 'danni ventane open cheyyi'. Correct extracted reference is 'danni'.",
+    "v5_orig_exact": false,
+    "v5_audit_exact": false,
+    "v7_orig_exact": false,
+    "v7_audit_exact": false,
+    "v7_mismatches_orig": [
+      "intent",
+      "execution_path",
+      "needs_clarification",
+      "needs_escalation",
+      "missing_information",
+      "context_references"
+    ],
+    "v7_mismatches_audit": [
+      "intent",
+      "execution_path",
+      "needs_clarification",
+      "needs_escalation",
+      "missing_information"
+    ],
+    "model_pred_context_refs": [
+      {
+        "reference": "danni",
+        "kind": "item",
+        "resolved_value": null
+      }
+    ],
+    "orig_exp_context_refs": [
+      {
+        "kind": "item",
+        "reference": "it",
+        "resolved_value": null
+      }
+    ],
+    "audited_exp_context_refs": [
+      {
+        "kind": "item",
+        "reference": "danni",
+        "resolved_value": null
+      }
+    ]
+  },
+  {
+    "id": "unseen-09-ta-ambiguous",
+    "corpus": "unseen_24",
+    "status": "confirmed_incorrect",
+    "reason": "Ground truth hardcoded reference='it' for non-English/non-'it' utterance 'அதை உடனே திற'. Correct extracted reference is 'அதை'.",
+    "v5_orig_exact": false,
+    "v5_audit_exact": false,
+    "v7_orig_exact": false,
+    "v7_audit_exact": false,
+    "v7_mismatches_orig": [
+      "context_references"
+    ],
+    "v7_mismatches_audit": [
+      "context_references"
+    ],
+    "model_pred_context_refs": [],
+    "orig_exp_context_refs": [
+      {
+        "kind": "item",
+        "reference": "it",
+        "resolved_value": null
+      }
+    ],
+    "audited_exp_context_refs": [
+      {
+        "kind": "item",
+        "reference": "அதை",
+        "resolved_value": null
+      }
+    ]
+  }
+]

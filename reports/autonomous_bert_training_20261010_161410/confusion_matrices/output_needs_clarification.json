@@ -1,0 +1,18 @@
+{
+  "classes": [
+    "False",
+    "True"
+  ],
+  "matrix": [
+    [
+      33,
+      3
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "denominator": 40,
+  "metric_type": "PROVISIONAL_LABEL_AGREEMENT"
+}

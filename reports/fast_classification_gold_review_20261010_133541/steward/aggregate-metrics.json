@@ -1,0 +1,1537 @@
+{
+  "selected": 359,
+  "independently_adjudicated": 0,
+  "unresolved": [
+    {
+      "review_id": "blind-001",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-002",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-003",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-004",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-005",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-006",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-007",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-008",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-009",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-010",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-011",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-012",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-013",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-014",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-015",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-016",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-017",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-018",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-019",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-020",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-021",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-022",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-023",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-024",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-025",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-026",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-027",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-028",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-029",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-030",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-031",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-032",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-033",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-034",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-035",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-036",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-037",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-038",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-039",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-040",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-041",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-042",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-043",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-044",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-045",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-046",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-047",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-048",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-049",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-050",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-051",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-052",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-053",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-054",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-055",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-056",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-057",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-058",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-059",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-060",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-061",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-062",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-063",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-064",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-065",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-066",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-067",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-068",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-069",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-070",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-071",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-072",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-073",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-074",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-075",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-076",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-077",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-078",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-079",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-080",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-081",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-082",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-083",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-084",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-085",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-086",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-087",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-088",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-089",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-090",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-091",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-092",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-093",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-094",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-095",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-096",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-097",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-098",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-099",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-100",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-101",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-102",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-103",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-104",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-105",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-106",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-107",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-108",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-109",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-110",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-111",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-112",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-113",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-114",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-115",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-116",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-117",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-118",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-119",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-120",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-121",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-122",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-123",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-124",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-125",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-126",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-127",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-128",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-129",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-130",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-131",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-132",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-133",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-134",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-135",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-136",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-137",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-138",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-139",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-140",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-141",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-142",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-143",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-144",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-145",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-146",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-147",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-148",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-149",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-150",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-151",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-152",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-153",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-154",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-155",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-156",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-157",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-158",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-159",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-160",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-161",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-162",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-163",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-164",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-165",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-166",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-167",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-168",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-169",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-170",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-171",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-172",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-173",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-174",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-175",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-176",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-177",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-178",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-179",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-180",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-181",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-182",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-183",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-184",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-185",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-186",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-187",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-188",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-189",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-190",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-191",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-192",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-193",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-194",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-195",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-196",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-197",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-198",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-199",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-200",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-201",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-202",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-203",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-204",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-205",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-206",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-207",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-208",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-209",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-210",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-211",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-212",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-213",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-214",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-215",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-216",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-217",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-218",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-219",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-220",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-221",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-222",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-223",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-224",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-225",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-226",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-227",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-228",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-229",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-230",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-231",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-232",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-233",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-234",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-235",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-236",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-237",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-238",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-239",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-240",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-241",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-242",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-243",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-244",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-245",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-246",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-247",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-248",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-249",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-250",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-251",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-252",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-253",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-254",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-255",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-256",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-257",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-258",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-259",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-260",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-261",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-262",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-263",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-264",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-265",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-266",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-267",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-268",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-269",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-270",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-271",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-272",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-273",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-274",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-275",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-276",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-277",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-278",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-279",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-280",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-281",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-282",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-283",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-284",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-285",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-286",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-287",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-288",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-289",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-290",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-291",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-292",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-293",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-294",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-295",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-296",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-297",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-298",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-299",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-300",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-301",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-302",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-303",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-304",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-305",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-306",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-307",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-308",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-309",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-310",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-311",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-312",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-313",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-314",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-315",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-316",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-317",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-318",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-319",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-320",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-321",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-322",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-323",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-324",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-325",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-326",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-327",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-328",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-329",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-330",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-331",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-332",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-333",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-334",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-335",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-336",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-337",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-338",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-339",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-340",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-341",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-342",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-343",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-344",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-345",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-346",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-347",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-348",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-349",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-350",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-351",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-352",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-353",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-354",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-355",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-356",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-357",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-358",
+      "reason": "awaiting independent human judgment"
+    },
+    {
+      "review_id": "blind-359",
+      "reason": "awaiting independent human judgment"
+    }
+  ],
+  "exact_match": {
+    "status": "NOT_MEASURED",
+    "numerator": null,
+    "denominator": 0,
+    "value": null
+  },
+  "per_field": {
+    "intent_family": {
+      "status": "NOT_MEASURED",
+      "numerator": null,
+      "denominator": 0,
+      "value": null
+    },
+    "capability_family": {
+      "status": "NOT_MEASURED",
+      "numerator": null,
+      "denominator": 0,
+      "value": null
+    },
+    "execution_path": {
+      "status": "NOT_MEASURED",
+      "numerator": null,
+      "denominator": 0,
+      "value": null
+    },
+    "context_requirements": {
+      "status": "NOT_MEASURED",
+      "numerator": null,
+      "denominator": 0,
+      "value": null
+    },
+    "clarification.required": {
+      "status": "NOT_MEASURED",
+      "numerator": null,
+      "denominator": 0,
+      "value": null
+    },
+    "clarification.missing": {
+      "status": "NOT_MEASURED",
+      "numerator": null,
+      "denominator": 0,
+      "value": null
+    },
+    "escalation.candidate": {
+      "status": "NOT_MEASURED",
+      "numerator": null,
+      "denominator": 0,
+      "value": null
+    },
+    "escalation.reason": {
+      "status": "NOT_MEASURED",
+      "numerator": null,
+      "denominator": 0,
+      "value": null
+    },
+    "uncertainty": {
+      "status": "NOT_MEASURED",
+      "numerator": null,
+      "denominator": 0,
+      "value": null
+    }
+  },
+  "schema_valid": {
+    "status": "NOT_MEASURED",
+    "numerator": null,
+    "denominator": 0,
+    "value": null
+  },
+  "execution_failure": {
+    "status": "NOT_MEASURED",
+    "numerator": null,
+    "denominator": 0,
+    "value": null
+  },
+  "confusion": {
+    "intent_family": {},
+    "capability_family": {},
+    "execution_path": {},
+    "context_requirements": {},
+    "clarification.required": {},
+    "clarification.missing": {},
+    "escalation.candidate": {},
+    "escalation.reason": {},
+    "uncertainty": {}
+  },
+  "comparisons": [],
+  "predictions_executed": 0,
+  "qwen_used": false,
+  "confidence_intervals": "NOT_MEASURED: zero independent labels; translations within 49 groups are correlated. Future finite-population descriptive scores do not support real-world generalization.",
+  "precision_recall_f1": "NOT_MEASURED",
+  "per_language_script": "NOT_MEASURED",
+  "known_error_vs_ordinary": "NOT_MEASURED",
+  "historical_consistency": "NOT_MEASURED in this gold-gated run",
+  "abstention": "NOT_MEASURED",
+  "readiness": "BLOCKED_INSUFFICIENT_INDEPENDENT_REFERENCE_LABELS"
+}

@@ -1,0 +1,9 @@
+﻿experiment,C,weight,style,capability_threshold,strict_exact,denominator,path,capability,reference,missing,failures,abstentions,model_sha256
+experiment_01,4,balanced,full,0.5,10,40,31,20,30,36,0,1,35b034e60a946ce0015bb60c37b4ed0ec7f389aa89d05d98b3d905d455775e08
+experiment_02,4,balanced,interaction,0.5,10,40,31,20,30,36,0,1,cc440914189a692c96fcf6f03b7eeb4e360f54afe425993af70c676ae5af3d14
+experiment_03,4,,interaction,0.5,4,40,13,16,29,36,0,26,97be0b378b56477b79ce5367c1b9d1880b132ce31f3d36800761ebdd0641cd25
+experiment_04,4,balanced,interaction,0.25,10,40,32,20,30,36,0,0,8245a7ec4d253c7351854ec24a2079c163afa89c55145bb551d7ea6eb8af5169
+experiment_05,1,balanced,interaction,0.25,10,40,28,20,29,34,0,2,ce5ad76765f64d5298f03ec93b17d63662457aca50e2174102ae062292983252
+experiment_06,16,balanced,interaction,0.25,10,40,33,20,30,36,0,0,4a75e077e02573b36a911e468e513aff839ab37496883e64ac935122a28a458f
+experiment_07,4,,full,0.25,6,40,34,20,29,36,0,5,9841084ecc30c5d645f2777196554dadb36163ebddfe5ecdfa4159e208157ddb
+experiment_08,16,,interaction,0.25,7,40,33,20,30,36,0,6,3e43ea95306c3edb2ceecbf460fc6f18a084fdf563dd879039076a5d50f2ec7a

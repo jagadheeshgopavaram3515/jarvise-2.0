@@ -1,0 +1,18 @@
+{
+  "compact_heads.joblib": {
+    "path": "D:\\JARVIS\\reports\\classifier_v4_experiment_20261010_175140\\best_candidate\\compact_heads.joblib",
+    "sha256": "6eb693419cdc4a1de54a9ea5f69ef07a41f0eaa1b48b30673a960a04a01f8ace"
+  },
+  "experimental_adapter_v5.py": {
+    "path": "D:\\JARVIS\\reports\\jarvis_brain_forensic_improvement_20261010_183000\\experimental_adapter_v5.py",
+    "sha256": "44d2a950d1117c9a26c224ebe1ca05751158b165cb3ea301d0477be4606d4d7b"
+  },
+  "corpus_100.jsonl": {
+    "path": "D:\\JARVIS\\reports\\classifier_v4_frozen_100_eval_20261010_180014\\unseen_evaluation_corpus_100.jsonl",
+    "sha256": "206118b07a501d97cabbee92c2ee8dda2b1f4db020ad59ecf64dd4d7fe19c59f"
+  },
+  "corpus_24.jsonl": {
+    "path": "D:\\JARVIS\\reports\\classifier_v4_experiment_20261010_175140\\unseen_evaluation_corpus_v4.jsonl",
+    "sha256": "ebd2128c3ece5a638b24d1eb34ec50d9b594f2f8d5e90071aae089429899044a"
+  }
+}

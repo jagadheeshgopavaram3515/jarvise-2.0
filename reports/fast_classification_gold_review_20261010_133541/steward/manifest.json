@@ -1,0 +1,4702 @@
+{
+  "selection": "all 359 queue records; census, not sampled real-world distribution",
+  "order": "sha256(gold-review-v1:record_id), ascending",
+  "rubric_sha256": "2f8b63cf7a310eda50b413a42aa6aa9449ba47ce7c2b1a0f80dd77ada257432a",
+  "review_inputs": {
+    "blind-001": "41af5576516b8d113464aed8a54f81663b16b045666409c146d408c7a598afd0",
+    "blind-002": "c1c1f1c1c0605735ab37b29e4c4972dcc16df478fa658c9d4eb9a297469b6418",
+    "blind-003": "648c78988aa0f4e8a92108f19f00253109b5eef75e7254ab673bea9507047bb1",
+    "blind-004": "8d79f39dcea13a1f0f89adcbc5598bfc21068c96bf09bc81167e39c176ad1eb8",
+    "blind-005": "c0565f5cc50408a4b65de8e068d34461dc290541fb6700e5de854052be1a66cd",
+    "blind-006": "29526be3a3fc4ec4930a0a124c071c6ae876ba1d0bea36a43d92323353771082",
+    "blind-007": "297200b0e326b207414c7779175b084fcf8f2ffa276dfee9d60dff1e85dd017c",
+    "blind-008": "be16429931af8f9da96e24470075aded00bd08d729d2dfbd847626e22cfb5342",
+    "blind-009": "c583e6ba98c0012c0b8d79c5a94bbea1ecc9e7cbb200874378edfb81c9d36508",
+    "blind-010": "98ad87811026827a31885fcc2d55fa1f694f2dac85b6a86fcf4110dcc9825666",
+    "blind-011": "488dfd671af2cdbdf1b75ce4d878d135af1ffda8693e9229616919dc2c359fa6",
+    "blind-012": "211edd70a23fb8944f4797ad7779889eb0830afe8b065a44c98b229572589c70",
+    "blind-013": "d9089feb4dbb817833bdc403cc2ed7c5211c78385e082d91b30559790ea2e443",
+    "blind-014": "181f5d96584b4010d5317c37585c5cebb5782e4511ca5dc63cb495bf029a05a5",
+    "blind-015": "32b6837d1ae8a770da8ab0c76432e7d4eee055ffce186a3697d3bcbb65ef9abe",
+    "blind-016": "20a90a299e1c6c8fcc6970d60e88ba343ddb81fd0fdb24250e1086306ee4cb6f",
+    "blind-017": "3d5744c25423e672c75426730195ba75c56008f9a3c59d3976af85e55e8e09c9",
+    "blind-018": "9e70f0e239c3dafc26b05ccc3e79b9d3cd222f6ee8b701db32aa7e160034e45d",
+    "blind-019": "b5bfea271fca4197335e232d27d563892c49cfcc035ec8d25715d464c73184c3",
+    "blind-020": "f58561d6e41498116617aa92f06da7ad009a655dadd6c3a8ebdf5e3380871275",
+    "blind-021": "3d9290643498b3bdb7a0fed4625a704a0510592a8d5d87dc80b8dfee8777159f",
+    "blind-022": "f5d695b3d0d18736baecdd82ceb4a9bc3b7f5efab9457b61f89422aaa84f44c0",
+    "blind-023": "5d7703a9edff0ce50ced1e2cf2926d8af290424f0901a3dda3a2fcd9eed09f18",
+    "blind-024": "542e9c1e5e6d2dee703d516b48d540a4fc0b84d4d5a24fef04564b581a5704cf",
+    "blind-025": "6ebf3a72335f1c0da974ba8c288b5a6f8916702819fff9b5075a0ed7abd4c57d",
+    "blind-026": "d0e31ecade19c067f401eeac48d88a85c5a03a13e9d4a68c080a2f7d8d294a00",
+    "blind-027": "0800cb46518b08f389a7fa759a705ef56abe9cc9b8599b6625fc654004dd782c",
+    "blind-028": "a3dd3e18133b79c31e7278d5c3eff565af2090dbb82e67d65cb4f0473906ed5c",
+    "blind-029": "b238f824599bef2e177ec3cf9cc625bc67e45b4364e0c94e4075dcb80c6426dc",
+    "blind-030": "1e38513580620743854d9089366bcb88d282f44300a98186308f86e44736f5fd",
+    "blind-031": "53215c11558794ca31e21aa5c7e20b6f7451f68a390c7a5c0ab3a1d84093d15e",
+    "blind-032": "193a3cca42135ffd15ffca09bdbea2b3be9d8bdff2150c1f2f4bd77f279d7577",
+    "blind-033": "23b7c205f93290aa141cb17d05f183104fd61a1c91f4a6c27fc9c161c83a6f98",
+    "blind-034": "7d0a711722ab0618fcdc43a80318c1103645b50cf2da620a70ff6f30811de7ea",
+    "blind-035": "97166c7281936e46d76c0df1b7e413f09d14809e21afd7764d9c50aca449a85a",
+    "blind-036": "ada7cee9962ce1133a23ae43ec8ff41dd1034d5f8a0f31930c148f6ef3fd8220",
+    "blind-037": "1311b9739fdb96881d9380545c928db3a4bf6310126815c214a3fb688da3b53d",
+    "blind-038": "cee35542fae7dd90ea180399e20f6d3484e09acf39ed455df6bd0d97f591e441",
+    "blind-039": "55feb510714fd2f932a9c8f304880b205876e3058270b4317b064eb8302c2b0d",
+    "blind-040": "403fa888ed68146967a905d88a4296837e9f567686455dec65f5c436d2e805a2",
+    "blind-041": "16d323e4a706828bb5f63aded267fa1905cdc6b1daa869af9ed7a27864dfb0cb",
+    "blind-042": "752c2f7f03c6131cc4edfd77705818d4024a0c7424d123ee071bb62df37d14d4",
+    "blind-043": "70861c7f0986c0d5ec994d8928f2c6976cbb767a248e542ec2e70d1d3790706a",
+    "blind-044": "d5613dc9c7f7c7b4d5ac2f8a905de369c9d3ecc423e3ed4b980fdb31f0d8c595",
+    "blind-045": "309a206d9cd3c74847a2d1cfd18e1cf5e74398dbd97dd6fcbde61ad317631377",
+    "blind-046": "98db801480f9b2cbe65cec3f2ec6af7aa27d1899e1ef8af9fbeb406aaff53fb6",
+    "blind-047": "682648e47b6c039f32dae15f9fb8e581485b2c53b83ab35461a8cd6d97312bbe",
+    "blind-048": "b7e19ce7eb36a1c57afd85b53bfc0b86a5cc6fa61dd6d7bcfd9addeab1d7fd1c",
+    "blind-049": "9f142739d18f3a08e5fcda355aa63d40877d127c408ce0219c6670add319338c",
+    "blind-050": "ec3b6a3588d929153fe7db88161f2e1cbe4dab492d6af7570bcd063d2423964f",
+    "blind-051": "efc48d21450ed4f30e6bdcd547f8f621e036a128d6a75824eb001df01f60263c",
+    "blind-052": "c7e2e83c09de86b20e83b69df96303a47f712dae0588cb3bb4d14be80f1ffe30",
+    "blind-053": "04bfd6ea323c29b3f6adced445814b00aee4215106540f3efdad4b2ad017c15b",
+    "blind-054": "e3e0d65ef87ce8e823a2a80c4f147a6d94bc929996c332a64560ebf546017e83",
+    "blind-055": "82ba9e7ed2de6de3f2e540d6c565f5c80b1c10528b5bde31eb8f021ab834b408",
+    "blind-056": "38651f2db77d9653b12b3a8a81cb3e5e82c845093aad595153d225cacdda8b0c",
+    "blind-057": "806cbe1cef55a92c254e29e5b613fc8d0b94bb67bfa68e19f4246b3e48917a53",
+    "blind-058": "056ee107902e8403d81b1779de7c7d4a6b0c1fcaa95767ddc5605421a15ecf07",
+    "blind-059": "75d150f5dead5014aee855d17db0a57b6e28234b92792b872869448e9e370dd5",
+    "blind-060": "d7023e9a1e342133048319e5cf965b623d1cdd94d372b403085a66206e422405",
+    "blind-061": "c65ec3be7ba9bfde3001767ddc6f4994b18c9db94b65d87b9b847e83c21e358c",
+    "blind-062": "1c7b2aef3adf9850101cd19989d5f6aa857232fdd1720b6227fc6dec9584d819",
+    "blind-063": "7efa3a73eed460874ace2d99e5902c3eb239bba10e0626f0176d69097ff4685f",
+    "blind-064": "9f6f52190c27a3b6d9762fa9bf2507d3432b6f8c9387d8fcfbe31276707c4a28",
+    "blind-065": "307ebe662dc2f31290e88e3ae1dc2f4d6fabc31cee18baa7c639a4bd0a1208b5",
+    "blind-066": "276e5c7397efaf75caf83c87ed59270ada8249a7ffacb1e7c90f28bd8c21c571",
+    "blind-067": "efb2ce6a4a8d28f3684cb74e6804238a518cb2c3d68cae8afe7e483cd285177d",
+    "blind-068": "859bea6c00aadde038bc0291969db5d216b3fc56a024fbe9f4f169d813703649",
+    "blind-069": "848494c7bfbf536ad4730e1eaec33fe7dafbae311682e36c4710694a179a7ac1",
+    "blind-070": "caf7aad040cf6c0d0fc75dc56989e67a8adaf447799243de65dc614e944ad964",
+    "blind-071": "5c48554b9759e6e722b975db1d8d89728c105d3a0b28765f332df193ba230f8b",
+    "blind-072": "685f60355dbc4901f306c5f4bcb097a7f0b62053d2c4bf61d1587d16903ab3fd",
+    "blind-073": "64d6c68a1a3cfdd7a29f97ed1b9ae4272b896734e64c29d9277e8033e2c90a6d",
+    "blind-074": "589d6c52739e03cd3bde56aded344b2ec0bb03c1336712d1c9e5d85c555728c2",
+    "blind-075": "ab4b99e2c8b83f4d02e04f2b10e98b020191466c7006809fd2b76bfd443ba9c3",
+    "blind-076": "6af214fb2f50a80e18483d9aa7ac2c7e610ad8d11c0fe9bb09bc6f1d6313ae4a",
+    "blind-077": "82626a326c2248535139d0625e72316776720b56e92b9489e73f801be8768158",
+    "blind-078": "90df220dfc9413ef19f0f0939a59c3e4ec26d837033b711c7adc0a25415214cf",
+    "blind-079": "4a8c1c64272c3fea50ecfbaa36e4ba06e9041da134b0a427a22160d1ab42c4cf",
+    "blind-080": "722e61f8515e7b17bb67429bc500b2c763c3d800b6ab76576d2f205f3fd7eab7",
+    "blind-081": "fac98ad7936fcf64c5aebfe94d4c0a50ecfb1d303e6fb22ffd15e727a11acc3e",
+    "blind-082": "744505645e93cdd3bd08a64d3da2663a56f4695f596933cca1f19e42735d9975",
+    "blind-083": "eabb0769d293530fcf52274401eeb7d6c4f3fdf64daac9e16965d77f041c8322",
+    "blind-084": "ebb66323cb76cc01c30919661d04561de9b03ac3500a0daf3120466b2d419069",
+    "blind-085": "81c219550ab52c4ac28e4b2618ff97a8ea5dadd93dce238c68647c5f5f8e9fbd",
+    "blind-086": "428eda6084c32d42a0d56ff523038d1a3b0838fdc0bc6fc01e7a8f72fd9b85bf",
+    "blind-087": "386bb1762d26234ef74cd04f62c2896404966808cd50a6e7ca38b06b5fb1ed78",
+    "blind-088": "64239a65993f6f966a7f3ffc844a5367d04f18844be27ac09b7fa36e8c613bf8",
+    "blind-089": "b6559d73cc3f00dffdc383c440b3d988440387f9c350c21e82b322323f34c56e",
+    "blind-090": "dc239b83d89d8bb3d198d24f74c3a4f194bbe7191637e6246cb09bde3128daa8",
+    "blind-091": "97ee1bd4f1e54e7b53d1491522d7c060fb1d5f2f652f70b047e6145179548a5a",
+    "blind-092": "52bd1cf865614bc2472725351f0f1a2b7c47b4a9eddc745213e5b77e9991c4b8",
+    "blind-093": "41f8504f44c579929106f71d0235f97785e70c0bf8c5d009f208106e8aff817d",
+    "blind-094": "cc7e60efb1e6deb19c2b16c88b7681a36364f22793e987467e6561f1e7027657",
+    "blind-095": "4f9f205ee12600af5e41c4beded8398c58217ea69eaed817352806053f0e9435",
+    "blind-096": "d191edcacce160d9d18241c111d9758cbe06c3c99b0e7134be3dd5e4790c380f",
+    "blind-097": "8a35c67df540dd8f541f611085a05a6cd746371eebbefce5295ec82fbba8d923",
+    "blind-098": "6caf2b5352fa6889e5f6a0629f50602613830af9a2187ffbbf6c57962bb7b9b6",
+    "blind-099": "4dfa949a22a8d8207e81dfe38eb8ce16784b932c32451c35e5d28430e7270671",
+    "blind-100": "b6a3a0ca49c9fd14a04605f6eccab404912fb54035161531da88fb79ed7f9348",
+    "blind-101": "cf0318286f248a6005a419d0d8e9bc872e4c58d582907f63936906d064fdca06",
+    "blind-102": "a1dadcc486cb3a1eff4dcc44db9ef17bc4107e1ac34805bf6bbee43df057f4f9",
+    "blind-103": "1a63f88facfa05d0c43b5fd48c83df52ed30b8102c1c1df0579e930d767b6a73",
+    "blind-104": "b37ee68ec8845007cc59e052c1f9c881318ef6d7c852be928d3bd13026530906",
+    "blind-105": "e1f9f6c28a608273d41bc2010a2a7b18a03f4b0d8c3690a7cfdc354cf54e3e95",
+    "blind-106": "843661be6d75daabc075ca20b922ddf17bdea19a681d03b13b47b2bf9897e2e8",
+    "blind-107": "8b2e87742179fc271fa30b7c36401f07a730b846b4f71ee8e925d11f4c74b2e5",
+    "blind-108": "42a2e52cd28ab0664c3f7c76e5c2f0fe487db01c9b128f8acf8db2e330ea16e4",
+    "blind-109": "a27a654f0e8d9bf433f1f6b586dae5615bf01c07d448cda174f97b28db65a92b",
+    "blind-110": "46aa2c9fd5f9e495c55d8ce68f0737159266986a0736616a99e4fe8581007201",
+    "blind-111": "755b8f12421798794c1ae1682d4a3d9ef99a19f9093dd7e48e7a16969c71dccb",
+    "blind-112": "25e16203ee7e6ffb96d1f562702c529db8c024fe9585bacafeaccbe0c2db71ca",
+    "blind-113": "bb8d7a13ee184d49bae48f84d220bd18f8d25dfe58cfbced5d42f1a9b68e95bc",
+    "blind-114": "8cd864ec544777b7b00fe6c1fa9c3e819bcbd401b2382475e544a1bfdefded2c",
+    "blind-115": "08b9a98c86cbdbd71d3cc9e98bc913d91b21662f2ff986403541ab1157682c39",
+    "blind-116": "d12dcc908577f5e1e1f46884ddeb092b508a75dfb6d5389490f65809b617fa85",
+    "blind-117": "3b9d71212be5284f5522b553f9464cdaf51a10aa71c69ffa1b6b0b95f791ded8",
+    "blind-118": "4c45a4b8c24d5d0a6df28baded441efbfe56b50b871f900b66db3fb04cb54208",
+    "blind-119": "6817caadf16e076eb3ded1509bb01db34ba95e9ee3503d878a2152df70c55b6e",
+    "blind-120": "61f060a0946d91c6a9bc0c7e958699d8a3098d4bdc672316a9f5350fdbe639d9",
+    "blind-121": "690858746b5eb8f2964ca510254fa67b7d808d65539274eda0abd6b02e0e3df6",
+    "blind-122": "d70a495ae54b8fd68a2e3f2b56b0447b6fb5026e2dd7381a849038dff6c1b8dd",
+    "blind-123": "41d85691f8724769871252f25fc157557ff29284b3d7b292a5dae5451e5734d4",
+    "blind-124": "054489fa08ba4c60fd93463aea050481b263751baba7023e5e3e04644fffbe08",
+    "blind-125": "d3cc3e4d3c6e2e0cfba7b5d3175d09a0d4add09eca2c02fa03f3260c69c3e4c6",
+    "blind-126": "0baf43c4419e967bf5801e42fd845c72306109bbeac3d25a9696f9d0761bfdef",
+    "blind-127": "5e8f9d25af4c52ed279fc46feae76a47de8cca7d62884f31f1c47cf081735dba",
+    "blind-128": "e592b78e57933197bf11d0b42666dad1329229c04be5b046c9e70e6b0252a8bf",
+    "blind-129": "2f161d180ac063c2c9eb42d4ee620ab8fe5aa8a39b3bd7bbb955d2ed785ea133",
+    "blind-130": "5856fabd59d99f95b58ab6eeead6a3691fdad1722f0f4ea210a2c012ba68a8b8",
+    "blind-131": "9af4e26af37f39bd8726ee819e08113699bbcbdb37c1a0992fdc5fbddf053f11",
+    "blind-132": "5d1343413b3ac0f830eb57661dc91785133fe2343b002dec57faf8abdea4a828",
+    "blind-133": "a24ec47e089f4d6ee0cbdc06d9e81d97c5b046541b8bd7b685b7158c077d4723",
+    "blind-134": "502812d03b0905dbaee97e15a598e8af7d3778f6cbdb8a36ae36de691d093c00",
+    "blind-135": "8beab3ac7c9db01e91aaf6820e220908de9eaeb808d40865c126e50cf8011b6e",
+    "blind-136": "66f1d9acd3da0c4f05647fbc24578625c0a2613d0af2df5445e55d1f1a83b05c",
+    "blind-137": "daafcbff96bcdf105bf13f80d3bbbc1a6e77d0422e751ea1c9a4af751f8f94be",
+    "blind-138": "ec2c211263b3b10c5acf04e5feb922b32601c4ee863e77a633839e7a22375551",
+    "blind-139": "4d5194ecd08700459db5f2b1b159d65bc1ee11cc66aca2dd5497b6d06d0f4010",
+    "blind-140": "3ad28f2937028c039f8aaa77e0ed27e395002f4f9e4a0b70f641bab2c1c5bbcf",
+    "blind-141": "9d8ace7672739b963f0e1848a45749f8c1bfd22791ca15bc0b563099d585fc54",
+    "blind-142": "432bedb7b560881d68dffb3410f2ac3de299ffd9f836847536e471bfb1b495c1",
+    "blind-143": "4ce1408a2251c4ee1a78809320c09dc9a7ac5d5603c77b267befd8921e5b2656",
+    "blind-144": "ff12e92691122d25788ac74f0608396d34fd136375c1ed19bf3afde9bfe23a95",
+    "blind-145": "ca8f2b61ad6c114d978b55d11cab374f1aacd05e8d4d918d16c711e91344a244",
+    "blind-146": "cc3fffd6c48c52270fcd827a281d990da1bf3a581b443e1cdee8ed6fddfe52ac",
+    "blind-147": "c9fdd0541f14e67fd21690471d1b220a91e642eec44dd167a94a8876ec87896e",
+    "blind-148": "41da4a4281c05d3b96c60fa2e21b333a42186237ce0568c42ac309028e9447b0",
+    "blind-149": "973c37e82e7a6008af374e392f578bcdf8f8e85c31374c6593534b4137280a8c",
+    "blind-150": "e0b26edcb3d35a0838599e398e1e7aae0902bf69dd9a76133e8ae1a29c1ebeb1",
+    "blind-151": "b9a29e513f69f25d5675b1359a8658708bcbeeeb6e9733a3d9287220ca405581",
+    "blind-152": "dede71e25c44236a523a31af0990452a29c2d05961aa2e1ae757362c7d04f48d",
+    "blind-153": "9bbd397a06cc665fd4c66ab957e245969ad6fcf77d883d1416d060070a253222",
+    "blind-154": "2c7b2fb61ef9c24b65e34f59e79b87a06b8edca771f02d54e3a7a83609333c18",
+    "blind-155": "4e41aa5f80c6c143366410ccd151a818a1bc2da35ed9409337def5e86d73b8eb",
+    "blind-156": "36fcd22beefbe2b1bd374a9bf4089ab13414eaa4a1a2b2244adcd061fedfa0e0",
+    "blind-157": "77479ed615e6de1558b3fef13379e8f766292ab6304383fff42d3fcd0d1fc5c6",
+    "blind-158": "83efef3b9ebe3c01615fd469b913cf4a31bdbd61aeae764c2069fe1557a9de66",
+    "blind-159": "069a3ed866517e16692061491ba3c1bf10a7e7a87acbbb7c5e02cdefdbe7666b",
+    "blind-160": "35da073f0c5340282e0e761f6394ae47775c27a7596ae520e4d66d7f1cd59b93",
+    "blind-161": "1e16be18846d35d49cbc372d9377fd0b9f5bb63a8897359375c59db9322f7cee",
+    "blind-162": "8376adfdec55617c185ba3902367154dfc7cfba697b2edc762a42b1576c0b189",
+    "blind-163": "6286fe83b7bb3a8e06d7c559b427d0bd5d77a1979ca6fc9729ae1310794b42a8",
+    "blind-164": "760b384f45fafbc8c72ecdea92c0277b3d16d5dfe728cdc912c073bcbfc52173",
+    "blind-165": "aecee459e6e21abd26e30e46647179ed42b2c38c4ad0b4156d854c02ebb2f9e1",
+    "blind-166": "1d0ab1f0833aa55de569a6600a52804635e292051b468ccde3567aeba2fcb360",
+    "blind-167": "15cc204a9006741a2709c2a9803e9fd50c5504198958d6b3eb0960035120d739",
+    "blind-168": "87e545e2bec0a52ad4361d2acc9430271f8e0f4153b086f7e68e634ddd4b2f61",
+    "blind-169": "b8e6220fb3bd9aa0e3fc85f0627ec3aa2c80e76c3c6821e0363964d5cd7c3b18",
+    "blind-170": "c58420c6bd9c62b7a9e23443f570be350e40de55bcaef2e10053333cd21d296a",
+    "blind-171": "c0f1b7e01c0847b456b11bb78698d5157d898bd77245a7e90ad477eebf62f7eb",
+    "blind-172": "c8f195d9fc39f7874a47325a896c70bb39b49e7c51c5b5bfd49ec6df780c42a1",
+    "blind-173": "00faec5df7616ffa1dc7a97dd31d3041baad414a1b19573f169b5fc68d6cdfc3",
+    "blind-174": "17c99a7d2e39bb1c7b0c7a2e2fc5640e8c73069c621726326d3c40d306a519be",
+    "blind-175": "0e260fd3a7557ea7d3da815cd61e3d79205b47efb8ffac805fbf70c72fbdc0d8",
+    "blind-176": "6b9393fe7fc9b069807c4389fdfaffccad400a9930f33fa100c46f4b0c899034",
+    "blind-177": "0379f25a8802f6c340af38fef35db12446c08e798e0b44bf5c3e494a55317990",
+    "blind-178": "afa843c3eccf6bc7557dc0b0f9ce06043ffafc4bcc53f35f3dd82ad7c190f691",
+    "blind-179": "40bd9380538779fd8e761df0436b968b541fbe97e4dad3ede7416ec5d61aef9b",
+    "blind-180": "253d1aae6f87e45c60f6006d611e9ff179b6582a2c5e5b170087387c2fd7db10",
+    "blind-181": "e3e72a0482cec1a09400bdc0ab87ab55fcc81649c6e8e997671f756f20843a44",
+    "blind-182": "3690515f871fff1f286952f29fece04dd3ba266ad2b483beefc5dfde7c54b255",
+    "blind-183": "fc6bc83831c1f6043335e044761223287cf33eba6cb63ead1d007c4729a15415",
+    "blind-184": "40cba6593d84b5267549c048be835fc7d574ead178b47c25cb0104ba6c9e5f1a",
+    "blind-185": "770173e491739f7066750f738831b224db13b1e7ed2fdef157d52fccd1dc8e72",
+    "blind-186": "194f6e72098b6cdd66817095a216a8694d07afcc7d7e972d659302266d7ebc02",
+    "blind-187": "854d001a3738ac7e8bd6cd46925854fcd4b77eecf2d589fbdaed888e58e0f732",
+    "blind-188": "51281e35b228e39efbebde58b57040455b8bf2bdd31d886ddbaecb574ca97612",
+    "blind-189": "e7d3e7c3e7483f549e60036363e8365ce10a00cf6efea379b7217e5f75fbe555",
+    "blind-190": "794120898d67d65031d94f7b286a6932f09570ffac52ec896d71e0252bbf0851",
+    "blind-191": "3f48c767ce427c32ce8538a0713fe661bee538f988502854c18bba8692dfff3c",
+    "blind-192": "6c634120e42de5638e34d18a40bf9b14ce4f34accfaa290718057c917d6c93b0",
+    "blind-193": "c431ced89d78247a647cf7ec3d620426722584240b81b0ed5c03bbcf68874fc0",
+    "blind-194": "64c94d918627ddce259f35309db3139fc99503938d38c09debe8cdfbae78a378",
+    "blind-195": "bed060715c39999ec68f54ec1cf21cba9ab2b23251b14cb8ca64977afad822e5",
+    "blind-196": "d5f2bb9da5f8dc94dc2a17e7b4d7649578d780cf94ac16f3d658f32fdfdeff8f",
+    "blind-197": "fcb032a5f44aee4c5a12be148cf9d7339f2bb051a80f67928c99b89a3a7edeb0",
+    "blind-198": "e12c8b488535217ce81f8924dcd49b90588fc824207a124ab72066ab6673a681",
+    "blind-199": "230aa3119dcac73b7fadb9eeb0d62cb4f08fd0718f83d353bd12eacea08a9ca3",
+    "blind-200": "65697b63432b81a1c44f7374722a0e951f38e7371d56f8e4c8632f42ce400e63",
+    "blind-201": "8425b997419ec6f1b0822787682d84bc14751d6a079f51a0cc3de836ce525501",
+    "blind-202": "3bac50dd4d9e09f97dfba09acb4b7a0d9b7f4312576f553f9dbbd5d435f4276c",
+    "blind-203": "29f2d30cea29d98d9b9de5578b1684491ab32a5fe81dffee56b8246a0c7c8588",
+    "blind-204": "76f2a7d7d2de3fdf1aaf722cbbabe0585cc7f69fff4b5d6de17e180605b5ba3f",
+    "blind-205": "ecbd5b8550619b66abad9d0995e7ff41d43b78e5c70d073c2da3fdaea799e77b",
+    "blind-206": "db24aba983b63c56106673f7eb0a69a1e056b98aca3d3cc9dc996d755748f36b",
+    "blind-207": "08978036dc064a21ed7cc61ca3192a05ed16250c3362b45f0e1dd23b545c507d",
+    "blind-208": "1ef6b9473a9c33e8bc9854dd49959c03a0be1774c6c2645bfcb4b4b1cfc4adda",
+    "blind-209": "60bc54b93eebbb4495dea2a93da60db0c8c1af49e7f9b1eeb4a74f1d90b028ea",
+    "blind-210": "037e7d6d3301afaa98524a5824f18d9be834ff6c6faa76eb09ac18b9dd916df8",
+    "blind-211": "447bc718f338396d99e175a01ba82b9dc3938b697aa0a55ed95252cc2aefb9b8",
+    "blind-212": "5a4f48f135a4b67e04be66af2f60ebb121f420d66f6d69475665fd3cad1a1586",
+    "blind-213": "cb1aff9b5daed8a57ebbeb04c30daaf601a592fa5e00faebe5f85f2b54df8064",
+    "blind-214": "c92393c9332e4771377b14e519488f2d11217793ed11d676ab25e8f0aea8f6d4",
+    "blind-215": "468c5193dde5d72a7418c66ef2ac844a4e321cc78da456f61b2b6c85ea051e8d",
+    "blind-216": "1dd981cf011bc456300c45f9db36997a4c53e9fb2b145ff95c25c2aefe27481e",
+    "blind-217": "ca8c6ef6a7535c7d2422bc9adc9b5c12ba50777bc25cf42342288ec6b6ef6936",
+    "blind-218": "a676d9ac844cc96bdad3889bea5587a5e4192b6b782378af9ab0bb51c895b60c",
+    "blind-219": "12a05937ea679571c9a6c30507faae6a6d5ec7eecf6dbc0de9e92a0b0f5cf90f",
+    "blind-220": "1cb5f1234050eb7d871d94aa692d1ff449ed6b4a11b535cf91db6ec6986ce911",
+    "blind-221": "ded13abd25d85ceb9d38df7db24825961bfd9288266a4695d834475153b3e927",
+    "blind-222": "53d4332d5e0d730fde04c258aba84c068f10ccf454e1897b9d63d2ce7cd965b9",
+    "blind-223": "6d08649f977d7d60437b8b7e489f50fd63b4d0a71f24884be62ea2af6e011a0c",
+    "blind-224": "03156a3e6c5d6e8da8f882a4ba5364a0ae5a8084d341a8113eb033e0c18a31bf",
+    "blind-225": "f7694b2f07a37f2424b8e0040cec5ea9d487144ad9c385c9c7f3741f33527247",
+    "blind-226": "67b99daa475a80450fe53158d0b15a001bacdb28d27a899d95e4af7bb6e82134",
+    "blind-227": "97e10c3029db09f014d85a7dfdd71ed284f91db143016642d19e8c40ba86234f",
+    "blind-228": "f4db603070dfcc53e36ad48d545ccb5ca11547502483a3c8e7dd6241449204a2",
+    "blind-229": "8908b75aa99699e4baaffd6914f7ea96aa613b1afc5cb5c5495ec474ff10db11",
+    "blind-230": "a583c9826e7cbc62f4740567a225dcf88592a47100d45c54b7f8bba8e1e6ec76",
+    "blind-231": "2adf3eafae74322cd4d495c41fd661e7717c4960f13fe098e66bd40a7ee45b11",
+    "blind-232": "161c7f884e4148cb5a486087a256ed253266f864cdd0c384a9712d17af45f1cc",
+    "blind-233": "512debca609b65c13fd7503c1ae981810a9abe7470a5d5284b432ab4a036d77b",
+    "blind-234": "78be740b1efeab52d49044dc44079eaef1c6e78a68a621175c0abade8258fff9",
+    "blind-235": "ebf9c27c0467613a86f0abb74a38eb9832f33661d13be7013b33233515412e9e",
+    "blind-236": "1ed093bc0b131ecea9cd7611da304685955cef1348e8b38e32f22d9317592c63",
+    "blind-237": "5b4db2a371e09c4efbbaf1dc1c7f6bcab838da8408cfa27f1aa74a2bdeb3c80e",
+    "blind-238": "a2c13e8d1fb23780f0fdf3026c90bdba5a3ed2cc007b8aefc4947a41ca067f66",
+    "blind-239": "99b7e77bb786aa76541c16c1cfe3469629ba4cea6c8fc5d4bb0064a46e6c4f40",
+    "blind-240": "fd9b83c722628c466e0375bb4a48c7852b78dbcd6fc7be370990a0d05935d11d",
+    "blind-241": "166e3e00278df0317aef807e6d2d0504c15d75c127d7da08498626e8ead74a44",
+    "blind-242": "2392a6b54144b49f8f7d469cf6d882c6a7aac40542be36e7765c5a353a7c281c",
+    "blind-243": "cac3e4b6677e91ee9dd8ffd9c641ed72b879b74f83a3e0e605e5651182aedb88",
+    "blind-244": "0bbf420603e192d7197ed0b656dc91c52fd6c4734e1e32b946397660dc126710",
+    "blind-245": "d538845813d0d58ae8aca041188f35ec235793dce19d64526ebb95986f020477",
+    "blind-246": "4ccc4941ddcf30b3d9265aabaa389382d0050db5d7a9474224419c28111ddebb",
+    "blind-247": "bbd57f4b401eb687366d6f31a1c7acd8a4b6ef42f9e0e4588a911d748d9311b9",
+    "blind-248": "d9d14c0033f8d0febe2dedcea4fde32c5601d226c53e465440a0cda06f32952e",
+    "blind-249": "54c7aedf072a619cce290ce84eef8817a7c8b00a752f98308b65b6c0b7ca57ca",
+    "blind-250": "e993b53108abcddfa9bcf1149f25e0471690696ae4d3133eb0a06a54f84d4022",
+    "blind-251": "034a7ab09df3aa8b26cc06fe59d29365c52b50f43f4f60f1121fda8153332806",
+    "blind-252": "1c868a206761e1c50a6bc79d5e3580e467441861bacd675ae66615effdea4946",
+    "blind-253": "be357c596bab1b5b7682560f251b835c67a2191ffedb1b22e896763878623dc2",
+    "blind-254": "02977ce6cb226d2194413c5f4f3576df5d819f367e9a189c9413db061902f3d8",
+    "blind-255": "0cd66210dd3a7a8db38148df8de4124205ed1ed2facb564baca8840d05f36d1a",
+    "blind-256": "3aaf00cdcafcc4fedb322e19f9c7edbf7f5beed2e75219d1a16d1c14aee124ba",
+    "blind-257": "fbaa0c523eba8e1a0246c9ad5c4b4a9d0c3528baadc9892e5ad085ba5badfee1",
+    "blind-258": "0e3ee6faf7818877621d6671b83b6063e09ebcea699b7f4184da145e330c5f8a",
+    "blind-259": "b710600ab0aede855e73cb8af6328f5440b00fa26b24c0f4860757f96a52da2f",
+    "blind-260": "3fb6cd9cecc816fb132d41b667b4886cd1e5a8032407de0c3c8a9d5ed4ac4538",
+    "blind-261": "d9a622b7f21921be754212eb5bf360fd00cf1e4ebc90ab8b831f4abb1729229c",
+    "blind-262": "0107182d7c653548b1bf590c56f1dcea960a6e7d65cf78de1264f6c7866939b2",
+    "blind-263": "6c2cb0d6b57b090878e6ca930e800177ef7b8bf0e3e56140fd4ed386eac208ed",
+    "blind-264": "5aa44019a0f339f51ec27520cda2c1bc978ed08eff6b6016d0a7108086690ca7",
+    "blind-265": "f51fbc8eb155f8ceafeafccc8d9e51393444f5531e3ad4a17bd4a16f2a0ce78c",
+    "blind-266": "d17e826bd2e3067c3654e8453778bdc9711f14bf82fcc78dd34555ae3cc6e8a8",
+    "blind-267": "bedb1d0b9232e6b591b0a537b0e2a2356e8c25d4807ffc564ce059328874d084",
+    "blind-268": "f27de7f462c69c782091f6926ad27847fe359a0176d32ce5147f30aee8e27588",
+    "blind-269": "68d822d609d15c0b40892a1418e30e6d1f5dca7a5ce17725543467529bfc0c58",
+    "blind-270": "cc1a02ad09f79999c6b119394583c4c77a1972e49f02ef876620095727aaaf5a",
+    "blind-271": "cf3ef2686b38a40290cc1d37703eda4fd5ffc242771e12c29f4b96ecec87a9c4",
+    "blind-272": "da261aab5eb4ab9a9745a108925f81971ebd265c9185d6ef35b915413e238e6e",
+    "blind-273": "9b46ee9d0e0f2b6491cbd9a84705b876114c5753e551359b78f6a8d25ed9721c",
+    "blind-274": "899b57b18589895e32d4c4721b6b6484dd06b5bff2d605b8f04672d8da84a7c1",
+    "blind-275": "819dda9535ce52b2cba3362b91e5cb30e4bfdd5d63c07271b408e8e4035604b6",
+    "blind-276": "410db6d425faf2abf285a04dd6d19e08f86ff44373924fbf090194691f29ebd6",
+    "blind-277": "f21dc227b87d156c718930e2ddd6e2606703a339f4c2a4db67e0654e4724ce46",
+    "blind-278": "ca2e5569e41a95363cc84c3c90b8c1844f747c63ab19576b5149c9d96b82b884",
+    "blind-279": "33cb4df92c6397e33272820b26327c0334fdb96e41a53fe631a223b1eea28e88",
+    "blind-280": "b85be6cab23fa6f9bddaf0e924a88145b55d7b8138145af5412bdbe80b06172a",
+    "blind-281": "7ed856ae51ef16a973bdb9186d6d83fc0757683174ec6308ce8e0a525c597751",
+    "blind-282": "667978f2e1a6905bc86666a40f5f2d53e0fc2c31c35db73321ed4bf2351201e2",
+    "blind-283": "8f4209e5fad6d3765127af339c8c33ad49f23dc3ac4b3a6246b2ffb8ae010798",
+    "blind-284": "057d209b9a585d0621a12e9d852d712fbce743263fbc1b4ed7d42e7e6dc91928",
+    "blind-285": "42fa059c8a089bbee752725419323754f79fb5640e744ceaf763c0b3273bc8ef",
+    "blind-286": "44bf5f1ff92bf3a7552d4d8373b4b41c0fab7a03b56226ec14055a7a07f252d4",
+    "blind-287": "5dc19a4b4313cafcbb69898be9f8f8ca559b23956fdd18256a960984b0397bd0",
+    "blind-288": "971d362308fc2ce17ccd9abae197e0aba6f4e6774eb303de96b9d5a1992cf5b4",
+    "blind-289": "da85ded5e2fb1ec693949f62a187f2b3d4d6ddee6ed7cc9f01f0ff13bce47c90",
+    "blind-290": "55bb2c9cdd2bccae27d9e0247c7ae16addb7e7419eca9a2320cd3364a8b644ae",
+    "blind-291": "b2f5069242a5da5ce8d9c1c05b0e58f95e73f8cc05175a37f9b8bf3d594d036e",
+    "blind-292": "8c27b95c58b27463a1ebe4680fadce4330ce2b7d4f6a59c831ba0e15ff00bf9d",
+    "blind-293": "85fe618b290e56f35ef67fa19eb8f28a40278ea662e98dac7c86692674729ba9",
+    "blind-294": "be7dea30f7d575f0eb1c7c758b620470e6af151b892ad22e9655374b753eab05",
+    "blind-295": "f1504d37dafecbd0d26e5ba3a3731a4185e34cc4d5f9b6531c107f4eac56c397",
+    "blind-296": "5632ec0d53c1d5f50e33f69f04aa085e029e06e9c0d59bf5c238c1277fa71171",
+    "blind-297": "f0678d64627220eb8776201390d561fb582938fb0ef54e78c3c9bb358c2edd8b",
+    "blind-298": "ebffe2f48d1f4914ea3fbd866c2426a500157294a6a59d57aaa619240f41053e",
+    "blind-299": "724a56248a5337e12eb01b624ccf8781b83e557065df3372d762fb5dc26050e9",
+    "blind-300": "ba5745d60354846bbbf1a3f856d1d4a1af24f785fc49daac35a01251787cfab5",
+    "blind-301": "853562f4ccd872c81348e135dd6b8682553f10f8b192834ac21f90ec478681e8",
+    "blind-302": "02176e8bf4a4a95c885dba7847c7aab7123dbb264361d96e2af57c4d5129d22c",
+    "blind-303": "b7a42a1fc46ce5fe95b2b0a2c56b8dc98db74e11661003e668f32994065b0bfd",
+    "blind-304": "a9ce098bb059878ede6b30af4dda4e27f4ed34279c7a7b3b19bf5d9541a2f0f3",
+    "blind-305": "09350a0a17422a516277eca4892c0a9a49ea3bb21a625b587a212077596ea390",
+    "blind-306": "6f3e8421875f79ebfbf28e5044c0cbf6cb48601bfb07d6d520946230c91922ad",
+    "blind-307": "c0474b5944de413e2b18612c1e657f52fc7e3bf0d84cfd8443c5f91d310fedef",
+    "blind-308": "4dbd2c415f3a9e3fa175d8a8d606c37ff705fb8e4f4204d01dcc5b92a11126e7",
+    "blind-309": "c55a2aeb90166181a3cbacabe35c83bdc9c069486dedfb7f563cedbef69fa256",
+    "blind-310": "29752537ab883b809874d1d2d03434f4fa79cc6aa77274fe9d56c206c36f69d5",
+    "blind-311": "d1d98c2a29a3aeae1aad30af0e65deaa15c58129821183d3b43c767ecf71e7bd",
+    "blind-312": "f7986b6d61d3df694f3155b9f975fd7756a0175d43ade4ca9f4dc833c3ce2cea",
+    "blind-313": "dfc95e40e59cf21cec354bbe38133d24c4f14f5a9ea800b6641c00c1eabaa601",
+    "blind-314": "5115cc9c8fd3d7c1d32abd261a0397b04d31ed3753e7b66391dfb22e57bed59d",
+    "blind-315": "e2b58c5729df2b144b40b7d6e7fe7ecde7d658f886ad09a9f2de519faed87108",
+    "blind-316": "3eacecf854aa9a5cbba953a5085c5c72f14e0bbb9b1bd6e09688b0637c5ee8a5",
+    "blind-317": "d21c04177418c04ef2c5a23e797cf59fc4fc35563ae143fb9a23ea9726d0dffb",
+    "blind-318": "3d6836be5209cbadb4257c7a75c9c017062ef78e383bb181e6b14d97d645df19",
+    "blind-319": "d19eba9ae854f794cd63afdbbcd73d7e43a5264e16816821a0549f3a4874d54e",
+    "blind-320": "a38c0e128b080d01a1459ca236a168f8d5f5a7b422e93fcb002dfe652a378a65",
+    "blind-321": "1b187b04995760ab714db19a3cde698f9b0dc97a12423fd33280a967a91e52ab",
+    "blind-322": "eb301e82e5e7fcf2be806ea4a5d0616c788cba9cd24dacec14aa4d1a9816168a",
+    "blind-323": "5e6bf6d380849148ada11647d92dfd41c67a6d775344972235fa3569905785c0",
+    "blind-324": "fd550593b5087c8a20543c0856fcc7dd0850f583386bf1a926e6394ecc12e692",
+    "blind-325": "7af2a8a139f7004f620784e67dfc2ca0550d31590f9a67be1c3e99a06b3bf2d0",
+    "blind-326": "8c28c90c07d670c01283c9783edd5184965aea97221190efe4dab62d9119dbbd",
+    "blind-327": "3bb3ac56f4fb9415fe0e5124316ef2236bea2a53fd9e29d1917ac621c46af35b",
+    "blind-328": "23320eecdaa534c705406e777de3e9445f41cd95b97cb65b54c278de23b5bf14",
+    "blind-329": "93c602f5dab6b4e2a7084b06efae1cf1c719dee2b6c9df30dcda0ef1ee5ff298",
+    "blind-330": "91b5928c43f52c65d193f32825b853c4f754df3709f6f404f2672346367e17ba",
+    "blind-331": "a5236d26399b522f37310de05130c867ac764dc494355431d4aca1feb6df38f6",
+    "blind-332": "02d32bc89e008628a2ae56956efe0a64f0db9d5c28f2748291634b4c896f52c3",
+    "blind-333": "d2d75a1ac524f8d29a0d017fbaf3c5e98c236e919127ebc4e238e07c7f3e4c16",
+    "blind-334": "c8e5b8abcf849afc01df775d888b00b75ac44bbbc1360404cc0f68355e2c926f",
+    "blind-335": "4a5abec90707098af149ccea3616d0e44c576b5a2a2ada9541ed291e997cc00e",
+    "blind-336": "70ff91058938228b185c2cfd7b87fd0f4be3c1ec8c69b75095ae6e0be4971479",
+    "blind-337": "7a7db080137ab43bff816f90ab883a43b92abc1ac6cdc98778a5202cd30f02d9",
+    "blind-338": "5a78108b597ef99c1af6415c6dfce1eb19f835a817c27c72ff758a3306576135",
+    "blind-339": "57153983b90f127ef6a67f381c1e3bb247cbdcde4d3518ed69e111d3afc9441e",
+    "blind-340": "0177489ca771a214ef6a831e0bfa6cb5f9a491d8af920bb43c1b05420457bc6c",
+    "blind-341": "0db96249f92501195f22787af4675c6134be8877691d17cd1b17690674a1653a",
+    "blind-342": "e06c56361d7a714e92d192775a7274a6ba1709d7865f8c02d0ff3ed25543115f",
+    "blind-343": "67b44f8ec5a5a1fbe69f232b6dc4b75f95594476658588ba389f9687b212fb9f",
+    "blind-344": "b8cfd9332dcd7820c113f7b94c4e1f1a4442046cc4cfb5f50101a793485b5002",
+    "blind-345": "d1e7dbd9f0a38fdbe8bfbb545b61ef5fefcc15c70f8d337b9a2582e8272d97a8",
+    "blind-346": "695c09e8f882cc523da756a322ee16ee44013c4d55795fb2ee8cfbbc349e4f1e",
+    "blind-347": "68faf3b2ab673d5064f210fd607f814d4c5ec9c0a4a812fe14ec935f20ee5754",
+    "blind-348": "26bb4e0dd3df121713efdec09a3fb6a5187b871b20afaf239bc414c120814875",
+    "blind-349": "07a680e02fe30eb9c24ddec6168758850348d4b4cec673a03a34ec0f5c2f0811",
+    "blind-350": "5a33fcf5aa64d79165ea45b859ebd8321a2ecc8709a8874041a82584ffdc9354",
+    "blind-351": "738ec47ad30478a3b68dd3f4bbe2c0a41b8fdf176d1926e48f689d46de597f25",
+    "blind-352": "3c7204105ef97be5a5605abd422df7e10d853f388488196ea6c76ff4a7943554",
+    "blind-353": "e9c01190f9b11d4dc2a710078e6c40048889ff694801c73e0b11aa4b70d95fbc",
+    "blind-354": "b3c47ba6b37c6a90971994799110de5e81006e27cb83cf7f048c06a57719794f",
+    "blind-355": "c43e460b3087d82d24170a359b003b528d45b7fcbca298c26b1f31a21302cfc2",
+    "blind-356": "83a4313f518031d27b72eb0beae7900fbcbf29835ad3898bb5056d6440e2954a",
+    "blind-357": "34e2500e524c15dbf7a73574da8ee7966c4ca3575aeb99e6aead509dca5d8337",
+    "blind-358": "ed27befb65c3e24b581910dcacc56f39efcc5aba962a0c83b1c5a361f364ef5f",
+    "blind-359": "77959294991682069b3c035072edad3213b0663dc35387e25f5c07d0c221216c"
+  },
+  "mapping": {
+    "blind-001": {
+      "record_id": "hist-5819f55a9913b475",
+      "group_id": "v4_open_downloads",
+      "split": "development",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-002": {
+      "record_id": "hist-6cf710b14ce77f95",
+      "group_id": "synth_current_release_research",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-003": {
+      "record_id": "hist-e832590b5ae99c60",
+      "group_id": "synth_recall_trip",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-004": {
+      "record_id": "hist-2c584b6189ec55f3",
+      "group_id": "synth_find_budget_file",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-005": {
+      "record_id": "hist-a885aff1a7467f03",
+      "group_id": "synth_multistep_article",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-006": {
+      "record_id": "hist-b2892551ab7c2da1",
+      "group_id": "synth_current_release_research",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-007": {
+      "record_id": "hist-0e52654409ec9398",
+      "group_id": "train_find_resume",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-008": {
+      "record_id": "hist-7c8f9d31af3a5e6c",
+      "group_id": "train_casual_checkin",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-009": {
+      "record_id": "hist-5d0cd5cd730417ed",
+      "group_id": "train_escalate_calendar",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-010": {
+      "record_id": "hist-7e4a72d37dcd063c",
+      "group_id": "v4_music_focus",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-011": {
+      "record_id": "hist-14b4023aa37a6d05",
+      "group_id": "synth_unsupported_message",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-012": {
+      "record_id": "hist-7dbd3c977978cff5",
+      "group_id": "train_open_known_url",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-013": {
+      "record_id": "hist-0677a7e5dd3b8149",
+      "group_id": "synth_recall_trip",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-014": {
+      "record_id": "hist-3b70bc749f7864ad",
+      "group_id": "train_escalate_temperature",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-015": {
+      "record_id": "hist-29bd86a063b8e8be",
+      "group_id": "synth_find_budget_file",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-016": {
+      "record_id": "hist-b73949baa37fdf13",
+      "group_id": "synth_multistep_article",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-017": {
+      "record_id": "hist-51c17b2b3a3f4ef2",
+      "group_id": "v4_knowledge_rainbow",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-018": {
+      "record_id": "hist-fcaf68bb165708ae",
+      "group_id": "train_casual_checkin",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-019": {
+      "record_id": "hist-12f3b891f117e30a",
+      "group_id": "synth_multistep_article",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-020": {
+      "record_id": "hist-62e85c47d8d9ee81",
+      "group_id": "v4_music_focus",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-021": {
+      "record_id": "hist-624dda5eea2e80a7",
+      "group_id": "synth_multistep_article",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-022": {
+      "record_id": "hist-a727ccca0966aa98",
+      "group_id": "synth_open_archive_folder",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-023": {
+      "record_id": "hist-9bec38cf7188d0c5",
+      "group_id": "v4_research_ai_news",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-024": {
+      "record_id": "hist-e4551ea90381ab25",
+      "group_id": "v4_open_python_docs",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-025": {
+      "record_id": "hist-5f6ae34e3b88424b",
+      "group_id": "v4_email_unsupported",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-026": {
+      "record_id": "hist-8becbcb8a787fb68",
+      "group_id": "synth_unsupported_message",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-027": {
+      "record_id": "hist-649a9ad12b47ab8b",
+      "group_id": "synth_recall_trip",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-028": {
+      "record_id": "hist-f8717c13ca31991d",
+      "group_id": "synth_open_archive_folder",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-029": {
+      "record_id": "hist-73ff50faf5b29b17",
+      "group_id": "train_multistep_comparison",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-030": {
+      "record_id": "hist-ed03632a3e69c7db",
+      "group_id": "synth_stable_knowledge",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-031": {
+      "record_id": "hist-d45a42ef46ef1df1",
+      "group_id": "synth_find_budget_file",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-032": {
+      "record_id": "hist-b21b6dbb2982fd85",
+      "group_id": "train_open_downloads",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-033": {
+      "record_id": "hist-1f2c662819b3459f",
+      "group_id": "train_close_editor",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-034": {
+      "record_id": "hist-eae36499e26917cd",
+      "group_id": "synth_recall_trip",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-035": {
+      "record_id": "hist-b37d640402daa329",
+      "group_id": "synth_open_archive_folder",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-036": {
+      "record_id": "hist-1c41b233e2339116",
+      "group_id": "synth_current_release_research",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-037": {
+      "record_id": "hist-135af44978a663cd",
+      "group_id": "v4_knowledge_rainbow",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-038": {
+      "record_id": "hist-c19b4d776598baab",
+      "group_id": "synth_open_archive_folder",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-039": {
+      "record_id": "hist-fc9c05a57e24554b",
+      "group_id": "synth_multistep_article",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-040": {
+      "record_id": "hist-f817dc1f64f1be8d",
+      "group_id": "v4_open_calculator",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-041": {
+      "record_id": "hist-55b6ac70330f5de4",
+      "group_id": "synth_recall_trip",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-042": {
+      "record_id": "hist-5dfff40af77711b8",
+      "group_id": "dev_escalate_thermostat",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-043": {
+      "record_id": "hist-99ea362c071fb8e9",
+      "group_id": "synth_find_budget_file",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-044": {
+      "record_id": "hist-9397ece3b49563dd",
+      "group_id": "synth_multistep_article",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-045": {
+      "record_id": "hist-55dbb0fcbc2562dd",
+      "group_id": "synth_recall_trip",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-046": {
+      "record_id": "hist-0a5fdc8884e2e50b",
+      "group_id": "synth_open_archive_folder",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-047": {
+      "record_id": "hist-b0e19fb196d7977f",
+      "group_id": "v4_open_downloads",
+      "split": "development",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-048": {
+      "record_id": "hist-4682d9b183375f71",
+      "group_id": "synth_recall_trip",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-049": {
+      "record_id": "hist-526f032ce6e5bc68",
+      "group_id": "synth_open_editor",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-050": {
+      "record_id": "hist-d219754118143aea",
+      "group_id": "v4_memory_release",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-051": {
+      "record_id": "hist-1c7023d487ce1d97",
+      "group_id": "v4_multistep_ai_news",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-052": {
+      "record_id": "hist-86c944a1d73fa8c0",
+      "group_id": "v4_memory_release",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-053": {
+      "record_id": "hist-3557f9a7869e5418",
+      "group_id": "v4_current_location",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-054": {
+      "record_id": "hist-8f10b6d09744ec29",
+      "group_id": "v4_project_todo_inspection",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-055": {
+      "record_id": "hist-1ece178b121d7a6a",
+      "group_id": "v4_reminder_unsupported",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-056": {
+      "record_id": "hist-658fcfbf4bb6b4ac",
+      "group_id": "synth_current_release_research",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-057": {
+      "record_id": "hist-5c446364b6333adf",
+      "group_id": "synth_unsupported_message",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-058": {
+      "record_id": "hist-3ca4207d030ceaf6",
+      "group_id": "synth_open_editor",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-059": {
+      "record_id": "hist-327c430593a51509",
+      "group_id": "dev_stable_knowledge",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-060": {
+      "record_id": "hist-a31ff199ab73512b",
+      "group_id": "synth_multistep_article",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-061": {
+      "record_id": "hist-3ae9743492669d4b",
+      "group_id": "synth_find_budget_file",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-062": {
+      "record_id": "hist-6231b669658583b6",
+      "group_id": "synth_recall_trip",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-063": {
+      "record_id": "hist-8ef0e62720297850",
+      "group_id": "synth_unsupported_message",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-064": {
+      "record_id": "hist-61a0fe1a73ae2e0d",
+      "group_id": "synth_open_editor",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-065": {
+      "record_id": "hist-306d71b9cf620444",
+      "group_id": "dev_research_transit",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-066": {
+      "record_id": "hist-02e8f6d6dc03fb5f",
+      "group_id": "train_escalate_lights",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-067": {
+      "record_id": "hist-24acb98352fb7d2f",
+      "group_id": "resolved_memory",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-068": {
+      "record_id": "hist-4401bc6d09416582",
+      "group_id": "synth_current_release_research",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-069": {
+      "record_id": "hist-999d532b4ba88571",
+      "group_id": "synth_stable_knowledge",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-070": {
+      "record_id": "hist-4a5f670d2a722c3b",
+      "group_id": "synth_multistep_article",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-071": {
+      "record_id": "hist-be43bbffebcd406a",
+      "group_id": "v4_email_unsupported",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-072": {
+      "record_id": "hist-92b148db50812bff",
+      "group_id": "synth_unsupported_message",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-073": {
+      "record_id": "hist-336fc086af5ef8af",
+      "group_id": "synth_unsupported_message",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-074": {
+      "record_id": "hist-3e5bb2f78cd1dd0e",
+      "group_id": "v4_current_location",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-075": {
+      "record_id": "hist-90ea1ad2912f2ac9",
+      "group_id": "synth_multistep_article",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-076": {
+      "record_id": "hist-c914535c39b27f11",
+      "group_id": "synth_unsupported_message",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-077": {
+      "record_id": "hist-3422cecce46e1d71",
+      "group_id": "train_escalate_calendar",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-078": {
+      "record_id": "hist-2b7a7faa07a9c4c8",
+      "group_id": "synth_current_release_research",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-079": {
+      "record_id": "hist-0ac2e53728036b5e",
+      "group_id": "synth_open_archive_folder",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-080": {
+      "record_id": "hist-627154af6f328049",
+      "group_id": "v4_find_invoice",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-081": {
+      "record_id": "hist-1bceebae602d3c6b",
+      "group_id": "synth_multistep_article",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-082": {
+      "record_id": "hist-2ab4a4ab05600583",
+      "group_id": "train_open_downloads",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-083": {
+      "record_id": "hist-fd1606f4cde3cccc",
+      "group_id": "synth_open_editor",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-084": {
+      "record_id": "hist-9be37e1508c71545",
+      "group_id": "v4_casual_weekend",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-085": {
+      "record_id": "hist-f2c0d48c82476f5f",
+      "group_id": "synth_unsupported_message",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-086": {
+      "record_id": "hist-f57a957909f94f29",
+      "group_id": "synth_open_editor",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "tamil",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-087": {
+      "record_id": "hist-395b50a21bf06f39",
+      "group_id": "synth_stable_knowledge",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-088": {
+      "record_id": "hist-36a1693ef2fbf34b",
+      "group_id": "train_open_downloads",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-089": {
+      "record_id": "hist-a672eb269847b583",
+      "group_id": "v4_open_calculator",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-090": {
+      "record_id": "hist-49c3fd1eba78e6f8",
+      "group_id": "v4_current_location",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-091": {
+      "record_id": "hist-e249ec2111974dd9",
+      "group_id": "synth_open_editor",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-092": {
+      "record_id": "hist-c27331f554a6655c",
+      "group_id": "train_multistep_comparison",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-093": {
+      "record_id": "hist-a079981e52205fc9",
+      "group_id": "v4_open_calculator",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-094": {
+      "record_id": "hist-c78bf3edcb9c9090",
+      "group_id": "v4_recent_files",
+      "split": "development",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-095": {
+      "record_id": "hist-edca6c4a272343f6",
+      "group_id": "synth_open_archive_folder",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-096": {
+      "record_id": "hist-9ce0edb2ab896d08",
+      "group_id": "train_open_known_url",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-097": {
+      "record_id": "hist-27b0849202fff741",
+      "group_id": "synth_multistep_article",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-098": {
+      "record_id": "hist-196e919245b653c6",
+      "group_id": "v4_multistep_ai_news",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-099": {
+      "record_id": "hist-fb29bd5958b2516f",
+      "group_id": "synth_stable_knowledge",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-100": {
+      "record_id": "hist-6e02c49c27ef9655",
+      "group_id": "synth_find_budget_file",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-101": {
+      "record_id": "hist-b2f3b731c99e7d0e",
+      "group_id": "v4_open_downloads",
+      "split": "development",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-102": {
+      "record_id": "hist-6243b39c230929ee",
+      "group_id": "v4_multistep_ai_news",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-103": {
+      "record_id": "hist-19cc402ffa01eded",
+      "group_id": "synth_find_budget_file",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-104": {
+      "record_id": "hist-c13105da38ca5149",
+      "group_id": "synth_current_release_research",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-105": {
+      "record_id": "hist-0ad4098dc092e6c8",
+      "group_id": "train_memory_meeting",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-106": {
+      "record_id": "hist-f7884fdea2c61c34",
+      "group_id": "v4_weather_pune",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-107": {
+      "record_id": "hist-8a1c279fd51731d9",
+      "group_id": "train_memory_meeting",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "tamil",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-108": {
+      "record_id": "hist-6d26fda7b387cbf0",
+      "group_id": "synth_current_release_research",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-109": {
+      "record_id": "hist-c6e11201e8761710",
+      "group_id": "synth_open_editor",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "tamil",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-110": {
+      "record_id": "hist-ac51b18856f1e8eb",
+      "group_id": "v4_weather_pune",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-111": {
+      "record_id": "hist-083d8a0781cf4e8d",
+      "group_id": "v4_current_location",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-112": {
+      "record_id": "hist-90de7abdd58d3113",
+      "group_id": "synth_stable_knowledge",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-113": {
+      "record_id": "hist-1aec025eb71f9c74",
+      "group_id": "synth_multistep_article",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-114": {
+      "record_id": "hist-f5ae834286032ac4",
+      "group_id": "v4_project_todo_inspection",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-115": {
+      "record_id": "hist-5184f3e5814d911a",
+      "group_id": "v4_research_ai_news",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-116": {
+      "record_id": "hist-605bcb224c8f942c",
+      "group_id": "v4_knowledge_rainbow",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-117": {
+      "record_id": "hist-a97951651cf8a4cd",
+      "group_id": "synth_stable_knowledge",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "tamil",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-118": {
+      "record_id": "hist-806b3ca192c2facd",
+      "group_id": "synth_open_archive_folder",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-119": {
+      "record_id": "hist-7b4d0d960e40c232",
+      "group_id": "dev_multistep_guides",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-120": {
+      "record_id": "hist-1cdf6ec820439b01",
+      "group_id": "synth_current_release_research",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-121": {
+      "record_id": "hist-1bc454a377585b0a",
+      "group_id": "synth_unsupported_message",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-122": {
+      "record_id": "hist-cee8cdf172cf3d21",
+      "group_id": "synth_stable_knowledge",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-123": {
+      "record_id": "hist-779575fec4c0f0aa",
+      "group_id": "synth_find_budget_file",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-124": {
+      "record_id": "hist-0a8e23fe284bd78f",
+      "group_id": "documentation_browser",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-125": {
+      "record_id": "hist-fb5204f607b5f3ff",
+      "group_id": "v4_find_invoice",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-126": {
+      "record_id": "hist-449744e5a7801a85",
+      "group_id": "v4_casual_weekend",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-127": {
+      "record_id": "hist-008429183b0de313",
+      "group_id": "v4_weather_pune",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-128": {
+      "record_id": "hist-4ada7aa856247d49",
+      "group_id": "dev_close_browser",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-129": {
+      "record_id": "hist-441e40c6fcc80ade",
+      "group_id": "dev_research_transit",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-130": {
+      "record_id": "hist-069dcde66a8f9794",
+      "group_id": "v4_open_calculator",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-131": {
+      "record_id": "hist-14bca63058beb4a8",
+      "group_id": "dev_multistep_guides",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-132": {
+      "record_id": "hist-188c526533ffa9a7",
+      "group_id": "v4_weather_pune",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-133": {
+      "record_id": "hist-9fc76391f3931925",
+      "group_id": "synth_open_archive_folder",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-134": {
+      "record_id": "hist-94e80af1a58cc2e8",
+      "group_id": "synth_stable_knowledge",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-135": {
+      "record_id": "hist-d1422a8b64138f34",
+      "group_id": "v4_current_location",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-136": {
+      "record_id": "hist-c0298b736337c818",
+      "group_id": "v4_casual_weekend",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-137": {
+      "record_id": "hist-5771c52e64ae28c7",
+      "group_id": "train_escalate_email",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-138": {
+      "record_id": "hist-cd74e36a5634d0e4",
+      "group_id": "synth_recall_trip",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-139": {
+      "record_id": "hist-da4fc136644b97fe",
+      "group_id": "synth_stable_knowledge",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-140": {
+      "record_id": "hist-927e31a1619df89d",
+      "group_id": "dev_stable_knowledge",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-141": {
+      "record_id": "hist-935f20befd6ed677",
+      "group_id": "synth_find_budget_file",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-142": {
+      "record_id": "hist-51331eb15fd7fcc3",
+      "group_id": "synth_open_editor",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "tamil",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-143": {
+      "record_id": "hist-36faac423da39c1f",
+      "group_id": "v4_close_notepad",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-144": {
+      "record_id": "hist-184946cff44a2ae0",
+      "group_id": "train_escalate_temperature",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-145": {
+      "record_id": "hist-d4f271d8813da992",
+      "group_id": "v4_close_notepad",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-146": {
+      "record_id": "hist-9a03ab20e1224772",
+      "group_id": "train_close_editor",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-147": {
+      "record_id": "hist-ef808ac680537dee",
+      "group_id": "v4_research_ai_news",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-148": {
+      "record_id": "hist-54658abb906cb901",
+      "group_id": "v4_research_ai_news",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-149": {
+      "record_id": "hist-6e791d1ec3a8c7d2",
+      "group_id": "v4_current_location",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-150": {
+      "record_id": "hist-dc1a50837063e98d",
+      "group_id": "v4_memory_release",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-151": {
+      "record_id": "hist-5cbdf6c46dc04292",
+      "group_id": "v4_multistep_ai_news",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-152": {
+      "record_id": "hist-7fc4d6c128901e49",
+      "group_id": "synth_multistep_article",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-153": {
+      "record_id": "hist-450397fbd0b31ce0",
+      "group_id": "v4_recent_files",
+      "split": "development",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-154": {
+      "record_id": "hist-bcdc4351b4033198",
+      "group_id": "train_find_resume",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-155": {
+      "record_id": "hist-6bb10d7ab5ec6e5d",
+      "group_id": "v4_close_notepad",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-156": {
+      "record_id": "hist-7a716953cc443231",
+      "group_id": "resolved_memory",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-157": {
+      "record_id": "hist-9b522b0cfa536fbb",
+      "group_id": "synth_recall_trip",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-158": {
+      "record_id": "hist-462595b9a7911279",
+      "group_id": "v4_project_todo_inspection",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-159": {
+      "record_id": "hist-e6dbad9de51f072d",
+      "group_id": "train_find_resume",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-160": {
+      "record_id": "hist-a2196a5877d6a1f7",
+      "group_id": "synth_multistep_article",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-161": {
+      "record_id": "hist-d7d041838858a4ac",
+      "group_id": "dev_memory_project",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-162": {
+      "record_id": "hist-0f5a36065b4b4f40",
+      "group_id": "v4_project_todo_inspection",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-163": {
+      "record_id": "hist-371b58a61da51017",
+      "group_id": "dev_multistep_guides",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-164": {
+      "record_id": "hist-4f8fdcb874454333",
+      "group_id": "train_open_downloads",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-165": {
+      "record_id": "hist-b94e68f5d4e69943",
+      "group_id": "dev_memory_project",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-166": {
+      "record_id": "hist-e56e8b9439062ba4",
+      "group_id": "v4_music_focus",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-167": {
+      "record_id": "hist-463d72f30d08ad1e",
+      "group_id": "v4_research_ai_news",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-168": {
+      "record_id": "hist-4be156b9055707ea",
+      "group_id": "synth_open_archive_folder",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-169": {
+      "record_id": "hist-7cdb2dfb673ab704",
+      "group_id": "synth_multistep_article",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-170": {
+      "record_id": "hist-bae42cf9971e4a3f",
+      "group_id": "dev_close_browser",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-171": {
+      "record_id": "hist-52ebdbd7df61455b",
+      "group_id": "train_escalate_lights",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-172": {
+      "record_id": "hist-985058a3ba7eb4aa",
+      "group_id": "synth_open_editor",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-173": {
+      "record_id": "hist-656a862113910d46",
+      "group_id": "v4_find_invoice",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-174": {
+      "record_id": "hist-238c430f0e8e5a8c",
+      "group_id": "v4_memory_release",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-175": {
+      "record_id": "hist-90b662cc3b60f294",
+      "group_id": "train_escalate_calendar",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-176": {
+      "record_id": "hist-f7de047b62fe51c4",
+      "group_id": "v4_open_calculator",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-177": {
+      "record_id": "hist-f6ae186d9c5726cc",
+      "group_id": "train_escalate_email",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-178": {
+      "record_id": "hist-cd8511b1b33c8f12",
+      "group_id": "v4_multistep_ai_news",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-179": {
+      "record_id": "hist-1ce6a2d1218448e8",
+      "group_id": "train_open_known_url",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-180": {
+      "record_id": "hist-467c0a4ed94673bd",
+      "group_id": "synth_current_release_research",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-181": {
+      "record_id": "hist-8a11c5a6b1d96132",
+      "group_id": "synth_open_archive_folder",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-182": {
+      "record_id": "hist-1aca000b7d468adf",
+      "group_id": "synth_current_release_research",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-183": {
+      "record_id": "hist-80c531918cfa8825",
+      "group_id": "synth_unsupported_message",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-184": {
+      "record_id": "hist-75560bed27bdbf0e",
+      "group_id": "v4_casual_weekend",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-185": {
+      "record_id": "hist-5b7be800025e08e4",
+      "group_id": "synth_find_budget_file",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-186": {
+      "record_id": "hist-80c54f4904a8d65b",
+      "group_id": "synth_open_editor",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-187": {
+      "record_id": "hist-077b7471a9b6c016",
+      "group_id": "synth_unsupported_message",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-188": {
+      "record_id": "hist-435d789acfbcdd3f",
+      "group_id": "synth_recall_trip",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-189": {
+      "record_id": "hist-0bf3c24d92a36351",
+      "group_id": "train_escalate_calendar",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-190": {
+      "record_id": "hist-35138bdc0c6c8e35",
+      "group_id": "v4_open_downloads",
+      "split": "development",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-191": {
+      "record_id": "hist-2389e054bcaf97e4",
+      "group_id": "v4_research_ai_news",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-192": {
+      "record_id": "hist-62722a28e17d961f",
+      "group_id": "train_research_market",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-193": {
+      "record_id": "hist-5bf7e22c9fcd9522",
+      "group_id": "synth_recall_trip",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-194": {
+      "record_id": "hist-d8148ebd2827ae2b",
+      "group_id": "synth_open_archive_folder",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-195": {
+      "record_id": "hist-9fa708933644fc90",
+      "group_id": "v4_open_downloads",
+      "split": "development",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-196": {
+      "record_id": "hist-a48165e55d3512bd",
+      "group_id": "synth_find_budget_file",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-197": {
+      "record_id": "hist-75fc31c49c351aaf",
+      "group_id": "dev_stable_knowledge",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "tamil",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-198": {
+      "record_id": "hist-870b18fc0efea95d",
+      "group_id": "v4_recent_files",
+      "split": "development",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-199": {
+      "record_id": "hist-fc2f6f9cc281cf70",
+      "group_id": "synth_multistep_article",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-200": {
+      "record_id": "hist-db622d208ae0cb51",
+      "group_id": "synth_unsupported_message",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-201": {
+      "record_id": "hist-6d02f178d61b7502",
+      "group_id": "v4_casual_weekend",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-202": {
+      "record_id": "hist-c1c9b9a526598ab7",
+      "group_id": "synth_open_archive_folder",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-203": {
+      "record_id": "hist-590b9367f67077f8",
+      "group_id": "v4_project_todo_inspection",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-204": {
+      "record_id": "hist-6a719f36b04b04f2",
+      "group_id": "synth_current_release_research",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-205": {
+      "record_id": "hist-f2a4fd1032c829b5",
+      "group_id": "synth_stable_knowledge",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "tamil",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-206": {
+      "record_id": "hist-4b797b494d7bab11",
+      "group_id": "v4_email_unsupported",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-207": {
+      "record_id": "hist-39614adaeaf35569",
+      "group_id": "dev_memory_project",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-208": {
+      "record_id": "hist-d2efe1810ef782a6",
+      "group_id": "synth_current_release_research",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-209": {
+      "record_id": "hist-01de1cb0cfcf916c",
+      "group_id": "v4_open_python_docs",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-210": {
+      "record_id": "hist-5bd56535c3385742",
+      "group_id": "synth_open_editor",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-211": {
+      "record_id": "hist-f18ea96eda0bcc63",
+      "group_id": "v4_memory_release",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-212": {
+      "record_id": "hist-6fc72ec0734459ec",
+      "group_id": "synth_find_budget_file",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-213": {
+      "record_id": "hist-5e9f7f9912bd12b9",
+      "group_id": "synth_find_budget_file",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-214": {
+      "record_id": "hist-b38fb0b7c2ab38c8",
+      "group_id": "synth_find_budget_file",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-215": {
+      "record_id": "hist-95ebea2001f5d2b7",
+      "group_id": "train_memory_meeting",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-216": {
+      "record_id": "hist-62ad725dcffe0744",
+      "group_id": "synth_stable_knowledge",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-217": {
+      "record_id": "hist-b15cca071bf00015",
+      "group_id": "synth_open_archive_folder",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-218": {
+      "record_id": "hist-e2b494cead1d9e79",
+      "group_id": "synth_stable_knowledge",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-219": {
+      "record_id": "hist-26a4f5e3de580fab",
+      "group_id": "v4_reminder_unsupported",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-220": {
+      "record_id": "hist-b03ef1d458722d2b",
+      "group_id": "v4_find_invoice",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-221": {
+      "record_id": "hist-d8c9d0226aabde4d",
+      "group_id": "synth_unsupported_message",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-222": {
+      "record_id": "hist-487b7aa07812922f",
+      "group_id": "train_casual_checkin",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-223": {
+      "record_id": "hist-3fcd2f0b4e19ddd6",
+      "group_id": "synth_open_archive_folder",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-224": {
+      "record_id": "hist-b18ea356bfc4769f",
+      "group_id": "dev_multistep_guides",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-225": {
+      "record_id": "hist-6d7c401d84c89de9",
+      "group_id": "dev_escalate_thermostat",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-226": {
+      "record_id": "hist-0f4e3e0a4e42b3c2",
+      "group_id": "synth_recall_trip",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-227": {
+      "record_id": "hist-ded1b5db93caeaba",
+      "group_id": "synth_find_budget_file",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-228": {
+      "record_id": "hist-5f147e21513ccce4",
+      "group_id": "v4_recent_files",
+      "split": "development",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-229": {
+      "record_id": "hist-ad2fecc042abacb2",
+      "group_id": "train_escalate_lights",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-230": {
+      "record_id": "hist-c1267f8c07829179",
+      "group_id": "resolved_memory",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-231": {
+      "record_id": "hist-6e1d9b66c80c8167",
+      "group_id": "synth_stable_knowledge",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-232": {
+      "record_id": "hist-bcda86eb773892c7",
+      "group_id": "train_research_market",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-233": {
+      "record_id": "hist-777f0f17f062b311",
+      "group_id": "train_close_editor",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-234": {
+      "record_id": "hist-f15da07032e76d47",
+      "group_id": "synth_stable_knowledge",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-235": {
+      "record_id": "hist-bfb433d9b7ee212d",
+      "group_id": "synth_find_budget_file",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-236": {
+      "record_id": "hist-981144e03297e05d",
+      "group_id": "v4_multistep_ai_news",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-237": {
+      "record_id": "hist-7778d19bf8c08e18",
+      "group_id": "v4_reminder_unsupported",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-238": {
+      "record_id": "hist-5f173c694ac9ed2d",
+      "group_id": "v4_reminder_unsupported",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-239": {
+      "record_id": "hist-ecfd7b27ed5a44c6",
+      "group_id": "synth_open_editor",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-240": {
+      "record_id": "hist-2663e4567d48674a",
+      "group_id": "train_multistep_comparison",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-241": {
+      "record_id": "hist-9ae1b045a7bcd06f",
+      "group_id": "multistep_research",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-242": {
+      "record_id": "hist-1bd9413c15d79cc2",
+      "group_id": "train_research_market",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-243": {
+      "record_id": "hist-9c2419bbaf0f5a8c",
+      "group_id": "v4_current_location",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-244": {
+      "record_id": "hist-60e3a4c7ff350c83",
+      "group_id": "v4_open_python_docs",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-245": {
+      "record_id": "hist-d3a5cde146e999d6",
+      "group_id": "dev_memory_project",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-246": {
+      "record_id": "hist-fab81e4e51010aad",
+      "group_id": "v4_weather_pune",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-247": {
+      "record_id": "hist-9c67fdb0f511d25d",
+      "group_id": "synth_open_archive_folder",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-248": {
+      "record_id": "hist-7c3c403b662c82af",
+      "group_id": "synth_multistep_article",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-249": {
+      "record_id": "hist-53622e30826e0ba4",
+      "group_id": "v4_email_unsupported",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-250": {
+      "record_id": "hist-2f2fae954b058e41",
+      "group_id": "synth_current_release_research",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-251": {
+      "record_id": "hist-d152c0516bf7828f",
+      "group_id": "train_multistep_comparison",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-252": {
+      "record_id": "hist-227703fcbebfc674",
+      "group_id": "dev_escalate_thermostat",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-253": {
+      "record_id": "hist-c70b0f0139db41ac",
+      "group_id": "v4_open_python_docs",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-254": {
+      "record_id": "hist-a1e427b1c342fb6c",
+      "group_id": "synth_open_editor",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-255": {
+      "record_id": "hist-0a5f2eebf38ce2e2",
+      "group_id": "synth_open_editor",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-256": {
+      "record_id": "hist-525cc654872d829b",
+      "group_id": "synth_unsupported_message",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-257": {
+      "record_id": "hist-a64fd40be96c452c",
+      "group_id": "v4_casual_weekend",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-258": {
+      "record_id": "hist-28721da13b5abd0d",
+      "group_id": "train_open_known_url",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-259": {
+      "record_id": "hist-314adf41b0f7b905",
+      "group_id": "synth_current_release_research",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-260": {
+      "record_id": "hist-528b12a42c6388af",
+      "group_id": "v4_casual_weekend",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-261": {
+      "record_id": "hist-c49a5e2b6fe12610",
+      "group_id": "synth_stable_knowledge",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "tamil",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-262": {
+      "record_id": "hist-375ae9c4955ed6eb",
+      "group_id": "v4_knowledge_rainbow",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-263": {
+      "record_id": "hist-dc7963537a27a433",
+      "group_id": "synth_unsupported_message",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-264": {
+      "record_id": "hist-dcfa5af61fc34283",
+      "group_id": "train_escalate_lights",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-265": {
+      "record_id": "hist-416d4a931348a344",
+      "group_id": "v4_project_todo_inspection",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-266": {
+      "record_id": "hist-6838e9232f82f9ee",
+      "group_id": "synth_stable_knowledge",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-267": {
+      "record_id": "hist-e0c4844e927565c0",
+      "group_id": "synth_recall_trip",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-268": {
+      "record_id": "hist-7f84fdd3cc547124",
+      "group_id": "synth_multistep_article",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-269": {
+      "record_id": "hist-4db891188ee03e40",
+      "group_id": "synth_unsupported_message",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-270": {
+      "record_id": "hist-691be5eaf1338525",
+      "group_id": "v4_music_focus",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-271": {
+      "record_id": "hist-a3caf59c0df53070",
+      "group_id": "v4_find_invoice",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-272": {
+      "record_id": "hist-a9d2a1fec7ae0fb9",
+      "group_id": "synth_unsupported_message",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-273": {
+      "record_id": "hist-cd06c5b65cc6a037",
+      "group_id": "synth_multistep_article",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-274": {
+      "record_id": "hist-a6bef85f1460635d",
+      "group_id": "v4_email_unsupported",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-275": {
+      "record_id": "hist-b392082d77813f05",
+      "group_id": "train_escalate_email",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-276": {
+      "record_id": "hist-ba87774b2cb54cd1",
+      "group_id": "synth_stable_knowledge",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "tamil",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-277": {
+      "record_id": "hist-4dd3d16135b73da2",
+      "group_id": "train_escalate_temperature",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-278": {
+      "record_id": "hist-42ccc48aa7aba6e3",
+      "group_id": "v4_close_notepad",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-279": {
+      "record_id": "hist-106e0dba6c2df3db",
+      "group_id": "v4_knowledge_rainbow",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-280": {
+      "record_id": "hist-84657f948f9bb482",
+      "group_id": "v4_memory_release",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-281": {
+      "record_id": "hist-738955a1c884eb95",
+      "group_id": "v4_open_calculator",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-282": {
+      "record_id": "hist-3495ef26749bf241",
+      "group_id": "v4_open_downloads",
+      "split": "development",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-283": {
+      "record_id": "hist-d0cc0d8789c83ffb",
+      "group_id": "synth_find_budget_file",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-284": {
+      "record_id": "hist-494e20abed197856",
+      "group_id": "synth_open_editor",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-285": {
+      "record_id": "hist-489c05eacd816c6d",
+      "group_id": "synth_open_editor",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-286": {
+      "record_id": "hist-ddb4e670e07977e9",
+      "group_id": "synth_recall_trip",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-287": {
+      "record_id": "hist-9e5db5008828e742",
+      "group_id": "train_escalate_email",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-288": {
+      "record_id": "hist-1df8d3ccd087e273",
+      "group_id": "synth_multistep_article",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-289": {
+      "record_id": "hist-65f7683a669ce5a0",
+      "group_id": "v4_weather_pune",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-290": {
+      "record_id": "hist-e804749891acb51e",
+      "group_id": "v4_weather_pune",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-291": {
+      "record_id": "hist-635576bfbc6907f7",
+      "group_id": "resolved_browser_reference",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-292": {
+      "record_id": "hist-c1ef53f94bfd63d3",
+      "group_id": "synth_open_editor",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-293": {
+      "record_id": "hist-478f18ce2d54f9d3",
+      "group_id": "dev_close_browser",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-294": {
+      "record_id": "hist-20b07a7ae81c71e3",
+      "group_id": "synth_open_editor",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "tamil",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-295": {
+      "record_id": "hist-cfe651389cdd4a91",
+      "group_id": "synth_stable_knowledge",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-296": {
+      "record_id": "hist-6535112d2152c331",
+      "group_id": "synth_recall_trip",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-297": {
+      "record_id": "hist-85caebba7ee5699f",
+      "group_id": "v4_open_python_docs",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-298": {
+      "record_id": "hist-5d0011dacf129a45",
+      "group_id": "synth_recall_trip",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-299": {
+      "record_id": "hist-95cdb48c5a876784",
+      "group_id": "v4_close_notepad",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-300": {
+      "record_id": "hist-f55992c3591e5c22",
+      "group_id": "synth_current_release_research",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-301": {
+      "record_id": "hist-7d3b374f9386cb3b",
+      "group_id": "synth_find_budget_file",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-302": {
+      "record_id": "hist-67b55ed3dedd1fa3",
+      "group_id": "synth_unsupported_message",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-303": {
+      "record_id": "hist-0cbd61671f49eccb",
+      "group_id": "synth_open_archive_folder",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-304": {
+      "record_id": "hist-7e774bed40d5eacc",
+      "group_id": "v4_research_ai_news",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-305": {
+      "record_id": "hist-58b773c7f07da60e",
+      "group_id": "v4_open_calculator",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-306": {
+      "record_id": "hist-25808a137c379c4d",
+      "group_id": "synth_current_release_research",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-307": {
+      "record_id": "hist-1cba8cae8c802a5d",
+      "group_id": "v4_knowledge_rainbow",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-308": {
+      "record_id": "hist-5418ac4a5b5a539b",
+      "group_id": "synth_open_editor",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "tamil",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-309": {
+      "record_id": "hist-acb81c3a12d86f63",
+      "group_id": "v4_open_python_docs",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-310": {
+      "record_id": "hist-5819fe4bed2259fa",
+      "group_id": "v4_knowledge_rainbow",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-311": {
+      "record_id": "hist-8a5e38df1fb1da78",
+      "group_id": "v4_find_invoice",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-312": {
+      "record_id": "hist-bba589eb50161f78",
+      "group_id": "v4_email_unsupported",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-313": {
+      "record_id": "hist-beffb472e5239d9d",
+      "group_id": "v4_recent_files",
+      "split": "development",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-314": {
+      "record_id": "hist-d3ca9ee15500dff7",
+      "group_id": "v4_music_focus",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-315": {
+      "record_id": "hist-833fbb9af9ec69c9",
+      "group_id": "train_close_editor",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-316": {
+      "record_id": "hist-52d9d3a2ef14e93d",
+      "group_id": "dev_research_transit",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-317": {
+      "record_id": "hist-0981ce2da9857e8a",
+      "group_id": "synth_open_archive_folder",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-318": {
+      "record_id": "hist-19196a26a48d162e",
+      "group_id": "synth_current_release_research",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-319": {
+      "record_id": "hist-6f2f8975bd351cff",
+      "group_id": "synth_stable_knowledge",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-320": {
+      "record_id": "hist-91cebbf8cdc23cde",
+      "group_id": "synth_unsupported_message",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-321": {
+      "record_id": "hist-4f304ee9acbae39c",
+      "group_id": "v4_music_focus",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-322": {
+      "record_id": "hist-843676de39b218d4",
+      "group_id": "v4_close_notepad",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-323": {
+      "record_id": "hist-b27cfd78e653f624",
+      "group_id": "synth_recall_trip",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-324": {
+      "record_id": "hist-47191b87720b3091",
+      "group_id": "v4_recent_files",
+      "split": "development",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-325": {
+      "record_id": "hist-9dc8e7eac186e600",
+      "group_id": "v4_reminder_unsupported",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-326": {
+      "record_id": "hist-6883dedf6b0800c5",
+      "group_id": "v4_email_unsupported",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-327": {
+      "record_id": "hist-86bbe72d3cf2068b",
+      "group_id": "v4_music_focus",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-328": {
+      "record_id": "hist-49aa7a18656b7944",
+      "group_id": "synth_find_budget_file",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-329": {
+      "record_id": "hist-1db8987fb7c7a9a6",
+      "group_id": "synth_recall_trip",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-330": {
+      "record_id": "hist-06d329132f24d014",
+      "group_id": "v4_open_downloads",
+      "split": "development",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-331": {
+      "record_id": "hist-89dfef657c756913",
+      "group_id": "train_find_resume",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-332": {
+      "record_id": "hist-e0d376a432981c0a",
+      "group_id": "v4_memory_release",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-333": {
+      "record_id": "hist-959feeef7a84d16f",
+      "group_id": "dev_close_browser",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "tamil",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-334": {
+      "record_id": "hist-c115df669d828467",
+      "group_id": "v4_open_python_docs",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-335": {
+      "record_id": "hist-c0083090edda9dd6",
+      "group_id": "synth_open_archive_folder",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-336": {
+      "record_id": "hist-0809d6467b777f81",
+      "group_id": "train_research_market",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-337": {
+      "record_id": "hist-daada2b39fd85e9d",
+      "group_id": "dev_escalate_thermostat",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-338": {
+      "record_id": "hist-b50d57dfa8815884",
+      "group_id": "v4_reminder_unsupported",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-339": {
+      "record_id": "hist-7759cddb59f5261a",
+      "group_id": "dev_research_transit",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-340": {
+      "record_id": "hist-1d0c61727690d563",
+      "group_id": "synth_open_archive_folder",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-341": {
+      "record_id": "hist-c09b400d2169cfed",
+      "group_id": "train_escalate_temperature",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-342": {
+      "record_id": "hist-ccd6cdb094b6e4fa",
+      "group_id": "v4_project_todo_inspection",
+      "split": "train",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-343": {
+      "record_id": "hist-05c7a0ac2d55d803",
+      "group_id": "train_casual_checkin",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-344": {
+      "record_id": "hist-6c1d3caff712a040",
+      "group_id": "mixed_conversation_action",
+      "split": "development",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-345": {
+      "record_id": "hist-54674783aae5c05e",
+      "group_id": "v4_reminder_unsupported",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-346": {
+      "record_id": "hist-1b3779922ce65193",
+      "group_id": "synth_current_release_research",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-347": {
+      "record_id": "hist-870a5c93a7477871",
+      "group_id": "dev_stable_knowledge",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-348": {
+      "record_id": "hist-3321474913885de9",
+      "group_id": "v4_close_notepad",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-349": {
+      "record_id": "hist-502341f972c342b9",
+      "group_id": "synth_current_release_research",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-350": {
+      "record_id": "hist-d0418366cd05ce0a",
+      "group_id": "synth_stable_knowledge",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "tamil",
+        "response_language": "tamil",
+        "semantic_language": "tamil"
+      }
+    },
+    "blind-351": {
+      "record_id": "hist-756ccd7f4537ff5a",
+      "group_id": "v4_multistep_ai_news",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-352": {
+      "record_id": "hist-4b3d7fc39ce0dafc",
+      "group_id": "synth_recall_trip",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-353": {
+      "record_id": "hist-69f6f3121369a1ca",
+      "group_id": "synth_find_budget_file",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-354": {
+      "record_id": "hist-36728d03f4b87dd4",
+      "group_id": "train_memory_meeting",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": false,
+      "language": {
+        "input_script": "telugu",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-355": {
+      "record_id": "hist-d9af420dbd534d83",
+      "group_id": "music_search",
+      "split": "development",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    },
+    "blind-356": {
+      "record_id": "hist-781775a4ab56397b",
+      "group_id": "synth_open_editor",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "devanagari",
+        "response_language": "hindi",
+        "semantic_language": "hindi"
+      }
+    },
+    "blind-357": {
+      "record_id": "hist-9342b186021415dd",
+      "group_id": "v4_recent_files",
+      "split": "development",
+      "known_domain_mapping_concern": true,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "mixed",
+        "response_language": "code_switch",
+        "semantic_language": "code_switch"
+      }
+    },
+    "blind-358": {
+      "record_id": "hist-da2923cc8285dce3",
+      "group_id": "synth_unsupported_message",
+      "split": "train",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "telugu",
+        "semantic_language": "telugu"
+      }
+    },
+    "blind-359": {
+      "record_id": "hist-73dbdefdeb1f1654",
+      "group_id": "v4_find_invoice",
+      "split": "sealed_candidate",
+      "known_domain_mapping_concern": false,
+      "empty_source_context": true,
+      "language": {
+        "input_script": "latin",
+        "response_language": "english",
+        "semantic_language": "english"
+      }
+    }
+  },
+  "source_hashes": {
+    "assistant/orchestration/fast_brain/contract.py": "06275346148865f4f05d0c1ff3662cd0fa8572cf06003225001cb0a70b20fd1a",
+    "assistant/orchestration/fast_brain/validator.py": "daa40cbf054350c77f75259a8952e562d8c90f64657d28c57f0e4bc9bcdfb432",
+    "assistant/orchestration/fast_brain/deterministic.py": "e16a2bb397f1ef5195cd55f79240533374907ce3e4356529bbf3657063dd1e3f",
+    "assistant/orchestration/fast_brain/adapter.py": "8546996e119efb8b7b32b38c7e55b4855ebf4f8dfa29e21e65a0fb823db94a77",
+    "assistant/orchestration/fast_brain/shadow.py": "d3a65abc551c45a4bb7aaa9ee0f3d8362fa2c5f56a98eace08e76912a91443d8",
+    "assistant/orchestration/fast_brain/encoder_adapter.py": "ca17daaabafe686be77724aea916ddd2af8344dcc96aef43136c1d3831ab779f",
+    "assistant/orchestration/router.py": "bde66332a0050ee18206af1a0ded1ac4ca73110ff3a27184f0359d204c556e20",
+    "assistant/orchestration/graph.py": "119e6eeb6c2df4d7710157c743037bada6cba0a0581d88d7c296f2c2552cb258",
+    "assistant/orchestration/decision.py": "aadf7e0459a8c10178a39dabe2aef55c38c4bb00044c3e0bb1bfd3594f3577eb",
+    "assistant/orchestration/compact_adapter.py": "44b27e30c40a4c95ae46204d29c815d95ebdabe60b1cc0fddb50ed3b2119a854",
+    "benchmarks/fast_classifier/build_fast_brain_dataset.py": "3be806423600a4c4055e842f03c1e2612acfa2e128df75ea750c56cfbd4b5a14",
+    "benchmarks/fast_classifier/review_fast_brain_dataset.py": "d52cacd57df7c69c45a5e9b47f01614216122b05cc5481b9ba4454a545b59e71",
+    "benchmarks/fast_classifier/gold_review.py": "83a66a718348ebc284af102b0b13c47aba39819c0a1a7643fc0b6ce1d60fad85"
+  },
+  "original_file_hashes": {
+    "benchmarks/fast_classifier/v4/dataset.jsonl": "5d5317f2e403f0e3c03a769415817cd407ecb9311cad38087d77aefccebb1be6",
+    "benchmarks/fast_classifier/fast_brain_v1/dataset.jsonl": "426d722c68bbf13e22a03fa71f26df246c83d698d4cb7cd50358642bf90e9a82",
+    "benchmarks/fast_classifier/fast_brain_v1/review_queue.jsonl": "f9a983a4858787dc422dd3fffe34e65257e919882e64efc0bad26568b536f43e",
+    "benchmarks/fast_classifier/fast_brain_v1/review_decisions.jsonl": "abaf920911ea99aec08f0c74a2e5f08a2efeb73bd138ffdfca2a267dc666dcd6",
+    "benchmarks/fast_classifier/fast_brain_v1/adjudication_queue.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "benchmarks/fast_classifier/fast_brain_v1/rejected_records.jsonl": "f1cfcfe96f577e9fadf00a4e498e7cd0a908feb7f0eaaa4222868a925931d7ce"
+  },
+  "reviewer_identity_policy": "anonymized; independence/qualification require human verification",
+  "accuracy_status": "NOT_MEASURED",
+  "predictions_executed": 0
+}

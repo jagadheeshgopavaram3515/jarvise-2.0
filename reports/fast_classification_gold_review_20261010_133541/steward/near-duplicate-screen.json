@@ -1,0 +1,32 @@
+[
+  {
+    "a": "hist-1aca000b7d468adf",
+    "b": "hist-d2efe1810ef782a6",
+    "same_group": true
+  },
+  {
+    "a": "hist-1cdf6ec820439b01",
+    "b": "hist-c13105da38ca5149",
+    "same_group": true
+  },
+  {
+    "a": "hist-1f2c662819b3459f",
+    "b": "hist-d4f271d8813da992",
+    "same_group": false
+  },
+  {
+    "a": "hist-36a1693ef2fbf34b",
+    "b": "hist-5819f55a9913b475",
+    "same_group": false
+  },
+  {
+    "a": "hist-843676de39b218d4",
+    "b": "hist-9a03ab20e1224772",
+    "same_group": false
+  },
+  {
+    "a": "hist-1ce6a2d1218448e8",
+    "b": "hist-60e3a4c7ff350c83",
+    "same_group": false
+  }
+]

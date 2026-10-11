@@ -1,0 +1,74 @@
+{
+  "labels": [
+    "None",
+    "google_search",
+    "open_folder",
+    "youtube_search"
+  ],
+  "matrix": [
+    [
+      15,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      20,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "report": {
+    "None": {
+      "precision": 1.0,
+      "recall": 0.9375,
+      "f1-score": 0.967741935483871,
+      "support": 16.0
+    },
+    "google_search": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "open_folder": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 20.0
+    },
+    "youtube_search": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "accuracy": 0.975,
+    "macro avg": {
+      "precision": 0.75,
+      "recall": 0.734375,
+      "f1-score": 0.7419354838709677,
+      "support": 40.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 0.975,
+      "f1-score": 0.9870967741935484,
+      "support": 40.0
+    }
+  },
+  "denominator": 40
+}

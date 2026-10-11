@@ -1,0 +1,7 @@
+{
+  "tests": 46,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "scope": "13 actual experiment integrity checks plus 33 pure builder/gold/descriptor/reference checks; no new training/inference"
+}

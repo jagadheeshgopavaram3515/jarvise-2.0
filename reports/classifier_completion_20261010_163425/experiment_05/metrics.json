@@ -1,0 +1,3406 @@
+{
+  "metric_type": "PROVISIONAL_LABEL_AGREEMENT",
+  "exact_agreement": 10,
+  "denominator": 40,
+  "fields": {
+    "intent": 19,
+    "execution_path": 28,
+    "request_modes": 31,
+    "selected_capability": 20,
+    "context_references": 29,
+    "missing_information": 34,
+    "needs_clarification": 36,
+    "needs_escalation": 36
+  },
+  "raw_heads": {
+    "execution_path": {
+      "agreement": 31,
+      "denominator": 40,
+      "classes": [
+        "clarify",
+        "direct_response",
+        "escalate",
+        "memory_recall",
+        "multi_step_task",
+        "research",
+        "single_action"
+      ],
+      "report": {
+        "clarify": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1-score": 0.6666666666666666,
+          "support": 4.0
+        },
+        "direct_response": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1-score": 0.8888888888888888,
+          "support": 4.0
+        },
+        "escalate": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "memory_recall": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 7.0
+        },
+        "multi_step_task": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1-score": 0.6666666666666666,
+          "support": 4.0
+        },
+        "research": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "single_action": {
+          "precision": 1.0,
+          "recall": 0.6,
+          "f1-score": 0.75,
+          "support": 20.0
+        },
+        "accuracy": 0.775,
+        "macro avg": {
+          "precision": 0.5428571428571428,
+          "recall": 0.6571428571428571,
+          "f1-score": 0.5674603174603174,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.8550000000000001,
+          "recall": 0.775,
+          "f1-score": 0.7722222222222221,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          7,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          0,
+          4,
+          0,
+          12
+        ]
+      ]
+    },
+    "needs_clarification": {
+      "agreement": 35,
+      "denominator": 40,
+      "classes": [
+        "0",
+        "1"
+      ],
+      "report": {
+        "0": {
+          "precision": 1.0,
+          "recall": 0.8611111111111112,
+          "f1-score": 0.9253731343283582,
+          "support": 36.0
+        },
+        "1": {
+          "precision": 0.4444444444444444,
+          "recall": 1.0,
+          "f1-score": 0.6153846153846154,
+          "support": 4.0
+        },
+        "accuracy": 0.875,
+        "macro avg": {
+          "precision": 0.7222222222222222,
+          "recall": 0.9305555555555556,
+          "f1-score": 0.7703788748564868,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.9444444444444444,
+          "recall": 0.875,
+          "f1-score": 0.894374282433984,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          31,
+          5
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    },
+    "needs_escalation": {
+      "agreement": 35,
+      "denominator": 40,
+      "classes": [
+        "0",
+        "1"
+      ],
+      "report": {
+        "0": {
+          "precision": 0.9722222222222222,
+          "recall": 0.8974358974358975,
+          "f1-score": 0.9333333333333333,
+          "support": 39.0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "accuracy": 0.875,
+        "macro avg": {
+          "precision": 0.4861111111111111,
+          "recall": 0.44871794871794873,
+          "f1-score": 0.4666666666666667,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.9479166666666666,
+          "recall": 0.875,
+          "f1-score": 0.9099999999999999,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          35,
+          4
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "missing_information": {
+      "agreement": 31,
+      "denominator": 40,
+      "classes": [
+        "__none__",
+        "prior_request",
+        "target"
+      ],
+      "report": {
+        "__none__": {
+          "precision": 1.0,
+          "recall": 0.7777777777777778,
+          "f1-score": 0.875,
+          "support": 36.0
+        },
+        "prior_request": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "target": {
+          "precision": 0.2727272727272727,
+          "recall": 0.75,
+          "f1-score": 0.4,
+          "support": 4.0
+        },
+        "accuracy": 0.775,
+        "macro avg": {
+          "precision": 0.42424242424242425,
+          "recall": 0.5092592592592592,
+          "f1-score": 0.425,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.9272727272727274,
+          "recall": 0.775,
+          "f1-score": 0.8275,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          28,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          3
+        ]
+      ]
+    },
+    "reference_kind": {
+      "agreement": 33,
+      "denominator": 40,
+      "classes": [
+        "__none__",
+        "folder",
+        "item",
+        "prior_conversation",
+        "prior_request",
+        "project",
+        "search_result"
+      ],
+      "report": {
+        "__none__": {
+          "precision": 1.0,
+          "recall": 0.8275862068965517,
+          "f1-score": 0.9056603773584906,
+          "support": 29.0
+        },
+        "folder": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "item": {
+          "precision": 0.375,
+          "recall": 0.75,
+          "f1-score": 0.5,
+          "support": 4.0
+        },
+        "prior_conversation": {
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1-score": 0.9230769230769231,
+          "support": 6.0
+        },
+        "prior_request": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "project": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "search_result": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "accuracy": 0.825,
+        "macro avg": {
+          "precision": 0.31887755102040816,
+          "recall": 0.36822660098522164,
+          "f1-score": 0.3326767572050591,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.8910714285714285,
+          "recall": 0.825,
+          "f1-score": 0.8450653120464441,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          24,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "reference_resolved": {
+      "agreement": 40,
+      "denominator": 40,
+      "classes": [
+        "0",
+        "1"
+      ],
+      "report": {
+        "0": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 33.0
+        },
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 7.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          33,
+          0
+        ],
+        [
+          0,
+          7
+        ]
+      ]
+    },
+    "mode:conversational": {
+      "agreement": 37,
+      "denominator": 40,
+      "classes": [
+        "0",
+        "1"
+      ],
+      "report": {
+        "0": {
+          "precision": 0.9705882352941176,
+          "recall": 0.9428571428571428,
+          "f1-score": 0.9565217391304348,
+          "support": 35.0
+        },
+        "1": {
+          "precision": 0.6666666666666666,
+          "recall": 0.8,
+          "f1-score": 0.7272727272727273,
+          "support": 5.0
+        },
+        "accuracy": 0.925,
+        "macro avg": {
+          "precision": 0.8186274509803921,
+          "recall": 0.8714285714285714,
+          "f1-score": 0.841897233201581,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.9325980392156863,
+          "recall": 0.925,
+          "f1-score": 0.9278656126482214,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          33,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ]
+    },
+    "mode:memory": {
+      "agreement": 40,
+      "denominator": 40,
+      "classes": [
+        "0",
+        "1"
+      ],
+      "report": {
+        "0": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 33.0
+        },
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 7.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          33,
+          0
+        ],
+        [
+          0,
+          7
+        ]
+      ]
+    },
+    "mode:research": {
+      "agreement": 33,
+      "denominator": 40,
+      "classes": [
+        "0",
+        "1"
+      ],
+      "report": {
+        "0": {
+          "precision": 0.967741935483871,
+          "recall": 0.8333333333333334,
+          "f1-score": 0.8955223880597015,
+          "support": 36.0
+        },
+        "1": {
+          "precision": 0.3333333333333333,
+          "recall": 0.75,
+          "f1-score": 0.46153846153846156,
+          "support": 4.0
+        },
+        "accuracy": 0.825,
+        "macro avg": {
+          "precision": 0.6505376344086021,
+          "recall": 0.7916666666666667,
+          "f1-score": 0.6785304247990815,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.9043010752688174,
+          "recall": 0.825,
+          "f1-score": 0.8521239954075777,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          30,
+          6
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    "mode:action": {
+      "agreement": 39,
+      "denominator": 40,
+      "classes": [
+        "0",
+        "1"
+      ],
+      "report": {
+        "0": {
+          "precision": 0.9166666666666666,
+          "recall": 1.0,
+          "f1-score": 0.9565217391304348,
+          "support": 11.0
+        },
+        "1": {
+          "precision": 1.0,
+          "recall": 0.9655172413793104,
+          "f1-score": 0.9824561403508771,
+          "support": 29.0
+        },
+        "accuracy": 0.975,
+        "macro avg": {
+          "precision": 0.9583333333333333,
+          "recall": 0.9827586206896552,
+          "f1-score": 0.969488939740656,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.9770833333333332,
+          "recall": 0.975,
+          "f1-score": 0.9753241800152554,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          11,
+          0
+        ],
+        [
+          1,
+          28
+        ]
+      ]
+    },
+    "capability_matcher": {
+      "agreement": 35,
+      "denominator": 77,
+      "classes": [
+        "0",
+        "1"
+      ],
+      "report": {
+        "0": {
+          "precision": 0.6122448979591837,
+          "recall": 0.5660377358490566,
+          "f1-score": 0.5882352941176471,
+          "support": 53.0
+        },
+        "1": {
+          "precision": 0.17857142857142858,
+          "recall": 0.20833333333333334,
+          "f1-score": 0.19230769230769232,
+          "support": 24.0
+        },
+        "accuracy": 0.45454545454545453,
+        "macro avg": {
+          "precision": 0.39540816326530615,
+          "recall": 0.387185534591195,
+          "f1-score": 0.3902714932126697,
+          "support": 77.0
+        },
+        "weighted avg": {
+          "precision": 0.47707394646170154,
+          "recall": 0.45454545454545453,
+          "f1-score": 0.46482928835870013,
+          "support": 77.0
+        }
+      },
+      "confusion": [
+        [
+          30,
+          23
+        ],
+        [
+          19,
+          5
+        ]
+      ]
+    },
+    "reference_span": {
+      "agreement": 4,
+      "denominator": 11,
+      "classes": [
+        "Kal architecture ke baare mein",
+        "__none__",
+        "__utterance__",
+        "it",
+        "my notes folder",
+        "our hologram project",
+        "prior discussion",
+        "the database migration last week",
+        "the second one"
+      ],
+      "report": {
+        "Kal architecture ke baare mein": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "__none__": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "__utterance__": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "it": {
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1-score": 0.8571428571428571,
+          "support": 4.0
+        },
+        "my notes folder": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "our hologram project": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "prior discussion": {
+          "precision": 0.3333333333333333,
+          "recall": 0.25,
+          "f1-score": 0.2857142857142857,
+          "support": 4.0
+        },
+        "the database migration last week": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "the second one": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "accuracy": 0.36363636363636365,
+        "macro avg": {
+          "precision": 0.14814814814814814,
+          "recall": 0.1111111111111111,
+          "f1-score": 0.12698412698412698,
+          "support": 11.0
+        },
+        "weighted avg": {
+          "precision": 0.4848484848484848,
+          "recall": 0.36363636363636365,
+          "f1-score": 0.41558441558441556,
+          "support": 11.0
+        }
+      },
+      "confusion": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "missing_description": {
+      "agreement": 2,
+      "denominator": 4,
+      "classes": [
+        "Required information is not available in the supplied request or context",
+        "The requested target is not identifiable"
+      ],
+      "report": {
+        "Required information is not available in the supplied request or context": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "The requested target is not identifiable": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1-score": 0.6666666666666666,
+          "support": 4.0
+        },
+        "accuracy": 0.5,
+        "macro avg": {
+          "precision": 0.5,
+          "recall": 0.25,
+          "f1-score": 0.3333333333333333,
+          "support": 4.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1-score": 0.6666666666666666,
+          "support": 4.0
+        }
+      },
+      "confusion": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    }
+  },
+  "output_metrics": {
+    "intent": {
+      "agreement": 19,
+      "denominator": 40,
+      "classes": [
+        "\"clarify_request\"",
+        "\"recall\"",
+        "\"research\"",
+        "\"respond\"",
+        "\"unsupported_request\"",
+        "\"use:google_search\"",
+        "\"use:open_folder\""
+      ],
+      "report": {
+        "\"clarify_request\"": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1-score": 0.6666666666666666,
+          "support": 4.0
+        },
+        "\"recall\"": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 7.0
+        },
+        "\"research\"": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1-score": 0.6666666666666666,
+          "support": 4.0
+        },
+        "\"respond\"": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1-score": 0.8888888888888888,
+          "support": 4.0
+        },
+        "\"unsupported_request\"": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "\"use:google_search\"": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "\"use:open_folder\"": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 20.0
+        },
+        "accuracy": 0.475,
+        "macro avg": {
+          "precision": 0.39999999999999997,
+          "recall": 0.5714285714285714,
+          "f1-score": 0.4603174603174603,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.355,
+          "recall": 0.475,
+          "f1-score": 0.3972222222222222,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          4,
+          0,
+          3,
+          9,
+          0
+        ]
+      ]
+    },
+    "execution_path": {
+      "agreement": 28,
+      "denominator": 40,
+      "classes": [
+        "\"clarify\"",
+        "\"direct_response\"",
+        "\"escalate\"",
+        "\"memory_recall\"",
+        "\"multi_step_task\"",
+        "\"single_action\""
+      ],
+      "report": {
+        "\"clarify\"": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1-score": 0.6666666666666666,
+          "support": 4.0
+        },
+        "\"direct_response\"": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1-score": 0.8888888888888888,
+          "support": 4.0
+        },
+        "\"escalate\"": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "\"memory_recall\"": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 7.0
+        },
+        "\"multi_step_task\"": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1-score": 0.6666666666666666,
+          "support": 4.0
+        },
+        "\"single_action\"": {
+          "precision": 1.0,
+          "recall": 0.45,
+          "f1-score": 0.6206896551724138,
+          "support": 20.0
+        },
+        "accuracy": 0.7,
+        "macro avg": {
+          "precision": 0.6333333333333333,
+          "recall": 0.7416666666666667,
+          "f1-score": 0.6404853128991059,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.8550000000000001,
+          "recall": 0.7,
+          "f1-score": 0.7075670498084291,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          7,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          4,
+          0,
+          3,
+          0,
+          4,
+          9
+        ]
+      ]
+    },
+    "request_modes": {
+      "agreement": 31,
+      "denominator": 40,
+      "classes": [
+        "[\"action\"]",
+        "[\"conversational\", \"memory\"]",
+        "[\"conversational\"]",
+        "[\"memory\", \"conversational\"]",
+        "[\"memory\"]",
+        "[\"research\", \"action\"]"
+      ],
+      "report": {
+        "[\"action\"]": {
+          "precision": 0.95,
+          "recall": 0.76,
+          "f1-score": 0.8444444444444444,
+          "support": 25.0
+        },
+        "[\"conversational\", \"memory\"]": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "[\"conversational\"]": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1-score": 0.8888888888888888,
+          "support": 4.0
+        },
+        "[\"memory\", \"conversational\"]": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "[\"memory\"]": {
+          "precision": 0.8333333333333334,
+          "recall": 0.8333333333333334,
+          "f1-score": 0.8333333333333334,
+          "support": 6.0
+        },
+        "[\"research\", \"action\"]": {
+          "precision": 0.375,
+          "recall": 0.75,
+          "f1-score": 0.5,
+          "support": 4.0
+        },
+        "accuracy": 0.775,
+        "macro avg": {
+          "precision": 0.4930555555555556,
+          "recall": 0.5572222222222222,
+          "f1-score": 0.5111111111111112,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.83625,
+          "recall": 0.775,
+          "f1-score": 0.7916666666666666,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          19,
+          0,
+          1,
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ]
+    },
+    "selected_capability": {
+      "agreement": 20,
+      "denominator": 40,
+      "classes": [
+        "\"google_search\"",
+        "\"open_folder\"",
+        "null"
+      ],
+      "report": {
+        "\"google_search\"": {
+          "precision": 0.23529411764705882,
+          "recall": 1.0,
+          "f1-score": 0.38095238095238093,
+          "support": 4.0
+        },
+        "\"open_folder\"": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 20.0
+        },
+        "null": {
+          "precision": 0.6956521739130435,
+          "recall": 1.0,
+          "f1-score": 0.8205128205128205,
+          "support": 16.0
+        },
+        "accuracy": 0.5,
+        "macro avg": {
+          "precision": 0.31031543052003413,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.40048840048840045,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.30179028132992325,
+          "recall": 0.5,
+          "f1-score": 0.3663003663003663,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          4,
+          0,
+          0
+        ],
+        [
+          13,
+          0,
+          7
+        ],
+        [
+          0,
+          0,
+          16
+        ]
+      ]
+    },
+    "needs_clarification": {
+      "agreement": 36,
+      "denominator": 40,
+      "classes": [
+        "false",
+        "true"
+      ],
+      "report": {
+        "false": {
+          "precision": 1.0,
+          "recall": 0.8888888888888888,
+          "f1-score": 0.9411764705882353,
+          "support": 36.0
+        },
+        "true": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1-score": 0.6666666666666666,
+          "support": 4.0
+        },
+        "accuracy": 0.9,
+        "macro avg": {
+          "precision": 0.75,
+          "recall": 0.9444444444444444,
+          "f1-score": 0.803921568627451,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.95,
+          "recall": 0.9,
+          "f1-score": 0.9137254901960784,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          32,
+          4
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    },
+    "needs_escalation": {
+      "agreement": 36,
+      "denominator": 40,
+      "classes": [
+        "false",
+        "true"
+      ],
+      "report": {
+        "false": {
+          "precision": 0.972972972972973,
+          "recall": 0.9230769230769231,
+          "f1-score": 0.9473684210526315,
+          "support": 39.0
+        },
+        "true": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "accuracy": 0.9,
+        "macro avg": {
+          "precision": 0.4864864864864865,
+          "recall": 0.46153846153846156,
+          "f1-score": 0.47368421052631576,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.9486486486486487,
+          "recall": 0.9,
+          "f1-score": 0.9236842105263158,
+          "support": 40.0
+        }
+      },
+      "confusion": [
+        [
+          36,
+          3
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    }
+  },
+  "languages": {
+    "en": {
+      "exact_agreement": 3,
+      "denominator": 12,
+      "scenario_groups": 7,
+      "class_support": {
+        "single_action": 5,
+        "multi_step_task": 1,
+        "memory_recall": 3,
+        "escalate": 1,
+        "clarify": 1,
+        "direct_response": 1
+      },
+      "scripts": {
+        "latin": 12
+      },
+      "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+    },
+    "hi": {
+      "exact_agreement": 1,
+      "denominator": 1,
+      "scenario_groups": 1,
+      "class_support": {
+        "direct_response": 1
+      },
+      "scripts": {
+        "devanagari": 1
+      },
+      "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+    },
+    "hi-Latn": {
+      "exact_agreement": 0,
+      "denominator": 7,
+      "scenario_groups": 3,
+      "class_support": {
+        "memory_recall": 1,
+        "clarify": 1,
+        "single_action": 5
+      },
+      "scripts": {
+        "latin": 7
+      },
+      "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+    },
+    "mixed-en-hi": {
+      "exact_agreement": 1,
+      "denominator": 2,
+      "scenario_groups": 2,
+      "class_support": {
+        "multi_step_task": 1,
+        "memory_recall": 1
+      },
+      "scripts": {
+        "latin": 2
+      },
+      "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+    },
+    "mixed-en-ta": {
+      "exact_agreement": 1,
+      "denominator": 1,
+      "scenario_groups": 1,
+      "class_support": {
+        "multi_step_task": 1
+      },
+      "scripts": {
+        "latin": 1
+      },
+      "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+    },
+    "mixed-en-te": {
+      "exact_agreement": 0,
+      "denominator": 1,
+      "scenario_groups": 1,
+      "class_support": {
+        "multi_step_task": 1
+      },
+      "scripts": {
+        "latin": 1
+      },
+      "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+    },
+    "ta": {
+      "exact_agreement": 1,
+      "denominator": 1,
+      "scenario_groups": 1,
+      "class_support": {
+        "direct_response": 1
+      },
+      "scripts": {
+        "tamil": 1
+      },
+      "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+    },
+    "ta-Latn": {
+      "exact_agreement": 1,
+      "denominator": 7,
+      "scenario_groups": 3,
+      "class_support": {
+        "single_action": 5,
+        "clarify": 1,
+        "memory_recall": 1
+      },
+      "scripts": {
+        "latin": 7
+      },
+      "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+    },
+    "te": {
+      "exact_agreement": 1,
+      "denominator": 1,
+      "scenario_groups": 1,
+      "class_support": {
+        "direct_response": 1
+      },
+      "scripts": {
+        "telugu": 1
+      },
+      "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+    },
+    "te-Latn": {
+      "exact_agreement": 1,
+      "denominator": 7,
+      "scenario_groups": 3,
+      "class_support": {
+        "single_action": 5,
+        "memory_recall": 1,
+        "clarify": 1
+      },
+      "scripts": {
+        "latin": 7
+      },
+      "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+    }
+  },
+  "inference_failures": 0,
+  "abstentions": 2,
+  "cached_latency_ms": {
+    "median": 2.4987500000861473,
+    "p95": 3.5699200008821204
+  },
+  "predictions": [
+    {
+      "record_id": "compact-candidate-049de405e17f502f0a1d",
+      "original_id": "synth_open_archive_folder-en-01",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.2521666126834221,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Open the archive folder."
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-0b607b069fce05db80b3",
+      "original_id": "synth_open_archive_folder-te-Latn-01",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [
+          {
+            "reference": "archive folder open cheyyi",
+            "kind": "item",
+            "resolved_value": null
+          }
+        ],
+        "missing_information": [],
+        "confidence": 0.22970414865509156,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archive folder open cheyyi"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-12497cce3ae1e67f9fe3",
+      "original_id": "dev_memory_project-te-Latn",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "prior_conversation",
+            "reference": "prior discussion",
+            "resolved_value": "use a local cache"
+          }
+        ],
+        "execution_path": "memory_recall",
+        "intent": "recall",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "recall",
+        "execution_path": "memory_recall",
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "Orion project ki em choose chesamo gurthu cheyyi",
+            "kind": "prior_conversation",
+            "resolved_value": "use a local cache"
+          }
+        ],
+        "missing_information": [],
+        "confidence": 0.2677568670240786,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Orion project ki em choose chesamo gurthu cheyyi"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-174249e9e30faa16489a",
+      "original_id": "dev_stable_knowledge-te",
+      "expected": {
+        "context_references": [],
+        "execution_path": "direct_response",
+        "intent": "respond",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "respond",
+        "execution_path": "direct_response",
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.4144891302618249,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "ఆకుల రంగు ఎందుకు మారుతుంది?"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": true,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-2d29d7e553b74ad50b31",
+      "original_id": "synth_open_archive_folder-en-03",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.204767816584587,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Bring up the archive directory."
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-4b16f2d9ef5c913dd2c0",
+      "original_id": "synth_open_archive_folder-ta-Latn-01",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "clarify_request",
+        "execution_path": "clarify",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "archive folder-ai open pannu",
+            "kind": "item",
+            "resolved_value": null
+          }
+        ],
+        "missing_information": [
+          {
+            "name": "target",
+            "description": "The requested target is not identifiable"
+          }
+        ],
+        "confidence": 0.23395508636160448,
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archive folder-ai open pannu"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-58e4dcc4577d919e6740",
+      "original_id": "dev_multistep_guides-mixed-en-te",
+      "expected": {
+        "context_references": [],
+        "execution_path": "multi_step_task",
+        "intent": "research",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search"
+      },
+      "prediction": {
+        "intent": "research",
+        "execution_path": "multi_step_task",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.2258018172884649,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "two official accessibility guides find chesi differences summarize cheyyi"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-59dbe3caceaa6facaeec",
+      "original_id": "dev_multistep_guides-en",
+      "expected": {
+        "context_references": [],
+        "execution_path": "multi_step_task",
+        "intent": "research",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search"
+      },
+      "prediction": {
+        "intent": "research",
+        "execution_path": "multi_step_task",
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.4195156137233602,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Locate two official accessibility guides, read them, and summarize the differences."
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": true,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-5bb41551bde7365c7e6f",
+      "original_id": "dev_memory_project-hi-Latn",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "prior_conversation",
+            "reference": "prior discussion",
+            "resolved_value": "use a local cache"
+          }
+        ],
+        "execution_path": "memory_recall",
+        "intent": "recall",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "recall",
+        "execution_path": "memory_recall",
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "Orion project ke liye kya chuna tha yaad dilao",
+            "kind": "prior_conversation",
+            "resolved_value": "use a local cache"
+          }
+        ],
+        "missing_information": [],
+        "confidence": 0.24026647823365627,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Orion project ke liye kya chuna tha yaad dilao"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-65bf34347dabf7f0e54b",
+      "original_id": "synth_open_archive_folder-te-Latn-03",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "clarify_request",
+        "execution_path": "clarify",
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "it",
+            "kind": "item",
+            "resolved_value": null
+          }
+        ],
+        "missing_information": [
+          {
+            "name": "target",
+            "description": "Required information is not available in the supplied request or context"
+          }
+        ],
+        "confidence": 0.21200966153954687,
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archive directory paiki teesuku ra"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-69e2f6b95e52fc983471",
+      "original_id": "synth_open_archive_folder-ta-Latn-02",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.21402858560610663,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archived files directory kaatu"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-78a00b34902b7b0d9c7b",
+      "original_id": "synth_open_archive_folder-en-04",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.22796662596032646,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Open my old-records folder."
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-78b32893ee08710fbf15",
+      "original_id": "en-memory-001",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "prior_conversation",
+            "reference": "the database migration last week",
+            "resolved_value": "move the pilot after the billing release"
+          }
+        ],
+        "execution_path": "memory_recall",
+        "intent": "recall",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "recall",
+        "execution_path": "memory_recall",
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "prior discussion",
+            "kind": "prior_conversation",
+            "resolved_value": "move the pilot after the billing release"
+          }
+        ],
+        "missing_information": [],
+        "confidence": 0.39384987600335974,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "What did we decide about the database migration last week?"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-7917108a5d2747ee47e2",
+      "original_id": "dev_clarify_unresolved-hi-Latn",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "item",
+            "reference": "it",
+            "resolved_value": null
+          }
+        ],
+        "execution_path": "clarify",
+        "intent": "clarify_request",
+        "missing_information": [
+          {
+            "description": "The requested target is not identifiable",
+            "name": "target"
+          }
+        ],
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "clarify_request",
+        "execution_path": "clarify",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "it",
+            "kind": "item",
+            "resolved_value": null
+          }
+        ],
+        "missing_information": [
+          {
+            "name": "target",
+            "description": "Required information is not available in the supplied request or context"
+          }
+        ],
+        "confidence": 0.2601048249008296,
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "use phir se kholo"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-7f974114dddee61bb30d",
+      "original_id": "dev_stable_knowledge-ta",
+      "expected": {
+        "context_references": [],
+        "execution_path": "direct_response",
+        "intent": "respond",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "respond",
+        "execution_path": "direct_response",
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.32554307010267247,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "இலைகளின் நிறம் ஏன் மாறுகிறது?"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": true,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-893b671924b3cdf76af9",
+      "original_id": "dev_clarify_unresolved-ta-Latn",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "item",
+            "reference": "it",
+            "resolved_value": null
+          }
+        ],
+        "execution_path": "clarify",
+        "intent": "clarify_request",
+        "missing_information": [
+          {
+            "description": "The requested target is not identifiable",
+            "name": "target"
+          }
+        ],
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "clarify_request",
+        "execution_path": "clarify",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "it",
+            "kind": "item",
+            "resolved_value": null
+          }
+        ],
+        "missing_information": [
+          {
+            "name": "target",
+            "description": "The requested target is not identifiable"
+          }
+        ],
+        "confidence": 0.3279345715981353,
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "atha marubadiyum open pannu"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": true,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-8d9d53363a7e80b65910",
+      "original_id": "dev_memory_project-ta-Latn",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "prior_conversation",
+            "reference": "prior discussion",
+            "resolved_value": "use a local cache"
+          }
+        ],
+        "execution_path": "memory_recall",
+        "intent": "recall",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "recall",
+        "execution_path": "memory_recall",
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "Orion project-ku enna choose pannom nyabagam pannu",
+            "kind": "prior_conversation",
+            "resolved_value": "use a local cache"
+          }
+        ],
+        "missing_information": [],
+        "confidence": 0.2595496050974144,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Orion project-ku enna choose pannom nyabagam pannu"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-9134889c17e20b298d08",
+      "original_id": "ctx-hologram-001",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "project",
+            "reference": "our hologram project",
+            "resolved_value": "Aurora display"
+          }
+        ],
+        "execution_path": "memory_recall",
+        "intent": "recall",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "memory",
+          "conversational"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "recall",
+        "execution_path": "memory_recall",
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "our hologram project",
+            "kind": "project",
+            "resolved_value": "Aurora display"
+          }
+        ],
+        "missing_information": [],
+        "confidence": 0.2619616230150819,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Do you remember our hologram project?"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-9cb9c8bcba29e74f15ae",
+      "original_id": "synth_open_archive_folder-te-Latn-04",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.0,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [],
+        "abstained": true,
+        "abstention_reason": "missing_information_head_has_no_supported_name"
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-9cbae89423d15f2284ba",
+      "original_id": "synth_open_archive_folder-te-Latn-05",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.0,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [],
+        "abstained": true,
+        "abstention_reason": "missing_information_head_has_no_supported_name"
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-9d3a825394363d92559a",
+      "original_id": "dev_multistep_guides-mixed-en-ta",
+      "expected": {
+        "context_references": [],
+        "execution_path": "multi_step_task",
+        "intent": "research",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search"
+      },
+      "prediction": {
+        "intent": "research",
+        "execution_path": "multi_step_task",
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.3981550339533271,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "two official accessibility guides thedi differences summarize pannu"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": true,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-a11b4d43765487268c13",
+      "original_id": "synth_open_archive_folder-hi-Latn-01",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.21398964271266305,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archive folder kholo"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-a327a6b2341b41d26929",
+      "original_id": "synth_open_archive_folder-en-02",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "research",
+        "execution_path": "multi_step_task",
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.20996844302789988,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Show me the archived files directory."
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-a576ef35587382c078ec",
+      "original_id": "dev_memory_project-en",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "prior_conversation",
+            "reference": "prior discussion",
+            "resolved_value": "use a local cache"
+          }
+        ],
+        "execution_path": "memory_recall",
+        "intent": "recall",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "recall",
+        "execution_path": "memory_recall",
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "prior discussion",
+            "kind": "prior_conversation",
+            "resolved_value": "use a local cache"
+          }
+        ],
+        "missing_information": [],
+        "confidence": 0.2717675932197598,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Remind me what we chose for the Orion project."
+          }
+        ],
+        "abstained": false
+      },
+      "exact": true,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-a69cc23fe5cf19156f36",
+      "original_id": "synth_open_archive_folder-hi-Latn-03",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "clarify_request",
+        "execution_path": "clarify",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "it",
+            "kind": "item",
+            "resolved_value": null
+          }
+        ],
+        "missing_information": [
+          {
+            "name": "target",
+            "description": "The requested target is not identifiable"
+          }
+        ],
+        "confidence": 0.21887506332604345,
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archive directory saamne lao"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-ab3744d1834af5d70bb8",
+      "original_id": "en-music-001",
+      "expected": {
+        "context_references": [],
+        "execution_path": "escalate",
+        "intent": "unsupported_request",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "respond",
+        "execution_path": "direct_response",
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.23927413199600975,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Could you put on some instrumental focus music?"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-b597c5565f28de025678",
+      "original_id": "dev_multistep_guides-mixed-en-hi",
+      "expected": {
+        "context_references": [],
+        "execution_path": "multi_step_task",
+        "intent": "research",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search"
+      },
+      "prediction": {
+        "intent": "research",
+        "execution_path": "multi_step_task",
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.34624515027717917,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "do official accessibility guides dhoondh kar differences summarize karo"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": true,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-c024e829657449ff7957",
+      "original_id": "dev_clarify_unresolved-en",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "item",
+            "reference": "it",
+            "resolved_value": null
+          }
+        ],
+        "execution_path": "clarify",
+        "intent": "clarify_request",
+        "missing_information": [
+          {
+            "description": "The requested target is not identifiable",
+            "name": "target"
+          }
+        ],
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "clarify_request",
+        "execution_path": "clarify",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "Bring it up again.",
+            "kind": "prior_request",
+            "resolved_value": null
+          }
+        ],
+        "missing_information": [
+          {
+            "name": "prior_request",
+            "description": "Required information is not available in the supplied request or context"
+          }
+        ],
+        "confidence": 0.2310635566257594,
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Bring it up again."
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-c210c20fef2fd7008bc2",
+      "original_id": "synth_open_archive_folder-hi-Latn-05",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "unsupported_request",
+        "execution_path": "escalate",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.2113414383761827,
+        "needs_clarification": false,
+        "needs_escalation": true,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archive folder par le chalo"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-c2f83913c33fa5767279",
+      "original_id": "synth_open_archive_folder-ta-Latn-03",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "research",
+        "execution_path": "multi_step_task",
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.2385477621906238,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archive directory kondu vaa"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-c38f95986e35b22ce5e3",
+      "original_id": "dev_stable_knowledge-en",
+      "expected": {
+        "context_references": [],
+        "execution_path": "direct_response",
+        "intent": "respond",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "respond",
+        "execution_path": "direct_response",
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.309851807707667,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Why do leaves change colour?"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": true,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-cddfc38140aa4a573b0a",
+      "original_id": "synth_open_archive_folder-hi-Latn-04",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.20343064706429678,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "old records folder kholo"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-d2949db37fafcfe62c2a",
+      "original_id": "synth_open_archive_folder-te-Latn-02",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "research",
+        "execution_path": "multi_step_task",
+        "request_modes": [
+          "research",
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.20560924111038756,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archived files directory chupinchu"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-e39074e52cecbf1ed55d",
+      "original_id": "hi-codeswitch-memory-001",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "prior_conversation",
+            "reference": "Kal architecture ke baare mein",
+            "resolved_value": "keep the classifier outside tool execution"
+          }
+        ],
+        "execution_path": "memory_recall",
+        "intent": "recall",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "memory"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "recall",
+        "execution_path": "memory_recall",
+        "request_modes": [
+          "conversational",
+          "memory"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "prior discussion",
+            "kind": "prior_conversation",
+            "resolved_value": "keep the classifier outside tool execution"
+          }
+        ],
+        "missing_information": [],
+        "confidence": 0.35348366321980507,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Kal architecture ke baare mein humne kya decide kiya tha?"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-eb30f6b10d4aea5d74e7",
+      "original_id": "synth_open_archive_folder-ta-Latn-04",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "clarify_request",
+        "execution_path": "clarify",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "old records folder-ai open pannu",
+            "kind": "item",
+            "resolved_value": null
+          }
+        ],
+        "missing_information": [
+          {
+            "name": "target",
+            "description": "Required information is not available in the supplied request or context"
+          }
+        ],
+        "confidence": 0.22447807134751244,
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "old records folder-ai open pannu"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-efe6f8af703091366e1f",
+      "original_id": "synth_open_archive_folder-hi-Latn-02",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.215350880270754,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archived files directory dikhao"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-eff9f24d7bf6cf6b71e0",
+      "original_id": "dev_clarify_unresolved-te-Latn",
+      "expected": {
+        "context_references": [
+          {
+            "kind": "item",
+            "reference": "it",
+            "resolved_value": null
+          }
+        ],
+        "execution_path": "clarify",
+        "intent": "clarify_request",
+        "missing_information": [
+          {
+            "description": "The requested target is not identifiable",
+            "name": "target"
+          }
+        ],
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "clarify_request",
+        "execution_path": "clarify",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": null,
+        "context_references": [
+          {
+            "reference": "it",
+            "kind": "item",
+            "resolved_value": null
+          }
+        ],
+        "missing_information": [
+          {
+            "name": "target",
+            "description": "The requested target is not identifiable"
+          }
+        ],
+        "confidence": 0.27187959536469825,
+        "needs_clarification": true,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "adi malli open cheyyi"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": true,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-f8017db7fb2b0cca511b",
+      "original_id": "synth_open_archive_folder-en-05",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "use:google_search",
+        "execution_path": "single_action",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.22690110395695398,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "Take me to the archive folder."
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-f9399bada1346bf6b5ec",
+      "original_id": "synth_open_archive_folder-ta-Latn-05",
+      "expected": {
+        "context_references": [],
+        "execution_path": "single_action",
+        "intent": "use:open_folder",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "open_folder"
+      },
+      "prediction": {
+        "intent": "research",
+        "execution_path": "multi_step_task",
+        "request_modes": [
+          "action"
+        ],
+        "selected_capability": "google_search",
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.22780394412913008,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "archive folder-ku kondu po"
+          },
+          {
+            "kind": "capability",
+            "reference": "google_search"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": false,
+      "error": null
+    },
+    {
+      "record_id": "compact-candidate-fcc84fb726806f3bc6d2",
+      "original_id": "dev_stable_knowledge-hi",
+      "expected": {
+        "context_references": [],
+        "execution_path": "direct_response",
+        "intent": "respond",
+        "missing_information": [],
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null
+      },
+      "prediction": {
+        "intent": "respond",
+        "execution_path": "direct_response",
+        "request_modes": [
+          "conversational"
+        ],
+        "selected_capability": null,
+        "context_references": [],
+        "missing_information": [],
+        "confidence": 0.3663707154171766,
+        "needs_clarification": false,
+        "needs_escalation": false,
+        "evidence": [
+          {
+            "kind": "input_span",
+            "reference": "पत्तों का रंग क्यों बदलता है?"
+          }
+        ],
+        "abstained": false
+      },
+      "exact": true,
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+﻿ assistant/audio/capture.py        |  11 +-
+ assistant/config.py               |  50 ++++-
+ assistant/core/dispatcher.py      |   3 +
+ assistant/core/events.py          |   6 +
+ assistant/core/pipeline.py        |   6 +-
+ assistant/memory/engine.py        |   6 +-
+ assistant/orchestration/router.py | 114 ++++++++--
+ assistant/realtime/manager.py     |   1 +
+ assistant/stt/cloud.py            | 162 ++++++++++++---
+ assistant/stt/recognizer.py       | 425 +++++++++++++++++++++-----------------
+ tests/test_orchestration.py       |  19 ++
+ tests/test_resilience.py          |  13 +-
+ 12 files changed, 566 insertions(+), 250 deletions(-)

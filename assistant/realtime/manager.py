@@ -44,6 +44,7 @@ _REALTIME_TERMS = [
     r"current(?:ly)?", r"now", r"right now", r"this week", r"this month",
     r"this year", r"recent(?:ly)?", r"breaking", r"headlines?", r"update[ds]?",
     r"happening", r"happened", r"price of", r"trending", r"yesterday", r"tonight",
+    r"offers?", r"discounts?", r"deals?", r"promotions?",
 ]
 _REALTIME_RE = re.compile(r"\b(?:" + "|".join(_REALTIME_TERMS) + r")\b", re.I)
 

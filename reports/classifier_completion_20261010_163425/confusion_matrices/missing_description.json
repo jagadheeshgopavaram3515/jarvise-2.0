@@ -1,0 +1,18 @@
+{
+  "labels": [
+    "Required information is not available in the supplied request or context",
+    "The requested target is not identifiable"
+  ],
+  "matrix": [
+    [
+      0,
+      0
+    ],
+    [
+      2,
+      2
+    ]
+  ],
+  "denominator": 4,
+  "metric_type": "PROVISIONAL_LABEL_AGREEMENT"
+}

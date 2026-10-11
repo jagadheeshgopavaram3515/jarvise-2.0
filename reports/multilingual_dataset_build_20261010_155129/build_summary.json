@@ -1,0 +1,490 @@
+{
+  "counts": {
+    "verified_gold": 0,
+    "pending_review": 19,
+    "ambiguous": 0,
+    "rejected": 0,
+    "synthetic_unverified": 271,
+    "eligible_for_supervised_fitting": 0,
+    "held_out_new_final_evaluation": 0,
+    "canonical_nonsealed_candidates": 290,
+    "candidate_scenario_groups": 34,
+    "quarantine_total": 75,
+    "quarantine_recovered_nonsealed": 52,
+    "quarantine_protected_metadata_only": 23,
+    "original_test_unique_ids": 162,
+    "older_versions_collapsed": 502
+  },
+  "languages": [
+    {
+      "split": "candidate_unverified",
+      "language": "en",
+      "script": "latin",
+      "records": 76,
+      "split_denominator": 290,
+      "proportion": 0.2620689655172414,
+      "scenario_groups": 34,
+      "verified_gold_records": 0,
+      "status": "UNVERIFIED"
+    },
+    {
+      "split": "candidate_unverified",
+      "language": "hi",
+      "script": "devanagari",
+      "records": 13,
+      "split_denominator": 290,
+      "proportion": 0.04482758620689655,
+      "scenario_groups": 5,
+      "verified_gold_records": 0,
+      "status": "UNVERIFIED"
+    },
+    {
+      "split": "candidate_unverified",
+      "language": "hi-Latn",
+      "script": "latin",
+      "records": 44,
+      "split_denominator": 290,
+      "proportion": 0.15172413793103448,
+      "scenario_groups": 19,
+      "verified_gold_records": 0,
+      "status": "UNVERIFIED"
+    },
+    {
+      "split": "candidate_unverified",
+      "language": "mixed-en-hi",
+      "script": "latin",
+      "records": 15,
+      "split_denominator": 290,
+      "proportion": 0.05172413793103448,
+      "scenario_groups": 7,
+      "verified_gold_records": 0,
+      "status": "UNVERIFIED"
+    },
+    {
+      "split": "candidate_unverified",
+      "language": "mixed-en-ta",
+      "script": "latin",
+      "records": 14,
+      "split_denominator": 290,
+      "proportion": 0.04827586206896552,
+      "scenario_groups": 6,
+      "verified_gold_records": 0,
+      "status": "UNVERIFIED"
+    },
+    {
+      "split": "candidate_unverified",
+      "language": "mixed-en-te",
+      "script": "latin",
+      "records": 14,
+      "split_denominator": 290,
+      "proportion": 0.04827586206896552,
+      "scenario_groups": 6,
+      "verified_gold_records": 0,
+      "status": "UNVERIFIED"
+    },
+    {
+      "split": "candidate_unverified",
+      "language": "ta",
+      "script": "tamil",
+      "records": 13,
+      "split_denominator": 290,
+      "proportion": 0.04482758620689655,
+      "scenario_groups": 5,
+      "verified_gold_records": 0,
+      "status": "UNVERIFIED"
+    },
+    {
+      "split": "candidate_unverified",
+      "language": "ta-Latn",
+      "script": "latin",
+      "records": 44,
+      "split_denominator": 290,
+      "proportion": 0.15172413793103448,
+      "scenario_groups": 19,
+      "verified_gold_records": 0,
+      "status": "UNVERIFIED"
+    },
+    {
+      "split": "candidate_unverified",
+      "language": "te",
+      "script": "telugu",
+      "records": 13,
+      "split_denominator": 290,
+      "proportion": 0.04482758620689655,
+      "scenario_groups": 5,
+      "verified_gold_records": 0,
+      "status": "UNVERIFIED"
+    },
+    {
+      "split": "candidate_unverified",
+      "language": "te-Latn",
+      "script": "latin",
+      "records": 44,
+      "split_denominator": 290,
+      "proportion": 0.15172413793103448,
+      "scenario_groups": 19,
+      "verified_gold_records": 0,
+      "status": "UNVERIFIED"
+    }
+  ],
+  "regression_test_status": "NOT_RUN_YET",
+  "recovery_counts": {
+    "PROTECTED_ORIGINAL_TEST_CANDIDATE_METADATA_ONLY": 23,
+    "RECOVERED_UNVERIFIED_CANDIDATE": 52
+  },
+  "gold_bundle": "359 blank judgments; exact-schema gold unavailable",
+  "registry": {
+    "location": {
+      "name": "location",
+      "description": "Determine the user's current geographic location (city, region, country, latitude, longitude).",
+      "required_arguments": [],
+      "parameter_schema": {
+        "type": "object",
+        "properties": {
+          "purpose": {
+            "type": "string",
+            "description": "Purpose for requesting location (e.g. 'weather', 'general')."
+          }
+        },
+        "required": []
+      }
+    },
+    "weather": {
+      "name": "weather",
+      "description": "Fetch current weather conditions, temperature, humidity, wind, and rain for given coordinates or city.",
+      "required_arguments": [],
+      "parameter_schema": {
+        "type": "object",
+        "properties": {
+          "latitude": {
+            "type": "number",
+            "description": "Latitude float coordinate (optional if city provided)."
+          },
+          "longitude": {
+            "type": "number",
+            "description": "Longitude float coordinate (optional if city provided)."
+          },
+          "city": {
+            "type": "string",
+            "description": "City or locality name (e.g. 'Hyderabad', 'London')."
+          }
+        },
+        "required": []
+      }
+    },
+    "open_app": {
+      "name": "open_app",
+      "description": "Open/launch a desktop application by name on Windows (chrome, edge, vs code, notepad, calculator, explorer).",
+      "required_arguments": [
+        "app"
+      ],
+      "parameter_schema": {
+        "type": "object",
+        "properties": {
+          "app": {
+            "type": "string",
+            "description": "Application to open, e.g. 'chrome', 'vs code', 'notepad', 'calculator'."
+          }
+        },
+        "required": [
+          "app"
+        ]
+      }
+    },
+    "close_app": {
+      "name": "close_app",
+      "description": "Close a running desktop application by name (chrome, edge, vs code, notepad).",
+      "required_arguments": [
+        "app"
+      ],
+      "parameter_schema": {
+        "type": "object",
+        "properties": {
+          "app": {
+            "type": "string",
+            "description": "Application to close, e.g. 'chrome', 'notepad'."
+          }
+        },
+        "required": [
+          "app"
+        ]
+      }
+    },
+    "list_running_apps": {
+      "name": "list_running_apps",
+      "description": "List the known desktop applications currently running.",
+      "required_arguments": [],
+      "parameter_schema": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    },
+    "find_file": {
+      "name": "find_file",
+      "description": "Find files whose name matches the given filename (read-only search of common user folders).",
+      "required_arguments": [
+        "filename"
+      ],
+      "parameter_schema": {
+        "type": "object",
+        "properties": {
+          "filename": {
+            "type": "string",
+            "description": "Name (or part of a name) to find, e.g. 'resume', 'budget.xlsx'."
+          }
+        },
+        "required": [
+          "filename"
+        ]
+      }
+    },
+    "search_files": {
+      "name": "search_files",
+      "description": "Search common user folders for files containing a keyword in their name (read-only).",
+      "required_arguments": [
+        "keyword"
+      ],
+      "parameter_schema": {
+        "type": "object",
+        "properties": {
+          "keyword": {
+            "type": "string",
+            "description": "Keyword to look for in file names."
+          }
+        },
+        "required": [
+          "keyword"
+        ]
+      }
+    },
+    "open_file": {
+      "name": "open_file",
+      "description": "Open a file with its default application (read-only: only opens, never edits or deletes).",
+      "required_arguments": [
+        "path"
+      ],
+      "parameter_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Full path to the file."
+          }
+        },
+        "required": [
+          "path"
+        ]
+      }
+    },
+    "open_folder": {
+      "name": "open_folder",
+      "description": "Open a folder in Windows Explorer (read-only navigation).",
+      "required_arguments": [
+        "path"
+      ],
+      "parameter_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Folder path or known name, e.g. 'Bluye', 'Documents', 'Downloads'."
+          }
+        },
+        "required": [
+          "path"
+        ]
+      }
+    },
+    "recent_files": {
+      "name": "recent_files",
+      "description": "List the most recently modified files in common user folders.",
+      "required_arguments": [],
+      "parameter_schema": {
+        "type": "object",
+        "properties": {
+          "limit": {
+            "type": "integer",
+            "description": "How many recent files to return (default 10)."
+          }
+        },
+        "required": []
+      }
+    },
+    "read_file": {
+      "name": "read_file",
+      "description": "Read lines from a text file within the project root (bounded by offset and limit).",
+      "required_arguments": [
+        "path"
+      ],
+      "parameter_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Relative or project-bound path to the file to read."
+          },
+          "offset": {
+            "type": "integer",
+            "description": "Starting line number (1-indexed, default 1)."
+          },
+          "limit": {
+            "type": "integer",
+            "description": "Number of lines to read (max 200, default 100)."
+          }
+        },
+        "required": [
+          "path"
+        ]
+      }
+    },
+    "list_directory": {
+      "name": "list_directory",
+      "description": "List files and folders within the project root directory.",
+      "required_arguments": [],
+      "parameter_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Subdirectory to list (relative to project root; empty for root)."
+          }
+        },
+        "required": []
+      }
+    },
+    "grep_code": {
+      "name": "grep_code",
+      "description": "Search for a text pattern in code and config files across the project.",
+      "required_arguments": [
+        "query"
+      ],
+      "parameter_schema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Text pattern or symbol to search for."
+          },
+          "path": {
+            "type": "string",
+            "description": "Subdirectory to restrict search to (empty for full project)."
+          }
+        },
+        "required": [
+          "query"
+        ]
+      }
+    },
+    "run_project_tests": {
+      "name": "run_project_tests",
+      "description": "Execute approved project test modules safely using Python subprocess.",
+      "required_arguments": [],
+      "parameter_schema": {
+        "type": "object",
+        "properties": {
+          "test_target": {
+            "type": "string",
+            "description": "Specific test file or module (e.g. 'tests/test_orchestration.py' or empty for all)."
+          }
+        },
+        "required": []
+      }
+    },
+    "open_url": {
+      "name": "open_url",
+      "description": "Open a web page URL in the default browser.",
+      "required_arguments": [
+        "url"
+      ],
+      "parameter_schema": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string",
+            "description": "The URL to open."
+          }
+        },
+        "required": [
+          "url"
+        ]
+      }
+    },
+    "google_search": {
+      "name": "google_search",
+      "description": "Open a Google search for the given query in the browser.",
+      "required_arguments": [
+        "query"
+      ],
+      "parameter_schema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "What to search for."
+          }
+        },
+        "required": [
+          "query"
+        ]
+      }
+    },
+    "youtube_search": {
+      "name": "youtube_search",
+      "description": "Open a YouTube search for the given query in the browser.",
+      "required_arguments": [
+        "query"
+      ],
+      "parameter_schema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "What to search YouTube for."
+          }
+        },
+        "required": [
+          "query"
+        ]
+      }
+    },
+    "read_page": {
+      "name": "read_page",
+      "description": "Fetch a web page (headless) and return a snippet of its readable text. DOM-based, read-only.",
+      "required_arguments": [
+        "url"
+      ],
+      "parameter_schema": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string",
+            "description": "The URL to read."
+          }
+        },
+        "required": [
+          "url"
+        ]
+      }
+    },
+    "get_page_title": {
+      "name": "get_page_title",
+      "description": "Fetch a web page (headless) and return its <title>. DOM-based, read-only.",
+      "required_arguments": [
+        "url"
+      ],
+      "parameter_schema": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string",
+            "description": "The URL whose title to read."
+          }
+        },
+        "required": [
+          "url"
+        ]
+      }
+    }
+  }
+}

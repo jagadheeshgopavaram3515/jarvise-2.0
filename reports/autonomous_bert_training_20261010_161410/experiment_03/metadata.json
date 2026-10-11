@@ -1,0 +1,123 @@
+{
+  "experiment": "experiment_03",
+  "configuration": {
+    "C": 16.0,
+    "class_weight": "balanced",
+    "solver": "lbfgs",
+    "penalty": "l2",
+    "max_iter": 3000,
+    "seed": 42
+  },
+  "model_sha256": "e05739a85fe83756689dfa35dd5e5ad0790b6ce4f9da824e4a44bdc7c9d96e93",
+  "training_records": 232,
+  "validation_records": 40,
+  "encoder_frozen": true,
+  "training_seconds": 0.7993700504302979,
+  "convergence_warnings": [],
+  "head_classes": {
+    "execution_path": [
+      "clarify",
+      "direct_response",
+      "escalate",
+      "memory_recall",
+      "multi_step_task",
+      "research",
+      "single_action"
+    ],
+    "clarification": [
+      0,
+      1
+    ],
+    "escalation": [
+      0,
+      1
+    ],
+    "missing_information": [
+      "__none__",
+      "prior_request",
+      "target"
+    ],
+    "reference_kind": [
+      "__none__",
+      "folder",
+      "item",
+      "prior_conversation",
+      "prior_request",
+      "search_result"
+    ],
+    "reference_resolved": [
+      0,
+      1
+    ],
+    "capability_matcher": [
+      0,
+      1
+    ]
+  },
+  "request_mode_classes": {
+    "conversational": [
+      0,
+      1
+    ],
+    "memory": [
+      0,
+      1
+    ],
+    "research": [
+      0,
+      1
+    ],
+    "action": [
+      0,
+      1
+    ]
+  },
+  "primary": {
+    "agreement": 8,
+    "denominator": 40,
+    "value": 0.2
+  },
+  "fields": {
+    "intent": {
+      "agreement": 19,
+      "denominator": 40,
+      "value": 0.475
+    },
+    "execution_path": {
+      "agreement": 26,
+      "denominator": 40,
+      "value": 0.65
+    },
+    "request_modes": {
+      "agreement": 36,
+      "denominator": 40,
+      "value": 0.9
+    },
+    "selected_capability": {
+      "agreement": 20,
+      "denominator": 40,
+      "value": 0.5
+    },
+    "context_references": {
+      "agreement": 27,
+      "denominator": 40,
+      "value": 0.675
+    },
+    "missing_information": {
+      "agreement": 27,
+      "denominator": 40,
+      "value": 0.675
+    },
+    "needs_clarification": {
+      "agreement": 31,
+      "denominator": 40,
+      "value": 0.775
+    },
+    "needs_escalation": {
+      "agreement": 38,
+      "denominator": 40,
+      "value": 0.95
+    }
+  },
+  "weight_finiteness": true
+}

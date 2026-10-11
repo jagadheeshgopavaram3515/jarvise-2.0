@@ -1,0 +1,56 @@
+{
+  "configs": [
+    {
+      "C": 4,
+      "weight": "balanced",
+      "style": "full",
+      "capability_threshold": 0.5
+    },
+    {
+      "C": 4,
+      "weight": "balanced",
+      "style": "interaction",
+      "capability_threshold": 0.5
+    },
+    {
+      "C": 4,
+      "weight": null,
+      "style": "interaction",
+      "capability_threshold": 0.5
+    },
+    {
+      "C": 4,
+      "weight": "balanced",
+      "style": "interaction",
+      "capability_threshold": 0.25
+    },
+    {
+      "C": 1,
+      "weight": "balanced",
+      "style": "interaction",
+      "capability_threshold": 0.25
+    },
+    {
+      "C": 16,
+      "weight": "balanced",
+      "style": "interaction",
+      "capability_threshold": 0.25
+    },
+    {
+      "C": 4,
+      "weight": null,
+      "style": "full",
+      "capability_threshold": 0.25
+    },
+    {
+      "C": 16,
+      "weight": null,
+      "style": "interaction",
+      "capability_threshold": 0.25
+    }
+  ],
+  "fixed_validation_sha256": "6f8cf0d9a8b1b7aab65d2fc2918bf26d327af00b4c76bf28f94aaad936a36692",
+  "rendering_targets": "TRAIN only; no validation labels in renderer vocabulary",
+  "new_heads": "reference_span and missing_description are LR renderers preserving ClassifierDecision output shape",
+  "encoder_frozen": true
+}

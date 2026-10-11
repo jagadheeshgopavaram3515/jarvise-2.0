@@ -1,0 +1,134 @@
+{
+  "en": {
+    "exact_agreement": 2,
+    "denominator": 12,
+    "scenario_groups": 7,
+    "class_support": {
+      "single_action": 5,
+      "multi_step_task": 1,
+      "memory_recall": 3,
+      "escalate": 1,
+      "clarify": 1,
+      "direct_response": 1
+    },
+    "scripts": {
+      "latin": 12
+    },
+    "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+  },
+  "hi": {
+    "exact_agreement": 1,
+    "denominator": 1,
+    "scenario_groups": 1,
+    "class_support": {
+      "direct_response": 1
+    },
+    "scripts": {
+      "devanagari": 1
+    },
+    "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+  },
+  "hi-Latn": {
+    "exact_agreement": 0,
+    "denominator": 7,
+    "scenario_groups": 3,
+    "class_support": {
+      "memory_recall": 1,
+      "clarify": 1,
+      "single_action": 5
+    },
+    "scripts": {
+      "latin": 7
+    },
+    "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+  },
+  "mixed-en-hi": {
+    "exact_agreement": 1,
+    "denominator": 2,
+    "scenario_groups": 2,
+    "class_support": {
+      "multi_step_task": 1,
+      "memory_recall": 1
+    },
+    "scripts": {
+      "latin": 2
+    },
+    "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+  },
+  "mixed-en-ta": {
+    "exact_agreement": 1,
+    "denominator": 1,
+    "scenario_groups": 1,
+    "class_support": {
+      "multi_step_task": 1
+    },
+    "scripts": {
+      "latin": 1
+    },
+    "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+  },
+  "mixed-en-te": {
+    "exact_agreement": 1,
+    "denominator": 1,
+    "scenario_groups": 1,
+    "class_support": {
+      "multi_step_task": 1
+    },
+    "scripts": {
+      "latin": 1
+    },
+    "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+  },
+  "ta": {
+    "exact_agreement": 1,
+    "denominator": 1,
+    "scenario_groups": 1,
+    "class_support": {
+      "direct_response": 1
+    },
+    "scripts": {
+      "tamil": 1
+    },
+    "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+  },
+  "ta-Latn": {
+    "exact_agreement": 1,
+    "denominator": 7,
+    "scenario_groups": 3,
+    "class_support": {
+      "single_action": 5,
+      "clarify": 1,
+      "memory_recall": 1
+    },
+    "scripts": {
+      "latin": 7
+    },
+    "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+  },
+  "te": {
+    "exact_agreement": 1,
+    "denominator": 1,
+    "scenario_groups": 1,
+    "class_support": {
+      "direct_response": 1
+    },
+    "scripts": {
+      "telugu": 1
+    },
+    "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+  },
+  "te-Latn": {
+    "exact_agreement": 1,
+    "denominator": 7,
+    "scenario_groups": 3,
+    "class_support": {
+      "single_action": 5,
+      "memory_recall": 1,
+      "clarify": 1
+    },
+    "scripts": {
+      "latin": 7
+    },
+    "status": "INSUFFICIENT_INDEPENDENTLY_VERIFIED_EVIDENCE"
+  }
+}

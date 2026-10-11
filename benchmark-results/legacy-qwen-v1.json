@@ -1,0 +1,1084 @@
+{
+  "report_schema_version": "1.0",
+  "dataset": {
+    "schema_version": "1.0",
+    "path": "benchmarks\\fast_classifier\\v1\\seed.jsonl",
+    "split": "mixed"
+  },
+  "adapter": {
+    "id": "legacy-qwen:qwen2.5-coder:3b",
+    "kind": "legacy",
+    "measurement_kind": "real_model_or_deterministic_fast_path",
+    "configuration": {
+      "model": "qwen2.5-coder:3b",
+      "base_url": "http://localhost:11434",
+      "classifier_timeout_s": 5.0,
+      "keep_alive": "10m"
+    }
+  },
+  "counts": {
+    "total": 28,
+    "successful_predictions": 28,
+    "invalid_outputs": 0,
+    "errors": 0,
+    "timeouts": 0,
+    "not_applicable_execution_paths": 5
+  },
+  "coverage": {
+    "languages": {
+      "en": 18,
+      "hi": 1,
+      "hi-Latn": 1,
+      "mixed-en-hi": 1,
+      "mixed-en-ta": 1,
+      "mixed-en-te": 1,
+      "ta": 1,
+      "ta-Latn": 1,
+      "te": 2,
+      "te-Latn": 1
+    },
+    "categories": {
+      "ambiguity": 2,
+      "browser_action": 2,
+      "code_switching": 3,
+      "context_resolved": 7,
+      "context_unresolved": 3,
+      "conversation": 4,
+      "current_information": 3,
+      "desktop_action": 6,
+      "follow_up": 3,
+      "home_automation": 1,
+      "knowledge": 2,
+      "memory": 3,
+      "missing_argument": 2,
+      "mixed_intent": 1,
+      "multi_step": 1,
+      "music_action": 1,
+      "native_script": 4,
+      "research": 5,
+      "romanized": 5,
+      "spelling_variation": 2,
+      "stt_noise": 1,
+      "supported_capability": 8,
+      "unseen_paraphrase": 3,
+      "unsupported_capability": 2
+    }
+  },
+  "metrics": {
+    "execution_path": {
+      "available": true,
+      "applicable": 23,
+      "correct": 4,
+      "accuracy": 0.17391304347826086
+    },
+    "intent": {
+      "available": false,
+      "reason": "legacy classify() does not expose this field"
+    },
+    "request_modes": {
+      "available": false,
+      "reason": "legacy classify() does not expose this field"
+    },
+    "selected_capability": {
+      "available": false,
+      "reason": "legacy classify() does not expose this field"
+    },
+    "context_references": {
+      "available": false,
+      "reason": "legacy classify() does not expose this field"
+    },
+    "missing_information": {
+      "available": false,
+      "reason": "legacy classify() does not expose this field"
+    },
+    "needs_clarification": {
+      "available": false,
+      "reason": "legacy classify() does not expose this field"
+    },
+    "needs_escalation": {
+      "available": false,
+      "reason": "legacy classify() does not expose this field"
+    }
+  },
+  "group_metrics": {
+    "language": {
+      "en": {
+        "examples": 13,
+        "execution_path_accuracy": 0.23076923076923078
+      },
+      "hi": {
+        "examples": 1,
+        "execution_path_accuracy": 0.0
+      },
+      "hi-Latn": {
+        "examples": 1,
+        "execution_path_accuracy": 0.0
+      },
+      "mixed-en-hi": {
+        "examples": 1,
+        "execution_path_accuracy": 1.0
+      },
+      "mixed-en-ta": {
+        "examples": 1,
+        "execution_path_accuracy": 0.0
+      },
+      "mixed-en-te": {
+        "examples": 1,
+        "execution_path_accuracy": 0.0
+      },
+      "ta": {
+        "examples": 1,
+        "execution_path_accuracy": 0.0
+      },
+      "ta-Latn": {
+        "examples": 1,
+        "execution_path_accuracy": 0.0
+      },
+      "te": {
+        "examples": 2,
+        "execution_path_accuracy": 0.0
+      },
+      "te-Latn": {
+        "examples": 1,
+        "execution_path_accuracy": 0.0
+      }
+    },
+    "category": {
+      "browser_action": {
+        "examples": 2,
+        "execution_path_accuracy": 0.0
+      },
+      "code_switching": {
+        "examples": 3,
+        "execution_path_accuracy": 0.3333333333333333
+      },
+      "context_resolved": {
+        "examples": 6,
+        "execution_path_accuracy": 0.16666666666666666
+      },
+      "conversation": {
+        "examples": 4,
+        "execution_path_accuracy": 0.25
+      },
+      "current_information": {
+        "examples": 3,
+        "execution_path_accuracy": 0.3333333333333333
+      },
+      "desktop_action": {
+        "examples": 6,
+        "execution_path_accuracy": 0.0
+      },
+      "follow_up": {
+        "examples": 2,
+        "execution_path_accuracy": 0.0
+      },
+      "knowledge": {
+        "examples": 2,
+        "execution_path_accuracy": 0.5
+      },
+      "memory": {
+        "examples": 3,
+        "execution_path_accuracy": 0.3333333333333333
+      },
+      "mixed_intent": {
+        "examples": 1,
+        "execution_path_accuracy": 0.0
+      },
+      "multi_step": {
+        "examples": 1,
+        "execution_path_accuracy": 0.0
+      },
+      "music_action": {
+        "examples": 1,
+        "execution_path_accuracy": 0.0
+      },
+      "native_script": {
+        "examples": 4,
+        "execution_path_accuracy": 0.0
+      },
+      "research": {
+        "examples": 4,
+        "execution_path_accuracy": 0.25
+      },
+      "romanized": {
+        "examples": 5,
+        "execution_path_accuracy": 0.0
+      },
+      "spelling_variation": {
+        "examples": 2,
+        "execution_path_accuracy": 0.0
+      },
+      "stt_noise": {
+        "examples": 1,
+        "execution_path_accuracy": 0.0
+      },
+      "supported_capability": {
+        "examples": 8,
+        "execution_path_accuracy": 0.0
+      },
+      "unseen_paraphrase": {
+        "examples": 3,
+        "execution_path_accuracy": 0.6666666666666666
+      }
+    }
+  },
+  "latency": {
+    "timer": "time.perf_counter_ns",
+    "method": "nearest-rank percentiles",
+    "successful_predictions": {
+      "count": 28,
+      "mean_ms": 2023.3352607142856,
+      "p50_ms": 2444.6635,
+      "p95_ms": 2545.3197
+    },
+    "cold_first_invocation": {
+      "count": 1,
+      "mean_ms": 2482.0241,
+      "p50_ms": 2482.0241,
+      "p95_ms": 2482.0241
+    },
+    "warm_subsequent_invocations": {
+      "count": 27,
+      "mean_ms": 2006.3467851851851,
+      "p50_ms": 2444.6635,
+      "p95_ms": 2545.3197
+    },
+    "process_startup_and_model_loading_ms": null,
+    "by_inference_provenance": {
+      "deterministic_fast_path": {
+        "count": 5,
+        "mean_ms": 0.19341999999999998,
+        "p50_ms": 0.1658,
+        "p95_ms": 0.2976
+      },
+      "local_model": {
+        "count": 23,
+        "mean_ms": 2463.148704347826,
+        "p50_ms": 2457.6548,
+        "p95_ms": 2545.3197
+      }
+    },
+    "note": "Cold is the first benchmark invocation only. It is not guaranteed to include process startup or model loading; those are not measured separately. Warm does not prove cache state."
+  },
+  "failures": [
+    {
+      "id": "en-memory-001",
+      "status": "success",
+      "expected_execution_path": "GEMINI",
+      "prediction": {
+        "execution_path": "TASK"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "en-desktop-001",
+      "status": "success",
+      "expected_execution_path": "TASK",
+      "prediction": {
+        "execution_path": "LOCAL"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "en-browser-001",
+      "status": "success",
+      "expected_execution_path": "TASK",
+      "prediction": {
+        "execution_path": "LOCAL"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "en-music-001",
+      "status": "success",
+      "expected_execution_path": "TASK",
+      "prediction": {
+        "execution_path": "LOCAL"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "en-multistep-001",
+      "status": "success",
+      "expected_execution_path": "TASK",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "ctx-hologram-001",
+      "status": "success",
+      "expected_execution_path": "GEMINI",
+      "prediction": {
+        "execution_path": "LOCAL"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "ctx-continue-resolved-001",
+      "status": "success",
+      "expected_execution_path": "TASK",
+      "prediction": {
+        "execution_path": "LOCAL"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "mixed-conversation-action-001",
+      "status": "success",
+      "expected_execution_path": "TASK",
+      "prediction": {
+        "execution_path": "LOCAL"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "stt-noisy-action-001",
+      "status": "success",
+      "expected_execution_path": "TASK",
+      "prediction": {
+        "execution_path": "LOCAL"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "te-native-conversation-001",
+      "status": "success",
+      "expected_execution_path": "LOCAL",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "te-native-action-001",
+      "status": "success",
+      "expected_execution_path": "TASK",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "te-romanized-knowledge-001",
+      "status": "success",
+      "expected_execution_path": "LOCAL",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "te-codeswitch-research-001",
+      "status": "success",
+      "expected_execution_path": "TASK",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "hi-native-conversation-001",
+      "status": "success",
+      "expected_execution_path": "LOCAL",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "hi-romanized-action-001",
+      "status": "success",
+      "expected_execution_path": "TASK",
+      "prediction": {
+        "execution_path": "LOCAL"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "ta-native-conversation-001",
+      "status": "success",
+      "expected_execution_path": "LOCAL",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "ta-romanized-action-001",
+      "status": "success",
+      "expected_execution_path": "TASK",
+      "prediction": {
+        "execution_path": "LOCAL"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "ta-codeswitch-research-001",
+      "status": "success",
+      "expected_execution_path": "TASK",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    },
+    {
+      "id": "ctx-browser-resolved-001",
+      "status": "success",
+      "expected_execution_path": "TASK",
+      "prediction": {
+        "execution_path": "LOCAL"
+      },
+      "failed_metrics": [
+        "execution_path"
+      ],
+      "error": null
+    }
+  ],
+  "records": [
+    {
+      "id": "en-conversation-001",
+      "split": "dev",
+      "language": "en",
+      "categories": [
+        "conversation",
+        "unseen_paraphrase"
+      ],
+      "expected_execution_path": "LOCAL",
+      "inference_provenance": "local_model",
+      "latency_ms": 2482.0241,
+      "status": "success",
+      "prediction": {
+        "execution_path": "LOCAL"
+      },
+      "reported_latency_ms": 2481.5065000002505,
+      "comparisons": {
+        "execution_path": true
+      }
+    },
+    {
+      "id": "en-knowledge-001",
+      "split": "test",
+      "language": "en",
+      "categories": [
+        "knowledge",
+        "unseen_paraphrase"
+      ],
+      "expected_execution_path": "LOCAL",
+      "inference_provenance": "local_model",
+      "latency_ms": 2545.3197,
+      "status": "success",
+      "prediction": {
+        "execution_path": "LOCAL"
+      },
+      "reported_latency_ms": 2545.1029000000744,
+      "comparisons": {
+        "execution_path": true
+      }
+    },
+    {
+      "id": "en-memory-001",
+      "split": "dev",
+      "language": "en",
+      "categories": [
+        "memory",
+        "context_resolved"
+      ],
+      "expected_execution_path": "GEMINI",
+      "inference_provenance": "local_model",
+      "latency_ms": 2440.5262,
+      "status": "success",
+      "prediction": {
+        "execution_path": "TASK"
+      },
+      "reported_latency_ms": 2440.3102000001127,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "en-research-001",
+      "split": "test",
+      "language": "en",
+      "categories": [
+        "research",
+        "current_information"
+      ],
+      "expected_execution_path": "TASK",
+      "inference_provenance": "local_model",
+      "latency_ms": 2545.9472,
+      "status": "success",
+      "prediction": {
+        "execution_path": "TASK"
+      },
+      "reported_latency_ms": 2545.7344999999805,
+      "comparisons": {
+        "execution_path": true
+      }
+    },
+    {
+      "id": "en-desktop-001",
+      "split": "dev",
+      "language": "en",
+      "categories": [
+        "desktop_action",
+        "supported_capability"
+      ],
+      "expected_execution_path": "TASK",
+      "inference_provenance": "local_model",
+      "latency_ms": 2456.2756,
+      "status": "success",
+      "prediction": {
+        "execution_path": "LOCAL"
+      },
+      "reported_latency_ms": 2456.061899999895,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "en-browser-001",
+      "split": "test",
+      "language": "en",
+      "categories": [
+        "browser_action",
+        "supported_capability"
+      ],
+      "expected_execution_path": "TASK",
+      "inference_provenance": "local_model",
+      "latency_ms": 2432.4213,
+      "status": "success",
+      "prediction": {
+        "execution_path": "LOCAL"
+      },
+      "reported_latency_ms": 2432.086199999958,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "en-music-001",
+      "split": "dev",
+      "language": "en",
+      "categories": [
+        "music_action",
+        "supported_capability",
+        "unseen_paraphrase"
+      ],
+      "expected_execution_path": "TASK",
+      "inference_provenance": "local_model",
+      "latency_ms": 2535.223,
+      "status": "success",
+      "prediction": {
+        "execution_path": "LOCAL"
+      },
+      "reported_latency_ms": 2535.0085000000036,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "en-multistep-001",
+      "split": "test",
+      "language": "en",
+      "categories": [
+        "multi_step",
+        "research",
+        "supported_capability"
+      ],
+      "expected_execution_path": "TASK",
+      "inference_provenance": "local_model",
+      "latency_ms": 2518.9736,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 2518.7550999999075,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "ctx-hologram-001",
+      "split": "dev",
+      "language": "en",
+      "categories": [
+        "memory",
+        "context_resolved"
+      ],
+      "expected_execution_path": "GEMINI",
+      "inference_provenance": "local_model",
+      "latency_ms": 2510.6776,
+      "status": "success",
+      "prediction": {
+        "execution_path": "LOCAL"
+      },
+      "reported_latency_ms": 2510.3989999997793,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "ctx-continue-resolved-001",
+      "split": "dev",
+      "language": "en",
+      "categories": [
+        "follow_up",
+        "context_resolved",
+        "supported_capability"
+      ],
+      "expected_execution_path": "TASK",
+      "inference_provenance": "local_model",
+      "latency_ms": 2457.9337,
+      "status": "success",
+      "prediction": {
+        "execution_path": "LOCAL"
+      },
+      "reported_latency_ms": 2457.6443000000836,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "ctx-continue-unresolved-001",
+      "split": "dev",
+      "language": "en",
+      "categories": [
+        "follow_up",
+        "ambiguity",
+        "context_unresolved"
+      ],
+      "expected_execution_path": "clarify",
+      "inference_provenance": "local_model",
+      "latency_ms": 2257.7571,
+      "status": "success",
+      "prediction": {
+        "execution_path": "LOCAL"
+      },
+      "reported_latency_ms": 2257.059600000048,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "ctx-open-missing-001",
+      "split": "test",
+      "language": "en",
+      "categories": [
+        "ambiguity",
+        "missing_argument",
+        "context_unresolved"
+      ],
+      "expected_execution_path": "clarify",
+      "inference_provenance": "local_model",
+      "latency_ms": 2516.4782,
+      "status": "success",
+      "prediction": {
+        "execution_path": "LOCAL"
+      },
+      "reported_latency_ms": 2515.990299999885,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "cap-unsupported-email-001",
+      "split": "test",
+      "language": "en",
+      "categories": [
+        "unsupported_capability",
+        "context_resolved"
+      ],
+      "expected_execution_path": "escalate",
+      "inference_provenance": "local_model",
+      "latency_ms": 2457.928,
+      "status": "success",
+      "prediction": {
+        "execution_path": "LOCAL"
+      },
+      "reported_latency_ms": 2457.701199999974,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "cap-browser-missing-001",
+      "split": "test",
+      "language": "en",
+      "categories": [
+        "missing_argument",
+        "context_unresolved",
+        "research"
+      ],
+      "expected_execution_path": "clarify",
+      "inference_provenance": "local_model",
+      "latency_ms": 2413.2802,
+      "status": "success",
+      "prediction": {
+        "execution_path": "LOCAL"
+      },
+      "reported_latency_ms": 2413.06349999968,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "mixed-conversation-action-001",
+      "split": "dev",
+      "language": "en",
+      "categories": [
+        "mixed_intent",
+        "desktop_action",
+        "context_resolved"
+      ],
+      "expected_execution_path": "TASK",
+      "inference_provenance": "local_model",
+      "latency_ms": 2422.1452,
+      "status": "success",
+      "prediction": {
+        "execution_path": "LOCAL"
+      },
+      "reported_latency_ms": 2421.9272000000274,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "stt-noisy-action-001",
+      "split": "test",
+      "language": "en",
+      "categories": [
+        "stt_noise",
+        "desktop_action",
+        "spelling_variation"
+      ],
+      "expected_execution_path": "TASK",
+      "inference_provenance": "local_model",
+      "latency_ms": 2405.4501,
+      "status": "success",
+      "prediction": {
+        "execution_path": "LOCAL"
+      },
+      "reported_latency_ms": 2404.917999999725,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "te-native-conversation-001",
+      "split": "dev",
+      "language": "te",
+      "categories": [
+        "conversation",
+        "native_script"
+      ],
+      "expected_execution_path": "LOCAL",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.2976,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.021400000150606502,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "te-native-action-001",
+      "split": "test",
+      "language": "te",
+      "categories": [
+        "desktop_action",
+        "native_script",
+        "supported_capability"
+      ],
+      "expected_execution_path": "TASK",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.2059,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.011900000117748277,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "te-romanized-knowledge-001",
+      "split": "dev",
+      "language": "te-Latn",
+      "categories": [
+        "knowledge",
+        "romanized",
+        "spelling_variation"
+      ],
+      "expected_execution_path": "LOCAL",
+      "inference_provenance": "local_model",
+      "latency_ms": 2452.876,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 2452.656200000092,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "te-codeswitch-research-001",
+      "split": "test",
+      "language": "mixed-en-te",
+      "categories": [
+        "research",
+        "current_information",
+        "code_switching",
+        "romanized"
+      ],
+      "expected_execution_path": "TASK",
+      "inference_provenance": "local_model",
+      "latency_ms": 2540.5829,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 2540.3698000000077,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "hi-native-conversation-001",
+      "split": "dev",
+      "language": "hi",
+      "categories": [
+        "conversation",
+        "native_script"
+      ],
+      "expected_execution_path": "LOCAL",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.1658,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.01050000037139398,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "hi-romanized-action-001",
+      "split": "test",
+      "language": "hi-Latn",
+      "categories": [
+        "desktop_action",
+        "romanized",
+        "supported_capability"
+      ],
+      "expected_execution_path": "TASK",
+      "inference_provenance": "local_model",
+      "latency_ms": 2423.6867,
+      "status": "success",
+      "prediction": {
+        "execution_path": "LOCAL"
+      },
+      "reported_latency_ms": 2423.4722999999576,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "hi-codeswitch-memory-001",
+      "split": "dev",
+      "language": "mixed-en-hi",
+      "categories": [
+        "memory",
+        "code_switching",
+        "context_resolved"
+      ],
+      "expected_execution_path": "GEMINI",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.1361,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.017100000150094274,
+      "comparisons": {
+        "execution_path": true
+      }
+    },
+    {
+      "id": "ta-native-conversation-001",
+      "split": "dev",
+      "language": "ta",
+      "categories": [
+        "conversation",
+        "native_script"
+      ],
+      "expected_execution_path": "LOCAL",
+      "inference_provenance": "deterministic_fast_path",
+      "latency_ms": 0.1617,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 0.009500000032858225,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "ta-romanized-action-001",
+      "split": "test",
+      "language": "ta-Latn",
+      "categories": [
+        "desktop_action",
+        "romanized",
+        "supported_capability"
+      ],
+      "expected_execution_path": "TASK",
+      "inference_provenance": "local_model",
+      "latency_ms": 2419.373,
+      "status": "success",
+      "prediction": {
+        "execution_path": "LOCAL"
+      },
+      "reported_latency_ms": 2419.0818999995827,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "ta-codeswitch-research-001",
+      "split": "test",
+      "language": "mixed-en-ta",
+      "categories": [
+        "research",
+        "current_information",
+        "code_switching",
+        "romanized"
+      ],
+      "expected_execution_path": "TASK",
+      "inference_provenance": "local_model",
+      "latency_ms": 2457.6548,
+      "status": "success",
+      "prediction": {
+        "execution_path": "GEMINI"
+      },
+      "reported_latency_ms": 2457.427800000005,
+      "comparisons": {
+        "execution_path": false
+      }
+    },
+    {
+      "id": "cap-unsupported-home-001",
+      "split": "test",
+      "language": "en",
+      "categories": [
+        "unsupported_capability",
+        "home_automation"
+      ],
+      "expected_execution_path": "escalate",
+      "inference_provenance": "local_model",
+      "latency_ms": 2515.2225,
+      "status": "success",
+      "prediction": {
+        "execution_path": "LOCAL"
+      },
+      "reported_latency_ms": 2515.000599999894,
+      "comparisons": {},
+      "not_applicable": [
+        "execution_path"
+      ]
+    },
+    {
+      "id": "ctx-browser-resolved-001",
+      "split": "dev",
+      "language": "en",
+      "categories": [
+        "follow_up",
+        "browser_action",
+        "context_resolved"
+      ],
+      "expected_execution_path": "TASK",
+      "inference_provenance": "local_model",
+      "latency_ms": 2444.6635,
+      "status": "success",
+      "prediction": {
+        "execution_path": "LOCAL"
+      },
+      "reported_latency_ms": 2444.4100999999137,
+      "comparisons": {
+        "execution_path": false
+      }
+    }
+  ],
+  "limitations": [
+    "Classification only; selected capabilities are never executed.",
+    "Legacy classify() hides internal Ollama failures by returning GEMINI.",
+    "Legacy semantic fields are unavailable and are not inferred from routes.",
+    "Seed-set group metrics have small sample sizes and are descriptive only."
+  ]
+}

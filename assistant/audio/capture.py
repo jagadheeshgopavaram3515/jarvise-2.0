@@ -115,6 +115,7 @@ class AudioInputService(threading.Thread):
         speech_started_at = 0.0
         utterance_id = ""
         partial_seq = 0
+        interrupt_epoch = self.bus.interrupt_epoch
         last_partial_at = 0
         # Backchannel: fire a "pause" cue once when the user goes silent
         # mid-utterance (voiced→silent for BACKCHANNEL_PAUSE_MS) without the turn
@@ -180,6 +181,7 @@ class AudioInputService(threading.Thread):
                                              or self.bus.state.audio_state.during_speech)
                     speech_started_at = time.perf_counter()
                     utterance_id = new_utterance_id()
+                    interrupt_epoch = self.bus.interrupt_epoch
                     partial_seq = 0
                     last_partial_at = len(voiced)
                     log.info("speech START during_speech=%s", started_during_speech)
@@ -235,7 +237,8 @@ class AudioInputService(threading.Thread):
                     if len(voiced) >= self._min_frames:
                         log.info("speech END -> emit utterance (%d frames)", len(voiced))
                         self._emit(voiced, speech_started_at, t_speech_end,
-                                   started_during_speech, utterance_id, partial_seq + 1)
+                                   started_during_speech, utterance_id, partial_seq + 1,
+                                   interrupt_epoch=interrupt_epoch)
                     else:
                         # FIX F: too short for a real query — classify as a filler
                         # backchannel signal instead of silently dropping.
@@ -251,7 +254,7 @@ class AudioInputService(threading.Thread):
                     preroll.clear()
 
     def _emit(self, frames: list[bytes], t_speech_start: float, t_speech_end: float,
-              during_speech: bool, utterance_id: str, sequence: int):
+              during_speech: bool, utterance_id: str, sequence: int, *, interrupt_epoch=None):
         pcm = b"".join(frames)
         audio = np.frombuffer(pcm, dtype=np.int16).astype(np.float32) / 32768.0
         perf = Perf(t_start=t_speech_end, speech_start=t_speech_start)
@@ -264,7 +267,9 @@ class AudioInputService(threading.Thread):
             during_speech=during_speech,
         )
         utt = Utterance(audio=audio, during_speech=during_speech, perf=perf,
-                        utterance_id=utterance_id, is_partial=False, sequence=sequence)
+                        utterance_id=utterance_id, is_partial=False, sequence=sequence,
+                        interrupt_epoch=(self.bus.interrupt_epoch if interrupt_epoch is None
+                                         else interrupt_epoch))
         try:
             self.bus.stt_in_q.put_nowait(utt)
             perf.trace("stt_queued", qsize=self.bus.stt_in_q.qsize())

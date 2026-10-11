@@ -1,0 +1,52 @@
+{
+  "en": {
+    "count": 20,
+    "exact": 14,
+    "cap_top1": 18
+  },
+  "hi": {
+    "count": 15,
+    "exact": 7,
+    "cap_top1": 8
+  },
+  "hi-Latn": {
+    "count": 17,
+    "exact": 9,
+    "cap_top1": 14
+  },
+  "te": {
+    "count": 12,
+    "exact": 6,
+    "cap_top1": 8
+  },
+  "te-Latn": {
+    "count": 16,
+    "exact": 9,
+    "cap_top1": 14
+  },
+  "ta": {
+    "count": 5,
+    "exact": 1,
+    "cap_top1": 2
+  },
+  "ta-Latn": {
+    "count": 11,
+    "exact": 6,
+    "cap_top1": 10
+  },
+  "mixed-en-hi": {
+    "count": 2,
+    "exact": 1,
+    "cap_top1": 2
+  },
+  "mixed-en-te": {
+    "count": 1,
+    "exact": 0,
+    "cap_top1": 1
+  },
+  "mixed-en-ta": {
+    "count": 1,
+    "exact": 0,
+    "cap_top1": 0
+  }
+}

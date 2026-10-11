@@ -1,0 +1,122 @@
+Total capability ranker failures: 20
+
+ID: frozen100-025 | Group: corpus100-app | Lang: en
+Utterance: Open PowerShell terminal application
+Expected Cap:  open_app
+Predicted Cap: None
+Expected Path: single_action | Predicted Path: clarify
+------------------------------------------------------------
+ID: frozen100-026 | Group: corpus100-app | Lang: en
+Utterance: Close Google Chrome application
+Expected Cap:  close_app
+Predicted Cap: google_search
+Expected Path: single_action | Predicted Path: single_action
+------------------------------------------------------------
+ID: frozen100-028 | Group: corpus100-app | Lang: hi
+Utterance: नोटपैड ऐप बंद करो
+Expected Cap:  close_app
+Predicted Cap: open_folder
+Expected Path: single_action | Predicted Path: single_action
+------------------------------------------------------------
+ID: frozen100-030 | Group: corpus100-app | Lang: hi-Latn
+Utterance: Chrome browser application band karo
+Expected Cap:  close_app
+Predicted Cap: None
+Expected Path: single_action | Predicted Path: clarify
+------------------------------------------------------------
+ID: frozen100-032 | Group: corpus100-app | Lang: te-Latn
+Utterance: Terminal application close cheyyi
+Expected Cap:  close_app
+Predicted Cap: None
+Expected Path: single_action | Predicted Path: escalate
+------------------------------------------------------------
+ID: frozen100-033 | Group: corpus100-app | Lang: ta-Latn
+Utterance: VS Code application open pannu
+Expected Cap:  open_app
+Predicted Cap: find_file
+Expected Path: single_action | Predicted Path: single_action
+------------------------------------------------------------
+ID: frozen100-034 | Group: corpus100-app | Lang: ta-Latn
+Utterance: VLC media player application close pannu
+Expected Cap:  close_app
+Predicted Cap: None
+Expected Path: single_action | Predicted Path: escalate
+------------------------------------------------------------
+ID: frozen100-042 | Group: corpus100-search | Lang: te
+Utterance: ఆర్టిఫిషియల్ ఇంటెలిజెన్స్ తాజా వార్తలు వెతుకు
+Expected Cap:  google_search
+Predicted Cap: open_folder
+Expected Path: single_action | Predicted Path: single_action
+------------------------------------------------------------
+ID: frozen100-043 | Group: corpus100-search | Lang: te-Latn
+Utterance: India vs Australia live match score google search cheyyi
+Expected Cap:  google_search
+Predicted Cap: None
+Expected Path: single_action | Predicted Path: escalate
+------------------------------------------------------------
+ID: frozen100-044 | Group: corpus100-search | Lang: te-Latn
+Utterance: Go concurrency goroutines tutorial search cheyyi
+Expected Cap:  google_search
+Predicted Cap: find_file
+Expected Path: single_action | Predicted Path: single_action
+------------------------------------------------------------
+ID: frozen100-046 | Group: corpus100-search | Lang: ta-Latn
+Utterance: AI engineer learning roadmap web-il search pannu
+Expected Cap:  google_search
+Predicted Cap: find_file
+Expected Path: single_action | Predicted Path: single_action
+------------------------------------------------------------
+ID: frozen100-047 | Group: corpus100-webpage | Lang: en
+Utterance: Read the article at https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+Expected Cap:  read_page
+Predicted Cap: None
+Expected Path: single_action | Predicted Path: clarify
+------------------------------------------------------------
+ID: frozen100-049 | Group: corpus100-webpage | Lang: hi-Latn
+Utterance: https://docs.python.org/3/whatsnew/3.11.html page read karo
+Expected Cap:  read_page
+Predicted Cap: None
+Expected Path: single_action | Predicted Path: clarify
+------------------------------------------------------------
+ID: frozen100-059 | Group: corpus100-clarify | Lang: hi-Latn
+Utterance: use turant open karo
+Expected Cap:  None
+Predicted Cap: open_folder
+Expected Path: clarify | Predicted Path: single_action
+------------------------------------------------------------
+ID: frozen100-064 | Group: corpus100-clarify | Lang: te-Latn
+Utterance: idi malli open cheyyi
+Expected Cap:  None
+Predicted Cap: open_folder
+Expected Path: clarify | Predicted Path: single_action
+------------------------------------------------------------
+ID: frozen100-090 | Group: corpus100-multistep | Lang: en
+Utterance: Show me the step by step instructions to configure SSL certificates on Nginx
+Expected Cap:  google_search
+Predicted Cap: None
+Expected Path: multi_step_task | Predicted Path: clarify
+------------------------------------------------------------
+ID: frozen100-096 | Group: corpus100-escalate | Lang: en
+Utterance: Transfer five hundred dollars from my savings account to John
+Expected Cap:  None
+Predicted Cap: open_app
+Expected Path: escalate | Predicted Path: single_action
+------------------------------------------------------------
+ID: frozen100-098 | Group: corpus100-escalate | Lang: hi-Latn
+Utterance: bedroom ki AC temperature 22 degree par set karo
+Expected Cap:  None
+Predicted Cap: open_app
+Expected Path: escalate | Predicted Path: single_action
+------------------------------------------------------------
+ID: frozen100-099 | Group: corpus100-escalate | Lang: te-Latn
+Utterance: Uber app lo airport ki cab book cheyyi
+Expected Cap:  None
+Predicted Cap: open_app
+Expected Path: escalate | Predicted Path: single_action
+------------------------------------------------------------
+ID: frozen100-100 | Group: corpus100-escalate | Lang: mixed-en-ta
+Utterance: Zomato app-la dinner order pannu
+Expected Cap:  None
+Predicted Cap: open_app
+Expected Path: escalate | Predicted Path: single_action
+------------------------------------------------------------

@@ -1,0 +1,6 @@
+{"schema_version":"1.0","case_id":"missing-intent","output":{"execution_path":"LOCAL","request_modes":["conversational"],"confidence":0.8},"expected_error":"intent"}
+{"schema_version":"1.0","case_id":"unknown-request-mode","output":{"intent":"chat","execution_path":"LOCAL","request_modes":["social"],"confidence":0.8},"expected_error":"request mode"}
+{"schema_version":"1.0","case_id":"wrong-confidence-type","output":{"intent":"chat","execution_path":"LOCAL","request_modes":["conversational"],"confidence":"high"},"expected_error":"confidence"}
+{"schema_version":"1.0","case_id":"missing-execution-path","output":{"intent":"chat","request_modes":["conversational"],"confidence":0.8},"expected_error":"execution_path"}
+{"schema_version":"1.0","case_id":"clarification-without-missing-info","output":{"intent":"open_item","execution_path":"clarify","request_modes":["action"],"confidence":0.3,"needs_clarification":true},"expected_error":"missing_information"}
+{"schema_version":"1.0","case_id":"non-object-output","output":["LOCAL"],"expected_error":"object"}

@@ -1,0 +1,58 @@
+{
+  "version": "compact-dataset-candidates-1.0.0",
+  "compact_contract": "ClassifierDecision",
+  "compact_semantic_paths": [
+    "clarify",
+    "direct_response",
+    "escalate",
+    "memory_recall",
+    "multi_step_task",
+    "research",
+    "single_action"
+  ],
+  "request_mode_enum": [
+    "conversational",
+    "memory",
+    "research",
+    "action"
+  ],
+  "missing_information": "Compact name is an open nonempty string; no FastBrain enum is forced into it. prior_request retained, not aliased to reference.",
+  "capability_family_proposals": {
+    "location": "location",
+    "weather": "weather",
+    "open_app": "application",
+    "close_app": "application",
+    "list_running_apps": "application",
+    "find_file": "file",
+    "search_files": "file",
+    "open_file": "file",
+    "open_folder": "file",
+    "recent_files": "file",
+    "read_file": "file",
+    "list_directory": "file",
+    "grep_code": "project",
+    "run_project_tests": "project",
+    "open_url": "browser",
+    "google_search": "browser",
+    "youtube_search": "browser",
+    "read_page": "browser",
+    "get_page_title": "browser"
+  },
+  "safe_partial_path_proposals": {
+    "respond": "direct_response",
+    "memory": "memory_recall",
+    "clarify": "clarify"
+  },
+  "unmappable_without_review": [
+    "fast_path",
+    "qwen_agent",
+    "research workflow vs single/multi-step",
+    "escalation reasons vs unsupported capability",
+    "capability_family -> exact selected_capability",
+    "uncertainty -> calibrated confidence",
+    "context_requirements -> context_references",
+    "intent_family -> exact intent/request_modes"
+  ],
+  "approval_policy": "No conversion is promoted automatically; original labels and decisions preserved",
+  "field_mappings": 2339
+}

@@ -1,0 +1,16 @@
+{
+  "frozen_100": {
+    "total": 100,
+    "exact": 53,
+    "exact_pct": 53.0,
+    "cap": 77,
+    "cap_pct": 77.0
+  },
+  "independent_24": {
+    "total": 24,
+    "exact": 13,
+    "exact_pct": 54.166666666666664,
+    "cap": 20,
+    "cap_pct": 83.33333333333334
+  }
+}

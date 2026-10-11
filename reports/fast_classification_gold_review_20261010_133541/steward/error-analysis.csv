@@ -1,0 +1,360 @@
+﻿record_id,review_id,status,reason
+hist-5819f55a9913b475,blind-001,NOT_MEASURED,Requires independent qualified language review
+hist-6cf710b14ce77f95,blind-002,NOT_MEASURED,Requires independent English review
+hist-e832590b5ae99c60,blind-003,NOT_MEASURED,Requires independent qualified language review
+hist-2c584b6189ec55f3,blind-004,NOT_MEASURED,Requires independent English review
+hist-a885aff1a7467f03,blind-005,NOT_MEASURED,Requires independent qualified language review
+hist-b2892551ab7c2da1,blind-006,NOT_MEASURED,Requires independent English review
+hist-0e52654409ec9398,blind-007,NOT_MEASURED,Requires independent qualified language review
+hist-7c8f9d31af3a5e6c,blind-008,NOT_MEASURED,Requires independent qualified language review
+hist-5d0cd5cd730417ed,blind-009,NOT_MEASURED,Requires independent qualified language review
+hist-7e4a72d37dcd063c,blind-010,NOT_MEASURED,Requires independent qualified language review
+hist-14b4023aa37a6d05,blind-011,NOT_MEASURED,Requires independent qualified language review
+hist-7dbd3c977978cff5,blind-012,NOT_MEASURED,Requires independent qualified language review
+hist-0677a7e5dd3b8149,blind-013,NOT_MEASURED,Requires independent qualified language review
+hist-3b70bc749f7864ad,blind-014,NOT_MEASURED,Requires independent qualified language review
+hist-29bd86a063b8e8be,blind-015,NOT_MEASURED,Requires independent qualified language review
+hist-b73949baa37fdf13,blind-016,NOT_MEASURED,Requires independent English review
+hist-51c17b2b3a3f4ef2,blind-017,NOT_MEASURED,Requires independent English review
+hist-fcaf68bb165708ae,blind-018,NOT_MEASURED,Requires independent qualified language review
+hist-12f3b891f117e30a,blind-019,NOT_MEASURED,Requires independent qualified language review
+hist-62e85c47d8d9ee81,blind-020,NOT_MEASURED,Requires independent English review
+hist-624dda5eea2e80a7,blind-021,NOT_MEASURED,Requires independent qualified language review
+hist-a727ccca0966aa98,blind-022,NOT_MEASURED,Requires independent qualified language review
+hist-9bec38cf7188d0c5,blind-023,NOT_MEASURED,Requires independent qualified language review
+hist-e4551ea90381ab25,blind-024,NOT_MEASURED,Requires independent qualified language review
+hist-5f6ae34e3b88424b,blind-025,NOT_MEASURED,Requires independent qualified language review
+hist-8becbcb8a787fb68,blind-026,NOT_MEASURED,Requires independent qualified language review
+hist-649a9ad12b47ab8b,blind-027,NOT_MEASURED,Requires independent qualified language review
+hist-f8717c13ca31991d,blind-028,NOT_MEASURED,Requires independent English review
+hist-73ff50faf5b29b17,blind-029,NOT_MEASURED,Requires independent qualified language review
+hist-ed03632a3e69c7db,blind-030,NOT_MEASURED,Requires independent qualified language review
+hist-d45a42ef46ef1df1,blind-031,NOT_MEASURED,Requires independent qualified language review
+hist-b21b6dbb2982fd85,blind-032,NOT_MEASURED,Requires independent qualified language review
+hist-1f2c662819b3459f,blind-033,NOT_MEASURED,Requires independent qualified language review
+hist-eae36499e26917cd,blind-034,NOT_MEASURED,Requires independent qualified language review
+hist-b37d640402daa329,blind-035,NOT_MEASURED,Requires independent English review
+hist-1c41b233e2339116,blind-036,NOT_MEASURED,Requires independent qualified language review
+hist-135af44978a663cd,blind-037,NOT_MEASURED,Requires independent qualified language review
+hist-c19b4d776598baab,blind-038,NOT_MEASURED,Requires independent qualified language review
+hist-fc9c05a57e24554b,blind-039,NOT_MEASURED,Requires independent qualified language review
+hist-f817dc1f64f1be8d,blind-040,NOT_MEASURED,Requires independent qualified language review
+hist-55b6ac70330f5de4,blind-041,NOT_MEASURED,Requires independent qualified language review
+hist-5dfff40af77711b8,blind-042,NOT_MEASURED,Requires independent English review
+hist-99ea362c071fb8e9,blind-043,NOT_MEASURED,Requires independent qualified language review
+hist-9397ece3b49563dd,blind-044,NOT_MEASURED,Requires independent qualified language review
+hist-55dbb0fcbc2562dd,blind-045,NOT_MEASURED,Requires independent qualified language review
+hist-0a5fdc8884e2e50b,blind-046,NOT_MEASURED,Requires independent English review
+hist-b0e19fb196d7977f,blind-047,NOT_MEASURED,Requires independent qualified language review
+hist-4682d9b183375f71,blind-048,NOT_MEASURED,Requires independent qualified language review
+hist-526f032ce6e5bc68,blind-049,NOT_MEASURED,Requires independent qualified language review
+hist-d219754118143aea,blind-050,NOT_MEASURED,Requires independent qualified language review
+hist-1c7023d487ce1d97,blind-051,NOT_MEASURED,Requires independent qualified language review
+hist-86c944a1d73fa8c0,blind-052,NOT_MEASURED,Requires independent qualified language review
+hist-3557f9a7869e5418,blind-053,NOT_MEASURED,Requires independent English review
+hist-8f10b6d09744ec29,blind-054,NOT_MEASURED,Requires independent English review
+hist-1ece178b121d7a6a,blind-055,NOT_MEASURED,Requires independent qualified language review
+hist-658fcfbf4bb6b4ac,blind-056,NOT_MEASURED,Requires independent qualified language review
+hist-5c446364b6333adf,blind-057,NOT_MEASURED,Requires independent qualified language review
+hist-3ca4207d030ceaf6,blind-058,NOT_MEASURED,Requires independent qualified language review
+hist-327c430593a51509,blind-059,NOT_MEASURED,Requires independent qualified language review
+hist-a31ff199ab73512b,blind-060,NOT_MEASURED,Requires independent English review
+hist-3ae9743492669d4b,blind-061,NOT_MEASURED,Requires independent qualified language review
+hist-6231b669658583b6,blind-062,NOT_MEASURED,Requires independent English review
+hist-8ef0e62720297850,blind-063,NOT_MEASURED,Requires independent qualified language review
+hist-61a0fe1a73ae2e0d,blind-064,NOT_MEASURED,Requires independent qualified language review
+hist-306d71b9cf620444,blind-065,NOT_MEASURED,Requires independent qualified language review
+hist-02e8f6d6dc03fb5f,blind-066,NOT_MEASURED,Requires independent qualified language review
+hist-24acb98352fb7d2f,blind-067,NOT_MEASURED,Requires independent qualified language review
+hist-4401bc6d09416582,blind-068,NOT_MEASURED,Requires independent qualified language review
+hist-999d532b4ba88571,blind-069,NOT_MEASURED,Requires independent qualified language review
+hist-4a5f670d2a722c3b,blind-070,NOT_MEASURED,Requires independent qualified language review
+hist-be43bbffebcd406a,blind-071,NOT_MEASURED,Requires independent qualified language review
+hist-92b148db50812bff,blind-072,NOT_MEASURED,Requires independent qualified language review
+hist-336fc086af5ef8af,blind-073,NOT_MEASURED,Requires independent qualified language review
+hist-3e5bb2f78cd1dd0e,blind-074,NOT_MEASURED,Requires independent qualified language review
+hist-90ea1ad2912f2ac9,blind-075,NOT_MEASURED,Requires independent qualified language review
+hist-c914535c39b27f11,blind-076,NOT_MEASURED,Requires independent English review
+hist-3422cecce46e1d71,blind-077,NOT_MEASURED,Requires independent qualified language review
+hist-2b7a7faa07a9c4c8,blind-078,NOT_MEASURED,Requires independent qualified language review
+hist-0ac2e53728036b5e,blind-079,NOT_MEASURED,Requires independent qualified language review
+hist-627154af6f328049,blind-080,NOT_MEASURED,Requires independent qualified language review
+hist-1bceebae602d3c6b,blind-081,NOT_MEASURED,Requires independent qualified language review
+hist-2ab4a4ab05600583,blind-082,NOT_MEASURED,Requires independent English review
+hist-fd1606f4cde3cccc,blind-083,NOT_MEASURED,Requires independent English review
+hist-9be37e1508c71545,blind-084,NOT_MEASURED,Requires independent English review
+hist-f2c0d48c82476f5f,blind-085,NOT_MEASURED,Requires independent qualified language review
+hist-f57a957909f94f29,blind-086,NOT_MEASURED,Requires independent qualified language review
+hist-395b50a21bf06f39,blind-087,NOT_MEASURED,Requires independent English review
+hist-36a1693ef2fbf34b,blind-088,NOT_MEASURED,Requires independent qualified language review
+hist-a672eb269847b583,blind-089,NOT_MEASURED,Requires independent qualified language review
+hist-49c3fd1eba78e6f8,blind-090,NOT_MEASURED,Requires independent qualified language review
+hist-e249ec2111974dd9,blind-091,NOT_MEASURED,Requires independent qualified language review
+hist-c27331f554a6655c,blind-092,NOT_MEASURED,Requires independent qualified language review
+hist-a079981e52205fc9,blind-093,NOT_MEASURED,Requires independent qualified language review
+hist-c78bf3edcb9c9090,blind-094,NOT_MEASURED,Requires independent qualified language review
+hist-edca6c4a272343f6,blind-095,NOT_MEASURED,Requires independent qualified language review
+hist-9ce0edb2ab896d08,blind-096,NOT_MEASURED,Requires independent qualified language review
+hist-27b0849202fff741,blind-097,NOT_MEASURED,Requires independent qualified language review
+hist-196e919245b653c6,blind-098,NOT_MEASURED,Requires independent qualified language review
+hist-fb29bd5958b2516f,blind-099,NOT_MEASURED,Requires independent qualified language review
+hist-6e02c49c27ef9655,blind-100,NOT_MEASURED,Requires independent English review
+hist-b2f3b731c99e7d0e,blind-101,NOT_MEASURED,Requires independent qualified language review
+hist-6243b39c230929ee,blind-102,NOT_MEASURED,Requires independent English review
+hist-19cc402ffa01eded,blind-103,NOT_MEASURED,Requires independent qualified language review
+hist-c13105da38ca5149,blind-104,NOT_MEASURED,Requires independent qualified language review
+hist-0ad4098dc092e6c8,blind-105,NOT_MEASURED,Requires independent qualified language review
+hist-f7884fdea2c61c34,blind-106,NOT_MEASURED,Requires independent English review
+hist-8a1c279fd51731d9,blind-107,NOT_MEASURED,Requires independent qualified language review
+hist-6d26fda7b387cbf0,blind-108,NOT_MEASURED,Requires independent qualified language review
+hist-c6e11201e8761710,blind-109,NOT_MEASURED,Requires independent qualified language review
+hist-ac51b18856f1e8eb,blind-110,NOT_MEASURED,Requires independent qualified language review
+hist-083d8a0781cf4e8d,blind-111,NOT_MEASURED,Requires independent qualified language review
+hist-90de7abdd58d3113,blind-112,NOT_MEASURED,Requires independent English review
+hist-1aec025eb71f9c74,blind-113,NOT_MEASURED,Requires independent qualified language review
+hist-f5ae834286032ac4,blind-114,NOT_MEASURED,Requires independent qualified language review
+hist-5184f3e5814d911a,blind-115,NOT_MEASURED,Requires independent qualified language review
+hist-605bcb224c8f942c,blind-116,NOT_MEASURED,Requires independent qualified language review
+hist-a97951651cf8a4cd,blind-117,NOT_MEASURED,Requires independent qualified language review
+hist-806b3ca192c2facd,blind-118,NOT_MEASURED,Requires independent qualified language review
+hist-7b4d0d960e40c232,blind-119,NOT_MEASURED,Requires independent qualified language review
+hist-1cdf6ec820439b01,blind-120,NOT_MEASURED,Requires independent qualified language review
+hist-1bc454a377585b0a,blind-121,NOT_MEASURED,Requires independent English review
+hist-cee8cdf172cf3d21,blind-122,NOT_MEASURED,Requires independent qualified language review
+hist-779575fec4c0f0aa,blind-123,NOT_MEASURED,Requires independent English review
+hist-0a8e23fe284bd78f,blind-124,NOT_MEASURED,Requires independent English review
+hist-fb5204f607b5f3ff,blind-125,NOT_MEASURED,Requires independent qualified language review
+hist-449744e5a7801a85,blind-126,NOT_MEASURED,Requires independent qualified language review
+hist-008429183b0de313,blind-127,NOT_MEASURED,Requires independent qualified language review
+hist-4ada7aa856247d49,blind-128,NOT_MEASURED,Requires independent qualified language review
+hist-441e40c6fcc80ade,blind-129,NOT_MEASURED,Requires independent qualified language review
+hist-069dcde66a8f9794,blind-130,NOT_MEASURED,Requires independent English review
+hist-14bca63058beb4a8,blind-131,NOT_MEASURED,Requires independent English review
+hist-188c526533ffa9a7,blind-132,NOT_MEASURED,Requires independent qualified language review
+hist-9fc76391f3931925,blind-133,NOT_MEASURED,Requires independent qualified language review
+hist-94e80af1a58cc2e8,blind-134,NOT_MEASURED,Requires independent qualified language review
+hist-d1422a8b64138f34,blind-135,NOT_MEASURED,Requires independent qualified language review
+hist-c0298b736337c818,blind-136,NOT_MEASURED,Requires independent qualified language review
+hist-5771c52e64ae28c7,blind-137,NOT_MEASURED,Requires independent qualified language review
+hist-cd74e36a5634d0e4,blind-138,NOT_MEASURED,Requires independent English review
+hist-da4fc136644b97fe,blind-139,NOT_MEASURED,Requires independent English review
+hist-927e31a1619df89d,blind-140,NOT_MEASURED,Requires independent English review
+hist-935f20befd6ed677,blind-141,NOT_MEASURED,Requires independent qualified language review
+hist-51331eb15fd7fcc3,blind-142,NOT_MEASURED,Requires independent qualified language review
+hist-36faac423da39c1f,blind-143,NOT_MEASURED,Requires independent qualified language review
+hist-184946cff44a2ae0,blind-144,NOT_MEASURED,Requires independent qualified language review
+hist-d4f271d8813da992,blind-145,NOT_MEASURED,Requires independent qualified language review
+hist-9a03ab20e1224772,blind-146,NOT_MEASURED,Requires independent qualified language review
+hist-ef808ac680537dee,blind-147,NOT_MEASURED,Requires independent qualified language review
+hist-54658abb906cb901,blind-148,NOT_MEASURED,Requires independent qualified language review
+hist-6e791d1ec3a8c7d2,blind-149,NOT_MEASURED,Requires independent qualified language review
+hist-dc1a50837063e98d,blind-150,NOT_MEASURED,Requires independent qualified language review
+hist-5cbdf6c46dc04292,blind-151,NOT_MEASURED,Requires independent qualified language review
+hist-7fc4d6c128901e49,blind-152,NOT_MEASURED,Requires independent qualified language review
+hist-450397fbd0b31ce0,blind-153,NOT_MEASURED,Requires independent English review
+hist-bcdc4351b4033198,blind-154,NOT_MEASURED,Requires independent qualified language review
+hist-6bb10d7ab5ec6e5d,blind-155,NOT_MEASURED,Requires independent qualified language review
+hist-7a716953cc443231,blind-156,NOT_MEASURED,Requires independent English review
+hist-9b522b0cfa536fbb,blind-157,NOT_MEASURED,Requires independent qualified language review
+hist-462595b9a7911279,blind-158,NOT_MEASURED,Requires independent qualified language review
+hist-e6dbad9de51f072d,blind-159,NOT_MEASURED,Requires independent English review
+hist-a2196a5877d6a1f7,blind-160,NOT_MEASURED,Requires independent qualified language review
+hist-d7d041838858a4ac,blind-161,NOT_MEASURED,Requires independent qualified language review
+hist-0f5a36065b4b4f40,blind-162,NOT_MEASURED,Requires independent qualified language review
+hist-371b58a61da51017,blind-163,NOT_MEASURED,Requires independent qualified language review
+hist-4f8fdcb874454333,blind-164,NOT_MEASURED,Requires independent qualified language review
+hist-b94e68f5d4e69943,blind-165,NOT_MEASURED,Requires independent English review
+hist-e56e8b9439062ba4,blind-166,NOT_MEASURED,Requires independent qualified language review
+hist-463d72f30d08ad1e,blind-167,NOT_MEASURED,Requires independent English review
+hist-4be156b9055707ea,blind-168,NOT_MEASURED,Requires independent qualified language review
+hist-7cdb2dfb673ab704,blind-169,NOT_MEASURED,Requires independent qualified language review
+hist-bae42cf9971e4a3f,blind-170,NOT_MEASURED,Requires independent English review
+hist-52ebdbd7df61455b,blind-171,NOT_MEASURED,Requires independent qualified language review
+hist-985058a3ba7eb4aa,blind-172,NOT_MEASURED,Requires independent English review
+hist-656a862113910d46,blind-173,NOT_MEASURED,Requires independent qualified language review
+hist-238c430f0e8e5a8c,blind-174,NOT_MEASURED,Requires independent qualified language review
+hist-90b662cc3b60f294,blind-175,NOT_MEASURED,Requires independent qualified language review
+hist-f7de047b62fe51c4,blind-176,NOT_MEASURED,Requires independent qualified language review
+hist-f6ae186d9c5726cc,blind-177,NOT_MEASURED,Requires independent qualified language review
+hist-cd8511b1b33c8f12,blind-178,NOT_MEASURED,Requires independent qualified language review
+hist-1ce6a2d1218448e8,blind-179,NOT_MEASURED,Requires independent English review
+hist-467c0a4ed94673bd,blind-180,NOT_MEASURED,Requires independent qualified language review
+hist-8a11c5a6b1d96132,blind-181,NOT_MEASURED,Requires independent English review
+hist-1aca000b7d468adf,blind-182,NOT_MEASURED,Requires independent qualified language review
+hist-80c531918cfa8825,blind-183,NOT_MEASURED,Requires independent qualified language review
+hist-75560bed27bdbf0e,blind-184,NOT_MEASURED,Requires independent qualified language review
+hist-5b7be800025e08e4,blind-185,NOT_MEASURED,Requires independent qualified language review
+hist-80c54f4904a8d65b,blind-186,NOT_MEASURED,Requires independent qualified language review
+hist-077b7471a9b6c016,blind-187,NOT_MEASURED,Requires independent qualified language review
+hist-435d789acfbcdd3f,blind-188,NOT_MEASURED,Requires independent qualified language review
+hist-0bf3c24d92a36351,blind-189,NOT_MEASURED,Requires independent English review
+hist-35138bdc0c6c8e35,blind-190,NOT_MEASURED,Requires independent English review
+hist-2389e054bcaf97e4,blind-191,NOT_MEASURED,Requires independent qualified language review
+hist-62722a28e17d961f,blind-192,NOT_MEASURED,Requires independent qualified language review
+hist-5bf7e22c9fcd9522,blind-193,NOT_MEASURED,Requires independent English review
+hist-d8148ebd2827ae2b,blind-194,NOT_MEASURED,Requires independent qualified language review
+hist-9fa708933644fc90,blind-195,NOT_MEASURED,Requires independent qualified language review
+hist-a48165e55d3512bd,blind-196,NOT_MEASURED,Requires independent qualified language review
+hist-75fc31c49c351aaf,blind-197,NOT_MEASURED,Requires independent qualified language review
+hist-870b18fc0efea95d,blind-198,NOT_MEASURED,Requires independent qualified language review
+hist-fc2f6f9cc281cf70,blind-199,NOT_MEASURED,Requires independent qualified language review
+hist-db622d208ae0cb51,blind-200,NOT_MEASURED,Requires independent English review
+hist-6d02f178d61b7502,blind-201,NOT_MEASURED,Requires independent qualified language review
+hist-c1c9b9a526598ab7,blind-202,NOT_MEASURED,Requires independent qualified language review
+hist-590b9367f67077f8,blind-203,NOT_MEASURED,Requires independent qualified language review
+hist-6a719f36b04b04f2,blind-204,NOT_MEASURED,Requires independent qualified language review
+hist-f2a4fd1032c829b5,blind-205,NOT_MEASURED,Requires independent qualified language review
+hist-4b797b494d7bab11,blind-206,NOT_MEASURED,Requires independent qualified language review
+hist-39614adaeaf35569,blind-207,NOT_MEASURED,Requires independent qualified language review
+hist-d2efe1810ef782a6,blind-208,NOT_MEASURED,Requires independent qualified language review
+hist-01de1cb0cfcf916c,blind-209,NOT_MEASURED,Requires independent qualified language review
+hist-5bd56535c3385742,blind-210,NOT_MEASURED,Requires independent qualified language review
+hist-f18ea96eda0bcc63,blind-211,NOT_MEASURED,Requires independent qualified language review
+hist-6fc72ec0734459ec,blind-212,NOT_MEASURED,Requires independent qualified language review
+hist-5e9f7f9912bd12b9,blind-213,NOT_MEASURED,Requires independent English review
+hist-b38fb0b7c2ab38c8,blind-214,NOT_MEASURED,Requires independent qualified language review
+hist-95ebea2001f5d2b7,blind-215,NOT_MEASURED,Requires independent English review
+hist-62ad725dcffe0744,blind-216,NOT_MEASURED,Requires independent English review
+hist-b15cca071bf00015,blind-217,NOT_MEASURED,Requires independent qualified language review
+hist-e2b494cead1d9e79,blind-218,NOT_MEASURED,Requires independent English review
+hist-26a4f5e3de580fab,blind-219,NOT_MEASURED,Requires independent qualified language review
+hist-b03ef1d458722d2b,blind-220,NOT_MEASURED,Requires independent qualified language review
+hist-d8c9d0226aabde4d,blind-221,NOT_MEASURED,Requires independent qualified language review
+hist-487b7aa07812922f,blind-222,NOT_MEASURED,Requires independent English review
+hist-3fcd2f0b4e19ddd6,blind-223,NOT_MEASURED,Requires independent qualified language review
+hist-b18ea356bfc4769f,blind-224,NOT_MEASURED,Requires independent qualified language review
+hist-6d7c401d84c89de9,blind-225,NOT_MEASURED,Requires independent qualified language review
+hist-0f4e3e0a4e42b3c2,blind-226,NOT_MEASURED,Requires independent English review
+hist-ded1b5db93caeaba,blind-227,NOT_MEASURED,Requires independent qualified language review
+hist-5f147e21513ccce4,blind-228,NOT_MEASURED,Requires independent qualified language review
+hist-ad2fecc042abacb2,blind-229,NOT_MEASURED,Requires independent English review
+hist-c1267f8c07829179,blind-230,NOT_MEASURED,Requires independent English review
+hist-6e1d9b66c80c8167,blind-231,NOT_MEASURED,Requires independent qualified language review
+hist-bcda86eb773892c7,blind-232,NOT_MEASURED,Requires independent qualified language review
+hist-777f0f17f062b311,blind-233,NOT_MEASURED,Requires independent English review
+hist-f15da07032e76d47,blind-234,NOT_MEASURED,Requires independent qualified language review
+hist-bfb433d9b7ee212d,blind-235,NOT_MEASURED,Requires independent qualified language review
+hist-981144e03297e05d,blind-236,NOT_MEASURED,Requires independent qualified language review
+hist-7778d19bf8c08e18,blind-237,NOT_MEASURED,Requires independent English review
+hist-5f173c694ac9ed2d,blind-238,NOT_MEASURED,Requires independent qualified language review
+hist-ecfd7b27ed5a44c6,blind-239,NOT_MEASURED,Requires independent English review
+hist-2663e4567d48674a,blind-240,NOT_MEASURED,Requires independent qualified language review
+hist-9ae1b045a7bcd06f,blind-241,NOT_MEASURED,Requires independent English review
+hist-1bd9413c15d79cc2,blind-242,NOT_MEASURED,Requires independent qualified language review
+hist-9c2419bbaf0f5a8c,blind-243,NOT_MEASURED,Requires independent qualified language review
+hist-60e3a4c7ff350c83,blind-244,NOT_MEASURED,Requires independent English review
+hist-d3a5cde146e999d6,blind-245,NOT_MEASURED,Requires independent qualified language review
+hist-fab81e4e51010aad,blind-246,NOT_MEASURED,Requires independent qualified language review
+hist-9c67fdb0f511d25d,blind-247,NOT_MEASURED,Requires independent qualified language review
+hist-7c3c403b662c82af,blind-248,NOT_MEASURED,Requires independent English review
+hist-53622e30826e0ba4,blind-249,NOT_MEASURED,Requires independent English review
+hist-2f2fae954b058e41,blind-250,NOT_MEASURED,Requires independent English review
+hist-d152c0516bf7828f,blind-251,NOT_MEASURED,Requires independent English review
+hist-227703fcbebfc674,blind-252,NOT_MEASURED,Requires independent qualified language review
+hist-c70b0f0139db41ac,blind-253,NOT_MEASURED,Requires independent qualified language review
+hist-a1e427b1c342fb6c,blind-254,NOT_MEASURED,Requires independent qualified language review
+hist-0a5f2eebf38ce2e2,blind-255,NOT_MEASURED,Requires independent English review
+hist-525cc654872d829b,blind-256,NOT_MEASURED,Requires independent qualified language review
+hist-a64fd40be96c452c,blind-257,NOT_MEASURED,Requires independent qualified language review
+hist-28721da13b5abd0d,blind-258,NOT_MEASURED,Requires independent qualified language review
+hist-314adf41b0f7b905,blind-259,NOT_MEASURED,Requires independent qualified language review
+hist-528b12a42c6388af,blind-260,NOT_MEASURED,Requires independent qualified language review
+hist-c49a5e2b6fe12610,blind-261,NOT_MEASURED,Requires independent qualified language review
+hist-375ae9c4955ed6eb,blind-262,NOT_MEASURED,Requires independent qualified language review
+hist-dc7963537a27a433,blind-263,NOT_MEASURED,Requires independent qualified language review
+hist-dcfa5af61fc34283,blind-264,NOT_MEASURED,Requires independent qualified language review
+hist-416d4a931348a344,blind-265,NOT_MEASURED,Requires independent qualified language review
+hist-6838e9232f82f9ee,blind-266,NOT_MEASURED,Requires independent qualified language review
+hist-e0c4844e927565c0,blind-267,NOT_MEASURED,Requires independent qualified language review
+hist-7f84fdd3cc547124,blind-268,NOT_MEASURED,Requires independent qualified language review
+hist-4db891188ee03e40,blind-269,NOT_MEASURED,Requires independent English review
+hist-691be5eaf1338525,blind-270,NOT_MEASURED,Requires independent qualified language review
+hist-a3caf59c0df53070,blind-271,NOT_MEASURED,Requires independent qualified language review
+hist-a9d2a1fec7ae0fb9,blind-272,NOT_MEASURED,Requires independent qualified language review
+hist-cd06c5b65cc6a037,blind-273,NOT_MEASURED,Requires independent English review
+hist-a6bef85f1460635d,blind-274,NOT_MEASURED,Requires independent qualified language review
+hist-b392082d77813f05,blind-275,NOT_MEASURED,Requires independent English review
+hist-ba87774b2cb54cd1,blind-276,NOT_MEASURED,Requires independent qualified language review
+hist-4dd3d16135b73da2,blind-277,NOT_MEASURED,Requires independent English review
+hist-42ccc48aa7aba6e3,blind-278,NOT_MEASURED,Requires independent English review
+hist-106e0dba6c2df3db,blind-279,NOT_MEASURED,Requires independent qualified language review
+hist-84657f948f9bb482,blind-280,NOT_MEASURED,Requires independent qualified language review
+hist-738955a1c884eb95,blind-281,NOT_MEASURED,Requires independent qualified language review
+hist-3495ef26749bf241,blind-282,NOT_MEASURED,Requires independent qualified language review
+hist-d0cc0d8789c83ffb,blind-283,NOT_MEASURED,Requires independent qualified language review
+hist-494e20abed197856,blind-284,NOT_MEASURED,Requires independent English review
+hist-489c05eacd816c6d,blind-285,NOT_MEASURED,Requires independent qualified language review
+hist-ddb4e670e07977e9,blind-286,NOT_MEASURED,Requires independent qualified language review
+hist-9e5db5008828e742,blind-287,NOT_MEASURED,Requires independent qualified language review
+hist-1df8d3ccd087e273,blind-288,NOT_MEASURED,Requires independent English review
+hist-65f7683a669ce5a0,blind-289,NOT_MEASURED,Requires independent qualified language review
+hist-e804749891acb51e,blind-290,NOT_MEASURED,Requires independent qualified language review
+hist-635576bfbc6907f7,blind-291,NOT_MEASURED,Requires independent English review
+hist-c1ef53f94bfd63d3,blind-292,NOT_MEASURED,Requires independent qualified language review
+hist-478f18ce2d54f9d3,blind-293,NOT_MEASURED,Requires independent qualified language review
+hist-20b07a7ae81c71e3,blind-294,NOT_MEASURED,Requires independent qualified language review
+hist-cfe651389cdd4a91,blind-295,NOT_MEASURED,Requires independent qualified language review
+hist-6535112d2152c331,blind-296,NOT_MEASURED,Requires independent qualified language review
+hist-85caebba7ee5699f,blind-297,NOT_MEASURED,Requires independent qualified language review
+hist-5d0011dacf129a45,blind-298,NOT_MEASURED,Requires independent qualified language review
+hist-95cdb48c5a876784,blind-299,NOT_MEASURED,Requires independent qualified language review
+hist-f55992c3591e5c22,blind-300,NOT_MEASURED,Requires independent qualified language review
+hist-7d3b374f9386cb3b,blind-301,NOT_MEASURED,Requires independent qualified language review
+hist-67b55ed3dedd1fa3,blind-302,NOT_MEASURED,Requires independent qualified language review
+hist-0cbd61671f49eccb,blind-303,NOT_MEASURED,Requires independent English review
+hist-7e774bed40d5eacc,blind-304,NOT_MEASURED,Requires independent qualified language review
+hist-58b773c7f07da60e,blind-305,NOT_MEASURED,Requires independent qualified language review
+hist-25808a137c379c4d,blind-306,NOT_MEASURED,Requires independent English review
+hist-1cba8cae8c802a5d,blind-307,NOT_MEASURED,Requires independent qualified language review
+hist-5418ac4a5b5a539b,blind-308,NOT_MEASURED,Requires independent qualified language review
+hist-acb81c3a12d86f63,blind-309,NOT_MEASURED,Requires independent qualified language review
+hist-5819fe4bed2259fa,blind-310,NOT_MEASURED,Requires independent qualified language review
+hist-8a5e38df1fb1da78,blind-311,NOT_MEASURED,Requires independent qualified language review
+hist-bba589eb50161f78,blind-312,NOT_MEASURED,Requires independent qualified language review
+hist-beffb472e5239d9d,blind-313,NOT_MEASURED,Requires independent qualified language review
+hist-d3ca9ee15500dff7,blind-314,NOT_MEASURED,Requires independent qualified language review
+hist-833fbb9af9ec69c9,blind-315,NOT_MEASURED,Requires independent qualified language review
+hist-52d9d3a2ef14e93d,blind-316,NOT_MEASURED,Requires independent English review
+hist-0981ce2da9857e8a,blind-317,NOT_MEASURED,Requires independent qualified language review
+hist-19196a26a48d162e,blind-318,NOT_MEASURED,Requires independent English review
+hist-6f2f8975bd351cff,blind-319,NOT_MEASURED,Requires independent qualified language review
+hist-91cebbf8cdc23cde,blind-320,NOT_MEASURED,Requires independent English review
+hist-4f304ee9acbae39c,blind-321,NOT_MEASURED,Requires independent qualified language review
+hist-843676de39b218d4,blind-322,NOT_MEASURED,Requires independent qualified language review
+hist-b27cfd78e653f624,blind-323,NOT_MEASURED,Requires independent qualified language review
+hist-47191b87720b3091,blind-324,NOT_MEASURED,Requires independent qualified language review
+hist-9dc8e7eac186e600,blind-325,NOT_MEASURED,Requires independent qualified language review
+hist-6883dedf6b0800c5,blind-326,NOT_MEASURED,Requires independent qualified language review
+hist-86bbe72d3cf2068b,blind-327,NOT_MEASURED,Requires independent qualified language review
+hist-49aa7a18656b7944,blind-328,NOT_MEASURED,Requires independent English review
+hist-1db8987fb7c7a9a6,blind-329,NOT_MEASURED,Requires independent qualified language review
+hist-06d329132f24d014,blind-330,NOT_MEASURED,Requires independent qualified language review
+hist-89dfef657c756913,blind-331,NOT_MEASURED,Requires independent qualified language review
+hist-e0d376a432981c0a,blind-332,NOT_MEASURED,Requires independent English review
+hist-959feeef7a84d16f,blind-333,NOT_MEASURED,Requires independent qualified language review
+hist-c115df669d828467,blind-334,NOT_MEASURED,Requires independent qualified language review
+hist-c0083090edda9dd6,blind-335,NOT_MEASURED,Requires independent qualified language review
+hist-0809d6467b777f81,blind-336,NOT_MEASURED,Requires independent English review
+hist-daada2b39fd85e9d,blind-337,NOT_MEASURED,Requires independent qualified language review
+hist-b50d57dfa8815884,blind-338,NOT_MEASURED,Requires independent qualified language review
+hist-7759cddb59f5261a,blind-339,NOT_MEASURED,Requires independent qualified language review
+hist-1d0c61727690d563,blind-340,NOT_MEASURED,Requires independent qualified language review
+hist-c09b400d2169cfed,blind-341,NOT_MEASURED,Requires independent qualified language review
+hist-ccd6cdb094b6e4fa,blind-342,NOT_MEASURED,Requires independent qualified language review
+hist-05c7a0ac2d55d803,blind-343,NOT_MEASURED,Requires independent qualified language review
+hist-6c1d3caff712a040,blind-344,NOT_MEASURED,Requires independent English review
+hist-54674783aae5c05e,blind-345,NOT_MEASURED,Requires independent qualified language review
+hist-1b3779922ce65193,blind-346,NOT_MEASURED,Requires independent qualified language review
+hist-870a5c93a7477871,blind-347,NOT_MEASURED,Requires independent qualified language review
+hist-3321474913885de9,blind-348,NOT_MEASURED,Requires independent qualified language review
+hist-502341f972c342b9,blind-349,NOT_MEASURED,Requires independent qualified language review
+hist-d0418366cd05ce0a,blind-350,NOT_MEASURED,Requires independent qualified language review
+hist-756ccd7f4537ff5a,blind-351,NOT_MEASURED,Requires independent qualified language review
+hist-4b3d7fc39ce0dafc,blind-352,NOT_MEASURED,Requires independent English review
+hist-69f6f3121369a1ca,blind-353,NOT_MEASURED,Requires independent qualified language review
+hist-36728d03f4b87dd4,blind-354,NOT_MEASURED,Requires independent qualified language review
+hist-d9af420dbd534d83,blind-355,NOT_MEASURED,Requires independent English review
+hist-781775a4ab56397b,blind-356,NOT_MEASURED,Requires independent qualified language review
+hist-9342b186021415dd,blind-357,NOT_MEASURED,Requires independent qualified language review
+hist-da2923cc8285dce3,blind-358,NOT_MEASURED,Requires independent qualified language review
+hist-73dbdefdeb1f1654,blind-359,NOT_MEASURED,Requires independent English review
