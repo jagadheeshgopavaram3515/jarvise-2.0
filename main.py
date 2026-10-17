@@ -48,6 +48,12 @@ def run_gui(bus: Bus):
         bus.interrupt.set()
         bus.shutdown.set()
         store.flush(timeout=2.0)
+        if config.SHADOW_MODE_ENABLED:
+            try:
+                from assistant.orchestration.shadow_evaluator import shutdown_shadow_evaluator
+                shutdown_shadow_evaluator()
+            except Exception:
+                pass
         os._exit(0)  # daemon audio threads can hang process exit; force clean code
 
 
@@ -61,6 +67,12 @@ def run_console(bus: Bus):
         bus.shutdown.set()
     finally:
         store.flush(timeout=2.0)
+        if config.SHADOW_MODE_ENABLED:
+            try:
+                from assistant.orchestration.shadow_evaluator import shutdown_shadow_evaluator
+                shutdown_shadow_evaluator()
+            except Exception:
+                pass
 
 
 def warmup_local_model():

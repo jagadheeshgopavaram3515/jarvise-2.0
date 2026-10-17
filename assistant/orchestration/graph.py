@@ -15,6 +15,7 @@ from typing import Any, Dict, Iterator, Optional, Tuple
 
 from langgraph.graph import END, START, StateGraph
 
+from assistant import config
 from assistant.core.log import get
 from assistant.llm.gemini import GeminiClient
 from assistant.llm.ollama import OllamaClient
@@ -273,7 +274,43 @@ def build_routing_graph(classifier: QwenClassifier, agent_graph: Any = None):
 
     def classify_node(state: OrchestratorState) -> dict:
         text = state.get("user_text", "")
-        route, latency_ms = classifier.classify(text)
+        prod_details = None
+        route = "GEMINI"
+        latency_ms = 0.0
+
+        from assistant.orchestration.router import ProductionClassificationDetails
+
+        if hasattr(classifier, "classify_detailed") and callable(getattr(classifier, "classify_detailed")):
+            try:
+                res_detailed = classifier.classify_detailed(text)
+                if isinstance(res_detailed, ProductionClassificationDetails):
+                    prod_details = res_detailed
+                    route = str(prod_details.final_route)
+                    latency_ms = float(prod_details.total_latency_ms)
+                elif isinstance(res_detailed, tuple) and len(res_detailed) >= 2:
+                    route, latency_ms = str(res_detailed[0]), float(res_detailed[1])
+                else:
+                    route, latency_ms = classifier.classify(text)
+            except Exception:
+                route, latency_ms = classifier.classify(text)
+        else:
+            route, latency_ms = classifier.classify(text)
+
+        if config.SHADOW_MODE_ENABLED:
+            try:
+                from assistant.orchestration.shadow_evaluator import get_shadow_evaluator
+                evaluator = get_shadow_evaluator()
+                if evaluator and evaluator.is_active:
+                    evaluator.record_production_observation(
+                        user_text=text,
+                        production_route=route,
+                        production_latency_ms=latency_ms,
+                        context=state.get("context") or {},
+                        request_id=state.get("request_id"),
+                        production_details=prod_details,
+                    )
+            except Exception as e:
+                log.debug("[SHADOW] observation hook error: %s", e)
         return {"route": route, "error": None}
 
     def local_node(state: OrchestratorState) -> dict:

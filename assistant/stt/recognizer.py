@@ -25,6 +25,21 @@ log = get("stt")
 _SUPPORTED_LANGS = {"en", "hi", "te", "ta"}
 _SUPPORTED_TEXT = re.compile(r"[A-Za-z\u0900-\u097F\u0C00-\u0C7F\u0B80-\u0BFF]")
 
+
+def _is_noise_transcript(text: str) -> bool:
+    """Reject non-speech artifacts; preserve spoken sentences containing times.
+
+    Bare numbers are rejected; speak them with context, e.g. 'code 0001'.
+    Unicode isalpha keeps spoken words in all supported languages.
+    """
+    text = (text or "").strip()
+    return (
+        len(text) < 2
+        or bool(re.fullmatch(r"\d{1,2}:\d{2}", text))
+        or bool(re.match(r"^[\[\(\<].*[\]\)\>]$", text))
+        or sum(ch.isalpha() for ch in text) < 2
+    )
+
 # ----------------------------------------------------------------- VAD prefilter
 # Fix 3: a cheap speech check BEFORE whisper, so silence/noise never costs a
 # multi-second decode. Uses Silero VAD if installed; otherwise an RMS energy
@@ -490,17 +505,24 @@ class STTService(threading.Thread):
         samples = np.asarray(audio, dtype=np.float32) if audio is not None else np.array([])
         rms = float(np.sqrt(np.mean(samples ** 2))) if samples.size else 0.0
         peak = float(np.max(np.abs(samples))) if samples.size else 0.0
-        # Observe silence dilution without trimming audio or changing admission.
-        # Frame energy is not a speech classifier: loud noise can also exceed it.
+        # Capture includes pre-roll and endpoint silence. Keep all those samples
+        # for Gemini, but don't let that padding hide sustained audible speech.
+        # This remains an energy gate, not a replacement for capture VAD.
         frame_size = max(1, config.STT_SAMPLE_RATE * config.VAD_FRAME_MS // 1000)
         frames = [samples[start:start + frame_size]
                   for start in range(0, samples.size, frame_size)]
         frame_rms = [float(np.sqrt(np.mean(frame ** 2))) for frame in frames]
+        active_ms = (sum(frame.size for frame, value in zip(frames, frame_rms)
+                         if value > config.STT_PREFILTER_RMS)
+                     * 1000 / config.STT_SAMPLE_RATE)
+        if active_ms >= 180.0:
+            log.info("STT_PREFILTER utterance_id=%s accepted=true reason=speech_with_padding "
+                     "rms=%.6f above_threshold_ms=%.1f threshold=%.6f",
+                     utt.utterance_id, rms, active_ms, config.STT_PREFILTER_RMS)
+            return True
         self._diagnostic(utt, "no_speech", rms=round(rms, 6), peak=round(peak, 6),
                          max_frame_rms=round(max(frame_rms, default=0.0), 6),
-                         above_threshold_ms=round(sum(frame.size for frame, value in zip(frames, frame_rms)
-                                                      if value > config.STT_PREFILTER_RMS)
-                                                  * 1000 / config.STT_SAMPLE_RATE, 1),
+                         above_threshold_ms=round(active_ms, 1),
                          threshold=config.STT_PREFILTER_RMS,
                          audio_ms=round(samples.size * 1000 / config.STT_SAMPLE_RATE, 1),
                          filter_reason="empty" if not samples.size else "rms_below_threshold")
@@ -585,6 +607,9 @@ class STTService(threading.Thread):
                 self._diagnostic(utt, "cancelled", elapsed=dt)
                 return
             text = text.strip()
+            if not self._is_usable_transcript(text):
+                self._diagnostic(utt, "noise_transcript", elapsed=dt)
+                return
             lang = _lang_from_script(text)
             self.bus.post_gui("subtitle", text, role="user")
             self._post_transcript(utt, text, lang, 1.0)
@@ -604,8 +629,7 @@ class STTService(threading.Thread):
 
     @staticmethod
     def _is_usable_transcript(text, lang=None, lang_prob=1.0):
-        # Compatibility helper: don't reject short commands or other languages.
-        return bool(text and text.strip())
+        return not _is_noise_transcript(text)
 
     def transcribe_blocking(self, audio):
         """Compatibility API: return (text, language), or ("", None)."""
@@ -613,4 +637,6 @@ class STTService(threading.Thread):
         if self._cloud is None:
             return "", None
         text = self._cloud.transcribe(audio)
+        if not self._is_usable_transcript(text):
+            return "", None
         return (text, _lang_from_script(text)) if text else ("", None)

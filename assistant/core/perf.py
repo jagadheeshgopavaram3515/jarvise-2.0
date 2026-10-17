@@ -73,6 +73,19 @@ class Perf:
 
 
 class PerfTracker:
+    def snapshot(self) -> dict:
+        """Read-only dashboard metrics, excluding stored conversation content."""
+        with self._lock:
+            window = self._records[-10:]
+            keys = ("stt", "gemini", "tts_synth", "total")
+            return {
+                "count": len(self._records),
+                "window": len(window),
+                "latest": dict(window[-1]) if window else None,
+                "averages": {key: round(sum(r.get(key, 0.0) for r in window) / len(window), 3)
+                             if window else None for key in keys},
+            }
+
     def __init__(self, path: str = _LOG_PATH):
         self.path = path
         self._lock = threading.Lock()

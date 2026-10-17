@@ -96,6 +96,43 @@ CLASSIFIER_SYSTEM_PROMPT = (
 )
 
 
+from dataclasses import dataclass
+from typing import Any, Mapping, Sequence, Tuple
+
+
+@dataclass(frozen=True)
+class ProductionClassificationDetails:
+    """Detailed attribution of production classification decision."""
+    final_route: str
+    total_latency_ms: float
+    decision_component: str       # "deterministic_fast_path" | "qwen_ollama" | "qwen_fallback"
+    fast_path_handled: bool
+    qwen_invoked: bool
+    qwen_raw_route: str | None = None
+    fallback_used: bool = False
+    fallback_reason: str | None = None
+    preparation_ms: float = 0.0
+    http_read_ms: float = 0.0
+    parsing_ms: float = 0.0
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "final_route": self.final_route,
+            "total_latency_ms": round(self.total_latency_ms, 2),
+            "decision_component": self.decision_component,
+            "fast_path_handled": self.fast_path_handled,
+            "qwen_invoked": self.qwen_invoked,
+            "qwen_raw_route": self.qwen_raw_route,
+            "fallback_used": self.fallback_used,
+            "fallback_reason": self.fallback_reason,
+            "timing_breakdown_ms": {
+                "preparation_ms": round(self.preparation_ms, 2),
+                "http_read_ms": round(self.http_read_ms, 2),
+                "parsing_ms": round(self.parsing_ms, 2),
+            },
+        }
+
+
 class QwenClassifier:
     """Lightweight classifier invoking local Ollama Qwen with strict token limits."""
 
@@ -109,16 +146,10 @@ class QwenClassifier:
         self.model = model or config.CLASSIFIER_MODEL
         self.timeout_s = float(timeout_s or config.CLASSIFIER_TIMEOUT_S)
         self.keep_alive = config.OLLAMA_KEEP_ALIVE
+        self.last_details: ProductionClassificationDetails | None = None
 
-    def classify(self, user_text: str) -> Tuple[str, float]:
-        """Classify user_text into 'TASK', 'LOCAL', or 'GEMINI'.
-
-        Fast-path evaluation runs first in < 0.5ms. If unambiguous, it bypasses
-        Ollama. If ambiguous or complex, it falls back to local Qwen.
-
-        Returns:
-            (route, latency_ms): Selected route ('TASK', 'LOCAL', or 'GEMINI') and execution time in ms.
-        """
+    def classify_detailed(self, user_text: str) -> ProductionClassificationDetails:
+        """Classify user_text with fine-grained production component attribution."""
         t0 = time.perf_counter()
 
         # 1. Fast deterministic route
@@ -126,7 +157,15 @@ class QwenClassifier:
         if fast is not None:
             elapsed_ms = (time.perf_counter() - t0) * 1000.0
             log.info("[ROUTER] Fast-path route=%s total_ms=%.2f ollama_called=false", fast, elapsed_ms)
-            return fast, elapsed_ms
+            details = ProductionClassificationDetails(
+                final_route=fast,
+                total_latency_ms=elapsed_ms,
+                decision_component="deterministic_fast_path",
+                fast_path_handled=True,
+                qwen_invoked=False,
+            )
+            self.last_details = details
+            return details
 
         # 2. Semantic agent / Qwen route via local Ollama
         preparation_started = time.perf_counter()
@@ -185,7 +224,20 @@ class QwenClassifier:
                 "http_read_ms=%.1f parsing_ms=%.1f ollama_called=true",
                 route, elapsed_ms, preparation_ms, http_ms, parsing_ms,
             )
-            return route, elapsed_ms
+            details = ProductionClassificationDetails(
+                final_route=route,
+                total_latency_ms=elapsed_ms,
+                decision_component="qwen_ollama",
+                fast_path_handled=False,
+                qwen_invoked=True,
+                qwen_raw_route=raw_route,
+                fallback_used=False,
+                preparation_ms=preparation_ms,
+                http_read_ms=http_ms,
+                parsing_ms=parsing_ms,
+            )
+            self.last_details = details
+            return details
 
         except urllib.error.URLError as e:
             elapsed_ms = (time.perf_counter() - t0) * 1000.0
@@ -195,7 +247,18 @@ class QwenClassifier:
                 "fallback=GEMINI",
                 category, elapsed_ms, preparation_ms,
             )
-            return "GEMINI", elapsed_ms
+            details = ProductionClassificationDetails(
+                final_route="GEMINI",
+                total_latency_ms=elapsed_ms,
+                decision_component="qwen_fallback",
+                fast_path_handled=False,
+                qwen_invoked=True,
+                fallback_used=True,
+                fallback_reason=category,
+                preparation_ms=preparation_ms,
+            )
+            self.last_details = details
+            return details
 
         except Exception as e:
             elapsed_ms = (time.perf_counter() - t0) * 1000.0
@@ -205,5 +268,28 @@ class QwenClassifier:
                 "fallback=GEMINI",
                 category, elapsed_ms, preparation_ms,
             )
-            return "GEMINI", elapsed_ms
+            details = ProductionClassificationDetails(
+                final_route="GEMINI",
+                total_latency_ms=elapsed_ms,
+                decision_component="qwen_fallback",
+                fast_path_handled=False,
+                qwen_invoked=True,
+                fallback_used=True,
+                fallback_reason=category,
+                preparation_ms=preparation_ms,
+            )
+            self.last_details = details
+            return details
+
+    def classify(self, user_text: str) -> Tuple[str, float]:
+        """Classify user_text into 'TASK', 'LOCAL', or 'GEMINI'.
+
+        Fast-path evaluation runs first in < 0.5ms. If unambiguous, it bypasses
+        Ollama. If ambiguous or complex, it falls back to local Qwen.
+
+        Returns:
+            (route, latency_ms): Selected route ('TASK', 'LOCAL', or 'GEMINI') and execution time in ms.
+        """
+        details = self.classify_detailed(user_text)
+        return details.final_route, details.total_latency_ms
 

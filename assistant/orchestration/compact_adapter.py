@@ -54,6 +54,20 @@ def serialize_capability_pair(request: DecisionRequest, capability: Any) -> str:
     )
 
 
+def resolve_local_model_path(model_id: str) -> str:
+    """Resolve model_id to local filesystem path if cached, bypassing remote check."""
+    if os.path.isdir(model_id):
+        return model_id
+    repo_folder = "models--" + model_id.replace("/", "--")
+    hub_cache = Path(os.environ.get("HF_HOME") or Path.home() / ".cache" / "huggingface" / "hub")
+    snapshots_dir = hub_cache / repo_folder / "snapshots"
+    if snapshots_dir.is_dir():
+        snaps = [p for p in snapshots_dir.iterdir() if p.is_dir()]
+        if snaps:
+            return str(snaps[0])
+    return model_id
+
+
 class FrozenMultilingualEncoder:
     """Local-files-only Hugging Face encoder with mean pooling."""
 
@@ -67,8 +81,9 @@ class FrozenMultilingualEncoder:
         self.torch = torch
         self.model_id = model_id
         self.max_length = int(max_length)
-        self.tokenizer = AutoTokenizer.from_pretrained(model_id, local_files_only=True)
-        self.model = AutoModel.from_pretrained(model_id, local_files_only=True)
+        resolved_path = resolve_local_model_path(model_id)
+        self.tokenizer = AutoTokenizer.from_pretrained(resolved_path, local_files_only=True)
+        self.model = AutoModel.from_pretrained(resolved_path, local_files_only=True)
         self.model.eval()
         self.load_ms = (time.perf_counter_ns() - started) / 1_000_000.0
         self.forward_calls = 0

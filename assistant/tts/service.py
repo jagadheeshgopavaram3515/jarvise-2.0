@@ -109,13 +109,15 @@ class TTSService(threading.Thread):
             except queue.Empty:
                 pass
 
-            self.bus.post_gui("subtitle", current.text, role="assistant")
+            self.bus.post_gui("subtitle", current.text, role="assistant",
+                              speech_id=current.speech_id, turn_id=cur)
 
             log.info("speak turn=%s: %r", cur, current.text[:80])
             if config.FLAGS.demo_mode:
                 print(f"\n[JARVIS]: {current.text}\n")
             else:
-                self._speak_measured(current.text, current.perf, current_audio, current_synth)
+                self._speak_measured(current.text, current.perf, current_audio, current_synth,
+                                     speech_id=current.speech_id, turn_id=cur)
 
             if next_item is None:
                 return
@@ -135,11 +137,30 @@ class TTSService(threading.Thread):
             else:
                 current_audio, current_synth = None, 0.0
 
-    def _speak_measured(self, text: str, perf, audio=None, synth_dt: float = 0.0):
+    def _speak_measured(self, text: str, perf, audio=None, synth_dt: float = 0.0,
+                        *, speech_id: str = "", turn_id: str = ""):
         """Synthesize+play, capturing TTS synth/start and total latency."""
+        text = text.replace("*", "").strip()
         play_begin = {}
+        word_cursor = {"end": 0}
+
+        def on_progress(elapsed, level):
+            if self.bus.interrupt.is_set() or (turn_id and self.bus.current_turn_id != turn_id):
+                return
+            self.bus.state.audio_state.output_level = level
+            end = word_cursor["end"]
+            for offset, boundary_end in getattr(audio, "boundaries", ()):
+                if offset <= elapsed:
+                    end = max(end, boundary_end)
+                else:
+                    break
+            if end > word_cursor["end"]:
+                word_cursor["end"] = end
+                self.bus.post_gui("speech_progress", text[:end], speech_id=speech_id, turn_id=turn_id)
 
         def on_play_start():
+            if not play_begin:
+                self.bus.post_gui("speech_start", text, speech_id=speech_id, turn_id=turn_id)
             t = play_begin.setdefault("t", time.perf_counter())
             self.bus.state.audio_state.set_during_speech(True)
             log.info("audio_state during_speech=True")
@@ -149,6 +170,7 @@ class TTSService(threading.Thread):
 
         t_synth_start = perf.tts_synth_start if perf is not None and getattr(perf, "tts_synth_start", 0.0) else time.perf_counter()
         try:
+            self.engine.progress_sink = on_progress
             if audio is not None and hasattr(self.engine, "play_synthesized"):
                 self.engine.play_synthesized(audio, self.bus.interrupt,
                                              on_play_start=on_play_start)
@@ -166,7 +188,12 @@ class TTSService(threading.Thread):
             log.exception("TTS error")
             self.bus.post_gui("notification", f"TTS error: {e}")
         finally:
+            self.engine.progress_sink = None
+            self.bus.state.audio_state.output_level = 0.0
             self.bus.state.audio_state.set_during_speech(False)
+            kind = ("speech_interrupted" if self.bus.interrupt.is_set() or self.bus.current_turn_id != turn_id
+                    else "speech_end" if play_begin else "speech_failed")
+            self.bus.post_gui(kind, text, speech_id=speech_id, turn_id=turn_id)
             log.info("audio_state during_speech=False")
 
         if perf is not None and not perf.committed:

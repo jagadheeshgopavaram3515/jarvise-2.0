@@ -36,7 +36,7 @@ def utterance(**kwargs):
                      utterance_id=kwargs.pop("utterance_id", "final-1"), **kwargs)
 
 
-@pytest.mark.parametrize("text", ["stop", "a", "7", "打开", "నువ్వు ఎలా ఉన్నావు", "तुम कैसे हो", "வணக்கம்"])
+@pytest.mark.parametrize("text", ["stop", "打开", "నువ్వు ఎలా ఉన్నావు", "तुम कैसे हो", "வணக்கம்"])
 def test_every_valid_final_uses_gemini_and_preserves_contract(service, text):
     service._cloud.transcribe.return_value = text
     perf = Perf(t_start=time.perf_counter())
@@ -49,6 +49,25 @@ def test_every_valid_final_uses_gemini_and_preserves_contract(service, text):
     assert tr.language == _lang_from_script(text)
     service._cloud.transcribe.assert_called_once_with(utt.audio, utterance_id="final-1")
     recognizer.FasterWhisperSTT.assert_not_called()
+
+
+@pytest.mark.parametrize("text", ["", "a", "7", "00", "0:00", "00:00", "00:01", "000", "0000", "0001", "0000 0001", "0 0 0 1", '"0000."', "[music]", "(silence)", "<noise>", "...", "1000", "2026"])
+def test_zero_sequence_noise_never_reaches_commands_or_subtitles(service, text):
+    service._cloud.transcribe.return_value = text
+    service.bus.post_gui = Mock()
+    service._transcribe_and_emit(utterance())
+    assert service.bus.transcript_q.empty()
+    service.bus.post_gui.assert_not_called()
+    category = "noise_transcript" if text else "no_result"
+    assert service.diagnostic_counts[category] == 1
+    assert service.transcribe_blocking(utterance().audio) == ("", None)
+
+
+@pytest.mark.parametrize("text", ["no", "stop", "code 0001", "set timer for 10 minutes", "the year 2026", "\u0c28\u0c2e\u0c38\u0c4d\u0c15\u0c3e\u0c30\u0c02", "\u0928\u092e\u0938\u094d\u0924\u0947"])
+def test_real_numbers_and_codes_with_context_are_preserved(service, text):
+    service._cloud.transcribe.return_value = text
+    service._transcribe_and_emit(utterance())
+    assert service.bus.transcript_q.get_nowait().text == text
 
 
 def test_no_whisper_initialization_even_when_old_config_requests_local(service, monkeypatch):

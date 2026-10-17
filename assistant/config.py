@@ -56,6 +56,16 @@ LLM_ROUTING_ENABLED = _get("LLM_ROUTING_ENABLED", "true").lower() == "true"
 CLASSIFIER_TIMEOUT_S = float(_get("CLASSIFIER_TIMEOUT_S", "5.0"))
 CLASSIFIER_MODEL = _get("CLASSIFIER_MODEL", OLLAMA_MODEL)
 
+# V8 BERT Shadow Evaluation (Opt-in only, default OFF)
+SHADOW_MODE_ENABLED = _get("SHADOW_MODE_ENABLED", "false").lower() == "true"
+SHADOW_MODE_DIR = _get("SHADOW_MODE_DIR", "reports/jarvis_bert_shadow_audit_20261017_125000")
+SHADOW_QUEUE_MAX_SIZE = int(_get("SHADOW_QUEUE_MAX_SIZE", "50"))
+SHADOW_INFERENCE_TIMEOUT_S = float(_get("SHADOW_INFERENCE_TIMEOUT_S", "5.0"))
+SHADOW_MAX_WORKERS = int(_get("SHADOW_MAX_WORKERS", "1"))
+SHADOW_SAMPLE_RATE = float(_get("SHADOW_SAMPLE_RATE", "1.0"))
+SHADOW_PERSIST_RAW_TEXT = _get("SHADOW_PERSIST_RAW_TEXT", "false").lower() == "true"
+SHADOW_METRICS_INTERVAL_S = float(_get("SHADOW_METRICS_INTERVAL_S", "30.0"))
+
 # ---------------------------------------------------------------- STT
 # faster-whisper model: tiny / base / small / medium / large-v3
 STT_MODEL_SIZE = _get("STT_MODEL_SIZE", "small")
@@ -159,7 +169,7 @@ TTS_BACKEND = _get("TTS_BACKEND", "edge")
 PIPER_MODEL_PATH = _get("PIPER_MODEL_PATH", "")
 # Per-language Edge-TTS voices. Romanised/code-switched text falls back to EN.
 VOICE_MAP = {
-    "en": _get("TTS_VOICE_EN", "en-GB-ThomasNeural"),   # softer British (Edge fallback)
+    "en": _get("TTS_VOICE_EN", "en-GB-RyanNeural"),   # original British English voice
     "hi": _get("TTS_VOICE_HI", "hi-IN-MadhurNeural"),
     "te": _get("TTS_VOICE_TE", "te-IN-MohanNeural"),
     "ta": _get("TTS_VOICE_TA", "ta-IN-PallaviNeural"),  # Tamil (user speaks ta too)

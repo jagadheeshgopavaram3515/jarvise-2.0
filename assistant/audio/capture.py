@@ -74,6 +74,9 @@ class AudioInputService(threading.Thread):
             log.warning("AudioInput disabled (demo_mode=%s, sounddevice=%s)",
                         config.FLAGS.demo_mode, _HAS_SD)
             return  # In demo mode the GUI/console drives input instead.
+        log.info("AUDIO_CAPTURE vad=%s sample_rate=%s semantic_endpointing=%s silence_ms=%s max_silence_ms=%s",
+                 "webrtc" if _HAS_WEBRTC else "energy_fallback", self.sample_rate,
+                 config.SEMANTIC_ENDPOINTING, config.VAD_SILENCE_MS, config.VAD_SILENCE_MAX_MS)
         # Self-healing capture: if the mic stream or the segment loop dies (a USB
         # mic unplugged, a PortAudio glitch), log it and re-open the stream after
         # a short back-off instead of letting the thread terminate. This keeps
@@ -139,6 +142,8 @@ class AudioInputService(threading.Thread):
             if not config.FULL_DUPLEX:
                 speaking_now = self.bus.state.speaking
                 if speaking_now:
+                    self.bus.state.audio_state.mic_level = 0.0
+                    self.bus.state.audio_state.user_speaking = False
                     was_speaking = True
                     if triggered or voiced:
                         voiced, triggered, silence_run = [], False, 0
@@ -161,6 +166,10 @@ class AudioInputService(threading.Thread):
                 assistant_speaking=audio_playing,
             )
             speech = self.vad.is_speech(frame)
+            samples = np.frombuffer(frame, dtype=np.int16).astype(np.float32)
+            level = float(np.sqrt(np.mean(samples ** 2))) / 32768.0
+            self.bus.state.audio_state.mic_level = min(1.0, level * 12) if speech else 0.0
+            self.bus.state.audio_state.user_speaking = speech
             frames_seen += 1
             speech_seen += 1 if speech else 0
             if frames_seen % heartbeat == 0:

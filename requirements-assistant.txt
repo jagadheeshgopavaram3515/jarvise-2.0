@@ -12,7 +12,8 @@ faster-whisper>=1.0.0
 
 # --- Audio I/O + VAD ---
 sounddevice>=0.4.6
-webrtcvad>=2.0.10
+webrtcvad>=2.0.10; platform_system != "Windows"
+webrtcvad-wheels>=2.0.14; platform_system == "Windows"
 miniaudio>=1.59          # in-memory MP3 decode for streaming TTS
 # Optional: used automatically for stronger software AEC when available.
 webrtc-audio-processing>=0.1.3; platform_system != "Windows"
@@ -20,7 +21,7 @@ numpy>=1.24
 faiss-cpu>=1.7.4
 
 # --- TTS ---
-edge-tts>=6.1.0
+edge-tts>=7.3.1
 pygame>=2.5.0            # fallback playback path
 
 # --- Realtime info / commands ---

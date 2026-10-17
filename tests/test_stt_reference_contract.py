@@ -77,6 +77,34 @@ def test_rejection_diagnostics_expose_padding_without_changing_gate(monkeypatch,
         service._final_executor.shutdown(wait=True)
 
 
+def test_padded_quiet_reminder_reaches_handler_without_trimming_audio(monkeypatch):
+    from assistant.core.dispatcher import Dispatcher
+    from assistant.memory import store
+    monkeypatch.setattr(config, 'STT_VAD_PREFILTER', True)
+    monkeypatch.setattr(config, 'STT_PREFILTER_RMS', .005)
+    monkeypatch.setattr(store, 'remember_mood', Mock())
+    bus = Bus()
+    service = STTService(bus)
+    service._cloud = Mock(in_flight=False)
+    service._cloud.transcribe.return_value = 'remind me drink water at 10:45 PM'
+    # Matches the reported failure: audible words diluted by capture padding.
+    audio = np.concatenate([np.zeros(8000), np.full(5760, .01), np.zeros(18880)]).astype(np.float32)
+    before = audio.copy()
+    assert float(np.sqrt(np.mean(audio ** 2))) < config.STT_PREFILTER_RMS
+    try:
+        service._transcribe_and_emit(Utterance(audio=audio, utterance_id='padded-reminder'))
+        service._cloud.transcribe.assert_called_once_with(audio, utterance_id='padded-reminder')
+        np.testing.assert_array_equal(audio, before)
+        reminders = Mock()
+        dispatcher = Dispatcher(bus, reminders)
+        dispatcher._route(bus.transcript_q.get_nowait())
+        reminders.add.assert_called_once()
+        assert reminders.add.call_args.args[0] == 'drink water'
+        assert bus.tts_q.get_nowait().text.startswith('Okay, reminder set')
+    finally:
+        service._final_executor.shutdown(wait=True)
+
+
 def test_conversation_reaches_existing_dispatcher_orchestrator(monkeypatch):
     from assistant.core.dispatcher import Dispatcher
     from assistant.commands import handlers

@@ -40,3 +40,9 @@ desktop.ini
 tmp/
 *.tmp
 python
+
+# Web interface
+node_modules/
+.next/
+out/
+*.tsbuildinfo

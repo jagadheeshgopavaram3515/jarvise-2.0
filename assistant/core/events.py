@@ -72,6 +72,7 @@ class SpeechItem:
     perf: object = None              # perf.Perf to finalize when this audio starts
     turn_id: str = ""                # which interaction this belongs to
     is_end: bool = False             # END(turn_id) sentinel
+    speech_id: str = ""             # UI correlation; never used for routing
 
 
 @dataclass
@@ -79,6 +80,8 @@ class GuiEvent:
     kind: str                    # "status" | "subtitle" | "notification" | "mode"
     text: str = ""
     role: str = "assistant"      # for subtitle
+    speech_id: str = ""
+    turn_id: str = ""
 
 
 class AppState:
@@ -116,6 +119,9 @@ class AudioState:
 
     def __init__(self):
         self._during_speech = threading.Event()
+        self.mic_level = 0.0
+        self.output_level = 0.0
+        self.user_speaking = False
 
     @property
     def during_speech(self) -> bool:
@@ -166,9 +172,9 @@ class Bus:
     _speaker_ref_lock: threading.Lock = field(default_factory=threading.Lock)
 
     # ---- convenience helpers -------------------------------------------
-    def post_gui(self, kind: str, text: str = "", role: str = "assistant"):
+    def post_gui(self, kind: str, text: str = "", role: str = "assistant", *, speech_id: str = "", turn_id: str = ""):
         try:
-            self.gui_q.put_nowait(GuiEvent(kind, text, role))
+            self.gui_q.put_nowait(GuiEvent(kind, text, role, speech_id, turn_id))
         except queue.Full:
             pass
 
@@ -228,7 +234,9 @@ class Bus:
         turn_id = self.current_turn_id or ""
         if turn_id:
             _turnlog.info("[SENTENCE] %s %r", turn_id, text.strip()[:50])
-        self.tts_q.put(SpeechItem(text.strip(), perf, turn_id=turn_id))
+        speech_id = uuid.uuid4().hex[:12]
+        self.post_gui("response", text.strip(), speech_id=speech_id, turn_id=turn_id)
+        self.tts_q.put(SpeechItem(text.strip(), perf, turn_id=turn_id, speech_id=speech_id))
 
     def say(self, text: str):
         """One-shot system speech (greeting, reminder, wake-up) as its own
@@ -246,6 +254,7 @@ class Bus:
         TTS drops them automatically once current_turn_id has moved on.
         """
         old = self.current_turn_id
+        self.post_gui("speech_interrupted", turn_id=old or "")
         with self._interrupt_epoch_lock:
             self.interrupt_epoch += 1
         _turnlog.info("[BARGE-IN] %s", old)

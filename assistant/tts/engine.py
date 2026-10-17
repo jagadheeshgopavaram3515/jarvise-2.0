@@ -21,6 +21,7 @@ import os
 import threading
 import time
 import wave
+import html
 
 try:
     import edge_tts
@@ -88,6 +89,14 @@ def style_for(voice: str, emotion: str) -> tuple[str, str]:
     return voice_style_for_emotion(emotion)
 
 
+class TimedAudio(bytes):
+    """MP3 bytes carrying Edge's word boundaries through the prefetch queue."""
+    def __new__(cls, data, boundaries=()):
+        obj = super().__new__(cls, data)
+        obj.boundaries = tuple(boundaries)
+        return obj
+
+
 class EdgeStreamingTTS:
     def __init__(self):
         self._loop = asyncio.new_event_loop()
@@ -96,6 +105,7 @@ class EdgeStreamingTTS:
         # FIX G: optional sink (set by TTSService to bus.push_speaker_ref) that
         # receives every PCM block we play, so AEC has a far-end echo reference.
         self.ref_sink = None
+        self.progress_sink = None
 
     # ---- public API ----------------------------------------------------
     def synthesize_bytes(self, text: str, voice: str, emotion: str = "curious") -> bytes:
@@ -107,12 +117,24 @@ class EdgeStreamingTTS:
 
     async def _collect(self, text: str, voice: str, emotion: str) -> bytes:
         buf = io.BytesIO()
+        boundaries = []
+        cursor = 0
         rate, pitch = style_for(voice, emotion)   # per-language tone (Telugu calmer/deeper)
-        communicate = edge_tts.Communicate(text, voice, rate=rate, pitch=pitch)
+        communicate = edge_tts.Communicate(text, voice, rate=rate, pitch=pitch, boundary="WordBoundary")
         async for chunk in communicate.stream():
             if chunk["type"] == "audio":
                 buf.write(chunk["data"])
-        return buf.getvalue()
+            elif chunk["type"] == "WordBoundary":
+                word = html.unescape(chunk.get("text", ""))
+                position = text.find(word, cursor)
+                if position >= 0 and word:
+                    cursor = position + len(word)
+                    # Reveal punctuation and spaces immediately after this word.
+                    end = cursor
+                    while end < len(text) and not text[end].isalnum():
+                        end += 1
+                    boundaries.append((chunk["offset"] / 10_000_000, end))
+        return TimedAudio(buf.getvalue(), boundaries)
 
     async def _collect_raw(self, text: str, voice: str, rate: str, pitch: str) -> bytes:
         buf = io.BytesIO()
@@ -239,6 +261,9 @@ class EdgeStreamingTTS:
                     end = min(idx + step, total)
                     block = samples[idx:end]
                     stream.write(block)
+                    if self.progress_sink is not None:
+                        level = float(np.sqrt(np.mean(block.astype(np.float32) ** 2))) / 32768.0
+                        self.progress_sink(end / decoded.sample_rate, min(1.0, level * 5))
                     # FIX G: feed the played PCM to the echo-reference buffer.
                     if self.ref_sink is not None:
                         try:
@@ -255,10 +280,13 @@ class EdgeStreamingTTS:
             pygame.mixer.init()
         try:
             sound = pygame.mixer.Sound(io.BytesIO(mp3))
+            started = time.monotonic()
             channel = sound.play()
             if on_play_start:
                 on_play_start()
             while channel and channel.get_busy():
+                if self.progress_sink is not None:
+                    self.progress_sink(time.monotonic() - started, 0.25)
                 if interrupt.is_set():
                     channel.stop()
                     break
